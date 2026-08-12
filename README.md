@@ -36,9 +36,7 @@ Create a GitHub repository, push this folder to its `main` branch, then enable *
 
 ## Content model
 
-The production bank contains 2,000 explicit question objects: 640 A1, 160 A2, 800 B and 400 C records, with 100 distinct C passages. The records are split into reviewable batches under [`src/data/authored`](src/data/authored), and [`src/data/questionBank.ts`](src/data/questionBank.ts) imports that bank directly; no questions are generated at runtime. The source audit is documented in [`research/sai-performance-analyst-sources.md`](research/sai-performance-analyst-sources.md), and the application includes a source catalog for official sources, guidelines, consensus papers, textbooks and research papers.
-
-The older [`src/data/facts.ts`](src/data/facts.ts) seed data is retained only as historical material and is not part of the production bank.
+The production bank contains 2,000 explicit question objects: 640 A1, 160 A2, 800 B and 400 C records, with 100 distinct C passages. The records are split into reviewable batches under [`src/data/authored`](src/data/authored), and [`src/data/questionBank.ts`](src/data/questionBank.ts) imports that bank directly; no questions are generated at runtime. The authored answer key is exactly balanced across the four option positions within every section, while the test continues to shuffle displayed options.
 
 The app has no backend or login. The active attempt and latest result are stored in versioned browser storage. Starting a new test clears the previous attempt and latest result after confirmation.
 

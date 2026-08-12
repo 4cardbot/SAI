@@ -42,7 +42,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .info-card, .action-card, .section-results, .review-item, .empty-card, .error-card { background: white; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 4px 14px rgba(16, 42, 67, .035); }
 .info-card { padding: 18px; display: grid; gap: 8px; }
 .info-card strong { font-size: 1rem; }
-.info-card small, .muted, .home-footer, .source-text { color: var(--muted); }
+.info-card small, .muted, .home-footer { color: var(--muted); }
 .info-card small { line-height: 1.35; }
 .section-badge { display: inline-flex; width: max-content; min-width: 31px; height: 26px; padding: 0 8px; align-items: center; justify-content: center; border-radius: 8px; background: #e4e7eb; color: #334e68; font-weight: 800; font-size: .76rem; letter-spacing: .04em; }
 .section-badge.a1 { background: #d9f0f2; color: #176b7a; }
@@ -102,8 +102,6 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .feedback.negative { border-color: var(--red); background: #fff5f5; }
 .feedback.skipped { border-color: var(--orange); background: #fff8e7; }
 .feedback p { margin: 6px 0 0; }
-.source-link, .source-text { display: inline-block; margin-top: 8px; font-size: .8rem; }
-.source-link { color: var(--blue); font-weight: 650; }
 .next-row { justify-content: flex-end; margin-top: 22px; }
 .next-row .muted { font-size: .82rem; }
 

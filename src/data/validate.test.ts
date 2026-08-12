@@ -11,8 +11,8 @@ describe("question bank validation", () => {
     expect(result.passageCount).toBe(100);
   });
 
-  it("detects duplicate IDs, malformed options and missing metadata", () => {
-    const invalid = [{ ...QUESTION_BANK[0], id: QUESTION_BANK[1].id, options: ["one", "one", "three"], explanation: "", source: "" }, QUESTION_BANK[1]];
+  it("detects duplicate IDs, malformed options and missing explanations", () => {
+    const invalid = [{ ...QUESTION_BANK[0], id: QUESTION_BANK[1].id, options: ["one", "one", "three"], explanation: "" }, QUESTION_BANK[1]];
     const result = validateQuestionBank(invalid);
     expect(result.valid).toBe(false);
     expect(result.errors).toEqual(expect.arrayContaining([
@@ -20,7 +20,6 @@ describe("question bank validation", () => {
       `${QUESTION_BANK[1].id} must have exactly four options`,
       `${QUESTION_BANK[1].id} has duplicate options`,
       `${QUESTION_BANK[1].id} is missing an explanation`,
-      `${QUESTION_BANK[1].id} is missing a source`,
       "A1 has 2 questions; expected 640",
     ]));
   });

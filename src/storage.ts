@@ -1,7 +1,7 @@
 import { STORAGE_KEY } from "./constants";
 import type { ActiveAttempt, PersistedState, TestResult } from "./types";
 
-export const EMPTY_STATE: PersistedState = { version: 1, activeAttempt: null, latestResult: null, nextTestNumber: 1 };
+export const EMPTY_STATE: PersistedState = { version: 2, activeAttempt: null, latestResult: null, nextTestNumber: 1 };
 
 export function loadState(storage: Storage | undefined = typeof window === "undefined" ? undefined : window.localStorage): PersistedState {
   if (!storage) return { ...EMPTY_STATE };
@@ -9,9 +9,9 @@ export function loadState(storage: Storage | undefined = typeof window === "unde
     const raw = storage.getItem(STORAGE_KEY);
     if (!raw) return { ...EMPTY_STATE };
     const parsed = JSON.parse(raw) as Partial<PersistedState>;
-    if (parsed.version !== 1) return { ...EMPTY_STATE };
+    if (parsed.version !== 2) return { ...EMPTY_STATE };
     return {
-      version: 1,
+      version: 2,
       activeAttempt: parsed.activeAttempt ?? null,
       latestResult: parsed.latestResult ?? null,
       nextTestNumber: Math.max(1, parsed.nextTestNumber ?? 1),

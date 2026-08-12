@@ -1,7 +1,6 @@
 import { NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 import { hashSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
-import { resolveSourceUrl, sourceIdForLabel } from "./data/sourceCatalog";
 
 const SECTION_ORDER: Section[] = ["A1", "A2", "B", "C"];
 
@@ -46,7 +45,7 @@ export function createAttempt(testNumber: number, bank: Question[], now = new Da
     responses[questionId] = { status: "unanswered" };
   });
   return {
-    version: 1,
+    version: 2,
     testNumber,
     seed: hashSeed(`test:${testNumber}`),
     createdAt: now.toISOString(),
@@ -136,10 +135,6 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
       optionOrder: attempt.questions.find((item) => item.questionId === question.id)?.optionOrder ?? [0, 1, 2, 3],
       correct: question.correct,
       explanation: question.explanation,
-      source: question.source,
-      sourceUrl: resolveSourceUrl(question.sourceId, question.sourceUrl, question.source, question.sourceKind),
-      sourceId: question.sourceId ?? sourceIdForLabel(question.source, question.sourceKind),
-      sourceKind: question.sourceKind,
       passage: question.passage,
       passageId: question.passageId,
       status,
@@ -150,7 +145,7 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
   const wrongCount = items.filter((item) => item.status === "wrong").length;
   const skippedCount = items.filter((item) => item.status === "skipped").length;
   return {
-    version: 1,
+    version: 2,
     testNumber: attempt.testNumber,
     submittedAt: submittedAt.toISOString(),
     durationMs: TEST_DURATION_MS - attempt.remainingMs,

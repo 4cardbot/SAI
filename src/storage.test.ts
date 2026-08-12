@@ -14,17 +14,17 @@ class MemoryStorage implements Storage {
 describe("versioned browser persistence", () => {
   it("round-trips an active attempt and latest result", () => {
     const storage = new MemoryStorage();
-    const original = { version: 1 as const, activeAttempt: null, latestResult: null, nextTestNumber: 4 };
+    const original = { version: 2 as const, activeAttempt: null, latestResult: null, nextTestNumber: 4 };
     saveState(original, storage);
     expect(loadState(storage)).toEqual(original);
   });
 
   it("falls back safely on malformed storage and supports reset", () => {
     const storage = new MemoryStorage();
-    storage.setItem("sai-pa-mock:v1", "not json");
-    expect(loadState(storage)).toEqual({ version: 1, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
-    storage.setItem("sai-pa-mock:v1", JSON.stringify({ version: 1, nextTestNumber: 7 }));
-    expect(clearAll(storage)).toEqual({ version: 1, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
-    expect(storage.getItem("sai-pa-mock:v1")).toBeNull();
+    storage.setItem("sai-pa-mock:v2", "not json");
+    expect(loadState(storage)).toEqual({ version: 2, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
+    storage.setItem("sai-pa-mock:v2", JSON.stringify({ version: 2, nextTestNumber: 7 }));
+    expect(clearAll(storage)).toEqual({ version: 2, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
+    expect(storage.getItem("sai-pa-mock:v2")).toBeNull();
   });
 });
