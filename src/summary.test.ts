@@ -18,8 +18,8 @@ describe("downloadable result summary", () => {
     const result = scoreAttempt(attempt, QUESTION_BANK);
     const html = buildSummaryHtml(result);
     expect(html).toContain("Review items");
-    expect(html).toContain(secondQuestion.text);
-    expect(html).toContain(byId.get(third.questionId)!.text);
-    expect(html).not.toContain(firstQuestion.text);
+    expect(html).toContain(secondQuestion.text.replaceAll("'", "&#039;"));
+    expect(html).toContain(byId.get(third.questionId)!.text.replaceAll("'", "&#039;"));
+    expect(html).not.toContain(firstQuestion.text.replaceAll("'", "&#039;"));
   });
 });

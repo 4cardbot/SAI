@@ -1,6 +1,7 @@
 export type Section = "A1" | "A2" | "B" | "C";
 export type Difficulty = "foundational" | "applied" | "analytical";
 export type ResponseStatus = "unanswered" | "answered" | "skipped";
+export type SourceKind = "official" | "guideline" | "consensus" | "textbook" | "research" | "study-material";
 
 export interface Question {
   id: string;
@@ -14,6 +15,8 @@ export interface Question {
   explanation: string;
   source: string;
   sourceUrl?: string;
+  sourceId?: string;
+  sourceKind?: SourceKind;
   asOf?: string;
   passageId?: string;
   passage?: string;
@@ -53,6 +56,8 @@ export interface ResultItem {
   explanation: string;
   source: string;
   sourceUrl?: string;
+  sourceId?: string;
+  sourceKind?: SourceKind;
   passage?: string;
   passageId?: string;
   status: "correct" | "wrong" | "skipped";

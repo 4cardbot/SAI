@@ -1,6 +1,7 @@
 import { NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 import { hashSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
+import { resolveSourceUrl, sourceIdForLabel } from "./data/sourceCatalog";
 
 const SECTION_ORDER: Section[] = ["A1", "A2", "B", "C"];
 
@@ -136,7 +137,9 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
       correct: question.correct,
       explanation: question.explanation,
       source: question.source,
-      sourceUrl: question.sourceUrl,
+      sourceUrl: resolveSourceUrl(question.sourceId, question.sourceUrl, question.source, question.sourceKind),
+      sourceId: question.sourceId ?? sourceIdForLabel(question.source, question.sourceKind),
+      sourceKind: question.sourceKind,
       passage: question.passage,
       passageId: question.passageId,
       status,

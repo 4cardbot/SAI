@@ -4,6 +4,7 @@ import { completedCount, createAttempt, isComplete, moveNext, recordAnswer, reco
 import { loadState, saveState, clearAll } from "./storage";
 import { downloadSummary } from "./summary";
 import { QUESTION_BANK } from "./data/questionBank";
+import { resolveSourceUrl } from "./data/sourceCatalog";
 import { optionLabelForSourceIndex } from "./answerDisplay";
 import type { ActiveAttempt, Question, Response, Section, TestResult } from "./types";
 
@@ -77,6 +78,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
   const lastQuestion = attempt.currentIndex === attempt.questions.length - 1;
   const percent = Math.round((completed / attempt.questions.length) * 100);
   const timerWarning = attempt.remainingMs < 10 * 60 * 1000;
+  const sourceUrl = resolveSourceUrl(question.sourceId, question.sourceUrl, question.source, question.sourceKind);
   return <main className="test-shell">
     <div className="test-topbar"><div><p className="eyebrow">Test {String(attempt.testNumber).padStart(2, "0")}</p><h2>{SECTION_LABELS[question.section]}</h2></div><div className="test-controls"><div className={`timer ${timerWarning ? "warning" : ""}`} aria-live="polite"><span className="timer-dot" />{formatTime(attempt.remainingMs)}</div>{attempt.status === "running" ? <button className="secondary-button compact" onClick={onPause}>Pause</button> : <button className="primary-button compact" onClick={onResume}>Resume</button>}</div></div>
     <div className="progress-row"><div className="progress-track"><div className="progress-fill" style={{ width: `${percent}%` }} /></div><span>{completed}/100 completed</span></div>
@@ -91,7 +93,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
         return <button key={sourceIndex} className={`option-button ${optionClass}`} disabled={revealed || attempt.status === "paused"} onClick={() => onAnswer(sourceIndex)} role="radio" aria-checked={isSelected}><span className="option-label">{optionLabel(displayedIndex)}</span><span>{question.options[sourceIndex]}</span>{revealed && isCorrect && <span className="option-result">Correct</span>}{revealed && isSelected && !isCorrect && <span className="option-result">Your answer</span>}</button>;
       })}</div>
       {!revealed && <div className="question-actions"><button className="text-button" disabled={attempt.status === "paused"} onClick={onSkip}>Skip question</button><span className="muted">You cannot return to a previous question.</span></div>}
-      {revealed && <div className={`feedback ${response.status === "skipped" ? "skipped" : response.selected === question.correct ? "positive" : "negative"}`}><div><strong>{response.status === "skipped" ? "Skipped" : response.selected === question.correct ? "Correct" : "Incorrect"}</strong><p><strong>Correct answer:</strong> {optionLabelForSourceIndex(item.optionOrder, question.correct)}. {question.options[question.correct]}</p><p>{question.explanation}</p>{question.sourceUrl ? <a className="source-link" href={question.sourceUrl} target="_blank" rel="noreferrer">Source: {question.source}</a> : <span className="source-text">Source: {question.source}</span>}</div></div>}
+      {revealed && <div className={`feedback ${response.status === "skipped" ? "skipped" : response.selected === question.correct ? "positive" : "negative"}`}><div><strong>{response.status === "skipped" ? "Skipped" : response.selected === question.correct ? "Correct" : "Incorrect"}</strong><p><strong>Correct answer:</strong> {optionLabelForSourceIndex(item.optionOrder, question.correct)}. {question.options[question.correct]}</p><p>{question.explanation}</p>{sourceUrl ? <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">Source: {question.source}</a> : <span className="source-text">Source: {question.source}</span>}</div></div>}
       {revealed && <div className="next-row"><button className="primary-button" disabled={attempt.status === "paused"} onClick={lastQuestion && isComplete(attempt) ? onSubmit : onNext}>{lastQuestion && isComplete(attempt) ? "Submit test" : "Next question"}</button>{attempt.status === "paused" ? <span className="muted">Resume the timer to continue.</span> : lastQuestion && !isComplete(attempt) && <span className="muted">Complete the remaining questions before submitting.</span>}</div>}
     </section>
   </main>;
