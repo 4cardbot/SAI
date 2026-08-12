@@ -8,6 +8,15 @@ export function hashSeed(value: string | number): number {
   return hash >>> 0;
 }
 
+export function randomSeed(): number {
+  if (globalThis.crypto) {
+    const values = new Uint32Array(1);
+    globalThis.crypto.getRandomValues(values);
+    return values[0];
+  }
+  return hashSeed(`${Date.now()}:${Math.random()}`);
+}
+
 export function seededRandom(seed: number): () => number {
   let state = seed >>> 0;
   return () => {

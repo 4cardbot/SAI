@@ -1,16 +1,16 @@
 import { NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
-import { hashSeed, rotatedSlice, shuffle } from "./random";
+import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
 
 const SECTION_ORDER: Section[] = ["A1", "A2", "B", "C"];
 
-function chooseQuestions(pool: Question[], count: number, testNumber: number, section: Section): Question[] {
-  const ordered = shuffle(pool, hashSeed(`${section}:bank`));
-  const start = ((testNumber - 1) * count) % ordered.length;
+function chooseQuestions(pool: Question[], count: number, seed: number, section: Section): Question[] {
+  const ordered = shuffle(pool, hashSeed(`${seed}:${section}:bank`));
+  const start = hashSeed(`${seed}:${section}:start`) % ordered.length;
   return rotatedSlice(ordered, count, start);
 }
 
-function chooseCaseQuestions(pool: Question[], testNumber: number): Question[] {
+function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
   const byPassage = new Map<string, Question[]>();
   pool.forEach((question) => {
     if (!question.passageId) return;
@@ -18,28 +18,28 @@ function chooseCaseQuestions(pool: Question[], testNumber: number): Question[] {
     existing.push(question);
     byPassage.set(question.passageId, existing);
   });
-  const passages = shuffle([...byPassage.keys()], hashSeed("C:passages"));
-  const selectedPassages = rotatedSlice(passages, 5, ((testNumber - 1) * 5) % passages.length);
+  const passages = shuffle([...byPassage.keys()], hashSeed(`${seed}:C:passages`));
+  const selectedPassages = rotatedSlice(passages, 5, hashSeed(`${seed}:C:start`) % passages.length);
   return selectedPassages.flatMap((passageId) => byPassage.get(passageId) ?? []);
 }
 
-export function generateAttemptQuestions(testNumber: number, bank: Question[]): AttemptQuestion[] {
+export function generateAttemptQuestions(testNumber: number, bank: Question[], seed = hashSeed(`test:${testNumber}`)): AttemptQuestion[] {
   const selected: Question[] = [];
   SECTION_ORDER.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
     const sectionQuestions = section === "C"
-      ? chooseCaseQuestions(pool, testNumber)
-      : chooseQuestions(pool, SECTION_COUNTS[section], testNumber, section);
+      ? chooseCaseQuestions(pool, seed)
+      : chooseQuestions(pool, SECTION_COUNTS[section], seed, section);
     selected.push(...sectionQuestions);
   });
   return selected.map((question) => ({
     questionId: question.id,
-    optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${testNumber}`)),
+    optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
   }));
 }
 
-export function createAttempt(testNumber: number, bank: Question[], now = new Date()): ActiveAttempt {
-  const questions = generateAttemptQuestions(testNumber, bank);
+export function createAttempt(testNumber: number, bank: Question[], now = new Date(), seed = randomSeed()): ActiveAttempt {
+  const questions = generateAttemptQuestions(testNumber, bank, seed);
   const responses: Record<string, Response> = {};
   questions.forEach(({ questionId }) => {
     responses[questionId] = { status: "unanswered" };
@@ -47,7 +47,7 @@ export function createAttempt(testNumber: number, bank: Question[], now = new Da
   return {
     version: 2,
     testNumber,
-    seed: hashSeed(`test:${testNumber}`),
+    seed,
     createdAt: now.toISOString(),
     updatedAt: now.toISOString(),
     status: "paused",

@@ -6,9 +6,9 @@ import { TEST_DURATION_MS } from "./constants";
 const byId = new Map(QUESTION_BANK.map((question) => [question.id, question]));
 
 describe("quiz engine", () => {
-  it("creates deterministic 100-question tests with the official section counts", () => {
-    const first = generateAttemptQuestions(1, QUESTION_BANK);
-    const repeat = generateAttemptQuestions(1, QUESTION_BANK);
+  it("creates reproducible seeded tests with the official section counts", () => {
+    const first = generateAttemptQuestions(1, QUESTION_BANK, 12345);
+    const repeat = generateAttemptQuestions(1, QUESTION_BANK, 12345);
     expect(first).toEqual(repeat);
     expect(first).toHaveLength(100);
     expect(new Set(first.map((item) => item.questionId)).size).toBe(100);
@@ -17,6 +17,15 @@ describe("quiz engine", () => {
     expect(first.filter((item) => byId.get(item.questionId)?.section === "B")).toHaveLength(40);
     expect(first.filter((item) => byId.get(item.questionId)?.section === "C")).toHaveLength(20);
     expect(new Set(first.filter((item) => byId.get(item.questionId)?.section === "C").map((item) => byId.get(item.questionId)?.passageId)).size).toBe(5);
+  });
+
+  it("gives new attempts different question selections when their seeds differ", () => {
+    const first = createAttempt(1, QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 101);
+    const second = createAttempt(1, QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 202);
+
+    expect(first.seed).toBe(101);
+    expect(second.seed).toBe(202);
+    expect(second.questions).not.toEqual(first.questions);
   });
 
   it("scores correct, wrong and skipped responses with negative marking", () => {
