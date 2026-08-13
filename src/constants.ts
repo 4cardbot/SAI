@@ -14,6 +14,6 @@ export const SECTION_LABELS: Record<Section, string> = {
   B: "Section B · Applied Physiotherapy",
   C: "Section C · Case studies",
 };
-export const STORAGE_KEY = "sai-pa-mock:v2";
-export const BANK_VERSION = "2026.08.2";
+export const STORAGE_KEY = "sai-pa-mock:v3";
+export const BANK_VERSION = "2026.08.3";
 export const A2_COVERAGE_DATE = "2026-01-30";

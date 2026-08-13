@@ -21,10 +21,10 @@ describe("versioned browser persistence", () => {
 
   it("falls back safely on malformed storage and supports reset", () => {
     const storage = new MemoryStorage();
-    storage.setItem("sai-pa-mock:v2", "not json");
+    storage.setItem("sai-pa-mock:v3", "not json");
     expect(loadState(storage)).toEqual({ version: 2, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
-    storage.setItem("sai-pa-mock:v2", JSON.stringify({ version: 2, nextTestNumber: 7 }));
+    storage.setItem("sai-pa-mock:v3", JSON.stringify({ version: 2, nextTestNumber: 7 }));
     expect(clearAll(storage)).toEqual({ version: 2, activeAttempt: null, latestResult: null, nextTestNumber: 1 });
-    expect(storage.getItem("sai-pa-mock:v2")).toBeNull();
+    expect(storage.getItem("sai-pa-mock:v3")).toBeNull();
   });
 });

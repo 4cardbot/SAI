@@ -6,7 +6,7 @@ An independent, English-only Physiotherapy Performance Analyst preparation app a
 - Section A1: 32 basic sports-science questions.
 - Section A2: 8 general sports-awareness questions.
 - Section B: 40 applied Physiotherapy questions.
-- Section C: 20 analytical questions selected from passage-based case studies; every passage has four linked questions.
+- Section C: 20 analytical questions selected from complete passage-based case-study groups.
 - Correct: +1, wrong: −0.25, skipped: 0.
 
 ## Run locally
@@ -36,7 +36,7 @@ Create a GitHub repository, push this folder to its `main` branch, then enable *
 
 ## Content model
 
-The production bank contains 2,000 explicit question objects: 640 A1, 160 A2, 800 B and 400 C records, with 100 distinct C passages. The records are split into reviewable batches under [`src/data/authored`](src/data/authored), and [`src/data/questionBank.ts`](src/data/questionBank.ts) imports that bank directly; no questions are generated at runtime. The authored answer key is exactly balanced across the four option positions within every section, while the test continues to shuffle displayed options.
+The production bank contains 600 explicit question objects imported from the supplied `1.txt` and `2.txt` files: 192 A1, 48 A2, 240 B and 120 C records, with 55 distinct C passages. The first eight A questions in `1.txt` are mapped to A2 and its remaining 32 A questions to A1. Section C passages retain their supplied grouping (five passages with four questions and 50 passages with two questions); each mock test selects complete groups totalling 20 questions. The test shuffles displayed options.
 
 The app has no backend or login. The active attempt and latest result are stored in versioned browser storage. Starting a new test clears the previous attempt and latest result after confirmation.
 

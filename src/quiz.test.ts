@@ -16,7 +16,15 @@ describe("quiz engine", () => {
     expect(first.filter((item) => byId.get(item.questionId)?.section === "A2")).toHaveLength(8);
     expect(first.filter((item) => byId.get(item.questionId)?.section === "B")).toHaveLength(40);
     expect(first.filter((item) => byId.get(item.questionId)?.section === "C")).toHaveLength(20);
-    expect(new Set(first.filter((item) => byId.get(item.questionId)?.section === "C").map((item) => byId.get(item.questionId)?.passageId)).size).toBe(5);
+    const caseQuestions = first.filter((item) => byId.get(item.questionId)?.section === "C");
+    const selectedPassages = new Set(caseQuestions.map((item) => byId.get(item.questionId)?.passageId));
+    expect(selectedPassages.size).toBeGreaterThanOrEqual(5);
+    expect(selectedPassages.size).toBeLessThanOrEqual(10);
+    selectedPassages.forEach((passageId) => {
+      expect(caseQuestions.filter((item) => byId.get(item.questionId)?.passageId === passageId).length).toBe(
+        QUESTION_BANK.filter((question) => question.passageId === passageId).length,
+      );
+    });
   });
 
   it("gives new attempts different question selections when their seeds differ", () => {

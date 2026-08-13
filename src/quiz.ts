@@ -19,8 +19,19 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
     byPassage.set(question.passageId, existing);
   });
   const passages = shuffle([...byPassage.keys()], hashSeed(`${seed}:C:passages`));
-  const selectedPassages = rotatedSlice(passages, 5, hashSeed(`${seed}:C:start`) % passages.length);
-  return selectedPassages.flatMap((passageId) => byPassage.get(passageId) ?? []);
+  const selected: Question[] = [];
+  const target = SECTION_COUNTS.C;
+  const start = hashSeed(`${seed}:C:start`) % passages.length;
+  const orderedPassages = rotatedSlice(passages, passages.length, start);
+
+  for (const passageId of orderedPassages) {
+    const questions = byPassage.get(passageId) ?? [];
+    if (selected.length + questions.length > target) continue;
+    selected.push(...questions);
+    if (selected.length === target) return selected;
+  }
+
+  throw new Error(`Unable to select exactly ${target} case-study questions`);
 }
 
 export function generateAttemptQuestions(testNumber: number, bank: Question[], seed = hashSeed(`test:${testNumber}`)): AttemptQuestion[] {
