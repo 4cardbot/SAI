@@ -8,6 +8,11 @@ from data_test2 import DATA_TEST_2
 from data_test3 import DATA_TEST_3
 from data_test4 import DATA_TEST_4
 from data_test5 import DATA_TEST_5
+from data_test6 import DATA_TEST_6
+from data_test7 import DATA_TEST_7
+from data_test8 import DATA_TEST_8
+from data_test9 import DATA_TEST_9
+from data_test10 import DATA_TEST_10
 
 test_datasets = [
     (1, DATA_TEST_1),
@@ -15,6 +20,11 @@ test_datasets = [
     (3, DATA_TEST_3),
     (4, DATA_TEST_4),
     (5, DATA_TEST_5),
+    (6, DATA_TEST_6),
+    (7, DATA_TEST_7),
+    (8, DATA_TEST_8),
+    (9, DATA_TEST_9),
+    (10, DATA_TEST_10),
 ]
 
 A1_TOPIC_ROTATION = [
@@ -43,26 +53,26 @@ def map_a2_topic(idx, text):
     text_lower = text.lower()
     if any(k in text_lower for k in ["tops", "khelo india", "nsdf", "award", "khel ratna", "arjuna", "dronacharya", "maka", "sai", "lncpe", "nsnis"]):
         return "Indian sports schemes and National Sports Awards", "Sports Authority of India and national schemes"
-    elif any(k in text_lower for k in ["wada", "nada", "doping", "prohibited", "tue", "adams", "whereabouts", "abp", "ndtl"]):
+    elif any(k in text_lower for k in ["wada", "nada", "doping", "prohibited", "tue", "adams", "whereabouts", "abp", "ndtl", "irm"]):
         return "anti-doping awareness and WADA/NADA regulations", "Anti-doping rules, testing and compliance"
-    elif any(k in text_lower for k in ["olympic", "asian games", "commonwealth", "cas", "lausanne", "ioc", "motto", "milan"]):
+    elif any(k in text_lower for k in ["olympic", "asian games", "commonwealth", "cas", "lausanne", "ioc", "motto", "milan", "paralympic", "paris", "los angeles"]):
         return "Olympic, Asian and Paralympic major competitions", "International games, venues and Olympic governance"
     else:
         return "sports governance ethics and age verification", "National Sports Development Code and athlete safeguarding"
 
 def map_b_topic(idx, text):
     text_lower = text.lower()
-    if any(k in text_lower for k in ["test", "sign", "magee", "lachman", "mcmurray", "hawkins", "finkelstein", "dial", "slump", "crank", "yergason"]):
+    if any(k in text_lower for k in ["test", "sign", "magee", "lachman", "mcmurray", "hawkins", "finkelstein", "dial", "slump", "crank", "yergason", "jobe", "apley", "neer", "speed", "clonus", "wartenberg", "dix-hallpike", "sulcus", "kleiger", "cozen", "mill"]):
         return "assessment and clinical reasoning differential", "Special orthopedic physical assessment tests"
-    elif any(k in text_lower for k in ["gait", "stance", "swing", "trendelenburg", "steppage", "perry", "rocker", "moment"]):
+    elif any(k in text_lower for k in ["gait", "stance", "swing", "trendelenburg", "steppage", "perry", "rocker", "moment", "anteversion", "retroversion", "q-angle", "carrying angle", "convex-concave", "screw-home"]):
         return "biomechanics and movement analysis", "Observational and pathological gait analysis"
-    elif any(k in text_lower for k in ["tens", "ultrasound", "shockwave", "eswt", "ift", "laser", "diathermy", "cryotherapy", "nmes", "russian", "iontophoresis"]):
+    elif any(k in text_lower for k in ["tens", "ultrasound", "shockwave", "eswt", "ift", "laser", "diathermy", "cryotherapy", "nmes", "russian", "iontophoresis", "hvpc", "galvanic", "hydrocollator"]):
         return "electrotherapy and electrodiagnosis physical agents", "Evidence-based electrophysical modalities"
-    elif any(k in text_lower for k in ["stroke", "spasticity", "bobath", "brunnstrom", "cimt", "motor relearning", "frenkel", "ataxia", "rigidity", "rood"]):
+    elif any(k in text_lower for k in ["stroke", "spasticity", "bobath", "brunnstrom", "cimt", "motor relearning", "frenkel", "ataxia", "rigidity", "rood", "tardieu", "pusher", "lsvt", "romberg", "fitts"]):
         return "psychology and human development neuro-rehabilitation", "Neuro-rehabilitation concepts and motor relearning"
-    elif any(k in text_lower for k in ["delorme", "oxford", "alfredson", "hsr", "pnf", "maitland", "kaltenborn", "mulligan", "mckenzie", "core", "spanish squat"]):
+    elif any(k in text_lower for k in ["delorme", "oxford", "alfredson", "hsr", "pnf", "maitland", "kaltenborn", "mulligan", "mckenzie", "core", "spanish squat", "dapre", "nordic", "mcconnell", "said principle"]):
         return "exercise therapy and rehabilitation", "Therapeutic exercise protocols and manual therapy"
-    elif any(k in text_lower for k in ["nutrition", "research", "statistics", "evidence", "reliability"]):
+    elif any(k in text_lower for k in ["nutrition", "research", "statistics", "evidence", "reliability", "likert", "sem"]):
         return "nutrition and research evidence", "Sports nutrition and clinical research methodology"
     elif any(k in text_lower for k in ["heart rate", "oxygen", "respirat", "cardiac", "energy system", "physiolog"]):
         return "human and exercise physiology", "Cardiorespiratory and neuromuscular physiology"
@@ -188,8 +198,8 @@ print(f"Total Section C passages: {current_case_idx - 1}")
 imported_ts_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src", "data", "imported.ts"))
 
 ts_code = 'import type { Question } from "../types";\n\n'
-ts_code += '/**\n * Complete 500-question master bank for SAI Performance Analyst (Physiotherapy) CBT.\n'
-ts_code += ' * 5 Full Mock Tests (100 Qs each: 32 A1, 8 A2, 40 B, 20 C).\n'
+ts_code += '/**\n * Complete 1,000-question master bank for SAI Performance Analyst (Physiotherapy) CBT.\n'
+ts_code += ' * 10 Full Mock Tests (100 Qs each: 32 A1, 8 A2, 40 B, 20 C).\n'
 ts_code += ' * Balanced option lengths and strictly verified answers across all subjects.\n */\n'
 ts_code += 'export const IMPORTED_QUESTION_BANK: Question[] = ' + json.dumps(all_questions_ts, indent=2, ensure_ascii=False) + ';\n'
 

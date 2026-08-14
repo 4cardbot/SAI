@@ -4,9 +4,9 @@ import { AUTHORED_QUESTION_BANK } from "./authored";
 
 describe("explicit authored question batches", () => {
   it("contain literal records with unique IDs and answer choices", () => {
-    expect(AUTHORED_QUESTION_BANK.length).toBe(500);
+    expect(AUTHORED_QUESTION_BANK.length).toBe(1000);
     expect(new Set(AUTHORED_QUESTION_BANK.map((question) => question.id)).size).toBe(AUTHORED_QUESTION_BANK.length);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(400);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(800);
     AUTHORED_QUESTION_BANK.forEach((question) => {
       expect(question.options).toHaveLength(4);
       expect(new Set(question.options).size).toBe(4);
@@ -20,11 +20,11 @@ describe("explicit authored question batches", () => {
   });
 
   it("preserves the official section and case-study composition", () => {
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(160);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(40);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(200);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(100);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(50);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(320);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(80);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(400);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(200);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(100);
     const passageCounts = new Map<string, number>();
     AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").forEach((question) => {
       passageCounts.set(question.passageId!, (passageCounts.get(question.passageId!) ?? 0) + 1);

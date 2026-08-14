@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 801,
+    "section": "A1",
+    "text": "In the neuromuscular physiology of strength training, what is 'Post-Activation Potentiation' (PAP) and what is its primary molecular mechanism?",
+    "options": [
+      "Phosphorylation of myosin regulatory light chains by myosin light chain kinase (MLCK), which increases the sensitivity of the actomyosin complex to calcium released from the sarcoplasmic reticulum",
+      "Selective destruction of low-threshold Type I motor units during high-load resistance lifts",
+      "Complete depletion of intracellular ATP causing continuous actin-myosin rigor binding",
+      "Downregulation of muscle spindle Ia afferent feedback during explosive plyometric jumping"
+    ],
+    "correct": 0,
+    "explanation": "PAP is a transient enhancement of muscle contractile performance following a heavy conditioning contraction (e.g., 85–90% 1RM squat), driven at the molecular level by MLCK-mediated phosphorylation of myosin regulatory light chains.",
+    "source": "Essentials of Strength Training and Conditioning (NSCA) - G. Gregory Haff & N. Travis Triplett / Tillin & Bishop"
+  },
+  {
+    "id": 802,
+    "section": "A1",
+    "text": "In designing linear periodization models for athletic performance, what sequence of training phases (Matveyev model) is standardly implemented across a macrocycle?",
+    "options": [
+      "Transition phase with complete absolute bed rest for 11 months followed by 1 week of competition",
+      "General Preparation (High Volume, Low-to-Moderate Intensity) -> Specific Preparation -> Pre-Competitive (Moderate Volume, High Intensity) -> Competition (Low Volume, High Intensity / Peak) -> Transition (Active Recovery)",
+      "High-intensity power training performed exclusively on every single calendar day without variation",
+      "Competition phase with maximal volume and zero intensity maintained year-round without transition"
+    ],
+    "correct": 1,
+    "explanation": "Matveyev's classical periodization transitions from high-volume, low-intensity general preparation (hypertrophy/aerobic base) to high-intensity, low-volume sport-specific peaking (competition phase), followed by an active recovery transition.",
+    "source": "Essentials of Strength Training and Conditioning (NSCA) - G. Gregory Haff & N. Travis Triplett / Matveyev"
+  },
+  {
+    "id": 803,
+    "section": "A1",
+    "text": "In sprint biomechanics, what differentiates the 'Acceleration Phase' (first 10–20m) from the 'Maximum Velocity Phase' regarding ground reaction force vectors and torso orientation?",
+    "options": [
+      "Acceleration requires high net HORIZONTAL propulsive impulse and forward forward trunk lean (~45°), whereas Maximum Velocity requires high VERTICAL ground reaction force impulse and upright posture (~0°–5° lean)",
+      "Maximum velocity is performed with zero ground reaction force applied to the synthetic track",
+      "Acceleration requires pure vertical force with upright posture while Max Velocity requires forward leaning",
+      "Acceleration requires long ground contact times (>500 ms) with the heel striking the ground first"
+    ],
+    "correct": 0,
+    "explanation": "During acceleration, the athlete leans forward (~45°) to direct the resultant GRF vector horizontally (propulsive impulse). At max velocity, the torso is upright, ground contact time is minimal (<100 ms), and vertical impulse predominates to resist gravity.",
+    "source": "Essentials of Strength Training and Conditioning (NSCA) - G. Gregory Haff & N. Travis Triplett / Morin & Samozino"
+  },
+  {
+    "id": 804,
+    "section": "A1",
+    "text": "In skeletal muscle physiology, what is the functional role of the giant structural protein 'Titin' inside the sarcomere?",
+    "options": [
+      "Directly hydrolyzes ATP to generate power stroke cross-bridge cycling",
+      "Synthesizes new glycogen granules inside the transverse tubules of the sarcoplasmic reticulum",
+      "Transports oxygen molecules from the sarcolemma directly into the mitochondrial matrix",
+      "Acts as a dynamic molecular spring extending from the Z-disc to the M-line, maintaining sarcomere structural alignment, generating passive tension upon stretch, and stiffening when calcium binds to its PEVK domain"
+    ],
+    "correct": 3,
+    "explanation": "Titin is the largest known human protein, anchoring thick filaments to the Z-disc. It provides passive elastic stiffness, maintains central thick filament centering during contraction, and increases active force during eccentric lengthening upon calcium binding.",
+    "source": "Exercise Physiology - McArdle, Katch & Katch / Herzog"
+  },
+  {
+    "id": 805,
+    "section": "A1",
+    "text": "In cardiovascular exercise physiology, what is the 'Frank-Starling Law of the Heart'?",
+    "options": [
+      "Stroke volume is completely independent of venous return or end-diastolic ventricular filling",
+      "High blood pressure causes immediate complete cessation of coronary arterial circulation",
+      "Increased end-diastolic ventricular volume (preload) stretches myocardial cardiac myocytes, optimizing actin-myosin filament overlap and increasing the force of myocardial contraction and stroke volume",
+      "Elevated heart rate causes progressive thinning and dilation of the cardiac ventricular chambers"
+    ],
+    "correct": 2,
+    "explanation": "The Frank-Starling mechanism: increased venous return stretches myocardial sarcomeres toward optimal operational length, increasing calcium sensitivity and producing a more forceful systolic contraction to eject a greater stroke volume.",
+    "source": "Exercise Physiology - Kenney, Wilmore & Costill"
+  },
+  {
+    "id": 806,
+    "section": "A1",
+    "text": "In blood gas transport during maximal exercise, what is the 'Arteriovenous Oxygen Difference' ($(a-v)O_2\\text{diff}$)?",
+    "options": [
+      "The difference between systolic and diastolic blood pressure measured in the brachial artery",
+      "The total volume of carbon dioxide dissolved in blood plasma at sea level atmospheric pressure",
+      "The ratio of blood hematocrit to plasma volume in peripheral capillary vascular networks",
+      "The difference in oxygen content between arterial blood (typically ~20 mL $O_2$/100 mL blood) and mixed venous blood (dropping from ~15 mL at rest to ~2–4 mL during maximal exercise), reflecting tissue oxygen extraction"
+    ],
+    "correct": 3,
+    "explanation": "Arteriovenous $O_2$ difference ($(a-v)O_2\\text{diff}$) measures peripheral oxygen extraction by working tissues. It widens from ~5 mL $O_2$/100 mL blood at rest up to ~16–18 mL $O_2$/100 mL during maximal aerobic exertion.",
+    "source": "Exercise Physiology - McArdle, Katch & Katch"
+  },
+  {
+    "id": 807,
+    "section": "A1",
+    "text": "During prolonged exercise in the heat, what is the primary pathophysiological cascade leading to 'Exertional Heat Stroke' (EHS)?",
+    "options": [
+      "Failure of thermoregulatory mechanisms when metabolic heat production overwhelms heat dissipation, causing core body temperature to rise >40.5°C (105°F), accompanied by central nervous system dysfunction and systemic inflammatory response",
+      "Rapid hypothermia caused by excessive cutaneous blood pooling and cold moisture accumulation",
+      "Selective paralysis of the peripheral motor nerves caused by excessive solar radiation",
+      "Sudden complete destruction of the pancreas leading to acute non-ketotic hyperglycemia"
+    ],
+    "correct": 0,
+    "explanation": "Exertional Heat Stroke (EHS) is a medical emergency defined by severe hyperthermia (core temperature >40.5°C / 105°F) with central nervous system dysfunction (delirium, ataxia, coma) and multi-organ failure driven by metabolic heat overload.",
+    "source": "Exercise Physiology - Kenney, Wilmore & Costill / Casa et al."
+  },
+  {
+    "id": 808,
+    "section": "A1",
+    "text": "What is the primary cellular function of 'Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha' (PGC-1alpha) in skeletal muscle adaptations to endurance training?",
+    "options": [
+      "Inhibits all mitochondrial respiration and converts muscle fibers into pure glycolytic Type IIx units",
+      "Directly stimulates muscle protein degradation via the ubiquitin-proteasome pathway",
+      "Blocks glucose uptake by destroying GLUT4 transporters on the sarcolemma",
+      "Acts as the master transcriptional coactivator regulating mitochondrial biogenesis, oxidative phosphorylation enzyme expression, angiogenesis (VEGF), and fiber type switching toward oxidative phenotypes"
+    ],
+    "correct": 3,
+    "explanation": "PGC-1alpha is the master regulator of mitochondrial biogenesis. Activated by AMPK and p38 MAPK during endurance exercise, it coordinates nuclear and mitochondrial gene expression for oxidative metabolism, capillarization, and endurance adaptations.",
+    "source": "Exercise Physiology - McArdle, Katch & Katch / Puigserver & Spiegelman"
+  },
+  {
+    "id": 809,
+    "section": "A1",
+    "text": "In the bioenergetics of muscular exercise, what is the 'Phosphagen (ATP-CP) Energy System' capacity and power output?",
+    "options": [
+      "Produces zero ATP until 30 minutes of continuous aerobic running has been completed",
+      "Relies exclusively on the beta-oxidation of dietary long-chain saturated fatty acids",
+      "Provides steady ATP production continuously for 48 hours without any reduction in energy output",
+      "Provides the highest rate of ATP resynthesis (maximal power ~36 kcal/min) but has a very limited total capacity, depleting rapidly within approximately 6 to 10 seconds of all-out maximal exertion"
+    ],
+    "correct": 3,
+    "explanation": "The phosphagen system (stored ATP and phosphocreatine) has the highest maximal power output of all bioenergetic pathways, powering immediate all-out explosive bursts (sprints, heavy lifts) but depleting within ~6–10s.",
+    "source": "Exercise Physiology - McArdle, Katch & Katch"
+  },
+  {
+    "id": 810,
+    "section": "A1",
+    "text": "In sports nutrition, what is the 'Anabolic Window of Opportunity' regarding post-exercise carbohydrate and protein co-ingestion?",
+    "options": [
+      "Consuming 500 grams of pure dietary fat immediately upon completing a training session",
+      "Avoiding all food and fluid for 24 hours post-workout to promote natural metabolic cleansing",
+      "Consuming ~20–40g of high-quality protein with ~1.0–1.2 g/kg of rapid-acting carbohydrates within 0 to 2 hours post-exercise to maximize Muscle Protein Synthesis and accelerate muscle glycogen resynthesis rates",
+      "Consuming large quantities of alcohol to accelerate lactic acid breakdown in the liver"
+    ],
+    "correct": 2,
+    "explanation": "Post-exercise co-ingestion of 20–40g protein (with ~3g leucine) and 1.0–1.2 g/kg/h carbohydrates within the initial 2 hours optimizes net muscle protein balance and stimulates maximal glycogen synthase activity.",
+    "source": "Sports Nutrition - Asker Jeukendrup & Michael Gleeson / Kerksick et al."
+  },
+  {
+    "id": 811,
+    "section": "A1",
+    "text": "What is the primary role of 'Iron' in athletic performance, and what serum ferritin diagnostic threshold standardly indicates Stage 1 Iron Depletion in elite athletes?",
+    "options": [
+      "Iron acts exclusively as a sedative neurotransmitter in the cerebral cortex",
+      "Serum ferritin > 500 mcg/L indicating severe acute iron deficiency in runners",
+      "Essential for oxygen transport in hemoglobin and myoglobin and electron transport in cytochromes; serum ferritin < 30–35 mcg/L indicates depleted iron stores requiring clinical evaluation and dietary management",
+      "Serum ferritin < 1.0 mcg/L is considered fully normal in international Olympic competitors"
+    ],
+    "correct": 2,
+    "explanation": "Iron is critical for hemoglobin, myoglobin, and oxidative enzymes. In athletes, serum ferritin < 30–35 mcg/L indicates depleted storage pools (Stage 1 iron deficiency), compromising aerobic capacity and adaptation.",
+    "source": "Sports Nutrition - Asker Jeukendrup & Michael Gleeson / Peeling et al."
+  },
+  {
+    "id": 812,
+    "section": "A1",
+    "text": "In hydration assessment, what percentage of acute body mass loss from sweat during training is defined as significant dehydration that begins to impair aerobic endurance performance and cognitive decision-making?",
+    "options": [
+      "≥ 15% loss of total body mass within the first 10 minutes of exercise",
+      "≥ 2% loss of total body mass (e.g., a 1.4 kg fluid deficit in a 70 kg athlete)",
+      "0.1% loss of total body mass requiring immediate intravenous medical rehydration",
+      "Dehydration has zero measurable impact on athletic performance until body mass drops by 50%"
+    ],
+    "correct": 1,
+    "explanation": "ACSM consensus guidelines establish that body mass loss $\\ge 2\\%$ from sweat dehydration increases core temperature, elevates heart rate, impairs thermoregulation, and degrades endurance capacity and cognitive skill execution.",
+    "source": "Sports Nutrition - Asker Jeukendrup & Michael Gleeson / Sawka et al."
+  },
+  {
+    "id": 813,
+    "section": "A1",
+    "text": "In kinanthropometric assessment, the 'Subscapular Skinfold' site is anatomical located:",
+    "options": [
+      "2 cm along a line running obliquely downwards (at a 45° angle) from the Inferior Angle of the Scapula",
+      "Directly inside the axillary vault over the latissimus dorsi tendon insertion",
+      "Horizontally across the middle of the spine of the scapula on the supraspinatus belly",
+      "Vertically over the acromion process at the tip of the shoulder girdle"
+    ],
+    "correct": 0,
+    "explanation": "ISAK protocol: The subscapular skinfold is marked 2 cm along a line running obliquely (45° lateral-downward) from the inferior angle of the scapula, following the natural cleavage line of the skin.",
+    "source": "Kinanthropometry and Exercise Physiology - Roger Eston & Thomas Reilly / ISAK Manual"
+  },
+  {
+    "id": 814,
+    "section": "A1",
+    "text": "In kinanthropometric somatotyping, an athlete with an extreme 'Endomorph' somatotype profile (e.g., 7–1–1) is characterized by:",
+    "options": [
+      "Extreme musculoskeletal robusticity with massive bone breadths and zero body fat",
+      "A completely hollow chest with absence of internal abdominal organs",
+      "Dominant relative adiposity, high subcutaneous fat storage, roundness of body contours, and high digestive organ mass relative to stature",
+      "Extreme linear slenderness with narrow shoulders and very long delicate limbs"
+    ],
+    "correct": 2,
+    "explanation": "Endomorphy in the Heath-Carter system reflects relative fatness and roundness of body contours, where high ratings (7+) represent dominant subcutaneous adiposity and endodermal organ prominence.",
+    "source": "Kinanthropometry and Exercise Physiology - Roger Eston & Thomas Reilly"
+  },
+  {
+    "id": 815,
+    "section": "A1",
+    "text": "In sports kinanthropometry, what is 'Proportionality' scaling and why is geometric similarity (isometric scaling / Phantom model) used?",
+    "options": [
+      "To determine the precise brand of sports shoes appropriate for court basketball",
+      "To measure the electrical voltage of the brain during sports psychology imagery testing",
+      "To compare body dimensions (lengths, breadths, circumferences, skinfolds) of athletes of different body statures by scaling all parameters geometrically against a standard reference human (Ross & Wilson Phantom)",
+      "To calculate the total caloric cost of running 100 meters at maximal sprinting speed"
+    ],
+    "correct": 2,
+    "explanation": "Proportionality models (e.g., Ross & Wilson Phantom) scale human dimensions geometrically against a unisex reference stature ($170.18$ cm) using z-scores ($z = (1/s) \\times [v \\times (170.18/h)^d - p]$) to allow valid inter-individual comparisons.",
+    "source": "Kinanthropometry and Exercise Physiology - Roger Eston & Thomas Reilly"
+  },
+  {
+    "id": 816,
+    "section": "A1",
+    "text": "In youth athletic maturation, what is the 'Maturity Offset' prediction method developed by Mirwald et al.?",
+    "options": [
+      "A dental examination counting the total number of permanent adult teeth erupted in the jaw",
+      "A blood test measuring circulating growth hormone levels during deep stage slow-wave sleep",
+      "A psychological questionnaire evaluating the emotional maturity of adolescent soccer players",
+      "A non-invasive anthropometric equation using age, standing height, sitting height, and leg length to estimate the time in years before or after Peak Height Velocity (-YAPHV to +YAPHV)"
+    ],
+    "correct": 3,
+    "explanation": "Mirwald's biological maturity offset equations use non-invasive anthropometrics (sitting height, subischial leg length, stature, age) to predict time from Peak Height Velocity (PHV) within $\\pm 1$ year.",
+    "source": "Kinanthropometry and Exercise Physiology - Roger Eston & Thomas Reilly / Mirwald et al."
+  },
+  {
+    "id": 817,
+    "section": "A1",
+    "text": "In sports psychology, what is 'Autogenic Training' (Schultz)?",
+    "options": [
+      "A self-relaxation technique using passive verbal suggestions of warmth and heaviness in the limbs, combined with slow diaphragmatic breathing to induce parasympathetic autonomic dominance",
+      "An aggressive high-intensity sprint training protocol performed until physical exhaustion",
+      "A psychological technique where the athlete shouts aggressive slogans at opponent players",
+      "A method of electric shock therapy applied to peripheral muscles to eliminate anxiety"
+    ],
+    "correct": 0,
+    "explanation": "Autogenic training (Schultz) involves self-directed psychophysiological relaxation formulas focused on heaviness (muscular relaxation) and warmth (peripheral vasodilation), shifting autonomic balance toward parasympathetic recovery.",
+    "source": "Foundations of Sport and Exercise Psychology - Robert S. Weinberg & Daniel Gould / Schultz"
+  },
+  {
+    "id": 818,
+    "section": "A1",
+    "text": "In sports psychology, what is 'Self-Efficacy' according to Albert Bandura, and which source provides the most powerful influence on an athlete's self-efficacy beliefs?",
+    "options": [
+      "An athlete's belief in their capability to execute specific actions required to achieve a designated performance; Performance Accomplishments (past mastery experiences) provide the most potent source of efficacy",
+      "A generalized, unchangeable personality trait determined purely by genetic inheritance at birth",
+      "The total amount of financial money an athlete earns from commercial advertising contracts",
+      "The physical appearance of the athlete's uniform during international competition tournaments"
+    ],
+    "correct": 0,
+    "explanation": "Bandura's Self-Efficacy Theory: task-specific confidence is shaped by 4 sources (Mastery Experiences, Vicarious Modeling, Verbal Persuasion, Physiological/Affective States), with past performance accomplishments being the strongest driver.",
+    "source": "Foundations of Sport and Exercise Psychology - Robert S. Weinberg & Daniel Gould / Bandura"
+  },
+  {
+    "id": 819,
+    "section": "A1",
+    "text": "In athletic burnout research (Raedeke & Smith), what are the three core dimensions defining 'Athlete Burnout'?",
+    "options": [
+      "1. High physical fitness, 2. Extreme tactical excitement, and 3. High financial income",
+      "1. Muscle hypertrophy, 2. High bone density, and 3. Low resting heart rate",
+      "1. Emotional and Physical Exhaustion, 2. Reduced Sense of Accomplishment (low self-efficacy/worth), and 3. Sport Devaluation (cynicism and negative attitudes toward sports participation)",
+      "1. Severe dehydration, 2. Acute ankle sprain, and 3. Broken tennis racket"
+    ],
+    "correct": 2,
+    "explanation": "Raedeke and Smith established the 3-dimensional construct of athlete burnout: physical/emotional exhaustion, reduced athletic accomplishment, and sport devaluation, measured via the Athlete Burnout Questionnaire (ABQ).",
+    "source": "Foundations of Sport and Exercise Psychology - Robert S. Weinberg & Daniel Gould / Raedeke & Smith"
+  },
+  {
+    "id": 820,
+    "section": "A1",
+    "text": "In imagery interventions, what is the clinical distinction between 'Internal Imagery' (First-Person Perspective) and 'External Imagery' (Third-Person Perspective)?",
+    "options": [
+      "There is zero psychological or neural difference between first-person and third-person perspectives",
+      "Internal imagery is performed while asleep whereas External imagery is performed while running",
+      "Internal imagery visualizes the movement through one's own eyes (first-person viewpoint) with rich kinesthetic sensations, whereas External imagery views the performance from an outside observer's camera perspective",
+      "External imagery completely eliminates all electrical brain activity in the motor cortex"
+    ],
+    "correct": 2,
+    "explanation": "Internal (1st person) imagery replicates real-world sensory-kinesthetic perspectives (ideal for timing and execution), while External (3rd person) imagery provides an observer view (ideal for analyzing biomechanical form and spatial positioning).",
+    "source": "Foundations of Sport and Exercise Psychology - Robert S. Weinberg & Daniel Gould"
+  },
+  {
+    "id": 821,
+    "section": "A1",
+    "text": "In athlete monitoring, what is the 'Isometric Mid-Thigh Pull' (IMTP) test on dual force plates used to measure?",
+    "options": [
+      "Maximal Isometric Peak Force (IPF), Rate of Force Development (RFD at 50, 100, 200 ms), and Dynamic Strength Index (DSI) when compared to ballistic jumping",
+      "The volume of oxygen consumed during a maximal Bruce treadmill stress protocol",
+      "The maximal sprinting velocity achieved during a 100-meter track sprint competition",
+      "The athlete's percentage of body fat on the abdominal wall via bioelectrical impedance"
+    ],
+    "correct": 0,
+    "explanation": "IMTP is a highly reliable test of maximal isometric force and explosive capacity (RFD). Testing at specific knee (125°–145°) and hip (140°–150°) angles provides safe, highly repeatable neuromuscular strength diagnostics.",
+    "source": "Monitoring Training and Performance in Athletes - Mike McGuigan / Comfort et al."
+  },
+  {
+    "id": 822,
+    "section": "A1",
+    "text": "In training load monitoring, what is 'Training Monotony' and 'Training Strain' according to Carl Foster's monitoring framework?",
+    "options": [
+      "Training Monotony = Mean Daily Load / Standard Deviation of Daily Load; Training Strain = Total Weekly Load $\\times$ Training Monotony (identifying stagnant high loads with high overreaching/illness risk)",
+      "Training Monotony is a measure of ambient room temperature inside the sports arena",
+      "Training Monotony = Total scale body weight divided by the athlete's standing height in meters",
+      "Training Strain = The total number of hours the athlete spends watching television in dormitories"
+    ],
+    "correct": 0,
+    "explanation": "Foster's Monotony $(\\text{Daily Mean} / \\text{SD})$ reflects lack of day-to-day load variation. High Monotony (>2.0) combined with high weekly load yields high Strain $(\\text{Weekly Load} \\times \\text{Monotony})$, strongly predicting illness and overtraining.",
+    "source": "Monitoring Training and Performance in Athletes - Mike McGuigan / Foster"
+  },
+  {
+    "id": 823,
+    "section": "A1",
+    "text": "In athletic recovery, what is the physiological rationale for 'Contrast Water Therapy' (alternating hot and cold water immersion, e.g., 1 min cold @ 10°C / 1 min hot @ 38°C)?",
+    "options": [
+      "Permanently destroys subcutaneous adipose fat cells through thermal shock disruption",
+      "Produces alternating cycles of peripheral vasoconstriction and vasodilation ('vascular pumping action'), accelerating venous return, reducing edema, and improving perceived muscle soreness",
+      "Induces instant complete hypnosis to reduce competition anxiety before matches",
+      "Eliminates the necessity for dietary protein consumption following heavy weightlifting"
+    ],
+    "correct": 1,
+    "explanation": "Contrast water immersion drives alternating vasoconstriction and vasodilation, creating a dynamic vascular pumping effect that reduces muscle edema, clears metabolic byproducts, and enhances subjective recovery.",
+    "source": "Monitoring Training and Performance in Athletes - Mike McGuigan / Higgins et al."
+  },
+  {
+    "id": 824,
+    "section": "A1",
+    "text": "In wearable technology, how do modern 'Tri-Axial Accelerometers' integrated into athlete GPS tracking units measure movement?",
+    "options": [
+      "Using micro-electromechanical systems (MEMS) sensors to measure inertial acceleration in three orthogonal axes: anteroposterior ($X$), mediolateral ($Y$), and vertical ($Z$) at sampling rates of 100 Hz",
+      "Using satellite photography taken from low-earth orbit cameras to track athlete footprints",
+      "Measuring blood flow velocity in the radial artery via continuous laser doppler imaging",
+      "Measuring atmospheric barometric air pressure changes inside the athlete's lungs"
+    ],
+    "correct": 0,
+    "explanation": "Wearable GPS/GNSS devices contain 100 Hz tri-axial MEMS accelerometers that measure instantaneous gravitational and inertial forces across all 3 spatial planes, computing metrics like PlayerLoad and impacts.",
+    "source": "Monitoring Training and Performance in Athletes - Mike McGuigan"
+  },
+  {
+    "id": 825,
+    "section": "A1",
+    "text": "In diagnostic statistics, what is the 'Receiver Operating Characteristic' (ROC) Curve and what does the 'Area Under the Curve' (AUC) quantify?",
+    "options": [
+      "A graph showing the decline in blood lactate concentration during post-exercise recovery",
+      "A financial graph tracking the annual budget expenditure of a national sports federation",
+      "A graphical plot of True Positive Rate (Sensitivity) vs False Positive Rate ($1 - \\text{Specificity}$); AUC quantifies overall diagnostic accuracy (AUC = 1.0 is perfect discrimination, AUC = 0.5 is chance performance)",
+      "A chart plotting the height-to-weight ratio of international marathon competitors"
+    ],
+    "correct": 2,
+    "explanation": "The ROC curve plots Sensitivity against (1 - Specificity) across various cutoff scores. The Area Under the Curve (AUC / c-statistic) measures overall discriminatory power: 0.7–0.8 = acceptable, 0.8–0.9 = excellent, >0.9 = outstanding.",
+    "source": "Foundations of Clinical Research - Leslie G. Portney / Hanley & McNeil"
+  },
+  {
+    "id": 826,
+    "section": "A1",
+    "text": "In clinical research, what is 'Confounding' and how can it be controlled during study design?",
+    "options": [
+      "A distortion of the estimated exposure-outcome relationship by a third extraneous variable associated with both the exposure and outcome; controlled through Randomization, Restriction, or Matching",
+      "The mathematical loss of study participants due to voluntary protocol withdrawal",
+      "The intentional falsification of laboratory test results by a study investigator",
+      "The error that occurs when a researcher miscalculates an arithmetic division sum"
+    ],
+    "correct": 0,
+    "explanation": "Confounding occurs when an extraneous factor is linked to both exposure and outcome without being an intermediate step. It can be controlled during study design (randomization, matching, restriction) or analysis (stratification, multivariable regression).",
+    "source": "Foundations of Clinical Research - Leslie G. Portney"
+  },
+  {
+    "id": 827,
+    "section": "A1",
+    "text": "In sports biostatistics, what is 'Linear Regression' analysis used for?",
+    "options": [
+      "Measuring the electrical conductivity of skin during bioelectrical impedance testing",
+      "Modeling the mathematical relationship between one continuous dependent (outcome) variable and one or more independent (predictor) variables ($Y = \\beta_0 + \\beta_1 X + \\epsilon$)",
+      "Determining the exact brand of running shoes an athlete should wear during competition",
+      "Calculating the percentage of body fat on the abdominal wall using skinfold calipers"
+    ],
+    "correct": 1,
+    "explanation": "Linear regression models the linear dependency between an outcome ($Y$) and one or more predictors ($X$), estimating the coefficient ($\\beta_1$) and predicting outcomes based on the fitted regression line.",
+    "source": "Foundations of Clinical Research - Leslie G. Portney"
+  },
+  {
+    "id": 828,
+    "section": "A1",
+    "text": "In research methodology, what is 'Hawthorne Effect'?",
+    "options": [
+      "The physical injury that occurs when an athlete drops a heavy barbell on their foot",
+      "The tendency for research studies with positive findings to be published more rapidly",
+      "The alteration of behavior or performance by study participants due to the awareness that they are being observed and evaluated by researchers",
+      "The gradual decline in athletic performance caused by chronic sleep deprivation"
+    ],
+    "correct": 2,
+    "explanation": "The Hawthorne Effect is a type of reactivity where subjects modify an aspect of their behavior simply because they know they are being monitored and measured during a research experiment.",
+    "source": "Foundations of Clinical Research - Leslie G. Portney"
+  },
+  {
+    "id": 829,
+    "section": "A1",
+    "text": "In the physiological assessment of flexibility, what is the neurophysiological role of the 'Golgi Tendon Organ' (GTO)?",
+    "options": [
+      "A mechanoreceptor located in series at the muscle-tendon junction sensitive to changes in mechanical tension, firing Ib afferents that inhibit alpha motor neurons to protect against excessive tensile strain (Autogenic Inhibition)",
+      "An endocrine gland that secretes human growth hormone directly into the knee joint capsule",
+      "A thermal receptor in the epidermis that detects cold air temperatures during winter training",
+      "A receptor sensitive strictly to rapid changes in muscle length that initiates the stretch reflex"
+    ],
+    "correct": 0,
+    "explanation": "Golgi Tendon Organs (GTOs) are encapsulated sensory receptors arranged in series with tendon fibers. When tension increases, GTO Ib afferents excite inhibitory interneurons in the spinal cord, reducing alpha motoneuron drive (autogenic inhibition).",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby"
+  },
+  {
+    "id": 830,
+    "section": "A1",
+    "text": "In sports nutrition, what is the physiological role of 'Vitamin C' (Ascorbic Acid) in collagen synthesis and connective tissue repair?",
+    "options": [
+      "Vitamin C has zero interaction with human connective tissue or collagen formation",
+      "Essential co-factor for the enzymes Prolyl Hydroxylase and Lysyl Hydroxylase, which hydroxylate proline and lysine residues to form stable triple-helix tropocollagen cross-links",
+      "Destroys all extracellular matrix proteins to allow rapid fat accumulation in muscle",
+      "Directly converts into muscle glycogen inside contracting slow-twitch Type I fibers"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin C is an indispensable co-factor for prolyl and lysyl hydroxylases. Hydroxylation is required for proper triple-helix cross-linking of collagen fibrils; deficiency impairs wound healing and tendon tensile strength.",
+    "source": "Sports Nutrition - Asker Jeukendrup & Michael Gleeson / Shaw et al."
+  },
+  {
+    "id": 831,
+    "section": "A1",
+    "text": "In athlete monitoring, what is the 'Daily Undulating Periodization' (DUP) model?",
+    "options": [
+      "A periodization system where athletes train only during the night and sleep all day",
+      "A periodization structure where training volume and intensity are varied within each microcycle on a daily basis (e.g., Monday = Hypertrophy 10RM, Wednesday = Strength 5RM, Friday = Power 3RM)",
+      "A model where athletes perform the exact same exercise with identical weights for 10 straight years",
+      "A training system that completely eliminates all resistance training from sports preparation"
+    ],
+    "correct": 1,
+    "explanation": "Daily Undulating Periodization (DUP) fluctuates volume and intensity between sessions within the same week (e.g., Hypertrophy -> Strength -> Power), preventing neural accommodation and promoting diverse physical adaptations.",
+    "source": "Essentials of Strength Training and Conditioning (NSCA) - G. Gregory Haff & N. Travis Triplett / Rhea et al."
+  },
+  {
+    "id": 832,
+    "section": "A1",
+    "text": "In altitude acclimatization, what physiological adaptation occurs in blood composition over 2 to 4 weeks of prolonged exposure?",
+    "options": [
+      "Reduction in blood hematocrit down to 10% causing severe systemic anemia",
+      "Expansion of total Red Blood Cell Mass and Hemoglobin Mass driven by sustained EPO secretion, increasing arterial oxygen-carrying content ($CaO_2$)",
+      "Complete destruction of all circulating platelets leading to spontaneous internal hemorrhage",
+      "Conversion of red blood cells into white blood cells inside the spleen"
+    ],
+    "correct": 1,
+    "explanation": "Chronic altitude acclimatization stimulates prolonged erythropoiesis via EPO, expanding red cell volume and total hemoglobin mass by ~1% per 100 hours of hypoxic exposure, restoring arterial oxygen delivery.",
+    "source": "Exercise Physiology - Kenney, Wilmore & Costill / Gore et al."
+  },
+  {
+    "id": 833,
+    "section": "A2",
+    "text": "Under the 'Scheme of Assistance to National Sports Federations' (MYAS), what financial support is provided for international exposure of national teams?",
+    "options": [
+      "Athletes must pay 100% of all international travel and hotel expenses from personal savings",
+      "Full funding of international airfares, boarding/lodging, visa fees, out-of-pocket allowances, and medical insurance for national teams participating in approved international tournaments",
+      "Financial assistance is restricted strictly to domestic train travel within India",
+      "Commercial airline tickets are provided only if the team wins a gold medal in the final"
+    ],
+    "correct": 1,
+    "explanation": "Under the Scheme of Assistance to NSFs, the Government of India provides 100% financial assistance for preparing national teams, including international exposure, boarding/lodging, foreign coaches, and medical insurance.",
+    "source": "MYAS Annual Report / Scheme of Assistance to NSFs Guidelines"
+  },
+  {
+    "id": 834,
+    "section": "A2",
+    "text": "Under the 2021 World Anti-Doping Code, what constitutes an 'Adverse Analytical Finding' (AAF)?",
+    "options": [
+      "A medical report confirming that an athlete is physically fit to compete in the Olympics",
+      "A report from a WADA-accredited laboratory identifying the presence of a Prohibited Substance or its Metabolites or Markers in an athlete's biological sample",
+      "A receipt confirming payment of annual federation membership fees",
+      "A laboratory finding indicating that the collected urine sample is 100% clean and negative"
+    ],
+    "correct": 1,
+    "explanation": "An Adverse Analytical Finding (AAF) is the official analytical determination by a WADA-accredited laboratory confirming the presence of a prohibited substance, metabolite, or marker in Sample A.",
+    "source": "WADA World Anti-Doping Code / NADA India Handbook"
+  },
+  {
+    "id": 835,
+    "section": "A2",
+    "text": "Under the WADA Prohibited List, in which category are 'Glucocorticoids' classified and when are they prohibited?",
+    "options": [
+      "Category P1; prohibited only in archery and shooting competitions",
+      "Category S9 (Glucocorticoids); prohibited IN-COMPETITION when administered by any injectable, oral, or rectal route",
+      "Glucocorticoids are completely permitted at all times via all administration routes",
+      "Category S1 (Anabolic Agents); prohibited at all times by any route"
+    ],
+    "correct": 1,
+    "explanation": "Under WADA S9, all glucocorticoids are prohibited in-competition when administered by any injectable (intra-articular, intramuscular, periarticular), oral, or rectal route, requiring strict clearance wash-out periods or TUEs.",
+    "source": "WADA 2024 Prohibited List / NADA India"
+  },
+  {
+    "id": 836,
+    "section": "A2",
+    "text": "In Anti-Doping sample collection, what is the role of the 'Doping Control Officer' (DCO)?",
+    "options": [
+      "A commercial coach who prescribes tactical drills to the opposing sports squad",
+      "A sports journalist who broadcasts live video of athlete testing sessions",
+      "A trained and accredited official with delegated responsibility for managing the on-site sample collection session, ensuring strict chain of custody and athlete rights under WADA standards",
+      "A pharmacist who dispenses ergogenic performance supplements to national squads"
+    ],
+    "correct": 2,
+    "explanation": "The DCO is the certified official responsible for managing sample collection, verifying athlete identity, overseeing direct observation of urine provision (or blood draw via BCO), and securing sealed transport to WADA-accredited labs.",
+    "source": "WADA International Standard for Testing and Investigations / NADA India"
+  },
+  {
+    "id": 837,
+    "section": "A2",
+    "text": "Which city will host the XXXIII Olympic Summer Games in 2024?",
+    "options": [
+      "Madrid, Spain",
+      "London, United Kingdom",
+      "Paris, France (Paris 2024)",
+      "Berlin, Germany"
+    ],
+    "correct": 2,
+    "explanation": "The 2024 Summer Olympic and Paralympic Games were hosted by Paris, France (Paris 2024).",
+    "source": "International Olympic Committee (IOC) Official Records"
+  },
+  {
+    "id": 838,
+    "section": "A2",
+    "text": "In the governance of Indian sports, what is the primary role of the 'Indian Olympic Association' (IOA)?",
+    "options": [
+      "A division of the Indian Armed Forces dedicated to mountain mountaineering",
+      "A commercial construction company that builds shopping malls in New Delhi",
+      "The National Olympic Committee (NOC) of India, recognized by the IOC, responsible for selecting, entering, and managing Indian delegations at the Olympic Games, Asian Games, and Commonwealth Games",
+      "A private medical hospital providing open-heart surgery for retired politicians"
+    ],
+    "correct": 2,
+    "explanation": "The IOA is the recognized National Olympic Committee (NOC) and Commonwealth Games Association (CGA) for India, managing Indian representation and team participation in multi-sport mega games.",
+    "source": "Indian Olympic Association Official Statutes / Olympic Charter"
+  },
+  {
+    "id": 839,
+    "section": "A2",
+    "text": "Under the National Sports Awards scheme of India, the 'Arjuna Award' is conferred for:",
+    "options": [
+      "Coaching excellence and mentoring junior athletes in municipal sports clubs",
+      "Consistent high performance, leadership qualities, sportsmanship, and discipline over a period of four years in recognized international sports disciplines",
+      "Lifetime contribution to sports journalism across regional television channels",
+      "Winning a gold medal in an inter-school friendly match"
+    ],
+    "correct": 1,
+    "explanation": "The Arjuna Award (instituted in 1961) is conferred by the President of India to sportspersons for consistent high performance, sportsmanship, and discipline over the preceding four years.",
+    "source": "Ministry of Youth Affairs and Sports (MYAS) Scheme for Arjuna Award"
+  },
+  {
+    "id": 840,
+    "section": "A2",
+    "text": "Under the National Anti-Doping Agency (NADA India) regulations, what is 'Results Management'?",
+    "options": [
+      "Publishing athlete telephone numbers on public social media websites",
+      "Managing the ticket sales revenue generated by national championship events",
+      "Calculating the total points scored by an athlete in a basketball match",
+      "The formal administrative and legal process governing the period from notification of an Adverse Analytical Finding or other ADRV through to the final adjudication hearing, sanction, and appeal"
+    ],
+    "correct": 3,
+    "explanation": "Results Management encompasses the pre-hearing review, initial notice, provisional suspension, investigation, disciplinary panel adjudication (ADDP), and appeals (NADAP/CAS) under the International Standard for Results Management (ISRM).",
+    "source": "WADA International Standard for Results Management / NADA India Guidelines"
+  },
+  {
+    "id": 841,
+    "section": "B",
+    "text": "The 'Anterior Drawer Test' of the Knee is performed with the patient supine, knee flexed to 90°, and foot stabilized on the table. A positive test demonstrating >6mm anterior tibial translation evaluates:",
+    "options": [
+      "Posterior cruciate ligament rupture causing posterior tibial sag",
+      "Lateral collateral ligament rupture with lateral opening",
+      "Anterior Cruciate Ligament (ACL) structural laxity, particularly the anteromedial bundle",
+      "Patellar tendon complete rupture at the inferior pole"
+    ],
+    "correct": 2,
+    "explanation": "The anterior drawer test at 90° knee flexion strains the anteromedial bundle of the ACL. Anterior translation >6mm with a soft end-feel confirms ACL deficiency (though Lachman is more sensitive for acute tears due to less hamstring guarding).",
+    "source": "Orthopedic Physical Assessment - David J. Magee"
+  },
+  {
+    "id": 842,
+    "section": "B",
+    "text": "The 'Valgus Stress Test' of the Knee, when performed at 30° of knee flexion versus 0° (full extension), differentiates:",
+    "options": [
+      "Patellar subluxation at 30° flexion; quadriceps rupture at 0° extension",
+      "Iliotibial band friction syndrome at 30° flexion; popliteus tendon rupture at 0° extension",
+      "Lateral meniscus tear at 30° flexion; medial meniscus tear at 0° extension",
+      "Isolated Superficial Medial Collateral Ligament (sMCL) tear at 30° flexion; major combined injury (MCL + ACL/PCL and posterior capsule) if positive at 0° full extension"
+    ],
+    "correct": 3,
+    "explanation": "At 30° flexion, posterior capsular and cruciate secondary restraints are relaxed, isolating the sMCL. If medial joint opening occurs in full extension (0°), severe combined disruption of the MCL, posterior oblique ligament, and cruciates is present.",
+    "source": "Orthopedic Physical Assessment - David J. Magee"
+  },
+  {
+    "id": 843,
+    "section": "B",
+    "text": "The 'Empty Can Test' (Jobe Test) is performed with the shoulder in 90° abduction in the scapular plane, internally rotated (thumbs pointing down), and resisting downward force. Weakness or pain indicates tear of:",
+    "options": [
+      "Supraspinatus muscle tendon complex",
+      "Pectoralis minor muscle at the coracoid process",
+      "Latissimus dorsi muscle along the posterior thoracic wall",
+      "Subscapularis tendon insertion at the lesser tuberosity"
+    ],
+    "correct": 0,
+    "explanation": "Jobe's Empty Can test isolates the supraspinatus in the scapular plane (~30° anterior to frontal plane) with full internal rotation. Significant weakness or pain reproduction confirms supraspinatus tendinopathy or tear.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Jobe & Moynes"
+  },
+  {
+    "id": 844,
+    "section": "B",
+    "text": "The 'Lift-Off Test' (Gerber's Test) and 'Belly-Press Test' (Napoleon Sign) are specialized clinical physical assessment tests for evaluating which rotator cuff muscle?",
+    "options": [
+      "Infraspinatus muscle (external rotator)",
+      "Subscapularis muscle (internal rotator)",
+      "Supraspinatus muscle (abductor)",
+      "Teres Minor muscle (external rotator)"
+    ],
+    "correct": 1,
+    "explanation": "Gerber's Lift-Off test (lifting hand off the lumbar spine against resistance) and Belly-Press test evaluate the subscapularis. Inability to lift the hand or maintain belly-press with the wrist straight confirms subscapularis tear.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Gerber & Krushell"
+  },
+  {
+    "id": 845,
+    "section": "B",
+    "text": "The 'Well Straight Leg Raise' (Crossed SLR / Fajersztajn Test) is positive when lifting the UNINVOLVED leg reproduces radicular symptoms down the OPPOSITE (involved) leg, indicating:",
+    "options": [
+      "Trochanteric bursitis localized to the uninvolved hip",
+      "A minor superficial hamstring muscle strain in the uninvolved leg",
+      "Complete structural fracture of the contralateral femoral neck",
+      "A large, space-occupying Medial / Axillary Lumbar Disc Herniation, highly specific (>90%) for nerve root compression"
+    ],
+    "correct": 3,
+    "explanation": "Crossed SLR (Fajersztajn sign): elevating the non-painful leg pulls the anterior dural sac and contralateral nerve root downward against an axillary/medial disc herniation, demonstrating high specificity (>90%) for herniated disc.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Fajersztajn"
+  },
+  {
+    "id": 846,
+    "section": "B",
+    "text": "The 'Gaenslen's Test' is performed to diagnose sacroiliac (SI) joint pathology by:",
+    "options": [
+      "Palpating the ischial tuberosity during active knee extension",
+      "Applying direct downward axial pressure over the pubic symphysis",
+      "Patient supine with one hip maximally flexed to the chest while the other leg is extended over the edge of the table, stressing the bilateral SI joints in opposite rotational directions",
+      "Compressing the bilateral ASIS together in side-lying position"
+    ],
+    "correct": 2,
+    "explanation": "Gaenslen's test creates a powerful sagittal shearing torque across the SI joint (ipsilateral hip flexed, contralateral hip hyperextended over table edge); pain reproduction in the posterior SI joint indicates sacroiliac dysfunction.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Laslett"
+  },
+  {
+    "id": 847,
+    "section": "B",
+    "text": "The 'Talar Tilt Test' (Inversion Stress Test) in neutral ankle position assesses the structural integrity of which lateral ligament?",
+    "options": [
+      "Anterior Talofibular Ligament (ATFL) in isolation",
+      "Long plantar ligament under the calcaneocuboid joint",
+      "Calcaneofibular Ligament (CFL), where excessive talar tilting >5°–10° compared to the contralateral normal ankle indicates ligamentous disruption",
+      "Deltoid ligament superficial tibionavicular fibers"
+    ],
+    "correct": 2,
+    "explanation": "In 0° neutral/dorsiflexion, the Calcaneofibular Ligament (CFL) spans vertically across the subtalar and talocrural joints; passive inversion stress in neutral isolates and tests the CFL (ATFL is tested in plantarflexion).",
+    "source": "Orthopedic Physical Assessment - David J. Magee"
+  },
+  {
+    "id": 848,
+    "section": "B",
+    "text": "The 'Wartenberg's Sign' evaluates ulnar nerve motor neuropathy. What is the physical clinical presentation of a positive test?",
+    "options": [
+      "Hyper-flexion of the thumb interphalangeal joint during pinch grip",
+      "Involuntary persistent abduction of the fifth (little) finger away from the fourth finger due to unopposed action of the Extensor Digiti Minimi (radial nerve) and weakness of the 3rd Palmar Interosseous muscle (ulnar nerve)",
+      "Complete numbness across the entire volar surface of the thumb",
+      "Severe spasm of the pronator teres muscle causing forearm pronation"
+    ],
+    "correct": 1,
+    "explanation": "Wartenberg's sign (ulnar neuropathy at cubital tunnel or Guyon's canal): denervation of the palmar interossei (ulnar) prevents little finger adduction, leaving the extensor digiti minimi (radial) unopposed to hold the 5th digit abducted.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Wartenberg"
+  },
+  {
+    "id": 849,
+    "section": "B",
+    "text": "In the rehabilitation of shoulder impingement, what is the 'Sleeper Stretch' and what anatomical structure does it stretch?",
+    "options": [
+      "Passive external rotation stretching performed while hanging from an overhead bar",
+      "Patient side-lying on the involved shoulder with the arm in 90° flexion, using the opposite hand to gently push the forearm into internal rotation, stretching the Posterior-Inferior Glenohumeral Joint Capsule",
+      "Standing upright while pulling the arm across the front of the throat",
+      "Lying prone on a bench while holding 20 kg dumbbells in full extension"
+    ],
+    "correct": 1,
+    "explanation": "The Sleeper stretch (side-lying on involved side with torso rolled back 20°–30°, shoulder/elbow flexed to 90°, internally rotating the forearm) isolates and stretches the posterior-inferior capsule to reduce GIRD in throwers.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby / Wilk"
+  },
+  {
+    "id": 850,
+    "section": "B",
+    "text": "In knee rehabilitation, what is the biomechanical difference in Patellofemoral Joint Contact Stress between 'Open Kinetic Chain' (OKC - seated knee extension) and 'Closed Kinetic Chain' (CKC - squatting/leg press)?",
+    "options": [
+      "In OKC, patellofemoral stress PEAKS at 0°–30° terminal extension (lowest at 90°), whereas in CKC, patellofemoral stress PEAKS at deep flexion >60°–90° (lowest at 0°–30°)",
+      "In CKC, patellofemoral stress occurs only during the flight swing phase",
+      "Patellofemoral stress is identical at 100% across all angles in both OKC and CKC",
+      "In OKC, patellofemoral stress is zero at all joint angles"
+    ],
+    "correct": 0,
+    "explanation": "Steinkamp and Powers proved that OKC knee extension produces peak PF joint contact stress from 30°–0° extension (avoid early in PFPS), while CKC squats produce peak PF stress at deep angles 60°–90° (safe to train CKC from 0°–45°).",
+    "source": "Therapeutic Exercise - Kisner & Colby / Powers et al."
+  },
+  {
+    "id": 851,
+    "section": "B",
+    "text": "In manual therapy according to Maitland, what defines a 'Grade II' joint mobilization technique?",
+    "options": [
+      "A large-amplitude rhythmic oscillatory movement performed within the pain-free mid-range of available movement, not reaching the limit of range or tissue resistance",
+      "A continuous static compressive force held for 60 seconds",
+      "A high-velocity thrust manipulation performed at anatomical limit",
+      "A small-amplitude oscillation performed into end-range tissue stiffness"
+    ],
+    "correct": 0,
+    "explanation": "Maitland Grade II is a large-amplitude oscillation within the free range of motion, short of resistance. It stimulates mechanoreceptors to reduce pain and enhance synovial fluid dispersion in subacute joints.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby"
+  },
+  {
+    "id": 852,
+    "section": "B",
+    "text": "In PNF stretching, the 'Hold-Relax' (HR) technique is performed by:",
+    "options": [
+      "Performing 50 rapid ballistic bouncing jerks into painful range",
+      "Taking the tight muscle to end-range, performing a 5- to 10-second submaximal or maximal ISOMETRIC contraction against unyielding manual resistance, followed by voluntary relaxation and passive movement into the newly gained range",
+      "Applying continuous ice massage while keeping the limb completely stationary",
+      "Immobilizing the joint in a plaster splint for 3 consecutive weeks"
+    ],
+    "correct": 1,
+    "explanation": "Hold-Relax: the tight muscle is lengthened to end-range, followed by a 5–10s isometric contraction against resistance (firing GTOs to trigger autogenic inhibition), then relaxed and passively moved into greater elongation.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby"
+  },
+  {
+    "id": 853,
+    "section": "B",
+    "text": "In the treatment of calcific shoulder tendinopathy, what is the primary physiological effect of 'High-Energy Radial Extracorporeal Shockwave Therapy' (rESWT)?",
+    "options": [
+      "Freezing calcific deposits into solid non-reactive ice crystals",
+      "Direct electrical destruction of all motor nerves in the deltoid muscle",
+      "Permanent surgical excision of the entire acromion bone structure",
+      "Cavitation forces and mechanical shockwaves fragment calcific deposits, stimulate cellular hyperaemia and neo-angiogenesis, and promote macrophage-mediated resorption of calcium hydroxyapatite crystals"
+    ],
+    "correct": 3,
+    "explanation": "Shockwave therapy for calcific tendinitis uses acoustic cavitation to disrupt brittle hydroxyapatite deposits, stimulating localized inflammatory hyperaemia, macrophage phagocytosis, and tissue regeneration.",
+    "source": "Electrotherapy: Evidence-Based Practice - Tim Watson / Rompe et al."
+  },
+  {
+    "id": 854,
+    "section": "B",
+    "text": "In the McKenzie Method (MDT), what directional preference is most commonly observed in patients presenting with posterior lumbar intervertebral disc derangements?",
+    "options": [
+      "Lateral Rotation Preference (high-velocity spinal twisting movements)",
+      "Extension Directional Preference (repeated prone press-ups and standing extension movements rapidly centralize and abolish radicular pain)",
+      "Flexion Directional Preference (repeated seated toe-touches rapidly centralize pain)",
+      "Disc derangements have zero directional preference under mechanical evaluation"
+    ],
+    "correct": 1,
+    "explanation": "In ~80–85% of lumbar disc derangements (posterior/posterolateral displacements), repeated Extension creates anterior compressive forces that migrate the nuclear material anteriorly, centralizing symptoms.",
+    "source": "Physiotherapy in Musculoskeletal Conditions - Prof. P.P. Mohanty / McKenzie & May"
+  },
+  {
+    "id": 855,
+    "section": "B",
+    "text": "In kinesiology, what is the 'Convex-Concave Rule' for the Hip Joint during active open-chain Hip Flexion and Abduction?",
+    "options": [
+      "The femoral head undergoes pure horizontal rotation with zero glide motion",
+      "The concave acetabulum rolls posteriorly on the fixed femoral head",
+      "The convex femoral head rolls and glides in the exact same direction within the acetabulum",
+      "The convex femoral head rolls anteriorly/superiorly and glides (slides) POSTERIORLY/INFERIORLY in the opposite direction within the concave acetabulum"
+    ],
+    "correct": 3,
+    "explanation": "The hip is a ball-and-socket joint where the convex femoral head moves in the concave acetabulum. Roll and slide occur in OPPOSITE directions: Flexion = anterior roll / posterior glide; Abduction = superior roll / inferior glide.",
+    "source": "Kinesiology of the Musculoskeletal System - Donald A. Neumann"
+  },
+  {
+    "id": 856,
+    "section": "B",
+    "text": "During the 'Mid-Swing' phase of human gait, what is the primary functional requirement of the swinging limb?",
+    "options": [
+      "Full 0° extension of the knee joint to strike the ground with the heel",
+      "Explosive concentric plantarflexion of the calf muscles to touch the floor",
+      "Maximal adduction of the hip joint across the midline of the body",
+      "Ankle dorsiflexion maintained at 0° neutral by the Tibialis Anterior to ensure adequate toe clearance over the ground, with the limb advancing anterior to the stance leg"
+    ],
+    "correct": 3,
+    "explanation": "In Mid-Swing (from vertical shank to tibia vertical forward), the primary task is ground clearance: the tibialis anterior maintains neutral 0° dorsiflexion while hip/knee flexion smoothly carries the foot past the stance leg.",
+    "source": "Gait Analysis: Normal and Pathological Function - Jacquelin Perry & Judith M. Burnfield"
+  },
+  {
+    "id": 857,
+    "section": "B",
+    "text": "In spinal rehabilitation, which deep local muscular sling provides feedforward anticipatory postural stabilization of the sacroiliac joint before limb movement?",
+    "options": [
+      "Pectoralis Major and Latissimus Dorsi upper body muscular slings",
+      "Gastrocnemius and Soleus deep posterior kinetic chain musculature",
+      "Transversus Abdominis, Multifidus, Pelvic Floor Musculature, and Diaphragm (Inner Core Cylinder)",
+      "Rectus Abdominis and External Obliques superficial anterior abdominal wall"
+    ],
+    "correct": 2,
+    "explanation": "Hodges, Richardson, and Lee established that the 'Inner Core Cylinder' (Transversus Abdominis, Lumbar Multifidus, Pelvic Floor, and Diaphragm) fires via feedforward timing (pre-programmed CNS drive) to stabilize the spine/SIJ prior to limb motion.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby / Hodges"
+  },
+  {
+    "id": 858,
+    "section": "B",
+    "text": "A 'Gluteus Maximus Lurch' (Extensor Lurch Gait) is a pathological compensation characterized by:",
+    "options": [
+      "Rapid alternating internal and external rotation of the foot during stance",
+      "Excessive hip hiking on the swing side to clear a stiff knee",
+      "A backward backward trunk lean (hyperextension of the torso) at initial contact to move the ground reaction force vector posterior to the hip joint, compensating for weak hip extensors",
+      "A forward trunk lean over the toes to accelerate walking speed"
+    ],
+    "correct": 2,
+    "explanation": "Gluteus maximus weakness causes an extensor lurch: the patient thrusts the thorax posteriorly at initial contact, moving the body COM and GRF vector posterior to the hip joint axis to lock the hip in passive extension without active gluteal torque.",
+    "source": "Gait Analysis: Normal and Pathological Function - Jacquelin Perry & Judith M. Burnfield"
+  },
+  {
+    "id": 859,
+    "section": "B",
+    "text": "In foot and ankle biomechanics, what is the function of the 'Plantar Calcaneonavicular Ligament' (Spring Ligament)?",
+    "options": [
+      "Restrains extreme inversion of the calcaneus during heel strike",
+      "Connects the distal fibula to the lateral calcaneal wall",
+      "Acts as a contractile muscle belly that flexes the smaller toes",
+      "Supports the head of the talus, maintaining the integrity of the Medial Longitudinal Arch of the foot against downward gravitational forces"
+    ],
+    "correct": 3,
+    "explanation": "The Spring Ligament (calcaneonavicular) forms a fibrocartilaginous cradle supporting the talar head, playing an indispensable role alongside the tibialis posterior tendon in maintaining the medial longitudinal arch.",
+    "source": "Kinesiology of the Musculoskeletal System - Donald A. Neumann"
+  },
+  {
+    "id": 860,
+    "section": "B",
+    "text": "In shoulder kinematics, what is 'Scapular Posterior Tipping' and why is it essential during full overhead arm elevation?",
+    "options": [
+      "The entire scapula shifts inferiorly into the lower lumbar spine segments",
+      "The inferior angle of the scapula wings off the ribcage by 10 centimeters",
+      "The clavicle fractures at the sternoclavicular articulation joint",
+      "The superior border of the scapula moves posteriorly relative to the inferior angle (driven by Lower Trapezius and Serratus Anterior), elevating the anterior acromion to prevent subacromial impingement"
+    ],
+    "correct": 3,
+    "explanation": "During overhead elevation, normal scapular kinematics involve upward rotation, external rotation, and posterior tipping (~20°). Posterior tilt tilts the acromion up and away from the humeral head, maximizing subacromial clearance.",
+    "source": "Kinesiology of the Musculoskeletal System - Donald A. Neumann / Ludewig & Cook"
+  },
+  {
+    "id": 861,
+    "section": "B",
+    "text": "During the 'Terminal Swing' (Deceleration) phase of high-speed running, which muscle group undergoes maximal eccentric lengthening contraction to decelerate forward shank progression?",
+    "options": [
+      "Iliopsoas contracting isometrically inside the retroperitoneal cavity",
+      "Peroneus Longus and Brevis evertor muscles of the lateral ankle",
+      "Quadriceps femoris contracting concentrically to snap the knee straight",
+      "Hamstrings muscle group (Biceps Femoris, Semitendinosus, Semimembranosus)"
+    ],
+    "correct": 3,
+    "explanation": "In Terminal Swing, the hamstrings reach peak muscle-tendon stretch while contracting with maximal eccentric force to decelerate hip flexion and knee extension before foot strike, representing the primary injury mechanism for sprint strains.",
+    "source": "Gait Analysis: Normal and Pathological Function - Jacquelin Perry & Judith M. Burnfield / Chumanov et al."
+  },
+  {
+    "id": 862,
+    "section": "B",
+    "text": "In kinesiology, what is 'Passive Insufficiency' of a multi-joint muscle?",
+    "options": [
+      "A temporary muscular cramp caused by acute sweat dehydration",
+      "The failure of a muscle to produce force when maximally shortened across all joints",
+      "A complete flaccid paralysis caused by transection of the anterior horn cells",
+      "The inability of a multi-joint muscle to lengthen sufficiently to allow full physiological range of motion across all the joints it crosses simultaneously (e.g., tight Hamstrings limiting hip flexion when the knee is fully extended)"
+    ],
+    "correct": 3,
+    "explanation": "Passive insufficiency occurs when a multi-joint muscle is stretched across all its joints simultaneously; passive tissue tension reaches its elastic limit, restricting full joint range of motion (e.g., hamstrings during straight leg raise).",
+    "source": "Kinesiology of the Musculoskeletal System - Donald A. Neumann"
+  },
+  {
+    "id": 863,
+    "section": "B",
+    "text": "In therapeutic electrotherapy, according to the 'Ohm's Law' ($I = V / R$), what occurs to current flow ($I$) if electrical resistance/impedance ($R$) of the skin is reduced by pre-warming and moistening the skin?",
+    "options": [
+      "Current flow increases proportionally at a given voltage, allowing greater therapeutic current delivery with less electrical discomfort and lower skin voltage requirements",
+      "Skin impedance has zero mathematical relationship to electrical current flow",
+      "Current flow drops to absolute zero, preventing any electrical conduction",
+      "The electrical stimulator unit short-circuits and shuts down permanently"
+    ],
+    "correct": 0,
+    "explanation": "By Ohm's Law ($I = V/R$), reducing skin resistance (cleansing, warming, moist conductive hydrogel) lowers impedance, allowing adequate therapeutic current to penetrate target tissues at lower voltages with minimal sensory stinging.",
+    "source": "Electrotherapy: Evidence-Based Practice - Tim Watson"
+  },
+  {
+    "id": 864,
+    "section": "B",
+    "text": "In therapeutic ultrasound, what is the 'Effective Radiating Area' (ERA)?",
+    "options": [
+      "The electrical voltage supplied to the piezoelectric transducer unit",
+      "The depth of penetration of acoustic sound waves measured in millimeters",
+      "The total square footage of the physical therapy clinic room",
+      "The surface area of the ultrasound transducer crystal face that actually generates acoustic energy, which is always slightly smaller than the total geometric surface area of the treatment soundhead"
+    ],
+    "correct": 3,
+    "explanation": "ERA is the surface area of the vibrating piezoelectric crystal from which the acoustic beam emanates, measured 5 mm from the transducer face. Treatment area should not exceed 2–3 times the ERA for effective heating.",
+    "source": "Electrotherapy: Evidence-Based Practice - Tim Watson"
+  },
+  {
+    "id": 865,
+    "section": "B",
+    "text": "In High-Voltage Pulsed Current (HVPC) electrotherapy, what polarity is applied to the active treatment electrode to accelerate tissue healing during the 'Inflammatory / Infected' phase of open sports wounds?",
+    "options": [
+      "CATHODE (Negative Polarity) to attract fibroblasts exclusively",
+      "High-frequency radio waves delivered without any electrode contact",
+      "Alternating sine waves delivered at 100,000 Hz continuously",
+      "ANODE (Positive Polarity) to attract negatively charged neutrophils, macrophages, and epidermal cells and provide antimicrobial effects"
+    ],
+    "correct": 3,
+    "explanation": "HVPC galvanotaxis: In the acute inflammatory/infected phase, the positive pole (Anode) attracts negatively charged macrophages, neutrophils, and promotes wound debridement; in the later proliferation phase, the Cathode attracts fibroblasts.",
+    "source": "Electrotherapy: Evidence-Based Practice - Tim Watson / Kloth"
+  },
+  {
+    "id": 866,
+    "section": "B",
+    "text": "In hydrotherapy, what is the principle of 'Buoyancy' (Archimedes' Principle) and how does water depth reduce weight-bearing load on lower extremity joints?",
+    "options": [
+      "An upward buoyant force equal to the weight of displaced water offloads joint compressive stress: immersion to the Xiphoid Process offloads ~60–75% of body weight, while immersion to the Neck offloads ~90%",
+      "Water buoyancy acts downward, pulling the athlete toward the pool floor",
+      "Immersion in water doubles the weight-bearing compressive forces on the knee joint",
+      "Water temperature completely eliminates gravitational forces on human bones"
+    ],
+    "correct": 0,
+    "explanation": "Archimedes' buoyancy principle provides progressive joint unweighting: immersion to ASIS offloads ~50% body weight, to xiphoid offloads ~60–75%, and to C7/neck offloads ~90%, allowing early protected aquatic rehab.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby"
+  },
+  {
+    "id": 867,
+    "section": "B",
+    "text": "In neuromuscular electrical stimulation, what is the 'Duty Cycle' (On:Off Ratio) standardly selected in early rehabilitation to avoid rapid muscular fatigue?",
+    "options": [
+      "1:5 Duty Cycle (e.g., 10 seconds contraction ON time followed by 50 seconds rest OFF time)",
+      "10:1 Duty Cycle (50 seconds ON followed by 5 seconds OFF)",
+      "1:1 Duty Cycle (10 seconds ON followed by 10 seconds OFF)",
+      "Continuous 100% ON time without any rest period for 60 consecutive minutes"
+    ],
+    "correct": 0,
+    "explanation": "Because NMES reverses Henneman's size principle (recruiting fatigue-prone Type II units first in a synchronous manner), a 1:5 duty cycle (e.g., 10s on, 50s off) is essential to permit metabolic recovery between contractions.",
+    "source": "Electrotherapy: Evidence-Based Practice - Tim Watson"
+  },
+  {
+    "id": 868,
+    "section": "B",
+    "text": "In neuro-rehabilitation, what is the 'Fitts' Law' in motor control?",
+    "options": [
+      "A law stating that all motor learning is completely independent of visual feedback",
+      "A mathematical model describing the trade-off between speed and accuracy in human movement: movement time ($MT$) increases linearly as the Index of Difficulty increases ($MT = a + b \\log_2(2D/W)$)",
+      "A formula calculating the maximal sprinting speed of track athletes",
+      "A law stating that reflex actions are faster than voluntary movements by 1000 times"
+    ],
+    "correct": 1,
+    "explanation": "Fitts' Law ($MT = a + b \\log_2[2D/W]$) establishes the Speed-Accuracy Tradeoff in motor execution: aiming tasks require more time as target distance ($D$) increases or target width ($W$) decreases.",
+    "source": "Physical Rehabilitation - Susan B. O'Sullivan & Thomas J. Schmitz / Fitts"
+  },
+  {
+    "id": 869,
+    "section": "B",
+    "text": "In Proprioceptive Neuromuscular Facilitation (PNF), the 'D2 Flexion' pattern of the Upper Extremity consists of which combined triplanar movements?",
+    "options": [
+      "Shoulder Flexion, Abduction, and External Rotation with forearm Supination and wrist/finger Extension ('drawing a sword from the opposite scabbard and elevating it into the air')",
+      "Shoulder Extension, Adduction, and Internal Rotation with forearm Pronation",
+      "Shoulder Flexion, Adduction, and Internal Rotation with forearm Pronation",
+      "Shoulder Extension, Abduction, and External Rotation with wrist Flexion"
+    ],
+    "correct": 0,
+    "explanation": "PNF UE D2 Flexion (unsheathing and raising a sword overhead): Shoulder Flexion + Abduction + External Rotation, Forearm Supination, and Wrist/Finger Extension pointing away from midline.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby / Knott & Voss"
+  },
+  {
+    "id": 870,
+    "section": "B",
+    "text": "In cerebral palsy and spasticity assessment, what does 'Clonus' signify during a rapid passive ankle dorsiflexion stretch?",
+    "options": [
+      "A series of rhythmic, involuntary, alternating muscle contractions and relaxations (hyper-reflexia) indicative of an Upper Motor Neuron (UMN) lesion",
+      "A structural bone fracture of the medial malleolus with ligamentous tear",
+      "A complete flaccid paralysis caused by lower motor neuron peripheral nerve severance",
+      "A normal physiological reflex seen in all healthy international athletes"
+    ],
+    "correct": 0,
+    "explanation": "Clonus (sustained rhythmic oscillations triggered by sudden stretch) reflects loss of descending upper motor neuron inhibitory control over spinal stretch reflex arcs, pathognomonic for UMN pathology.",
+    "source": "Physical Rehabilitation - Susan B. O'Sullivan & Thomas J. Schmitz"
+  },
+  {
+    "id": 871,
+    "section": "B",
+    "text": "In balance assessment, what does the 'Sensory Organization Test' (SOT / EquiTest) systematically evaluate by manipulating visual and somatosensory inputs?",
+    "options": [
+      "The respiratory pulmonary vital capacity during underwater submergence",
+      "The athlete's ability to effectively integrate and weight three sensory balance systems: 1. Somatosensory, 2. Visual, and 3. Vestibular under sway-referenced conditions",
+      "The maximal isometric strength of the quadriceps and hamstring muscle groups",
+      "The acoustic hearing frequency range of the athlete in decibels"
+    ],
+    "correct": 1,
+    "explanation": "Nashner's SOT systematically disrupts or isolates somatosensory (moving platform) and visual (moving visual surround) inputs across 6 conditions to determine which sensory system (somatosensory, visual, vestibular) the patient relies on.",
+    "source": "Physical Rehabilitation - Susan B. O'Sullivan & Thomas J. Schmitz / Nashner"
+  },
+  {
+    "id": 872,
+    "section": "B",
+    "text": "In clinical neuro-rehabilitation, what is the 'Mirror Therapy' (Vilayanur Ramachandran) and what is its primary mechanism of action?",
+    "options": [
+      "Placing a vertical mirror between the limbs so that movement of the healthy limb visually superimposes over the paretic/amputated limb, stimulating mirror neurons and somatosensory cortex neuroplasticity to reduce phantom pain or hemiparesis",
+      "Using a magnifying glass to check for superficial skin cuts on the hands",
+      "Immobilizing the head in a fixed halo brace to prevent neck rotation",
+      "Practicing tennis backhand strokes in front of a mirror to check uniform style"
+    ],
+    "correct": 0,
+    "explanation": "Mirror therapy (Ramachandran) utilizes visual feedback of the moving sound limb in a mirror to trick the brain, activating premotor mirror neuron networks, reducing learned non-use, and modulating phantom/stroke cortical maladaptive reorganization.",
+    "source": "Physical Rehabilitation - Susan B. O'Sullivan & Thomas J. Schmitz / Ramachandran"
+  },
+  {
+    "id": 873,
+    "section": "B",
+    "text": "When performing Upper Limb Neurodynamic Testing for the Median Nerve (ULTT 2a / Median Bias), what is the standardized test sequence?",
+    "options": [
+      "Shoulder elevation, internal rotation, elbow flexion, forearm pronation, and wrist flexion",
+      "Shoulder extension behind back with forearm pronation and elbow locked at 90°",
+      "Shoulder abduction to 180° with maximal elbow flexion and finger adduction",
+      "Shoulder depression, abduction to 10°, elbow extension, external rotation, forearm supination, wrist and finger extension, followed by progressive shoulder abduction"
+    ],
+    "correct": 3,
+    "explanation": "ULTT 2a (Median nerve bias using shoulder depression): Shoulder girdle depression -> Elbow extension -> Lateral rotation of whole arm -> Forearm supination -> Wrist/finger/thumb extension -> Shoulder abduction (~30°–40°).",
+    "source": "Physiotherapy in Musculoskeletal Conditions - Prof. P.P. Mohanty / Butler"
+  },
+  {
+    "id": 874,
+    "section": "B",
+    "text": "In the lower extremity, what is the 'Straight Leg Raise with Dorsiflexion and Eversion' (TED bias) test evaluating?",
+    "options": [
+      "Tibial Nerve tension (TED: Tibial - Eversion - Dorsiflexion)",
+      "Common Peroneal Nerve tension (PIP: Peroneal - Inversion - Plantarflexion)",
+      "Femoral nerve tension in the anterior thigh compartment",
+      "Sural Nerve tension (SID: Sural - Inversion - Dorsiflexion)"
+    ],
+    "correct": 0,
+    "explanation": "Neurodynamic SLR foot biases: TED = Tibial Nerve (Eversion + Dorsiflexion); SID = Sural Nerve (Inversion + Dorsiflexion); PIP = Common/Deep Peroneal Nerve (Inversion + Plantarflexion).",
+    "source": "Physiotherapy in Musculoskeletal Conditions - Prof. P.P. Mohanty / Butler"
+  },
+  {
+    "id": 875,
+    "section": "B",
+    "text": "In Kaltenborn manual therapy, what is the 'Traction Grade I' (Piccolo Traction)?",
+    "options": [
+      "A heavy traction force that tears capsular adhesions to increase range of motion",
+      "A high-velocity thrust that completely relocates a subluxated joint",
+      "An extremely small-amplitude traction force that produces no appreciable joint separation but neutralizes atmospheric compressive forces acting on the joint, used for pain relief and before applying glides",
+      "A static traction held with heavy weights for 24 hours continuously"
+    ],
+    "correct": 2,
+    "explanation": "Kaltenborn Grade I traction (piccolo / 'loosen'): applies very slight traction to relieve joint surface compression without stretching the capsule, used to relieve pain and applied prior to all Grade II/III mobilization glides.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby / Kaltenborn"
+  },
+  {
+    "id": 876,
+    "section": "B",
+    "text": "In Cyriax's manual medicine framework, what is an 'End-Feel' and what characterizes a 'Bone-to-Bone' (Hard) normal end-feel?",
+    "options": [
+      "An abrupt, hard, unyielding stop to movement when bone contacts bone (e.g., normal Elbow Extension where the olecranon process contacts the olecranon fossa)",
+      "A firm, elastic springy stop caused by capsular or ligamentous stretch",
+      "An empty stop where the patient requests the examiner stop due to intense pain before end-range",
+      "A soft, yielding, spongy stop caused by soft tissue approximation (e.g., Elbow Flexion)"
+    ],
+    "correct": 0,
+    "explanation": "Cyriax categorized end-feels into: Hard/Bone-to-Bone (abrupt unyielding, e.g., elbow extension), Soft tissue approximation (yielding/mushy, e.g., elbow flexion), Tissue stretch/capsular (firm springy), and Abnormal (Empty, Spasm, Springy block).",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Cyriax"
+  },
+  {
+    "id": 877,
+    "section": "B",
+    "text": "What is the Capsular Pattern of the Talocrural (Ankle) Joint according to Cyriax and Magee?",
+    "options": [
+      "Plantarflexion limitation is greater than Dorsiflexion limitation",
+      "Pure Inversion limitation with zero limitation in sagittal plane movements",
+      "Dorsiflexion limitation is greater than Plantarflexion limitation",
+      "Equal 100% limitation across all ankle and midfoot movements identically"
+    ],
+    "correct": 0,
+    "explanation": "The capsular pattern of the talocrural joint is Plantarflexion limitation greater than Dorsiflexion limitation (whereas the subtalar capsular pattern is progressive limitation of Inversion).",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Cyriax"
+  },
+  {
+    "id": 878,
+    "section": "B",
+    "text": "In Mulligan's concept for treating acute shoulder impingement / painful abduction, what Mobilization with Movement (MWM) technique is applied?",
+    "options": [
+      "Immobilizing the shoulder in a fiberglass cast for 8 consecutive weeks",
+      "A sustained Postero-Lateral and Inferior Glide of the humeral head while the patient actively elevates the arm pain-free into full abduction",
+      "A forceful high-velocity thrust manipulation into extreme extension and internal rotation",
+      "Continuous axial compression driving the humeral head into the superior acromion"
+    ],
+    "correct": 1,
+    "explanation": "Mulligan's shoulder MWM: the therapist applies a belt-assisted posterolateral and inferior glide to the proximal humeral head while the patient performs active pain-free abduction (restoring pain-free range instantly).",
+    "source": "Physiotherapy in Musculoskeletal Conditions - Prof. P.P. Mohanty / Mulligan"
+  },
+  {
+    "id": 879,
+    "section": "B",
+    "text": "In spinal rehabilitation, Stuart McGill's 'Spine Sparing' principles advocate that athletic core training should prioritize:",
+    "options": [
+      "Performing 500 daily dynamic spinal crunches with heavy weighted barbells",
+      "Muscular Endurance and 3D Core Stiffness/Stability in neutral spine, rather than high-load repetitive dynamic lumbar flexion/rotation cycles",
+      "Completely eliminating all trunk muscle recruitment during physical sports",
+      "Maximizing end-range lumbar spine flexion during maximal deadlift lifts"
+    ],
+    "correct": 1,
+    "explanation": "McGill's biomechanical research proves that the lumbar spine is damaged by repetitive end-range bending/torsion under load; the core musculature functions primarily to STOP motion (stiffness/endurance) rather than generate lumbar flexion.",
+    "source": "Therapeutic Exercise: Foundations and Techniques - Carolyn Kisner & Lynn Allen Colby / McGill"
+  },
+  {
+    "id": 880,
+    "section": "B",
+    "text": "In the cervical spine, what constitutes a positive 'Cervical Distraction Test' (Magee / Wainner cluster)?",
+    "options": [
+      "The patient experiences instantaneous loss of hearing in the bilateral ears",
+      "Passive distraction causes sharp immediate increase in radiating paresthesia into the arm",
+      "Passive distraction dislocates the mandible from the temporomandibular joint",
+      "Passive axial upward distraction of the head (approx 10–15 kg force) RELIEVES or significantly reduces the patient's radicular neck and arm symptoms"
+    ],
+    "correct": 3,
+    "explanation": "The cervical distraction test widens the intervertebral neural foramina and unloads facet joints; relief of radiating radicular pain is a key component of Wainner's high-accuracy clinical prediction rule for cervical radiculopathy.",
+    "source": "Orthopedic Physical Assessment - David J. Magee / Wainner et al."
+  },
+  {
+    "id": 881,
+    "section": "C",
+    "text": "Case Vignette 1: A 24-year-old elite track sprinter clutched his posterior right thigh during maximal velocity sprinting. MRI confirms a Grade II strain of the Biceps Femoris long head. Isokinetic dynamometry testing at 6 weeks post-injury shows an eccentric hamstring-to-concentric quadriceps functional ratio ($H_{ecc}:Q_{con}$) of 0.52 (normal reference: $\\ge 0.70–0.80$). What clinical significance does this depressed functional $H_{ecc}:Q_{con}$ ratio have regarding hamstring re-injury risk?",
+    "options": [
+      "A depressed $H_{ecc}:Q_{con}$ ratio (<0.70) indicates that eccentric hamstring braking capacity is insufficient to decelerate high-velocity quadriceps knee extension during terminal swing, multiplying re-tear risk by up to 4-fold",
+      "A depressed ratio indicates that the athlete is completely cured and ready for Olympic finals",
+      "The ratio indicates that the athlete has zero slow-twitch muscle fibers in their body",
+      "Isokinetic strength ratios have zero correlation with sports injury risk"
+    ],
+    "correct": 0,
+    "explanation": "Croisier et al. established that a low functional eccentric hamstring to concentric quadriceps ratio ($H_{ecc}:Q_{con} < 0.70$) reflects inadequate eccentric deceleration capacity, significantly increasing hamstring strain risk; normalizing $\\ge 0.70$ prevents reinjury.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Croisier et al."
+  },
+  {
+    "id": 882,
+    "section": "C",
+    "text": "Case Vignette 1 (Continued): Which specific loaded eccentric exercise progression should be intensified to restore this sprinter's eccentric peak torque at long muscle lengths?",
+    "options": [
+      "Seated knee extensions performed on a gym machine to muscular exhaustion",
+      "Passive static stretching held on a massage table for 60 minutes without active contractions",
+      "Nordic Hamstring Exercise with progressive overload, Romanian Deadlifts (RDLs), and high-speed eccentric slide-board leg curls",
+      "Low-intensity cycling on a stationary ergometer with zero magnetic resistance"
+    ],
+    "correct": 2,
+    "explanation": "Restoring eccentric capacity at long muscle lengths requires high-load eccentric exercises (Nordics, Romanian deadlifts, single-leg eccentric slide-board curls), shifting peak torque to longer joint angles and driving sarcomerogenesis.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Bourne et al."
+  },
+  {
+    "id": 883,
+    "section": "C",
+    "text": "Case Vignette 2: A 22-year-old international cricket fast bowler presents with progressive posterior shoulder pain during ball release. Physical assessment reveals dominant shoulder internal rotation (IR) = 35°, external rotation (ER) = 120° (Total Arc = 155°), compared to non-dominant IR = 65°, ER = 105° (Total Arc = 170°). The athlete demonstrates a true Glenohumeral Internal Rotation Deficit (GIRD) of 30° and a pathological Total Motion Arc deficit of 15°. What does a Total Arc deficit >5° indicate in throwing athletes?",
+    "options": [
+      "Normal physiological adaptation seen in all international bowlers that requires zero treatment",
+      "Mandatory requirement for immediate permanent retirement from all sports",
+      "Pathological GIRD with true posterior capsuloligamentous and soft-tissue contracture, predisposing the athlete to a >2.5-fold increased risk of shoulder labral/cuff tears and elbow UCL injuries",
+      "Complete structural avulsion of the clavicle requiring emergency surgical plating"
+    ],
+    "correct": 2,
+    "explanation": "Wilk et al. demonstrated that while rotational shifts (ER gain / IR loss) with preserved total arc ($\\le 5^\\circ$) are benign, a Total Motion Arc deficit $>5^\\circ$ reflects pathological posterior capsular contracture, drastically elevating shoulder/elbow injury risk.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Wilk et al."
+  },
+  {
+    "id": 884,
+    "section": "C",
+    "text": "Case Vignette 2 (Continued): Which evidence-based stretching technique is proven to produce immediate and lasting restoration of internal rotation and posterior capsular mobility in throwers with pathological GIRD?",
+    "options": [
+      "Applying ice packs to the anterior acromion without performing joint movement",
+      "Passive shoulder external rotation stretching in 90° of abduction against a doorway wall",
+      "Holding 20 kg dumbbells overhead while jumping on a mini-trampoline to force mobility",
+      "Cross-body posterior stretch performed with manual stabilization of the lateral scapular border, combined with the Sleeper stretch"
+    ],
+    "correct": 3,
+    "explanation": "Cross-body stretch with scapular stabilization prevents compensatory scapular protraction, isolating posterior glenohumeral capsular stretch and restoring internal rotation more effectively than unconstrained stretches.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / McClure et al."
+  },
+  {
+    "id": 885,
+    "section": "C",
+    "text": "Case Vignette 3: A 23-year-old elite weightlifter reports anterior knee pain over the patellar tendon during the catch phase of cleans and snatches. Functional assessment shows adequate quadriceps strength but severe ankle dorsiflexion restriction (Weight-Bearing Lunge Test = 5 cm on affected side vs 12 cm on unaffected side). How does restricted ankle dorsiflexion biomechanically increase patellar tendon loading during squat landings?",
+    "options": [
+      "Restricted dorsiflexion completely eliminates all quadriceps muscle EMG activation during squatting",
+      "Restricted dorsiflexion reduces ground reaction forces to absolute zero upon catching barbell lifts",
+      "Restricted dorsiflexion limits forward tibial translation, forcing the athlete into compensatory hip flexion or dynamic knee valgus and increasing patellar tendon tensile strain",
+      "Restricted dorsiflexion forces the patella to dislocate into the posterior popliteal fossa"
+    ],
+    "correct": 2,
+    "explanation": "Limited dorsiflexion prevents forward tibial progression, leading to compensatory dynamic knee valgus, higher knee extensor moments, and stiffer landing mechanics, significantly amplifying patellar tendon strain.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Malliaras et al."
+  },
+  {
+    "id": 886,
+    "section": "C",
+    "text": "Case Vignette 3 (Continued): What is the integrated multi-modal management plan to resolve this weightlifter's patellar tendinopathy and prevent recurrence?",
+    "options": [
+      "Applying continuous passive ultrasound and resting completely in bed for eight consecutive months",
+      "Immediate surgical debridement and excision of the patellar tendon within 48 hours",
+      "Switching permanently to upper body bench press training exclusively while abandoning lower body lifting",
+      "Talocrural joint mobilizations (MWM) and gastrocnemius-soleus stretching to restore dorsiflexion, combined with Heavy Slow Resistance (HSR) decline squats and load management"
+    ],
+    "correct": 3,
+    "explanation": "Effective management combines addressing the kinetic chain contributor (restoring dorsiflexion with talocrural MWM/calf mobility) with direct progressive tendon remodeling using Heavy Slow Resistance (HSR) loading.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Malliaras"
+  },
+  {
+    "id": 887,
+    "section": "C",
+    "text": "Case Vignette 4: A 28-year-old elite squash player reports persistent lateral elbow pain for 4 months. In addition to local tenderness over the ECRB origin, neurodynamic assessment reveals a positive Radial Nerve Upper Limb Neurodynamic Test (ULTT 2b) with symptom reproduction in the forearm. Palpation 4 cm distal to the lateral epicondyle reveals tenderness over the supinator muscle belly (Arcade of Frohse). What dual pathology is present?",
+    "options": [
+      "Medial epicondylalgia coexisting with ulnar nerve entrapment at the cubital tunnel",
+      "Acute full-thickness rupture of the biceps brachii tendon at the radial tuberosity",
+      "Lateral epicondylalgia coexisting with Radial Tunnel Syndrome (compression of the posterior interosseous nerve)",
+      "Triceps brachii avulsion fracture at the olecranon tip accompanied by posterior dislocation"
+    ],
+    "correct": 2,
+    "explanation": "Recalcitrant lateral elbow pain often features coexisting Radial Tunnel Syndrome (PIN entrapment under the Arcade of Frohse in the supinator), confirmed by tenderness 4 cm distal to epicondyle and positive radial neurodynamics.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Magee"
+  },
+  {
+    "id": 888,
+    "section": "C",
+    "text": "Case Vignette 4 (Continued): What integrated physiotherapeutic treatment approach is indicated for this combined lateral elbow tendinopathy and radial nerve entrapment?",
+    "options": [
+      "High-force passive wrist extension manipulation under general hospital anesthesia",
+      "Application of hot paraffin wax packs over the forearm without therapeutic exercise",
+      "Progressive eccentric wrist extensor loading (Tyler Twist) combined with radial nerve neurodynamic sliders/mobilizations and supinator myofascial release",
+      "Complete arm casting for 6 months with absolute avoidance of active arm movement"
+    ],
+    "correct": 2,
+    "explanation": "Management addresses both the mechanical tendinopathy (eccentric-concentric loading) and neural entrapment (radial nerve mobilization/sliders, soft tissue release of the supinator/arcade of Frohse).",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Vicenzino et al."
+  },
+  {
+    "id": 889,
+    "section": "C",
+    "text": "Case Vignette 5: A 22-year-old professional basketball guard presents with chronic ankle instability (CAI) and frequent 'giving way' episodes. Biomechanical evaluation reveals: Cumberland Ankle Instability Tool (CAIT) score = 16/30, severe peroneal reaction time delay, and dynamic postural instability on single-leg jump landing. Which targeted neuromuscular intervention protocol is supported by Level 1 evidence for reversing CAI deficits?",
+    "options": [
+      "Applying ice packs to the lateral malleolus while resting in bed without weight-bearing exercises",
+      "Continuous passive calf stretching on a massage table for 6 months without active balance drills",
+      "Supervised progressive multi-directional balance and wobble-board training, perturbation drills, and dynamic functional agility cutting progressions",
+      "Complete immobilization in a rigid plastic fracture boot for 1 year to rest the ankle ligaments"
+    ],
+    "correct": 2,
+    "explanation": "High-level evidence (Donovan & Hertel, BJSM) confirms that multi-component neuromuscular balance training, unstable surface perturbation, and reactive agility drills restore sensorimotor control and prevent recurrent CAI sprains.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / International Ankle Consortium"
+  },
+  {
+    "id": 890,
+    "section": "C",
+    "text": "Case Vignette 5 (Continued): In addition to balance training, what specific manual therapy joint mobilization restores posterior talar glide and improves dynamic dorsiflexion in chronic ankle instability?",
+    "options": [
+      "Immobilization of the subtalar joint in a rigid fiberglass walking cast",
+      "High-velocity manipulation into sudden inversion and plantarflexion on the couch",
+      "Continuous passive mechanical traction of the hip joint in supine position",
+      "Mulligan Mobilization with Movement (posterior talar glide during active weight-bearing lunge)"
+    ],
+    "correct": 3,
+    "explanation": "Talocrural MWM (posterior glide of talus on tibia during active lunging) addresses anterior talar positional faults common after lateral sprains, immediately improving dorsiflexion ROM and dynamic stability.",
+    "source": "Physiotherapy in Musculoskeletal Conditions - Prof. P.P. Mohanty / Mulligan / Vicenzino"
+  },
+  {
+    "id": 891,
+    "section": "C",
+    "text": "Case Vignette 6: An 11-year-old competitive junior tennis player reports bilateral posterior heel pain aggravated during match sprints. Examination reveals pain on the Calcaneal Squeeze test, tight Achilles tendon, and normal plain radiographs. In the context of long-term youth athlete development, what education should be provided to the athlete and parents regarding Sever's Disease?",
+    "options": [
+      "It causes permanent lifelong athletic disability and requires permanent sports retirement",
+      "It is a benign, self-limiting traction apophysitis associated with rapid adolescent growth spurts that will resolve completely upon skeletal fusion of the calcaneal apophysis without long-term disability",
+      "It is a malignant bone tumor requiring immediate surgical limb amputation to prevent metastatic disease",
+      "It requires immediate surgical drilling and excision of the calcaneus under hospital anesthesia"
+    ],
+    "correct": 1,
+    "explanation": "Parent/athlete reassurance is paramount: Sever's disease is self-limiting and resolves once the calcaneal apophysis fuses (~age 14–15), managed effectively with load management and heel cushions without long-term consequences.",
+    "source": "Brukner & Khan's Clinical Sports Medicine"
+  },
+  {
+    "id": 892,
+    "section": "C",
+    "text": "Case Vignette 6 (Continued): Which immediate footwear and biomechanical modifications provide rapid pain relief during sports activity in this young athlete with Sever's disease?",
+    "options": [
+      "Wearing heavy rigid steel-toed industrial safety work boots during all athletic tennis matches",
+      "Inserting shock-absorbing silicone heel cups or a 5–10 mm heel lift in sports shoes (to reduce tensile pull of the Achilles tendon on the apophysis) and avoiding barefoot running",
+      "Applying high-dose corticosteroid injections directly into the subcalcaneal heel fat pad weekly",
+      "Forcing the child to run barefoot on hard asphalt concrete roads to stimulate rapid bone hardening"
+    ],
+    "correct": 1,
+    "explanation": "Silicone heel cups or 5–10 mm heel lifts reduce tensile pull and traction stress from the Achilles tendon onto the healing calcaneal apophysis, providing immediate symptomatic relief during sports.",
+    "source": "Brukner & Khan's Clinical Sports Medicine"
+  },
+  {
+    "id": 893,
+    "section": "C",
+    "text": "Case Vignette 7: A 20-year-old elite female cross-country runner presents with acute localized pain over the anterior mid-shaft of the left tibia that is sharp, hurts during walking, and causes severe night pain. Examination reveals pinpoint focal tenderness (<1 cm) and a palpable periosteal callus over the anterior tibial cortex. Tuning fork vibration testing is positive. What is the diagnosis?",
+    "options": [
+      "Acute deep vein thrombosis in the posterior compartment with calf swelling",
+      "Gastrocnemius muscle belly grade I minor strain along the medial head",
+      "Diffuse Medial Tibial Stress Syndrome (MTSS) extending across the posteromedial border",
+      "Anterior Tibial Cortex Stress Fracture ('The Dreaded Black Line' / High-Risk Bone Stress Injury)"
+    ],
+    "correct": 3,
+    "explanation": "Focal pinpoint tenderness and night pain over the anterior tibial cortex indicate an anterior cortex stress fracture—a 'high-risk' injury prone to non-union, delayed union, or complete catastrophic fracture due to tensile forces.",
+    "source": "Brukner & Khan's Clinical Sports Medicine"
+  },
+  {
+    "id": 894,
+    "section": "C",
+    "text": "Case Vignette 7 (Continued): Why is an anterior tibial cortex stress fracture classified as a 'high-risk' bone stress injury requiring strict non-weight-bearing protection or surgical intramedullary nailing?",
+    "options": [
+      "The anterior cortex is subject to constant tensile (bending) forces during running and has poor periosteal blood supply, resulting in high rates of non-union, delayed union, and complete transverse fracture",
+      "It heals completely within 24 hours without any necessity for medical precautions",
+      "It transforms the cortical tibial bone into fragile elastic cartilage within several days",
+      "It consistently causes acute bacterial infection and rupture of the popliteal femoral artery"
+    ],
+    "correct": 0,
+    "explanation": "The anterior tibial border is on the tension side of tibial bending moments and has poor vascular supply; failure to immobilize or surgically fix (intramedullary nail) frequently leads to non-union ('dreaded black line') and complete fracture.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Boden et al."
+  },
+  {
+    "id": 895,
+    "section": "C",
+    "text": "Case Vignette 8: A 23-year-old international soccer player is evaluated at 12 months post-ACL reconstruction. Objective testing shows: Quadriceps Limb Symmetry Index (LSI) = 96%, Hamstring LSI = 94%, Single Hop LSI = 95%, Triple Hop LSI = 97%, ACL-RSI score = 82/100, and 3D motion capture reveals symmetrical landing mechanics with zero dynamic knee valgus. According to current consensus guidelines, is this athlete ready for full unrestricted return to competitive match play?",
+    "options": [
+      "No, limb symmetry index must exceed 200% across all functional jump and hop testing batteries",
+      "Yes, the athlete meets all physical, biomechanical, functional, and psychological criteria (LSI ≥90%, ACL-RSI >65%, symmetrical landing) and has completed sport-specific training without symptoms",
+      "Yes, but only if all quadriceps and hamstring resistance exercises are permanently discontinued",
+      "No, an athlete should never return to contact pivoting sports until at least 5 full years post-surgery"
+    ],
+    "correct": 1,
+    "explanation": "The athlete satisfies all rigorous consensus return-to-sport criteria (strength/hop LSI >90%, psychological readiness ACL-RSI >65%, biomechanical landing symmetry, and full sports-specific training completion).",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Ardern et al."
+  },
+  {
+    "id": 896,
+    "section": "C",
+    "text": "Case Vignette 8 (Continued): Why is completing a minimum of 9 to 12 months before returning to competitive pivoting match play strongly advocated post-ACL reconstruction, even if functional tests are passed earlier?",
+    "options": [
+      "Athletes forget all soccer tactical formations and strategy if they return to the field before 12 months",
+      "Biological graft ligamentization, maturation, and biological re-innervation continue up to 12–24 months; returning prior to 9 months is associated with up to a 7-fold higher secondary ACL rupture rate",
+      "Skeletal bone mineral density drops to absolute zero between 6 and 9 months post-reconstruction",
+      "World Anti-Doping Agency regulations strictly ban athletic participation within 12 months of orthopedic surgery"
+    ],
+    "correct": 1,
+    "explanation": "Grindem et al. demonstrated that secondary ACL injury rates drop by 51% for each month return to sport is delayed until 9 months post-op; histological graft ligamentization and neuromuscular maturation require substantial biological time.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Grindem et al."
+  },
+  {
+    "id": 897,
+    "section": "C",
+    "text": "Case Vignette 9: During real-time 3D motion analysis of a single-leg cut in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.8 Nm/kg, accompanied by 25° of internal hip rotation and reduced knee flexion (15° landing). What does this biomechanical profile indicate regarding ACL loading?",
+    "options": [
+      "Shallow knee flexion landings completely protect the cruciate ligaments from mechanical strain",
+      "The athlete demonstrates optimal force attenuation with minimal anterior cruciate ligament loading",
+      "The athlete has zero mechanical ground reaction force passing through the knee joint during the cut",
+      "This combination (high knee valgus moment, hip internal rotation, and shallow knee flexion landing) produces high peak tensile strain on the ACL and represents an extreme injury risk mechanism"
+    ],
+    "correct": 3,
+    "explanation": "The classic non-contact ACL injury mechanism involves shallow knee flexion (<20–30°), dynamic knee valgus moment, and internal hip rotation/tibial external rotation, generating massive peak ACL tensile strain.",
+    "source": "Brukner & Khan's Clinical Sports Medicine / Hewett et al."
+  },
+  {
+    "id": 898,
+    "section": "C",
+    "text": "Case Vignette 9 (Continued): What specific neuromuscular feedback intervention (e.g., using video playback or real-time visual feedback) is most effective to modify this athlete's cutting mechanics?",
+    "options": [
+      "Applying ice packs to the knee while walking backwards on a flat running track without coaching cues",
+      "Completely immobilizing the ankle in 90° of plantarflexion using a rigid plastic cast",
+      "Video self-modeling feedback and augmented external focus cues encouraging deeper knee flexion (>30°–45°), neutral knee alignment over the 2nd toe, and softer ground landings",
+      "Instructing the athlete to keep the knee completely straight and stiff upon ground impact to absorb force"
+    ],
+    "correct": 2,
+    "explanation": "Video feedback and external attentional cues ('land softly', 'bend knees deeper', 'point knee over shoe laces') successfully alter motor programs, increasing knee flexion and reducing peak valgus moments during high-speed cutting.",
+    "source": "Physical Rehabilitation - Susan B. O'Sullivan / Brukner & Khan"
+  },
+  {
+    "id": 899,
+    "section": "C",
+    "text": "Case Vignette 10: A 17-year-old junior cricket fast bowler experiences acute low back pain during an intensive bowling camp. Single-leg hyperextension test on the left leg is painful. MRI (T2-weighted/STIR sequence) reveals high signal (bone marrow edema) in the left L4 pars interarticularis without a complete cortical fracture line. What is the clinical diagnosis and bone stress staging?",
+    "options": [
+      "Thoracic Scheuermann's disease with anterior vertebral wedging and kyphosis",
+      "Chronic ununited spondylolytic non-union with sclerotic bone margins and pseudoarthrosis",
+      "Degenerative spondylolisthesis with Meyerding Grade IV anterior vertebral slip",
+      "Early/Active (Grade I) Pre-Fracture Spondylolysis (Stress Reaction of the Pars Interarticularis)"
+    ],
+    "correct": 3,
+    "explanation": "MRI STIR hyperintensity (bone marrow edema) in the pars without a frank cortical fracture line represents active early-stage pars stress reaction (pre-fracture spondylolysis), which has the highest potential for complete bony healing if rested early.",
+    "source": "Brukner & Khan's Clinical Sports Medicine"
+  },
+  {
+    "id": 900,
+    "section": "C",
+    "text": "Case Vignette 10 (Continued): What is the optimal management and return-to-bowling timeline for this young fast bowler to achieve complete bony healing and prevent progression to non-union?",
+    "options": [
+      "Permanent total bed rest for 5 consecutive years in a rigid full-body fiberglass cast",
+      "Relative rest from all fast bowling and lumbar hyperextension for 8 to 12 weeks, deep core/trunk stabilization in neutral spine, followed by technical bowling action correction and progressive bowling workload reintroduction",
+      "Immediate return to bowling 100 overs per week with heavy spinal hyperextension stretching on the pitch",
+      "Immediate posterior lumbar spinal fusion surgery with pedicle screws and rods within 24 hours of diagnosis"
+    ],
+    "correct": 1,
+    "explanation": "Early-stage active pars lesions heal with high rates (up to 90–100%) under strict relative rest from bowling (typically 8–12 weeks), neutral spine stabilization (multifidus/transversus), biomechanical bowling action remediation (reducing mixed action / hyperextension), and gradual graded return.",
+    "source": "Brukner & Khan's Clinical Sports Medicine"
+  }
+]

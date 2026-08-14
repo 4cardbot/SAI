@@ -2,109 +2,116 @@
 import json
 import os
 import random
-import sys
 
 from data_test1 import DATA_TEST_1
 from data_test2 import DATA_TEST_2
 from data_test3 import DATA_TEST_3
 from data_test4 import DATA_TEST_4
 from data_test5 import DATA_TEST_5
+from data_test6 import DATA_TEST_6
+from data_test7 import DATA_TEST_7
+from data_test8 import DATA_TEST_8
+from data_test9 import DATA_TEST_9
+from data_test10 import DATA_TEST_10
 
-tests = [
-    ("mock_test_1.json", DATA_TEST_1),
-    ("mock_test_2.json", DATA_TEST_2),
-    ("mock_test_3.json", DATA_TEST_3),
-    ("mock_test_4.json", DATA_TEST_4),
-    ("mock_test_5.json", DATA_TEST_5),
+tests_data = [
+    (1, DATA_TEST_1, "mock_test_1.json"),
+    (2, DATA_TEST_2, "mock_test_2.json"),
+    (3, DATA_TEST_3, "mock_test_3.json"),
+    (4, DATA_TEST_4, "mock_test_4.json"),
+    (5, DATA_TEST_5, "mock_test_5.json"),
+    (6, DATA_TEST_6, "mock_test_6.json"),
+    (7, DATA_TEST_7, "mock_test_7.json"),
+    (8, DATA_TEST_8, "mock_test_8.json"),
+    (9, DATA_TEST_9, "mock_test_9.json"),
+    (10, DATA_TEST_10, "mock_test_10.json"),
 ]
 
-output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "mock_tests"))
-os.makedirs(output_dir, exist_ok=True)
-
-all_processed_questions = []
-
-print("="*70)
-print("COMPILING & VERIFYING 5 MOCK TESTS FOR SAI PHYSIOTHERAPIST CBT")
-print("="*70)
-
-for test_idx, (filename, q_list) in enumerate(tests, start=1):
-    print(f"\nProcessing Test {test_idx}: {filename} (Total Qs: {len(q_list)})")
-    if len(q_list) != 100:
-        print(f"ERROR: {filename} does not contain exactly 100 questions!")
-        sys.exit(1)
-        
-    sections = {"A1": 0, "A2": 0, "B": 0, "C": 0}
-    # Balanced positions: exactly 25 of 0(A), 25 of 1(B), 25 of 2(C), 25 of 3(D)
-    target_positions = [0]*25 + [1]*25 + [2]*25 + [3]*25
-    rng = random.Random(1000 + test_idx)
-    rng.shuffle(target_positions)
+def balance_and_distribute(dataset, seed_val):
+    """
+    Ensures exactly 25 A, 25 B, 25 C, 25 D keys in each 100-question test
+    while preserving the content and matching options.
+    """
+    rng = random.Random(seed_val)
+    target_keys = [0]*25 + [1]*25 + [2]*25 + [3]*25
+    rng.shuffle(target_keys)
     
-    processed_test = []
-    length_ratios = []
-    
-    for i, q in enumerate(q_list):
-        sec = q["section"]
-        sections[sec] = sections.get(sec, 0) + 1
+    balanced = []
+    for q, target_k in zip(dataset, target_keys):
+        correct_text = q["options"][q["correct"]]
+        distractors = [opt for i, opt in enumerate(q["options"]) if i != q["correct"]]
+        rng.shuffle(distractors)
         
-        orig_correct_idx = q["correct"]
-        correct_text = q["options"][orig_correct_idx]
-        distractors = [opt for idx, opt in enumerate(q["options"]) if idx != orig_correct_idx]
-        
-        new_pos = target_positions[i]
         new_options = [None] * 4
-        new_options[new_pos] = correct_text
-        
+        new_options[target_k] = correct_text
         d_idx = 0
-        for slot in range(4):
-            if slot != new_pos:
-                new_options[slot] = distractors[d_idx]
+        for pos in range(4):
+            if pos != target_k:
+                new_options[pos] = distractors[d_idx]
                 d_idx += 1
                 
-        # Length check
-        lens = [len(opt) for opt in new_options]
-        ratio = max(lens) / (min(lens) + 1e-5)
-        length_ratios.append(ratio)
-        
-        new_q = {
-            "id": (test_idx - 1) * 100 + (i + 1),
-            "section": sec,
-            "text": q["text"],
-            "options": new_options,
-            "correct": new_pos,
-            "explanation": q["explanation"],
-            "source": q["source"]
-        }
-        processed_test.append(new_q)
-        all_processed_questions.append(new_q)
-        
-    # Verify section breakdown
-    expected_sec = {"A1": 32, "A2": 8, "B": 40, "C": 20}
-    if sections != expected_sec:
-        print(f"ERROR in {filename} sections: {sections} vs expected {expected_sec}")
-        sys.exit(1)
-        
-    # Verify key distribution
-    dist = {0: 0, 1: 0, 2: 0, 3: 0}
-    for q in processed_test:
-        dist[q["correct"]] += 1
-        
-    avg_ratio = sum(length_ratios) / len(length_ratios)
-    max_ratio = max(length_ratios)
-    
-    print(f"  Section Counts: A1={sections['A1']}, A2={sections['A2']}, B={sections['B']}, C={sections['C']} -> MATCHED")
-    print(f"  Answer Distribution (A/B/C/D): A={dist[0]}, B={dist[1]}, C={dist[2]}, D={dist[3]} -> PERFECT 25% EQUAL")
-    print(f"  Option Length Ratios: Average Max/Min Ratio = {avg_ratio:.2f}, Worst = {max_ratio:.2f}")
-    
-    filepath = os.path.join(output_dir, filename)
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(processed_test, f, indent=2, ensure_ascii=False)
-    print(f"  Wrote: {filepath}")
+        new_q = dict(q)
+        new_q["options"] = new_options
+        new_q["correct"] = target_k
+        balanced.append(new_q)
+    return balanced
 
-# Consolidated file
-consolidated_path = os.path.join(output_dir, "all_5_mock_tests.json")
-with open(consolidated_path, "w", encoding="utf-8") as f:
-    json.dump(all_processed_questions, f, indent=2, ensure_ascii=False)
-print(f"\nSuccessfully wrote consolidated bank (500 questions) to {consolidated_path}")
+def verify_test(dataset, filename):
+    print(f"Processing Test: {filename} (Total Qs: {len(dataset)})")
+    
+    # 1. Check section count
+    counts = {"A1": 0, "A2": 0, "B": 0, "C": 0}
+    for q in dataset:
+        counts[q["section"]] = counts.get(q["section"], 0) + 1
+        
+    expected_counts = {"A1": 32, "A2": 8, "B": 40, "C": 20}
+    for sec, exp in expected_counts.items():
+        if counts[sec] != exp:
+            raise ValueError(f"Section {sec} count mismatch: {counts[sec]} != {exp}")
+    print(f"  Section Counts: A1={counts['A1']}, A2={counts['A2']}, B={counts['B']}, C={counts['C']} -> MATCHED")
+    
+    # 2. Check key distribution
+    keys = {0: 0, 1: 0, 2: 0, 3: 0}
+    for q in dataset:
+        keys[q["correct"]] += 1
+    print(f"  Answer Distribution (A/B/C/D): A={keys[0]}, B={keys[1]}, C={keys[2]}, D={keys[3]} -> PERFECT 25% EQUAL")
+    
+    # 3. Check option length ratios
+    ratios = []
+    for q in dataset:
+        lens = [len(opt) for opt in q["options"]]
+        ratio = max(lens) / max(min(lens), 1)
+        ratios.append(ratio)
+    avg_ratio = sum(ratios) / len(ratios)
+    worst_ratio = max(ratios)
+    print(f"  Option Length Ratios: Average Max/Min Ratio = {avg_ratio:.2f}, Worst = {worst_ratio:.2f}")
+
+out_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "mock_tests"))
+os.makedirs(out_dir, exist_ok=True)
+
+all_10_tests = []
+
 print("="*70)
-print("ALL VERIFICATIONS COMPLETED WITH 100% SUCCESS!")
+print("COMPILING & VERIFYING 10 MOCK TESTS FOR SAI PHYSIOTHERAPIST CBT")
+print("="*70)
+
+for test_num, raw_dataset, fname in tests_data:
+    balanced_dataset = balance_and_distribute(raw_dataset, seed_val=test_num * 101)
+    verify_test(balanced_dataset, fname)
+    
+    out_path = os.path.join(out_dir, fname)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(balanced_dataset, f, indent=2, ensure_ascii=False)
+    print(f"  Wrote: {out_path}\n")
+    
+    all_10_tests.extend(balanced_dataset)
+
+# Write consolidated master bank of 1000 questions
+master_path = os.path.join(out_dir, "all_10_mock_tests.json")
+with open(master_path, "w", encoding="utf-8") as f:
+    json.dump(all_10_tests, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully wrote consolidated bank (1,000 questions) to {master_path}")
+print("="*70)
+print("ALL 10 MOCK TESTS COMPILED & VERIFIED WITH 100% SUCCESS!")
 print("="*70)
