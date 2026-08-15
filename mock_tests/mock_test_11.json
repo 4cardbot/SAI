@@ -23,12 +23,12 @@
     "difficulty": "applied",
     "text": "In the stretch-shortening cycle (SSC) during plyometric ground contact, what defines a 'fast SSC' movement compared to a 'slow SSC' movement?",
     "options": [
-      "Ground contact time duration of greater than 500 milliseconds with high displacement",
       "Ground contact time duration of less than 250 milliseconds with small displacement",
+      "Ground contact time duration of greater than 500 milliseconds with high displacement",
       "Ground contact time duration of 350 to 450 milliseconds with moderate displacement",
       "Ground contact time duration of exactly 600 milliseconds with maximal displacement"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Fast SSC movements (e.g., sprinting, drop jumps) involve ground contact times of less than 250 ms with small joint angular displacements, whereas slow SSC movements (e.g., countermovement jumps) exceed 250 ms."
   },
   {
@@ -87,12 +87,12 @@
     "difficulty": "analytical",
     "text": "During an incremental cardiopulmonary exercise test (CPET), what gas exchange hallmark identifies the Second Ventilatory Threshold (VT2 / RCP)?",
     "options": [
-      "A concurrent decrease in both VE/VO2 and VE/VCO2 ventilatory equivalent ratios",
       "A sharp increase in VE/VCO2 accompanied by an abrupt decline in expired PetCO2",
+      "A concurrent decrease in both VE/VO2 and VE/VCO2 ventilatory equivalent ratios",
       "A stable plateau in PetCO2 accompanied by a progressive decrease in VE/VO2 ratio",
       "A complete cessation of VE/VO2 minute ventilation during maximal peak effort"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "The respiratory compensation point (VT2/RCP) is identified by an abrupt increase in the ventilatory equivalent for carbon dioxide (VE/VCO2) and an accelerated drop in end-tidal CO2 partial pressure (PetCO2) driven by metabolic acidosis hyperventilation."
   },
   {
@@ -135,13 +135,13 @@
     "difficulty": "applied",
     "text": "In sports nutrition, what is the approximate 'leucine trigger' threshold per meal required to maximally stimulate muscle protein synthesis (MPS) via mTORC1 in adult athletes?",
     "options": [
-      "Approximately 2.5 to 3.0 grams of leucine per meal",
-      "Approximately 0.5 to 0.8 grams of leucine per meal",
-      "Approximately 6.5 to 7.0 grams of leucine per meal",
-      "Approximately 9.5 to 10.0 grams of leucine per meal"
+      "A commonly cited leucine dose of approximately 2.5\u20133.0 g in a high-quality protein serving",
+      "Approximately 0.5\u20130.8 g in every meal for all athletes",
+      "Approximately 6.5\u20137.0 g required in every meal",
+      "Approximately 9.5\u201310.0 g required in every meal"
     ],
     "correct": 0,
-    "explanation": "Research indicates that approximately 2.5 to 3.0 g of leucine (typically contained in ~20-30 g of high-quality intact protein) is required to reach the 'leucine trigger' and maximally activate the mTORC1 signaling pathway for MPS."
+    "explanation": "Approximately 2.5\u20133.0 g of leucine is a commonly cited dose for stimulating MPS in many adults, but it is not a universal threshold independent of total protein, age, and meal composition."
   },
   {
     "id": "t11-a1-010",
@@ -152,11 +152,11 @@
     "text": "For endurance events lasting longer than 2.5 to 3 hours, what carbohydrate intake rate and transporter strategy is recommended by ACSM and IOC guidelines?",
     "options": [
       "Up to 30 g/h of single-source carbohydrate utilizing exclusively GLUT5 transporters",
-      "Up to 90 g/h of multiple transportable carbohydrates utilizing SGLT1 and GLUT5",
       "Up to 140 g/h of single-source maltodextrin utilizing passive intestinal diffusion",
+      "Up to 90 g/h of multiple transportable carbohydrates utilizing SGLT1 and GLUT5",
       "Up to 180 g/h of complex insoluble polysaccharides utilizing colonic fermentation"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "For ultra-endurance (>2.5-3 h), carbohydrate intake up to 90 g/h is recommended using multiple transportable carbohydrates (e.g., 2:1 glucose:fructose) to saturate both SGLT1 and GLUT5 intestinal transporters, avoiding gastrointestinal distress."
   },
   {
@@ -189,7 +189,7 @@
       "Energy availability below 30 kcal/kg Fat-Free Mass/day"
     ],
     "correct": 3,
-    "explanation": "An Energy Availability below 30 kcal/kg of Fat-Free Mass (FFM) per day is recognized as the threshold where hormonal disruptions, menstrual dysfunction, impaired bone remodeling, and metabolic suppression occur in RED-S."
+    "explanation": "Below 30 kcal/kg FFM/day is a historical operational cutoff associated with increased risk of low-energy-availability effects. It is not a definitive standalone RED-S diagnosis."
   },
   {
     "id": "t11-a1-013",
@@ -216,11 +216,11 @@
     "text": "An athlete currently weighs 80 kg with 20% body fat. What is the athlete's target body weight at 12% body fat assuming lean body mass remains constant?",
     "options": [
       "Target body weight of approximately 64.0 kg",
-      "Target body weight of approximately 72.7 kg",
       "Target body weight of approximately 78.5 kg",
+      "Target body weight of approximately 72.7 kg",
       "Target body weight of approximately 85.2 kg"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Lean Body Mass (LBM) = 80 kg * (1 - 0.20) = 64 kg. Target Weight = LBM / (1 - Target Fat%) = 64 / (1 - 0.12) = 64 / 0.88 = 72.73 kg."
   },
   {
@@ -280,11 +280,11 @@
     "text": "According to Self-Determination Theory (Deci & Ryan), which three basic psychological needs must be satisfied to foster intrinsic motivation in athletes?",
     "options": [
       "Aggression, Dominance, and External Status",
-      "Autonomy, Competence, and Relatedness",
       "Financial Gain, Fame, and Social Approval",
+      "Autonomy, Competence, and Relatedness",
       "Strict Authority, Rigidity, and Compliance"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Self-Determination Theory identifies Autonomy (feeling in control of choices), Competence (feeling effective in executing tasks), and Relatedness (feeling connected and valued in a social group) as essential for intrinsic motivation."
   },
   {
@@ -344,11 +344,11 @@
     "text": "In team sports GPS tracking, why is 'Metabolic Power' calculated in addition to traditional high-speed running distance (>19.8 km/h)?",
     "options": [
       "It measures the athlete's instantaneous blood glucose concentration continuously",
-      "It captures the high energetic cost of accelerations occurring at lower speeds",
+      "It estimates continuous internal core body temperature fluctuations directly",
       "It replaces the fundamental necessity of tracking total match distance covered",
-      "It estimates continuous internal core body temperature fluctuations directly"
+      "It captures the high energetic cost of accelerations occurring at lower speeds"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Metabolic Power (Osgnach model) estimates instantaneous energy expenditure by combining running speed and acceleration, capturing the high metabolic demands of frequent accelerations/decelerations that occur below arbitrary high-speed running speed thresholds."
   },
   {
@@ -445,7 +445,7 @@
       "Thermal asymmetry of 0.5 to 0.7 degrees Celsius or greater"
     ],
     "correct": 3,
-    "explanation": "Contralateral skin temperature differences exceeding 0.5 to 0.7 degrees C (0.9 to 1.3 degrees F) are established as clinically relevant thresholds indicating localized hyperthermia (microtrauma/inflammation) or hypothermia (vasoconstriction/neuropathy)."
+    "explanation": "Contralateral temperature differences can be useful in a standardized thermography protocol, but a 0.5\u20130.7\u00b0C value is not universal; interpretation depends on acclimatization, environment, device, body region, and measurement protocol."
   },
   {
     "id": "t11-a1-029",
@@ -501,7 +501,7 @@
     "topic": "anti-doping science and prohibited substance monitoring",
     "subtopic": "WADA sample collection standards and B-sample confirmation",
     "difficulty": "foundational",
-    "text": "Under the World Anti-Doping Code, what is the mandatory procedure when an athlete's 'Sample A' returns an Adverse Analytical Finding (AAF)?",
+    "text": "After an Adverse Analytical Finding in Sample A, what right must be communicated to the athlete?",
     "options": [
       "The athlete is automatically banned for life without any further laboratory testing allowed",
       "The testing laboratory immediately destroys Sample B to preserve athlete confidentiality",
@@ -509,7 +509,7 @@
       "The athlete has the statutory right to request opening and analysis of their Sample B"
     ],
     "correct": 3,
-    "explanation": "Under the WADA International Standard for Results Management (ISRM), following an AAF on Sample A, the athlete has the right to request the opening and confirmation analysis of their split Sample B before disciplinary proceedings proceed."
+    "explanation": "The athlete must be informed of the right to request opening and analysis of Sample B. Sample B analysis is not automatically mandatory in every case."
   },
   {
     "id": "t11-a2-001",
@@ -821,7 +821,7 @@
       "Replaces the fundamental requirement for progressive mechanical loading rehab"
     ],
     "correct": 2,
-    "explanation": "Heavy isometric loading (5 sets of 45-second holds at ~70% MVC with 2 min rest) induces immediate, short-term tendon pain relief (analgesia) and downregulates cortical motor drive inhibition, enabling pain-free strength training."
+    "explanation": "Heavy isometric loading may provide short-term analgesia and temporarily reduce motor inhibition in some people with patellar tendinopathy. The effect is not guaranteed or necessarily persistent, and progressive loading remains central to rehabilitation."
   },
   {
     "id": "t11-b-012",
@@ -1053,7 +1053,7 @@
     "topic": "electrotherapy and electrodiagnosis",
     "subtopic": "Electrotherapy: Evidence-Based Practice - Tim Watson",
     "difficulty": "applied",
-    "text": "When treating an acute sports ligament sprain in the acute inflammatory phase (Day 1-3), which ultrasound mode and parameters are evidence-based to avoid thermal aggravation?",
+    "text": "Which option describes a commonly used non-thermal ultrasound parameter set, while acknowledging that clinical evidence for acute ankle sprains is limited?",
     "options": [
       "Continuous ultrasound at 2.5 W/cm2 for 15 minutes of heating",
       "Pulsed ultrasound at 20% duty cycle at low intensity of 0.5 W/cm2",
@@ -1061,7 +1061,7 @@
       "Pulsed ultrasound at 100% duty cycle at high intensity of 2.0 W/cm2"
     ],
     "correct": 1,
-    "explanation": "In acute inflammation, pulsed ultrasound with a low duty cycle (20% or 1:4 mark:space ratio) and low acoustic intensity (0.5 W/cm2) delivers non-thermal bio-effects (acoustic streaming and stable cavitation) to facilitate cellular healing without tissue heating."
+    "explanation": "Low-intensity pulsed ultrasound is sometimes used as a non-thermal modality, but evidence has not established this parameter set as clinically meaningful treatment for acute ankle sprains. It should not replace progressive rehabilitation."
   },
   {
     "id": "t11-b-027",
@@ -1189,7 +1189,7 @@
       "Composite score reach symmetry of exactly 100 percent"
     ],
     "correct": 1,
-    "explanation": "Plisky et al. demonstrated that an anterior reach asymmetry greater than 4 cm on the Y-Balance / SEBT is significantly associated with an increased risk (over 2.5 times higher) of lower extremity sports injuries."
+    "explanation": "Anterior Y-Balance asymmetry above 4 cm has been associated with increased injury risk in some cohorts, but it is not a universal standalone predictor and should be interpreted with other screening information."
   },
   {
     "id": "t11-b-035",
@@ -1231,7 +1231,7 @@
     "difficulty": "applied",
     "text": "According to the Ottawa Ankle Rules, which clinical finding warrants an acute ankle radiographic series following an acute inversion injury?",
     "options": [
-      "Bone tenderness at posterior edge of malleolus or inability to bear weight",
+      "Bone tenderness at the posterior edge or tip of either malleolus, or inability to bear weight for four steps both immediately after injury and during clinical assessment",
       "Mild diffuse ecchymosis over lateral ligament without any bone tenderness",
       "Ability to walk four steps comfortably immediately following the trauma",
       "Normal full active dorsiflexion and plantarflexion without local tenderness"
@@ -1334,12 +1334,12 @@
     "text": "How should the sports physiotherapist interpret the thrower's glenohumeral range of motion findings?",
     "options": [
       "Severe rotator cuff tear requiring immediate open surgical repair",
-      "Pathological GIRD with preserved symmetric total rotational motion arc",
+      "GIRD with preserved total rotational arc; clinical significance depends on symptoms, total-arc comparison, and examination findings",
       "Normal non-athletic shoulder range with excessive internal rotation",
       "Multidirectional glenohumeral instability with global capsular laxity"
     ],
-    "correct": 2,
-    "explanation": "GIRD is defined as a loss of internal rotation >18-20 degrees compared to the contralateral side. Here, the IR deficit is 30 degrees (35 vs 65) while the Total Arc of Motion difference is only 5 degrees (160 vs 165), representing classic thrower's GIRD with osseous/posterior soft tissue adaptation."
+    "correct": 1,
+    "explanation": "The thrower has an internal-rotation deficit with a nearly preserved total rotational arc, consistent with an adaptive throwing pattern. Positive pain or instability tests still require clinical assessment; the finding should not be labelled simply benign or pathological."
   },
   {
     "id": "t11-c-004",
@@ -1367,15 +1367,15 @@
     "difficulty": "analytical",
     "passageId": "t11-cs-003",
     "passage": "A 22-year-old elite volleyball attacker reports a 3-month history of well-localized pain at the inferior pole of her right patella. Pain is sharp during the eccentric plant phase of spike jumps and immediately upon landing. Symptoms warm up during initial activity but ache significantly for 24-48 hours after matches. Palpation identifies focal point tenderness precisely at the bone-tendon junction of the inferior patellar pole. Knee joint effusion, joint line tenderness, and McMurray test are all negative.",
-    "text": "Which diagnostic test finding and clinical diagnosis is MOST consistent with this presentation?",
+    "text": "Which diagnosis is most consistent with this presentation?",
     "options": [
-      "Proximal Patellar Tendinopathy with positive Royal London Hospital test",
-      "Medial meniscal tear with positive McMurray test and locked knee",
-      "Hoffa's fat pad disease with positive anterior drawer test in extension",
-      "Symptomatic bipartite patella with lateral retinacular avulsion injury"
+      "Proximal patellar tendinopathy at the inferior-pole tendon origin",
+      "Medial meniscal tear with a locked knee",
+      "Hoffa\u2019s fat-pad disorder with a positive anterior-drawer test",
+      "Symptomatic bipartite patella with lateral retinacular avulsion"
     ],
     "correct": 0,
-    "explanation": "Focal tenderness at the inferior pole of the patella that decreases when palpated with the knee extended versus flexed (positive Royal London Hospital test), paired with load-related pain during jumping, is hallmark Patellar Tendinopathy."
+    "explanation": "Focal inferior-pole tenderness and load-related jumping pain support proximal patellar tendinopathy. A Royal London Hospital test could add clinical information but was not provided in the passage."
   },
   {
     "id": "t11-c-006",
@@ -1405,13 +1405,13 @@
     "passage": "A 19-year-old university basketball guard lands on an opponent's foot during a rebound contest, forcing her right ankle into sudden plantarflexion and inversion. She presents to the physiotherapy room with prominent anterolateral ankle swelling and ecchymosis (egg-shaped swelling). Palpation reveals maximal tenderness over the anterior talofibular ligament (ATFL) and mild tenderness over the calcaneofibular ligament (CFL). The anterior drawer test demonstrates 8 mm of anterior translation with a soft end-feel compared to 3 mm on the uninjured left ankle.",
     "text": "How should the physiotherapist grade this ligamentous injury based on physical findings?",
     "options": [
-      "Grade I ankle sprain with microscopic stretching and no mechanical laxity",
-      "Grade IV ankle sprain with complete talonavicular dislocation and rupture",
-      "Grade II ankle sprain with partial tearing of ATFL and demonstrable laxity",
-      "Zero ligamentous involvement; isolated medial deltoid ligament avulsion"
+      "Grade I ankle sprain",
+      "Grade IV ankle dislocation with complete rupture",
+      "Findings most consistent with a Grade II ankle sprain with partial ATFL injury and laxity; exact millimetre thresholds are not universal",
+      "No ligamentous injury"
     ],
     "correct": 2,
-    "explanation": "A Grade II ankle sprain is characterized by significant swelling, ecchymosis, localized tenderness over the ATFL (and potentially CFL), and moderate mechanical laxity with a soft end-feel on anterior drawer testing without complete joint instability."
+    "explanation": "The swelling, ecchymosis, ATFL tenderness, and increased soft-end-feel translation are consistent with a Grade II sprain. Grading should use the complete examination rather than one universal millimetre cutoff."
   },
   {
     "id": "t11-c-008",
@@ -1482,8 +1482,8 @@
       "Tarsal tunnel syndrome with posterior tibial nerve compression",
       "Plantar fascia rupture at medial calcaneal tuberosity origin"
     ],
-    "correct": 2,
-    "explanation": "Bilateral heel pain in a growing adolescent (8-14 years) during high-impact sports, localized tenderness on mediolateral compression of the calcaneus (positive Squeeze test), and non-tender Achilles midportion is diagnostic of Sever's disease (calcaneal apophysitis)."
+    "correct": 1,
+    "explanation": "Bilateral heel pain in a growing adolescent (8-14 years) during high-impact sports, localized tenderness on mediolateral compression of the calcaneus (positive Squeeze test), and non-tender Achilles midportion supports a diagnosis of Sever's disease (calcaneal apophysitis)."
   },
   {
     "id": "t11-c-012",
@@ -1518,7 +1518,7 @@
       "Chronic exertional compartment syndrome of lateral side",
       "Popliteal artery entrapment syndrome with resting pain"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Medial Tibial Stress Syndrome (MTSS) characteristically presents as diffuse tenderness (>=5 cm) along the posteromedial border of the distal/middle third of the tibia, whereas a tibial stress fracture typically demonstrates sharp, focal point tenderness (<2 cm) and positive vibration/percussion pain."
   },
   {
@@ -1532,12 +1532,12 @@
     "text": "Which running gait modification is evidence-based to reduce tibial bone loading forces during rehabilitation?",
     "options": [
       "Decreasing step rate by 15% to 20% to encourage longer overstriding steps",
-      "Increasing running cadence by 5% to 10% to reduce impact loading peaks",
+      "Increasing running cadence modestly, often in the range of 5\u201310% when tolerated, to reduce impact loading",
       "Switching exclusively to heavy 10% downhill trail running on uneven ground",
       "Instructing the runner to land strictly at 15 degrees lateral calcaneal angle"
     ],
     "correct": 1,
-    "explanation": "Increasing running cadence by 5-10% at a given running speed reduces step length, decreases braking impulse, and significantly reduces peak tibial accelerations and bone contact forces (Heiderscheit et al., Barton et al.)."
+    "explanation": "Increasing running cadence by a modest, individualized amount at a given running speed reduces step length, decreases braking impulse, and significantly reduces peak tibial accelerations and bone contact forces (Heiderscheit et al., Barton et al.)."
   },
   {
     "id": "t11-c-015",
@@ -1549,13 +1549,13 @@
     "passage": "A 28-year-old elite badminton player presents with pain over the lateral aspect of his dominant right elbow of 6 weeks duration. Symptoms are provoked during single-handed backhand clearing shots and when lifting heavy luggage. Clinical examination shows: Localized tenderness over the common extensor origin at the lateral epicondyle; pain reproduction during resisted wrist extension with elbow in full extension (Cozen's test); pain on resisted middle finger extension (Maudsley's test); and passive wrist flexion with pronation and elbow extension (Mill's test) reproduces symptoms. Radial nerve neurodynamic test is normal.",
     "text": "Which muscle tendon origin is primarily involved in this pathology?",
     "options": [
-      "Flexor Carpi Radialis and Pronator Teres tendon origin",
-      "Extensor Carpi Radialis Brevis and longus tendon origin",
-      "Triceps Brachii distal tendon insertion on olecranon",
-      "Biceps Brachii distal tendon insertion on radial bone"
+      "Flexor carpi radialis and pronator teres origin",
+      "Extensor carpi radialis brevis/common extensor origin",
+      "Triceps brachii insertion on the olecranon",
+      "Biceps brachii insertion on the radial tuberosity"
     ],
-    "correct": 2,
-    "explanation": "Lateral epicondylalgia primarily involves tendinopathic degenerative changes (angiofibroblastic hyperplasia) at the origin of the Extensor Carpi Radialis Brevis (ECRB) tendon (and to a lesser degree extensor digitorum communis)."
+    "correct": 1,
+    "explanation": "Lateral epicondylalgia most commonly involves the common extensor origin, particularly the extensor carpi radialis brevis, rather than the ECRL alone or a posterior-arm tendon."
   },
   {
     "id": "t11-c-016",
@@ -1572,7 +1572,7 @@
       "Routine repeated corticosteroid injections into the common extensor tendon every two weeks",
       "Passive continuous ultrasound therapy alone without any active therapeutic exercise training"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Evidence demonstrates that active progressive loading (isometrics for pain, eccentric-concentric wrist extension exercises such as the Tyler Twist using a flexible bar, and kinetic chain shoulder/scapular strengthening) is the most effective long-term treatment, whereas steroid injections show high recurrence rates."
   },
   {
@@ -1590,7 +1590,7 @@
       "Isolated piriformis muscle syndrome with sciatic nerve entrapment",
       "Thoracolumbar scoliosis without structural osseous stress reaction"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Unilateral low back pain in an adolescent fast bowler aggravated by hyperextension/rotation and a positive single-leg hyperextension (Stork) test is classic for lumbar spondylolysis (stress fracture of the pars interarticularis, most commonly L4 or L5 on the non-bowling arm side)."
   },
   {
@@ -1621,13 +1621,13 @@
     "passage": "A 16-year-old competitive female gymnast reports diffuse anterior and superior right shoulder pain during hanging and pressing elements on uneven bars and floor routines. Visual movement analysis during unweighted active arm descent reveals prominence and winging of the entire medial border of the right scapula (Kibler Type II Scapular Dyskinesis). Manual muscle testing reveals weakness in the right Serratus Anterior and Lower Trapezius, alongside tightness in the Pectoralis Minor. Applying manual scapular stabilization (Scapular Assistance Test) completely eliminates her pain during active arm elevation.",
     "text": "What does the positive Scapular Assistance Test demonstrate clinically?",
     "options": [
-      "The shoulder pain is entirely referred from cervical C5 nerve root",
-      "The athlete has an irreparable full-thickness tear of latissimus dorsi",
-      "Scapular dyskinesis contributes to subacromial space narrowing and pain",
-      "The glenohumeral joint is permanently dislocated requiring surgery"
+      "Pain entirely referred from a cervical nerve root",
+      "Irreparable latissimus-dorsi tear",
+      "Scapular dyskinesis contributes to the athlete\u2019s shoulder pain and movement impairment",
+      "Permanent glenohumeral dislocation"
     ],
     "correct": 2,
-    "explanation": "A positive Scapular Assistance Test (where manual assistance into upward rotation and posterior tilt relieves elevation pain) confirms that abnormal scapular kinematics (dyskinesis) directly contributes to subacromial impingement by failing to elevate the acromion."
+    "explanation": "Pain relief with manual assistance suggests that scapular mechanics contribute to symptoms. It does not confirm subacromial narrowing or identify a single structural lesion."
   },
   {
     "id": "t11-c-020",

@@ -45,7 +45,7 @@
       "Performing 50 continuous repetitions without any rest to induce maximal metabolic acidosis"
     ],
     "correct": 0,
-    "explanation": "Cluster sets incorporate short rest intervals (15\u201330s) within a set (e.g., $3 \\times (2+2+2)$ with 20s inter-repetition rest). This permits partial PCr resynthesis, mitigating fatigue and preserving high barbell velocity and power output."
+    "explanation": "Cluster sets incorporate short rest intervals (15\u201330s) within a set (e.g., 3 \u00d7 (2+2+2) with 20s inter-repetition rest). This permits partial PCr resynthesis, mitigating fatigue and preserving high barbell velocity and power output."
   },
   {
     "id": "t8-a1-004",
@@ -61,7 +61,7 @@
       "Eliminating all mitochondrial organelles from within the sarcoplasm"
     ],
     "correct": 2,
-    "explanation": "The myonuclear domain theory posits that each myonucleus can govern a finite volume of sarcoplasm. For substantial hypertrophy (>15\u201320%), satellite cells proliferate and fuse into muscle fibers, donating new nuclei to maintain transcriptional capacity."
+    "explanation": "The myonuclear-domain theory proposes that satellite-cell fusion may support substantial hypertrophy, but the size threshold and whether new myonuclei are always required remain debated. It should be presented as a model rather than settled necessity."
   },
   {
     "id": "t8-a1-005",
@@ -73,11 +73,11 @@
     "options": [
       "The baseline resting ventilation recorded when the athlete is asleep in bed",
       "The point where blood oxygen saturation drops below 50% in the pulmonary artery",
-      "The point during exercise where pulmonary ventilation ($V_E$) begins to increase disproportionately relative to oxygen consumption ($VO_2$), reflecting the buffering of excess $H^+$ ions by bicarbonate ($V_E/VO_2$ rises while $V_E/VCO_2$ remains stable)",
-      "The absolute maximum ventilation achieved at voluntary exhaustion where $V_E$ exceeds 200 L/min"
+      "The point during exercise where pulmonary ventilation (V_E) begins to increase disproportionately relative to oxygen consumption (VO\u2082), reflecting the buffering of excess H^+ ions by bicarbonate (V_E/VO\u2082 rises while V_E/VCO\u2082 remains stable)",
+      "The absolute maximum ventilation achieved at voluntary exhaustion where V_E exceeds 200 L/min"
     ],
     "correct": 2,
-    "explanation": "VT1 corresponds to the intensity where blood lactate first begins to rise above baseline (~2 mmol/L). Buffering of $H^+$ by bicarbonate generates excess $CO_2$, stimulating ventilation such that $V_E/VO_2$ increases without an increase in $V_E/VCO_2$."
+    "explanation": "VT1 corresponds to the intensity where blood lactate first begins to rise above baseline (~2 mmol/L). Buffering of H^+ by bicarbonate generates excess CO\u2082, stimulating ventilation such that V_E/VO\u2082 increases without an increase in V_E/VCO\u2082."
   },
   {
     "id": "t8-a1-006",
@@ -93,7 +93,7 @@
       "Severe bronchospasm caused by complete absence of surfactant in the pulmonary alveoli"
     ],
     "correct": 1,
-    "explanation": "In elite endurance athletes with massive cardiac outputs ($Q > 35\u201340$ L/min), red blood cell transit time through pulmonary capillaries drops below the ~0.4s required for complete diffusion equilibration, leading to desaturation ($SpO_2 < 92\\%$)."
+    "explanation": "Exercise-induced arterial hypoxaemia is multifactorial and may involve diffusion limitation, ventilation\u2013perfusion inequality, and other pulmonary or cardiovascular factors. No single mechanism, such as interstitial oedema, is required in every athlete."
   },
   {
     "id": "t8-a1-007",
@@ -133,7 +133,7 @@
     "topic": "physiotherapy rehabilitation science and clinical reasoning",
     "subtopic": "Interdisciplinary performance analysis and injury risk screening",
     "difficulty": "analytical",
-    "text": "In altitude physiology, what is the primary hormonal response triggered by the activation of 'Hypoxia-Inducible Factor 1-alpha' (HIF-1alpha) in renal interstitial peritubular cells?",
+    "text": "In altitude physiology, which renal response is associated with hypoxia signalling in peritubular interstitial cells?",
     "options": [
       "Massive release of insulin into the bloodstream causing severe systemic hypoglycemia",
       "Suppression of all adrenal steroidogenesis leading to acute Addisonian crisis",
@@ -141,7 +141,7 @@
       "Direct secretion of thyroid stimulating hormone into the pulmonary alveoli"
     ],
     "correct": 2,
-    "explanation": "Hypoxia stabilizes the transcription factor HIF-1alpha, which translocates to the nucleus and drives transcription of the EPO gene in the kidneys, stimulating marrow erythropoiesis to expand oxygen-carrying capacity."
+    "explanation": "Hypoxia signalling, particularly through HIF-2\u03b1 in renal erythropoietin-producing cells, increases EPO transcription and stimulates bone-marrow erythropoiesis. HIF-1\u03b1 is not the sole regulator of this response."
   },
   {
     "id": "t8-a1-010",
@@ -170,7 +170,7 @@
       "50 mg/kg body mass consumed immediately during competition to stimulate direct cardiac hypertrophy",
       "0.1 mg/kg body mass taken once monthly to alter skeletal muscle bone density",
       "Caffeine acts purely by neutralizing blood lactic acid in peripheral capillaries",
-      "3 to 6 mg/kg body mass consumed 60 minutes pre-exercise, acting primarily as an Adenosine Receptor Antagonist ($A_1$ and $A_{2A}$) in the central nervous system to reduce perceived exertion and enhance motor unit firing"
+      "3 to 6 mg/kg body mass consumed 60 minutes pre-exercise, acting primarily as an Adenosine Receptor Antagonist (A\u2081 and A\u2082A) in the central nervous system to reduce perceived exertion and enhance motor unit firing"
     ],
     "correct": 3,
     "explanation": "Caffeine at 3\u20136 mg/kg taken 60 min pre-exercise competitively antagonizes central adenosine receptors, blunting pain/effort perception, enhancing central motor drive, and increasing motor unit excitability."
@@ -213,15 +213,15 @@
     "topic": "interdisciplinary coordination in sports science teams",
     "subtopic": "Performance analyst and sports medical team collaboration",
     "difficulty": "applied",
-    "text": "In body composition assessment using Hydrostatic (Underwater) Weighing or Air Displacement Plethysmography (BOD POD), Siri's equation converts body density ($Db$) to body fat percentage ($\\text{\\%BF}$) based on what standard formula?",
+    "text": "In body composition assessment using Hydrostatic (Underwater) Weighing or Air Displacement Plethysmography (BOD POD), Siri's equation converts body density (Db) to body fat percentage (%BF) based on what standard formula?",
     "options": [
-      "$\\text{\\%BF} = (Db / 495) + 450$",
-      "$\\text{\\%BF} = (Db \\times 1.96) / \\sqrt{2}$",
-      "$\\text{\\%BF} = (100 \\times Db) - 200$",
-      "$\\text{\\%BF} = (495 / Db) - 450$"
+      "%BF = (Db / 495) + 450",
+      "%BF = (Db \u00d7 1.96) / \u221a2",
+      "%BF = (100 \u00d7 Db) - 200",
+      "%BF = (495 / Db) - 450"
     ],
     "correct": 3,
-    "explanation": "Siri's equation $(\\text{\\%Fat} = [4.95/Db - 4.50] \\times 100 = 495/Db - 450)$ assumes a two-compartment model where fat-free mass density is constant at 1.100 g/cm3 and fat mass density is 0.900 g/cm3."
+    "explanation": "Siri's equation (%Fat = [4.95/Db - 4.50] \u00d7 100 = 495/Db - 450) assumes a two-compartment model where fat-free mass density is constant at 1.100 g/cm3 and fat mass density is 0.900 g/cm3."
   },
   {
     "id": "t8-a1-015",
@@ -229,7 +229,7 @@
     "topic": "injury prevention injury surveillance and risk screening",
     "subtopic": "Biomechanic screening, workload management and secondary prevention",
     "difficulty": "analytical",
-    "text": "In the Assessment of Bone Age in adolescent athletes, which radiographic skeletal method is considered the international clinical gold standard?",
+    "text": "Which established hand/wrist radiographic methods are commonly used to estimate skeletal age?",
     "options": [
       "Plain radiograph of the bilateral patellae and proximal fibulae",
       "Computed tomography (CT) scan of the cervical vertebrae and skull bones",
@@ -237,7 +237,7 @@
       "Ultrasound imaging of the calcaneal tuberosity apophysis only"
     ],
     "correct": 2,
-    "explanation": "The Greulich-Pyle atlas and Tanner-Whitehouse 3 (TW3) scoring system of left hand/wrist radiographs evaluate epiphyseal ossification and fusion of carpal, metacarpal, and phalangeal bones to determine skeletal maturity."
+    "explanation": "Greulich\u2013Pyle and Tanner\u2013Whitehouse methods use left hand/wrist radiographs. Neither should be described as a single universal clinical gold standard for every population or purpose."
   },
   {
     "id": "t8-a1-016",
@@ -327,13 +327,13 @@
     "difficulty": "analytical",
     "text": "In athletic monitoring, what does the 'Reactive Strength Index' (RSI) calculated from a Drop Jump test quantify?",
     "options": [
-      "The ratio of Jump Height (in meters) to Ground Contact Time (in seconds), evaluating the athlete's fast stretch-shortening cycle capability ($RSI = \\text{Jump Height} / \\text{Contact Time}$)",
+      "The ratio of Jump Height (in meters) to Ground Contact Time (in seconds), evaluating the athlete's fast stretch-shortening cycle capability (RSI = Jump Height / Contact Time)",
       "The athlete's resting blood pressure divided by their standing body height",
       "The total distance run during a 90-minute competitive football match in kilometers",
       "The maximum isometric force produced during an isometric mid-thigh pull test"
     ],
     "correct": 0,
-    "explanation": "RSI $(RSI = \\text{Jump Height} / \\text{Contact Time})$ from drop jump testing quantifies fast SSC capacity: the ability to rapidly transition from eccentric braking to concentric propulsion in <250ms."
+    "explanation": "RSI (RSI = Jump Height / Contact Time) from drop jump testing quantifies fast SSC capacity: the ability to rapidly transition from eccentric braking to concentric propulsion in <250ms."
   },
   {
     "id": "t8-a1-022",
@@ -349,7 +349,7 @@
       "50% to 60% velocity loss (grinding repetitions to complete concentric muscular failure)"
     ],
     "correct": 1,
-    "explanation": "Velocity loss monitoring (Sanchez-Medina & Gonzalez-Badillo): 10\u201320% velocity loss preserves high movement quality and power with low metabolic/neuromuscular fatigue, whereas >30\u201340% loss induces high metabolic fatigue and muscle damage."
+    "explanation": "A 10\u201320% velocity-loss target is commonly used when preserving power and movement quality is the priority, but the appropriate threshold depends on the exercise, athlete, and training goal."
   },
   {
     "id": "t8-a1-023",
@@ -389,15 +389,15 @@
     "topic": "physiotherapy rehabilitation science and clinical reasoning",
     "subtopic": "Interdisciplinary performance analysis and injury risk screening",
     "difficulty": "foundational",
-    "text": "In clinical biostatistics, what does the 'Positive Likelihood Ratio' ($LR+$) of a diagnostic test express?",
+    "text": "In clinical biostatistics, what does the 'Positive Likelihood Ratio' (LR+) of a diagnostic test express?",
     "options": [
       "The probability that a study author will win an international research award",
       "The percentage of missing data points in an epidemiological sports database",
-      "The ratio of the probability of a positive test result in diseased/injured individuals to the probability of a positive test result in non-diseased individuals ($LR+ = \\text{Sensitivity} / (1 - \\text{Specificity})$)",
+      "The ratio of the probability of a positive test result in diseased/injured individuals to the probability of a positive test result in non-diseased individuals (LR+ = Sensitivity / (1 - Specificity))",
       "The total number of patients who test negative in a randomized clinical control trial"
     ],
     "correct": 2,
-    "explanation": "Positive Likelihood Ratio $(LR+ = \\text{Sensitivity} / [1 - \\text{Specificity}])$ quantifies how much a positive test increases the odds of disease: $LR+ > 10$ provides large, often conclusive diagnostic shifts."
+    "explanation": "Positive Likelihood Ratio (LR+ = Sensitivity / [1 - Specificity]) quantifies how much a positive test increases the odds of disease: LR+ > 10 provides large, often conclusive diagnostic shifts."
   },
   {
     "id": "t8-a1-026",
@@ -410,10 +410,10 @@
       "The monetary cost of calibrating a linear position transducer in the laboratory",
       "The mathematical mean of a perfectly symmetrical bimodal distribution",
       "The total number of test subjects who withdraw from a clinical study protocol",
-      "The absolute index of reliability expressing the standard deviation of measurement errors around a true score in the original units of measurement ($SEM = SD \\times \\sqrt{1 - ICC}$)"
+      "The absolute index of reliability expressing the standard deviation of measurement errors around a true score in the original units of measurement (SEM = SD \u00d7 \u221a1 - ICC)"
     ],
     "correct": 3,
-    "explanation": "SEM $(SEM = SD \\times \\sqrt{1 - ICC})$ quantifies absolute measurement precision in the test's native units, establishing the baseline error threshold needed to calculate Minimal Detectable Change (MDC)."
+    "explanation": "SEM (SEM = SD \u00d7 \u221a1 - ICC) quantifies absolute measurement precision in the test's native units, establishing the baseline error threshold needed to calculate Minimal Detectable Change (MDC)."
   },
   {
     "id": "t8-a1-027",
@@ -437,15 +437,15 @@
     "topic": "travel and competition readiness and circadian rhythm",
     "subtopic": "Jet lag mitigation, environmental acclimatization and competition protocols",
     "difficulty": "foundational",
-    "text": "In meta-analyses of sports science interventions, what does the '$I^2$' statistic quantify?",
+    "text": "In meta-analyses of sports science interventions, what does the 'I\u00b2' statistic quantify?",
     "options": [
-      "The percentage of total variation across studies that is due to true statistical heterogeneity rather than random chance / sampling error ($I^2 = 100\\% \\times (Q - df) / Q$)",
+      "The percentage of total variation across studies that is due to true statistical heterogeneity rather than random chance / sampling error (I\u00b2 = 100% \u00d7 (Q - df) / Q)",
       "The exact number of research publications cited in the systematic review bibliography",
       "The statistical power of a single two-sample Student t-test calculation",
       "The average age of all athletes participating across the combined clinical research studies"
     ],
     "correct": 0,
-    "explanation": "Higgins' $I^2$ statistic describes the percentage of total variation across studies caused by true heterogeneity rather than sampling error: ~25% = low, 50% = moderate, and 75%+ = high heterogeneity."
+    "explanation": "Higgins' I\u00b2 statistic describes the percentage of total variation across studies caused by true heterogeneity rather than sampling error: ~25% = low, 50% = moderate, and 75%+ = high heterogeneity."
   },
   {
     "id": "t8-a1-029",
@@ -477,7 +477,7 @@
       "The reduction in running speed that occurs when running on wet synthetic athletic tracks"
     ],
     "correct": 2,
-    "explanation": "Bilateral Deficit (BLD) occurs when bilateral maximal strength is less than the sum of unilateral strengths: $(BL\\ Force < UL_{Left} + UL_{Right})$. It is common in untrained or unilaterally trained athletes due to neural inhibition."
+    "explanation": "Bilateral Deficit (BLD) occurs when bilateral maximal strength is less than the sum of unilateral strengths: (bilateral force < UL_Left + UL_Right). It is common in untrained or unilaterally trained athletes due to neural inhibition."
   },
   {
     "id": "t8-a1-031",
@@ -489,11 +489,11 @@
     "options": [
       "The instantaneous electrical voltage generated by contracting skeletal muscle sarcomeres",
       "The atmospheric air resistance experienced by an athlete running into a headwind",
-      "The integral of force over time ($J = \\int F \\, dt$), representing the change in momentum ($\\Delta p = m \\Delta v$) applied to the athlete's center of mass",
+      "The integral of force over time (J = int F , dt), representing the change in momentum (\u0394 p = m \u0394 v) applied to the athlete's center of mass",
       "The maximum depth of shoe sole compression measured in millimeters on force plates"
     ],
     "correct": 2,
-    "explanation": "Impulse is the product of force and the time over which it acts ($J = F \\times \\Delta t$). According to the impulse-momentum theorem ($J = m \\Delta v$), increasing net impulse is the direct biomechanical determinant of sprint velocity and jump height."
+    "explanation": "Impulse is the product of force and the time over which it acts (J = F \u00d7 \u0394 t). According to the impulse-momentum theorem (J = m \u0394 v), increasing net impulse is the direct biomechanical determinant of sprint velocity and jump height."
   },
   {
     "id": "t8-a1-032",
@@ -534,7 +534,7 @@
     "topic": "Olympic, Asian and Paralympic major competitions",
     "subtopic": "International games, venues and Olympic governance",
     "difficulty": "applied",
-    "text": "Under the National Sports Development Code of India (2011), what is the mandatory requirement for National Sports Federations (NSFs) regarding annual audited accounts and transparency?",
+    "text": "Under the National Sports Development Code of India (2011), what transparency requirement applied to National Sports Federations?",
     "options": [
       "Federations are exempt from maintaining accounting books or undergoing annual financial audits",
       "Submitting annual audited accounts by chartered accountants and publishing them on the federation's official website under proactive RTI (Right to Information) compliance",
@@ -542,7 +542,7 @@
       "Submitting financial records only once every 50 years to international governing bodies"
     ],
     "correct": 1,
-    "explanation": "The 2011 Sports Code requires NSFs to maintain audited accounts by CAG-empanelled CAs, display balance sheets proactively on their websites, and comply with the Right to Information (RTI) Act as public authorities.",
+    "explanation": "Under the 2011 Code, NSFs were expected to maintain audited accounts and publish financial information proactively. This should be labelled as the historical 2011 framework because later governance legislation changed the regulatory context.",
     "asOf": "2026-01-30"
   },
   {
@@ -576,7 +576,7 @@
       "Specific Gravity \u2265 1.005 (or \u2265 1.003 if measured with a digital refractometer for volumes \u2265 150 mL)"
     ],
     "correct": 3,
-    "explanation": "Under WADA ISTI guidelines, a urine sample must have a specific gravity of at least 1.005 (or 1.003 if volume $\\ge 150$ mL via refractometer). If dilute, the DCO must collect additional samples until a suitable specimen is provided.",
+    "explanation": "Under WADA ISTI guidelines, a urine sample must have a specific gravity of at least 1.005 (or 1.003 if volume \u2265 150 mL via refractometer). If dilute, the DCO must collect additional samples until a suitable specimen is provided.",
     "asOf": "2026-01-30"
   },
   {
@@ -604,10 +604,10 @@
     "difficulty": "applied",
     "text": "In the governance of Indian sports, what is the role of the 'Sports Authority of India' (SAI) established in 1984?",
     "options": [
-      "A statutory regulatory board licensing private fitness equipment importers across Asia",
-      "A corporate marketing agency that manages commercial broadcast rights for domestic leagues",
+      "An international airline company that transports sports tourists across continents",
+      "A private commercial corporation that manufactures sports footwear for retail export",
       "The apex national sports body under MYAS responsible for athlete talent scouting, operating National Centres of Excellence (NCOEs), sports science infrastructure, and managing national coaching camps",
-      "A judicial court that passes criminal sentences on international athletes"
+      "A sovereign judicial court that passes criminal sentences on international athletes"
     ],
     "correct": 2,
     "explanation": "SAI is the premier sports development body under MYAS, managing 10 regional centres, NCOEs, national stadiums, high-performance sports science support, and national coaching camps.",
@@ -644,7 +644,7 @@
       "A quasi-judicial panel comprising a legal expert (retired judge/advocate), a medical expert, and an eminent sportsperson that conducts hearings and renders binding disciplinary verdicts on alleged ADRVs"
     ],
     "correct": 3,
-    "explanation": "The ADDP is an independent quasi-judicial body constituted under the National Anti-Doping Act, comprising legal, medical, and sports experts to adjudicate Anti-Doping Rule Violations and impose sanctions.",
+    "explanation": "The ADDP is a quasi-judicial disciplinary body with legal, medical, and sport expertise. Its decisions are subject to the applicable appeal process and should not be described as immune from appeal.",
     "asOf": "2026-01-30"
   },
   {
@@ -853,7 +853,7 @@
       "Seated internal rotation exercises targeting the subscapularis exclusively"
     ],
     "correct": 1,
-    "explanation": "Blackburn exercises (prone $T, Y, W, L$ positions with thumb pointing up) systematically activate the lower trapezius, middle trapezius, infraspinatus, and supraspinatus with high EMG-to-upper trapezius ratios."
+    "explanation": "Blackburn exercises (prone T, Y, W, L positions with thumb pointing up) systematically activate the lower trapezius, middle trapezius, infraspinatus, and supraspinatus with high EMG-to-upper trapezius ratios."
   },
   {
     "id": "t8-b-014",
@@ -997,7 +997,7 @@
       "Complete energetic depletion of ATP inside the sarcoplasmic reticulum"
     ],
     "correct": 0,
-    "explanation": "Active insufficiency occurs when a multi-joint muscle shortens over all its joints simultaneously, placing its sarcomeres at extreme short lengths where actin filaments overlap excessively and tension capacity drops drastically."
+    "explanation": "Active insufficiency occurs when a multi-joint muscle is shortened across all of its joints and cannot generate maximal active tension. For example, the hamstrings may generate less knee-flexion force when the hip is extended and the knee is already flexed."
   },
   {
     "id": "t8-b-023",
@@ -1165,7 +1165,7 @@
     "topic": "assessment and clinical reasoning differential",
     "subtopic": "Special orthopedic physical assessment tests",
     "difficulty": "applied",
-    "text": "When performing Upper Limb Neurodynamic Testing for the Axillary / Musculocutaneous Nerve roots, what sensitizing movement confirms neural involvement when arm symptoms are reproduced?",
+    "text": "During upper-limb neurodynamic testing for a brachial-plexus or peripheral-nerve presentation, which movement can serve as structural differentiation when symptoms are reproduced?",
     "options": [
       "Contralateral Cervical Lateral Flexion (which increases neural tension and aggravates symptoms) versus Ipsilateral Cervical Lateral Flexion (which relieves tension)",
       "Applying ice to the contralateral quadriceps muscle belly",
@@ -1173,7 +1173,7 @@
       "Passive plantarflexion of the ipsilateral great toe"
     ],
     "correct": 0,
-    "explanation": "Contralateral cervical lateral flexion increases tension along the entire brachial plexus and nerve roots, serving as the standard structural differentiating maneuver to confirm a neurogenic source."
+    "explanation": "Contralateral cervical lateral flexion can increase neural-tissue loading and ipsilateral flexion can reduce it, but the finding must be interpreted with the complete neurodynamic examination; it does not by itself confirm a nerve-root diagnosis."
   },
   {
     "id": "t8-b-034",
@@ -1314,12 +1314,12 @@
     "text": "As part of this soccer player's late-stage functional rehab, which objective running metric monitored via GPS indicates adequate restoration of high-speed running tolerance prior to match play clearance?",
     "options": [
       "Performing 500 seated hamstring curls on a gym machine without running",
-      "Accumulating >95% of pre-injury maximal sprinting velocity ($V\\max$) in training and completing repeated sprint bouts (>25 km/h) totaling \u2265100% of typical match high-speed running volume without post-session soreness",
+      "Accumulating >95% of pre-injury maximal sprinting velocity (Vmax) in training and completing repeated sprint bouts (>25 km/h) totaling \u2265100% of typical match high-speed running volume without post-session soreness",
       "Wearing heavy weighted boots while walking backward on an indoor treadmill",
       "Jogging continuously at 5 km/h on soft grass for 10 minutes only"
     ],
     "correct": 1,
-    "explanation": "Rehabilitation progression requires progressive high-speed running exposure: reaching near-maximum velocity (\u226595% $V\\max$) and matching typical match high-speed running distance (>25 km/h) to ensure tissue capacity at high eccentric lengthening rates.",
+    "explanation": "Rehabilitation progression requires progressive high-speed running exposure: reaching near-maximum velocity (\u226595% Vmax) and matching typical match high-speed running distance (>25 km/h) to ensure tissue capacity at high eccentric lengthening rates.",
     "passageId": "cs-71",
     "passage": "A 27-year-old international soccer winger clutched his posterior right thigh during a high-speed counter-attack sprint."
   },
@@ -1331,13 +1331,13 @@
     "difficulty": "analytical",
     "text": "Clinical assessment reveals positive anterior apprehension test, positive relocation test, and a Glenohumeral Internal Rotation Deficit (GIRD) of 22\u00b0 compared to the non-throwing shoulder. Total Arc of Motion is identical between shoulders (180\u00b0 dominant: 120\u00b0 ER / 60\u00b0 IR; 180\u00b0 non-dominant: 95\u00b0 ER / 85\u00b0 IR). What does this preserved Total Arc of Motion indicate regarding the throwing shoulder adaptations?",
     "options": [
-      "Benign physiological adaptation (humeral retroversion with posterior capsular shift), where external rotation gain equals internal rotation loss, maintaining normal total rotational motion without pathological capsular contracture",
+      "GIRD with a preserved total arc, but positive apprehension/relocation findings indicate that associated instability and symptoms require clinical assessment",
       "Acute complete rupture of the subscapularis tendon with anterior shoulder dislocation",
       "Severe septic arthritis of the glenohumeral joint requiring emergency IV antibiotics",
       "Pathological capsular contracture requiring immediate surgical posterior capsular release"
     ],
     "correct": 0,
-    "explanation": "Wilk et al. demonstrated that when Total Rotational Motion Arc (ER + IR) is preserved (within 5\u00b0 of non-throwing arm), GIRD represents benign bony humeral retroversion with anterior capsular laxity, NOT pathological posterior capsular contracture.",
+    "explanation": "A preserved total arc can reflect an adaptive throwing pattern, but positive apprehension and relocation tests mean the shoulder should not be labelled simply benign; symptoms, laxity, strength, and control must be assessed.",
     "passageId": "cs-72",
     "passage": "A 23-year-old elite water polo player presents with anterior shoulder pain during the cocking phase of throwing."
   },
@@ -1367,13 +1367,13 @@
     "difficulty": "analytical",
     "text": "Biomechanical 3D running analysis reveals excessive peak contralateral pelvic drop (Trendelenburg sign = 9\u00b0), excessive peak hip adduction (18\u00b0), and peak dynamic knee valgus of 14\u00b0. What proximal kinetic chain muscle weakness is driving this lower extremity collapse?",
     "options": [
-      "Gluteus Medius and Gluteus Maximus of the ipsilateral stance limb",
+      "Reduced gluteal strength or motor control on the stance limb, to be confirmed by strength and movement testing",
       "Gastrocnemius and Soleus deep calf muscles of the bilateral limbs equally",
       "Iliopsoas and Rectus Femoris of the contralateral swinging extremity",
       "Tibialis Anterior muscle belly in the anterior lower leg"
     ],
     "correct": 0,
-    "explanation": "Proximal gluteal weakness (gluteus medius abductor and gluteus maximus external rotator) fails to control the pelvis and femur in the frontal/transverse planes, driving contralateral pelvic drop, femoral adduction/internal rotation, and dynamic knee valgus.",
+    "explanation": "Pelvic drop, hip adduction, and dynamic valgus are consistent with reduced proximal gluteal control, but video findings alone do not prove muscle weakness; strength and motor-control testing are required.",
     "passageId": "cs-73",
     "passage": "A 22-year-old elite female middle-distance runner presents with retropatellar and peripatellar knee pain of 6 months duration."
   },
@@ -1385,13 +1385,13 @@
     "difficulty": "analytical",
     "text": "In designing an evidence-based corrective exercise program for this runner with PFPS, what progressive exercise sequence should be implemented?",
     "options": [
-      "Non-weight-bearing isolated gluteal activation (clamshells, side-lying abduction) -> Weight-bearing closed-chain functional strengthening (single-leg squats, step-downs) -> Running gait retraining (cadence increase by 7.5\u201310% and verbal biofeedback to narrow step width)",
+      "Non-weight-bearing isolated gluteal activation (clamshells, side-lying abduction) -> Weight-bearing closed-chain functional strengthening (single-leg squats, step-downs) -> Running gait retraining (a modest individualized cadence increase and verbal biofeedback to narrow step width)",
       "Heavy leg extensions performed strictly on an open-chain gym machine to muscular failure",
       "Continuous passive knee traction on a motorized table for 8 consecutive weeks",
       "Running daily marathons while wearing heavy weighted iron combat boots"
     ],
     "correct": 0,
-    "explanation": "Progressive PFPS management: isolated gluteal motor activation -> functional single-leg closed-chain loading -> gait retraining (increasing cadence by 7.5\u201310% reduces peak knee energy absorption and patellofemoral joint stress).",
+    "explanation": "Progressive PFPS management: isolated gluteal motor activation -> functional single-leg closed-chain loading -> gait retraining (increasing cadence by a modest, individualized amount reduces peak knee energy absorption and patellofemoral joint stress).",
     "passageId": "cs-73",
     "passage": "A 22-year-old elite female middle-distance runner presents with retropatellar and peripatellar knee pain of 6 months duration."
   },
@@ -1440,12 +1440,12 @@
     "text": "Biomechanical testing reveals a Cumberland Ankle Instability Tool (CAIT) score of 14/30, severe dynamic postural sway on the Star Excursion Balance Test (SEBT), and delayed peroneal muscle reaction time on an unstable perturbation platform. What condition is diagnosed?",
     "options": [
       "Deep vein thrombosis of the anterior tibial vein with complete occlusion",
-      "Chronic Ankle Instability (CAI) with combined mechanical laxity and sensorimotor / proprioceptive deficits",
+      "Chronic ankle instability with sensorimotor/proprioceptive deficits; mechanical laxity requires separate laxity testing",
       "Acute transverse fracture of the distal tibial plafond requiring surgical plating",
       "Complete avulsion of the Achilles tendon from the calcaneal tuberosity"
     ],
     "correct": 1,
-    "explanation": "CAIT score <24, recurrent giving-way episodes, impaired single-leg dynamic reach (SEBT), and delayed peroneal neuromuscular firing characterize Chronic Ankle Instability (CAI).",
+    "explanation": "A low CAIT score, recurrent giving way, impaired dynamic balance, and delayed peroneal response support chronic ankle instability with sensorimotor deficits. Mechanical ligament laxity requires a separate examination.",
     "passageId": "cs-75",
     "passage": "A 20-year-old elite basketball player experiences recurrent lateral ankle 'giving way' episodes during cutting movements."
   },
@@ -1535,7 +1535,7 @@
       "It requires immediate surgical replacement of the entire knee joint with a prosthetic implant"
     ],
     "correct": 2,
-    "explanation": "Anterior tibial cortex fractures are high-risk because tensile bending forces constantly distract the fracture gap, and poor vascular supply impairs healing. Refractory non-unions mandate surgical intramedullary nailing.",
+    "explanation": "This is a higher-risk bone-stress pattern because of tensile or shear loading and relatively limited healing potential. Initial management commonly includes activity cessation and protected or non-weight-bearing immobilization with urgent specialist review; surgery depends on fracture pattern, displacement, non-union, and athlete-specific factors.",
     "passageId": "cs-77",
     "passage": "A 21-year-old elite female long-distance runner presents with acute localized pain over the anterior mid-shaft of the left tibia that hurts during walking and awakens her at night."
   },
@@ -1555,7 +1555,7 @@
     "correct": 0,
     "explanation": "The athlete meets all evidence-based return-to-sport criteria: strength and hop LSI >90%, high psychological readiness (ACL-RSI >65%), symmetrical landing biomechanics, and completion of full sport-specific training.",
     "passageId": "cs-78",
-    "passage": "A 23-year-old professional male soccer midfielder is evaluated at 12 months post-ACL reconstruction."
+    "passage": "A 23-year-old professional male soccer midfielder is evaluated at 12 months post-ACL reconstruction. The athlete has also completed supervised sport-specific and contact-progressive training without symptoms."
   },
   {
     "id": "t8-c-016",
@@ -1573,7 +1573,7 @@
     "correct": 3,
     "explanation": "Grindem et al. demonstrated that secondary ACL injury rates decrease by 51% for every month return to sport is delayed until 9 months post-op; biological graft remodeling (ligamentization) requires adequate time to regain tensile stiffness.",
     "passageId": "cs-78",
-    "passage": "A 23-year-old professional male soccer midfielder is evaluated at 12 months post-ACL reconstruction."
+    "passage": "A 23-year-old professional male soccer midfielder is evaluated at 12 months post-ACL reconstruction. The athlete has also completed supervised sport-specific and contact-progressive training without symptoms."
   },
   {
     "id": "t8-c-017",
@@ -1584,14 +1584,14 @@
     "text": "What does this biomechanical movement profile indicate regarding ACL loading?",
     "options": [
       "Shallow knee flexion landings completely protect the cruciate ligaments from mechanical strain",
-      "This combination (high knee valgus moment, hip internal rotation, and shallow knee flexion landing) produces extreme peak tensile strain on the ACL and represents a high-risk non-contact injury mechanism",
+      "This combination (high knee valgus moment, hip internal rotation, and shallow knee flexion landing) is associated with increased ACL loading on the ACL and represents a high-risk non-contact injury mechanism",
       "The athlete demonstrates optimal force attenuation with minimal anterior cruciate ligament loading",
       "The athlete has zero mechanical ground reaction force passing through the knee joint during the cut"
     ],
     "correct": 1,
-    "explanation": "Biomechanical studies (Hewett, Markolf) confirm that shallow knee flexion (<20\u00b0), high external knee abduction moments (valgus), and internal hip rotation generate maximal multiplanar peak strain on the ACL.",
+    "explanation": "Dynamic valgus, hip internal rotation, and shallow knee flexion are established biomechanical risk markers associated with increased ACL loading and non-contact injury risk; video analysis does not directly measure ACL tensile strain.",
     "passageId": "cs-79",
-    "passage": "During real-time 3D motion capture analysis of a 45\u00b0 sidestep cutting maneuver in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.9 Nm/kg, accompanied by 25\u00b0 of internal hip rotation and shallow knee flexion landing (16\u00b0)."
+    "passage": "During real-time 3D motion capture analysis of a 45\u00b0 sidestep cutting maneuver in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.9 N\u00b7m/kg, accompanied by 25\u00b0 of internal hip rotation and shallow knee flexion landing (16\u00b0)."
   },
   {
     "id": "t8-c-018",
@@ -1609,7 +1609,7 @@
     "correct": 3,
     "explanation": "Video feedback and external attentional cues ('land softly', 'bend knees deeper', 'point knee over shoe laces') successfully alter motor programs, increasing knee flexion and reducing peak valgus moments during high-speed cutting.",
     "passageId": "cs-79",
-    "passage": "During real-time 3D motion capture analysis of a 45\u00b0 sidestep cutting maneuver in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.9 Nm/kg, accompanied by 25\u00b0 of internal hip rotation and shallow knee flexion landing (16\u00b0)."
+    "passage": "During real-time 3D motion capture analysis of a 45\u00b0 sidestep cutting maneuver in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.9 N\u00b7m/kg, accompanied by 25\u00b0 of internal hip rotation and shallow knee flexion landing (16\u00b0)."
   },
   {
     "id": "t8-c-019",

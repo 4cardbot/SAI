@@ -23,7 +23,7 @@
     "difficulty": "applied",
     "text": "When planning an athletic competition taper, what is the most evidence-based strategy for manipulating training volume, intensity, and frequency (Mujika & Padilla)?",
     "options": [
-      "Complete complete bed rest for 4 weeks without any physical activity bouts",
+      "Complete bed rest without any physical activity for four weeks",
       "Reduce intensity by 80% while doubling total weekly training volume hours",
       "Reduce volume by 40\u201360% over 1\u20133 weeks while maintaining high intensity",
       "Eliminate all recovery days and perform twice-daily maximal 1RM lifts"
@@ -71,12 +71,12 @@
     "difficulty": "applied",
     "text": "In neuromuscular physiology, 'Specific Tension' (force per unit of muscle cross-sectional area - N/cm2) is generally observed to be:",
     "options": [
-      "Relatively similar across single Type I and Type II fibers per unit area",
-      "Ten-fold higher in slow-twitch Type I fibers than in fast-twitch fibers",
       "Completely absent in human skeletal muscle compared to animal myocytes",
+      "Ten-fold higher in slow-twitch Type I fibers than in fast-twitch fibers",
+      "Relatively similar across single Type I and Type II fibers per unit area",
       "Directly proportional to total body height regardless of muscle size"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Normalized specific tension (force / CSA) is fairly similar between Type I and Type II fibers; the massive difference in maximal dynamic power output arises from Type II fibers' 3\u20134x higher maximum shortening velocity (Vmax)."
   },
   {
@@ -101,7 +101,7 @@
     "topic": "exercise physiology bioenergetics and oxygen transport",
     "subtopic": "Exercise Physiology - McArdle, Katch & Katch",
     "difficulty": "foundational",
-    "text": "How does chronic endurance training alter the systemic Oxygen-Hemoglobin Dissociation Curve during heavy exercise (Bohr Effect)?",
+    "text": "During heavy exercise, what acute effect does the Bohr effect have on the oxygen\u2013haemoglobin dissociation curve in active muscle?",
     "options": [
       "Shifts the curve to the left in muscles due to hypothermia and alkalosis",
       "Converts adult hemoglobin into fetal hemoglobin across all erythrocytes",
@@ -109,7 +109,7 @@
       "Shifts curve to right in active muscles via Bohr effect, unloading oxygen"
     ],
     "correct": 3,
-    "explanation": "The Bohr effect shifts the Hb-O2 dissociation curve to the right in exercising muscles (induced by lower pH, higher PCO2, elevated temperature, and 2,3-DPG), decreasing hemoglobin's affinity for O2 and promoting offloading to tissues."
+    "explanation": "In active muscle, lower pH, higher PCO\u2082, increased temperature, and related factors shift the local oxygen\u2013haemoglobin dissociation relationship to the right, reducing haemoglobin affinity and facilitating oxygen unloading. This acute effect should not be confused with a fixed chronic whole-body training shift."
   },
   {
     "id": "t5-a1-008",
@@ -119,12 +119,12 @@
     "difficulty": "applied",
     "text": "In the cardiovascular adaptations of elite endurance athletes ('Athlete's Heart'), what structural remodeling of the left ventricle is classically observed on echocardiography?",
     "options": [
-      "Eccentric LV hypertrophy with enlarged chamber cavity and normal wall ratio",
+      "Global myocardial fibrosis and widespread coronary artery atherosclerosis",
       "Concentric LV hypertrophy with severely thickened walls and reduced cavity",
       "Right ventricular dilation with severe tricuspid valve regurgitation in rest",
-      "Global myocardial fibrosis and widespread coronary artery atherosclerosis"
+      "Eccentric LV hypertrophy with enlarged chamber cavity and normal wall ratio"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Endurance training imposes a chronic volume overload, inducing physiological eccentric LV hypertrophy (increased LV end-diastolic internal diameter and proportional wall thickening), maximizing stroke volume."
   },
   {
@@ -152,11 +152,11 @@
     "text": "During acute exercise in cold environments, what physiological mechanism serves as the primary involuntary metabolic defense against core hypothermia?",
     "options": [
       "Cutaneous vasodilation in peripheral limbs to dissipate internal heat",
-      "Involuntary muscular contractions from shivering to increase heat output",
+      "Spontaneous sweating to cool core temperature below environmental levels",
       "Sudden shutdown of thyroid hormone synthesis to reduce metabolic rate",
-      "Spontaneous sweating to cool core temperature below environmental levels"
+      "Involuntary muscular contractions from shivering to increase heat output"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "When cutaneous vasoconstriction is insufficient to prevent heat loss, the preoptic anterior hypothalamus triggers shivering thermogenesis\u2014involuntary asynchronous motor unit contractions that can elevate metabolic rate 4\u20135x."
   },
   {
@@ -264,11 +264,11 @@
     "text": "In the Phantom Stratagem (Ross & Wilson) in kinanthropometry, what is the standardized unisex reference height used to geometrically scale human body dimensions?",
     "options": [
       "150.00 cm in standing stature measured under standard conditions",
-      "170.18 cm in standing stature measured under standard conditions",
+      "130.25 cm in standing stature measured under standard conditions",
       "190.50 cm in standing stature measured under standard conditions",
-      "130.25 cm in standing stature measured under standard conditions"
+      "170.18 cm in standing stature measured under standard conditions"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "The Ross & Wilson Phantom model is a unisex, geometrically scaled reference human with a standard stature of 170.18 cm (5 feet 7 inches) and mass of 64.58 kg, used to calculate z-scores for proportional comparisons."
   },
   {
@@ -296,11 +296,11 @@
     "text": "In anthropometric assessment, what anatomical landmark defines the 'Tibiale Mediale' site?",
     "options": [
       "The distal tip of the medial malleolus along the medial ankle joint line",
-      "The superior medial border of the tibial plateau along the knee joint line",
+      "The inferior pole of the patella along the anterior knee joint space",
       "The prominence of the tibial tuberosity at the patellar tendon insertion",
-      "The inferior pole of the patella along the anterior knee joint space"
+      "The superior medial border of the tibial plateau along the knee joint line"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "ISAK defines the Tibiale Mediale landmark as the most superior point on the proximal medial border of the head of the tibia, located along the transverse knee joint line."
   },
   {
@@ -325,7 +325,7 @@
     "topic": "kinanthropometry body composition and skinfold somatotyping",
     "subtopic": "Kinanthropometry and Exercise Physiology - Roger Eston & Thomas Reilly",
     "difficulty": "advanced",
-    "text": "In maturity offset prediction (Mirwald et al.), which ratio provides a strong kinematic indicator of the timing of the adolescent growth spurt?",
+    "text": "In the Mirwald maturity-offset method, which statement best describes the role of sitting height and subischial leg length?",
     "options": [
       "Biacromial shoulder breadth relative to Biiliac pelvic width in posture",
       "Sitting Height relative to Leg Subischial Length across growing years",
@@ -333,7 +333,7 @@
       "Triceps skinfold thickness relative to subscapular skinfold thickness"
     ],
     "correct": 1,
-    "explanation": "During puberty, leg growth accelerates before trunk growth. The ratio of sitting height to subischial leg length changes predictably, allowing non-invasive calculation of years from Peak Height Velocity (Maturity Offset)."
+    "explanation": "Sitting height and subischial leg length are input variables in Mirwald\u2019s multivariable maturity-offset equation; their ratio alone does not calculate maturity offset."
   },
   {
     "id": "t5-a1-022",
@@ -364,7 +364,7 @@
       "Injury response is solely dictated by the physical monetary cost of MRI",
       "Injury response is completely independent of coach and teammate support"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The Integrated Model of Psychological Response to Injury demonstrates that an athlete's dynamic emotional and behavioral responses are driven by their cognitive appraisal (meaning and impact) of the injury, moderated by personal/situational variables."
   },
   {
@@ -396,8 +396,8 @@
       "Allowing athletes to train with zero coach feedback or structured guidance",
       "Rewarding athletes exclusively based on gold medals won in international games"
     ],
-    "correct": 3,
-    "explanation": "Transformational leadership involves 4 dimensions (Idealized Influence, Inspirational Motivation, Intellectual Stimulation, Individualized Consideration) to elevate athletes' intrinsic motivation and performance beyond expectations."
+    "correct": 1,
+    "explanation": "Transformational leadership motivates through a shared vision, idealized influence, intellectual stimulation, and individualized consideration rather than punishment or rewards alone."
   },
   {
     "id": "t5-a1-026",
@@ -460,7 +460,7 @@
       "Load = 10-point Tonnage lifted divided by resting hours between bouts",
       "Load = 10-point VO2max percentage multiplied by urine gravity rating"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Foster's session-RPE (sRPE = Borg CR10 rating taken 20\u201330 min post-session x duration in minutes) provides a robust, scientifically validated internal load metric correlating highly with heart rate and blood lactate."
   },
   {
@@ -517,15 +517,15 @@
     "topic": "Indian sports schemes and National Sports Awards",
     "subtopic": "SAI Official Memorandum & Rules / sportsauthorityofindia.nic.in",
     "difficulty": "foundational",
-    "text": "Under the Sports Authority of India (SAI) governance structure, who serves as the Ex-Officio President of the SAI General Body?",
+    "text": "Under the Sports Authority of India governance structure, who serves as the Ex-Officio President of the SAI General Body?",
     "options": [
-      "Target Olympic Podium Scheme for funding elite medal prospects",
-      "Khelo India Youth Games for grassroots multi-sport talent events",
-      "National Sports Development Fund for financing sports stadiums",
-      "Special Area Games Scheme for identifying rural sports talent"
+      "The Union Minister for Youth Affairs and Sports",
+      "The Target Olympic Podium Scheme",
+      "The Khelo India Youth Games",
+      "The National Sports Development Fund"
     ],
-    "correct": 1,
-    "explanation": "The Union Minister for Youth Affairs and Sports serves as the Ex-Officio President of the SAI General Body, while the Director General (DG SAI) functions as the Chief Executive Officer.",
+    "correct": 0,
+    "explanation": "The Union Minister for Youth Affairs and Sports serves as the ex-officio President of the SAI General Body, while the Director General of SAI functions as its chief executive.",
     "asOf": "2026-01-30"
   },
   {
@@ -570,13 +570,13 @@
     "difficulty": "applied",
     "text": "In the Anti-Doping testing protocol, how are the collected athlete urine samples divided into secure containers for analytical chain of custody?",
     "options": [
-      "Sample A with 60 mL for initial and Sample B with 30 mL for confirm",
-      "Sample A with 10 mL for initial and Sample B with 10 mL for confirm",
-      "Single undivided 100 mL urine sample stored in an unsealed plastic cup",
-      "Blood serum sample divided into 5 equal micro-tubes of 10 mL each"
+      "Sample A contains at least 60 mL and Sample B at least 30 mL of a suitable urine specimen",
+      "Sample A and Sample B each contain exactly 10 mL",
+      "The urine remains undivided in an unsealed cup",
+      "A blood sample is divided into five equal serum tubes"
     ],
-    "correct": 2,
-    "explanation": "WADA International Standard for Testing mandates a minimum 90 mL urine collection, divided into Sample A (min 60 mL) for screening/quantification and Sample B (min 30 mL) for confirmatory testing.",
+    "correct": 0,
+    "explanation": "For a suitable urine collection, the specimen is divided into A and B bottles; the commonly specified minimum volumes are 60 mL for Sample A and 30 mL for Sample B, subject to the applicable testing standard.",
     "asOf": "2026-01-30"
   },
   {
@@ -604,13 +604,13 @@
     "difficulty": "applied",
     "text": "In modern Olympic governance, what is the primary role of the International Testing Agency (ITA)?",
     "options": [
-      "National Anti-Doping Disciplinary Panel for initial hearing cases",
-      "National Anti-Doping Appeal Panel for appellate review hearings",
-      "Court of Arbitration for Sport for international arbitration",
-      "High Court of Delhi for constitutional writ legal petitions"
+      "A national disciplinary panel for first-instance hearings",
+      "An independent organization that manages anti-doping testing and results-management programmes for participating sports bodies and major events",
+      "The Court of Arbitration for Sport",
+      "A national constitutional court"
     ],
     "correct": 1,
-    "explanation": "The International Testing Agency (ITA), established in 2018 with IOC support, is an independent body that manages clean sport and anti-doping testing programs for major events and IFs.",
+    "explanation": "The International Testing Agency is an independent anti-doping organization that manages testing and related programmes for Olympic and other international sport bodies and events.",
     "asOf": "2026-01-30"
   },
   {
@@ -619,15 +619,15 @@
     "topic": "sports governance and ethics National Sports Code",
     "subtopic": "National Sports Development Code of India (2011) - MYAS",
     "difficulty": "foundational",
-    "text": "Under the National Sports Development Code of India (2011), what percentage of voting rights in National Sports Federations must be reserved for eminent sportspersons?",
+    "text": "Under the National Sports Development Code of India (2011), what minimum representation of eminent sportspersons was specified in National Sports Federations?",
     "options": [
-      "At least 25% voting representation for prominent elite sportspersons",
-      "Exactly 0% voting representation with athletes barred from all votes",
-      "Exactly 100% voting representation with athletes holding every vote",
-      "At least 75% voting representation reserved for ministry sports officers"
+      "At least 25% representation for eminent sportspersons",
+      "Exactly 0% representation",
+      "Exactly 100% representation",
+      "At least 10% representation for ministry officers, with no eminent-sportsperson requirement"
     ],
-    "correct": 3,
-    "explanation": "The National Sports Development Code mandates that NSFs must include active/retired eminent sportspersons with at least 25% voting rights and executive representation.",
+    "correct": 0,
+    "explanation": "The 2011 Sports Code specified at least 25% representation for eminent sportspersons. This is a historical-code question and should be labelled accordingly because later governance legislation changed the framework.",
     "asOf": "2026-01-30"
   },
   {
@@ -717,7 +717,7 @@
     "topic": "assessment and clinical reasoning differential",
     "subtopic": "Orthopedic Physical Assessment - David J. Magee",
     "difficulty": "advanced",
-    "text": "The 'Stork Standing Test' (Single-Leg Hyperextension Test) is performed to diagnose which athletic spine condition?",
+    "text": "The Stork Standing Test may reproduce pain in athletes with which suspected spine condition?",
     "options": [
       "Lumbar Spondylolysis / Pars stress fracture on weight-bearing side",
       "Thoracic structural scoliosis with severe rib cage deformity in spine",
@@ -725,7 +725,7 @@
       "Acute cervical disc herniation with severe spinal cord compression"
     ],
     "correct": 0,
-    "explanation": "The Stork test places the patient standing on one leg while extending the lumbar spine; pain reproduction on the stance leg side indicates active pars interarticularis stress pathology (spondylolysis)."
+    "explanation": "The one-legged hyperextension test may reproduce pain in athletes with suspected pars stress injury, but its diagnostic accuracy is limited and it should not independently diagnose spondylolysis."
   },
   {
     "id": "t5-b-006",
@@ -740,7 +740,7 @@
       "Numbness over the lateral shoulder deltoid patch (axillary nerve territory)",
       "Burning pain over the anatomical snuffbox (superficial radial nerve)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Phalen's test increases carpal tunnel pressure; numbness/tingling in the median nerve sensory distribution within 60 seconds indicates median nerve compression in the carpal canal."
   },
   {
@@ -752,7 +752,7 @@
     "text": "The 'Froment's Sign' evaluates ulnar nerve motor function. When the patient attempts to pinch a piece of paper between the thumb and index finger against resistance, a positive test is manifested by:",
     "options": [
       "Hyper-extension of thumb MCP joint by Extensor Pollicis Longus tendon",
-      "Complete inability to see the paper grip due to acute optic neuritis",
+      "Weakness of index-finger flexion caused by isolated median-nerve injury",
       "Compensatory flexion of thumb IP joint by FPL due to Adductor palsy",
       "Spontaneous violent abduction of all fingers away from the paper grip"
     ],
@@ -768,7 +768,7 @@
     "text": "The 'Apprehension Test' for Anterior Shoulder Instability is performed with the patient supine and the shoulder in 90\u00b0 abduction and maximal external rotation. What is considered a true positive test?",
     "options": [
       "90\u00b0 Shoulder Flexion with 90\u00b0 Internal Rotation on couch",
-      "90\u00b0 Shoulder Abduction with 90\u00b0 External Rotation on couch",
+      "Apprehension or fear, with resistance to further external rotation or anterior translation",
       "0\u00b0 Shoulder Extension with 90\u00b0 Forearm Pronation on couch",
       "0\u00b0 Neutral Adduction with 90\u00b0 Internal Rotation on couch"
     ],
@@ -837,7 +837,7 @@
       "Pain-dominant gets Grade I\u2013II oscillations; Stiffness gets Grade III\u2013IV"
     ],
     "correct": 3,
-    "explanation": "Maitland distinguishes: Pain-dominant (pain appears before resistance - R1 before P1; treated with Grade I/II oscillations) vs Stiffness-dominant (resistance appears before pain - P1 after R1; treated with Grade III/IV into resistance)."
+    "explanation": "In a pain-dominant problem, pain is encountered before the first resistance (P1 before R1), so lower-grade oscillations are generally selected. In a stiffness-dominant problem, resistance precedes pain and higher-grade oscillations may be used toward the restriction when appropriate."
   },
   {
     "id": "t5-b-013",
@@ -869,7 +869,7 @@
       "High-dose corticosteroid injections directly into tendon for 6\u201315 days"
     ],
     "correct": 0,
-    "explanation": "Kongsgaard's HSR protocol for Achilles tendinopathy utilizes bilateral/unilateral heel raises with heavy progressive resistance (6\u201315 RM, 3s concentric / 3s eccentric) 3 days/week, yielding high collagen turnover and clinical satisfaction."
+    "explanation": "For Achilles tendinopathy, Achilles-specific HSR protocols use progressive calf raises with heavy loads, commonly three times per week and a controlled concentric/eccentric tempo. Kongsgaard et al. is chiefly associated with the patellar-tendinopathy HSR trial, so the attribution should not be used for this Achilles-specific statement."
   },
   {
     "id": "t5-b-015",
@@ -1135,13 +1135,13 @@
     "difficulty": "applied",
     "text": "In spinal cord injury functional assessment, the ASIA Impairment Scale (AIS) Grade 'C' is defined as:",
     "options": [
-      "Complete: No sensory or motor function is preserved in sacral S4\u2013S5",
-      "Incomplete: Sensory but not motor function is preserved below level 3",
-      "Incomplete: Motor function preserved; key muscles have grade >= 3",
-      "Incomplete: Motor function preserved; key muscles have grade < 3"
+      "Complete: no sensory or motor function is preserved in sacral S4\u2013S5",
+      "Incomplete: sensory but not motor function is preserved below the neurological level",
+      "Incomplete: motor function is preserved and at least half of key muscles below the level are grade 3/5 or higher",
+      "Incomplete: motor function is preserved, but more than half of key muscles below the neurological level are grade below 3/5"
     ],
     "correct": 3,
-    "explanation": "AIS Grade C = Incomplete motor injury where motor function is preserved below the level, and more than half of key muscles below the neurological level have a muscle grade <3/5 (Grade D has at least half \u22653/5)."
+    "explanation": "AIS C is an incomplete motor injury in which more than half of the key muscles below the neurological level have a grade below 3/5. AIS D has at least half at grade 3/5 or higher."
   },
   {
     "id": "t5-b-032",
@@ -1167,7 +1167,7 @@
     "difficulty": "foundational",
     "text": "In the management of spastic cerebral palsy or adult spasticity, what is the mechanism of action of intramuscular Botulinum Toxin Type A (Botox) injections?",
     "options": [
-      "Irreversibly inhibiting Acetylcholine release at motor endplates",
+      "Temporarily blocking presynaptic acetylcholine release by cleaving SNAP-25 at the motor endplate",
       "Directly blocking voltage-gated sodium channels along motor axon axons",
       "Stimulating GABA-A receptors in the anterior horn cells of spinal cord",
       "Mechanically denaturing actin-myosin cross-bridge proteins in sarcomeres"
@@ -1265,7 +1265,7 @@
     "options": [
       "Anterior glide of distal fibula maintained during passive plantarflexion",
       "Lateral distraction of calcaneus maintained during seated leg curls",
-      "Posteromedial glide of fibula or posterior talus during active lunge",
+      "Posterior-superior glide of the distal fibula or posterior glide of the talus during an active weight-bearing lunge",
       "Pure inferior traction of talocrural joint held for thirty minutes"
     ],
     "correct": 2,
@@ -1312,7 +1312,7 @@
     "subtopic": "Clinical Case Study 1",
     "difficulty": "analytical",
     "passageId": "p5-01",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 24-year-old elite track sprinter with recurrent left hamstring strain undergoes kinematic sprint analysis.",
     "text": "During the late-stage sprint drills for this athlete, which drill focuses specifically on rapid hip flexion of the swing leg coupled with aggressive down-and-back ground strike under the center of mass to prevent overstriding?",
     "options": [
       "'A-skips', 'B-skips', and high-speed dribble drills with upright posture",
@@ -1348,7 +1348,7 @@
     "subtopic": "Clinical Case Study 2",
     "difficulty": "analytical",
     "passageId": "p5-02",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 21-year-old professional cricket fast bowler reports sharp posterior shoulder pain during ball release.",
     "text": "Which evidence-based stretching technique is proven to produce immediate and lasting restoration of internal rotation and posterior capsular mobility in throwers with pathological GIRD?",
     "options": [
       "Aggressive anterior capsule stretching in 90\u00b0 abduction and external rot",
@@ -1384,7 +1384,7 @@
     "subtopic": "Clinical Case Study 3",
     "difficulty": "analytical",
     "passageId": "p5-03",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 23-year-old elite weightlifter reports anterior knee pain over the patellar tendon during the catch phase of cleans and snatches.",
     "text": "What is the integrated multi-modal management plan to resolve this weightlifter's patellar tendinopathy and prevent recurrence?",
     "options": [
       "Complete immobilization of the knee in a cast for twelve weeks of rest",
@@ -1407,11 +1407,11 @@
     "options": [
       "Isolated cervical C7 radiculopathy without any peripheral elbow pathology",
       "Triceps brachii complete tendon rupture at the olecranon insertion site",
-      "Lateral epicondylalgia coexisting with Radial Tunnel PIN compression",
+      "Possible coexisting lateral epicondylalgia and radial-tunnel/PIN irritation, requiring full clinical examination",
       "Medial collateral ligament tear with ulnar nerve entrapment at elbow"
     ],
     "correct": 2,
-    "explanation": "Recalcitrant lateral elbow pain often features coexisting Radial Tunnel Syndrome (PIN entrapment under the Arcade of Frohse in the supinator), confirmed by tenderness 4 cm distal to epicondyle and positive radial neurodynamics."
+    "explanation": "The findings support possible coexisting lateral epicondylalgia and radial-tunnel/posterior-interosseous-nerve irritation. Tenderness and one neurodynamic test do not establish radial-tunnel syndrome without the full clinical examination."
   },
   {
     "id": "t5-c-008",
@@ -1420,7 +1420,7 @@
     "subtopic": "Clinical Case Study 4",
     "difficulty": "analytical",
     "passageId": "p5-04",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 28-year-old elite squash player reports persistent lateral elbow pain for 4 months.",
     "text": "What integrated physiotherapeutic treatment approach is indicated for this combined lateral elbow tendinopathy and radial nerve entrapment?",
     "options": [
       "Eccentric extensor loading Tyler Twist, nerve sliders, supinator release",
@@ -1447,7 +1447,7 @@
       "Passive stretching into extreme inversion held for 60 seconds ten times"
     ],
     "correct": 1,
-    "explanation": "High-level evidence (Donovan & Hertel, BJSM) confirms that multi-component neuromuscular balance training, unstable surface perturbation, and reactive agility drills restore sensorimotor control and prevent recurrent CAI sprains."
+    "explanation": "High-level evidence (Donovan & Hertel, BJSM) supports that multi-component neuromuscular balance training, unstable surface perturbation, and reactive agility drills restore sensorimotor control and prevent recurrent CAI sprains."
   },
   {
     "id": "t5-c-010",
@@ -1456,7 +1456,7 @@
     "subtopic": "Clinical Case Study 5",
     "difficulty": "analytical",
     "passageId": "p5-05",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 22-year-old professional basketball guard presents with chronic ankle instability (CAI) and frequent 'giving way' episodes.",
     "text": "In addition to balance training, what specific manual therapy joint mobilization restores posterior talar glide and improves dynamic dorsiflexion in chronic ankle instability?",
     "options": [
       "Passive immobilization in a rigid walking boot for four weeks",
@@ -1483,7 +1483,7 @@
       "It is a benign self-limiting apophysitis that resolves at skeletal maturity"
     ],
     "correct": 3,
-    "explanation": "Parent/athlete reassurance is paramount: Sever's disease is self-limiting and resolves once the calcaneal apophysis fuses (~age 14\u201315), managed effectively with load management and heel cushions without long-term consequences."
+    "explanation": "Parent/athlete reassurance is paramount: Sever's disease is self-limiting and resolves once the calcaneal apophysis fuses (~age 14\u201315), managed effectively with load management and heel cushions with an excellent overall prognosis."
   },
   {
     "id": "t5-c-012",
@@ -1492,7 +1492,7 @@
     "subtopic": "Clinical Case Study 6",
     "difficulty": "analytical",
     "passageId": "p5-06",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "An 11-year-old competitive junior tennis player reports bilateral posterior heel pain aggravated during match sprints.",
     "text": "Which immediate footwear and biomechanical modifications provide rapid pain relief during sports activity in this young athlete with Sever's disease?",
     "options": [
       "Prescribing completely barefoot running on 5\u201310 km asphalt road surfaces",
@@ -1514,7 +1514,7 @@
     "text": "Examination reveals pinpoint focal tenderness (<1 cm) and a palpable periosteal callus over the anterior tibial cortex. Tuning fork vibration testing is positive. What is the diagnosis?",
     "options": [
       "Medial Tibial Stress Syndrome low-risk periosteal bone stress reaction",
-      "Anterior Tibial Cortex Stress Fracture Dreaded Black Line high-risk BSI",
+      "Anterior tibial cortex stress fracture, a high-risk bone-stress injury",
       "Chronic exertional compartment syndrome of the deep posterior calf",
       "Acute thrombophlebitis of the greater saphenous vein in lower leg"
     ],
@@ -1528,8 +1528,8 @@
     "subtopic": "Clinical Case Study 7",
     "difficulty": "analytical",
     "passageId": "p5-07",
-    "passage": "Clinical case presentation and analytical evaluation.",
-    "text": "Why is an anterior tibial cortex stress fracture classified as a 'high-risk' bone stress injury requiring strict non-weight-bearing protection or surgical intramedullary nailing?",
+    "passage": "A 20-year-old elite female cross-country runner presents with acute localized pain over the anterior mid-shaft of the left tibia that is sharp, hurts during walking, and causes severe night pain.",
+    "text": "Why is an anterior tibial cortex stress fracture considered a high-risk bone-stress injury, and what initial management is appropriate?",
     "options": [
       "The anterior cortex is under compression forces that heal in 48 hours",
       "The anterior cortex has excessive blood supply that causes local hematoma",
@@ -1537,7 +1537,7 @@
       "The anterior cortex dissolves completely upon contact with atmospheric air"
     ],
     "correct": 2,
-    "explanation": "The anterior tibial border is on the tension side of tibial bending moments and has poor vascular supply; failure to immobilize or surgically fix (intramedullary nail) frequently leads to non-union ('dreaded black line') and complete fracture."
+    "explanation": "This is a higher-risk bone-stress pattern because of tensile or shear loading and relatively limited healing potential. Initial management commonly includes activity cessation and protected or non-weight-bearing immobilization with urgent specialist review; surgery depends on fracture pattern, displacement, non-union, and athlete-specific factors."
   },
   {
     "id": "t5-c-015",
@@ -1546,16 +1546,16 @@
     "subtopic": "Clinical Case Study 8",
     "difficulty": "analytical",
     "passageId": "p5-08",
-    "passage": "A 23-year-old international soccer player is evaluated at 12 months post-ACL reconstruction.",
+    "passage": "A 23-year-old international soccer player is evaluated at 12 months post-ACL reconstruction. The athlete has also completed supervised sport-specific and contact-progressive training without symptoms.",
     "text": "Objective testing shows: Quadriceps Limb Symmetry Index (LSI) = 96%, Hamstring LSI = 94%, Single Hop LSI = 95%, Triple Hop LSI = 97%, ACL-RSI score = 82/100, and 3D motion capture reveals symmetrical landing mechanics with zero dynamic knee valgus. According to current consensus guidelines, is this athlete ready for full unrestricted return to competitive match play?",
     "options": [
       "No, the athlete must complete a mandatory minimum of 24 months of rest",
       "No, because the athlete has not undergone bilateral knee arthroscopy",
       "No, because quadriceps strength must exceed 200% of uninjured limb",
-      "Yes, the athlete meets all physical, functional, and psychological criteria"
+      "These findings support consideration for clearance, subject to full sport-specific assessment and clinician decision"
     ],
     "correct": 3,
-    "explanation": "The athlete satisfies all rigorous consensus return-to-sport criteria (strength/hop LSI >90%, psychological readiness ACL-RSI >65%, biomechanical landing symmetry, and full sports-specific training completion)."
+    "explanation": "The results meet commonly used physical and psychological benchmarks, but LSI, ACL-RSI, and landing symmetry do not by themselves establish unrestricted clearance. Symptoms, full range, effusion, sport-specific exposure, and clinician assessment remain necessary."
   },
   {
     "id": "t5-c-016",
@@ -1564,7 +1564,7 @@
     "subtopic": "Clinical Case Study 8",
     "difficulty": "analytical",
     "passageId": "p5-08",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "A 23-year-old international soccer player is evaluated at 12 months post-ACL reconstruction. The athlete has also completed supervised sport-specific and contact-progressive training without symptoms.",
     "text": "Why is completing a minimum of 9 to 12 months before returning to competitive pivoting match play strongly advocated post-ACL reconstruction, even if functional tests are passed earlier?",
     "options": [
       "Graft tissue becomes permanently necrotic if loaded after 6 months",
@@ -1582,16 +1582,16 @@
     "subtopic": "Clinical Case Study 9",
     "difficulty": "analytical",
     "passageId": "p5-09",
-    "passage": "During real-time 3D motion analysis of a single-leg cut in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.8 Nm/kg, accompanied by 25\u00b0 of internal hip rotation and reduced knee flexion (15\u00b0 landing).",
+    "passage": "During real-time 3D motion analysis of a single-leg cut in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.8 N\u00b7m/kg, accompanied by 25\u00b0 of internal hip rotation and reduced knee flexion (15\u00b0 landing).",
     "text": "What does this biomechanical profile indicate regarding ACL loading?",
     "options": [
       "This movement pattern produces zero tensile strain on the cruciate ligaments",
-      "High valgus moment, hip internal rotation, shallow flexion loads ACL",
+      "High valgus moment, hip internal rotation, and shallow flexion are associated with increased ACL loading and non-contact injury risk",
       "High flexion angle past 120\u00b0 represents the primary ACL injury mechanism",
       "Pure sagittal plane hip extension is the only mechanism that tears the ACL"
     ],
     "correct": 1,
-    "explanation": "The classic non-contact ACL injury mechanism involves shallow knee flexion (<20\u201330\u00b0), dynamic knee valgus moment, and internal hip rotation/tibial external rotation, generating massive peak ACL tensile strain."
+    "explanation": "Dynamic valgus, hip internal rotation, and shallow knee flexion are associated with increased ACL loading and non-contact injury risk; these kinematics do not directly demonstrate a measured peak ACL tensile strain."
   },
   {
     "id": "t5-c-018",
@@ -1600,7 +1600,7 @@
     "subtopic": "Clinical Case Study 9",
     "difficulty": "analytical",
     "passageId": "p5-09",
-    "passage": "Clinical case presentation and analytical evaluation.",
+    "passage": "During real-time 3D motion analysis of a single-leg cut in a male handball player recovering from knee injury, the analyst measures an external knee abduction (valgus) moment of 1.8 N\u00b7m/kg, accompanied by 25\u00b0 of internal hip rotation and reduced knee flexion (15\u00b0 landing).",
     "text": "What specific neuromuscular feedback intervention (e.g., using video playback or real-time visual feedback) is most effective to modify this athlete's cutting mechanics?",
     "options": [
       "Instructing the athlete to focus internally on contracting the VMO muscle",
@@ -1636,15 +1636,15 @@
     "subtopic": "Clinical Case Study 10",
     "difficulty": "analytical",
     "passageId": "p5-10",
-    "passage": "Clinical case presentation and analytical evaluation.",
-    "text": "What is the optimal management and return-to-bowling timeline for this young fast bowler to achieve complete bony healing and prevent progression to non-union?",
+    "passage": "A 17-year-old junior cricket fast bowler experiences acute low back pain during an intensive bowling camp.",
+    "text": "What initial management and return-to-bowling plan is appropriate for this young fast bowler with an active pars lesion?",
     "options": [
-      "Relative rest from fast bowling for 8\u201312 weeks and core stabilization",
+      "Relative rest from fast bowling, neutral-spine rehabilitation, reassessment of healing, and a graded individualized return-to-bowling programme",
       "Immediate return to fast bowling with 8\u201312 heavy weighted cricket balls",
       "Casting the entire trunk in a rigid jacket for 8\u201312 continuous months",
       "High-dose systemic corticosteroids combined with 8\u201312 spinal twists"
     ],
     "correct": 0,
-    "explanation": "Early-stage active pars lesions heal with high rates (up to 90\u2013100%) under strict relative rest from bowling (typically 8\u201312 weeks), neutral spine stabilization (multifidus/transversus), biomechanical bowling action remediation (reducing mixed action / hyperextension), and gradual graded return."
+    "explanation": "Active pars lesions require individualized activity restriction, trunk rehabilitation, imaging or clinical reassessment where indicated, correction of bowling mechanics, and a graded return-to-bowling programme. A fixed 8\u201312-week timeline cannot guarantee bony healing or safe clearance."
   }
 ]

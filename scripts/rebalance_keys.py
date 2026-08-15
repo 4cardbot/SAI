@@ -50,5 +50,5 @@ def balance_test(t_num, target=[25, 25, 25, 25]):
         json.dump(qs, f, indent=2)
 
 if __name__ == '__main__':
-    for t in [2, 3, 4, 5, 6]:
+    for t in range(1, 13):
         balance_test(t)

@@ -8,11 +8,11 @@
     "text": "According to the General Adaptation Syndrome (GAS) model, what is the immediate physiological response during the 'Alarm' phase following an acute bout of unaccustomed high-intensity resistance exercise?",
     "options": [
       "Immediate upregulation of structural myofibrillar protein synthesis pathways",
-      "Temporary reduction in neuromuscular performance and acute tissue microtrauma",
+      "Long-term structural adaptation and increased tolerance to subsequent heavy loads",
       "Rapid supercompensation of muscle glycogen stores and maximal force output",
-      "Long-term structural adaptation and increased tolerance to subsequent heavy loads"
+      "Temporary reduction in neuromuscular performance and acute tissue microtrauma"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "The Alarm phase of Selye's General Adaptation Syndrome is characterized by acute physiological disruption, soreness, stiffness, and a transient drop in neuromuscular performance before recovery and supercompensation occur."
   },
   {
@@ -40,12 +40,12 @@
     "text": "In velocity-based training (VBT), a barbell velocity loss exceeding 30% during a resistance set is primarily indicative of which physiological state?",
     "options": [
       "Rapid phosphocreatine replenishment within active contracting sarcomeres",
-      "Substantial central nervous system and neuromuscular fatigue accumulation",
+      "Substantial neuromuscular fatigue and loss of movement quality",
       "Optimal accumulation of mechanical tension for tendon collagen remodeling",
-      "Selective recruitment of high-threshold type IIb motor units without fatigue"
+      "Selective recruitment of high-threshold type II motor units without fatigue"
     ],
     "correct": 1,
-    "explanation": "In velocity-based training, velocity loss greater than 30-40% indicates significant neuromuscular and central fatigue with high metabolic accumulation, making it inappropriate for power-specific sessions."
+    "explanation": "Velocity loss above about 30% indicates substantial fatigue and loss of movement quality, including peripheral and neuromuscular fatigue. It does not independently diagnose central nervous system fatigue."
   },
   {
     "id": "t1-a1-004",
@@ -181,15 +181,15 @@
     "topic": "travel and competition readiness and circadian rhythm",
     "subtopic": "Jet lag mitigation, environmental acclimatization and competition protocols",
     "difficulty": "analytical",
-    "text": "For an endurance athlete participating in an event lasting longer than 90 minutes, what is the evidence-based recommendation for exogenous carbohydrate intake during the event?",
+    "text": "For an endurance event lasting approximately 1 to 2.5 hours, what is the commonly recommended range of carbohydrate intake during exercise?",
     "options": [
       "10 to 20 grams of carbohydrates per hour of exercise",
       "20 to 30 grams of carbohydrates per hour of exercise",
-      "30 to 45 grams of carbohydrates per hour of exercise",
+      "10\u201320 grams of carbohydrate per hour of exercise",
       "30 to 60 grams of carbohydrates per hour of exercise"
     ],
     "correct": 3,
-    "explanation": "ACSM and ISSN position stands recommend 30\u201360 g/hour of rapidly absorbed carbohydrates (e.g., glucose, maltodextrin) during endurance events lasting 1\u20132.5 hours to maintain blood glucose and spare muscle glycogen."
+    "explanation": "For events of roughly 1 to 2.5 hours, 30\u201360 g/hour of rapidly absorbed carbohydrate is commonly recommended. Longer ultra-endurance events may use higher, individually tolerated rates."
   },
   {
     "id": "t1-a1-013",
@@ -357,15 +357,15 @@
     "topic": "recovery regeneration sleep and athlete monitoring",
     "subtopic": "HRV monitoring, fatigue tracking and recovery modalities",
     "difficulty": "applied",
-    "text": "Which psychological intervention is most specifically designed to address cognitive state anxiety rather than somatic anxiety in elite competitors?",
+    "text": "Which intervention most specifically targets cognitive appraisal and worry rather than physiological arousal in an elite competitor?",
     "options": [
-      "Progressive muscle relaxation targeting autonomic parasympathetic regulation",
+      "Progressive muscle relaxation targeting autonomic arousal",
       "Cognitive thought stopping targeting intrusive negative internal dialogue",
-      "Autogenic training targeting peripheral vasodilation and warmth sensations",
-      "Cognitive reframing targeting appraisal of pressure as a positive challenge"
+      "Autogenic training targeting peripheral warmth and relaxation",
+      "Slow diaphragmatic breathing targeting respiratory arousal"
     ],
-    "correct": 3,
-    "explanation": "Cognitive reframing and restructuring target negative thoughts, worry, and appraisal (cognitive anxiety), whereas somatic modalities like PMR and breathing target physiological arousal."
+    "correct": 1,
+    "explanation": "Thought stopping is a cognitive strategy aimed at intrusive negative dialogue and worry. Reframing and cognitive restructuring can also target cognitive anxiety, so the stem must distinguish the intended technique."
   },
   {
     "id": "t1-a1-024",
@@ -441,11 +441,11 @@
     "options": [
       "Immediate necessity to double high-intensity interval training session frequency",
       "Optimal long-term cardiac adaptation to high-volume aerobic base conditioning blocks",
-      "Excessive allostatic load, autonomic imbalance, and non-functional overreaching",
+      "Autonomic imbalance and incomplete recovery, requiring corroborating evidence before diagnosing non-functional overreaching",
       "Enhanced parasympathetic recovery and optimal physical readiness for maximal competition"
     ],
     "correct": 2,
-    "explanation": "Suppression of vagally-mediated HRV metrics (like ln RMSSD) alongside elevated resting HR indicates sympathetic dominance, incomplete systemic recovery, and potential non-functional overreaching."
+    "explanation": "A sustained fall in vagally mediated HRV can suggest autonomic imbalance or incomplete recovery when interpreted with resting heart rate, performance, symptoms, and training load. HRV alone does not diagnose non-functional overreaching."
   },
   {
     "id": "t1-a1-029",
@@ -493,7 +493,7 @@
       "To calculate statistical correlation coefficients between two completely independent variables"
     ],
     "correct": 0,
-    "explanation": "TEM represents the standard deviation of repeated measurements taken by the same observer (intra-rater) or different observers (inter-rater), serving as a gold standard for measurement precision/error."
+    "explanation": "TEM estimates random measurement error across repeated measurements by the same or different observers. It is useful for assessing measurement precision, but it is not simply the standard deviation and does not alone establish reliability."
   },
   {
     "id": "t1-a1-032",
@@ -585,7 +585,7 @@
     "topic": "anti-doping awareness and WADA/NADA regulations",
     "subtopic": "Anti-doping rules, testing and compliance",
     "difficulty": "foundational",
-    "text": "When an athlete has a diagnosed medical condition requiring a prohibited medication, which official certificate must be granted prior to participation?",
+    "text": "When an athlete has a diagnosed medical condition requiring a prohibited medication, which authorization normally permits its use in sport?",
     "options": [
       "Emergency Medical Exemption (EME) certificate",
       "Therapeutic Use Exemption (TUE) certificate",
@@ -593,7 +593,7 @@
       "Prohibited Substance Waiver (PSW) credential"
     ],
     "correct": 1,
-    "explanation": "A Therapeutic Use Exemption (TUE) allows an athlete to use a prohibited substance or method for a legitimate, documented medical condition in accordance with the International Standard for TUEs.",
+    "explanation": "A Therapeutic Use Exemption authorizes use of a prohibited substance or method for a documented medical condition when the applicable criteria are met. Retroactive TUEs exist for defined emergency or exceptional circumstances.",
     "asOf": "2026-01-30"
   },
   {
@@ -636,15 +636,15 @@
     "topic": "Indian sports schemes and National Sports Awards",
     "subtopic": "Sports Authority of India and national schemes",
     "difficulty": "applied",
-    "text": "In Indian sports administration, what is the standardized scientific radiographical method mandated for skeletal age determination to prevent age fraud in age-group tournaments?",
+    "text": "In the SAI age-verification protocol for adolescent athletes, which hand-and-wrist radiographic methods may be used according to the applicable age or category?",
     "options": [
-      "Tanner-Whitehouse 3 (TW3) method on left wrist and hand radiograph",
-      "Greulich-Pyle 2 (GP2) atlas method on left wrist and hand radiograph",
-      "Fels Longitudinal 1 (FL1) method on left wrist and hand radiograph",
-      "Roche-Wainer-Thissen 4 (RWT4) method on left wrist and hand radiograph"
+      "Tanner\u2013Whitehouse 3 and Greulich\u2013Pyle methods, selected according to the applicable age/category protocol",
+      "Only a hypothetical Greulich\u2013Pyle 2 method for every age and category",
+      "Only a hypothetical Fels Longitudinal 1 method for every age and category",
+      "Only a hypothetical Roche\u2013Wainer\u2013Thissen 4 method for every age and category"
     ],
     "correct": 0,
-    "explanation": "The Tanner-Whitehouse (TW3) method using plain radiograph of the left wrist and hand is the government/SAI mandated protocol for skeletal age estimation to curb age fraud.",
+    "explanation": "SAI age-verification protocols may use established left-hand and wrist skeletal-age methods such as Tanner\u2013Whitehouse and Greulich\u2013Pyle, depending on the athlete\u2019s age or category. The applicable protocol should be identified rather than presenting TW3 as universal.",
     "asOf": "2026-01-30"
   },
   {
@@ -749,7 +749,7 @@
     "topic": "assessment and clinical reasoning differential",
     "subtopic": "Special orthopedic physical assessment tests",
     "difficulty": "applied",
-    "text": "When assessing an athlete with suspected posterior shoulder instability, which special test provides the highest diagnostic specificity?",
+    "text": "When assessing suspected posterior shoulder instability, which named test is specifically designed to assess posteroinferior labral or posterior-instability pathology?",
     "options": [
       "Yergason's test for transverse humeral ligament laxity",
       "Neer Impingement test in full forward elevation plane",
@@ -757,7 +757,7 @@
       "Apprehension and Relocation test for anterior labral tears"
     ],
     "correct": 2,
-    "explanation": "The Jerk test and Kim test are specific clinical tests designed to identify posteroinferior labral tears and posterior glenohumeral instability."
+    "explanation": "The posterior Jerk test is designed to assess posteroinferior labral pathology and posterior glenohumeral instability. The Kim test is a separate test that may be used alongside it; they should not be treated as one test with one universal accuracy estimate."
   },
   {
     "id": "t1-b-008",
@@ -773,7 +773,7 @@
       "Scaphoid nonunion fracture involving the waist and proximal pole of the carpal scaphoid"
     ],
     "correct": 1,
-    "explanation": "Finkelstein's test (making a fist over the thumb and ulnarly deviating the wrist) elicits sharp pain in the first dorsal compartment, diagnostic of De Quervain's tenosynovitis (Abductor Pollicis Longus and Extensor Pollicis Brevis)."
+    "explanation": "The thumb-in-fist ulnar-deviation maneuver commonly called Finkelstein\u2019s test is often performed as Eichhoff\u2019s maneuver in clinical practice. The original Finkelstein maneuver is examiner-assisted. Both are used to provoke first-dorsal-compartment pain associated with De Quervain\u2019s tenosynovitis; the terminology should be distinguished."
   },
   {
     "id": "t1-b-009",
@@ -818,7 +818,7 @@
       "It selectively unloads the patellar tendon and maximizes gluteal activation",
       "It prevents knee flexion beyond 30 degrees to avoid hip joint impingement",
       "It shifts all mechanical torque from the knee joint to the lumbar spine",
-      "It eliminates gastrocnemius involvement and isolates higher patellar tendon load"
+      "It reduces the relative ankle contribution and increases loading of the knee extensors and patellar tendon"
     ],
     "correct": 3,
     "explanation": "The 25\u00b0 decline board limits ankle dorsiflexion requirement and trunk forward lean, directing greater load and mechanical strain onto the knee extensors and patellar tendon."
@@ -885,7 +885,7 @@
       "They maximize energetic depletion of glycogen within the muscle-tendon junction"
     ],
     "correct": 1,
-    "explanation": "Ebonie Rio et al. demonstrated that heavy isometric holds (e.g., 5 x 45-second holds at 70% MVC) induce cortical inhibition and provide robust immediate analgesia in reactive tendinopathies without excessive compressive provocation."
+    "explanation": "Heavy isometric loading may provide short-term symptom relief in some people with tendinopathy without requiring large tendon excursions. The analgesic response is variable and does not establish a universal treatment effect or replace progressive rehabilitation."
   },
   {
     "id": "t1-b-016",
@@ -1093,7 +1093,7 @@
       "Reversal of structural joint deformities in osteoarthritis"
     ],
     "correct": 2,
-    "explanation": "High-quality systematic reviews demonstrate that TENS has strong evidence for reducing acute postoperative and acute procedural pain, working via gate control and endogenous opioid mechanisms."
+    "explanation": "TENS has some or conditional evidence as an adjunct for acute postoperative or procedural pain. Evidence quality is heterogeneous, and TENS should not be described as a universal or definitive treatment."
   },
   {
     "id": "t1-b-029",
@@ -1218,7 +1218,7 @@
       "Soft cartilaginous callus phase of chondrogenesis",
       "Inflammatory hematoma phase of acute vascular disruption",
       "Avascular necrosis phase of bone resorption",
-      "Hard bony callus / remodeling phase along lines of stress"
+      "Remodeling phase, when woven bone is replaced by organized lamellar bone"
     ],
     "correct": 3,
     "explanation": "During the remodeling phase of fracture healing, woven bone is systematically remodeled into dense lamellar bone oriented along lines of stress in accordance with Wolff's Law."
@@ -1319,7 +1319,7 @@
       "Nordic Hamstring Exercise with progressive eccentric overload and high-speed running exposure"
     ],
     "correct": 3,
-    "explanation": "The Nordic Hamstring Exercise increases eccentric hamstring strength and architectural fascicle length. Combined with progressive high-speed running exposure (>95% max velocity), it forms the gold standard for secondary prevention.",
+    "explanation": "The Nordic Hamstring Exercise increases eccentric hamstring strength and architectural fascicle length. Combined with progressive high-speed running exposure (>95% max velocity), it forms the commonly used reference for secondary prevention.",
     "passageId": "cs-01",
     "passage": "A 23-year-old elite track sprinter decelerates abruptly during the terminal swing phase of a 100m sprint, clutching the back of his right thigh after hearing a distinct 'pop'."
   },
@@ -1329,7 +1329,7 @@
     "topic": "sports physiotherapy and case study analysis",
     "subtopic": "Case study: A 24-year-old right-arm cricket fast bowler presents with progressive posterior shoulder p...",
     "difficulty": "analytical",
-    "text": "Gonyometric examination reveals 125\u00b0 of external rotation and 35\u00b0 of internal rotation in the dominant shoulder (Total Motion Arc = 160\u00b0), compared to 100\u00b0 ER and 65\u00b0 IR in the non-dominant shoulder (Total Arc = 165\u00b0). What is the primary clinical diagnosis?",
+    "text": "Goniometric examination reveals 125\u00b0 of external rotation and 35\u00b0 of internal rotation in the dominant shoulder (Total Motion Arc = 160\u00b0), compared to 100\u00b0 ER and 65\u00b0 IR in the non-dominant shoulder (Total Arc = 165\u00b0). What is the primary clinical diagnosis?",
     "options": [
       "Subacromial Impingement Syndrome (SAIS) with subacromial bursal thickening",
       "Glenohumeral Internal Rotation Deficit (GIRD) with posterior capsular tightness",
@@ -1386,7 +1386,7 @@
     "text": "According to international clinical consensus guidelines on Patellofemoral Pain Syndrome, what is the core recommended initial conservative management strategy?",
     "options": [
       "Isolated continuous passive knee extension drills without active muscle recruitment",
-      "Combined hip abductor strengthening and quadriceps vastus medialis motor retraining",
+      "Combined hip-focused and quadriceps strengthening with progressive functional loading",
       "Strict knee immobilizer splinting for six weeks followed by lateral release surgery",
       "Heavy open-chain knee extensions from 90\u00b0 to 0\u00b0 performed to complete muscle failure"
     ],
@@ -1527,7 +1527,7 @@
     "topic": "sports physiotherapy and case study analysis",
     "subtopic": "Case study: A 21-year-old marathon runner presents with persistent pain along the lower inner shin aft...",
     "difficulty": "analytical",
-    "text": "If this runner's symptoms had shown focal pinpoint tenderness over the anterior tibial cortex with severe night pain and pain on single-leg hopping, which imaging modality is gold standard to confirm a suspected bone stress injury?",
+    "text": "If this runner's symptoms had shown focal pinpoint tenderness over the anterior tibial cortex with severe night pain and pain on single-leg hopping, which imaging modality is commonly used reference to support a suspected bone stress injury?",
     "options": [
       "Dual-energy X-ray absorptiometry (DEXA) assessing regional bone mineral density",
       "Diagnostic musculoskeletal ultrasound (MSUS) assessing superficial fascial thickness",
@@ -1535,7 +1535,7 @@
       "Magnetic Resonance Imaging (MRI) demonstrating localized cortical bone marrow edema"
     ],
     "correct": 3,
-    "explanation": "MRI is the gold standard imaging modality for detecting early bone stress injuries and stress fractures, revealing bone marrow edema and periosteal reaction with high sensitivity and specificity.",
+    "explanation": "MRI is the commonly used reference imaging modality for detecting early bone stress injuries and stress fractures, revealing bone marrow edema and periosteal reaction with high sensitivity and specificity.",
     "passageId": "cs-07",
     "passage": "A 21-year-old marathon runner presents with persistent pain along the lower inner shin after abruptly increasing weekly mileage from 40 km to 80 km."
   },
@@ -1553,7 +1553,7 @@
       "Limb Symmetry Index (LSI) \u226530% on functional hop testing and quadriceps peak torque"
     ],
     "correct": 0,
-    "explanation": "Current return-to-sport consensus criteria mandate a Limb Symmetry Index (LSI) of at least 90% (or 95% in high-demand pivoting sports) on functional hop test batteries and isokinetic quadriceps/hamstring strength.",
+    "explanation": "An LSI of at least 90% is a commonly used benchmark for hop and strength testing, but cutoffs vary by protocol and sport. Return-to-sport clearance is multifactorial and also considers symptoms, range of motion, strength quality, sport-specific exposure, and clinician assessment.",
     "passageId": "cs-08",
     "passage": "An elite female footballer is evaluated at 9 months following ACL reconstruction (bone-patellar tendon-bone autograft)."
   },
@@ -1571,7 +1571,7 @@
       "Tampa Scale for Kinesiophobia (TSK) score for elevated fear of movement (>45 score)"
     ],
     "correct": 2,
-    "explanation": "The ACL-Return to Sport after Injury (ACL-RSI) scale quantifies psychological readiness, confidence, and fear of re-injury; scores above 60\u201365% correlate with successful return to sport and reduced secondary injury rates.",
+    "explanation": "ACL-RSI is a useful psychological-readiness measure. A threshold such as 60\u201365% may be used in a specific protocol, but thresholds vary and the score should inform rather than independently determine unrestricted clearance.",
     "passageId": "cs-08",
     "passage": "An elite female footballer is evaluated at 9 months following ACL reconstruction (bone-patellar tendon-bone autograft)."
   },

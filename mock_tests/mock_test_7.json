@@ -37,15 +37,15 @@
     "topic": "biomechanics kinematic force plate and kinetic analysis",
     "subtopic": "Movement mechanics, ground reaction forces and impulse",
     "difficulty": "analytical",
-    "text": "In designing resistance training programs for maximal muscular power development, what percentage of 1RM is standardly prescribed for ballistic explosive exercises (e.g., jump squats, power cleans)?",
+    "text": "How should the load for maximal-power resistance exercises be selected?",
     "options": [
-      "5% to 10% of 1RM performed strictly for 50 continuous repetitions per set",
-      "30% to 70% of 1RM (maximizing peak mechanical power output across the force-velocity spectrum)",
-      "Maximal power is trained exclusively with zero external resistance",
-      "100% to 110% of 1RM performed with slow eccentric isometric pauses"
+      "Use 5% to 10% of 1RM for every ballistic and Olympic-lifting exercise",
+      "Use an exercise- and athlete-specific load that maximizes measured power rather than one universal percentage",
+      "Use zero external resistance for all power training",
+      "Use 100% to 110% of 1RM for every power exercise"
     ],
     "correct": 1,
-    "explanation": "Peak mechanical power output occurs at intermediate loads: ~30\u201345% of 1RM for ballistic jump squats and ~70\u201380% of 1RM for Olympic weightlifting movements (power clean/snatch), optimizing the product of force and velocity."
+    "explanation": "The load that maximizes power is exercise- and athlete-specific. Ballistic jump squats often use lighter loads than Olympic-lifting derivatives, so one universal percentage is inappropriate."
   },
   {
     "id": "t7-a1-004",
@@ -69,10 +69,10 @@
     "topic": "kinanthropometry body composition and skinfold somatotyping",
     "subtopic": "Anthropometric proportionality and biological maturation",
     "difficulty": "applied",
-    "text": "In the Fick Equation for determining maximal oxygen uptake ($VO_2\\max = Q\\max \\times (a-v)O_2\\text{diff}\\max$), what is the primary physiological limiter of $VO_2\\max$ in healthy elite endurance athletes at sea level?",
+    "text": "In the Fick Equation for determining maximal oxygen uptake (VO\u2082max = Qmax \u00d7 (a-v)O\u2082diffmax), what is the primary physiological limiter of VO\u2082max in healthy elite endurance athletes at sea level?",
     "options": [
       "Pulmonary alveolar diffusion capacity and atmospheric nitrogen partial pressure",
-      "Maximal cardiac output ($Q\\max$ - specifically maximal stroke volume and pulmonary blood delivery capacity)",
+      "Maximal cardiac output (Qmax - specifically maximal stroke volume and pulmonary blood delivery capacity)",
       "Renal tubular reabsorption of glucose during steady-state aerobic exercise",
       "Mitochondrial Krebs cycle enzyme concentrations in non-contracting resting tissues"
     ],
@@ -109,7 +109,7 @@
       "Massive increase in intra-abdominal and intra-thoracic pressure, providing spinal rigidity but temporarily elevating systolic blood pressure up to >300 mmHg while reducing venous return"
     ],
     "correct": 3,
-    "explanation": "The Valsalva maneuver (forced expiration against a closed glottis) dramatically elevates intra-thoracic/intra-abdominal pressure, supporting the spine during maximal lifting but causing transient acute spikes in arterial blood pressure (>300 mmHg) and venous return reduction."
+    "explanation": "A forceful Valsalva can markedly increase intra-abdominal and intrathoracic pressure, improve trunk stiffness, reduce venous return transiently, and produce large temporary blood-pressure changes. The magnitude is not a universal fixed value such as 300 mmHg."
   },
   {
     "id": "t7-a1-008",
@@ -151,13 +151,13 @@
     "difficulty": "foundational",
     "text": "In sports nutrition, what is the 'Leucine Trigger' hypothesis regarding post-exercise Muscle Protein Synthesis (MPS)?",
     "options": [
-      "Leucine directly converts into glucose inside red blood cells to power anaerobic glycolysis",
-      "A threshold concentration of intracellular leucine (~2.5\u20133.0 g per meal) is required to activate the mechanistic Target of Rapamycin Complex 1 (mTORC1) signaling cascade that initiates protein translation",
-      "Consuming leucine causes instantaneous depletion of all essential amino acids in blood plasma",
-      "Leucine must be completely eliminated from the diet to prevent muscle fiber breakdown"
+      "Leucine is converted directly into glucose inside red blood cells",
+      "A commonly cited leucine dose in a high-quality protein serving can stimulate mTORC1, but no universal threshold applies to every meal or athlete",
+      "Leucine instantly depletes all other essential amino acids from plasma",
+      "Leucine must be eliminated from the diet to prevent muscle breakdown"
     ],
     "correct": 1,
-    "explanation": "The Leucine Trigger hypothesis posits that reaching a peak intracellular concentration of the essential branched-chain amino acid leucine (~2.5\u20133.0 g per serving) is the essential trigger to maximally activate mTORC1 and stimulate MPS."
+    "explanation": "Leucine availability is one signal involved in mTORC1 activation. A 2.5\u20133 g dose is commonly cited for many adults, but total protein quality, meal composition, age, and training status also matter."
   },
   {
     "id": "t7-a1-011",
@@ -184,7 +184,7 @@
     "text": "In dietary nitrate supplementation (e.g., concentrated beetroot juice), what physiological mechanism accounts for the observed reduction in the oxygen cost of submaximal exercise?",
     "options": [
       "Nitrate molecules bind irreversibly to hemoglobin, completely displacing all oxygen molecules",
-      "Nitrate ($NO_3^-$) is converted to nitrite ($NO_2^-$) by oral bacteria and reduced to Nitric Oxide (NO), improving endothelial vasodilation, microvascular perfusion, and mitochondrial oxidative efficiency (P/O ratio)",
+      "Nitrate (NO\u2083^-) is converted to nitrite (NO\u2082^-) by oral bacteria and reduced to Nitric Oxide (NO), improving endothelial vasodilation, microvascular perfusion, and mitochondrial oxidative efficiency (P/O ratio)",
       "Beetroot juice acts as an aggressive central nervous system stimulant identical to synthetic amphetamines",
       "Nitrates permanently destroy fast-twitch muscle fibers to prevent lactic acid generation"
     ],
@@ -328,12 +328,12 @@
     "text": "In athlete tracking, what is 'PlayerLoad\u2122' (Catapult GPS / Accelerometry metric)?",
     "options": [
       "The total scale weight in kilograms of the athlete including all clothing and playing equipment",
-      "A tri-axial vector magnitude metric calculated from instantaneous accelerations in forward, sideways, and vertical axes ($PlayerLoad = \\sqrt{(a_y - a_{y-1})^2 + (a_x - a_{x-1})^2 + (a_z - a_{z-1})^2} / 100$)",
+      "A tri-axial vector magnitude metric calculated from instantaneous accelerations in forward, sideways, and vertical axes (PlayerLoad = sqrt(a_y - a_y-1)\u00b2 + (a_x - a_x-1)\u00b2 + (a_z - a_z-1)\u00b2 / 100)",
       "The average heart rate recorded in beats per minute during a 90-minute soccer match",
       "The total volume of carbohydrate sports beverage consumed during a match in milliliters"
     ],
     "correct": 1,
-    "explanation": "PlayerLoad\u2122 is an instantaneous accelerometry metric integrating changes in acceleration across all three orthogonal planes ($X, Y, Z$) over time, providing a valid measure of total external mechanical work."
+    "explanation": "PlayerLoad\u2122 is an instantaneous accelerometry metric integrating changes in acceleration across all three orthogonal planes (X, Y, Z) over time, providing a valid measure of total external mechanical work."
   },
   {
     "id": "t7-a1-022",
@@ -359,13 +359,13 @@
     "difficulty": "applied",
     "text": "In athlete sleep tracking, what is 'Sleep Hygiene' best practice for optimizing neuromuscular recovery and growth hormone secretion in elite competitors?",
     "options": [
-      "Consuming 400 mg of caffeine and playing bright mobile video games in bed until falling asleep",
-      "Maintaining a consistent sleep schedule, sleeping in a cool (18\u00b0C/65\u00b0F), dark, quiet room, and avoiding blue light screens and caffeine 1\u20132 hours before bedtime",
-      "Sleeping for 2 hours during the day and staying awake for 48 continuous hours before competition",
-      "Sleeping in a brightly lit room with loud television audio playing continuously overnight"
+      "Consuming caffeine and using bright screens immediately before bed",
+      "Maintaining a consistent schedule and a cool, dark, quiet room while limiting evening light and allowing an individualized caffeine-free interval before sleep",
+      "Sleeping for two hours during the day and remaining awake for 48 hours before competition",
+      "Sleeping with bright lights and loud television throughout the night"
     ],
     "correct": 1,
-    "explanation": "Evidence-based sleep hygiene optimizes slow-wave sleep (where peak growth hormone is released for tissue repair) by eliminating blue-light exposure, keeping the environment dark/cool (~18\u00b0C), and maintaining regular sleep-wake schedules."
+    "explanation": "Consistent timing, a cool/dark/quiet environment, reduced evening light, and an individualized caffeine cutoff support sleep. A 1\u20132 hour cutoff is not sufficient for every athlete because caffeine clearance varies."
   },
   {
     "id": "t7-a1-024",
@@ -501,15 +501,15 @@
     "topic": "emerging technology wearable sensors and GPS tracking",
     "subtopic": "Micro-technology, velocity tracking and load monitoring",
     "difficulty": "applied",
-    "text": "In the physiological monitoring of overtraining syndrome, what is the key endocrine marker indicating severe parasympathetic (exhaustion stage) overtraining?",
+    "text": "Which statement best describes endocrine monitoring in suspected overtraining syndrome?",
     "options": [
-      "Massive 10-fold elevation in resting blood insulin and growth hormone levels",
-      "Instantaneous elevation of blood lactate up to 30 mmol/L during quiet standing",
-      "Complete absence of all thyroid hormones in the bloodstream during resting sleep",
-      "Blunted nocturnal excretion of urinary catecholamines (epinephrine/norepinephrine) and suppressed adrenocortical cortisol response to maximal exercise"
+      "A single insulin or growth-hormone value diagnoses overtraining",
+      "A single lactate value while standing diagnoses overtraining",
+      "Complete absence of thyroid hormones is expected in all overtrained athletes",
+      "Catecholamine and cortisol responses may be altered, but no single endocrine pattern reliably diagnoses overtraining syndrome"
     ],
     "correct": 3,
-    "explanation": "Parasympathetic overtraining represents advanced neuroendocrine exhaustion: baseline resting heart rate and blood pressure may be low, but the adrenal glands fail to produce normal catecholamine and cortisol surges in response to maximal exercise."
+    "explanation": "Endocrine responses can be altered in some athletes with severe training maladaptation, but no single catecholamine, cortisol, or other endocrine pattern is sufficiently specific to diagnose overtraining syndrome."
   },
   {
     "id": "t7-a2-001",
@@ -520,9 +520,9 @@
     "text": "Under the 'Khelo India' scheme of the Ministry of Youth Affairs and Sports (MYAS), what financial scholarship is awarded to identified talented athletes annually?",
     "options": [
       "Financial assistance of \u20b95,00,000 (5 Lakhs) per annum for 8 consecutive years",
-      "A monthly stipend of \u20b925,000 for a maximum period of 2 consecutive years",
-      "An annual lump-sum cash award of \u20b915,00,000 without continuous training review",
-      "A one-time equipment grant of \u20b950,000 given at the national championship"
+      "\u20b910,00,000 per month paid directly into private commercial bank fixed deposits",
+      "Free international airline travel for the athlete's entire extended family",
+      "A one-time cash grant of \u20b950,000 given at the national championship"
     ],
     "correct": 0,
     "explanation": "Under the Khelo India Talent Development scheme, selected high-potential athletes receive financial assistance of \u20b95 Lakh per annum for 8 years to cover training, equipment, nutrition, and medical expenses.",
@@ -534,7 +534,7 @@
     "topic": "anti-doping awareness and WADA/NADA regulations",
     "subtopic": "Anti-doping rules, testing and compliance",
     "difficulty": "applied",
-    "text": "Under the National Anti-Doping Act (2022) of India, what statutory power was granted to the National Anti-Doping Agency (NADA India)?",
+    "text": "According to the enacted National Anti-Doping Act (2022) text of India, what statutory power was granted to the National Anti-Doping Agency (NADA India)?",
     "options": [
       "Statutory authority to conduct dope testing, investigations, intelligence gathering, and entry and search operations in connection with doping offenses in sports",
       "Power to select the starting eleven players for the Indian national cricket team",
@@ -542,7 +542,7 @@
       "Authority to issue national currency notes and regulate international trade tariffs"
     ],
     "correct": 0,
-    "explanation": "The National Anti-Doping Act, 2022 established NADA as a statutory body with powers of investigation, intelligence, sample collection, and conducting search/seizure operations to ensure clean sports in India.",
+    "explanation": "The National Anti-Doping Act, 2022 established NADA as a statutory body with powers of investigation, intelligence, sample collection, and conducting search/seizure operations to ensure clean sports in India. This item is anchored to the enacted Act text; as of the notification date, the NADA Rules 2021 remained the operative rules.",
     "asOf": "2026-01-30"
   },
   {
@@ -570,13 +570,13 @@
     "difficulty": "applied",
     "text": "In the Anti-Doping Athlete Biological Passport (ABP) module, what physiological markers are tracked longitudinally in the 'Hematological Module'?",
     "options": [
-      "Total blood cholesterol, serum triglycerides, and high-density lipoproteins",
-      "Hematocrit (HCT), Hemoglobin (HGB), Reticulocyte percentage (RET%), and OFF-hr score",
-      "Serum creatinine, blood urea nitrogen, and glomerular filtration rate",
-      "Blood glucose, salivary amylase, and resting urine pH levels"
+      "Total blood cholesterol and triglycerides",
+      "Haemoglobin, haematocrit, reticulocyte percentage, and calculated OFF-score",
+      "Serum creatinine and blood urea nitrogen",
+      "Blood glucose and urine pH"
     ],
     "correct": 1,
-    "explanation": "The ABP Hematological Module monitors markers of erythropoiesis: Hemoglobin (HGB), Hematocrit (HCT), Reticulocytes (RET%), and calculated indices (OFF-score, Abnormal Blood Profile Score) to detect recombinant EPO or blood transfusions.",
+    "explanation": "The haematological Athlete Biological Passport module tracks haemoglobin, haematocrit, reticulocytes, and calculated indices such as the OFF-score.",
     "asOf": "2026-01-30"
   },
   {
@@ -644,7 +644,7 @@
       "Chaired by a commercial marketing representative from a private sports sponsor"
     ],
     "correct": 2,
-    "explanation": "Under the POSH Act 2013 and SAI guidelines, every ICC must be headed by a senior woman Presiding Officer, have at least 50% women members, and include an external independent member dedicated to women's rights.",
+    "explanation": "The Internal Committee includes a senior woman Presiding Officer, at least half women members, and an external member meeting the statutory qualifications. The external member need not be described narrowly as coming from an NGO.",
     "asOf": "2026-01-30"
   },
   {
@@ -831,13 +831,13 @@
     "difficulty": "analytical",
     "text": "In PNF stretching, the 'Contract-Relax' (CR) technique achieves target muscle relaxation primarily through which neurophysiological reflex?",
     "options": [
-      "Reciprocal inhibition mediated by gamma motor neuron activation of the skin",
-      "Monosynaptic stretch reflex triggering violent contraction of the target muscle",
-      "Complete pharmacological blockade of acetylcholine release at the motor endplate",
-      "Autogenic inhibition, mediated by Golgi Tendon Organ (GTO) Ib afferent discharge during the strong isometric contraction of the antagonist muscle"
+      "Reciprocal inhibition caused by skin stimulation",
+      "The stretch reflex",
+      "Pharmacological blockade of acetylcholine",
+      "Autogenic inhibition mediated by GTO Ib discharge during isometric contraction of the target muscle"
     ],
     "correct": 3,
-    "explanation": "The Contract-Relax technique relies on autogenic inhibition: an isometric contraction of the tight target muscle stimulates GTO Ib afferents, which inhibit alpha motor neurons to the same muscle, allowing greater subsequent passive elongation."
+    "explanation": "Contract-relax uses an isometric contraction of the target tight muscle, followed by relaxation and stretching. GTO-mediated autogenic inhibition is one proposed neurophysiological contribution."
   },
   {
     "id": "t7-b-013",
@@ -929,7 +929,7 @@
     "options": [
       "Femoral Nerve and the quadriceps femoris muscle belly",
       "Obturator Nerve and the hip adductor longus muscle",
-      "Deep Peroneal (Fibular) Nerve and the ankle dorsiflexors (Tibialis Anterior, Extensor Digitorum Longus)",
+      "Common or deep peroneal-nerve dysfunction causing weakness of the ankle dorsiflexors",
       "Tibial Nerve and the ankle plantarflexors (Gastrocnemius, Soleus)"
     ],
     "correct": 2,
@@ -1277,7 +1277,7 @@
     "topic": "assessment and clinical reasoning differential",
     "subtopic": "Special orthopedic physical assessment tests",
     "difficulty": "analytical",
-    "text": "In the cervical spine, what constitutes a positive 'Vertebrobasilar Insufficiency' (VBI) screening test (Wallenberg / DeKleyn test)?",
+    "text": "During cervical vascular-risk assessment, which finding should stop treatment and prompt appropriate referral?",
     "options": [
       "Complete disappearance of all deep tendon reflexes in the lower limbs",
       "Onset of cardinal 5D/3N symptoms: Dizziness, Diplopia, Dysarthria, Dysphagia, Drop attacks, Nausea, Numbness, Nystagmus during sustained cervical extension and rotation",
@@ -1285,7 +1285,7 @@
       "Audible clicking of the temporomandibular joint during jaw opening"
     ],
     "correct": 1,
-    "explanation": "VBI testing compresses the contralateral vertebral artery in the suboccipital space; cardinal signs (5Ds: Dizziness, Diplopia, Dysarthria, Dysphagia, Drop attacks; 3Ns: Nausea, Numbness, Nystagmus) indicate vascular compromise, serving as an absolute red-flag contraindication to manipulation."
+    "explanation": "Dizziness, diplopia, dysarthria, dysphagia, drop attacks, nausea, numbness, or nystagmus during or after a neck movement are concerning symptoms. Modern frameworks do not treat sustained extension\u2013rotation testing as a valid stand-alone vascular screen; history, examination, risk assessment, and referral are required."
   },
   {
     "id": "t7-c-001",
@@ -1303,7 +1303,7 @@
     "correct": 0,
     "explanation": "Askling classified hamstring injuries into Type 1 (high-speed running, biceps femoris muscle-tendon junction) and Type 2 (stretch-type during hip flexion/knee extension, proximal free tendon of semimembranosus/ischial origin), which typically take substantially longer to heal.",
     "passageId": "cs-61",
-    "passage": "A 25-year-old international male track sprinter feels a sudden 'tweak' in the upper posterior thigh during the acceleration phase of a 60m sprint."
+    "passage": "A 25-year-old international male track sprinter feels a sudden posterior-thigh pain during a stretch-type movement involving marked hip flexion and knee extension. Examination demonstrates tenderness near the ischial origin, pain on resisted knee flexion, and pain on a standing hamstring stretch test."
   },
   {
     "id": "t7-c-002",
@@ -1321,7 +1321,7 @@
     "correct": 3,
     "explanation": "Askling's L-Protocol consists of three loaded lengthening exercises (The Extender, The Diver, The Glider) that train hamstrings at long muscle-tendon lengths, significantly shortening return-to-sport time (28 vs 51 days) compared to conventional training.",
     "passageId": "cs-61",
-    "passage": "A 25-year-old international male track sprinter feels a sudden 'tweak' in the upper posterior thigh during the acceleration phase of a 60m sprint."
+    "passage": "A 25-year-old international male track sprinter feels a sudden posterior-thigh pain during a stretch-type movement involving marked hip flexion and knee extension. Examination demonstrates tenderness near the ischial origin, pain on resisted knee flexion, and pain on a standing hamstring stretch test."
   },
   {
     "id": "t7-c-003",
@@ -1527,7 +1527,7 @@
     "topic": "sports physiotherapy and case study analysis",
     "subtopic": "Case study: A 20-year-old elite track sprinter presents with insidious, aching pain over the dorsum of...",
     "difficulty": "analytical",
-    "text": "Why are Navicular Stress Fractures classified as 'High-Risk Bone Stress Injuries' requiring strict non-weight-bearing (NWB) cast immobilization for 6 weeks or percutaneous screw fixation?",
+    "text": "Why are Navicular Stress Fractures classified as 'High-Risk Bone Stress Injuries' requiring strict protection and specialist assessment?",
     "options": [
       "The navicular bone completely dissolves into liquid within 2 weeks of fracture",
       "Weight-bearing walking causes instantaneous paralysis of the sciatic nerve",
@@ -1535,7 +1535,7 @@
       "Navicular fractures always lead to acute bacterial infection of the femoral artery"
     ],
     "correct": 2,
-    "explanation": "The central third of the navicular has poor vascularity (watershed zone) and bears immense compressive force between the talar head and cuneiforms. Failure to enforce strict 6-week NWB cast immobilization frequently leads to non-union or AVN.",
+    "explanation": "This is a higher-risk bone-stress pattern because of tensile or shear loading and relatively limited healing potential. Initial management commonly includes activity cessation and protected or non-weight-bearing immobilization with urgent specialist review; surgery depends on fracture pattern, displacement, non-union, and athlete-specific factors.",
     "passageId": "cs-67",
     "passage": "A 20-year-old elite track sprinter presents with insidious, aching pain over the dorsum of the midfoot that radiates along the medial longitudinal arch."
   },
@@ -1549,11 +1549,11 @@
     "options": [
       "Quadriceps strength symmetry is irrelevant as long as the athlete has zero knee pain",
       "LSI = 125.0%; she exceeds all strength requirements and should immediately return to full contact match play",
-      "LSI = 80.0% ($160 / 200 \\times 100$); she does NOT meet the minimum criterion (requires LSI \u2265 90%), and clearance must be delayed until quadriceps symmetry reaches \u2265 90%",
+      "LSI = 80.0% (160 / 200 \u00d7 100); she does NOT meet the minimum criterion (requires LSI \u2265 90%), and clearance must be delayed until quadriceps symmetry reaches \u2265 90%",
       "LSI = 50.0%; she requires immediate revision surgery of the patellar tendon autograft"
     ],
     "correct": 2,
-    "explanation": "LSI = $(Involved / Uninvolved) \\times 100 = (160 / 200) \\times 100 = 80.0%$. Consensus guidelines mandate an LSI \u2265 90% in quadriceps and hamstring strength, as deficits >10\u201315% significantly increase secondary ACL rupture risk.",
+    "explanation": "LSI = (Involved / Uninvolved) \u00d7 100 = (160 / 200) \u00d7 100 = 80.0%. Consensus guidelines mandate an LSI \u2265 90% in quadriceps and hamstring strength, as deficits >10\u201315% significantly increase secondary ACL rupture risk.",
     "passageId": "cs-68",
     "passage": "A 21-year-old female international soccer player is evaluated at 9 months post-left ACL reconstruction with a bone-patellar tendon-bone (BPTB) autograft."
   },
