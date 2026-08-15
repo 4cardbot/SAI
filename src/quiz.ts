@@ -49,6 +49,26 @@ export function generateAttemptQuestions(testNumber: number, bank: Question[], s
   }));
 }
 
+/**
+ * Randomly builds an attempt by drawing questions across individual test files.
+ */
+export function generateAttemptFromIndividualFiles(individualTests: Question[][], seed = randomSeed()): AttemptQuestion[] {
+  const flattened = individualTests.flat();
+  return generateAttemptQuestions(1, flattened, seed);
+}
+
+/**
+ * Builds an attempt from a specific individual mock test file (1 to 10).
+ */
+export function generateTestFromIndividualFile(testIndex: number, individualTests: Question[][], seed = hashSeed(`individual:${testIndex}`)): AttemptQuestion[] {
+  const safeIndex = ((testIndex - 1) % individualTests.length + individualTests.length) % individualTests.length;
+  const testPool = individualTests[safeIndex];
+  return testPool.map((question) => ({
+    questionId: question.id,
+    optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
+  }));
+}
+
 export function createAttempt(testNumber: number, bank: Question[], now = new Date(), seed = randomSeed()): ActiveAttempt {
   const questions = generateAttemptQuestions(testNumber, bank, seed);
   const responses: Record<string, Response> = {};

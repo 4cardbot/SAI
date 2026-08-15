@@ -1,8 +1,26 @@
 import { describe, expect, it } from "vitest";
 import { A2_COVERAGE_DATE } from "../constants";
-import { AUTHORED_QUESTION_BANK } from "./authored";
+import { AUTHORED_QUESTION_BANK, INDIVIDUAL_TESTS } from "./authored";
 
 describe("explicit authored question batches", () => {
+  it("exports 10 individual test modules with 100 questions each", () => {
+    expect(INDIVIDUAL_TESTS).toHaveLength(10);
+    INDIVIDUAL_TESTS.forEach((testQuestions, testIdx) => {
+      expect(testQuestions).toHaveLength(100);
+      expect(testQuestions.filter((q) => q.section === "A1")).toHaveLength(32);
+      expect(testQuestions.filter((q) => q.section === "A2")).toHaveLength(8);
+      expect(testQuestions.filter((q) => q.section === "B")).toHaveLength(40);
+      expect(testQuestions.filter((q) => q.section === "C")).toHaveLength(20);
+
+      // Verify answer key distribution is equal across 0, 1, 2, 3 (25 each)
+      const correctDist = [0, 0, 0, 0];
+      testQuestions.forEach((q) => {
+        correctDist[q.correct] += 1;
+      });
+      expect(correctDist).toEqual([25, 25, 25, 25]);
+    });
+  });
+
   it("contain literal records with unique IDs and answer choices", () => {
     expect(AUTHORED_QUESTION_BANK.length).toBe(1000);
     expect(new Set(AUTHORED_QUESTION_BANK.map((question) => question.id)).size).toBe(AUTHORED_QUESTION_BANK.length);

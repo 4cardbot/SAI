@@ -1,4 +1,5 @@
-import { AUTHORED_QUESTION_BANK } from "./authored";
+import { AUTHORED_QUESTION_BANK, INDIVIDUAL_TESTS } from "./authored";
 
-/** Production content is explicit authored data; no questions are generated at runtime. */
+/** Production content is loaded from individual authored test files; no questions are generated at runtime. */
 export const QUESTION_BANK = AUTHORED_QUESTION_BANK;
+export { INDIVIDUAL_TESTS };
