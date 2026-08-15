@@ -38,6 +38,6 @@ Create a GitHub repository, push this folder to its `main` branch, then enable *
 
 The production bank contains 600 explicit question objects imported from the supplied `1.txt` and `2.txt` files: 192 A1, 48 A2, 240 B and 120 C records, with 55 distinct C passages. The first eight A questions in `1.txt` are mapped to A2 and its remaining 32 A questions to A1. Section C passages retain their supplied grouping (five passages with four questions and 50 passages with two questions); each mock test selects complete groups totalling 20 questions. The test shuffles displayed options.
 
-The app has no backend or login. The active attempt and latest result are stored in versioned browser storage. Starting a new test clears the previous attempt and latest result after confirmation.
+The app has no backend or login. Each attempt is generated from a fresh random seed, while the active attempt and latest result are stored in versioned browser storage. Answers, the current question, and remaining time are saved as the user progresses. Closing, refreshing, leaving the tab, or navigating Home pauses the attempt; Home offers Resume. The completed report remains available until the user chooses Start new test. Starting a new test instead from Home permanently replaces the saved attempt after confirmation.
 
 The question bank is an independent preparation resource, not an official SAI examination or recruitment application.

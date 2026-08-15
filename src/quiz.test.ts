@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest";
 import { QUESTION_BANK, INDIVIDUAL_TESTS } from "./data/questionBank";
-import { completedCount, createAttempt, generateAttemptFromIndividualFiles, generateAttemptQuestions, generateTestFromIndividualFile, isComplete, moveNext, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
+import { completedCount, createAttempt, generateAttemptFromIndividualFiles, generateAttemptFromIndividualFile, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
 import { TEST_DURATION_MS } from "./constants";
 
 const byId = new Map(QUESTION_BANK.map((question) => [question.id, question]));
 
 describe("quiz engine", () => {
   it("creates reproducible seeded tests with the official section counts", () => {
-    const first = generateAttemptQuestions(1, QUESTION_BANK, 12345);
-    const repeat = generateAttemptQuestions(1, QUESTION_BANK, 12345);
+    const first = generateAttemptQuestions(QUESTION_BANK, 12345);
+    const repeat = generateAttemptQuestions(QUESTION_BANK, 12345);
     expect(first).toEqual(repeat);
     expect(first).toHaveLength(100);
     expect(new Set(first.map((item) => item.questionId)).size).toBe(100);
@@ -37,7 +37,7 @@ describe("quiz engine", () => {
 
   it("builds an attempt from a specific individual mock test file", () => {
     for (let testIdx = 1; testIdx <= 10; testIdx += 1) {
-      const attempt = generateTestFromIndividualFile(testIdx, INDIVIDUAL_TESTS);
+      const attempt = generateAttemptFromIndividualFile(testIdx, INDIVIDUAL_TESTS);
       expect(attempt).toHaveLength(100);
       const testQuestionIds = new Set(INDIVIDUAL_TESTS[testIdx - 1].map((q) => q.id));
       attempt.forEach((item) => {
@@ -47,8 +47,8 @@ describe("quiz engine", () => {
   });
 
   it("gives new attempts different question selections when their seeds differ", () => {
-    const first = createAttempt(1, QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 101);
-    const second = createAttempt(1, QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 202);
+    const first = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 101);
+    const second = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 202);
 
     expect(first.seed).toBe(101);
     expect(second.seed).toBe(202);
@@ -56,7 +56,7 @@ describe("quiz engine", () => {
   });
 
   it("scores correct, wrong and skipped responses with negative marking", () => {
-    let attempt = setRunning(createAttempt(1, QUESTION_BANK, new Date("2026-08-12T00:00:00Z")), 1000);
+    let attempt = setRunning(createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z")), 1000);
     attempt.questions.forEach(({ questionId }, index) => {
       const question = byId.get(questionId)!;
       attempt = index === 1
@@ -76,7 +76,7 @@ describe("quiz engine", () => {
   });
 
   it("counts unanswered questions as skipped when time expires", () => {
-    const result = scoreAttempt(createAttempt(1, QUESTION_BANK), QUESTION_BANK);
+    const result = scoreAttempt(createAttempt(QUESTION_BANK), QUESTION_BANK);
     expect(result.correctCount).toBe(0);
     expect(result.wrongCount).toBe(0);
     expect(result.skippedCount).toBe(100);
@@ -84,7 +84,7 @@ describe("quiz engine", () => {
   });
 
   it("pauses a running timer using elapsed time and can resume it", () => {
-    const attempt = setRunning(createAttempt(1, QUESTION_BANK), 1000);
+    const attempt = setRunning(createAttempt(QUESTION_BANK), 1000);
     const paused = setPaused(attempt, 4500);
     expect(paused.status).toBe("paused");
     expect(paused.remainingMs).toBe(TEST_DURATION_MS - 3500);
@@ -94,8 +94,16 @@ describe("quiz engine", () => {
     expect(resumed.lastTickAt).toBe(5000);
   });
 
+  it("pauses persisted running state without charging time after the last save", () => {
+    const attempt = setRunning(createAttempt(QUESTION_BANK), 1000);
+    const paused = pausePersisted(attempt, 4500);
+    expect(paused.status).toBe("paused");
+    expect(paused.remainingMs).toBe(TEST_DURATION_MS);
+    expect(paused.lastTickAt).toBeUndefined();
+  });
+
   it("only moves forward through questions", () => {
-    let attempt = createAttempt(1, QUESTION_BANK);
+    let attempt = createAttempt(QUESTION_BANK);
     expect(attempt.currentIndex).toBe(0);
     attempt = moveNext(attempt);
     expect(attempt.currentIndex).toBe(1);

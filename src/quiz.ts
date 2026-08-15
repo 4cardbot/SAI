@@ -34,7 +34,7 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
   throw new Error(`Unable to select exactly ${target} case-study questions`);
 }
 
-export function generateAttemptQuestions(testNumber: number, bank: Question[], seed = hashSeed(`test:${testNumber}`)): AttemptQuestion[] {
+export function generateAttemptQuestions(bank: Question[], seed = randomSeed()): AttemptQuestion[] {
   const selected: Question[] = [];
   SECTION_ORDER.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
@@ -54,14 +54,14 @@ export function generateAttemptQuestions(testNumber: number, bank: Question[], s
  */
 export function generateAttemptFromIndividualFiles(individualTests: Question[][], seed = randomSeed()): AttemptQuestion[] {
   const flattened = individualTests.flat();
-  return generateAttemptQuestions(1, flattened, seed);
+  return generateAttemptQuestions(flattened, seed);
 }
 
 /**
  * Builds an attempt from a specific individual mock test file (1 to 10).
  */
-export function generateTestFromIndividualFile(testIndex: number, individualTests: Question[][], seed = hashSeed(`individual:${testIndex}`)): AttemptQuestion[] {
-  const safeIndex = ((testIndex - 1) % individualTests.length + individualTests.length) % individualTests.length;
+export function generateAttemptFromIndividualFile(fileIndex: number, individualTests: Question[][], seed = hashSeed(`individual:${fileIndex}`)): AttemptQuestion[] {
+  const safeIndex = ((fileIndex - 1) % individualTests.length + individualTests.length) % individualTests.length;
   const testPool = individualTests[safeIndex];
   return testPool.map((question) => ({
     questionId: question.id,
@@ -69,15 +69,14 @@ export function generateTestFromIndividualFile(testIndex: number, individualTest
   }));
 }
 
-export function createAttempt(testNumber: number, bank: Question[], now = new Date(), seed = randomSeed()): ActiveAttempt {
-  const questions = generateAttemptQuestions(testNumber, bank, seed);
+export function createAttempt(bank: Question[], now = new Date(), seed = randomSeed()): ActiveAttempt {
+  const questions = generateAttemptQuestions(bank, seed);
   const responses: Record<string, Response> = {};
   questions.forEach(({ questionId }) => {
     responses[questionId] = { status: "unanswered" };
   });
   return {
-    version: 2,
-    testNumber,
+    version: 3,
     seed,
     createdAt: now.toISOString(),
     updatedAt: now.toISOString(),
@@ -129,6 +128,14 @@ export function setPaused(attempt: ActiveAttempt, now = Date.now()): ActiveAttem
   return { ...updated, status: "paused", lastTickAt: undefined, updatedAt: new Date(now).toISOString() };
 }
 
+/**
+ * Pauses an attempt from persisted state without charging time since its last save.
+ * This protects progress when a browser process exits without delivering a lifecycle event.
+ */
+export function pausePersisted(attempt: ActiveAttempt, now = Date.now()): ActiveAttempt {
+  return { ...attempt, status: "paused", lastTickAt: undefined, updatedAt: new Date(now).toISOString() };
+}
+
 export function setRunning(attempt: ActiveAttempt, now = Date.now()): ActiveAttempt {
   if (attempt.remainingMs <= 0) return setPaused(attempt, now);
   return { ...attempt, status: "running", lastTickAt: now, updatedAt: new Date(now).toISOString() };
@@ -176,8 +183,7 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
   const wrongCount = items.filter((item) => item.status === "wrong").length;
   const skippedCount = items.filter((item) => item.status === "skipped").length;
   return {
-    version: 2,
-    testNumber: attempt.testNumber,
+    version: 3,
     submittedAt: submittedAt.toISOString(),
     durationMs: TEST_DURATION_MS - attempt.remainingMs,
     total: attempt.questions.length,

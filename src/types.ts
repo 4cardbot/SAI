@@ -28,8 +28,7 @@ export interface Response {
 }
 
 export interface ActiveAttempt {
-  version: 2;
-  testNumber: number;
+  version: 3;
   seed: number;
   createdAt: string;
   updatedAt: string;
@@ -56,8 +55,7 @@ export interface ResultItem {
 }
 
 export interface TestResult {
-  version: 2;
-  testNumber: number;
+  version: 3;
   submittedAt: string;
   durationMs: number;
   total: number;
@@ -72,10 +70,9 @@ export interface TestResult {
 }
 
 export interface PersistedState {
-  version: 2;
+  version: 3;
   activeAttempt: ActiveAttempt | null;
   latestResult: TestResult | null;
-  nextTestNumber: number;
 }
 
 export interface ValidationResult {
