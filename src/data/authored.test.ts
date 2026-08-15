@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { A2_COVERAGE_DATE } from "../constants";
 import { AUTHORED_QUESTION_BANK, INDIVIDUAL_TESTS } from "./authored";
+import { SOURCE_CATALOG_BY_ID } from "./sourceCatalog";
 
 describe("explicit authored question batches", () => {
   it("exports 12 individual test modules with 100 questions each", () => {
@@ -32,7 +33,7 @@ describe("explicit authored question batches", () => {
       expect(question.correct).toBeLessThan(4);
       expect(question.explanation.length).toBeGreaterThan(20);
       expect(question.text.length).toBeGreaterThan(20);
-      expect(Object.keys(question).some((key) => /^source/i.test(key))).toBe(false);
+      expect(SOURCE_CATALOG_BY_ID.has(question.sourceId)).toBe(true);
       if (question.section === "A2") expect(question.asOf).toBe(A2_COVERAGE_DATE);
     });
   });
@@ -51,4 +52,3 @@ describe("explicit authored question batches", () => {
     expect([...passageCounts.values()].every((count) => count === 2 || count === 4)).toBe(true);
   });
 });
-

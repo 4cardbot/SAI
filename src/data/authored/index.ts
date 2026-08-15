@@ -11,19 +11,27 @@ import test10 from "../../../mock_tests/mock_test_10.json";
 import test11 from "../../../mock_tests/mock_test_11.json";
 import test12 from "../../../mock_tests/mock_test_12.json";
 import type { Question } from "../../types";
+import { sourceIdForQuestion } from "../sourceCatalog";
 
-export const TEST_1_QUESTIONS = test1 as unknown as Question[];
-export const TEST_2_QUESTIONS = test2 as unknown as Question[];
-export const TEST_3_QUESTIONS = test3 as unknown as Question[];
-export const TEST_4_QUESTIONS = test4 as unknown as Question[];
-export const TEST_5_QUESTIONS = test5 as unknown as Question[];
-export const TEST_6_QUESTIONS = test6 as unknown as Question[];
-export const TEST_7_QUESTIONS = test7 as unknown as Question[];
-export const TEST_8_QUESTIONS = test8 as unknown as Question[];
-export const TEST_9_QUESTIONS = test9 as unknown as Question[];
-export const TEST_10_QUESTIONS = test10 as unknown as Question[];
-export const TEST_11_QUESTIONS = test11 as unknown as Question[];
-export const TEST_12_QUESTIONS = test12 as unknown as Question[];
+function withProvenance(questions: Question[]): Question[] {
+  return questions.map((question) => ({
+    ...question,
+    sourceId: question.sourceId ?? sourceIdForQuestion(question),
+  }));
+}
+
+export const TEST_1_QUESTIONS = withProvenance(test1 as unknown as Question[]);
+export const TEST_2_QUESTIONS = withProvenance(test2 as unknown as Question[]);
+export const TEST_3_QUESTIONS = withProvenance(test3 as unknown as Question[]);
+export const TEST_4_QUESTIONS = withProvenance(test4 as unknown as Question[]);
+export const TEST_5_QUESTIONS = withProvenance(test5 as unknown as Question[]);
+export const TEST_6_QUESTIONS = withProvenance(test6 as unknown as Question[]);
+export const TEST_7_QUESTIONS = withProvenance(test7 as unknown as Question[]);
+export const TEST_8_QUESTIONS = withProvenance(test8 as unknown as Question[]);
+export const TEST_9_QUESTIONS = withProvenance(test9 as unknown as Question[]);
+export const TEST_10_QUESTIONS = withProvenance(test10 as unknown as Question[]);
+export const TEST_11_QUESTIONS = withProvenance(test11 as unknown as Question[]);
+export const TEST_12_QUESTIONS = withProvenance(test12 as unknown as Question[]);
 
 /**
  * 12 Individual Mock Tests (100 Questions each) loaded directly from individual JSON files.
@@ -47,4 +55,3 @@ export const INDIVIDUAL_TESTS: Question[][] = [
  * The complete question bank composed dynamically from the 12 individual JSON test files.
  */
 export const AUTHORED_QUESTION_BANK: Question[] = INDIVIDUAL_TESTS.flat();
-

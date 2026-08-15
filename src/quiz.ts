@@ -173,6 +173,7 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
       optionOrder: attempt.questions.find((item) => item.questionId === question.id)?.optionOrder ?? [0, 1, 2, 3],
       correct: question.correct,
       explanation: question.explanation,
+      sourceId: question.sourceId,
       passage: question.passage,
       passageId: question.passageId,
       status,

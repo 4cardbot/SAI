@@ -1,4 +1,5 @@
 import { A2_COVERAGE_DATE, SECTION_COUNTS } from "../constants";
+import { SOURCE_CATALOG_BY_ID } from "./sourceCatalog";
 import type { Question, Section, ValidationResult } from "../types";
 
 const sections: Section[] = ["A1", "A2", "B", "C"];
@@ -73,7 +74,8 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (question.section === "A2" && !question.asOf) errors.push(`${question.id} is missing asOf metadata`);
     if (question.section === "A2" && question.asOf !== A2_COVERAGE_DATE) errors.push(`${question.id} must use the notification coverage date ${A2_COVERAGE_DATE}`);
     if (question.section === "C" && !question.passageId) errors.push(`${question.id} is missing passageId`);
-    if (Object.keys(question).some((key) => /^source/i.test(key))) errors.push(`${question.id} contains disallowed source metadata`);
+    if (!question.sourceId) errors.push(question.id + " is missing source provenance");
+    else if (!SOURCE_CATALOG_BY_ID.has(question.sourceId)) errors.push(question.id + " has unknown source provenance: " + question.sourceId);
     if (question.passageId) passages.set(question.passageId, (passages.get(question.passageId) ?? 0) + 1);
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });

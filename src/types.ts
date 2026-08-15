@@ -12,6 +12,7 @@ export interface Question {
   options: string[];
   correct: number;
   explanation: string;
+  sourceId: string;
   asOf?: string;
   passageId?: string;
   passage?: string;
@@ -48,6 +49,7 @@ export interface ResultItem {
   optionOrder: number[];
   correct: number;
   explanation: string;
+  sourceId: string;
   passage?: string;
   passageId?: string;
   status: "correct" | "wrong" | "skipped";

@@ -102,6 +102,8 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .feedback.negative { border-color: var(--red); background: #fff5f5; }
 .feedback.skipped { border-color: var(--orange); background: #fff8e7; }
 .feedback p { margin: 6px 0 0; }
+.source-note { color: var(--muted); font-size: .82rem; }
+.source-note a { color: var(--blue); }
 .next-row { justify-content: flex-end; margin-top: 22px; }
 .next-row .muted { font-size: .82rem; }
 

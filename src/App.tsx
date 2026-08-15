@@ -4,6 +4,7 @@ import { completedCount, createAttempt, isComplete, moveNext, pausePersisted, re
 import { loadState, saveState } from "./storage";
 import { downloadSummary } from "./summary";
 import { QUESTION_BANK } from "./data/questionBank";
+import { SOURCE_CATALOG_BY_ID } from "./data/sourceCatalog";
 import { optionLabelForOptionIndex } from "./answerDisplay";
 import type { ActiveAttempt, Question, Response, Section, TestResult } from "./types";
 
@@ -72,6 +73,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
   const question = questionMap.get(item.questionId);
   if (!question) return <main className="page-shell"><section className="error-card">This question is missing from the current bank. Return Home and start a new test.</section></main>;
   const response: Response = attempt.responses[question.id] ?? { status: "unanswered" };
+  const source = SOURCE_CATALOG_BY_ID.get(question.sourceId);
   const revealed = response.status !== "unanswered";
   const completed = completedCount(attempt);
   const lastQuestion = attempt.currentIndex === attempt.questions.length - 1;
@@ -91,7 +93,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
         return <button key={optionIndex} className={`option-button ${optionClass}`} disabled={revealed || attempt.status === "paused"} onClick={() => onAnswer(optionIndex)} role="radio" aria-checked={isSelected}><span className="option-label">{optionLabel(displayedIndex)}</span><span>{question.options[optionIndex]}</span>{revealed && isCorrect && <span className="option-result">Correct</span>}{revealed && isSelected && !isCorrect && <span className="option-result">Your answer</span>}</button>;
       })}</div>
       {!revealed && <div className="question-actions"><button className="text-button" disabled={attempt.status === "paused"} onClick={onSkip}>Skip question</button><span className="muted">You cannot return to a previous question.</span></div>}
-      {revealed && <div className={`feedback ${response.status === "skipped" ? "skipped" : response.selected === question.correct ? "positive" : "negative"}`}><div><strong>{response.status === "skipped" ? "Skipped" : response.selected === question.correct ? "Correct" : "Incorrect"}</strong><p><strong>Correct answer:</strong> {optionLabelForOptionIndex(item.optionOrder, question.correct)}. {question.options[question.correct]}</p><p>{question.explanation}</p></div></div>}
+      {revealed && <div className={`feedback ${response.status === "skipped" ? "skipped" : response.selected === question.correct ? "positive" : "negative"}`}><div><strong>{response.status === "skipped" ? "Skipped" : response.selected === question.correct ? "Correct" : "Incorrect"}</strong><p><strong>Correct answer:</strong> {optionLabelForOptionIndex(item.optionOrder, question.correct)}. {question.options[question.correct]}</p><p>{question.explanation}</p>{source && <p className="source-note"><strong>Source:</strong> {source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title}</p>}</div></div>}
       {revealed && <div className="next-row"><button className="primary-button" disabled={attempt.status === "paused"} onClick={lastQuestion && isComplete(attempt) ? onSubmit : onNext}>{lastQuestion && isComplete(attempt) ? "Submit test" : "Next question"}</button>{attempt.status === "paused" ? <span className="muted">Resume the timer to continue.</span> : lastQuestion && !isComplete(attempt) && <span className="muted">Complete the remaining questions before submitting.</span>}</div>}
     </section>
   </main>;

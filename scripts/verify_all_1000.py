@@ -41,5 +41,5 @@ def verify_test(t_num):
                 print()
 
 if __name__ == '__main__':
-    for t in range(1, 11):
+    for t in range(1, 13):
         verify_test(t)
