@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { QUESTION_BANK, INDIVIDUAL_TESTS } from "./data/questionBank";
-import { completedCount, createAttempt, generateAttemptFromIndividualFiles, generateAttemptFromIndividualFile, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
-import { TEST_DURATION_MS } from "./constants";
+import { QUESTION_BANK } from "./data/questionBank";
+import { completedCount, createAttempt, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
+import { SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 
 const byId = new Map(QUESTION_BANK.map((question) => [question.id, question]));
 
@@ -27,23 +27,15 @@ describe("quiz engine", () => {
     });
   });
 
-  it("builds attempts randomly across individual test files", () => {
-    const attempt1 = generateAttemptFromIndividualFiles(INDIVIDUAL_TESTS, 54321);
-    const attempt2 = generateAttemptFromIndividualFiles(INDIVIDUAL_TESTS, 98765);
-    expect(attempt1).toHaveLength(100);
-    expect(attempt2).toHaveLength(100);
-    expect(attempt1).not.toEqual(attempt2);
-  });
-
-  it("builds an attempt from a specific individual mock test file", () => {
-    for (let testIdx = 1; testIdx <= 10; testIdx += 1) {
-      const attempt = generateAttemptFromIndividualFile(testIdx, INDIVIDUAL_TESTS);
-      expect(attempt).toHaveLength(100);
-      const testQuestionIds = new Set(INDIVIDUAL_TESTS[testIdx - 1].map((q) => q.id));
-      attempt.forEach((item) => {
-        expect(testQuestionIds.has(item.questionId)).toBe(true);
-      });
-    }
+  it("builds section-specific practice sets from the section banks", () => {
+    (["A1", "A2", "B", "C"] as const).forEach((section) => {
+      const attempt = generateAttemptQuestions(QUESTION_BANK, 54321, section);
+      expect(attempt).toHaveLength(SECTION_COUNTS[section]);
+      attempt.forEach((item) => expect(byId.get(item.questionId)?.section).toBe(section));
+    });
+    const savedAttempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "B");
+    expect(savedAttempt.mode).toBe("B");
+    expect(savedAttempt.questions).toHaveLength(SECTION_COUNTS.B);
   });
 
   it("gives new attempts different question selections when their seeds differ", () => {

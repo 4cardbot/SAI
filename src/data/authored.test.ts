@@ -1,24 +1,17 @@
 import { describe, expect, it } from "vitest";
 import { A2_COVERAGE_DATE } from "../constants";
-import { AUTHORED_QUESTION_BANK, INDIVIDUAL_TESTS } from "./authored";
+import { AUTHORED_QUESTION_BANK, SECTION_BANKS } from "./authored";
 import { SOURCE_CATALOG_BY_ID } from "./sourceCatalog";
 
-describe("explicit authored question batches", () => {
-  it("exports 12 individual test modules with 100 questions each", () => {
-    expect(INDIVIDUAL_TESTS).toHaveLength(12);
-    INDIVIDUAL_TESTS.forEach((testQuestions, testIdx) => {
-      expect(testQuestions).toHaveLength(100);
-      expect(testQuestions.filter((q) => q.section === "A1")).toHaveLength(32);
-      expect(testQuestions.filter((q) => q.section === "A2")).toHaveLength(8);
-      expect(testQuestions.filter((q) => q.section === "B")).toHaveLength(40);
-      expect(testQuestions.filter((q) => q.section === "C")).toHaveLength(20);
-
-      // Verify answer key distribution is equal across 0, 1, 2, 3 (25 each)
-      const correctDist = [0, 0, 0, 0];
-      testQuestions.forEach((q) => {
-        correctDist[q.correct] += 1;
-      });
-      expect(correctDist).toEqual([25, 25, 25, 25]);
+describe("section-based authored question bank", () => {
+  it("exports four section banks with the expected syllabus counts", () => {
+    expect(Object.keys(SECTION_BANKS).sort()).toEqual(["A1", "A2", "B", "C"]);
+    expect(SECTION_BANKS.A1).toHaveLength(384);
+    expect(SECTION_BANKS.A2).toHaveLength(96);
+    expect(SECTION_BANKS.B).toHaveLength(480);
+    expect(SECTION_BANKS.C).toHaveLength(240);
+    Object.entries(SECTION_BANKS).forEach(([section, questions]) => {
+      questions.forEach((question) => expect(question.section).toBe(section));
     });
   });
 

@@ -1,6 +1,6 @@
 import { NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
-import type { ActiveAttempt, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
+import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
 
 const SECTION_ORDER: Section[] = ["A1", "A2", "B", "C"];
 
@@ -34,9 +34,10 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
   throw new Error(`Unable to select exactly ${target} case-study questions`);
 }
 
-export function generateAttemptQuestions(bank: Question[], seed = randomSeed()): AttemptQuestion[] {
+export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), mode: AttemptMode = "full"): AttemptQuestion[] {
   const selected: Question[] = [];
-  SECTION_ORDER.forEach((section) => {
+  const sections = mode === "full" ? SECTION_ORDER : [mode];
+  sections.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
     const sectionQuestions = section === "C"
       ? chooseCaseQuestions(pool, seed)
@@ -49,28 +50,8 @@ export function generateAttemptQuestions(bank: Question[], seed = randomSeed()):
   }));
 }
 
-/**
- * Randomly builds an attempt by drawing questions across individual test files.
- */
-export function generateAttemptFromIndividualFiles(individualTests: Question[][], seed = randomSeed()): AttemptQuestion[] {
-  const flattened = individualTests.flat();
-  return generateAttemptQuestions(flattened, seed);
-}
-
-/**
- * Builds an attempt from a specific individual mock test file (1 to 10).
- */
-export function generateAttemptFromIndividualFile(fileIndex: number, individualTests: Question[][], seed = hashSeed(`individual:${fileIndex}`)): AttemptQuestion[] {
-  const safeIndex = ((fileIndex - 1) % individualTests.length + individualTests.length) % individualTests.length;
-  const testPool = individualTests[safeIndex];
-  return testPool.map((question) => ({
-    questionId: question.id,
-    optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
-  }));
-}
-
-export function createAttempt(bank: Question[], now = new Date(), seed = randomSeed()): ActiveAttempt {
-  const questions = generateAttemptQuestions(bank, seed);
+export function createAttempt(bank: Question[], now = new Date(), seed = randomSeed(), mode: AttemptMode = "full"): ActiveAttempt {
+  const questions = generateAttemptQuestions(bank, seed, mode);
   const responses: Record<string, Response> = {};
   questions.forEach(({ questionId }) => {
     responses[questionId] = { status: "unanswered" };
@@ -85,6 +66,7 @@ export function createAttempt(bank: Question[], now = new Date(), seed = randomS
     currentIndex: 0,
     questions,
     responses,
+    mode,
   };
 }
 
@@ -196,5 +178,6 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
     score: correctCount - wrongCount * NEGATIVE_MARK,
     sectionScores: counts,
     items,
+    mode: attempt.mode ?? "full",
   };
 }

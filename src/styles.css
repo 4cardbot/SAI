@@ -41,6 +41,9 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .info-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .info-card, .action-card, .section-results, .review-item, .empty-card, .error-card { background: white; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 4px 14px rgba(16, 42, 67, .035); }
 .info-card { padding: 18px; display: grid; gap: 8px; }
+.bank-card { width: 100%; color: var(--navy); text-align: left; transition: border .15s ease, box-shadow .15s ease, transform .15s ease; }
+.bank-card:hover { border-color: var(--blue); box-shadow: 0 8px 20px rgba(16, 42, 67, .09); transform: translateY(-2px); }
+.bank-card:focus-visible { outline-offset: 2px; }
 .info-card strong { font-size: 1rem; }
 .info-card small, .muted, .home-footer { color: var(--muted); }
 .info-card small { line-height: 1.35; }

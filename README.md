@@ -1,4 +1,4 @@
-# SAI Performance Analyst Mock Tests
+# SAI Performance Analyst Question Bank
 
 An independent, English-only Physiotherapy Performance Analyst preparation app aligned to the attached SAI notification:
 
@@ -36,9 +36,8 @@ Create a GitHub repository, push this folder to its `main` branch, then enable *
 
 ## Content model
 
-The production bank contains 1200 explicit, high-yield question objects authored across 12 full-length mock tests: 384 A1, 96 A2, 480 B, and 240 C records, with 120 distinct C passages. Section C passages retain their grouping (each mock test selects complete groups totalling 20 questions). Every question adheres to strict anti-pattern standards, eliminating option length disparities and formatting cues. The test engine dynamically shuffles displayed options.
+The production bank contains 1200 explicit, high-yield question objects split into four section files: `question_bank/section_a1.json` (384), `section_a2.json` (96), `section_b.json` (480), and `section_c.json` (240). Section C contains 120 distinct passages, each preserved as a complete case-study group. The app supports section-specific practice sets as well as a full 100-question CBT simulation. Every question adheres to strict anti-pattern standards, eliminating option length disparities and formatting cues. The test engine dynamically shuffles displayed options.
 
 The app has no backend or login. Each attempt is generated from a fresh random seed, while the active attempt and latest result are stored in versioned browser storage. Answers, the current question, and remaining time are saved as the user progresses. Closing, refreshing, leaving the tab, or navigating Home pauses the attempt; Home offers Resume. The completed report remains available until the user chooses Start new test. Starting a new test instead from Home permanently replaces the saved attempt after confirmation.
 
 The question bank is an independent preparation resource, not an official SAI examination or recruitment application.
-
