@@ -8,6 +8,8 @@ import test7 from "../../../mock_tests/mock_test_7.json";
 import test8 from "../../../mock_tests/mock_test_8.json";
 import test9 from "../../../mock_tests/mock_test_9.json";
 import test10 from "../../../mock_tests/mock_test_10.json";
+import test11 from "../../../mock_tests/mock_test_11.json";
+import test12 from "../../../mock_tests/mock_test_12.json";
 import type { Question } from "../../types";
 
 export const TEST_1_QUESTIONS = test1 as unknown as Question[];
@@ -20,9 +22,11 @@ export const TEST_7_QUESTIONS = test7 as unknown as Question[];
 export const TEST_8_QUESTIONS = test8 as unknown as Question[];
 export const TEST_9_QUESTIONS = test9 as unknown as Question[];
 export const TEST_10_QUESTIONS = test10 as unknown as Question[];
+export const TEST_11_QUESTIONS = test11 as unknown as Question[];
+export const TEST_12_QUESTIONS = test12 as unknown as Question[];
 
 /**
- * 10 Individual Mock Tests (100 Questions each) loaded directly from individual JSON files.
+ * 12 Individual Mock Tests (100 Questions each) loaded directly from individual JSON files.
  */
 export const INDIVIDUAL_TESTS: Question[][] = [
   TEST_1_QUESTIONS,
@@ -35,9 +39,12 @@ export const INDIVIDUAL_TESTS: Question[][] = [
   TEST_8_QUESTIONS,
   TEST_9_QUESTIONS,
   TEST_10_QUESTIONS,
+  TEST_11_QUESTIONS,
+  TEST_12_QUESTIONS,
 ];
 
 /**
- * The complete question bank composed dynamically from the 10 individual JSON test files.
+ * The complete question bank composed dynamically from the 12 individual JSON test files.
  */
 export const AUTHORED_QUESTION_BANK: Question[] = INDIVIDUAL_TESTS.flat();
+

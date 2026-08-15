@@ -78,7 +78,7 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });
 
-  const expected = { A1: 320, A2: 80, B: 400, C: 200 };
+  const expected = { A1: 384, A2: 96, B: 480, C: 240 };
   sections.forEach((section) => {
     if (counts[section] !== expected[section]) errors.push(`${section} has ${counts[section]} questions; expected ${expected[section]}`);
   });

@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "t12-a1-001",
+    "section": "A1",
+    "topic": "strength and conditioning exercise prescription and training theory",
+    "subtopic": "Concurrent training interference effect and molecular signaling",
+    "difficulty": "analytical",
+    "text": "In concurrent strength and endurance training, what molecular mechanism explains the 'Interference Effect' on muscle hypertrophy?",
+    "options": [
+      "Endurance-activated AMPK phosphorylates TSC2, inhibiting mTORC1 protein synthesis",
+      "Strength-activated mTORC1 phosphorylates ActRIIB, suppressing mitochondrial biogenesis",
+      "Endurance-activated calcineurin blocks GLUT4, disrupting sarcolemmal calcium reuptake",
+      "Strength-activated protein kinase A blocks MCT1, depleting glycogen granules in muscle"
+    ],
+    "correct": 0,
+    "explanation": "Concurrent endurance exercise activates 5'-AMP-activated protein kinase (AMPK) and SIRT1, which phosphorylate TSC2 and raptor, directly inhibiting mTORC1 signaling and attenuating myofibrillar protein synthesis."
+  },
+  {
+    "id": "t12-a1-002",
+    "section": "A1",
+    "topic": "strength and conditioning exercise prescription and training theory",
+    "subtopic": "Post-Activation Performance Enhancement (PAPE) mechanisms",
+    "difficulty": "applied",
+    "text": "What is the primary physiological mechanism underlying Post-Activation Performance Enhancement (PAPE) following a heavy conditioning contraction?",
+    "options": [
+      "Permanent structural shortening of series elastic tendinous tissues across active joints",
+      "Myosin light chain phosphorylation and increased recruitment of higher-order motor units",
+      "Rapid elevation of intramuscular creatine kinase concentrations within target fast fibers",
+      "Complete suppression of spinal Renshaw cell recurrent inhibition across all spinal levels"
+    ],
+    "correct": 1,
+    "explanation": "PAPE (and classical PAP) is mediated by phosphorylation of regulatory myosin light chains (increasing actin-myosin calcium sensitivity) and heightened spinal motor neuron excitability with recruitment of higher-order type II motor units."
+  },
+  {
+    "id": "t12-a1-003",
+    "section": "A1",
+    "topic": "strength and conditioning exercise prescription and training theory",
+    "subtopic": "Triphasic training framework and muscle action sequencing",
+    "difficulty": "applied",
+    "text": "In Cal Dietz's Triphasic Training system, what is the chronological progression of the three dedicated mesocycle training blocks?",
+    "options": [
+      "Concentric block -> Isometric block -> Eccentric block",
+      "Isometric block -> Eccentric block -> Concentric block",
+      "Eccentric block -> Isometric block -> Concentric block",
+      "Eccentric block -> Concentric block -> Isometric block"
+    ],
+    "correct": 2,
+    "explanation": "Triphasic training systematically progresses through three distinct mesocycles: Block 1 = Eccentric (absorbing energy), Block 2 = Isometric (transferring energy), and Block 3 = Concentric/Reactive (expressing explosive force)."
+  },
+  {
+    "id": "t12-a1-004",
+    "section": "A1",
+    "topic": "strength and conditioning exercise prescription and training theory",
+    "subtopic": "Force-Velocity profiling and mechanical power optimization",
+    "difficulty": "analytical",
+    "text": "In ballistic force-velocity profiling (Samozino & Morin), how is an athlete with a 'Force Deficit' most effectively trained to optimize jumping power?",
+    "options": [
+      "Prioritizing high-velocity unweighted sprinting at 0% to 10% 1RM to elevate V0",
+      "Prioritizing low-intensity aerobic endurance cycling at 40% to 50% VO2max daily",
+      "Avoiding all lower extremity resistance exercise below 20% 1RM for neural rest",
+      "Prioritizing heavy resistance training at 80% to 85% 1RM to elevate force F0"
+    ],
+    "correct": 3,
+    "explanation": "An athlete identified with a Force Deficit (where theoretical maximal force F0 is significantly below optimal relative to maximal velocity V0) requires heavy resistance training (>80-85% 1RM) to increase F0 and rebalance their force-velocity profile."
+  },
+  {
+    "id": "t12-a1-005",
+    "section": "A1",
+    "topic": "exercise physiology bioenergetics and oxygen transport",
+    "subtopic": "Cell-to-cell lactate shuttle and monocarboxylate transporters",
+    "difficulty": "foundational",
+    "text": "In the Cell-to-Cell Lactate Shuttle mechanism (George Brooks), which monocarboxylate transporter is primarily responsible for lactate uptake into oxidative Type I muscle fibers and cardiac myocytes?",
+    "options": [
+      "Monocarboxylate transporter 1 (MCT1)",
+      "Monocarboxylate transporter 4 (MCT4)",
+      "Glucose transporter 4 (GLUT4)",
+      "Sodium glucose cotransporter 1 (SGLT1)"
+    ],
+    "correct": 0,
+    "explanation": "MCT1 has a high affinity for lactate and is predominantly expressed in oxidative (Type I) skeletal muscle fibers and myocardium for lactate uptake and oxidation, whereas MCT4 is abundant in glycolytic (Type II) fibers for lactate export."
+  },
+  {
+    "id": "t12-a1-006",
+    "section": "A1",
+    "topic": "exercise physiology bioenergetics and oxygen transport",
+    "subtopic": "Maximal oxygen uptake criteria and verification protocols",
+    "difficulty": "applied",
+    "text": "During an incremental maximal cardiopulmonary exercise test, which criterion confirms that true VO2max (rather than VO2peak) has been achieved?",
+    "options": [
+      "Heart rate remaining below 70% of age-predicted maximal heart rate during test",
+      "A plateau in oxygen uptake with increase under 150 mL/min despite increased workload",
+      "Respiratory exchange ratio remaining strictly below 0.85 at final test termination",
+      "Blood lactate concentration remaining below 2.0 mmol/L during maximal peak exercise"
+    ],
+    "correct": 1,
+    "explanation": "The primary gold-standard criterion for true VO2max is the oxygen uptake plateau (VO2 increasing <150 mL/min or <2.1 mL/kg/min despite an increase in external workload), supported by secondary criteria (RER >1.10, HR within 10 bpm of max, lactate >8 mmol/L)."
+  },
+  {
+    "id": "t12-a1-007",
+    "section": "A1",
+    "topic": "exercise physiology bioenergetics and oxygen transport",
+    "subtopic": "Altitude acclimatization and acid-base compensatory mechanisms",
+    "difficulty": "analytical",
+    "text": "Upon acute ascent to high altitude (>2500 m), what renal compensatory mechanism restores blood pH following hypoxia-induced hyperventilation?",
+    "options": [
+      "Increased renal retention of hydrogen ions to accelerate metabolic acidosis state",
+      "Suppression of erythropoietin secretion from the juxtaglomerular apparatus rapidly",
+      "Increased renal excretion of bicarbonate ions in urine to compensate for alkalosis",
+      "Massive excretion of potassium ions leading to systemic hypokalemic cardiac arrest"
+    ],
+    "correct": 2,
+    "explanation": "Hypoxia stimulates peripheral chemoreceptors to drive hyperventilation, blowing off CO2 and causing acute respiratory alkalosis (elevated arterial pH). The kidneys compensate by excreting bicarbonate (HCO3-) in urine over 24-72 hours, normalizing blood pH."
+  },
+  {
+    "id": "t12-a1-008",
+    "section": "A1",
+    "topic": "exercise physiology bioenergetics and oxygen transport",
+    "subtopic": "Critical Power model and finite work capacity (W')",
+    "difficulty": "analytical",
+    "text": "In the hyperbolic Critical Power (CP) model of endurance exercise, what does the parameter 'W prime' (W') represent?",
+    "options": [
+      "The theoretical maximum aerobic power an athlete can sustain for several hours",
+      "The exact percentage of Type I slow-twitch muscle fibers in the quadriceps complex",
+      "The baseline resting metabolic rate measured under standardized fasting conditions",
+      "The finite amount of work that can be performed above Critical Power before exhaustion"
+    ],
+    "correct": 3,
+    "explanation": "In the two-parameter CP model (P = CP + W'/t), Critical Power represents the asymptotic aerobic power boundary, and W' (in Joules or kilojoules) represents the finite anaerobic work capacity that can be utilized above CP before exhaustion occurs."
+  },
+  {
+    "id": "t12-a1-009",
+    "section": "A1",
+    "topic": "sports nutrition hydration and energy availability",
+    "subtopic": "Extracellular buffering agents and sodium bicarbonate dosing",
+    "difficulty": "applied",
+    "text": "What is the standard evidence-based dosing protocol for Sodium Bicarbonate supplementation to enhance high-intensity anaerobic performance (1-10 min duration)?",
+    "options": [
+      "0.30 g/kg body mass consumed 60 to 90 minutes prior to exercise",
+      "0.05 g/kg body mass consumed 10 minutes prior to exercise",
+      "1.50 g/kg body mass consumed 12 hours prior to exercise",
+      "3.00 g/kg body mass consumed continuously throughout exercise"
+    ],
+    "correct": 0,
+    "explanation": "The standard evidence-based dose of sodium bicarbonate (NaHCO3) is 0.2 to 0.4 g/kg (typically 0.3 g/kg) consumed 60 to 90 minutes before exercise with water/carbohydrates, increasing extracellular buffering capacity and blood bicarbonate concentrations."
+  },
+  {
+    "id": "t12-a1-010",
+    "section": "A1",
+    "topic": "sports nutrition hydration and energy availability",
+    "subtopic": "Creatine monohydrate loading and maintenance strategies",
+    "difficulty": "foundational",
+    "text": "According to ISSN position stands, how does a low-dose daily creatine protocol (3-5 g/day) compare to a rapid loading protocol (20 g/day for 5-7 days)?",
+    "options": [
+      "Low-dose daily dosing never increases muscle creatine stores after 28 days",
+      "Low-dose daily dosing achieves identical muscle PCr saturation after ~28 days",
+      "Rapid loading permanently reduces glomerular filtration rate after 5 days",
+      "Rapid loading produces 10 times greater maximal strength gains after 7 days"
+    ],
+    "correct": 1,
+    "explanation": "Consuming 3-5 g/day of creatine monohydrate achieves the same muscle total creatine and phosphocreatine saturation after approximately 28 days as a rapid loading protocol (20 g/day divided into 4 doses for 5-7 days), with fewer gastrointestinal complaints."
+  },
+  {
+    "id": "t12-a1-011",
+    "section": "A1",
+    "topic": "sports nutrition hydration and energy availability",
+    "subtopic": "Carbohydrate periodization and mitochondrial biogenesis signaling",
+    "difficulty": "applied",
+    "text": "In endurance sports nutrition, what is the primary metabolic objective of periodized 'Train-Low' (low carbohydrate availability) sessions?",
+    "options": [
+      "To amplify cellular stress signaling to upregulate mitochondrial biogenesis pathways",
+      "To completely eliminate all carbohydrate oxidation during subsequent race competition",
+      "To accelerate muscle protein breakdown and reduce total body muscle mass acutely",
+      "To induce severe metabolic ketoacidosis and reduce blood pH during training sessions"
+    ],
+    "correct": 2,
+    "explanation": "Training with low glycogen/carbohydrate availability enhances the transcription of metabolic genes via AMPK, p38 MAPK, and SIRT1, upregulating PGC-1alpha (the master regulator of mitochondrial biogenesis) and increasing fat oxidation capacity."
+  },
+  {
+    "id": "t12-a1-012",
+    "section": "A1",
+    "topic": "sports nutrition hydration and energy availability",
+    "subtopic": "Gastric emptying, drink osmolarity and carbohydrate concentration",
+    "difficulty": "foundational",
+    "text": "What carbohydrate concentration in a sports beverage optimizes fluid absorption and gastric emptying during endurance exercise without causing gastrointestinal delay?",
+    "options": [
+      "Carbohydrate concentration of 1% to 2% (hypotonic solution)",
+      "Carbohydrate concentration of 18% to 20% (hypertonic solution)",
+      "Carbohydrate concentration of 30% to 35% (viscous solution)",
+      "Carbohydrate concentration of 6% to 8% (isotonic solution)"
+    ],
+    "correct": 3,
+    "explanation": "Isotonic sports drinks with a carbohydrate concentration of 6% to 8% (60-80 g/L) and moderate sodium (20-30 mmol/L) optimize both gastric emptying rate and small intestine fluid absorption during exercise."
+  },
+  {
+    "id": "t12-a1-013",
+    "section": "A1",
+    "topic": "anthropometry body composition skinfold and growth maturation",
+    "subtopic": "Heath-Carter Ectomorphy calculation and Ponderal Index",
+    "difficulty": "foundational",
+    "text": "In Heath-Carter anthropometric somatotyping, which anthropometric index is used to calculate the Ectomorphy rating?",
+    "options": [
+      "Body mass divided by height squared index (Body Mass Index ratio)",
+      "Height divided by the cube root of body mass (Height-Weight Ratio)",
+      "Waist circumference divided by hip circumference (Waist-to-Hip Ratio)",
+      "Bi-acromial breadth divided by bi-iliocristal breadth (Skeletal Ratio)"
+    ],
+    "correct": 0,
+    "explanation": "Ectomorphy (relative linearity) in the Heath-Carter method is derived from the Height-Weight Ratio (HWR = Stature in cm / [Mass in kg]^(1/3)), also known as the Ponderal Index."
+  },
+  {
+    "id": "t12-a1-014",
+    "section": "A1",
+    "topic": "anthropometry body composition skinfold and growth maturation",
+    "subtopic": "ISAK Technical Error of Measurement acceptable standards",
+    "difficulty": "applied",
+    "text": "According to the International Society for the Advancement of Kinanthropometry (ISAK), what is the maximum acceptable intra-tester Technical Error of Measurement (TEM) for skinfold measurements?",
+    "options": [
+      "Intra-tester TEM of less than 1.0%",
+      "Intra-tester TEM of less than 5.0%",
+      "Intra-tester TEM of less than 12.0%",
+      "Intra-tester TEM of less than 20.0%"
+    ],
+    "correct": 1,
+    "explanation": "ISAK accreditation standards specify that an anthropometrist's intra-tester Technical Error of Measurement (%TEM) must be <= 5.0% for skinfold measurements and <= 1.0% for body girths and skeletal breadths."
+  },
+  {
+    "id": "t12-a1-015",
+    "section": "A1",
+    "topic": "anthropometry body composition skinfold and growth maturation",
+    "subtopic": "Non-invasive somatic biological maturity prediction (Mirwald equation)",
+    "difficulty": "analytical",
+    "text": "In youth athlete talent pathways, how does the Mirwald somatic maturity prediction equation estimate biological maturation non-invasively?",
+    "options": [
+      "By performing invasive annual bone biopsies of the distal radial growth plate under ultrasound",
+      "By measuring salivary hormone concentrations upon awakening across four consecutive mornings",
+      "By calculating differential growth proportions between sitting height, leg length, and stature",
+      "By administering a maximal cardiopulmonary treadmill stress test to exhaustion under protocol"
+    ],
+    "correct": 2,
+    "explanation": "The Mirwald equation predicts maturity offset (years from Peak Height Velocity) non-invasively using somatic anthropometric measures: chronological age, stature, sitting height, subischial leg length, and body mass, utilizing differential trunk-to-leg growth rates."
+  },
+  {
+    "id": "t12-a1-016",
+    "section": "A1",
+    "topic": "psychology motivation stress arousal and mental readiness",
+    "subtopic": "Nideffer's model of attentional style and performance",
+    "difficulty": "applied",
+    "text": "According to Nideffer's Model of Attentional Focus, what attentional style is required by a quarterback assessing defensive coverage across the entire football field?",
+    "options": [
+      "Narrow-Internal attentional focus",
+      "Broad-Internal attentional focus",
+      "Narrow-External attentional focus",
+      "Broad-External attentional focus"
+    ],
+    "correct": 3,
+    "explanation": "Nideffer categorizes attention along two dimensions: Width (Broad vs. Narrow) and Direction (Internal vs. External). Rapidly assessing an opposing team's defensive layout requires a Broad-External focus."
+  },
+  {
+    "id": "t12-a1-017",
+    "section": "A1",
+    "topic": "psychology motivation stress arousal and mental readiness",
+    "subtopic": "Self-talk interventions: instructional vs motivational",
+    "difficulty": "applied",
+    "text": "In sports psychology research (Hatzigeorgiadis et al.), which type of self-talk is most effective for improving precision and technical execution in fine-motor sports skills (e.g., archery release)?",
+    "options": [
+      "Instructional self-talk focusing on technical cues and movement mechanics",
+      "Motivational self-talk focusing on general effort and emotional psyching-up",
+      "Negative self-talk focusing on potential consequences of competitive defeat",
+      "Subconscious subliminal self-talk delivered during slow-wave sleep phases"
+    ],
+    "correct": 0,
+    "explanation": "Instructional self-talk (e.g., 'smooth elbow', 'follow through') is proven superior for fine-motor tasks, precision sports, and early skill acquisition, whereas motivational self-talk (e.g., 'let's go', 'push') is more effective for power, endurance, and effort-based tasks."
+  },
+  {
+    "id": "t12-a1-018",
+    "section": "A1",
+    "topic": "psychology motivation stress arousal and mental readiness",
+    "subtopic": "Multidimensional Anxiety Theory temporal patterns",
+    "difficulty": "analytical",
+    "text": "According to Multidimensional Anxiety Theory (Martens et al.), how do Cognitive State Anxiety and Somatic State Anxiety typically behave in the hours and minutes leading up to competition?",
+    "options": [
+      "Cognitive anxiety remains stable while somatic anxiety spikes rapidly just prior to start",
+      "Both cognitive and somatic anxiety remain at absolute zero until the match ends completely",
+      "Somatic anxiety remains elevated for weeks while cognitive anxiety spikes exclusively in debrief",
+      "Cognitive anxiety drops to zero immediately while somatic anxiety disappears during warm-up"
+    ],
+    "correct": 1,
+    "explanation": "Cognitive anxiety (worry, negative expectations) typically remains stable in the days and hours before competition (unless expectations change), whereas Somatic anxiety (heart rate, butterflies) remains low until shortly before the event, peaks at start, and dissipates rapidly during play."
+  },
+  {
+    "id": "t12-a1-019",
+    "section": "A1",
+    "topic": "recovery regeneration sleep and fatigue biomarkers",
+    "subtopic": "Sleep architecture, Slow-Wave Sleep and endocrine recovery",
+    "difficulty": "foundational",
+    "text": "In athlete sleep physiology, during which stage of the sleep cycle is the majority of systemic Growth Hormone (GH) secreted to support tissue repair and protein synthesis?",
+    "options": [
+      "Rapid Eye Movement sleep (Stage 4 REM)",
+      "Light transitional sleep (Stage 1 non-REM)",
+      "Slow-Wave Sleep (Stage 3 non-REM)",
+      "Intermediate spindle sleep (Stage 2 non-REM)"
+    ],
+    "correct": 2,
+    "explanation": "The major daily surge of human growth hormone (GH) secretion occurs during deep Slow-Wave Sleep (Stage N3 non-REM), making adequate deep sleep essential for physiological tissue recovery, muscle protein synthesis, and cellular repair."
+  },
+  {
+    "id": "t12-a1-020",
+    "section": "A1",
+    "topic": "recovery regeneration sleep and fatigue biomarkers",
+    "subtopic": "Twitch interpolation technique and central vs peripheral fatigue",
+    "difficulty": "analytical",
+    "text": "In neuromuscular fatigue assessment, how does the Twitch Interpolation Technique differentiate 'Central Fatigue' from 'Peripheral Fatigue'?",
+    "options": [
+      "Muscle biopsy glycogen depletion confirms central fatigue is present at one hundred percent level in all fibers",
+      "Blood lactate concentration exceeding ten millimoles per liter rules out peripheral fatigue completely",
+      "Resting tendon reflex amplitude doubling indicates that central motor cortex drive is damaged permanently",
+      "A superimposed twitch during maximal voluntary contraction demonstrates incomplete central neural activation"
+    ],
+    "correct": 3,
+    "explanation": "During a maximal voluntary contraction (MVC), a superimposed electrical twitch that generates additional force demonstrates that the central nervous system failed to fully recruit and discharge motor units (indicating Central Fatigue / voluntary activation deficit)."
+  },
+  {
+    "id": "t12-a1-021",
+    "section": "A1",
+    "topic": "recovery regeneration sleep and fatigue biomarkers",
+    "subtopic": "GPS mechanical load monitoring and deceleration demands",
+    "difficulty": "applied",
+    "text": "In team sports GPS physical monitoring, why do high-intensity decelerations (>3 m/s2) induce significantly greater muscle damage and soreness than equivalent accelerations?",
+    "options": [
+      "Decelerations involve rapid high-force eccentric muscle actions with high mechanical strain per fiber",
+      "Decelerations require ninety percent higher oxygen consumption than concentric sprint accelerations",
+      "Decelerations completely halt coronary arterial blood flow to the cardiac left ventricle acutely",
+      "Decelerations occur exclusively while running backward on hard synthetic artificial turf grounds"
+    ],
+    "correct": 0,
+    "explanation": "High-intensity decelerations require intense eccentric muscle contractions to brake momentum. Eccentric actions produce high mechanical tension across fewer active cross-bridges, inducing structural microtrauma, sarcomere popping, and elevated muscle soreness."
+  },
+  {
+    "id": "t12-a1-022",
+    "section": "A1",
+    "topic": "recovery regeneration sleep and fatigue biomarkers",
+    "subtopic": "Endocrine biomarkers and anabolic-to-catabolic balance",
+    "difficulty": "applied",
+    "text": "In physiological monitoring of overtraining syndrome, what relative shift in the Testosterone-to-Cortisol (T/C) ratio is classically considered an indicator of catabolic training stress?",
+    "options": [
+      "An increase in the T/C ratio of greater than 50%",
+      "A decrease in the T/C ratio of greater than 30%",
+      "A decrease in the T/C ratio of less than 5%",
+      "An increase in the T/C ratio of exactly 100%"
+    ],
+    "correct": 1,
+    "explanation": "A decrease in the Free Testosterone-to-Cortisol ratio of >30% (or a significant drop below baseline) is widely used as a biomarker indicating an altered anabolic-catabolic balance and an elevated risk of non-functional overreaching or overtraining."
+  },
+  {
+    "id": "t12-a1-023",
+    "section": "A1",
+    "topic": "research methods data interpretation and biostatistics",
+    "subtopic": "Minimal Detectable Change and standard error of measurement",
+    "difficulty": "analytical",
+    "text": "In clinical outcome measurement, what is the formula to calculate the Minimal Detectable Change at the 95% confidence level (MDC95) from the Standard Error of Measurement (SEM)?",
+    "options": [
+      "Minimal Detectable Change = SEM * 1.96 * 1.414",
+      "Minimal Detectable Change = SEM * 0.05",
+      "Minimal Detectable Change = SEM / 1.96",
+      "Minimal Detectable Change = SEM^2 / 2.0"
+    ],
+    "correct": 2,
+    "explanation": "The Minimal Detectable Change (MDC95), which defines the smallest change exceeding measurement error at the 95% confidence level, is calculated as: MDC95 = 1.96 * sqrt(2) * SEM (approx. 2.77 * SEM)."
+  },
+  {
+    "id": "t12-a1-024",
+    "section": "A1",
+    "topic": "research methods data interpretation and biostatistics",
+    "subtopic": "Intraclass Correlation Coefficient (ICC) selection for reliability",
+    "difficulty": "applied",
+    "text": "When assessing the test-retest reliability of a new force plate protocol evaluated by a single examiner across multiple days, which Intraclass Correlation Coefficient (ICC) model is standardly recommended (Shrout & Fleiss / Portney)?",
+    "options": [
+      "One-way random-effects model, consistency, average group measures",
+      "Pearson product-moment linear regression coefficient squared value",
+      "Independent samples student t-test equality of variance model fit",
+      "Two-way mixed-effects model, absolute agreement, single measures"
+    ],
+    "correct": 3,
+    "explanation": "For test-retest reliability where rater is fixed (single specific rater or testing setup) and absolute scores matter, ICC model 3,1 (two-way mixed-effects, absolute agreement, single rater) or model 2,1 is the standard psychometric choice."
+  },
+  {
+    "id": "t12-a1-025",
+    "section": "A1",
+    "topic": "research methods data interpretation and biostatistics",
+    "subtopic": "Statistical power, sample size estimation and Type I / II errors",
+    "difficulty": "foundational",
+    "text": "In designing an intervention study in sports rehabilitation, what are the standard conventional scientific benchmarks for alpha level (significance) and statistical power (1 - beta)?",
+    "options": [
+      "Alpha = 0.05 and Statistical Power = 0.80",
+      "Alpha = 0.50 and Statistical Power = 0.20",
+      "Alpha = 0.01 and Statistical Power = 0.10",
+      "Alpha = 0.25 and Statistical Power = 0.50"
+    ],
+    "correct": 0,
+    "explanation": "Conventional scientific standards set the Type I error rate (alpha) at 0.05 (5% risk of false positive) and statistical power (1 - beta) at >=0.80 (80% probability of detecting a true effect if one exists)."
+  },
+  {
+    "id": "t12-a1-026",
+    "section": "A1",
+    "topic": "emerging technology wearables force platform and video analysis",
+    "subtopic": "2D Frontal Plane Projection Angle vs 3D joint kinematics",
+    "difficulty": "applied",
+    "text": "In screening knee injury risk during drop jump landings, what is the primary biomechanical limitation of using 2D video Frontal Plane Projection Angle (FPPA) compared to 3D motion capture?",
+    "options": [
+      "2D FPPA requires placing thirty-two invasive retroreflective bone markers directly into cortices",
+      "2D FPPA cannot differentiate true frontal knee abduction from transverse hip and tibial rotation",
+      "2D video cameras emit ionizing radiation that alters neuromuscular muscle recruitment patterns",
+      "2D analysis completely overestimates ground reaction force vectors by over five hundred percent"
+    ],
+    "correct": 1,
+    "explanation": "2D frontal plane projection angle reflects a planar projection of a complex multi-planar movement, conflating true knee abduction (valgus) with hip internal rotation, hip adduction, and tibial external rotation."
+  },
+  {
+    "id": "t12-a1-027",
+    "section": "A1",
+    "topic": "injury prevention screening surveillance and biomechanics",
+    "subtopic": "Isokinetic muscle balance and functional H:Q strength ratio",
+    "difficulty": "applied",
+    "text": "In isokinetic dynamometry screening for hamstring strain and ACL injury risk, what defines the 'Functional (Dynamic) Hamstring-to-Quadriceps Ratio' (Hecc:Qcon)?",
+    "options": [
+      "Hamstring concentric peak torque divided by Quadriceps concentric peak torque",
+      "Hamstring isometric peak torque divided by Quadriceps isometric peak torque",
+      "Hamstring eccentric peak torque divided by Quadriceps concentric peak torque",
+      "Hamstring muscle volume divided by Quadriceps total cross-sectional area"
+    ],
+    "correct": 2,
+    "explanation": "The functional (dynamic) H:Q ratio is calculated as eccentric hamstring peak torque divided by concentric quadriceps peak torque (Hecc:Qcon), reflecting the hamstrings' ability to brake knee extension during explosive quadriceps actions (normal threshold >=0.7-0.8)."
+  },
+  {
+    "id": "t12-a1-028",
+    "section": "A1",
+    "topic": "emerging technology wearables force platform and video analysis",
+    "subtopic": "Dual force plate countermovement jump (CMJ) phase analysis",
+    "difficulty": "analytical",
+    "text": "On a dual force plate countermovement jump (CMJ) force-time curve, which phase begins at the instant of lowest ground reaction force (unweighing peak) and ends when downward center of mass velocity reaches zero?",
+    "options": [
+      "The eccentric braking deceleration phase of the jump",
+      "The flight phase prior to ground impact and landing",
+      "The quiet standing baseline weighing phase on plate",
+      "The concentric propulsion phase of the jump"
+    ],
+    "correct": 3,
+    "explanation": "The eccentric braking (deceleration) phase starts at the point of maximum downward velocity (which coincides with the lowest dip / unweighing transition) and ends at the bottom of the countermovement when vertical velocity equals zero (lowest displacement)."
+  },
+  {
+    "id": "t12-a1-029",
+    "section": "A1",
+    "topic": "yoga and mind-body interventions in sports",
+    "subtopic": "Mindfulness-based interventions, pain processing and rehabilitation",
+    "difficulty": "foundational",
+    "text": "How do Mindfulness-Based Stress Reduction (MBSR) interventions alter central pain processing in athletes undergoing long-term injury rehabilitation?",
+    "options": [
+      "By structurally transecting ascending spinothalamic nociceptive tracts permanently",
+      "By decoupling sensory pain inputs from emotional appraisal in anterior cingulate cortex",
+      "By eliminating all peripheral nerve action potential generation in mechanoreceptors",
+      "By reducing circulating hemoglobin concentrations to diminish cerebral blood flow"
+    ],
+    "correct": 0,
+    "explanation": "Mindfulness decouples primary sensory nociceptive inputs from secondary emotional/cognitive distress (affective appraisal) via frontocortical and anterior cingulate downregulation, reducing pain catastrophizing and improving rehabilitation adherence."
+  },
+  {
+    "id": "t12-a1-030",
+    "section": "A1",
+    "topic": "exercise physiology bioenergetics and oxygen transport",
+    "subtopic": "Heat acclimation protocols and physiological adaptations",
+    "difficulty": "applied",
+    "text": "What is the standard evidence-based timeline and protocol for full physiological Heat Acclimation prior to major international competition in hot environments?",
+    "options": [
+      "Single dry sauna exposure for 10 to 15 minutes on the morning of competition",
+      "Daily exercise in heat for 60 to 90 minutes daily for 10 to 14 consecutive days",
+      "Passive cold water immersion for 30 to 45 minutes daily for 30 consecutive days",
+      "Fasting without water intake for 24 to 48 hours prior to departure flight"
+    ],
+    "correct": 1,
+    "explanation": "Full heat acclimation requires 10 to 14 days of daily 60-90 min exercise in the heat, driving early plasma volume expansion (~10-15%), lower resting core temperature, lower threshold for sweating, and reduced sweat electrolyte concentration."
+  },
+  {
+    "id": "t12-a1-031",
+    "section": "A1",
+    "topic": "travel and competition readiness circadian rhythms",
+    "subtopic": "Circadian entrainment, light exposure and melatonin timing",
+    "difficulty": "applied",
+    "text": "When traveling east across 8 time zones for competition, how should bright light exposure and exogenous melatonin be scheduled upon arrival to accelerate circadian phase advance?",
+    "options": [
+      "Avoid all morning light, seek late evening light, and take melatonin at midday",
+      "Remain in complete darkness for 72 consecutive hours without sleep",
+      "Seek bright morning light and take low-dose melatonin in the local evening",
+      "Consume 500 mg of caffeine immediately prior to bedtime in the destination"
+    ],
+    "correct": 2,
+    "explanation": "To advance the circadian clock (eastward travel), athletes should seek bright light in the destination morning (after the core body temperature minimum) and take low-dose melatonin in the local evening to promote early sleep onset."
+  },
+  {
+    "id": "t12-a1-032",
+    "section": "A1",
+    "topic": "anti-doping science and prohibited substance monitoring",
+    "subtopic": "WADA Therapeutic Use Exemption (TUE) retroactive criteria",
+    "difficulty": "foundational",
+    "text": "Under the WADA International Standard for TUEs (ISTUE), under which circumstance is an athlete permitted to apply for a Retroactive Therapeutic Use Exemption?",
+    "options": [
+      "When the athlete forgot to submit the application form on time due to intensive pre-competition training schedules",
+      "When the athlete wished to test whether their physical performance would improve during unofficial practice games",
+      "When the team coaching staff advised the athlete that anti-doping testing would not be conducted at the competition",
+      "When the prohibited substance was administered during emergency treatment for acute life-threatening medical trauma"
+    ],
+    "correct": 3,
+    "explanation": "Retroactive TUEs are granted under strict ISTUE criteria, primarily: emergency medical treatment or urgent treatment of an acute medical condition, insufficient time or exceptional circumstances, or for lower-level non-national athletes where allowed."
+  },
+  {
+    "id": "t12-a2-001",
+    "section": "A2",
+    "topic": "Indian sports schemes and National Sports Awards",
+    "subtopic": "Khelo India Talent Development vertical and financial support",
+    "difficulty": "foundational",
+    "asOf": "2026-01-30",
+    "text": "Under the Talent Identification and Development vertical of the Khelo India scheme, what financial assistance is provided to selected talented athletes?",
+    "options": [
+      "Annual financial assistance of Rs 5 lakh per annum for up to 8 years",
+      "One-time cash prize reward of Rs 50,000 for winning 1 school medal",
+      "Monthly training stipend of Rs 10,000 per month for up to 2 years",
+      "Lifetime pension grant of Rs 1 lakh per month starting from 18 years"
+    ],
+    "correct": 0,
+    "explanation": "Under the Khelo India Talent Development scheme, 1000 promising athletes across priority sports disciplines receive annual financial assistance of Rs 5 lakh per annum for 8 consecutive years."
+  },
+  {
+    "id": "t12-a2-002",
+    "section": "A2",
+    "topic": "Indian sports schemes and National Sports Awards",
+    "subtopic": "Target Olympic Podium Scheme (TOPS) Core vs Development allowance",
+    "difficulty": "applied",
+    "asOf": "2026-01-30",
+    "text": "Under India's Target Olympic Podium Scheme (TOPS), what is the monthly Out-of-Pocket Allowance (OPA) provided to athletes selected in the TOPS 'Core Group'?",
+    "options": [
+      "Rs 10,000 per month out-of-pocket allowance",
+      "Rs 50,000 per month out-of-pocket allowance",
+      "Rs 1,50,000 per month out-of-pocket allowance",
+      "Rs 3,00,000 per month out-of-pocket allowance"
+    ],
+    "correct": 1,
+    "explanation": "Athletes in the TOPS Core Group receive an Out-of-Pocket Allowance (OPA) of Rs 50,000 per month, while athletes in the TOPS Development Group receive Rs 25,000 per month, in addition to customized training and equipment support."
+  },
+  {
+    "id": "t12-a2-003",
+    "section": "A2",
+    "topic": "Anti-doping governance and WADA Prohibited List",
+    "subtopic": "WADA Class S3 Beta-2 Agonists permitted inhaled thresholds",
+    "difficulty": "applied",
+    "asOf": "2026-01-30",
+    "text": "Under the WADA Prohibited List (in force as of January 2026), what is the maximum permitted 24-hour inhaled dose for Salbutamol without requiring a TUE?",
+    "options": [
+      "Maximum of 400 micrograms over 24 hours of delivery",
+      "Maximum of 5000 micrograms over 24 hours of delivery",
+      "Maximum of 1600 micrograms over 24 hours of delivery",
+      "Maximum of 0 micrograms over 24 hours with zero allowed"
+    ],
+    "correct": 2,
+    "explanation": "Inhaled salbutamol is permitted under WADA rules up to a maximum of 1600 micrograms over 24 hours in divided doses not to exceed 600 micrograms over any 8-hour period; higher doses require a Therapeutic Use Exemption (TUE)."
+  },
+  {
+    "id": "t12-a2-004",
+    "section": "A2",
+    "topic": "Anti-doping governance and WADA Prohibited List",
+    "subtopic": "National Anti-Doping Act 2022 adjudication panels",
+    "difficulty": "foundational",
+    "asOf": "2026-01-30",
+    "text": "Under the National Anti-Doping Act, 2022, which statutory body hears and adjudicates anti-doping rule violation cases at the first instance in India?",
+    "options": [
+      "The Supreme Court of India Special Bench",
+      "The Sports Authority of India Governing Body",
+      "The Indian Olympic Association Council",
+      "The National Anti-Doping Disciplinary Panel"
+    ],
+    "correct": 3,
+    "explanation": "Under the National Anti-Doping Act, 2022, the National Anti-Doping Disciplinary Panel (NADP) is the statutory first-instance quasi-judicial body, with appeals heard by the National Anti-Doping Appeal Panel (NAAP)."
+  },
+  {
+    "id": "t12-a2-005",
+    "section": "A2",
+    "topic": "Major international competitions and Olympic movement",
+    "subtopic": "IOC Olympic Games host city allocations",
+    "difficulty": "foundational",
+    "asOf": "2026-01-30",
+    "text": "Which city is officially selected by the International Olympic Committee (IOC) to host the XXXV Olympic Summer Games in 2032?",
+    "options": [
+      "Brisbane, Australia",
+      "Doha, Qatar",
+      "London, United Kingdom",
+      "Rome, Italy"
+    ],
+    "correct": 0,
+    "explanation": "Brisbane (Queensland, Australia) was elected by the IOC Session in 2021 to host the 2032 Summer Olympic and Paralympic Games."
+  },
+  {
+    "id": "t12-a2-006",
+    "section": "A2",
+    "topic": "Major international competitions and Olympic movement",
+    "subtopic": "India's historic medal tally at 19th Asian Games",
+    "difficulty": "foundational",
+    "asOf": "2026-01-30",
+    "text": "How many total medals did the Indian contingent win at the 19th Asian Games held in Hangzhou (China), marking India's first ever 100+ medal haul?",
+    "options": [
+      "70 total medals (16 Gold, 23 Silver, 31 Bronze)",
+      "107 total medals (28 Gold, 38 Silver, 41 Bronze)",
+      "125 total medals (35 Gold, 45 Silver, 45 Bronze)",
+      "150 total medals (50 Gold, 50 Silver, 50 Bronze)"
+    ],
+    "correct": 1,
+    "explanation": "At the 19th Asian Games in Hangzhou (held in 2023), India achieved its highest-ever medal tally of 107 medals, comprising 28 Gold, 38 Silver, and 41 Bronze medals."
+  },
+  {
+    "id": "t12-a2-007",
+    "section": "A2",
+    "topic": "Indian sports schemes and National Sports Awards",
+    "subtopic": "Dronacharya Award cash rewards and categories",
+    "difficulty": "foundational",
+    "asOf": "2026-01-30",
+    "text": "According to the Ministry of Youth Affairs and Sports (MYAS) guidelines, what is the cash reward for the Dronacharya Award in the 'Lifetime Category'?",
+    "options": [
+      "Rs 5 lakh cash reward",
+      "Rs 25 lakh cash reward",
+      "Rs 15 lakh cash reward",
+      "Rs 50 lakh cash reward"
+    ],
+    "correct": 2,
+    "explanation": "The Dronacharya Award in the Lifetime Category carries a cash prize of Rs 15 lakh, whereas the Dronacharya Award in the Regular Category carries a cash prize of Rs 10 lakh."
+  },
+  {
+    "id": "t12-a2-008",
+    "section": "A2",
+    "topic": "Sports governance ethics and National Sports Development Code",
+    "subtopic": "National Sports Development Code of India (2011) cooling-off period",
+    "difficulty": "applied",
+    "asOf": "2026-01-30",
+    "text": "Under the National Sports Development Code of India (2011), what cooling-off period is mandatory for a Secretary General or Treasurer after serving two consecutive terms of 4 years each?",
+    "options": [
+      "Cooling-off period of at least one year after two consecutive terms",
+      "Cooling-off period of at least eight years after two consecutive terms",
+      "No cooling-off period required under the National Sports Development Code",
+      "Cooling-off period of at least four years after two consecutive terms"
+    ],
+    "correct": 3,
+    "explanation": "Under the Sports Code 2011, the Secretary General/Treasurer may serve a maximum of two consecutive terms of 4 years each (8 years), after which a mandatory cooling-off period of at least 4 years (one term) must lapse before re-election."
+  },
+  {
+    "id": "t12-b-001",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "foundational",
+    "text": "When performing McMurray's test for meniscal tears, which rotational maneuver stresses the medial meniscus versus lateral meniscus as the knee is extended?",
+    "options": [
+      "External tibial rotation with valgus stress tests medial meniscus; Internal tibial rotation with varus stress tests lateral meniscus",
+      "Internal tibial rotation with valgus stress tests medial meniscus; External tibial rotation with varus stress tests lateral meniscus",
+      "Full active ankle dorsiflexion tests medial meniscus; Full passive ankle plantarflexion tests lateral meniscus",
+      "Direct axial patellar compression tests medial meniscus; Lateral patellar gliding tests lateral meniscus"
+    ],
+    "correct": 0,
+    "explanation": "In McMurray's test, external tibial rotation paired with valgus stress impinges and tests the medial meniscus posterior horn, while internal tibial rotation with varus stress tests the lateral meniscus posterior horn."
+  },
+  {
+    "id": "t12-b-002",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "analytical",
+    "text": "In the Dial Test (tibial external rotation in prone), what injury pattern is indicated if external rotation increases by >10 degrees at 30 degrees knee flexion, but normalizes at 90 degrees knee flexion?",
+    "options": [
+      "Isolated injury to the Posterolateral Corner with intact PCL",
+      "Combined rupture of both the PCL and Posterolateral Corner",
+      "Isolated complete rupture of the Anterior Cruciate Ligament",
+      "Isolated tear of the anterior horn of the medial meniscus"
+    ],
+    "correct": 1,
+    "explanation": "Increased external rotation (>10 deg asymmetry) at 30 deg flexion that normalizes at 90 deg flexion indicates isolated Posterolateral Corner (PLC) injury (the intact PCL tightens and restrains rotation at 90 deg). Increased rotation at both 30 deg and 90 deg indicates combined PLC + PCL injury."
+  },
+  {
+    "id": "t12-b-003",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "applied",
+    "text": "What physical movements are resisted by the examiner during Speed's Test and Yergason's Test for the long head of the biceps tendon?",
+    "options": [
+      "Speed's resists shoulder abduction with arm internally rotated; Yergason's resists elbow extension in pronation",
+      "Speed's resists shoulder extension with forearm pronated; Yergason's resists passive wrist flexion in neutral",
+      "Speed's resists shoulder flexion with forearm supinated; Yergason's resists forearm supination with elbow flexed",
+      "Speed's resists scapular depression; Yergason's resists active glenohumeral internal rotation in abduction"
+    ],
+    "correct": 2,
+    "explanation": "Speed's test resists forward shoulder flexion with elbow extended and forearm supinated; Yergason's test resists active forearm supination and external rotation with elbow flexed at 90 degrees against the torso."
+  },
+  {
+    "id": "t12-b-004",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "applied",
+    "text": "What constitutes a positive result for a Superior Labrum Anterior-to-Posterior (SLAP) tear on O'Brien's Active Compression Test?",
+    "options": [
+      "Pain elicited in Position 1 (thumb down) and equal pain in Position 2 (thumb up)",
+      "Tingling elicited in Position 1 (thumb down) and numbness in Position 2 (thumb up)",
+      "Sulcus gap elicited in Position 1 (thumb down) and clicks in Position 2 (thumb up)",
+      "Pain elicited in Position 1 (thumb down) that is eliminated in Position 2 (thumb up)"
+    ],
+    "correct": 3,
+    "explanation": "A positive O'Brien test for labral pathology requires deep shoulder pain or clicking in internal rotation (thumb down, arm flexed 90 deg and adducted 10-15 deg) that is eliminated or decreased when repeated with forearm fully supinated (thumb up)."
+  },
+  {
+    "id": "t12-b-005",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "foundational",
+    "text": "Which two tendons within the first dorsal wrist extensor compartment are evaluated for De Quervain's tenosynovitis during Finkelstein's test?",
+    "options": [
+      "Abductor Pollicis Longus (APL) and Extensor Pollicis Brevis (EPB)",
+      "Extensor Pollicis Longus (EPL) and Extensor Indicis (EI)",
+      "Flexor Pollicis Longus (FPL) and Flexor Carpi Radialis (FCR)",
+      "Abductor Pollicis Brevis (APB) and Opponens Pollicis (OP)"
+    ],
+    "correct": 0,
+    "explanation": "De Quervain's tenosynovitis is a stenosing tenosynovitis affecting the first dorsal compartment tendons of the wrist: Abductor Pollicis Longus (APL) and Extensor Pollicis Brevis (EPB)."
+  },
+  {
+    "id": "t12-b-006",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "applied",
+    "text": "During the modified Thomas test, if the patient's extended thigh remains in contact with the table but the knee extends to less than 80-90 degrees flexion, which muscle is tight?",
+    "options": [
+      "Isolated tightness of the single-joint Iliopsoas muscle",
+      "Isolated tightness of the two-joint Rectus Femoris muscle",
+      "Isolated tightness of the Tensor Fasciae Latae / ITB complex",
+      "Isolated tightness of the Pectineus and Adductor Longus"
+    ],
+    "correct": 1,
+    "explanation": "If the posterior thigh touches the table (normal iliopsoas length) but the knee cannot maintain 80-90 deg flexion without extending, isolated Rectus Femoris tightness is confirmed (tightness decreases upon allowing hip flexion)."
+  },
+  {
+    "id": "t12-b-007",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "foundational",
+    "text": "When performing the Talar Tilt stress test with the ankle in neutral/slight dorsiflexion, which ligament is primarily stressed by forced inversion versus forced eversion?",
+    "options": [
+      "Forced inversion stresses Deltoid Ligament; Forced eversion stresses Talofibular Ligament",
+      "Forced inversion stresses Plantar Fascia; Forced eversion stresses Achilles Tendon complex",
+      "Forced inversion stresses Calcaneofibular Ligament; Forced eversion stresses Deltoid Ligament",
+      "Forced inversion stresses Spring Ligament; Forced eversion stresses Bifurcate Ligament band"
+    ],
+    "correct": 2,
+    "explanation": "The Talar Tilt test in neutral position stresses the Calcaneofibular Ligament (CFL) during forced inversion (tilting talus medially) and the deep/superficial Deltoid ligament complex during forced eversion (tilting talus laterally)."
+  },
+  {
+    "id": "t12-b-008",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Orthopedic Physical Assessment - David J. Magee",
+    "difficulty": "applied",
+    "text": "What physical maneuver is executed during the Biceps Load II test to diagnose Type II SLAP lesions in overhead athletes?",
+    "options": [
+      "Arm placed in 30 degrees adduction, 45 degrees IR, resisting downward extension",
+      "Arm placed in 0 degrees adduction, 0 degrees ER, resisting active forearm pronation",
+      "Arm placed in 90 degrees abduction, 90 degrees IR, resisting active arm lift-off",
+      "Arm placed in 120 degrees abduction, 90 degrees ER, resisting active elbow flexion"
+    ],
+    "correct": 3,
+    "explanation": "Biceps Load II (Kim et al.) is performed in 120 deg abduction, maximal external rotation, forearm supinated, and elbow at 90 deg; resisted elbow flexion reproduces deep superior pain as the biceps pulls on the torn superior labrum."
+  },
+  {
+    "id": "t12-b-009",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Therapeutic Exercise: Foundations and Techniques - Kisner & Colby",
+    "difficulty": "applied",
+    "text": "In evidence-based tendinopathy rehabilitation protocols (Rio et al.), what parameters for heavy isometric holds produce maximal acute tendon pain analgesia?",
+    "options": [
+      "5 sets of 45-second sustained holds at ~70% maximal voluntary contraction with 2-min rest",
+      "10 sets of 5-second rapid pulses at 20% maximal voluntary contraction with 10-s rest",
+      "1 set of 5-minute continuous static hold to complete muscular failure without rest",
+      "20 sets of 1-second ballistic contractions performed with an elastic resistance band"
+    ],
+    "correct": 0,
+    "explanation": "Ebonie Rio et al. showed that 5 sets of 45-second isometric holds at ~70% MVC with 2 minutes of rest between sets induces immediate tendon pain relief lasting up to 45 minutes and releases cortical inhibition."
+  },
+  {
+    "id": "t12-b-010",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Heavy Slow Resistance (HSR) training for lower extremity tendinopathies",
+    "difficulty": "applied",
+    "text": "In Heavy Slow Resistance (HSR) training for patellar and Achilles tendinopathies (Kongsgaard et al.), what repetition tempo is prescribed per repetition?",
+    "options": [
+      "Ballistic explosive movement (1 second concentric and 0 seconds eccentric per rep)",
+      "Controlled slow tempo (3 seconds concentric and 3 seconds eccentric per rep)",
+      "Ultra-slow isometric hold (30 seconds concentric and 30 seconds eccentric per rep)",
+      "Variable random tempo (5 seconds concentric and 15 seconds eccentric per rep)"
+    ],
+    "correct": 1,
+    "explanation": "HSR protocols prescribe 3 sets of 6 to 8 RM, performed 3 times per week, using a slow, controlled tempo of 3 seconds concentric and 3 seconds eccentric (6 seconds total time-under-tension per repetition) to promote tendon collagen remodeling."
+  },
+  {
+    "id": "t12-b-011",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Proprioceptive Neuromuscular Facilitation (PNF) neurophysiology",
+    "difficulty": "foundational",
+    "text": "In PNF stretching, what dual neurophysiological mechanism occurs during the 'Hold-Relax with Agonist Contraction' (HR-AC) technique?",
+    "options": [
+      "Direct structural rupture of myofibrillar Z-discs combined with acute neural conduction blockade",
+      "Complete sympathetic vasoconstriction combined with rapid elevation of motor unit firing rates",
+      "Autogenic inhibition from target muscle GTOs combined with reciprocal inhibition from agonists",
+      "Reciprocal excitation of target muscle spindles combined with Golgi tendon organ suppression"
+    ],
+    "correct": 2,
+    "explanation": "HR-AC combines autogenic inhibition (from isometric contraction of the tight target muscle activating GTOs) and reciprocal inhibition (from subsequent active contraction of the opposing agonist muscle inhibiting the target antagonist)."
+  },
+  {
+    "id": "t12-b-012",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Maitland joint manipulation and neurophysiological mechanisms",
+    "difficulty": "foundational",
+    "text": "What characterizes a Maitland Grade V spinal or peripheral joint manipulation?",
+    "options": [
+      "High-velocity, low-amplitude thrust performed at limit of available joint range",
+      "Sustained isometric muscle contraction against immovable resistance for one minute",
+      "Continuous passive motion machine mobilization applied for six hours continuously",
+      "Large-amplitude slow oscillatory glide performed within the early pain-free range"
+    ],
+    "correct": 3,
+    "explanation": "Maitland Grade V is defined as a high-velocity, low-amplitude (HVLA) thrust performed at the physiological/pathological limit of available joint range to restore motion and stimulate mechanical/neurophysiological hypoalgesia."
+  },
+  {
+    "id": "t12-b-013",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Mulligan Mobilization with Movement (MWM) - Bent Leg Raise",
+    "difficulty": "applied",
+    "text": "In Mulligan manual therapy concepts, what is the primary clinical indication for the 'Bent Leg Raise' (BLR) technique?",
+    "options": [
+      "Restricted Straight Leg Raise and low back pain associated with neural mechanosensitivity",
+      "Complete anterior cruciate ligament rupture with massive hemarthrosis in acute knee trauma",
+      "Symptomatic acromioclavicular joint separation grade III in competitive contact athletes",
+      "De Quervain tenosynovitis with severe wrist extensor tendon sheath swelling and crepitus"
+    ],
+    "correct": 0,
+    "explanation": "The Mulligan Bent Leg Raise (BLR) is a pain-free traction and hip flexion mobilization technique specifically indicated to restore restricted, painful Straight Leg Raise (SLR) and resolve lower back/buttock neurodynamic pain."
+  },
+  {
+    "id": "t12-b-014",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Knee rehabilitation: Open vs Closed Kinetic Chain ACL graft strain",
+    "difficulty": "analytical",
+    "text": "During early post-operative ACL reconstruction rehabilitation, why are open-kinetic-chain (OKC) seated knee extensions restricted between 0 and 30-40 degrees flexion?",
+    "options": [
+      "OKC extensions from 90 to 45 degrees produce complete hamstring muscle paralysis",
+      "OKC extensions from 30 to 0 degrees produce peak anterior tibial shear force",
+      "OKC extensions from 60 to 30 degrees produce severe PCL compressive stresses",
+      "OKC extensions from 45 to 15 degrees eliminate all quadriceps motor recruitment"
+    ],
+    "correct": 1,
+    "explanation": "Between 30 deg and 0 deg (terminal extension) in open kinetic chain, the quadriceps pull generates significant anterior tibial shear force that directly strains the healing ACL graft; hence early OKC quads are restricted to 90-45 deg flexion."
+  },
+  {
+    "id": "t12-b-015",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "Plyometric exercise progression in sports rehabilitation",
+    "difficulty": "applied",
+    "text": "What is the logical clinical progression of plyometric exercises in return-to-sport lower extremity rehabilitation?",
+    "options": [
+      "Bilateral landing mechanics -> Linear hopping -> Unilateral multi-directional cutting",
+      "Continuous rotational box drops -> Seated leg curls -> Aquatic pool walking drills",
+      "High-intensity depth jumps -> Unilateral cutting drills -> Bilateral landing drills",
+      "Single-leg triple hops to fatigue -> Bilateral squats -> Incline board stretching"
+    ],
+    "correct": 2,
+    "explanation": "Safe plyometric progression follows: Stage 1 = Bilateral jump-landing mechanics (force absorption/eccentric control), Stage 2 = Linear jumping/bounding, Stage 3 = Unilateral jumping/hopping, and Stage 4 = Multi-directional cutting and reactive agility."
+  },
+  {
+    "id": "t12-b-016",
+    "section": "B",
+    "topic": "exercise therapy and rehabilitation",
+    "subtopic": "25-degree decline board eccentric squat for patellar tendinopathy",
+    "difficulty": "applied",
+    "text": "Why is performing eccentric single-leg squats on a 25-degree decline slant board superior to a flat surface for patellar tendinopathy rehabilitation (Purdam et al.)?",
+    "options": [
+      "The decline slope eliminates quadriceps activation and shifts all load to hamstrings",
+      "The decline slope prevents the patella from contacting the femoral trochlear groove",
+      "The decline slope reduces total mechanical loading on the knee joint by eighty percent",
+      "The decline slope reduces dorsiflexion demand and isolates load onto patellar tendon"
+    ],
+    "correct": 3,
+    "explanation": "A 25-degree decline board limits calf/triceps surae contribution by reducing ankle dorsiflexion demand, effectively isolating and increasing patellar tendon load and quadriceps strain by up to 25-30% compared to flat ground squats."
+  },
+  {
+    "id": "t12-b-017",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Kinesiology of the Musculoskeletal System - Donald A. Neumann",
+    "difficulty": "foundational",
+    "text": "In shoulder girdle kinesiology, which muscle force couple provides the primary upward rotation and posterior tilt of the scapula during arm elevation above 90 degrees?",
+    "options": [
+      "Serratus Anterior, Upper Trapezius, and Lower Trapezius",
+      "Levator Scapulae, Rhomboid Major, and Pectoralis Minor",
+      "Latissimus Dorsi, Teres Major, and Subscapularis",
+      "Pectoralis Major, Coracobrachialis, and Biceps Brachii"
+    ],
+    "correct": 0,
+    "explanation": "The Serratus Anterior (pulling inferior angle laterally/anteriorly), Upper Trapezius (elevating and rotating), and Lower Trapezius (depressing and upwardly rotating) form the critical force couple for scapular upward rotation and posterior tilting."
+  },
+  {
+    "id": "t12-b-018",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Kinesiology of the Musculoskeletal System - Donald A. Neumann",
+    "difficulty": "foundational",
+    "text": "In foot and ankle biomechanics, what anatomical alignment defines 'Subtalar Joint Neutral' position?",
+    "options": [
+      "The position where the calcaneus is locked in twenty degrees of maximal active foot eversion",
+      "The position where the talar head is equally palpable on both sides of the navicular bone",
+      "The position where the great toe is held in ninety degrees of passive extension on the floor",
+      "The position where the distal fibula translates anteriorly across the lateral talar dome surface"
+    ],
+    "correct": 1,
+    "explanation": "Subtalar Joint Neutral (STJN) is defined as the position where the talus is congruent within the mortise, such that the medial and lateral margins of the talar head are equally felt in the navicular fossa."
+  },
+  {
+    "id": "t12-b-019",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Kinesiology of the Musculoskeletal System - Donald A. Neumann",
+    "difficulty": "analytical",
+    "text": "During normal healthy forward trunk bending (lumbar flexion in standing), what kinematic sequence describes the 'Lumbo-Pelvic Rhythm'?",
+    "options": [
+      "Initial 60 to 70 degrees occurs via pelvic tilt, followed by 30 degrees extension",
+      "Initial 20 to 30 degrees occurs at knees, followed by 50 degrees lumbar lordosis",
+      "Initial 40 to 45 degrees occurs in lumbar spine, followed by 60 degrees pelvic tilt",
+      "Initial 10 to 15 degrees occurs at ankles, followed by 80 degrees hip abduction"
+    ],
+    "correct": 2,
+    "explanation": "In normal forward bending, the initial 40-45 degrees of trunk flexion is accomplished predominantly by lumbar spine flexion (flattening lordosis), followed by approximately 60 degrees of anterior pelvic tilting around the femoral heads (hip flexion)."
+  },
+  {
+    "id": "t12-b-020",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Patellofemoral joint contact mechanics and joint reaction force",
+    "difficulty": "analytical",
+    "text": "In closed-kinetic-chain knee exercises (e.g., bilateral squats), at which knee flexion angle range do patellofemoral joint reaction force (PFJRF) and contact stress peak?",
+    "options": [
+      "Between 0 and 15 degrees of knee flexion",
+      "Between 10 and 20 degrees of knee hyperextension",
+      "Between 120 and 140 degrees of knee flexion",
+      "Between 60 and 90 degrees of knee flexion"
+    ],
+    "correct": 3,
+    "explanation": "In closed-chain weight-bearing squats, the patellofemoral joint reaction force (PFJRF) and contact stress peak between 60 and 90 degrees of knee flexion due to increasing quadriceps tension and the sharpening vector angle between quadriceps tendon and patellar tendon."
+  },
+  {
+    "id": "t12-b-021",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Gait Analysis: Normal and Pathological Function - Perry & Burnfield",
+    "difficulty": "applied",
+    "text": "During terminal stance phase of normal gait, where does the Ground Reaction Force (GRF) vector pass relative to the knee joint center, and what external moment does it produce?",
+    "options": [
+      "Passes anterior to the knee joint center, creating an external extension moment",
+      "Passes posterior to the knee joint center, creating an external flexion moment",
+      "Passes directly through the lateral collateral ligament, creating internal rotation",
+      "Passes superior to the patella, creating an external varus moment"
+    ],
+    "correct": 0,
+    "explanation": "In terminal stance, the GRF vector passes anterior to the knee joint axis, generating an external knee extension moment that stabilizes the knee and allows the quadriceps to relax."
+  },
+  {
+    "id": "t12-b-022",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Postural control, Center of Pressure (COP) and force platform metrics",
+    "difficulty": "foundational",
+    "text": "In force platform balance testing, what does Center of Pressure (COP) excursion measure during quiet standing?",
+    "options": [
+      "The exact location of the anatomical center of body mass within the abdominal cavity space",
+      "The neuromuscular controller's continuous spatial adjustments of the ground force vector",
+      "The total structural bone mineral density of the bilateral calcaneal skeletal tuberosities",
+      "The maximal voluntary isometric force output of the quadriceps femoris extensor group"
+    ],
+    "correct": 1,
+    "explanation": "Center of Pressure (COP) represents the point of application of the resultant vertical ground reaction force under the feet; COP excursions reflect the active neuromuscular torque adjustments made to keep the Center of Mass (COM) within the base of support."
+  },
+  {
+    "id": "t12-b-023",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Shoulder rotators isokinetic torque ratios in overhead athletes",
+    "difficulty": "applied",
+    "text": "In isokinetic strength evaluation of elite overhead throwing athletes (Ellenbecker & Davies), what is the normal physiological ratio of External Rotator (ER) to Internal Rotator (IR) concentric strength?",
+    "options": [
+      "ER to IR strength ratio of approximately 66% to 75%",
+      "ER to IR strength ratio of approximately 120% to 150%",
+      "ER to IR strength ratio of approximately 20% to 30%",
+      "ER to IR strength ratio of approximately 200% to 250%"
+    ],
+    "correct": 2,
+    "explanation": "In healthy shoulders, external rotators generate approximately two-thirds (66% to 75%) of the torque of the larger internal rotators; an ER:IR strength ratio below 60-66% is a proven risk factor for shoulder and elbow injuries in overhead athletes."
+  },
+  {
+    "id": "t12-b-024",
+    "section": "B",
+    "topic": "biomechanics and movement analysis",
+    "subtopic": "Kinesiology of the Musculoskeletal System - Donald A. Neumann",
+    "difficulty": "foundational",
+    "text": "In human biomechanics, which movement is classically cited as an example of a Second-Class Lever (where the load lies between the fulcrum and effort force)?",
+    "options": [
+      "Elbow extension by the triceps brachii during a seated overhead arm press",
+      "Biceps brachii elbow flexion lifting a dumbbell during concentric curls",
+      "Hamstring knee flexion during terminal swing phase of running sprint gait",
+      "Standing heel raise on the metatarsophalangeal joints via the triceps surae"
+    ],
+    "correct": 3,
+    "explanation": "In a standing heel raise (plantarflexion on toes), the fulcrum is at the metatarsophalangeal joints, the load (body weight through the tibia) is in the middle, and the effort (Achilles tendon pull) is on the other side, forming a classic Second-Class Lever."
+  },
+  {
+    "id": "t12-b-025",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Electrotherapy: Evidence-Based Practice - Tim Watson",
+    "difficulty": "foundational",
+    "text": "In electrotherapeutic pain modulation (Tim Watson), which endogenous opioid receptor system is primarily stimulated by Low-Frequency (Acupuncture-like / Burst) TENS?",
+    "options": [
+      "Mu-opioid and delta-opioid receptor systems in the central nervous system via beta-endorphin release",
+      "Exclusive blockade of peripheral nicotinic acetylcholine receptors at the motor end plate",
+      "Direct destruction of substance P neurotransmitter stores in primary sensory ganglia",
+      "Permanent structural down-regulation of dorsal column lemniscal sensory pathways"
+    ],
+    "correct": 0,
+    "explanation": "Low-frequency, motor-intensity TENS (1-4 Hz or Burst) stimulates small-diameter A-delta and C fibers to trigger beta-endorphin and dynorphin release, binding to central mu- and delta-opioid receptors, whereas high-frequency TENS activates delta-opioid mechanisms."
+  },
+  {
+    "id": "t12-b-026",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Therapeutic ultrasound Beam Non-Uniformity Ratio (BNR) standards",
+    "difficulty": "foundational",
+    "text": "In therapeutic ultrasound safety, what is the Beam Non-Uniformity Ratio (BNR), and what ratio threshold is clinically acceptable to avoid localized hot spots?",
+    "options": [
+      "The ratio of ultrasound frequency to electrical voltage; clinically acceptable BNR is > 20:1",
+      "The ratio of peak spatial intensity to average spatial intensity; clinically acceptable BNR is < 6:1",
+      "The ratio of transducer surface area to patient body mass; clinically acceptable BNR is = 100:1",
+      "The ratio of treatment time to acoustic impedance; clinically acceptable BNR is < 0.1:1"
+    ],
+    "correct": 1,
+    "explanation": "Beam Non-Uniformity Ratio (BNR) is the ratio of spatial peak intensity to spatial average intensity across the transducer face; acceptable clinical ultrasound transducers have a BNR of < 6:1 (ideally < 4:1) to prevent periosteal overheating and tissue burns."
+  },
+  {
+    "id": "t12-b-027",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Shortwave Diathermy (SWD) inductive drum vs capacitive plate heating",
+    "difficulty": "applied",
+    "text": "In Shortwave Diathermy (27.12 MHz), why does an Inductive Coil (drum applicator) heat deep muscle tissue more effectively than Capacitive Plates?",
+    "options": [
+      "Capacitive plates generate pure acoustic sound waves that are reflected by skin epidermis",
+      "Inductive coils freeze the superficial subcutaneous fat layer to sub-zero temperatures",
+      "Inductive coils generate magnetic fields inducing eddy currents in vascular muscle tissue",
+      "Capacitive plates only operate when submerged in high-concentration liquid saline bath"
+    ],
+    "correct": 2,
+    "explanation": "Inductive applicators create oscillating magnetic fields that induce circular eddy currents preferentially in low-impedance, vascular, electrolyte-rich tissues (muscle), whereas capacitive plates create strong electric fields that selectively overheat high-resistance subcutaneous fat."
+  },
+  {
+    "id": "t12-b-028",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Extracorporeal Shockwave Therapy: Radial vs Focused physical differences",
+    "difficulty": "applied",
+    "text": "What is the primary physical and acoustic difference between Radial Pressure Waves (RPW) and Focused Extracorporeal Shockwaves (FSWT)?",
+    "options": [
+      "Radial waves penetrate twenty centimeters; Focused shockwaves only affect superficial epidermis",
+      "Radial waves use electromagnetic light; Focused shockwaves use radioactive ionizing rays",
+      "Radial waves require full anesthesia; Focused shockwaves are completely silent and vibration-free",
+      "Radial waves peak at skin and diverge; Focused waves concentrate energy at a deep focal zone"
+    ],
+    "correct": 3,
+    "explanation": "Radial shockwaves (pressure waves) have their peak energy at the applicator tip and diverge superficially, whereas focused shockwaves converge acoustic pressure waves to generate a concentrated focal zone of high energy density at deep target tissues."
+  },
+  {
+    "id": "t12-b-029",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Neuromuscular Electrical Stimulation (NMES) motor unit recruitment",
+    "difficulty": "foundational",
+    "text": "How does motor unit recruitment during Neuromuscular Electrical Stimulation (NMES) differ from voluntary physiological muscle recruitment (Henneman's size principle)?",
+    "options": [
+      "NMES recruits motor units non-selectively and activates large fast-twitch fibers first",
+      "NMES strictly follows Henneman size rule, recruiting small slow-twitch fibers exclusively",
+      "NMES activates only smooth muscle fibers without stimulating alpha motor neuron axons",
+      "NMES prevents all calcium ion release from the sarcoplasmic reticulum during stimulation"
+    ],
+    "correct": 0,
+    "explanation": "Voluntary contractions follow Henneman's size principle (slow Type I first, asynchronous). NMES recruits motor units synchronously and non-selectively/reversely, preferentially stimulating large-diameter axons supplying fast Type II fibers first because of lower electrical threshold."
+  },
+  {
+    "id": "t12-b-030",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Therapeutic cryotherapy physiological effects on nerve conduction",
+    "difficulty": "foundational",
+    "text": "What is the direct physiological effect of therapeutic ice application on peripheral Nerve Conduction Velocity (NCV)?",
+    "options": [
+      "NCV increases exponentially to over 200 m/s for every 1 degree C temperature drop",
+      "NCV decreases by approximately 1.5 to 2.0 m/s for every 1 degree C temperature drop",
+      "NCV remains completely unaltered until temperature drops by 15 degrees C in tissue",
+      "NCV drops to 0 m/s permanently after 2 minutes of ice application to skin"
+    ],
+    "correct": 1,
+    "explanation": "Tissue cooling slows the opening of voltage-gated sodium channels and increases refractory period, decreasing peripheral nerve conduction velocity by ~1.5 to 2.0 m/s per 1 degree C drop in tissue temperature, elevating pain threshold."
+  },
+  {
+    "id": "t12-b-031",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Interferential Therapy (IFT) vector sweep and quadripolar modulation",
+    "difficulty": "applied",
+    "text": "In Interferential Therapy (IFT), what is the clinical purpose of utilizing the 'Vector Scan' (dynamic rotating vector) feature during treatment?",
+    "options": [
+      "To convert low-frequency current into high-voltage electromagnetic radio waves continuously",
+      "To eliminate the requirement for conductive electrode gel or moist sponge pad interfaces",
+      "To automatically rotate the modulation intersection zone across a larger treatment area",
+      "To prevent the treatment timer from expiring during prolonged clinical therapy sessions"
+    ],
+    "correct": 2,
+    "explanation": "In standard quadripolar IFT, 100% amplitude modulation occurs along the 45-degree diagonal axes. The Vector Scan feature rhythmically modulates channel amplitudes, rotating the effective interference pattern to treat a wider, diffuse area and prevent sensory accommodation."
+  },
+  {
+    "id": "t12-b-032",
+    "section": "B",
+    "topic": "electrotherapy and electrodiagnosis",
+    "subtopic": "Low-Level Laser Therapy (LLLT) energy density and WALT dosage guidelines",
+    "difficulty": "foundational",
+    "text": "In Low-Level Laser Therapy (Photobiomodulation), what is the formula to calculate total Energy Density (Fluence, in J/cm2)?",
+    "options": [
+      "Fluence (J/cm2) = Voltage (Volts) / Current (Amperes) * Frequency (Hz)",
+      "Fluence (J/cm2) = Tissue thickness (cm) * Body mass (kg) * Heart rate",
+      "Fluence (J/cm2) = Wavelength (nm) / Speed of light * Temperature",
+      "Fluence (J/cm2) = [Power (Watts) * Time (seconds)] / Surface Area (cm2)"
+    ],
+    "correct": 3,
+    "explanation": "Energy (Joules) = Power (Watts) * Time (seconds). Energy Density (Fluence, J/cm2) = Total Energy (J) / Area of beam or treatment spot (cm2), which is the standard parameter used in WALT (World Association for Laser Therapy) dosage guidelines."
+  },
+  {
+    "id": "t12-b-033",
+    "section": "B",
+    "topic": "psychology and human development",
+    "subtopic": "Fitts and Posner's stages of motor skill learning in sports rehab",
+    "difficulty": "foundational",
+    "text": "According to Fitts and Posner's model of motor learning, what is the correct chronological sequence of stages through which an athlete progresses when learning or retraining a complex motor skill?",
+    "options": [
+      "Cognitive Stage -> Associative Stage -> Autonomous Stage",
+      "Autonomous Stage -> Associative Stage -> Cognitive Stage",
+      "Associative Stage -> Cognitive Stage -> Autonomous Stage",
+      "Cognitive Stage -> Autonomous Stage -> Associative Stage"
+    ],
+    "correct": 0,
+    "explanation": "Fitts and Posner defined three stages of motor learning: 1. Cognitive Stage (high conscious thought, understanding mechanics, frequent errors), 2. Associative Stage (refining movement patterns, error self-correction), 3. Autonomous Stage (automatic, fluent, low conscious attention)."
+  },
+  {
+    "id": "t12-b-034",
+    "section": "B",
+    "topic": "psychology and human development",
+    "subtopic": "Kleim & Jones principles of experience-dependent neural plasticity",
+    "difficulty": "applied",
+    "text": "According to Kleim and Jones' seminal principles of experience-dependent neuroplasticity, which statement accurately reflects the 'Specificity' principle in athletic rehabilitation?",
+    "options": [
+      "Plasticity in response to one training task prevents learning any other motor skill",
+      "The nature of training dictates the specific nature of neural plasticity acquired",
+      "Neural plasticity only occurs if training sessions exceed eight continuous hours daily",
+      "Passive stretching of limbs induces greater cortical reorganization than motor training"
+    ],
+    "correct": 1,
+    "explanation": "The 'Specificity' principle of neuroplasticity (Kleim & Jones) states that the specific sensory and motor demands of the practice task dictate the exact nature of the cortical and spinal neural network reorganization."
+  },
+  {
+    "id": "t12-b-035",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Dual-task cognitive-motor interference testing in sports concussion",
+    "difficulty": "applied",
+    "text": "In athletes recovering from sports-related concussion, what is the clinical rationale for assessing 'Dual-Task Gait' (e.g., walking while performing serial subtractions) prior to contact clearance?",
+    "options": [
+      "Dual-task testing measures maximal quadriceps torque without an isokinetic dynamometer",
+      "Dual-task testing permanently reverses all structural post-concussion cortical microbleeds",
+      "Dual-task testing unmasks subclinical sensorimotor and attentional deficits post-concussion",
+      "Dual-task testing is used strictly to evaluate visual acuity and determine eye prescriptions"
+    ],
+    "correct": 2,
+    "explanation": "Post-concussion athletes often normalize simple gait tests while retaining subtle deficits in cortical motor control; dual-task cognitive-motor paradigms divide attentional resources, exposing gait instability, slower gait speed, and elevated re-injury risk."
+  },
+  {
+    "id": "t12-b-036",
+    "section": "B",
+    "topic": "assessment and clinical reasoning differential",
+    "subtopic": "Proprioceptive Joint Position Sense (JPS) and active angle reproduction",
+    "difficulty": "foundational",
+    "text": "How is Joint Position Sense (JPS) propriorception standardly assessed in the shoulder or knee following sports injury?",
+    "options": [
+      "Measuring cutaneous thermal discrimination thresholds using warm and cold water glass tubes",
+      "Determining the maximum weight an athlete can lift for one repetition with eyes closed shut",
+      "Applying vibrating tuning forks over the clavicle to measure auditory brainstem reflexes",
+      "Target angle positioning followed by blinded active reproduction, measuring error in degrees"
+    ],
+    "correct": 3,
+    "explanation": "Joint Position Sense (JPS) is clinically measured using active or passive target angle matching (the joint is placed at a target angle, returned to start, and the blinded patient attempts to reproduce that angle), quantifying Absolute Error in degrees."
+  },
+  {
+    "id": "t12-b-037",
+    "section": "B",
+    "topic": "nutrition and research evidence in sports",
+    "subtopic": "Receiver Operating Characteristic (ROC) curve analysis and AUC interpretation",
+    "difficulty": "analytical",
+    "text": "In clinical research evaluating a new orthopedic special test, what does an Area Under the ROC Curve (AUC) value between 0.90 and 1.00 represent?",
+    "options": [
+      "Excellent overall diagnostic discriminative accuracy between injured and healthy individuals",
+      "Zero diagnostic utility, equivalent to flipping an unweighted fair coin",
+      "High systematic measurement error rendering the test completely invalid for clinical practice",
+      "The test has high sensitivity but zero percent diagnostic specificity across all thresholds"
+    ],
+    "correct": 0,
+    "explanation": "In ROC analysis, the AUC quantifies diagnostic accuracy across all cut-points: AUC = 0.50 is chance performance, 0.70-0.80 is fair, 0.80-0.90 is good, and 0.90-1.00 represents excellent/outstanding discriminative ability."
+  },
+  {
+    "id": "t12-b-038",
+    "section": "B",
+    "topic": "nutrition and research evidence in sports",
+    "subtopic": "Methodological quality and blinding in randomized controlled physiotherapy trials",
+    "difficulty": "applied",
+    "text": "In a randomized controlled trial comparing manual therapy against exercise therapy, why is 'Blinding of Outcome Assessors' critical for internal validity when therapist blinding is impossible?",
+    "options": [
+      "It guarantees that all patients experience identical placebo physiological improvements",
+      "It minimizes detection bias and observer expectation bias during objective physical measurements",
+      "It eliminates the necessity for randomized group allocation and baseline demographic balancing",
+      "It ensures that therapists deliver both interventions simultaneously to the same participant"
+    ],
+    "correct": 1,
+    "explanation": "While physiotherapists providing physical interventions cannot be blinded, blinding independent outcome assessors who collect measurements prevents detection bias and investigator expectancy effects, preserving trial internal validity (PEDro scale criterion)."
+  },
+  {
+    "id": "t12-b-039",
+    "section": "B",
+    "topic": "nutrition and research evidence in sports",
+    "subtopic": "Nutritional interventions during cast immobilization to preserve muscle mass",
+    "difficulty": "applied",
+    "text": "What physiological benefit has creatine monohydrate supplementation demonstrated during post-injury limb immobilization in athletic clinical trials (Hespel et al., Johnston et al.)?",
+    "options": [
+      "Completely prevents 100% ligament laxity and accelerates cartilage healing",
+      "Replaces 100% of the need for progressive mechanical loading and physical therapy",
+      "Attenuates 20% disuse muscle atrophy, maintains GLUT4, and speeds recovery",
+      "Eliminates 100% of inflammatory cytokine release from healing surgical incision margins"
+    ],
+    "correct": 2,
+    "explanation": "Research shows creatine supplementation (20 g/day loading, then 5 g/day) during limb cast immobilization attenuates disuse muscle atrophy, preserves muscle GLUT4 expression and glycogen content, and accelerates recovery of muscle cross-sectional area upon re-training."
+  },
+  {
+    "id": "t12-b-040",
+    "section": "B",
+    "topic": "sports physiotherapy and medicine",
+    "subtopic": "Shared decision making and ethics in Return-to-Play clearance",
+    "difficulty": "applied",
+    "text": "In the Strategic Assessment of Risk and Risk Tolerance (StARRT) framework for Return to Play (Creighton et al.), what factor constitutes Step 1 (Assessment of Health Risk)?",
+    "options": [
+      "Evaluating financial bonuses and commercial sponsorship implications of match victory",
+      "Assessing media scrutiny and external fan pressure on team coaching leadership staff",
+      "Consulting opposing team coaches to assess tactical match importance and roster needs",
+      "Evaluating athlete health, biological healing status, and objective functional markers"
+    ],
+    "correct": 3,
+    "explanation": "The 3-step StARRT framework begins with Step 1: Assessment of Health Risk (tissue biological healing, injury characteristics, personal medical history, objective test results), before evaluating Step 2 (Activity Risk/Sport modifier) and Step 3 (Decision Modifiers/Risk tolerance)."
+  },
+  {
+    "id": "t12-c-001",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Football midfielder with acute medial knee injury following contact valgus trauma",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-001",
+    "passage": "A 23-year-old professional football midfielder sustains a contact injury when an opponent slide-tackles into the lateral aspect of his right knee while his foot is planted. He feels a tearing sensation along the inside of his knee. On physical examination at the sports clinic 2 hours post-match, there is mild local medial joint effusion, marked tenderness along the medial femoral epicondyle and joint line, and pain during passive knee extension. Valgus stress testing at 30 degrees knee flexion demonstrates 6 mm of medial joint space opening with a distinct firm end-feel compared to the left knee (2 mm opening). Valgus stress testing at 0 degrees full extension demonstrates no laxity and a solid end-feel. Lachman, posterior drawer, and McMurray tests are all negative.",
+    "text": "Based on the valgus stress examination findings at 30 degrees versus 0 degrees, what is the precise structural diagnosis?",
+    "options": [
+      "Grade II isolated superficial MCL sprain with intact secondary stabilizers",
+      "Grade III complete rupture of MCL combined with PCL ligament disruption",
+      "Complete rupture of the ACL with medial meniscal root attachment tear",
+      "Isolated lateral collateral ligament sprain with posterolateral instability"
+    ],
+    "correct": 0,
+    "explanation": "Valgus laxity at 30 deg flexion (where the posterior capsule is slackened) with a firm end-feel (5-8 mm opening) indicates a Grade II MCL sprain. Normal stability at 0 deg confirms that secondary stabilizers (posterior capsule, ACL, PCL) are intact."
+  },
+  {
+    "id": "t12-c-002",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Football midfielder with acute medial knee injury following contact valgus trauma",
+    "difficulty": "applied",
+    "passageId": "t12-cs-001",
+    "passage": "A 23-year-old professional football midfielder sustains a contact injury when an opponent slide-tackles into the lateral aspect of his right knee while his foot is planted. He feels a tearing sensation along the inside of his knee. On physical examination at the sports clinic 2 hours post-match, there is mild local medial joint effusion, marked tenderness along the medial femoral epicondyle and joint line, and pain during passive knee extension. Valgus stress testing at 30 degrees knee flexion demonstrates 6 mm of medial joint space opening with a distinct firm end-feel compared to the left knee (2 mm opening). Valgus stress testing at 0 degrees full extension demonstrates no laxity and a solid end-feel. Lachman, posterior drawer, and McMurray tests are all negative.",
+    "text": "What is the evidence-based conservative management protocol for this footballer's Grade II MCL sprain?",
+    "options": [
+      "Rigid cylinder cast immobilization for six weeks followed by immediate unrestricted contact match play",
+      "Early functional bracing in a hinged knee brace with protected weight-bearing and progressive closed-chain rehabilitation",
+      "Immediate emergency open primary surgical ligament reconstruction within forty-eight hours of trauma",
+      "Complete bed rest without weight-bearing until all medial joint line tenderness completely disappears"
+    ],
+    "correct": 1,
+    "explanation": "Grade II isolated MCL injuries have high vascularity and heal reliably with conservative care: hinged brace protecting against valgus stress (initially allowing 0-90 deg ROM), early weight-bearing as tolerated, early quad/hamstring activation, and progressive loading."
+  },
+  {
+    "id": "t12-c-003",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Competitive swimmer with subacromial pain syndrome and painful arc",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-002",
+    "passage": "A 19-year-old collegiate competitive freestyle swimmer presents with a 2-month history of insidious-onset anterolateral right shoulder pain that worsens during high-volume swim practices and pull-buoy sets. She demonstrates a painful arc between 70 and 120 degrees of active shoulder abduction. Neer and Hawkins-Kennedy impingement tests are both positive. Active external rotation in 90 degrees abduction is weak and painful. Examination of posture reveals thoracic kyphosis with rounded shoulders (forward head, protracted scapulae). The posterior glenohumeral capsule shows mild tightness with 20 degrees loss of internal rotation compared to the non-dominant side.",
+    "text": "What is the primary mechanical mechanism contributing to this swimmer's subacromial pain syndrome?",
+    "options": [
+      "Complete traumatic bony avulsion fracture of the acromion process from the scapular spine",
+      "Compression of the suprascapular nerve within the spinoglenoid notch by a paralabral cyst",
+      "Subacromial space narrowing during elevation exacerbated by scapular protraction and cuff fatigue",
+      "Severe glenohumeral osteoarthritis with large intra-articular osteophytes and joint destruction"
+    ],
+    "correct": 2,
+    "explanation": "Swimmer's shoulder involves subacromial space compromise during repetitive overhead arm elevation, driven by rotator cuff fatigue (loss of humeral head depression), posterior capsular tightness, and scapular protraction/anterior tilting."
+  },
+  {
+    "id": "t12-c-004",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Competitive swimmer with subacromial pain syndrome and painful arc",
+    "difficulty": "applied",
+    "passageId": "t12-cs-002",
+    "passage": "A 19-year-old collegiate competitive freestyle swimmer presents with a 2-month history of insidious-onset anterolateral right shoulder pain that worsens during high-volume swim practices and pull-buoy sets. She demonstrates a painful arc between 70 and 120 degrees of active shoulder abduction. Neer and Hawkins-Kennedy impingement tests are both positive. Active external rotation in 90 degrees abduction is weak and painful. Examination of posture reveals thoracic kyphosis with rounded shoulders (forward head, protracted scapulae). The posterior glenohumeral capsule shows mild tightness with 20 degrees loss of internal rotation compared to the non-dominant side.",
+    "text": "Which comprehensive rehabilitation program is MOST appropriate to restore pain-free swimming function?",
+    "options": [
+      "Continuous ultrasound therapy alone without exercise and swimming avoidance for 12 months",
+      "High-load military overhead barbell shoulder presses performed to muscular failure daily",
+      "Surgical subacromial decompression acromioplasty as mandatory first-line intervention",
+      "Posterior capsule stretching, serratus anterior/lower trap strengthening, and cuff endurance"
+    ],
+    "correct": 3,
+    "explanation": "Evidence-based management of subacromial pain syndrome emphasizes exercise therapy: strengthening the scapular upward rotators (serratus anterior/lower trap), rotator cuff endurance, posterior capsular stretching (sleeper stretch), and thoracic extension mobility."
+  },
+  {
+    "id": "t12-c-005",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: High jumper with chronic proximal patellar tendinopathy and jump takeoff pain",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-003",
+    "passage": "A 21-year-old high jumper reports progressive right infrapatellar knee pain over 4 months on his plant (takeoff) leg. Pain is sharp during the explosive penultimate step and takeoff phase of high jumping, and aches for 24-48 hours after training sessions (VISA-P score = 52/100). On physical examination, there is exquisite focal tenderness localized precisely to the proximal origin of the patellar tendon at the inferior patellar pole. The pain significantly decreases when palpation is repeated with the quadriceps actively contracted and the knee fully extended (positive Royal London Hospital test). Diagnostic ultrasound demonstrates localized tendon thickening (7.5 mm vs 4.0 mm contralateral), hypoechoic collagen disorganization, and localized neovascularization on power Doppler.",
+    "text": "According to Cook and Purdam's tendon continuum model, what pathological stage of tendinopathy is this athlete experiencing?",
+    "options": [
+      "Late reactive tendinopathy / tendon disrepair transitioning to degenerative tendinopathy",
+      "Acute bacterial infectious tenosynovitis with tissue necrosis requiring urgent drainage",
+      "Pure inflammatory peritendinitis without structural collagen changes in tendon core",
+      "Complete traumatic rupture of patellar tendon with high-riding patella displacement"
+    ],
+    "correct": 0,
+    "explanation": "Tendon thickening, focal hypoechoic areas of disorganized matrix, hypervascularity on Doppler, and chronic load-related pain (4 months) indicate tendon disrepair transitioning to degenerative tendinopathy on Cook & Purdam's continuum model."
+  },
+  {
+    "id": "t12-c-006",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: High jumper with chronic proximal patellar tendinopathy and jump takeoff pain",
+    "difficulty": "applied",
+    "passageId": "t12-cs-003",
+    "passage": "A 21-year-old high jumper reports progressive right infrapatellar knee pain over 4 months on his plant (takeoff) leg. Pain is sharp during the explosive penultimate step and takeoff phase of high jumping, and aches for 24-48 hours after training sessions (VISA-P score = 52/100). On physical examination, there is exquisite focal tenderness localized precisely to the proximal origin of the patellar tendon at the inferior patellar pole. The pain significantly decreases when palpation is repeated with the quadriceps actively contracted and the knee fully extended (positive Royal London Hospital test). Diagnostic ultrasound demonstrates localized tendon thickening (7.5 mm vs 4.0 mm contralateral), hypoechoic collagen disorganization, and localized neovascularization on power Doppler.",
+    "text": "Which progressive exercise loading protocol is MOST evidence-based to restore load capacity in this athlete's patellar tendon?",
+    "options": [
+      "Total bed rest and non-weight bearing on crutches for eight weeks followed by competition",
+      "Isometric Spanish squats -> Heavy Slow Resistance -> Energy storage plyometrics progression",
+      "Routine repeated intratendinous corticosteroid injections every two weeks until pain-free",
+      "Exclusive performance of high-velocity plyometric drop jumps from 60 cm boxes daily"
+    ],
+    "correct": 1,
+    "explanation": "Modern tendinopathy rehabilitation follows a staged progression: 1. Isometrics (Spanish squat/leg press holds) for analgesia, 2. Heavy Slow Resistance (HSR) training to stimulate collagen synthesis and increase tendon stiffness, 3. Energy storage/release plyometrics, 4. Return to sport."
+  },
+  {
+    "id": "t12-c-007",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Badminton player with acute inversion ankle sprain and mechanical laxity",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-004",
+    "passage": "A 20-year-old badminton player sustains an acute right ankle injury when lunging backward to retrieve a smash, rolling her foot into sudden inversion and plantarflexion. She presents 3 hours post-injury with prominent lateral ankle swelling (egg-shaped hematoma over the lateral malleolus) and difficulty weight-bearing. Palpation demonstrates severe tenderness over the anterior talofibular ligament (ATFL) and mild tenderness over the calcaneofibular ligament (CFL). The anterior drawer test demonstrates 7 mm anterior translation with a soft end-feel (uninjured side 2 mm with firm end-feel). Ottawa Ankle Rules are negative for bone tenderness and she can take 4 steps with a limp.",
+    "text": "Which anatomical structure is primary in restraining anterior talar translation in plantarflexion, and is the primary structure injured in this athlete?",
+    "options": [
+      "The Posterior Talofibular Ligament",
+      "The Superficial Deltoid Ligament",
+      "The Anterior Talofibular Ligament",
+      "The Anterior Tibiofibular Ligament"
+    ],
+    "correct": 2,
+    "explanation": "The Anterior Talofibular Ligament (ATFL) is the weakest lateral ankle ligament and is oriented parallel to the long axis of the foot during plantarflexion, making it the primary restraint against anterior talar displacement and the most frequently injured ligament in inversion sprains."
+  },
+  {
+    "id": "t12-c-008",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Badminton player with acute inversion ankle sprain and mechanical laxity",
+    "difficulty": "applied",
+    "passageId": "t12-cs-004",
+    "passage": "A 20-year-old badminton player sustains an acute right ankle injury when lunging backward to retrieve a smash, rolling her foot into sudden inversion and plantarflexion. She presents 3 hours post-injury with prominent lateral ankle swelling (egg-shaped hematoma over the lateral malleolus) and difficulty weight-bearing. Palpation demonstrates severe tenderness over the anterior talofibular ligament (ATFL) and mild tenderness over the calcaneofibular ligament (CFL). The anterior drawer test demonstrates 7 mm anterior translation with a soft end-feel (uninjured side 2 mm with firm end-feel). Ottawa Ankle Rules are negative for bone tenderness and she can take 4 steps with a limp.",
+    "text": "What is the optimal early rehabilitation strategy to reduce time to return-to-court and prevent recurrent instability?",
+    "options": [
+      "Rigid fiberglass cast immobilization for six weeks without any ankle joint movement",
+      "Immediate surgical open repair of the ATFL within twenty-four hours of injury presentation",
+      "Strict non-weight bearing bed rest on crutches without therapy until swelling disappears",
+      "POLICE protocol with functional ankle support, early weight-bearing, and balance training"
+    ],
+    "correct": 3,
+    "explanation": "Evidence strongly supports functional management: Protection (semi-rigid brace), Optimal Loading, early weight-bearing, early joint mobilization (Mulligan MWM for dorsiflexion), and progressive neuromuscular/proprioceptive balance training to prevent chronic ankle instability."
+  },
+  {
+    "id": "t12-c-009",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Rugby player 9 months post-ACL reconstruction discharge testing",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-005",
+    "passage": "A 22-year-old rugby back is 9 months post-right ACL reconstruction using a quadrupled semitendinosus-gracilis (hamstring) autograft. He undergoes a comprehensive Return to Sport (RTS) testing battery. The results are: Knee ROM 0-145 degrees with zero effusion; Isokinetic Quadriceps peak torque Limb Symmetry Index (LSI) = 93%; Isokinetic Hamstrings peak torque LSI = 82%; Single-Leg Hop for Distance LSI = 94%; Single-Leg Triple Hop LSI = 92%; Single-Leg Crossover Hop LSI = 91%; Single-Leg 6-Meter Timed Hop LSI = 93%; ACL-RSI psychological readiness score = 84/100; Y-Balance anterior reach asymmetry = 1.5 cm; 3D motion capture demonstrates symmetrical landing mechanics without dynamic knee valgus.",
+    "text": "Based on the comprehensive test results, which specific physical deficit remains to be resolved before full contact rugby match clearance?",
+    "options": [
+      "Hamstring strength deficit (LSI = 82%, below the >=90% threshold) following autograft harvest",
+      "Quadriceps strength deficit (LSI = 62%, below the >=90% threshold) following surgery",
+      "Psychological unreadiness (ACL-RSI = 44, below the >=75 score threshold) for contact sport",
+      "Functional hop testing failure (LSI = 71%, below the >=90% threshold) across hop testing"
+    ],
+    "correct": 0,
+    "explanation": "All criteria meet or exceed benchmarks (quad LSI >=90%, hop tests >=90%, ACL-RSI >75, symmetrical landing) EXCEPT hamstring strength (LSI = 82%), which is below the mandatory >=90% threshold\u2014a common donor-site deficit following hamstring autograft harvest that must be rectified."
+  },
+  {
+    "id": "t12-c-010",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Rugby player 9 months post-ACL reconstruction discharge testing",
+    "difficulty": "applied",
+    "passageId": "t12-cs-005",
+    "passage": "A 22-year-old rugby back is 9 months post-right ACL reconstruction using a quadrupled semitendinosus-gracilis (hamstring) autograft. He undergoes a comprehensive Return to Sport (RTS) testing battery. The results are: Knee ROM 0-145 degrees with zero effusion; Isokinetic Quadriceps peak torque Limb Symmetry Index (LSI) = 93%; Isokinetic Hamstrings peak torque LSI = 82%; Single-Leg Hop for Distance LSI = 94%; Single-Leg Triple Hop LSI = 91%; Single-Leg Crossover Hop LSI = 91%; Single-Leg 6-Meter Timed Hop LSI = 93%; ACL-RSI psychological readiness score = 84/100; Y-Balance anterior reach asymmetry = 1.5 cm; 3D motion capture demonstrates symmetrical landing mechanics without dynamic knee valgus.",
+    "text": "Which targeted exercise prescription is MOST indicated to resolve this specific remaining strength deficit?",
+    "options": [
+      "High-load seated open-chain leg extensions (quadriceps curls) performed five times weekly",
+      "High-load eccentric hamstring strengthening (Nordic curls, RDLs, and high-velocity leg curls)",
+      "Passive knee extension stretching (with 10 kg overpressure) placed on superior patellar pole",
+      "Complete cessation of all resistance exercise (with reliance solely) on stationary cycling"
+    ],
+    "correct": 1,
+    "explanation": "To resolve the donor-site hamstring deficit (semitendinosus harvest), targeted eccentric hamstring strengthening (Nordic curls, Romanian deadlifts, slide-board leg curls, and isokinetic eccentric training at varied joint angles) is prescribed to restore LSI >=90%."
+  },
+  {
+    "id": "t12-c-011",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Adolescent soccer player with anterior tibial tuberosity pain during growth spurt",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-006",
+    "passage": "A 14-year-old male competitive youth soccer player experiencing a rapid growth spurt (grew 7 cm in the past 6 months) presents with progressive anterior knee pain of 8 weeks duration. Pain is sharp during soccer shooting, sprinting, and squatting, and aches after training. Physical examination demonstrates marked localized swelling and prominent bony enlargement with exquisite tenderness over the tibial tuberosity. Resisted knee extension from 90 degrees elicits sharp pain localized to the tibial tubercle. Knee joint effusion, joint line tenderness, and ligamentous testing are all normal. Lateral knee radiographs demonstrate soft tissue swelling and irregular ossification/fragmentation of the tibial tuberosity apophysis consistent with chronological age.",
+    "text": "What is the primary pathological mechanism underlying this young soccer player's condition?",
+    "options": [
+      "Acute intra-articular bacterial septic arthritis of the knee joint (Septic Joint Infection)",
+      "Complete traumatic tear of the posterior horn of the lateral meniscus (Meniscal Root Tear)",
+      "Repetitive traction microtrauma to immature tibial tuberosity (Osgood-Schlatter Disease)",
+      "Primary osteosarcoma malignancy of the proximal tibial metaphysis (Malignant Bone Lesion)"
+    ],
+    "correct": 2,
+    "explanation": "Osgood-Schlatter disease is a traction apophysitis of the tibial tuberosity caused by repetitive quadriceps tensile loading transmitted through the patellar tendon onto the immature, rapidly growing secondary ossification center during adolescent growth spurts."
+  },
+  {
+    "id": "t12-c-012",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Adolescent soccer player with anterior tibial tuberosity pain during growth spurt",
+    "difficulty": "applied",
+    "passageId": "t12-cs-006",
+    "passage": "A 14-year-old male competitive youth soccer player experiencing a rapid growth spurt (grew 7 cm in the past 6 months) presents with progressive anterior knee pain of 8 weeks duration. Pain is sharp during soccer shooting, sprinting, and squatting, and aches after training. Physical examination demonstrates marked localized swelling and prominent bony enlargement with exquisite tenderness over the tibial tuberosity. Resisted knee extension from 90 degrees elicits sharp pain localized to the tibial tubercle. Knee joint effusion, joint line tenderness, and ligamentous testing are all normal. Lateral knee radiographs demonstrate soft tissue swelling and irregular ossification/fragmentation of the tibial tuberosity apophysis consistent with chronological age.",
+    "text": "Which management strategy is MOST appropriate for this adolescent athlete?",
+    "options": [
+      "Complete cast immobilization of the knee in full extension for twelve consecutive weeks",
+      "Immediate surgical excision of the entire tibial tuberosity under general anesthesia",
+      "Corticosteroid injection into the patellar tendon insertion under ultrasound guidance",
+      "Symptom-guided load management, quadriceps/hip flexibility, and post-activity cryotherapy"
+    ],
+    "correct": 3,
+    "explanation": "Osgood-Schlatter is a self-limiting condition managed with activity/load modification (reducing aggravating kicking/sprinting volume while maintaining sports participation within pain tolerance <=3/10), quadriceps/hamstring flexibility, ice, and kinetic chain strengthening."
+  },
+  {
+    "id": "t12-c-013",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Distance runner with lateral knee pain and ITB friction syndrome",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-007",
+    "passage": "A 26-year-old female marathon runner presents with sharp, burning pain over the lateral aspect of her right knee that develops consistently after 5 km of running and is particularly aggravated during downhill running. She reports having recently increased her weekly running volume from 45 km to 80 km. Physical examination reveals: Focal tenderness over the lateral femoral epicondyle (approximately 2 cm superior to the lateral joint line); Noble's Compression Test elicits familiar pain at approximately 30 degrees of passive knee flexion as the ITB passes over the epicondyle; Ober's test demonstrates significant ITB tightness; and running gait video analysis demonstrates contralateral pelvic drop (Trendelenburg sign) and dynamic knee adduction/internal rotation during stance.",
+    "text": "What is the primary anatomical pathology and biomechanical contributor to this runner's symptoms?",
+    "options": [
+      "Compression of richly innervated fat pad deep to ITB over lateral femoral epicondyle",
+      "Complete longitudinal bucket-handle tear of the lateral meniscus fibrocartilage body",
+      "Isolated rupture of the popliteus tendon with posterolateral rotational instability",
+      "Stress fracture of the proximal fibular neck with accompanying peroneal nerve palsy"
+    ],
+    "correct": 0,
+    "explanation": "Iliotibial Band Syndrome (ITBS) involves compression of the richly vascularized and innervated adipose tissue layer deep to the ITB against the lateral femoral epicondyle around 30 deg flexion (the impingement zone), driven by Gluteus Medius weakness and excessive contralateral pelvic drop."
+  },
+  {
+    "id": "t12-c-014",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Distance runner with lateral knee pain and ITB friction syndrome",
+    "difficulty": "applied",
+    "passageId": "t12-cs-007",
+    "passage": "A 26-year-old female marathon runner presents with sharp, burning pain over the lateral aspect of her right knee that develops consistently after 5 km of running and is particularly aggravated during downhill running. She reports having recently increased her weekly running volume from 45 km to 80 km. Physical examination reveals: Focal tenderness over the lateral femoral epicondyle (approximately 2 cm superior to the lateral joint line); Noble's Compression Test elicits familiar pain at approximately 30 degrees of passive knee flexion as the ITB passes over the epicondyle; Ober's test demonstrates significant ITB tightness; and running gait video analysis demonstrates contralateral pelvic drop (Trendelenburg sign) and dynamic knee adduction/internal rotation during stance.",
+    "text": "Which combination of interventions is MOST effective for resolving ITB syndrome in this distance runner?",
+    "options": [
+      "Solely passive foam rolling of the ITB for 60 minutes daily without hip exercises",
+      "Gluteus medius strengthening, running cadence increase of 5% to 10%, and step widening",
+      "Immobilization in a long-leg cylinder cast for 6 weeks with complete sport rest",
+      "Immediate surgical release and transection of the ITB within 48 hours of symptoms"
+    ],
+    "correct": 1,
+    "explanation": "Evidence demonstrates that strengthening the hip abductors/external rotators (gluteus medius/maximus) to control pelvic drop, paired with running gait modifications (increasing cadence by 5-10% and slightly widening step width to reduce peak ITB strain), successfully resolves ITBS."
+  },
+  {
+    "id": "t12-c-015",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Elite archer with medial elbow pain during bow draw",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-008",
+    "passage": "A 25-year-old elite archer complains of medial right elbow pain of 2 months duration that is exacerbated during the draw and anchor phases of archery shooting. Physical examination reveals: Exquisite tenderness localized over the medial epicondyle and the common flexor-pronator tendon origin; Pain reproduction during resisted wrist flexion with the elbow in full extension and forearm supinated; Pain on resisted forearm pronation with the elbow flexed at 90 degrees; Passive wrist extension with elbow extended and forearm supinated stretches the medial structures and reproduces discomfort; Ulnar nerve Tinel's sign at the cubital tunnel is negative, and elbow valgus stress testing is stable.",
+    "text": "Which muscle tendon origins are primarily implicated in this clinical presentation (Golfer's elbow / Medial Epicondylalgia)?",
+    "options": [
+      "Extensor Carpi Radialis Brevis and Digitorum tendon origins",
+      "Triceps Brachii distal tendon insertion on olecranon process",
+      "Pronator Teres and Flexor Carpi Radialis tendon origins",
+      "Biceps Brachii distal tendon insertion on radial tuberosity"
+    ],
+    "correct": 2,
+    "explanation": "Medial epicondylalgia involves tendinopathy of the common flexor-pronator tendon origin on the medial epicondyle, with the Pronator Teres and Flexor Carpi Radialis (FCR) tendons being the most frequently involved structures."
+  },
+  {
+    "id": "t12-c-016",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Elite archer with medial elbow pain during bow draw",
+    "difficulty": "applied",
+    "passageId": "t12-cs-008",
+    "passage": "A 25-year-old elite archer complains of medial right elbow pain of 2 months duration that is exacerbated during the draw and anchor phases of archery shooting. Physical examination reveals: Exquisite tenderness localized over the medial epicondyle and the common flexor-pronator tendon origin; Pain reproduction during resisted wrist flexion with the elbow in full extension and forearm supinated; Pain on resisted forearm pronation with the elbow flexed at 90 degrees; Passive wrist extension with elbow extended and forearm supinated stretches the medial structures and reproduces discomfort; Ulnar nerve Tinel's sign at the cubital tunnel is negative, and elbow valgus stress testing is stable.",
+    "text": "What is the most effective progressive exercise rehabilitation protocol for this athlete?",
+    "options": [
+      "Immobilization of the elbow in a cast for six weeks with complete cessation of activity",
+      "Routine repeated corticosteroid injections into the flexor tendon origin every three weeks",
+      "Passive continuous ultrasound therapy alone without any active therapeutic exercise loading",
+      "Isometric wrist flexion -> Eccentric-concentric loading -> Archery kinetic chain drills"
+    ],
+    "correct": 3,
+    "explanation": "Optimal management requires staged loading: isometric wrist flexion/pronation for pain analgesia, progressing to eccentric-concentric strengthening (e.g., reverse Tyler twist with flexible bar), followed by kinetic chain shoulder and scapular stabilizer integration."
+  },
+  {
+    "id": "t12-c-017",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Weightlifter with acute lumbar disc herniation and L5 radiculopathy",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-009",
+    "passage": "A 28-year-old competitive weightlifter experiences a sudden sharp pain in his lower back while executing a heavy deadlift, accompanied by radiating pain into his right buttock, posterolateral thigh, lateral calf, and the dorsum of his right great toe. On examination 24 hours later: Active lumbar flexion is severely limited and centralizes/worsens radicular pain down the right leg, whereas repeated passive lumbar extension in prone (McKenzie extension) centralizes the pain to the low back and abolishes the foot symptoms; Straight Leg Raise (SLR) on the right reproduces familiar leg pain at 35 degrees; Well-Leg (Crossed) SLR performed on the left leg reproduces familiar radicular pain down the symptomatic right leg at 45 degrees; Sensation is reduced over the right L5 dermatome, and right Extensor Hallucis Longus (EHL) strength is Grade 4/5.",
+    "text": "What is the diagnostic significance of the positive Well-Leg (Crossed) Straight Leg Raise test in this athlete?",
+    "options": [
+      "High diagnostic specificity above ninety percent indicating disc herniation with nerve compression",
+      "Complete rule-out of lumbar disc pathology, confirming isolated hamstring muscle strain injury",
+      "Confirmation of thoracic facet joint arthropathy without lumbar spine nerve root involvement",
+      "High probability of sacroiliac joint ligamentous laxity without lumbar nerve root compression"
+    ],
+    "correct": 0,
+    "explanation": "While the ipsilateral SLR has high sensitivity (~90%) but lower specificity, the Crossed (Well-Leg) SLR test has very high specificity (>90-97%) for confirming a space-occupying lumbar disc herniation compressing the contralateral nerve root."
+  },
+  {
+    "id": "t12-c-018",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Weightlifter with acute lumbar disc herniation and L5 radiculopathy",
+    "difficulty": "applied",
+    "passageId": "t12-cs-009",
+    "passage": "A 28-year-old competitive weightlifter experiences a sudden sharp pain in his lower back while executing a heavy deadlift, accompanied by radiating pain into his right buttock, posterolateral thigh, lateral calf, and the dorsum of his right great toe. On examination 24 hours later: Active lumbar flexion is severely limited and centralizes/worsens radicular pain down the right leg, whereas repeated passive lumbar extension in prone (McKenzie extension) centralizes the pain to the low back and abolishes the foot symptoms; Straight Leg Raise (SLR) on the right reproduces familiar leg pain at 35 degrees; Well-Leg (Crossed) SLR performed on the left leg reproduces familiar radicular pain down the symptomatic right leg at 45 degrees; Sensation is reduced over the right L5 dermatome, and right Extensor Hallucis Longus (EHL) strength is Grade 4/5.",
+    "text": "Based on the phenomenon of pain centralization with extension, which initial rehabilitation strategy is indicated?",
+    "options": [
+      "Aggressive continuous seated lumbar flexion stretches (with 20 kg overpressure) on thighs",
+      "Directional preference exercises (McKenzie extensions), avoiding loaded flexion, with core stability",
+      "Immediate emergency lumbar spinal fusion surgery (without trial) of conservative physiotherapy",
+      "High-velocity rotational spinal manipulation (performed in full flexion) under traction force"
+    ],
+    "correct": 1,
+    "explanation": "The centralization phenomenon with lumbar extension indicates a directional preference; prescribing repetitive prone extensions (McKenzie protocol) moves disc nuclear material anteriorly, reduces nerve root irritation, and is paired with deep abdominal/multifidus stabilization."
+  },
+  {
+    "id": "t12-c-019",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Elite handball athlete with Superior Labrum Anterior-to-Posterior (SLAP) tear",
+    "difficulty": "analytical",
+    "passageId": "t12-cs-010",
+    "passage": "A 24-year-old elite overhead handball player presents with deep, poorly localized right anterior-superior shoulder pain and painful clicking during the late cocking and acceleration phases of hard jump throws. Physical examination reveals: Glenohumeral range of motion demonstrates GIRD with 25 degrees internal rotation deficit; O'Brien's active compression test elicits deep superior clicking and pain in thumb-down position which disappears in thumb-up position; Biceps Load II test is positive with reproduction of pain; Crank test reproduces mechanical catching at 160 degrees abduction; Rotator cuff manual muscle strength is Grade 5/5; Shoulder MR-arthrography confirms a Type II SLAP lesion (detachment of the superior labrum and long head of the biceps anchor from the superior glenoid).",
+    "text": "What is the primary anatomical characteristic of a Type II SLAP lesion according to Snyder's classification?",
+    "options": [
+      "Fraying of the superior labrum with an intact and stable long biceps anchor attachment",
+      "Bucket-handle tear of superior labrum with intact long head of biceps tendon anchor",
+      "Detachment of superior labrum and long head of biceps tendon anchor from superior glenoid",
+      "Bucket-handle tear of superior labrum with tear extension into long biceps tendon"
+    ],
+    "correct": 2,
+    "explanation": "According to Snyder's classification, a Type II SLAP lesion is characterized by avulsion/detachment of the superior labrum and long head of biceps tendon anchor from the superior glenoid rim, creating superior instability."
+  },
+  {
+    "id": "t12-c-020",
+    "section": "C",
+    "topic": "sports physiotherapy and case study analysis",
+    "subtopic": "Case study: Elite handball athlete with Superior Labrum Anterior-to-Posterior (SLAP) tear",
+    "difficulty": "applied",
+    "passageId": "t12-cs-010",
+    "passage": "A 24-year-old elite overhead handball player presents with deep, poorly localized right anterior-superior shoulder pain and painful clicking during the late cocking and acceleration phases of hard jump throws. Physical examination reveals: Glenohumeral range of motion demonstrates GIRD with 25 degrees internal rotation deficit; O'Brien's active compression test elicits deep superior clicking and pain in thumb-down position which disappears in thumb-up position; Biceps Load II test is positive with reproduction of pain; Crank test reproduces mechanical catching at 160 degrees abduction; Rotator cuff manual muscle strength is Grade 5/5; Shoulder MR-arthrography confirms a Type II SLAP lesion (detachment of the superior labrum and long head of the biceps anchor from the superior glenoid).",
+    "text": "What is the recommended non-operative physiotherapy rehabilitation protocol for this overhead athlete (Fedoriw et al., Edwards et al.)?",
+    "options": [
+      "Immediate surgical labral repair and biceps tenodesis without trial of physical therapy",
+      "Complete rigid immobilization of the shoulder in an abduction splint for six months",
+      "Exclusive high-load overhead barbell snatches performed to muscular failure daily",
+      "Posterior capsular stretching, rotator cuff strengthening, and kinetic chain throwing drills"
+    ],
+    "correct": 3,
+    "explanation": "Evidence (Fedoriw et al., Edwards et al.) demonstrates that 70-80% of overhead athletes with Type II SLAP tears succeed with conservative therapy: correcting GIRD with posterior capsule stretches (sleeper stretch), rotator cuff dynamic strengthening, periscapular muscle stabilization, and kinetic chain throwing mechanics."
+  }
+]

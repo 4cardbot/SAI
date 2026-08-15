@@ -16,14 +16,15 @@ filler_patterns = [
 
 def final_audit():
     print("=================================================================")
-    print("        RUNNING FINAL COMPREHENSIVE AUDIT ON ALL 10 TESTS        ")
+    print("        RUNNING FINAL COMPREHENSIVE AUDIT ON ALL 12 TESTS        ")
     print("=================================================================")
     
     total_q_count = 0
     total_issues = 0
     
-    for t in range(1, 11):
+    for t in range(1, 13):
         filename = f'mock_tests/mock_test_{t}.json'
+
         with open(filename) as f:
             qs = json.load(f)
             

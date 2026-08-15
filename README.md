@@ -36,8 +36,9 @@ Create a GitHub repository, push this folder to its `main` branch, then enable *
 
 ## Content model
 
-The production bank contains 600 explicit question objects imported from the supplied `1.txt` and `2.txt` files: 192 A1, 48 A2, 240 B and 120 C records, with 55 distinct C passages. The first eight A questions in `1.txt` are mapped to A2 and its remaining 32 A questions to A1. Section C passages retain their supplied grouping (five passages with four questions and 50 passages with two questions); each mock test selects complete groups totalling 20 questions. The test shuffles displayed options.
+The production bank contains 1200 explicit, high-yield question objects authored across 12 full-length mock tests: 384 A1, 96 A2, 480 B, and 240 C records, with 120 distinct C passages. Section C passages retain their grouping (each mock test selects complete groups totalling 20 questions). Every question adheres to strict anti-pattern standards, eliminating option length disparities and formatting cues. The test engine dynamically shuffles displayed options.
 
 The app has no backend or login. Each attempt is generated from a fresh random seed, while the active attempt and latest result are stored in versioned browser storage. Answers, the current question, and remaining time are saved as the user progresses. Closing, refreshing, leaving the tab, or navigating Home pauses the attempt; Home offers Resume. The completed report remains available until the user chooses Start new test. Starting a new test instead from Home permanently replaces the saved attempt after confirmation.
 
 The question bank is an independent preparation resource, not an official SAI examination or recruitment application.
+

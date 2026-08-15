@@ -3,8 +3,8 @@ import { A2_COVERAGE_DATE } from "../constants";
 import { AUTHORED_QUESTION_BANK, INDIVIDUAL_TESTS } from "./authored";
 
 describe("explicit authored question batches", () => {
-  it("exports 10 individual test modules with 100 questions each", () => {
-    expect(INDIVIDUAL_TESTS).toHaveLength(10);
+  it("exports 12 individual test modules with 100 questions each", () => {
+    expect(INDIVIDUAL_TESTS).toHaveLength(12);
     INDIVIDUAL_TESTS.forEach((testQuestions, testIdx) => {
       expect(testQuestions).toHaveLength(100);
       expect(testQuestions.filter((q) => q.section === "A1")).toHaveLength(32);
@@ -22,9 +22,9 @@ describe("explicit authored question batches", () => {
   });
 
   it("contain literal records with unique IDs and answer choices", () => {
-    expect(AUTHORED_QUESTION_BANK.length).toBe(1000);
+    expect(AUTHORED_QUESTION_BANK.length).toBe(1200);
     expect(new Set(AUTHORED_QUESTION_BANK.map((question) => question.id)).size).toBe(AUTHORED_QUESTION_BANK.length);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(800);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(960);
     AUTHORED_QUESTION_BANK.forEach((question) => {
       expect(question.options).toHaveLength(4);
       expect(new Set(question.options).size).toBe(4);
@@ -38,11 +38,11 @@ describe("explicit authored question batches", () => {
   });
 
   it("preserves the official section and case-study composition", () => {
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(320);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(80);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(400);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(200);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(100);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(384);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(96);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(480);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(240);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(120);
     const passageCounts = new Map<string, number>();
     AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").forEach((question) => {
       passageCounts.set(question.passageId!, (passageCounts.get(question.passageId!) ?? 0) + 1);
@@ -51,3 +51,4 @@ describe("explicit authored question batches", () => {
     expect([...passageCounts.values()].every((count) => count === 2 || count === 4)).toBe(true);
   });
 });
+
