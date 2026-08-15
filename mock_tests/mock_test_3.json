@@ -71,12 +71,12 @@
     "difficulty": "applied",
     "text": "In the Conjugate / Westside periodization system, what is the role of the 'Dynamic Effort' (DE) training day?",
     "options": [
-      "Lifting submaximal loads (e.g., 50\u201360% 1RM) with maximal acceleration and movement velocity",
-      "Performing low-intensity aerobic walking (e.g., 50\u201360% HRmax) for ninety continuous minutes",
       "Testing maximal competitive lifts (e.g., 95\u2013100% 1RM) to absolute failure on every exercise",
+      "Performing low-intensity aerobic walking (e.g., 50\u201360% HRmax) for ninety continuous minutes",
+      "Lifting submaximal loads (e.g., 50\u201360% 1RM) with maximal acceleration and movement velocity",
       "Executing passive stretching routines (e.g., 30\u201360s holds) without using any external resistance"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "The Dynamic Effort (DE) method trains rate of force development and explosive power by moving submaximal loads (50\u201360% 1RM) at maximum concentric velocity, often with accommodating resistance (bands/chains)."
   },
   {
@@ -103,12 +103,12 @@
     "difficulty": "foundational",
     "text": "What is the typical physiological rate of muscle glycogen resynthesis following exhaustive glycogen-depleting exercise when adequate carbohydrates are consumed?",
     "options": [
-      "5% to 7% per hour, requiring approximately 20 to 24 hours for complete replenishment",
-      "0% per hour initially, not initiating until 48 hours following exercise cessation",
       "50% per hour, fully restored within 2 hours regardless of post-exercise dietary intake",
+      "0% per hour initially, not initiating until 48 hours following exercise cessation",
+      "5% to 7% per hour, requiring approximately 20 to 24 hours for complete replenishment",
       "1% to 2% per hour, requiring up to 7 days for complete restoration across muscles"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Under optimal carbohydrate feeding (1.0\u20131.2 g/kg/hr), muscle glycogen resynthesizes at an average rate of 5\u20137% per hour, requiring roughly 20 to 24 hours to fully restore depleted stores."
   },
   {
@@ -263,12 +263,12 @@
     "difficulty": "applied",
     "text": "In the Heath-Carter anthropometric somatotype method, which measurements are used to calculate the 'Endomorphy' component?",
     "options": [
-      "Cormic Index is (Sitting Height / Stature) x 100, assessing relative trunk-to-leg proportions",
-      "Cormic Index is (Biacromial / Biiliac Breadth) x 100, assessing shoulder-to-pelvis proportions",
-      "Cormic Index is (Body Mass / Stature squared) x 100, assessing systemic body adiposity mass",
-      "Cormic Index is (Arm Span / Total Stature) x 100, assessing upper limb reach to height ratio"
+      "Sum of three skinfolds: Triceps, Subscapular, and Supraspinale, adjusted for standing height",
+      "Sum of two bone breadths: Biepicondylar humerus and Biepicondylar femur breadths",
+      "Sum of two limb girths: Flexed arm girth and Calf girth corrected for skinfold thickness",
+      "Ratio of standing height divided by the cube root of total body weight (Ponderal Index)"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Endomorphy (relative adiposity) is derived from the sum of three skinfolds (triceps, subscapular, and supraspinale) adjusted for stature in the Heath-Carter equations."
   },
   {
@@ -279,10 +279,10 @@
     "difficulty": "advanced",
     "text": "What is the 'Ape Index' in sports kinanthropometry?",
     "options": [
-      "Mesomorphy (musculoskeletal robustness and lean muscular development relative to stature)",
-      "Endomorphy (relative adiposity, fat mass accumulation, and systemic roundness of physique)",
-      "Ectomorphy (relative linearity, slenderness of limbs, and fragility of skeletal structure)",
-      "Centrality (balanced proportional distribution across all three morphological somatotype axes)"
+      "The ratio of arm span relative to standing height (or arm span minus standing height)",
+      "The ratio of sitting height relative to standing height expressed as a percentage",
+      "The ratio of biacromial shoulder width relative to bicristal pelvic width",
+      "The ratio of total body mass divided by standing stature squared"
     ],
     "correct": 0,
     "explanation": "The Ape Index is calculated as arm span divided by standing height (or arm span minus height); a positive ape index (arm span > height) offers biomechanical reach advantages in sports like basketball, boxing, and swimming."
@@ -1338,7 +1338,7 @@
       "Posterior internal glenohumeral impingement with undersurface rotator cuff and labral contact",
       "Adhesive capsulitis with global capsular fibrosis and loss of passive external rotation"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Painful arc (60-120\u00b0), positive Neer/Hawkins-Kennedy tests, and weakness of the scapular stabilizers and rotator cuff in an overhead spiker are diagnostic of Subacromial Impingement/Cuff Tendinopathy secondary to dynamic scapular dyskinesis."
   },
   {

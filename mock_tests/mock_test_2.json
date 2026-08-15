@@ -103,12 +103,12 @@
     "difficulty": "foundational",
     "text": "How is the Onset of Blood Lactate Accumulation (OBLA) standardly defined in exercise physiology laboratory testing?",
     "options": [
-      "Point where blood lactate concentration reaches an absolute value of 4.0 mmol/L",
-      "Point where blood lactate reaches its initial resting baseline level of 1.0 mmol/L",
       "Point where blood lactate reaches maximal peak concentration of 10.0 mmol/L",
+      "Point where blood lactate reaches its initial resting baseline level of 1.0 mmol/L",
+      "Point where blood lactate concentration reaches an absolute value of 4.0 mmol/L",
       "Point where respiratory exchange ratio reaches resting baseline level of 0.70"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "OBLA is standardly defined as the workload or oxygen consumption corresponding to a fixed blood lactate concentration of 4.0 mmol/L, representing severe exponential accumulation of metabolic byproducts."
   },
   {
@@ -868,7 +868,7 @@
       "CKC exercises generate pure open-chain isolation that speeds up patellar tendon healing",
       "OKC exercises stimulate faster bone-to-bone healing than weight-bearing closed chains"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Closed kinetic chain exercises generate joint axial compressive loading and stimulate muscular co-contraction (e.g., hamstrings co-contracting with quadriceps), minimizing dangerous shear forces on healing ligaments."
   },
   {
@@ -1053,12 +1053,12 @@
     "topic": "biomechanics and movement analysis",
     "subtopic": "Observational and pathological gait analysis",
     "difficulty": "analytical",
-    "text": "During normal level walking, what is the total vertical displacement of the body's center of mass (COM) throughout a complete gait cycle?",
+    "text": "In gait biomechanics, what is the characteristic waveform profile of the vertical Ground Reaction Force (vGRF) during the stance phase of normal walking?",
     "options": [
-      "Single peak curve reaching 0.5\u00d7 body weight at mid-stance",
+      "Single unimodal curve peaking at 0.5\u00d7 body weight at mid-stance",
       "Linear progressive ramp reaching 3.0\u00d7 body weight at toe-off",
       "Bimodal 'M-shaped' curve with two peaks reaching ~1.1\u20131.2\u00d7 body weight",
-      "Flat plateau curve maintaining 1.0\u00d7 body weight throughout stance"
+      "Flat continuous plateau maintaining 1.0\u00d7 body weight throughout stance"
     ],
     "correct": 2,
     "explanation": "In normal human walking, the center of mass follows a smooth sinusoidal wave with an amplitude of ~4\u20135 cm, reaching its highest point at mid-stance and lowest point during double limb support."

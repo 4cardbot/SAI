@@ -167,12 +167,12 @@
     "difficulty": "applied",
     "text": "In the cellular energy sensing network, high intramuscular AMP/ATP ratios during endurance exercise activate which master metabolic regulator?",
     "options": [
-      "AMP-Activated Protein Kinase, stimulating biogenesis",
       "Myostatin Growth Factor, stimulating muscle hypertrophy",
+      "AMP-Activated Protein Kinase, stimulating biogenesis",
       "Lactate Dehydrogenase Isozyme, accelerating acidosis",
       "Creatine Kinase Muscle Isoform, hydrolyzing glycogen"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "AMPK acts as an intracellular energy sensor activated by elevated AMP/ATP ratios during metabolic depletion, turning on catabolic pathways (glucose uptake, fatty acid oxidation) and PGC-1\u03b1-mediated mitochondrial biogenesis."
   },
   {
@@ -247,12 +247,12 @@
     "difficulty": "foundational",
     "text": "In sports kinanthropometry, which landmark is used as the standard anatomical reference for measuring the 'Subscapular skinfold'?",
     "options": [
-      "Directly below the inferior angle of the scapula on a diagonal line",
+      "Immediately superior to anterior superior iliac spine on transverse line",
       "Midway between acromion and olecranon processes on posterior upper arm",
       "Directly over midpoint of biceps muscle belly along anterior upper arm",
-      "Immediately superior to anterior superior iliac spine on transverse line"
+      "Directly below the inferior angle of the scapula on a diagonal line"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "ISAK guidelines define the subscapular skinfold site as 2 cm along a line running obliquely downward and laterally at a 45\u00b0 angle from the inferior angle of the scapula."
   },
   {
@@ -284,7 +284,7 @@
       "Henry's Law of gas solubility proportions under variable hydrostatic pressures in sea",
       "Dalton's Law of partial pressures under ambient barometric conditions on mountains"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "The Bod Pod uses air displacement plethysmography based on Boyle's Law (P1V1 = P2V2 at constant temperature) to determine body volume, which is combined with mass to calculate body density."
   },
   {
@@ -300,7 +300,7 @@
       "Child's peak sprint velocity, vertical jump height, VO2max, and blood lactate level",
       "Child's triceps skinfold, subscapular skinfold, waist circumference, and arm span"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "The Khamis-Roche method accurately predicts mature adult height in growing children without X-rays, utilizing chronological age, standing height, body weight, and biological parents' heights."
   },
   {
@@ -508,7 +508,7 @@
       "Percentage of athletes who undergo diagnostic MRI imaging during the sports year",
       "Average number of days lost per single traumatic soft tissue joint contusion"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Consensus statements for sports injury surveillance (Fuller et al.) standardly define injury incidence as the number of injuries per 1,000 athlete-hours of exposure (match play and training)."
   },
   {
@@ -541,7 +541,7 @@
       "Dronacharya Award Lifetime Category (cash prize of Rs. 15 Lakhs)",
       "Major Dhyan Chand Khel Ratna Award (cash prize of Rs. 25 Lakhs)"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "The Dronacharya Award in the Lifetime Category honors coaches who have produced outstanding athletes over a period of 20 years or more, carrying a cash prize of Rs. 15 Lakhs.",
     "asOf": "2026-01-30"
   },
@@ -948,7 +948,7 @@
       "Locking the knee joint into rigid full extension during the swing phase of gait",
       "Producing active extensor torque to assist quadriceps muscle contraction"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "The menisci convert axial compressive loads into hoop stresses, transmitting ~50\u201370% of compressive force, doubling joint contact area, and reducing peak stress on articular cartilage."
   },
   {

@@ -23,12 +23,12 @@
     "difficulty": "applied",
     "text": "When planning an athletic competition taper, what is the most evidence-based strategy for manipulating training volume, intensity, and frequency (Mujika & Padilla)?",
     "options": [
-      "Reduce volume by 40\u201360% over 1\u20133 weeks while maintaining high intensity",
-      "Reduce intensity by 80% while doubling total weekly training volume hours",
       "Complete complete bed rest for 4 weeks without any physical activity bouts",
+      "Reduce intensity by 80% while doubling total weekly training volume hours",
+      "Reduce volume by 40\u201360% over 1\u20133 weeks while maintaining high intensity",
       "Eliminate all recovery days and perform twice-daily maximal 1RM lifts"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Mujika and Padilla established that the optimal taper reduces training volume by 41\u201360% exponentially over 8\u201314 days while maintaining high training intensity (>85%) and high session frequency (~80%) to preserve neuromuscular adaptations."
   },
   {
@@ -40,11 +40,11 @@
     "text": "In the RAMP framework (Ian Jeffreys) for designing comprehensive athletic warm-ups, what do the four letters in the acronym represent?",
     "options": [
       "Relax, Agitate, Mobilize, and Persist through continuous stretching",
-      "Raise temperature, Activate muscles, Mobilize joints, Potentiate power",
       "Run intervals, Accelerate pace, Measure fatigue, Progress workload",
+      "Raise temperature, Activate muscles, Mobilize joints, Potentiate power",
       "Recover tissue, Align posture, Massage fascia, Protect joint motion"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The RAMP framework structures warm-ups into: Raise (body temperature, heart rate, respiration), Activate (key musculature), Mobilize (functional ranges of motion), and Potentiate (high-intensity sport-specific neural priming)."
   },
   {
@@ -104,11 +104,11 @@
     "text": "How does chronic endurance training alter the systemic Oxygen-Hemoglobin Dissociation Curve during heavy exercise (Bohr Effect)?",
     "options": [
       "Shifts the curve to the left in muscles due to hypothermia and alkalosis",
-      "Shifts curve to right in active muscles via Bohr effect, unloading oxygen",
+      "Converts adult hemoglobin into fetal hemoglobin across all erythrocytes",
       "Permanently flattens the curve, completely preventing all oxygen binding",
-      "Converts adult hemoglobin into fetal hemoglobin across all erythrocytes"
+      "Shifts curve to right in active muscles via Bohr effect, unloading oxygen"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "The Bohr effect shifts the Hb-O2 dissociation curve to the right in exercising muscles (induced by lower pH, higher PCO2, elevated temperature, and 2,3-DPG), decreasing hemoglobin's affinity for O2 and promoting offloading to tissues."
   },
   {
@@ -279,10 +279,10 @@
     "difficulty": "advanced",
     "text": "In somatotype categorization, an athlete with a somatotype profile of '2\u20136\u20132' is classified as:",
     "options": [
-      "Autonomous Phase with automatic execution and low conscious demand",
-      "Cognitive Phase with high conscious demand and frequent gross errors",
-      "Associative Phase with refining movements and detecting own errors",
-      "Mastery Phase with achieving peak outputs and zero motor errors"
+      "Balanced Mesomorph (Mesomorphy is dominant with equal and lower Endomorphy and Ectomorphy)",
+      "Endomorphic Mesomorph (Mesomorphy is dominant and Endomorphy is greater than Ectomorphy)",
+      "Ectomorphic Mesomorph (Mesomorphy is dominant and Ectomorphy is greater than Endomorphy)",
+      "Central Somatotype (All three components are balanced without any dominant component)"
     ],
     "correct": 0,
     "explanation": "In Heath-Carter somatotyping (Endomorphy-Mesomorphy-Ectomorphy), when Mesomorphy is dominant (6) and Endomorphy (2) and Ectomorphy (2) are equal and lower, the classification is Balanced Mesomorph."
@@ -300,7 +300,7 @@
       "The prominence of the tibial tuberosity at the patellar tendon insertion",
       "The inferior pole of the patella along the anterior knee joint space"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "ISAK defines the Tibiale Mediale landmark as the most superior point on the proximal medial border of the head of the tibia, located along the transverse knee joint line."
   },
   {
@@ -311,12 +311,12 @@
     "difficulty": "applied",
     "text": "In Bioelectrical Impedance Analysis (BIA), why does dehydration lead to an OVERESTIMATION of an athlete's body fat percentage?",
     "options": [
-      "Dehydration increases tissue impedance by 50%, reading higher body fat",
-      "Dehydration reduces tissue impedance by 50%, reading lower body fat",
+      "Dehydration reduces total body water, increasing tissue electrical resistance and impedance",
+      "Dehydration increases total body water, decreasing tissue electrical resistance and impedance",
       "Dehydration reduces body mass index by 50% without altering fat percent",
-      "Dehydration causes bioelectrical machines to read 0% body fat levels"
+      "Dehydration causes bioelectrical impedance machines to read zero body fat levels"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Lean tissue has high water/electrolyte content and low electrical impedance. Dehydration reduces total body water, increasing measured resistance, causing the equation to underestimate fat-free mass and overestimate body fat percentage."
   },
   {
@@ -332,7 +332,7 @@
       "Total arm span length relative to standing height in sports screening",
       "Triceps skinfold thickness relative to subscapular skinfold thickness"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "During puberty, leg growth accelerates before trunk growth. The ratio of sitting height to subischial leg length changes predictably, allowing non-invasive calculation of years from Peak Height Velocity (Maturity Offset)."
   },
   {
@@ -536,10 +536,10 @@
     "difficulty": "applied",
     "text": "Under the Scheme of Assistance to National Sports Federations (NSFs), financial grants from the Government of India are utilized for which primary purpose?",
     "options": [
-      "Purchasing commercial passenger airlines for international sports travel",
+      "Providing long-term commercial loans to private fitness club chains and franchises",
       "Funding national coaching camps, international exposure, and hiring coaches",
-      "Constructing private commercial real estate shopping malls for federation",
-      "Funding political election campaigns across state sports associations"
+      "Constructing commercial entertainment multiplexes for private event organizers",
+      "Funding municipal election campaigns across urban local governance bodies"
     ],
     "correct": 1,
     "explanation": "The Scheme of Assistance to NSFs provides central funding for preparing national teams, conducting national championships, international exposure, foreign coaches/support staff salaries, and sports equipment.",
