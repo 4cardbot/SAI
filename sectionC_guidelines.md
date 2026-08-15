@@ -37,34 +37,42 @@ Unlike Section A (broad sports science) or Section B (applied discipline theory)
 *(Derived from **Annexures A & B** of the official SAI Recruitment Notification)*
 
 ```mermaid
-mindmap
-  root((Section C: Sports Case Studies))
-    Lower Extremity Scenarios
-      Acute ACL & Meniscal Injuries
-      Hamstring Strain (Biceps Femoris vs Semimembranosus)
-      Patellofemoral Pain vs Patellar Tendinopathy
-      Inversion Ankle Sprain (ATFL/CFL)
-      Medial Tibial Stress Syndrome vs Stress Fractures
-      Sever's & Osgood-Schlatter Apophysitis
-      Groin Pain (Doha Consensus)
-    Upper Extremity Scenarios
-      Overhead Thrower's Shoulder & GIRD
-      Subacromial Pain Syndrome (SAPS)
-      Rotator Cuff Tears & Scapular Dyskinesis
-      Lateral Epicondylalgia (Tennis Elbow)
-      de Quervain's Tenosynovitis
-    Spine & Core Scenarios
-      Spondylolysis & Spondylolisthesis in Fast Bowlers/Gymnasts
-      Discogenic Lumbar Radiculopathy vs SI Joint
-    On-Field Emergency & Triage
-      SCAT6 Concussion Red Flags & Graduated RTP
-      Spinal Trauma Immobilization (Log-roll, Collar)
-      Exertional Heat Stroke (Cool First, Transport Second)
-    Return to Sport (RTS) Frameworks
-      Limb Symmetry Index (LSI >= 90%)
-      Single-Leg Functional Hop Test Battery
-      Psychological Readiness (ACL-RSI)
-      Load Monitoring & ACWR
+flowchart TD
+    ROOT["Section C: Sports-Related Case Studies (20 Marks)"]
+    
+    T1["1. Lower Extremity Scenarios"]
+    T2["2. Upper Extremity Scenarios"]
+    T3["3. Spine & Pelvis Scenarios"]
+    T4["4. On-Field & Emergency Triage"]
+    T5["5. Return to Play (RTP) Frameworks"]
+    
+    ROOT --> T1
+    ROOT --> T2
+    ROOT --> T3
+    ROOT --> T4
+    ROOT --> T5
+
+    T1 --> T1a["ACL & Meniscal Tears (Lachman / Pivot Shift)"]
+    T1 --> T1b["Hamstring Strains (Biceps Femoris vs Semimembranosus)"]
+    T1 --> T1c["PFPS & Patellar Tendinopathy (HSR / VMO)"]
+    T1 --> T1d["Ankle Inversion Sprain (ATFL / CFL / High Ankle)"]
+    T1 --> T1e["MTSS vs Tibial Stress Fractures & Sever's Disease"]
+
+    T2 --> T2a["Overhead Thrower's Shoulder & GIRD Protocol"]
+    T2 --> T2b["Subacromial Pain Syndrome & Impingement (SAPS)"]
+    T2 --> T2c["Rotator Cuff Tears & SLAP Lesions"]
+    T2 --> T2d["Lateral Epicondylalgia & de Quervain's Tenosynovitis"]
+
+    T3 --> T3a["Spondylolysis / Listhesis in Fast Bowlers (Stork Test)"]
+    T3 --> T3b["Discogenic Radiculopathy (SLR) vs SI Joint Dysfunction"]
+
+    T4 --> T4a["SCAT6 Concussion Red Flags & 6-Stage Graduated RTP"]
+    T4 --> T4b["Spinal Trauma Immobilization & Log-Roll Technique"]
+    T4 --> T4c["Exertional Heat Stroke (Cool First, Transport Second)"]
+
+    T5 --> T5a["Limb Symmetry Index (LSI >= 90% via Dynamometry)"]
+    T5 --> T5b["Single-Leg Functional Hop Test Battery (>= 90% LSI)"]
+    T5 --> T5c["Psychological Readiness (ACL-RSI) & Agility Drills"]
 ```
 
 ---
