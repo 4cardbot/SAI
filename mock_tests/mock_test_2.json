@@ -439,10 +439,10 @@
     "difficulty": "foundational",
     "text": "In GPS and micro-technology athlete monitoring, 'Player Load' is calculated using which raw physical sensor data?",
     "options": [
-      "Total linear distance covered above sprinting threshold of 25 km/h",
-      "Metabolic work estimate calculated from metabolic equivalent of task",
-      "Product of total distance and mean heart rate divided by body mass",
-      "Total mechanical work calculated by integrating tri-axial accelerometer vector magnitudes"
+      "Heart rate reserve percentage multiplied by 60 minutes total duration",
+      "Tri-axial accelerometer rate of change of acceleration vectors in 3D",
+      "Distance covered during high-speed running above 19.8 km/h speed threshold",
+      "Metabolic work estimate calculated from 10 MET energy expenditure score"
     ],
     "correct": 1,
     "explanation": "Player Load (developed by Catapult) is a modified vector magnitude of instantaneous rate of change of acceleration (jerk) across three axes (anteroposterior, mediolateral, vertical), measuring total physical mechanical demand."
@@ -863,10 +863,10 @@
     "difficulty": "analytical",
     "text": "In early phase rehabilitation following an acute ligamentous injury, why are closed kinetic chain (CKC) exercises often favored over open kinetic chain (OKC) exercises?",
     "options": [
-      "Heavy dynamic eccentric loading (e.g., 85% 1RM leg extensions)",
-      "High-velocity plyometric jump training (e.g., depth drop jumps)",
-      "Submaximal multi-angle isometric contractions (e.g., quad sets)",
-      "Rapid ballistic end-range stretches (e.g., hurdle stretches)"
+      "CKC exercises promote joint axial compression, enhance co-contraction, and stability",
+      "OKC exercises eliminate all shear forces across the anterior cruciate ligament graft",
+      "CKC exercises generate pure open-chain isolation that speeds up patellar tendon healing",
+      "OKC exercises stimulate faster bone-to-bone healing than weight-bearing closed chains"
     ],
     "correct": 2,
     "explanation": "Closed kinetic chain exercises generate joint axial compressive loading and stimulate muscular co-contraction (e.g., hamstrings co-contracting with quadriceps), minimizing dangerous shear forces on healing ligaments."
@@ -895,10 +895,10 @@
     "difficulty": "analytical",
     "text": "In shoulder biomechanics, how does the rotator cuff force couple (Subscapularis, Infraspinatus, Teres Minor) counteract the superior translatory shear force produced by the Deltoid during arm elevation?",
     "options": [
-      "Depresses the humeral head to counteract the superior shearing force of the deltoid muscle",
-      "Elevates the humeral head to maximize subacromial contact area during early abduction",
-      "Anteriorly translates the humeral head to increase passive tension in the posterior capsule",
-      "Posteriorly rotates the clavicle to eliminate all movement demand at the scapulothoracic joint"
+      "Pulling the humeral head superiorly into the subacromial space against the arch",
+      "Maintaining the glenohumeral joint in 90\u00b0 of rigid internal rotation in scaption",
+      "Posteriorly rotating the clavicle to eliminate all movement at scapular joints",
+      "Exerting an inferior and compressive vector, depressing humeral head in glenoid"
     ],
     "correct": 3,
     "explanation": "The deltoid produces a strong superior shear force; the inferior rotator cuff force couple (Infraspinatus, Teres Minor, Subscapularis) exerts inferior and medial vectors, seating the humeral head and preventing subacromial impingement."
@@ -1135,10 +1135,10 @@
     "difficulty": "applied",
     "text": "Which of the following is an absolute contraindication to the application of Continuous Shortwave Diathermy (SWD)?",
     "options": [
-      "Active cardiac pacemaker or implanted electronic stimulator over the thoracic region",
-      "Chronic osteoarthritis of the glenohumeral joint without neurological symptoms",
-      "Delayed onset muscle soreness in the quadriceps following unaccustomed exercise",
-      "Mild patellofemoral pain syndrome without joint effusion or skin breakdown"
+      "Chronic degenerative tendinopathy of the Achilles tendon without tissue tear",
+      "Delayed onset muscle soreness of bilateral quadriceps after heavy gym workouts",
+      "Mild patellofemoral pain syndrome without joint effusion or skin breakdown signs",
+      "Presence of an implanted cardiac pacemaker or metallic surgical implant in field"
     ],
     "correct": 3,
     "explanation": "Continuous high-frequency electromagnetic fields from SWD heat metal implants and disrupt cardiac pacemakers, posing severe burn and electrocution risks."
@@ -1293,12 +1293,12 @@
     "topic": "sports physiotherapy and case study analysis",
     "subtopic": "Case study: A 20-year-old elite track sprinter who sustained a proximal Biceps Femoris grade II muscle...",
     "difficulty": "analytical",
-    "text": "He is now entering late-stage functional rehabilitation. During isokinetic dynamometry testing at 60\u00b0/s, his eccentric hamstring peak torque is 140 Nm and concentric quadriceps peak torque is 220 Nm (Functional Dynamic Eccentric Hamstring to Concentric Quadriceps Ratio Hecc:Qcon = 0.63). Standard return-to-sprint guidelines recommend which target functional ratio to minimize re-injury risk?",
+    "text": "Case Vignette 1: A 20-year-old elite track sprinter who sustained a proximal Biceps Femoris grade II muscle strain 4 weeks ago has completed pain-free isometric loading and progressive jogging. He is now entering late-stage functional rehabilitation. During isokinetic dynamometry testing at 60\u00b0/s, his eccentric hamstring peak torque is 140 Nm and concentric quadriceps peak torque is 220 Nm (Functional Dynamic Eccentric Hamstring to Concentric Quadriceps Ratio Hecc:Qcon = 0.63). Standard return-to-sprint guidelines recommend which target functional ratio to minimize re-injury risk?",
     "options": [
-      "Non-weight-bearing crutch ambulation for four consecutive weeks without exercise",
-      "Passive hamstring static stretching on a physical therapy table twice daily",
-      "Continuous low-intensity stationary cycling performed without resistance loading",
-      "High-speed sprint mechanics drills, acceleration runs, and eccentric strength training"
+      "Quadriceps Limb Symmetry Index of 100% on isokinetic dynamometry muscle testing",
+      "Hecc:Qcon ratio of 0.80 to 1.0 during dynamic isokinetic muscle strength testing",
+      "Hamstring-to-Quadriceps concentric strength ratio of 0.40 during muscle testing",
+      "Complete absence of pain during passive straight leg raise to 45\u00b0 hip angle test"
     ],
     "correct": 3,
     "explanation": "The functional ratio (Hecc:Qcon at 60\u00b0/s) reflects the hamstring's capacity to decelerate maximal quadriceps knee extension; values \u22650.80\u20131.0 indicate adequate eccentric protective capacity against hamstring re-injury during sprinting.",
@@ -1311,12 +1311,12 @@
     "topic": "sports physiotherapy and case study analysis",
     "subtopic": "Case study: A 20-year-old elite track sprinter who sustained a proximal Biceps Femoris grade II muscle...",
     "difficulty": "analytical",
-    "text": "Before clearing this sprinter for full unconstrained 100m sprint competition, what on-field GPS sprint benchmark must be safely achieved in training without symptom recurrence?",
+    "text": "Case Vignette 1 (Continued): Before clearing this sprinter for full unconstrained 100m sprint competition, what on-field GPS sprint benchmark must be safely achieved in training without symptom recurrence?",
     "options": [
-      "Isokinetic eccentric hamstring to concentric quadriceps ratio (H:Q) >0.60 and LSI \u226590%",
-      "Limb Symmetry Index (LSI) \u226550% on isometric knee extension peak torque testing",
-      "Limb Symmetry Index (LSI) \u226570% on functional single-leg forward hop testing",
-      "Limb Symmetry Index (LSI) \u226530% on vertical countermovement jump power testing"
+      "0 meters requirement for field running if isokinetic testing is passed",
+      "Completing 50 continuous low-intensity backward lunges on grass field",
+      "Achieving >= 95% to 100% maximum pre-injury sprinting velocity in runs",
+      "Running 10 km at a continuous 10 km/h submaximal jogging pace in gym"
     ],
     "correct": 2,
     "explanation": "Hamstrings experience peak lengthening strain at maximum sprinting velocity (>95% max velocity); an athlete must be safely exposed to repeated near-maximal and maximal sprints in training before competition clearance.",
