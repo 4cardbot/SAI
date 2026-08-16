@@ -1,0 +1,66 @@
+{
+  "auditType": "Release 4 audit of final current A1 core disciplines and testing/assessment banks",
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "questionIds": [
+        "a1-core-061"
+      ],
+      "file": "question_bank/section_a1_core_disciplines.json",
+      "category": "answer-key/ambiguity/explanation",
+      "finding": "The keyed option, \"When force is perpendicular to the moment arm,\" does not state a valid maximum-torque condition. The supplied Basic Biomechanics source defines the moment arm as the perpendicular distance from the force line of action to the axis; maximum torque occurs when the force's angle to the bone/lever arm is approximately 90 degrees. As written, the condition is effectively tautological or uses \"moment arm\" for the lever/bone, so the key does not unambiguously answer the question.",
+      "evidence": {
+        "currentQuestion": "For an athlete entering a new training block, for a fixed force magnitude, when is the turning effect about a joint greatest?",
+        "keyedOption": "When force is perpendicular to the moment arm",
+        "explanation": "The perpendicular component and moment arm determine torque; the turning effect is greatest at a right angle.",
+        "sourceId": "basic-biomechanics-hall",
+        "sourceLocator": "Basic Biomechanics, supplied PDF pp. 436–437 (printed pp. 418–419): moment arm is the perpendicular distance; it is largest when the angle of pull on the bone is closest to 90°.",
+        "problem": "The explanation points to a right angle but the option makes the force perpendicular to the already-perpendicular moment arm rather than identifying the force-to-bone/lever-arm angle."
+      },
+      "requiredRepair": "Keep the intended key position but replace the option with a precise condition such as \"When the force's line of action is approximately perpendicular to the lever arm\" (or \"When the force is applied at approximately 90° to the bone\") and revise the explanation to match."
+    },
+    {
+      "questionIds": [
+        "a1-test-148"
+      ],
+      "file": "question_bank/section_a1_testing_assessment.json",
+      "category": "grammar/parallel-option",
+      "finding": "The stem ends \"should present technical results by:\" but the keyed option is the bare infinitive \"Explain results in language suited to the audience\". This produces the ungrammatical completion \"by Explain...\"; the other options are also bare infinitives, so the stem and option set are not parallel.",
+      "evidence": {
+        "currentQuestion": "A report for a multidisciplinary team should present technical results by:",
+        "keyedOption": "Explain results in language suited to the audience",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "requiredRepair": "Preferred: change the stem to \"A report for a multidisciplinary team should:\" and keep the current four bare-infinitive options and key. Alternatively, change all four options to gerunds."
+    }
+  ],
+  "summary": {
+    "status": "conditional_release",
+    "confirmedFindingCount": 2,
+    "affectedQuestionCount": 2,
+    "manualCoverage": "All 150 items in each audited file were inspected.",
+    "schemaAndIntegrity": {
+      "validFourOptionQuestions": 300,
+      "uniqueQuestionIds": 300,
+      "validZeroBasedAnswerIndexes": 300,
+      "nonEmptyStemsAndExplanations": 300,
+      "uniqueOptionSets": 300,
+      "sourceIdResolution": "All 300 sourceId values resolve to the local source catalog."
+    },
+    "duplicateCheck": {
+      "exactDuplicateStems": 0,
+      "exactDuplicateRecords": 0,
+      "actionableNearDuplicatePairs": 0,
+      "note": "The closest sensitivity/specificity and inverse Fick-calculation pairs test distinct concepts or directions and were not treated as duplicates."
+    },
+    "answerKeyReview": "One ambiguity affecting the torque item is reported above; no other high-confidence answer-key defect was confirmed.",
+    "explanationReview": "No standalone high-confidence explanation error was confirmed; the torque explanation is reported because it does not resolve the item's terminology ambiguity.",
+    "grammarAndParallelOptionReview": "One ungrammatical stem/option completion is reported above; no other high-confidence grammar or parallel-option defect was confirmed.",
+    "sourceTraceabilityReview": "All question source IDs resolve, and the assigned catalog scopes support the keyed claims; no additional high-confidence source-traceability defect was confirmed.",
+    "releaseRecommendation": "Repair a1-core-061 and a1-test-148 before release; structural validation, source-ID resolution, and duplicate checks otherwise pass."
+  }
+}

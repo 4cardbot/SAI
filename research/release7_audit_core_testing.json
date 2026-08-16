@@ -1,0 +1,69 @@
+{
+  "auditType": "Release7 final independent read-only release audit: core disciplines and testing assessment",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [],
+  "summary": {
+    "status": "pass",
+    "counts": {
+      "highConfidenceFindingCount": 0,
+      "answerPatternFindings": 0,
+      "testingExplanationRepairFindings": 0,
+      "grammarOrDistractorFindings": 0,
+      "answerKeyFindings": 0,
+      "ambiguousStemFindings": 0,
+      "sourceSupportFindings": 0,
+      "exactDuplicateFindings": 0,
+      "actionableNearDuplicateFindings": 0,
+      "coverageFindings": 0,
+      "schemaFindings": 0,
+      "optionLengthFindings": 0,
+      "mergedCorrespondenceDifferences": 0
+    },
+    "repairVerification": {
+      "answerPositionClustersResolved": true,
+      "correctIndexCounts": [73, 78, 79, 70],
+      "longestSameIndexRun": 3,
+      "testingQuestionsCheckedForPriorExplanationRepairs": 131,
+      "testingExplanationsMissingOrRepeated": 0,
+      "priorGrammarDistractorSignalsRemaining": 0,
+      "supplementQuestionsChecked": 4,
+      "supplementSourceIds": {
+        "a1-core-147": "ais-supplements-position-2022",
+        "a1-core-148": "ais-supplements-position-2022",
+        "a1-core-149": "ais-supplements-position-2022",
+        "a1-core-150": "ais-supplements-position-2022"
+      }
+    },
+    "optionLengthSignals": {
+      "strictlyLongestCorrectCount": 93,
+      "strictlyLongestCorrectPercent": 31,
+      "correctShortestCount": 58,
+      "correctShortestPercent": 19.33,
+      "primaryLengthFlagCount": 0
+    },
+    "correspondence": {
+      "coreQuestionCount": 150,
+      "testingQuestionCount": 150,
+      "retainedQuestionCount": 300,
+      "mergedQuestionCount": 900,
+      "deepContentDifferencesInFirst300MergedItems": 0,
+      "retainedIdsUnique": true,
+      "mergedIdsUnique": true
+    },
+    "schemaAndCoverage": {
+      "invalidQuestionRecords": 0,
+      "invalidOptionCounts": 0,
+      "invalidCorrectIndexes": 0,
+      "unknownSourceIds": 0,
+      "unexpectedTopicOrSubtopicMappings": 0,
+      "officialAreaFloorViolations": 0
+    },
+    "note": "The sensitivity and specificity definition stems were reviewed as an intentional complementary pair rather than a duplicate. No actionable high-confidence defect remains in the current scoped files."
+  }
+}

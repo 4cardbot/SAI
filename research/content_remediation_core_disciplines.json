@@ -1,0 +1,2478 @@
+{
+  "group": "core_disciplines",
+  "file": "question_bank/section_a1_core_disciplines.json",
+  "reviewedCount": 150,
+  "changedCount": 101,
+  "answerKeyFixCount": 0,
+  "distractorFixCount": 101,
+  "sourceRecommendationCount": 4,
+  "commonSourcesInspected": [
+    "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf (A1 pp. 19–22)",
+    "src/data/sourceCatalog.ts",
+    "research/sai_a1_sources.md"
+  ],
+  "changes": [
+    {
+      "id": "a1-core-001",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It does not separate fat mass from lean mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It does not separate fat mass from lean mass",
+        "It directly estimates body-fat percentage",
+        "It accounts for muscularity in athletes",
+        "It identifies regional fat distribution"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "BMI does not partition fat from lean mass; replaced unrelated direct-measurement claims with false body-composition capabilities.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-002",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It cannot be calculated from height and mass",
+        "It does not separate fat mass from lean mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It directly estimates body-fat percentage",
+        "It does not separate fat mass from lean mass",
+        "It accounts for muscularity in athletes",
+        "It identifies regional fat distribution"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "BMI does not partition fat from lean mass; replaced unrelated direct-measurement claims with false body-composition capabilities.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-003",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It does not separate fat mass from lean mass",
+        "It directly measures peak oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It directly estimates body-fat percentage",
+        "It accounts for muscularity in athletes",
+        "It does not separate fat mass from lean mass",
+        "It identifies regional fat distribution"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "BMI does not partition fat from lean mass; replaced unrelated direct-measurement claims with false body-composition capabilities.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-004",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake",
+        "It does not separate fat mass from lean mass"
+      ],
+      "revisedOptions": [
+        "It directly estimates body-fat percentage",
+        "It accounts for muscularity in athletes",
+        "It identifies regional fat distribution",
+        "It does not separate fat mass from lean mass"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "BMI does not partition fat from lean mass; replaced unrelated direct-measurement claims with false body-composition capabilities.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-005",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It does not separate fat mass from lean mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It does not separate fat mass from lean mass",
+        "It directly estimates body-fat percentage",
+        "It accounts for muscularity in athletes",
+        "It identifies regional fat distribution"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "BMI does not partition fat from lean mass; replaced unrelated direct-measurement claims with false body-composition capabilities.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-016",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data",
+        "It affects size, strength, and adaptation timing"
+      ],
+      "revisedOptions": [
+        "It has no relationship to adolescent body size",
+        "Chronological age precisely identifies maturation status",
+        "Its timing is identical among athletes of the same age",
+        "It affects size, strength, and adaptation timing"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Maturation affects adolescent size, strength, and adaptation timing; replaced extreme misconceptions.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-017",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It affects size, strength, and adaptation timing",
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data"
+      ],
+      "revisedOptions": [
+        "It affects size, strength, and adaptation timing",
+        "It has no relationship to adolescent body size",
+        "Chronological age precisely identifies maturation status",
+        "Its timing is identical among athletes of the same age"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Maturation affects adolescent size, strength, and adaptation timing; replaced extreme misconceptions.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-018",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It affects size, strength, and adaptation timing",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data"
+      ],
+      "revisedOptions": [
+        "It has no relationship to adolescent body size",
+        "It affects size, strength, and adaptation timing",
+        "Chronological age precisely identifies maturation status",
+        "Its timing is identical among athletes of the same age"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Maturation affects adolescent size, strength, and adaptation timing; replaced extreme misconceptions.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-019",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It affects size, strength, and adaptation timing",
+        "It removes the need for age-specific reference data"
+      ],
+      "revisedOptions": [
+        "It has no relationship to adolescent body size",
+        "Chronological age precisely identifies maturation status",
+        "It affects size, strength, and adaptation timing",
+        "Its timing is identical among athletes of the same age"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Maturation affects adolescent size, strength, and adaptation timing; replaced extreme misconceptions.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-035",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "Oxidative metabolism during adequate recovery",
+        "A sustained reduction in oxygen availability"
+      ],
+      "revisedOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "PCr resynthesis is oxidative and recovery-dependent; replaced implausible substrate/recovery claims.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-036",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "revisedOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "PCr resynthesis is oxidative and recovery-dependent; replaced implausible substrate/recovery claims.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-037",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability"
+      ],
+      "revisedOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "PCr resynthesis is oxidative and recovery-dependent; replaced implausible substrate/recovery claims.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-038",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Complete cessation of muscle blood flow",
+        "Oxidative metabolism during adequate recovery",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability"
+      ],
+      "revisedOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "Oxidative metabolism during adequate recovery",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "PCr resynthesis is oxidative and recovery-dependent; replaced implausible substrate/recovery claims.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-039",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Proprioception and neuromuscular control",
+        "Low serum ferritin concentration"
+      ],
+      "revisedOptions": [
+        "Mechanical laxity without sensorimotor loss",
+        "Plantar-flexor weakness as the only deficit",
+        "Proprioception and neuromuscular control",
+        "Isolated knee proprioception loss"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Functional ankle instability reflects sensorimotor/proprioceptive deficits; replaced unrelated laboratory findings.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-040",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration",
+        "Proprioception and neuromuscular control"
+      ],
+      "revisedOptions": [
+        "Mechanical laxity without sensorimotor loss",
+        "Plantar-flexor weakness as the only deficit",
+        "Isolated knee proprioception loss",
+        "Proprioception and neuromuscular control"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Functional ankle instability reflects sensorimotor/proprioceptive deficits; replaced unrelated laboratory findings.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-041",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Proprioception and neuromuscular control",
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration"
+      ],
+      "revisedOptions": [
+        "Proprioception and neuromuscular control",
+        "Mechanical laxity without sensorimotor loss",
+        "Plantar-flexor weakness as the only deficit",
+        "Isolated knee proprioception loss"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Functional ankle instability reflects sensorimotor/proprioceptive deficits; replaced unrelated laboratory findings.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-042",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reduced bone mineral density",
+        "Proprioception and neuromuscular control",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration"
+      ],
+      "revisedOptions": [
+        "Mechanical laxity without sensorimotor loss",
+        "Proprioception and neuromuscular control",
+        "Plantar-flexor weakness as the only deficit",
+        "Isolated knee proprioception loss"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Functional ankle instability reflects sensorimotor/proprioceptive deficits; replaced unrelated laboratory findings.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-043",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Proprioception and neuromuscular control",
+        "Low serum ferritin concentration"
+      ],
+      "revisedOptions": [
+        "Mechanical laxity without sensorimotor loss",
+        "Plantar-flexor weakness as the only deficit",
+        "Proprioception and neuromuscular control",
+        "Isolated knee proprioception loss"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Functional ankle instability reflects sensorimotor/proprioceptive deficits; replaced unrelated laboratory findings.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-044",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament",
+        "Anterior cruciate ligament"
+      ],
+      "revisedOptions": [
+        "Posterior cruciate ligament",
+        "Meniscal injury",
+        "Patellar tendon injury",
+        "Anterior cruciate ligament"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "The pivot, pop, immediate swelling, and instability pattern most strongly indicates ACL injury; added plausible knee alternatives.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-045",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Anterior cruciate ligament",
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament"
+      ],
+      "revisedOptions": [
+        "Anterior cruciate ligament",
+        "Posterior cruciate ligament",
+        "Meniscal injury",
+        "Patellar tendon injury"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "The pivot, pop, immediate swelling, and instability pattern most strongly indicates ACL injury; added plausible knee alternatives.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-046",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-head biceps tendon",
+        "Anterior cruciate ligament",
+        "Achilles tendon",
+        "Medial collateral ligament"
+      ],
+      "revisedOptions": [
+        "Posterior cruciate ligament",
+        "Anterior cruciate ligament",
+        "Meniscal injury",
+        "Patellar tendon injury"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "The pivot, pop, immediate swelling, and instability pattern most strongly indicates ACL injury; added plausible knee alternatives.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-047",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Anterior cruciate ligament",
+        "Medial collateral ligament"
+      ],
+      "revisedOptions": [
+        "Posterior cruciate ligament",
+        "Meniscal injury",
+        "Anterior cruciate ligament",
+        "Patellar tendon injury"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "The pivot, pop, immediate swelling, and instability pattern most strongly indicates ACL injury; added plausible knee alternatives.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-048",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament",
+        "Anterior cruciate ligament"
+      ],
+      "revisedOptions": [
+        "Posterior cruciate ligament",
+        "Meniscal injury",
+        "Patellar tendon injury",
+        "Anterior cruciate ligament"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "The pivot, pop, immediate swelling, and instability pattern most strongly indicates ACL injury; added plausible knee alternatives.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "books/Brukner & Khan's Clinical Sports Medicine 1.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-049",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "revisedOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Rely on passive treatment without active loading"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Rehabilitation should progress toward sport-specific loading; removed passive-only, fixed-calendar, and immediate-maximal distractors.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-050",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Progress from symptoms to sport-specific loading",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "revisedOptions": [
+        "Return directly from daily activity to competition",
+        "Progress from symptoms to sport-specific loading",
+        "Use a fixed calendar regardless of function",
+        "Rely on passive treatment without active loading"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Rehabilitation should progress toward sport-specific loading; removed passive-only, fixed-calendar, and immediate-maximal distractors.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-051",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Progress from symptoms to sport-specific loading",
+        "Begin maximal competition drills immediately"
+      ],
+      "revisedOptions": [
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Progress from symptoms to sport-specific loading",
+        "Rely on passive treatment without active loading"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Rehabilitation should progress toward sport-specific loading; removed passive-only, fixed-calendar, and immediate-maximal distractors.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-052",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately",
+        "Progress from symptoms to sport-specific loading"
+      ],
+      "revisedOptions": [
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Rely on passive treatment without active loading",
+        "Progress from symptoms to sport-specific loading"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Rehabilitation should progress toward sport-specific loading; removed passive-only, fixed-calendar, and immediate-maximal distractors.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-053",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "revisedOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Rely on passive treatment without active loading"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Rehabilitation should progress toward sport-specific loading; removed passive-only, fixed-calendar, and immediate-maximal distractors.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-054",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Elapsed time since injury as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion"
+      ],
+      "revisedOptions": [
+        "Injury date combined with a fixed time-based schedule",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Pain report combined with functional testing alone",
+        "A performance test without considering sport context"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Return-to-play requires integrated risk-informed clinical and multidisciplinary criteria; distractors are incomplete decision rules.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-055",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "A normal resting pulse as the only criterion"
+      ],
+      "revisedOptions": [
+        "Injury date combined with a fixed time-based schedule",
+        "Pain report combined with functional testing alone",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "A performance test without considering sport context"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Return-to-play requires integrated risk-informed clinical and multidisciplinary criteria; distractors are incomplete decision rules.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-056",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria"
+      ],
+      "revisedOptions": [
+        "Injury date combined with a fixed time-based schedule",
+        "Pain report combined with functional testing alone",
+        "A performance test without considering sport context",
+        "Risk-informed clinical and multidisciplinary criteria"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Return-to-play requires integrated risk-informed clinical and multidisciplinary criteria; distractors are incomplete decision rules.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-057",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion"
+      ],
+      "revisedOptions": [
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Injury date combined with a fixed time-based schedule",
+        "Pain report combined with functional testing alone",
+        "A performance test without considering sport context"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Return-to-play requires integrated risk-informed clinical and multidisciplinary criteria; distractors are incomplete decision rules.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-core-058",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Contact time alone",
+        "Moment arm",
+        "Body-mass index",
+        "Angular displacement only"
+      ],
+      "revisedOptions": [
+        "Angular velocity",
+        "Moment arm",
+        "Linear impulse",
+        "Segment mass"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Torque equals force times the perpendicular moment arm; related mechanical quantities are distractors.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-059",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Angular displacement only",
+        "Contact time alone",
+        "Moment arm",
+        "Body-mass index"
+      ],
+      "revisedOptions": [
+        "Angular velocity",
+        "Linear impulse",
+        "Moment arm",
+        "Segment mass"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Torque equals force times the perpendicular moment arm; related mechanical quantities are distractors.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-060",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Body-mass index",
+        "Angular displacement only",
+        "Contact time alone",
+        "Moment arm"
+      ],
+      "revisedOptions": [
+        "Angular velocity",
+        "Linear impulse",
+        "Segment mass",
+        "Moment arm"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Torque equals force times the perpendicular moment arm; related mechanical quantities are distractors.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-061",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Moment arm",
+        "Body-mass index",
+        "Angular displacement only",
+        "Contact time alone"
+      ],
+      "revisedOptions": [
+        "Moment arm",
+        "Angular velocity",
+        "Linear impulse",
+        "Segment mass"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Torque equals force times the perpendicular moment arm; related mechanical quantities are distractors.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-062",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Contact time alone",
+        "Moment arm",
+        "Body-mass index",
+        "Angular displacement only"
+      ],
+      "revisedOptions": [
+        "Angular velocity",
+        "Moment arm",
+        "Linear impulse",
+        "Segment mass"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Torque equals force times the perpendicular moment arm; related mechanical quantities are distractors.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-063",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Horizontal deceleration of the body",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Horizontal deceleration of the body",
+        "Angular displacement of the trunk"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Braking impulse primarily changes horizontal momentum and deceleration; alternatives are related but not the outcome asked.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-064",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area",
+        "Horizontal deceleration of the body"
+      ],
+      "revisedOptions": [
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Angular displacement of the trunk",
+        "Horizontal deceleration of the body"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Braking impulse primarily changes horizontal momentum and deceleration; alternatives are related but not the outcome asked.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-065",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Horizontal deceleration of the body",
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "Horizontal deceleration of the body",
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Angular displacement of the trunk"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Braking impulse primarily changes horizontal momentum and deceleration; alternatives are related but not the outcome asked.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-066",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Angular displacement of every joint",
+        "Horizontal deceleration of the body",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "Vertical impulse during that contact",
+        "Horizontal deceleration of the body",
+        "Propulsive impulse in the next contact",
+        "Angular displacement of the trunk"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Braking impulse primarily changes horizontal momentum and deceleration; alternatives are related but not the outcome asked.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-067",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Horizontal deceleration of the body",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Horizontal deceleration of the body",
+        "Angular displacement of the trunk"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Braking impulse primarily changes horizontal momentum and deceleration; alternatives are related but not the outcome asked.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-073",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "May miss motion outside the camera plane",
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "revisedOptions": [
+        "May miss motion outside the camera plane",
+        "Cannot record timing in the camera plane",
+        "Requires no calibration to estimate displacement",
+        "Directly measures joint moments from trajectories"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Two-dimensional video misses out-of-plane motion and does not directly measure kinetics; replaced absolute claims.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-074",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Always measures ground-reaction force directly",
+        "May miss motion outside the camera plane",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "revisedOptions": [
+        "Cannot record timing in the camera plane",
+        "May miss motion outside the camera plane",
+        "Requires no calibration to estimate displacement",
+        "Directly measures joint moments from trajectories"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Two-dimensional video misses out-of-plane motion and does not directly measure kinetics; replaced absolute claims.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-075",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "May miss motion outside the camera plane",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "revisedOptions": [
+        "Cannot record timing in the camera plane",
+        "Requires no calibration to estimate displacement",
+        "May miss motion outside the camera plane",
+        "Directly measures joint moments from trajectories"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Two-dimensional video misses out-of-plane motion and does not directly measure kinetics; replaced absolute claims.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-076",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics",
+        "May miss motion outside the camera plane"
+      ],
+      "revisedOptions": [
+        "Cannot record timing in the camera plane",
+        "Requires no calibration to estimate displacement",
+        "Directly measures joint moments from trajectories",
+        "May miss motion outside the camera plane"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Two-dimensional video misses out-of-plane motion and does not directly measure kinetics; replaced absolute claims.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "books/Basic Biomechanics.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-077",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "High individual variability and a delayed response",
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "High individual variability and a delayed response",
+        "Unaffected by exercise type or sampling time",
+        "Directly measures post-exercise muscle force",
+        "Has the same response range in every athlete"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Creatine kinase has individual variability and delayed kinetics; it is not a direct force measure.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-078",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A consistent value across all athletes",
+        "High individual variability and a delayed response",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "Unaffected by exercise type or sampling time",
+        "High individual variability and a delayed response",
+        "Directly measures post-exercise muscle force",
+        "Has the same response range in every athlete"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Creatine kinase has individual variability and delayed kinetics; it is not a direct force measure.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-079",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "High individual variability and a delayed response",
+        "No meaningful response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "Unaffected by exercise type or sampling time",
+        "Directly measures post-exercise muscle force",
+        "High individual variability and a delayed response",
+        "Has the same response range in every athlete"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Creatine kinase has individual variability and delayed kinetics; it is not a direct force measure.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-080",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise",
+        "High individual variability and a delayed response"
+      ],
+      "revisedOptions": [
+        "Unaffected by exercise type or sampling time",
+        "Directly measures post-exercise muscle force",
+        "Has the same response range in every athlete",
+        "High individual variability and a delayed response"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Creatine kinase has individual variability and delayed kinetics; it is not a direct force measure.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-081",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "High individual variability and a delayed response",
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "High individual variability and a delayed response",
+        "Unaffected by exercise type or sampling time",
+        "Directly measures post-exercise muscle force",
+        "Has the same response range in every athlete"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Creatine kinase has individual variability and delayed kinetics; it is not a direct force measure.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-082",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Joint lubrication",
+        "Clearance",
+        "Bone mineralization",
+        "Skinfold compression"
+      ],
+      "revisedOptions": [
+        "Glycogen breakdown",
+        "Lactate clearance",
+        "Amino-acid deamination",
+        "Substrate phosphorylation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Lactate concentration reflects production, transport, utilization, and clearance; related metabolic terms are distractors.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-083",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Skinfold compression",
+        "Joint lubrication",
+        "Clearance",
+        "Bone mineralization"
+      ],
+      "revisedOptions": [
+        "Glycogen breakdown",
+        "Amino-acid deamination",
+        "Lactate clearance",
+        "Substrate phosphorylation"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Lactate concentration reflects production, transport, utilization, and clearance; related metabolic terms are distractors.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-084",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Bone mineralization",
+        "Skinfold compression",
+        "Joint lubrication",
+        "Clearance"
+      ],
+      "revisedOptions": [
+        "Glycogen breakdown",
+        "Amino-acid deamination",
+        "Substrate phosphorylation",
+        "Lactate clearance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Lactate concentration reflects production, transport, utilization, and clearance; related metabolic terms are distractors.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-085",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Clearance",
+        "Bone mineralization",
+        "Skinfold compression",
+        "Joint lubrication"
+      ],
+      "revisedOptions": [
+        "Lactate clearance",
+        "Glycogen breakdown",
+        "Amino-acid deamination",
+        "Substrate phosphorylation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Lactate concentration reflects production, transport, utilization, and clearance; related metabolic terms are distractors.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-086",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Joint lubrication",
+        "Clearance",
+        "Bone mineralization",
+        "Skinfold compression"
+      ],
+      "revisedOptions": [
+        "Glycogen breakdown",
+        "Lactate clearance",
+        "Amino-acid deamination",
+        "Substrate phosphorylation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Lactate concentration reflects production, transport, utilization, and clearance; related metabolic terms are distractors.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-092",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement",
+        "The sample may precede the marker's peak response"
+      ],
+      "revisedOptions": [
+        "The marker is unaffected by exercise intensity",
+        "A single measurement provides a complete diagnosis",
+        "The marker must peak immediately after exercise stops",
+        "The sample may precede the marker's peak response"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "An immediate sample may precede a biomarker peak; intensity, timing, and baseline context matter.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-093",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The sample may precede the marker's peak response",
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "revisedOptions": [
+        "The sample may precede the marker's peak response",
+        "The marker is unaffected by exercise intensity",
+        "A single measurement provides a complete diagnosis",
+        "The marker must peak immediately after exercise stops"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "An immediate sample may precede a biomarker peak; intensity, timing, and baseline context matter.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-094",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It always indicates clinically important tissue damage",
+        "The sample may precede the marker's peak response",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "revisedOptions": [
+        "The marker is unaffected by exercise intensity",
+        "The sample may precede the marker's peak response",
+        "A single measurement provides a complete diagnosis",
+        "The marker must peak immediately after exercise stops"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "An immediate sample may precede a biomarker peak; intensity, timing, and baseline context matter.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-095",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "The sample may precede the marker's peak response",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "revisedOptions": [
+        "The marker is unaffected by exercise intensity",
+        "A single measurement provides a complete diagnosis",
+        "The sample may precede the marker's peak response",
+        "The marker must peak immediately after exercise stops"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "An immediate sample may precede a biomarker peak; intensity, timing, and baseline context matter.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-101",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "revisedOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Session location without intensity details"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Specificity depends on mode, intensity, duration, and movement demands; replaced administrative distractors.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-102",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Mode, intensity, duration, and movement demands",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "revisedOptions": [
+        "Total weekly training time without mode",
+        "Mode, intensity, duration, and movement demands",
+        "Preferred equipment without movement demands",
+        "Session location without intensity details"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Specificity depends on mode, intensity, duration, and movement demands; replaced administrative distractors.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-103",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Mode, intensity, duration, and movement demands",
+        "Order of exercises within an unrelated session"
+      ],
+      "revisedOptions": [
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Mode, intensity, duration, and movement demands",
+        "Session location without intensity details"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Specificity depends on mode, intensity, duration, and movement demands; replaced administrative distractors.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-104",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session",
+        "Mode, intensity, duration, and movement demands"
+      ],
+      "revisedOptions": [
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Session location without intensity details",
+        "Mode, intensity, duration, and movement demands"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Specificity depends on mode, intensity, duration, and movement demands; replaced administrative distractors.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-105",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "revisedOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Session location without intensity details"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Specificity depends on mode, intensity, duration, and movement demands; replaced administrative distractors.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-106",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Number of exercises in the training plan",
+        "Recovery time between work bouts",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "revisedOptions": [
+        "Total training volume accumulated weekly",
+        "Recovery time between work bouts",
+        "Mean load used across the session",
+        "Number of exercises in the program"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Density relates work to available time or recovery between bouts; volume, load, and exercise count are distinct.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-107",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Recovery time between work bouts",
+        "Joint circumference measured before training"
+      ],
+      "revisedOptions": [
+        "Total training volume accumulated weekly",
+        "Mean load used across the session",
+        "Recovery time between work bouts",
+        "Number of exercises in the program"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Density relates work to available time or recovery between bouts; volume, load, and exercise count are distinct.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-108",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training",
+        "Recovery time between work bouts"
+      ],
+      "revisedOptions": [
+        "Total training volume accumulated weekly",
+        "Mean load used across the session",
+        "Number of exercises in the program",
+        "Recovery time between work bouts"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Density relates work to available time or recovery between bouts; volume, load, and exercise count are distinct.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-109",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Recovery time between work bouts",
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "revisedOptions": [
+        "Recovery time between work bouts",
+        "Total training volume accumulated weekly",
+        "Mean load used across the session",
+        "Number of exercises in the program"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Density relates work to available time or recovery between bouts; volume, load, and exercise count are distinct.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-110",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Number of exercises in the training plan",
+        "Recovery time between work bouts",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "revisedOptions": [
+        "Total training volume accumulated weekly",
+        "Recovery time between work bouts",
+        "Mean load used across the session",
+        "Number of exercises in the program"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Density relates work to available time or recovery between bouts; volume, load, and exercise count are distinct.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-120",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions",
+        "Perform the actions required for a specific task"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event",
+        "Perform the actions required for a specific task"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Self-efficacy is task-specific belief in executing an action, not control of external outcomes or pressure elimination.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-121",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Perform the actions required for a specific task",
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "revisedOptions": [
+        "Perform the actions required for a specific task",
+        "Control every external outcome during competition",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Self-efficacy is task-specific belief in executing an action, not control of external outcomes or pressure elimination.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-122",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control every external outcome during competition",
+        "Perform the actions required for a specific task",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Perform the actions required for a specific task",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Self-efficacy is task-specific belief in executing an action, not control of external outcomes or pressure elimination.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-123",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Perform the actions required for a specific task",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Predict an opponent's decisions accurately",
+        "Perform the actions required for a specific task",
+        "Eliminate competitive pressure before every event"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Self-efficacy is task-specific belief in executing an action, not control of external outcomes or pressure elimination.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-124",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions",
+        "Perform the actions required for a specific task"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event",
+        "Perform the actions required for a specific task"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Self-efficacy is task-specific belief in executing an action, not control of external outcomes or pressure elimination.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-125",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Worry and negative thoughts about performance",
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training"
+      ],
+      "revisedOptions": [
+        "Worry and negative thoughts about performance",
+        "Physiological activation such as sweating and tension",
+        "Belief in one's ability to execute the task",
+        "Motivation to participate in the activity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Cognitive anxiety is worry and negative performance thoughts; physiological activation and self-efficacy are distinct.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-126",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A change in training volume before competition",
+        "Worry and negative thoughts about performance",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training"
+      ],
+      "revisedOptions": [
+        "Physiological activation such as sweating and tension",
+        "Worry and negative thoughts about performance",
+        "Belief in one's ability to execute the task",
+        "Motivation to participate in the activity"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Cognitive anxiety is worry and negative performance thoughts; physiological activation and self-efficacy are distinct.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-127",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "Worry and negative thoughts about performance",
+        "An increase in bone mass during training"
+      ],
+      "revisedOptions": [
+        "Physiological activation such as sweating and tension",
+        "Belief in one's ability to execute the task",
+        "Worry and negative thoughts about performance",
+        "Motivation to participate in the activity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Cognitive anxiety is worry and negative performance thoughts; physiological activation and self-efficacy are distinct.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-128",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training",
+        "Worry and negative thoughts about performance"
+      ],
+      "revisedOptions": [
+        "Physiological activation such as sweating and tension",
+        "Belief in one's ability to execute the task",
+        "Motivation to participate in the activity",
+        "Worry and negative thoughts about performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Cognitive anxiety is worry and negative performance thoughts; physiological activation and self-efficacy are distinct.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-129",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Consistent attentional cues before performance",
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation"
+      ],
+      "revisedOptions": [
+        "Consistent attentional cues before performance",
+        "Replace technical practice with a fixed sequence",
+        "Prevent every physiological stress response",
+        "Guarantee the outcome independently of execution"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Pre-performance routines organize attentional cues but do not replace practice, remove every stress response, or guarantee outcomes.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-130",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A replacement for technical practice and preparation",
+        "Consistent attentional cues before performance",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation"
+      ],
+      "revisedOptions": [
+        "Replace technical practice with a fixed sequence",
+        "Consistent attentional cues before performance",
+        "Prevent every physiological stress response",
+        "Guarantee the outcome independently of execution"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Pre-performance routines organize attentional cues but do not replace practice, remove every stress response, or guarantee outcomes.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-131",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "Consistent attentional cues before performance",
+        "A guaranteed score regardless of preparation"
+      ],
+      "revisedOptions": [
+        "Replace technical practice with a fixed sequence",
+        "Prevent every physiological stress response",
+        "Consistent attentional cues before performance",
+        "Guarantee the outcome independently of execution"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Pre-performance routines organize attentional cues but do not replace practice, remove every stress response, or guarantee outcomes.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-132",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation",
+        "Consistent attentional cues before performance"
+      ],
+      "revisedOptions": [
+        "Replace technical practice with a fixed sequence",
+        "Prevent every physiological stress response",
+        "Guarantee the outcome independently of execution",
+        "Consistent attentional cues before performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewerNote": "Pre-performance routines organize attentional cues but do not replace practice, remove every stress response, or guarantee outcomes.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-133",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "revisedOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Primary reliance on fat oxidation during maximal work",
+        "Primary use of protein as immediate fuel",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "High-intensity work relies heavily on carbohydrate for rapid ATP production and glycogen-supported glycolysis.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-134",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Rapid ATP production and muscle glycogen use",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "revisedOptions": [
+        "Primary reliance on fat oxidation during maximal work",
+        "Rapid ATP production and muscle glycogen use",
+        "Primary use of protein as immediate fuel",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "High-intensity work relies heavily on carbohydrate for rapid ATP production and glycogen-supported glycolysis.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-135",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Rapid ATP production and muscle glycogen use",
+        "Passive joint stability during movement"
+      ],
+      "revisedOptions": [
+        "Primary reliance on fat oxidation during maximal work",
+        "Primary use of protein as immediate fuel",
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "High-intensity work relies heavily on carbohydrate for rapid ATP production and glycogen-supported glycolysis.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-136",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement",
+        "Rapid ATP production and muscle glycogen use"
+      ],
+      "revisedOptions": [
+        "Primary reliance on fat oxidation during maximal work",
+        "Primary use of protein as immediate fuel",
+        "Long-term bone remodeling during the exercise bout",
+        "Rapid ATP production and muscle glycogen use"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "High-intensity work relies heavily on carbohydrate for rapid ATP production and glycogen-supported glycolysis.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-137",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "revisedOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Primary reliance on fat oxidation during maximal work",
+        "Primary use of protein as immediate fuel",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "High-intensity work relies heavily on carbohydrate for rapid ATP production and glycogen-supported glycolysis.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-138",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "Meaningful fluid loss that raises physiological strain",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "revisedOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Meaningful fluid loss that raises physiological strain",
+        "Acute fat loss as the primary explanation for change",
+        "Increased lean tissue during the exercise bout"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Rapid two-percent exercise-associated mass loss most strongly indicates fluid loss and increased physiological strain.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-139",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "Meaningful fluid loss that raises physiological strain",
+        "An increase in glycogen storage during exercise"
+      ],
+      "revisedOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Acute fat loss as the primary explanation for change",
+        "Meaningful fluid loss that raises physiological strain",
+        "Increased lean tissue during the exercise bout"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Rapid two-percent exercise-associated mass loss most strongly indicates fluid loss and increased physiological strain.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-140",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise",
+        "Meaningful fluid loss that raises physiological strain"
+      ],
+      "revisedOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Acute fat loss as the primary explanation for change",
+        "Increased lean tissue during the exercise bout",
+        "Meaningful fluid loss that raises physiological strain"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Rapid two-percent exercise-associated mass loss most strongly indicates fluid loss and increased physiological strain.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-141",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Meaningful fluid loss that raises physiological strain",
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "revisedOptions": [
+        "Meaningful fluid loss that raises physiological strain",
+        "Reduced glycogen stores without associated water loss",
+        "Acute fat loss as the primary explanation for change",
+        "Increased lean tissue during the exercise bout"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Rapid two-percent exercise-associated mass loss most strongly indicates fluid loss and increased physiological strain.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-142",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "Meaningful fluid loss that raises physiological strain",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "revisedOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Meaningful fluid loss that raises physiological strain",
+        "Acute fat loss as the primary explanation for change",
+        "Increased lean tissue during the exercise bout"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Rapid two-percent exercise-associated mass loss most strongly indicates fluid loss and increased physiological strain.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "books/Clinical Sports Nutrition, 4th Edition.pdf"
+      ]
+    },
+    {
+      "id": "a1-core-143",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Health, recovery, endocrine, and performance",
+        "Immune function only when training is light"
+      ],
+      "revisedOptions": [
+        "Bone health while protecting endocrine and immune function",
+        "Performance without broader physiological effects",
+        "Health, recovery, endocrine, and performance",
+        "Immune function only when training load is light"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-reds-2023",
+      "reviewerNote": "Low energy availability can impair multiple health and performance systems, not one isolated outcome.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-144",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light",
+        "Health, recovery, endocrine, and performance"
+      ],
+      "revisedOptions": [
+        "Bone health while protecting endocrine and immune function",
+        "Performance without broader physiological effects",
+        "Immune function only when training load is light",
+        "Health, recovery, endocrine, and performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-reds-2023",
+      "reviewerNote": "Low energy availability can impair multiple health and performance systems, not one isolated outcome.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-145",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Health, recovery, endocrine, and performance",
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light"
+      ],
+      "revisedOptions": [
+        "Health, recovery, endocrine, and performance",
+        "Bone health while protecting endocrine and immune function",
+        "Performance without broader physiological effects",
+        "Immune function only when training load is light"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-reds-2023",
+      "reviewerNote": "Low energy availability can impair multiple health and performance systems, not one isolated outcome.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-146",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Performance without broader physiological effects",
+        "Health, recovery, endocrine, and performance",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light"
+      ],
+      "revisedOptions": [
+        "Bone health while protecting endocrine and immune function",
+        "Health, recovery, endocrine, and performance",
+        "Performance without broader physiological effects",
+        "Immune function only when training load is light"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-reds-2023",
+      "reviewerNote": "Low energy availability can impair multiple health and performance systems, not one isolated outcome.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-core-147",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "Its status under applicable anti-doping rules",
+        "The color and shape of the capsule"
+      ],
+      "revisedOptions": [
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Its status under applicable anti-doping rules",
+        "Whether teammates commonly use the same product"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Supplement decisions include evidence, dose, contamination risk, and anti-doping status; consumer considerations are secondary.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "wada-prohibited-list-2026"
+      ],
+      "sourceRecommendation": "WADA is more direct for the anti-doping-status component; Burke remains defensible for the broader supplement context."
+    },
+    {
+      "id": "a1-core-148",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule",
+        "Its status under applicable anti-doping rules"
+      ],
+      "revisedOptions": [
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product",
+        "Its status under applicable anti-doping rules"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Supplement decisions include evidence, dose, contamination risk, and anti-doping status; consumer considerations are secondary.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "wada-prohibited-list-2026"
+      ],
+      "sourceRecommendation": "WADA is more direct for the anti-doping-status component; Burke remains defensible for the broader supplement context."
+    },
+    {
+      "id": "a1-core-149",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Its status under applicable anti-doping rules",
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule"
+      ],
+      "revisedOptions": [
+        "Its status under applicable anti-doping rules",
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Supplement decisions include evidence, dose, contamination risk, and anti-doping status; consumer considerations are secondary.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "wada-prohibited-list-2026"
+      ],
+      "sourceRecommendation": "WADA is more direct for the anti-doping-status component; Burke remains defensible for the broader supplement context."
+    },
+    {
+      "id": "a1-core-150",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The number of ingredients listed on the label",
+        "Its status under applicable anti-doping rules",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule"
+      ],
+      "revisedOptions": [
+        "Marketing claims and number of ingredients",
+        "Its status under applicable anti-doping rules",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Supplement decisions include evidence, dose, contamination risk, and anti-doping status; consumer considerations are secondary.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "wada-prohibited-list-2026"
+      ],
+      "sourceRecommendation": "WADA is more direct for the anti-doping-status component; Burke remains defensible for the broader supplement context."
+    }
+  ],
+  "unresolvedConcerns": [
+    {
+      "id": "a1-core-147",
+      "defectType": "sourceProblems",
+      "severity": "medium",
+      "sourceId": "clinical-sports-nutrition-burke",
+      "recommendedSourceId": "wada-prohibited-list-2026",
+      "note": "Prefer WADA as the direct provenance for the current anti-doping-status component; retain Burke for broader supplement context."
+    },
+    {
+      "id": "a1-core-148",
+      "defectType": "sourceProblems",
+      "severity": "medium",
+      "sourceId": "clinical-sports-nutrition-burke",
+      "recommendedSourceId": "wada-prohibited-list-2026",
+      "note": "Prefer WADA as the direct provenance for the current anti-doping-status component; retain Burke for broader supplement context."
+    },
+    {
+      "id": "a1-core-149",
+      "defectType": "sourceProblems",
+      "severity": "medium",
+      "sourceId": "clinical-sports-nutrition-burke",
+      "recommendedSourceId": "wada-prohibited-list-2026",
+      "note": "Prefer WADA as the direct provenance for the current anti-doping-status component; retain Burke for broader supplement context."
+    },
+    {
+      "id": "a1-core-150",
+      "defectType": "sourceProblems",
+      "severity": "medium",
+      "sourceId": "clinical-sports-nutrition-burke",
+      "recommendedSourceId": "wada-prohibited-list-2026",
+      "note": "Prefer WADA as the direct provenance for the current anti-doping-status component; retain Burke for broader supplement context."
+    }
+  ]
+}

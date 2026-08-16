@@ -1,0 +1,212 @@
+{
+  "auditType": "release6_final_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "findingId": "dp6-answer-pattern-data-001",
+      "category": "answerPositionBias",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-001 through a1-data-150"
+      ],
+      "finding": "The prior subtopic-level answer-position clustering was corrected at the aggregate-count level, but the replacement ordering is still mechanically predictable. The file contains long contiguous runs of the same correct index, including index 3 for a1-data-001 through a1-data-009, index 0 for a1-data-015 through a1-data-021, index 1 for a1-data-054 through a1-data-060, and index 2 for a1-data-085 through a1-data-091.",
+      "evidence": {
+        "subtopicCounts": {
+          "Interpretation & Application of Data": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "Principles of Research & Evidence-Based Practice": [
+            12,
+            13,
+            12,
+            13
+          ]
+        },
+        "maximumConsecutiveSameIndexRun": 9,
+        "representativeRuns": [
+          {
+            "questionRange": "a1-data-001 through a1-data-009",
+            "correctIndex": 3,
+            "length": 9
+          },
+          {
+            "questionRange": "a1-data-015 through a1-data-021",
+            "correctIndex": 0,
+            "length": 7
+          },
+          {
+            "questionRange": "a1-data-054 through a1-data-060",
+            "correctIndex": 1,
+            "length": 7
+          },
+          {
+            "questionRange": "a1-data-085 through a1-data-091",
+            "correctIndex": 2,
+            "length": 7
+          }
+        ]
+      },
+      "recommendedAction": "Retain the repaired subtopic counts, then apply a seeded nonperiodic option shuffle with run-length and local-window checks. Update correct indices after each permutation and review every changed item for option meaning and key correctness."
+    },
+    {
+      "findingId": "dp6-answer-pattern-performance-001",
+      "category": "answerPositionBias",
+      "severity": "high",
+      "confidence": "high",
+      "file": "question_bank/section_a1_performance_recovery.json",
+      "questionIds": [
+        "a1-recovery-001 through a1-recovery-150"
+      ],
+      "finding": "Correct indices follow an exact repeating 0,1,2,3 cycle throughout all 150 questions: for zero-based array position i, correct equals i modulo 4. This makes the answer position fully predictable even though the aggregate and subtopic counts are balanced.",
+      "evidence": {
+        "answerPositionCounts": [
+          38,
+          38,
+          37,
+          37
+        ],
+        "periodicityCheck": "correct[i] === i % 4 for every i from 0 through 149",
+        "maximumConsecutiveSameIndexRun": 1,
+        "lagFourRepeatRate": 1
+      },
+      "recommendedAction": "Break the exact cycle with a seeded nonperiodic option shuffle across all 150 questions, preserve each keyed answer and explanation, and validate both per-subtopic balance and periodicity/run-length metrics before regeneration."
+    }
+  ],
+  "summary": {
+    "status": "confirmed_actionable_findings",
+    "highConfidenceFindingCount": 2,
+    "affectedQuestionCount": 300,
+    "questionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150,
+      "question_bank/section_a1.json correspondence records": 300
+    },
+    "mergedCorrespondence": {
+      "checkedQuestionCount": 300,
+      "matchedQuestionCount": 300,
+      "mismatchCount": 0
+    },
+    "repairRegressionChecks": {
+      "priorDataSubtopicBalanceRepair": {
+        "status": "passed",
+        "interpretationAndApplicationCounts": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "researchAndEvidenceBasedPracticeCounts": [
+          12,
+          13,
+          12,
+          13
+        ]
+      },
+      "priorContentRepairs": {
+        "status": "no_high_confidence_regression",
+        "answerKeyErrors": 0,
+        "ambiguityDefects": 0,
+        "semanticDistractorDefects": 0
+      },
+      "priorGrammarRepairs": {
+        "status": "no_high_confidence_regression",
+        "grammarOrParallelOptionDefects": 0
+      },
+      "priorExplanationRepairs": {
+        "status": "no_high_confidence_regression",
+        "nonResponsiveExplanationDefects": 0
+      },
+      "priorSourceRepairs": {
+        "status": "no_high_confidence_regression",
+        "sourceScopeMismatches": 0
+      }
+    },
+    "schema": {
+      "exactRequiredSchema": 300,
+      "fourOptions": 300,
+      "uniqueOptionStrings": 300,
+      "validCorrectIndices": 300,
+      "sectionA1": 300,
+      "nonEmptyTextAndExplanation": 300,
+      "sequentialIds": 300,
+      "schemaDefects": 0
+    },
+    "answerKeysAndOptions": {
+      "manuallyReviewedQuestionCount": 300,
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceStemKeyAlignmentErrors": 0,
+      "highConfidenceAmbiguityDefects": 0,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "optionLengthFlags": 0,
+      "maximumCorrectMinusMedianDistractor": 7.5,
+      "maximumOptionSpread": 15,
+      "strictLongestCorrect": {
+        "dataAnalytics": 41,
+        "performanceRecovery": 47,
+        "combined": 88
+      },
+      "answerPositionCounts": {
+        "dataAnalytics": [
+          37,
+          38,
+          37,
+          38
+        ],
+        "performanceRecovery": [
+          38,
+          38,
+          37,
+          37
+        ],
+        "combined": [
+          75,
+          76,
+          74,
+          75
+        ]
+      }
+    },
+    "duplicates": {
+      "duplicateIds": 0,
+      "exactNormalizedStemDuplicates": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "highConfidenceNearDuplicateQuestionPairs": 0
+    },
+    "sourceTraceability": {
+      "sourceCatalogChecked": "src/data/sourceCatalog.ts",
+      "uniqueSourceIdsUsed": 16,
+      "sourceIdsResolvingInCatalog": 300,
+      "questionsWithUnknownSourceId": 0,
+      "highConfidenceSourceScopeMismatches": 0,
+      "sourceTraceabilityDefects": 0
+    },
+    "coverage": {
+      "dataAnalytics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      },
+      "performanceRecovery": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      }
+    },
+    "cleanChecks": [
+      "All 300 records use the expected ten-field schema, four unique options, valid indices, and sequential IDs.",
+      "All 300 selected records correspond exactly by question ID with the relevant records in the merged A1 file.",
+      "No high-confidence answer-key, ambiguity, semantic-distractor, grammar, explanation, source-scope, duplicate, or option-length defect was confirmed.",
+      "The prior data subtopic count imbalance is repaired, but answer-position ordering remains mechanically predictable in the data file and exactly periodic in the performance file."
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "auditType": "Final source-specificity and explanation repair for technology/biostatistics and holistic/travel/ethics groups",
+  "auditDate": "2026-08-16",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "reviewedQuestionCount": 300
+  },
+  "reviewedCount": 300,
+  "changedCount": 46,
+  "changes": [
+    { "id": "a1-holistic-061", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped circadian travel guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-062", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped jet-lag and travel-sleep guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-063", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped jet-lag and travel-sleep guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-064", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped timed-light and circadian-management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-065", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped timed-light and circadian-management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-066", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped sleep-shifting guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-067", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped travel-readiness and jet-lag guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-068", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped east/west circadian-management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-069", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped travel-sleep and light-management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-070", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped the jet-lag management claim to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-071", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped jet-lag definition and management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-072", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped east/west phase-shift guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-073", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped circadian phase and light-timing guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-074", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped sleep-schedule guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-075", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped travel-sleep management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-076", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped jet-lag prevention guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-077", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped light exposure and circadian-management guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-078", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped travel-sleep guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-079", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped east/west travel-phase guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+    { "id": "a1-holistic-080", "revisedSourceId": "cdc-yellow-book-jet-lag-2026", "reviewerNote": "Remapped jet-lag planning guidance to the directly inspected CDC Yellow Book source.", "sourcesInspected": ["cdc-yellow-book-jet-lag-2026"] },
+
+    {
+      "id": "a1-holistic-006",
+      "revisedSourceId": "nccih-yoga-safety",
+      "reviewerNote": "Remapped yoga safety and qualified-instruction guidance to the directly inspected NCCIH source.",
+      "sourcesInspected": ["nccih-yoga-safety"]
+    },
+    {
+      "id": "a1-holistic-008",
+      "revisedQuestion": "An athlete new to yoga asks how to begin. What is the best first step?",
+      "revisedOptions": [
+        "Attempt advanced end-range positions without supervision",
+        "Begin with qualified guidance at comfortable intensity",
+        "Use forceful breathing to create rapid flexibility",
+        "Continue despite pain to accelerate adaptation"
+      ],
+      "revisedCorrect": 1,
+      "revisedExplanation": "Qualified instruction and comfortable progression reduce risk for someone new to yoga; extreme or forceful practices should be avoided initially.",
+      "revisedSourceId": "nccih-yoga-safety",
+      "reviewerNote": "Reframed the item to a directly supported beginner-safety decision and preserved four plausible, comparable options.",
+      "sourcesInspected": ["nccih-yoga-safety"]
+    },
+    { "id": "a1-holistic-011", "revisedSourceId": "nccih-yoga-safety", "reviewerNote": "Remapped yoga component and safety guidance to the directly inspected NCCIH source.", "sourcesInspected": ["nccih-yoga-safety"] },
+    { "id": "a1-holistic-012", "revisedSourceId": "nccih-yoga-safety", "reviewerNote": "Remapped yoga safety guidance to the directly inspected NCCIH source.", "sourcesInspected": ["nccih-yoga-safety"] },
+    { "id": "a1-holistic-013", "revisedSourceId": "nccih-yoga-safety", "reviewerNote": "Remapped forceful-practice and qualified-instruction guidance to the directly inspected NCCIH source.", "sourcesInspected": ["nccih-yoga-safety"] },
+    { "id": "a1-holistic-014", "revisedSourceId": "nccih-yoga-safety", "reviewerNote": "Remapped yoga safety guidance to the directly inspected NCCIH source.", "sourcesInspected": ["nccih-yoga-safety"] },
+    { "id": "a1-holistic-016", "revisedSourceId": "yogic-breathing-swimmers-2017", "reviewerNote": "Remapped the competitive-swimmer breathing protocol claim to the directly inspected study.", "sourcesInspected": ["yogic-breathing-swimmers-2017"] },
+    { "id": "a1-holistic-017", "revisedSourceId": "nccih-yoga-safety", "reviewerNote": "Remapped yoga safety guidance to the directly inspected NCCIH source.", "sourcesInspected": ["nccih-yoga-safety"] },
+    { "id": "a1-holistic-019", "revisedSourceId": "yogic-breathing-swimmers-2017", "reviewerNote": "Remapped the swimmer pranayama outcome claim to the directly inspected study.", "sourcesInspected": ["yogic-breathing-swimmers-2017"] },
+    { "id": "a1-holistic-020", "revisedSourceId": "yogic-breathing-swimmers-2017", "reviewerNote": "Remapped the swimmer pranayama protocol claim to the directly inspected study.", "sourcesInspected": ["yogic-breathing-swimmers-2017"] },
+
+    {
+      "id": "a1-holistic-026",
+      "revisedQuestion": "When introducing mindfulness to a sports squad, the practitioner should:",
+      "revisedOptions": [
+        "Use complex theoretical language to test motivation",
+        "Require disclosure of private thoughts to the whole squad",
+        "Promise that anxiety will disappear after one session",
+        "Use simple, voluntary exercises suited to the group"
+      ],
+      "revisedCorrect": 3,
+      "revisedExplanation": "Mindfulness is best introduced as a simple, voluntary complementary mental-skills practice rather than a guaranteed cure or forced disclosure exercise.",
+      "revisedSourceId": "yoga-mindfulness-sport-buhlmayer-2017",
+      "reviewerNote": "Narrowed the population-specific item to a complementary sports mental-skills delivery decision supported by the cited review.",
+      "sourcesInspected": ["yoga-mindfulness-sport-buhlmayer-2017"]
+    },
+    {
+      "id": "a1-holistic-027",
+      "revisedQuestion": "An athlete uses mindfulness during training. The appropriate instruction is to:",
+      "revisedOptions": [
+        "Notice sensations while respecting personal limits",
+        "Ignore all pain because attention changes its meaning",
+        "Use mindfulness to decide that medical advice is unnecessary",
+        "Treat any uncomfortable sensation as proof of tissue healing"
+      ],
+      "revisedCorrect": 0,
+      "revisedExplanation": "Mindfulness can support awareness of experience as a complementary mental-skills practice, but it should not override personal limits or professional guidance.",
+      "revisedSourceId": "yoga-mindfulness-sport-buhlmayer-2017",
+      "reviewerNote": "Narrowed the clinical-scope claim to complementary athlete mental-skills use and explicitly retained personal limits.",
+      "sourcesInspected": ["yoga-mindfulness-sport-buhlmayer-2017"]
+    },
+
+    { "id": "a1-holistic-091", "revisedSourceId": "wada-code-2021", "reviewerNote": "Remapped clean-sport education and responsibilities to the directly inspected WADA Code.", "sourcesInspected": ["wada-code-2021"] },
+    { "id": "a1-holistic-098", "revisedSourceId": "wada-code-2021", "reviewerNote": "Remapped ethical clean-sport response guidance to the directly inspected WADA Code.", "sourcesInspected": ["wada-code-2021"] },
+    { "id": "a1-holistic-100", "revisedSourceId": "wada-code-2021", "reviewerNote": "Remapped anti-doping education and product-checking guidance to the directly inspected WADA Code.", "sourcesInspected": ["wada-code-2021"] },
+    { "id": "a1-holistic-146", "revisedSourceId": "acsm-getp-12", "reviewerNote": "Remapped screening and exercise-assessment reporting guidance to the directly inspected ACSM text.", "sourcesInspected": ["acsm-getp-12"] },
+    { "id": "a1-holistic-147", "revisedSourceId": "nsca-essentials-5", "reviewerNote": "Remapped reference-group and performance-testing interpretation guidance to the directly inspected NSCA text.", "sourcesInspected": ["nsca-essentials-5"] },
+    { "id": "a1-holistic-148", "revisedSourceId": "nsca-essentials-5", "reviewerNote": "Remapped reproducible performance-testing reporting guidance to the directly inspected NSCA text.", "sourcesInspected": ["nsca-essentials-5"] },
+
+    { "id": "a1-tech-062", "revisedExplanation": "Session-RPE load is calculated as session duration multiplied by perceived exertion: 90 minutes × RPE 6 = 540 arbitrary units.", "reviewerNote": "Replaced a repeated block explanation with the item-specific session-RPE calculation.", "sourcesInspected": ["ioc-load-illness-2016"] },
+    { "id": "a1-tech-063", "revisedExplanation": "GPS distance reflects an external movement load, whereas heart rate reflects an internal physiological response.", "reviewerNote": "Replaced a repeated block explanation with the item-specific external-versus-internal load distinction.", "sourcesInspected": ["ioc-load-illness-2016"] },
+    { "id": "a1-tech-064", "revisedExplanation": "Role-based permissions limit athlete-information access to users with a legitimate role rather than granting universal or shared-account access.", "reviewerNote": "Replaced a repeated block explanation with the item-specific access-control rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-065", "revisedExplanation": "An unanswered wellness item is missing data; silently treating it as a worst score, wellness evidence, or team mean would distort the record.", "reviewerNote": "Replaced a repeated block explanation with the item-specific missing-data rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-066", "revisedExplanation": "Longitudinal records allow a short-term change to be compared with an athlete's baseline rather than being interpreted as an isolated value.", "reviewerNote": "Replaced a repeated block explanation with the item-specific longitudinal-context rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-067", "revisedExplanation": "Interoperable fields use compatible definitions and formats, reducing duplicate or incompatible records when information moves between systems.", "reviewerNote": "Replaced a repeated block explanation with the item-specific interoperability rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-068", "revisedExplanation": "An athlete-facing dashboard should communicate understandable feedback while preserving uncertainty and avoiding public ranking or irreversible medical decisions.", "reviewerNote": "Replaced a repeated block explanation with the item-specific dashboard-safety rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-069", "revisedExplanation": "An audit trail supports accountability by recording who changed a record and when, rather than retaining only the final value.", "reviewerNote": "Replaced a repeated block explanation with the item-specific audit-trail rationale.", "sourcesInspected": ["ais-athlete-data-governance"] },
+    { "id": "a1-tech-070", "revisedExplanation": "An elevated risk score is a prompt for qualified human review; it is not a definitive diagnosis or a substitute for clinical findings and consent.", "reviewerNote": "Replaced a repeated block explanation with the item-specific human-oversight rationale.", "sourcesInspected": ["nist-ai-rmf-2023"] }
+  ]
+}

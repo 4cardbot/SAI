@@ -1,0 +1,149 @@
+{
+  "total": 900,
+  "groups": [
+    {
+      "group": "Core Disciplines Foundational Concepts",
+      "file": "question_bank/section_a1_core_disciplines.json",
+      "total": 150,
+      "subtopics": {
+        "Anthropometry — body composition, somatotypes, growth & maturation": 19,
+        "Exercise Physiology — energy systems, fatigue, adaptation": 19,
+        "Physiotherapy — injury mechanisms, basic rehabilitation principles": 19,
+        "Biomechanics — movement analysis, force, kinematics": 19,
+        "Biochemistry — biomarkers, metabolism, recovery indicators": 19,
+        "Strength & Conditioning — training principles, load, recovery": 19,
+        "Psychology — motivation, stress, arousal, mental readiness": 18,
+        "Nutrition — macronutrients, hydration, energy balance": 18
+      },
+      "sources": {
+        "acsm-getp-12": 10,
+        "nsca-essentials-5": 28,
+        "physiology-sport-exercise-kenney": 24,
+        "brukner-khan-clinical-sports-medicine": 19,
+        "basic-biomechanics-hall": 19,
+        "ioc-load-illness-2016": 9,
+        "clinical-sports-nutrition-burke": 15,
+        "foundations-sport-exercise-psychology": 18,
+        "ioc-reds-2023": 4,
+        "ais-supplements-position-2022": 4
+      }
+    },
+    {
+      "group": "Testing Parameters, Standardization & Athlete Assessment",
+      "file": "question_bank/section_a1_testing_assessment.json",
+      "total": 150,
+      "subtopics": {
+        "Test Parameters & Athlete Assessment": 75,
+        "Test Protocols & Standardization": 75
+      },
+      "sources": {
+        "acsm-getp-12": 92,
+        "nsca-essentials-5": 36,
+        "world-physiotherapy-consent-2023": 8,
+        "world-physiotherapy-ethics-2023": 7,
+        "world-physiotherapy-ebp-2023": 7
+      }
+    },
+    {
+      "group": "Data Interpretation & Applied Analytics",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "total": 150,
+      "subtopics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      },
+      "sources": {
+        "nsca-essentials-5": 45,
+        "physiology-sport-exercise-kenney": 1,
+        "ioc-load-illness-2016": 7,
+        "basic-biomechanics-hall": 1,
+        "acsm-getp-12": 9,
+        "gps-validity-scott-2016": 3,
+        "world-physiotherapy-ebp-2023": 54,
+        "brukner-khan-clinical-sports-medicine": 2,
+        "nakagawa-cuthill-effect-size-2007": 2,
+        "cdc-confounding-epi-manual": 13,
+        "world-physiotherapy-ethics-2023": 12,
+        "ais-athlete-data-governance": 1
+      }
+    },
+    {
+      "group": "Performance Enhancement & Recovery Protocols",
+      "file": "question_bank/section_a1_performance_recovery.json",
+      "total": 150,
+      "subtopics": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      },
+      "sources": {
+        "nsca-essentials-5": 40,
+        "ioc-load-illness-2016": 69,
+        "apta-lateral-ankle-cpg-2021": 2,
+        "brukner-khan-clinical-sports-medicine": 34,
+        "london-hamstring-consensus-2023": 2,
+        "ioc-concussion-amsterdam-2022": 1,
+        "aspetar-acl-cpg-2023": 2
+      }
+    },
+    {
+      "group": "Emerging Technologies & Biostatistics",
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "total": 150,
+      "subtopics": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70
+      },
+      "sources": {
+        "wearable-athlete-sensors-seshadri-2019": 8,
+        "gps-validity-scott-2016": 10,
+        "ioc-load-illness-2016": 5,
+        "wearable-inertial-camomilla-2018": 10,
+        "neumann-kinesiology": 20,
+        "scikit-learn-supervised-learning": 3,
+        "scikit-learn-common-pitfalls-1-9": 1,
+        "scikit-learn-model-evaluation-1-9": 2,
+        "nist-ai-rmf-2023": 4,
+        "cdc-confounding-epi-manual": 1,
+        "ais-athlete-data-governance": 6,
+        "unesco-ai-ethics-2021": 10,
+        "nist-sematech-statistics": 60,
+        "nakagawa-cuthill-effect-size-2007": 10
+      }
+    },
+    {
+      "group": "Holistic Development, Travel & Ethics",
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "total": 150,
+      "subtopics": {
+        "Yoga & Mind–Body Interventions in Sports": 30,
+        "Athlete Health, Wellness & Holistic Development": 30,
+        "Travel-Related Challenges & Competition Readiness": 30,
+        "Anti-Doping Awareness & Ethical Practices": 30,
+        "Interdisciplinary Coordination & Support Systems": 30
+      },
+      "sources": {
+        "yoga-athletes-review-2025": 8,
+        "nccih-yoga-safety": 7,
+        "acsm-getp-12": 3,
+        "yogic-breathing-swimmers-2017": 3,
+        "yoga-mindfulness-sport-buhlmayer-2017": 10,
+        "ioc-load-illness-2016": 8,
+        "world-physiotherapy-consent-2023": 2,
+        "world-physiotherapy-ethics-2023": 10,
+        "foundations-sport-exercise-psychology": 10,
+        "nsca-essentials-5": 12,
+        "cdc-yellow-book-jet-lag-2026": 20,
+        "physiology-sport-exercise-kenney": 10,
+        "wada-code-2021": 3,
+        "ais-supplements-position-2022": 4,
+        "wada-prohibited-list-2026": 2,
+        "wada-istue-2023": 11,
+        "interdisciplinary-performance-sport-burns-2023": 9,
+        "bern-return-to-sport-2016": 1,
+        "ais-athlete-data-governance": 10,
+        "world-physiotherapy-ebp-2023": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "auditType": "final6_length_repair_testing_assessment",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_testing_assessment.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median distractor or when total option-length spread exceeds 15 characters.",
+  "reviewedCount": 150,
+  "flagsBefore": 12,
+  "changedCount": 12,
+  "changedQuestions": [
+    {
+      "id": "a1-test-005",
+      "originalOptions": [
+        "The test has a short administration time",
+        "Evidence supports the intended readiness interpretation",
+        "The score is normally distributed in every athlete",
+        "The test uses the same footwear in all sports"
+      ],
+      "revisedOptions": [
+        "The test has a short administration time",
+        "Evidence supports the readiness interpretation",
+        "The score is normally distributed in every athlete",
+        "The test uses the same footwear in all sports"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Shortened the keyed option by removing an unnecessary qualifier while retaining the source-supported requirement for evidence supporting the intended readiness interpretation.",
+      "sourcesInspected": ["acsm-getp-12"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 15},
+      "metricsAfter": {"correctMedianGap": 1, "optionSpread": 10}
+    },
+    {
+      "id": "a1-test-037",
+      "originalOptions": [
+        "Keep every test and ignore order effects",
+        "Remove every test with a numerical outcome",
+        "Retain valid, relevant tests and shorten the battery",
+        "Replace safety screening with extra performance trials"
+      ],
+      "revisedOptions": [
+        "Keep every test and ignore order effects",
+        "Remove every test with a numerical outcome",
+        "Retain relevant tests; shorten the battery",
+        "Replace safety screening with extra performance trials"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Condensed the keyed option and retained the source-supported selection principle of keeping relevant tests while reducing a fatigue-producing battery.",
+      "sourcesInspected": ["nsca-essentials-5"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 14},
+      "metricsAfter": {"correctMedianGap": 0, "optionSpread": 14}
+    },
+    {
+      "id": "a1-test-056",
+      "originalOptions": [
+        "Reproduce a normal match environment exactly",
+        "Avoid all screening and emergency preparation",
+        "Control workload while measuring gas exchange precisely",
+        "Rank athletes without defining the physiological variable"
+      ],
+      "revisedOptions": [
+        "Reproduce a normal match environment exactly",
+        "Avoid all screening and emergency preparation",
+        "Control workload while measuring gas exchange",
+        "Rank athletes without defining the physiological variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Removed the unnecessary adverb from the keyed option while preserving the source-supported laboratory advantages of workload control and gas-exchange measurement.",
+      "sourcesInspected": ["acsm-getp-12"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 13},
+      "metricsAfter": {"correctMedianGap": 0, "optionSpread": 13}
+    },
+    {
+      "id": "a1-test-065",
+      "originalOptions": [
+        "Use the same protocol and comparable preparation",
+        "Use a new device at every session",
+        "Keep only the athlete’s best historical score",
+        "Apply one percentage rule to every test"
+      ],
+      "revisedOptions": [
+        "Use the same protocol and similar preparation",
+        "Use a new device at every session",
+        "Keep only the athlete’s best historical score",
+        "Apply one percentage rule to every test"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Replaced a longer synonym with concise, source-consistent wording; consistent protocol and preparation remain the basis for longitudinal comparison.",
+      "sourcesInspected": ["nsca-essentials-5"],
+      "metricsBefore": {"correctMedianGap": 9, "optionSpread": 15},
+      "metricsAfter": {"correctMedianGap": 6, "optionSpread": 12}
+    },
+    {
+      "id": "a1-test-070",
+      "originalOptions": [
+        "3-km run before the jump",
+        "Alternate randomly for each athlete",
+        "Jump before the longer endurance test",
+        "Perform both simultaneously"
+      ],
+      "revisedOptions": [
+        "3-km run before the jump",
+        "Alternate randomly for each athlete",
+        "Jump before the endurance test",
+        "Perform both simultaneously"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Shortened the keyed sequence while preserving the source-supported principle that power testing should precede the longer endurance test to limit fatigue effects.",
+      "sourcesInspected": ["nsca-essentials-5"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 13},
+      "metricsAfter": {"correctMedianGap": 3, "optionSpread": 11}
+    },
+    {
+      "id": "a1-test-080",
+      "originalOptions": [
+        "The athlete’s preferred result and expected ranking",
+        "Which assessor may ignore the athlete’s pain report",
+        "The exact instructions, position, endpoint, and scoring rule",
+        "A different scoring scale for each independent assessor"
+      ],
+      "revisedOptions": [
+        "The athlete’s preferred result and expected ranking",
+        "Which assessor may ignore the athlete’s pain report",
+        "The instructions, position, endpoint, and scoring rule",
+        "A different scoring scale for each independent assessor"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Removed an implied redundancy because an SOP already specifies the required procedure; the revised option remains a complete, source-supported list of standardization elements.",
+      "sourcesInspected": ["acsm-getp-12"],
+      "metricsBefore": {"correctMedianGap": 9, "optionSpread": 9},
+      "metricsAfter": {"correctMedianGap": 3, "optionSpread": 4}
+    },
+    {
+      "id": "a1-test-087",
+      "originalOptions": [
+        "That the athlete signs a form accepting all responsibility",
+        "That the test is shortened without changing the safety plan",
+        "That a high previous score indicates low risk before maximal exercise",
+        "That trained staff, equipment, and emergency procedures are available"
+      ],
+      "revisedOptions": [
+        "That the athlete signs a form accepting all responsibility",
+        "That the test is shortened without changing the safety plan",
+        "That a high previous score indicates low risk before maximal exercise",
+        "That trained staff, equipment, and emergency procedures are ready"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Replaced a longer availability phrase with concise safety-readiness wording while preserving the source-supported need for trained staff, equipment, and emergency procedures.",
+      "sourcesInspected": ["acsm-getp-12"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 11},
+      "metricsAfter": {"correctMedianGap": 6, "optionSpread": 11}
+    },
+    {
+      "id": "a1-test-109",
+      "originalOptions": [
+        "Only the expected performance benefit before consent",
+        "The procedure, risks, benefits, alternatives, and voluntary choice",
+        "The coach’s decision about whether participation is compulsory",
+        "The athlete’s predicted score and selection probability"
+      ],
+      "revisedOptions": [
+        "Only the expected performance benefit before consent",
+        "The procedure, risks, benefits, alternatives, and free choice",
+        "The coach’s decision about whether participation is compulsory",
+        "The athlete’s predicted score and selection probability"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Condensed the consent information list while retaining the source-supported elements of procedure, risks, benefits, alternatives, and voluntary choice.",
+      "sourcesInspected": ["world-physiotherapy-consent-2023"]
+      ,"metricsBefore": {"correctMedianGap": 11, "optionSpread": 14},
+      "metricsAfter": {"correctMedianGap": 6, "optionSpread": 10}
+    },
+    {
+      "id": "a1-test-110",
+      "originalOptions": [
+        "The equipment calibration date before consent",
+        "The athlete’s normative percentile before consent",
+        "Whether the report uses a graph or table",
+        "Whether the decision was voluntary and free of pressure"
+      ],
+      "revisedOptions": [
+        "The equipment calibration date before consent",
+        "The athlete’s normative percentile before consent",
+        "Whether the report uses a graph or table",
+        "Whether consent was voluntary and unpressured"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Condensed the keyed option without weakening its source-supported focus on voluntary consent free from pressure.",
+      "sourcesInspected": ["world-physiotherapy-consent-2023"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 15},
+      "metricsAfter": {"correctMedianGap": 0, "optionSpread": 9}
+    },
+    {
+      "id": "a1-test-120",
+      "originalOptions": [
+        "Clarify authorization, purpose, and necessary information",
+        "Release all results because the coach supervises training",
+        "Send results to teammates for corroboration",
+        "Delete the record to avoid the conversation"
+      ],
+      "revisedOptions": [
+        "Clarify authorization, purpose, and data needed",
+        "Release all results because the coach supervises training",
+        "Send results to teammates for corroboration",
+        "Delete the record to avoid the conversation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Replaced a verbose phrase with concise wording that preserves the source-supported duties to clarify authorization, purpose, and the information needed before disclosure.",
+      "sourcesInspected": ["world-physiotherapy-ethics-2023"],
+      "metricsBefore": {"correctMedianGap": 14, "optionSpread": 14},
+      "metricsAfter": {"correctMedianGap": 4, "optionSpread": 14}
+    },
+    {
+      "id": "a1-test-132",
+      "originalOptions": [
+        "Only the athlete’s body mass across sessions",
+        "Sampling site, workload, timing, and analyser procedure",
+        "The reported value after seeing the previous result",
+        "A different stage duration for every session"
+      ],
+      "revisedOptions": [
+        "Only the athlete’s body mass across sessions",
+        "Sampling site, workload, timing, and analyser method",
+        "The reported value after seeing the previous result",
+        "A different stage duration for every session"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Shortened the measurement-standardization list by replacing procedure with method; the revised option still covers source-supported control of sampling, workload, timing, and analysis.",
+      "sourcesInspected": ["nsca-essentials-5"],
+      "metricsBefore": {"correctMedianGap": 11, "optionSpread": 11},
+      "metricsAfter": {"correctMedianGap": 8, "optionSpread": 8}
+    },
+    {
+      "id": "a1-test-143",
+      "originalOptions": [
+        "Stop when equipment failure threatens safety or validity",
+        "Continue because equipment faults cannot affect safety",
+        "Estimate the result from the previous season",
+        "Repeat immediately without checking the device"
+      ],
+      "revisedOptions": [
+        "Stop if equipment failure threatens safety or validity",
+        "Continue because equipment faults cannot affect safety",
+        "Estimate the result from the previous season",
+        "Repeat immediately without checking the device"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Replaced when with the concise conditional if; the source-supported termination principle and answer meaning are unchanged.",
+      "sourcesInspected": ["acsm-getp-12"],
+      "metricsBefore": {"correctMedianGap": 10, "optionSpread": 12},
+      "metricsAfter": {"correctMedianGap": 8, "optionSpread": 10}
+    }
+  ],
+  "flagsAfter": 0,
+  "validation": {
+    "questionCount": 150,
+    "fourOptionsEach": true,
+    "answerIndicesPreserved": true,
+    "metadataPreserved": true,
+    "maximumCorrectMedianGap": 8,
+    "maximumOptionSpread": 15,
+    "remainingPrimaryFlags": 0
+  }
+}

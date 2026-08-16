@@ -1,0 +1,240 @@
+{
+  "auditType": "final7_length_repair_core_disciplines",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_core_disciplines.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median distractor or when total option-length spread exceeds 15 characters.",
+  "scope": {
+    "questionCount": 150,
+    "targetQuestionIds": [
+      "a1-core-028",
+      "a1-core-042",
+      "a1-core-053",
+      "a1-core-057",
+      "a1-core-066",
+      "a1-core-070",
+      "a1-core-081",
+      "a1-core-113",
+      "a1-core-137"
+    ],
+    "changesRestrictedToTargetIds": true
+  },
+  "summary": {
+    "flagsBefore": 9,
+    "changedCount": 9,
+    "flagsAfter": 0,
+    "maximumCorrectMinusMedianAfter": 8,
+    "maximumOptionLengthSpreadAfter": 13,
+    "correctIndicesPreserved": true,
+    "fourOptionsForEveryQuestion": true
+  },
+  "changedQuestions": [
+    {
+      "id": "a1-core-028",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced mitochondrial enzyme activity",
+        "A shift away from oxygen use",
+        "Lower muscle oxygen extraction"
+      ],
+      "revisedOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced mitochondrial enzyme activity",
+        "A shift away from aerobic oxygen use",
+        "Lower oxygen extraction during exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Kept the source-supported mitochondrial adaptation as the keyed answer and made the distractors parallel physiological adaptations without padding; the revised set has a four-character spread and a three-character correct-minus-median gap.",
+      "sourcesInspected": [
+        "Physiology of Sport and Exercise, Kenney, Wilmore and Costill, 5th ed. (2012), supplied PDF: bioenergetics, mitochondrial adaptation and training sections",
+        "src/data/sourceCatalog.ts: physiology-sport-exercise-kenney"
+      ]
+    },
+    {
+      "id": "a1-core-042",
+      "originalOptions": [
+        "A fracture confirmed by the instability",
+        "Persistent proprioceptive and neuromuscular deficits",
+        "Improved joint-position sense after healing",
+        "Increased aerobic capacity from rehabilitation"
+      ],
+      "revisedOptions": [
+        "A fracture confirmed on imaging as the cause",
+        "Persistent proprioceptive and neuromuscular deficits",
+        "Improved joint-position sense after complete healing",
+        "Increased aerobic capacity after rehabilitation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Replaced the malformed fracture distractor and clarified the time/context of the two recovery distractors. The keyed sensorimotor explanation and answer meaning are unchanged; the revised spread is eight characters.",
+      "sourcesInspected": [
+        "Brukner and Khan's Clinical Sports Medicine, Brukner and Khan, 5th ed., Volume 1 (2017), supplied PDF: injury rehabilitation and proprioception/neuromuscular-control sections",
+        "src/data/sourceCatalog.ts: brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-core-053",
+      "originalOptions": [
+        "Begin full-speed cutting before strength work",
+        "Restore mobility and strength before sport drills",
+        "Use imaging as the only functional test",
+        "Avoid movement until competition day"
+      ],
+      "revisedOptions": [
+        "Begin full-speed cutting before strength work",
+        "Restore mobility and strength before sport drills",
+        "Use imaging as the only return-to-sport test",
+        "Avoid loaded movement until competition day"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Retained the graded mobility-to-strength-to-sport-drill sequence and gave both incorrect clinical strategies a comparable return-to-sport context; the revised spread is six characters.",
+      "sourcesInspected": [
+        "Brukner and Khan's Clinical Sports Medicine, Brukner and Khan, 5th ed., Volume 1 (2017), supplied PDF: rehabilitation progression and return-to-sport sections",
+        "src/data/sourceCatalog.ts: brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-core-057",
+      "originalOptions": [
+        "Clear participation because motivation is high",
+        "Reassess symptoms, function, sport demands, and risk",
+        "Ignore sport demands if strength is normal",
+        "Use the calendar date as the only criterion"
+      ],
+      "revisedOptions": [
+        "Clear participation because motivation is strong",
+        "Reassess symptoms, function, sport demands, and risk",
+        "Ignore sport demands if strength is clinically normal",
+        "Use the calendar date as the only clearance criterion"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Preserved the symptom-, function-, demand- and risk-based decision while making the distractors clinically parallel; no unsupported criterion was added and the revised spread is five characters.",
+      "sourcesInspected": [
+        "Brukner and Khan's Clinical Sports Medicine, Brukner and Khan, 5th ed., Volume 1 (2017), supplied PDF: clinical assessment, rehabilitation and return-to-sport decision sections",
+        "src/data/sourceCatalog.ts: brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-core-066",
+      "originalOptions": [
+        "Increase passive body mass during contact",
+        "Reduce braking impulse and forward speed loss",
+        "Eliminate all vertical ground force",
+        "Decrease the athlete’s leg length"
+      ],
+      "revisedOptions": [
+        "Increase passive body mass during ground contact",
+        "Reduce braking impulse and speed loss",
+        "Eliminate all vertical ground force during contact",
+        "Decrease the athlete’s effective leg length"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Shortened the keyed mechanical statement by removing redundant direction wording and made the false force/segment alternatives explicit but still biomechanically incorrect; the revised spread is 13 characters.",
+      "sourcesInspected": [
+        "Basic Biomechanics, Susan J. Hall, 6th ed. (2012), supplied PDF: force, impulse, ground-reaction force and centre-of-mass movement chapters",
+        "src/data/sourceCatalog.ts: basic-biomechanics-hall"
+      ]
+    },
+    {
+      "id": "a1-core-070",
+      "originalOptions": [
+        "A body-mass index calculation",
+        "A force plate beneath each landing area",
+        "A resting blood-pressure cuff",
+        "A thigh-circumference tape measure"
+      ],
+      "revisedOptions": [
+        "A body-mass index calculated before testing",
+        "A force plate beneath each landing area",
+        "A resting blood-pressure cuff during testing",
+        "A thigh-circumference tape measure at rest"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "reviewerNote": "Kept the force plate as the direct force-measurement method and added specific measurement timing/context to the unrelated physiological and anthropometric distractors; the revised spread is five characters.",
+      "sourcesInspected": [
+        "Basic Biomechanics, Susan J. Hall, 6th ed. (2012), supplied PDF: force measurement and ground-reaction-force sections",
+        "src/data/sourceCatalog.ts: basic-biomechanics-hall"
+      ]
+    },
+    {
+      "id": "a1-core-081",
+      "originalOptions": [
+        "Use one universal cutoff for every athlete",
+        "Sample only before the first season",
+        "Compare serial results with baseline and symptoms",
+        "Treat any increase as a confirmed injury"
+      ],
+      "revisedOptions": [
+        "Use one universal cutoff for every athlete and test",
+        "Sample only before the first competitive season",
+        "Compare serial results with baseline and symptoms",
+        "Treat any increase as a confirmed muscle injury"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Preserved individualized serial interpretation against baseline, symptoms and workload while making the three incorrect monitoring rules equally specific; the revised spread is four characters.",
+      "sourcesInspected": [
+        "IOC consensus statement on load in sport and risk of illness, 2016, BJSM 50(17):1043–1052, load/recovery monitoring recommendations",
+        "src/data/sourceCatalog.ts: ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-core-113",
+      "originalOptions": [
+        "It removes useful adaptation before competition",
+        "It guarantees a new maximal strength record",
+        "It increases cumulative training stress before racing",
+        "It reduces fatigue while retaining race-specific quality"
+      ],
+      "revisedOptions": [
+        "It removes useful adaptation before the championship",
+        "It guarantees a new maximal strength record in racing",
+        "It increases cumulative training stress before racing",
+        "It reduces fatigue while retaining race-specific quality"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Kept the taper rationale—dissipating fatigue while retaining race-specific quality—and gave the alternative claims comparable championship/racing contexts; the revised spread is four characters.",
+      "sourcesInspected": [
+        "Essentials of Strength Training and Conditioning, Haff and Triplett, eds., 5th ed. (2016), supplied PDF: periodisation, tapering and peaking chapters/sections",
+        "src/data/sourceCatalog.ts: nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-core-137",
+      "originalOptions": [
+        "Avoid all carbohydrate after the first session",
+        "Replace carbohydrate with passive stretching between sessions",
+        "Consume fluid without considering energy needs",
+        "Restore carbohydrate and muscle glycogen between sessions"
+      ],
+      "revisedOptions": [
+        "Avoid all carbohydrate after the first hard session",
+        "Use passive stretching instead of carbohydrate",
+        "Consume fluid without considering total energy needs",
+        "Replace carbohydrate to replenish glycogen between sessions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "reviewerNote": "Preserved rapid carbohydrate replacement for glycogen restoration between hard sessions and made the alternatives distinct, clinically meaningful recovery choices; the revised correct-minus-median gap is exactly eight characters and the spread is 13.",
+      "sourcesInspected": [
+        "Clinical Sports Nutrition, Burke and Deakin, eds., 4th ed. (2010), supplied PDF: carbohydrate, glycogen restoration and recovery-fueling chapters",
+        "src/data/sourceCatalog.ts: clinical-sports-nutrition-burke"
+      ]
+    }
+  ],
+  "reviewNote": "Only the nine requested question records were edited. Stems, topic/subtopic, difficulty, explanations, source IDs and zero-based correct indices were preserved. Full-file validation confirmed 150 questions, four options per question, and zero remaining primary option-length flags."
+}

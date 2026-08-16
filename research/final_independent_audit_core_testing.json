@@ -1,0 +1,677 @@
+{
+  "auditType": "final-independent-read-only-audit",
+  "generatedAt": "2026-08-16",
+  "groups": [
+    {
+      "name": "Core Disciplines Foundational Concepts",
+      "file": "question_bank/section_a1_core_disciplines.json",
+      "reviewedCount": 150,
+      "mergedCorrespondingCount": 150
+    },
+    {
+      "name": "Testing Parameters, Standardization & Athlete Assessment",
+      "file": "question_bank/section_a1_testing_assessment.json",
+      "reviewedCount": 150,
+      "mergedCorrespondingCount": 150
+    }
+  ],
+  "reviewedCount": 300,
+  "highConfidenceDefects": 27,
+  "answerKeyProblems": 0,
+  "distractorProblems": 20,
+  "sourceProblems": 19,
+  "schemaProblems": 0,
+  "lengthProblems": 0,
+  "exactDuplicates": 0,
+  "validation": {
+    "mergedContentMismatches": [],
+    "schemaErrors": [],
+    "unknownSourceIds": [],
+    "primaryLengthFlags": 0,
+    "optionSpreadOver15": 0,
+    "strictLongestCorrect": 57,
+    "shortestCorrect": 60,
+    "answerIndexCounts": [
+      76,
+      76,
+      74,
+      74
+    ],
+    "maximumOptionSpread": 15,
+    "exactDuplicateIds": []
+  },
+  "findingsSummary": {
+    "answerKeys": "No high-confidence answer-key problem found in the current retained files or corresponding merged entries.",
+    "explanations": "No high-confidence contradiction between a keyed answer and its explanation was found in the reviewed items.",
+    "syllabus": "All 300 questions use the expected repository topic and one of the official syllabus subtopics assigned to these two groups.",
+    "provenance": "All current sourceIds resolve in the source catalog. The listed sourceProblems are directness/plausibility concerns, not unknown IDs.",
+    "optionLengths": "No primary length flag or spread-over-15 flag remains. Correct-option position counts are balanced within each group.",
+    "duplicates": "No exact duplicate question-plus-option-array-plus-answer records were found. Repeated concept frames were not counted as exact duplicates."
+  },
+  "defects": [
+    {
+      "id": "a1-core-035",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, during repeated sprints, phosphocreatine resynthesis between efforts depends substantially on:",
+      "currentOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The stem ends with “depends substantially on:” and the keyed answer is a parallel noun phrase, but the other three options are complete clauses beginning “It depends” or “It occurs.” That grammatical mismatch makes the distractors visibly unlike the answer and weakens the item independently of its factual content.",
+      "recommendedFix": "Rewrite all four choices as parallel noun phrases or complete clauses, for example by making the keyed choice “Predominantly oxidative metabolism during adequate recovery” and giving each distractor the same grammatical form."
+    },
+    {
+      "id": "a1-core-036",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, during repeated sprints, phosphocreatine resynthesis between efforts depends substantially on:",
+      "currentOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The stem ends with “depends substantially on:” and the keyed answer is a parallel noun phrase, but the other three options are complete clauses beginning “It depends” or “It occurs.” That grammatical mismatch makes the distractors visibly unlike the answer and weakens the item independently of its factual content.",
+      "recommendedFix": "Rewrite all four choices as parallel noun phrases or complete clauses, for example by making the keyed choice “Predominantly oxidative metabolism during adequate recovery” and giving each distractor the same grammatical form."
+    },
+    {
+      "id": "a1-core-037",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, during repeated sprints, phosphocreatine resynthesis between efforts depends substantially on:",
+      "currentOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The stem ends with “depends substantially on:” and the keyed answer is a parallel noun phrase, but the other three options are complete clauses beginning “It depends” or “It occurs.” That grammatical mismatch makes the distractors visibly unlike the answer and weakens the item independently of its factual content.",
+      "recommendedFix": "Rewrite all four choices as parallel noun phrases or complete clauses, for example by making the keyed choice “Predominantly oxidative metabolism during adequate recovery” and giving each distractor the same grammatical form."
+    },
+    {
+      "id": "a1-core-038",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, during repeated sprints, phosphocreatine resynthesis between efforts depends substantially on:",
+      "currentOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "Oxidative metabolism during adequate recovery",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The stem ends with “depends substantially on:” and the keyed answer is a parallel noun phrase, but the other three options are complete clauses beginning “It depends” or “It occurs.” That grammatical mismatch makes the distractors visibly unlike the answer and weakens the item independently of its factual content.",
+      "recommendedFix": "Rewrite all four choices as parallel noun phrases or complete clauses, for example by making the keyed choice “Predominantly oxidative metabolism during adequate recovery” and giving each distractor the same grammatical form."
+    },
+    {
+      "id": "a1-test-009",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, reliability refers most directly to the:",
+      "currentOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-010",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, reliability refers most directly to the:",
+      "currentOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-011",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, reliability refers most directly to the:",
+      "currentOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-012",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, reliability refers most directly to the:",
+      "currentOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-013",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, reliability refers most directly to the:",
+      "currentOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-014",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, reliability refers most directly to the:",
+      "currentOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-015",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, reliability refers most directly to the:",
+      "currentOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-016",
+      "type": "distractorProblems",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, reliability refers most directly to the:",
+      "currentOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "rationale": "The stem asks about generic reliability, while “Agreement between independent trained raters” is itself inter-rater reliability. The keyed “Consistency of scores under repeated conditions” is therefore not uniquely correct unless the stem specifies test–retest reliability.",
+      "recommendedFix": "Change the stem to “test–retest reliability refers most directly to…” or replace the inter-rater option with a clearly non-reliability construct, then verify the explanation."
+    },
+    {
+      "id": "a1-test-108",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-109",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-110",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-111",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-112",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-113",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-114",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-115",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, informed consent means that the athlete receives information about:",
+      "currentOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-116",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-117",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-118",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-119",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-120",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-121",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-test-122",
+      "type": "sourceProblems",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, confidentiality in athlete testing primarily concerns:",
+      "currentOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The current sourceId is world-physiotherapy-ebp-2023, whose catalog scope and inspected source notes cover evidence integration, critical appraisal, safety, and clinical reasoning. They do not directly establish the detailed informed-consent elements (risks, benefits, voluntary choice, data use, withdrawal) or athlete-data confidentiality rules tested here.",
+      "recommendedFix": "Assign a directly inspected ethics, consent, privacy, or athlete-testing source and add its locator to the source catalog; alternatively revise the item to test only claims directly supported by the current World Physiotherapy EBP source."
+    },
+    {
+      "id": "a1-core-147",
+      "type": "sourceProblems",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, a supplement used by an athlete should be evaluated for evidence, dose, contamination risk, and:",
+      "currentOptions": [
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Its status under applicable anti-doping rules",
+        "Whether teammates commonly use the same product"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "rationale": "Clinical Sports Nutrition is a plausible source for the broader supplement-evaluation context, but the specific current anti-doping-status component is more directly supported by the dated WADA 2026 Prohibited List or a directly inspected supplement/anti-doping consensus source.",
+      "recommendedFix": "Use wada-prohibited-list-2026 (or a directly inspected supplement-risk source) for the anti-doping component, or remove that component from the stem and retain the nutrition source."
+    },
+    {
+      "id": "a1-core-148",
+      "type": "sourceProblems",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a supplement used by an athlete should be evaluated for evidence, dose, contamination risk, and:",
+      "currentOptions": [
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product",
+        "Its status under applicable anti-doping rules"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "rationale": "Clinical Sports Nutrition is a plausible source for the broader supplement-evaluation context, but the specific current anti-doping-status component is more directly supported by the dated WADA 2026 Prohibited List or a directly inspected supplement/anti-doping consensus source.",
+      "recommendedFix": "Use wada-prohibited-list-2026 (or a directly inspected supplement-risk source) for the anti-doping component, or remove that component from the stem and retain the nutrition source."
+    },
+    {
+      "id": "a1-core-149",
+      "type": "sourceProblems",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, a supplement used by an athlete should be evaluated for evidence, dose, contamination risk, and:",
+      "currentOptions": [
+        "Its status under applicable anti-doping rules",
+        "Marketing claims and number of ingredients",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "rationale": "Clinical Sports Nutrition is a plausible source for the broader supplement-evaluation context, but the specific current anti-doping-status component is more directly supported by the dated WADA 2026 Prohibited List or a directly inspected supplement/anti-doping consensus source.",
+      "recommendedFix": "Use wada-prohibited-list-2026 (or a directly inspected supplement-risk source) for the anti-doping component, or remove that component from the stem and retain the nutrition source."
+    },
+    {
+      "id": "a1-core-150",
+      "type": "sourceProblems",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, a supplement used by an athlete should be evaluated for evidence, dose, contamination risk, and:",
+      "currentOptions": [
+        "Marketing claims and number of ingredients",
+        "Its status under applicable anti-doping rules",
+        "Cost compared with similar products on the market",
+        "Whether teammates commonly use the same product"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "rationale": "Clinical Sports Nutrition is a plausible source for the broader supplement-evaluation context, but the specific current anti-doping-status component is more directly supported by the dated WADA 2026 Prohibited List or a directly inspected supplement/anti-doping consensus source.",
+      "recommendedFix": "Use wada-prohibited-list-2026 (or a directly inspected supplement-risk source) for the anti-doping component, or remove that component from the stem and retain the nutrition source."
+    },
+    {
+      "id": "a1-test-033",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-034",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-035",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-036",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-037",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-038",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-039",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence",
+        "The laboratory equipment, staff time, budget, and convenience"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    },
+    {
+      "id": "a1-test-040",
+      "type": "distractorProblems",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a sport-specific test battery should be selected mainly according to:",
+      "currentOptions": [
+        "The laboratory equipment, staff time, budget, and convenience",
+        "A single generic normative table used across all athletes",
+        "A familiar battery used with a different sport and population",
+        "Sport demands, athlete level, purpose, and test evidence"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "“The laboratory equipment, staff time, budget, and convenience” are legitimate feasibility considerations when selecting a test battery. The stem says “mainly according to” rather than excluding feasibility, so the option is not clearly wrong even though the keyed option is the more comprehensive performance-focused answer.",
+      "recommendedFix": "Make the stem explicitly prioritize sport demands, purpose, athlete level, and evidence over convenience, or replace the feasibility option with a factually incorrect selection rule."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auditType": "release7-final-independent-read-only-audit",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [],
+  "summary": {
+    "status": "pass",
+    "counts": {
+      "technologyQuestions": 150,
+      "holisticQuestions": 150,
+      "mergedA1Questions": 900,
+      "mergedCorrespondenceChecked": 300,
+      "mergedCorrespondenceMismatches": 0,
+      "schemaFindings": 0,
+      "answerKeyFindings": 0,
+      "sourceSupportFindings": 0,
+      "explanationFindings": 0,
+      "distractorFindings": 0,
+      "duplicateFindings": 0,
+      "coverageFindings": 0,
+      "grammarFindings": 0,
+      "optionLengthPrimaryFlags": 0,
+      "strictLongestCount": 94,
+      "strictLongestPercent": 31.33,
+      "answerPositionCounts": [81, 72, 79, 68],
+      "maxRepeatedAnswerIndexRun": 5,
+      "answerPatternFindings": 0,
+      "technologyExplanationRepairsVerified": 127,
+      "priorProvenanceRepairEntriesVerified": 47
+    },
+    "coverage": {
+      "New & Emerging Technologies in Sports Science": 80,
+      "Biostatistics & Data Analysis": 70,
+      "Yoga & Mind–Body Interventions in Sports": 30,
+      "Athlete Health, Wellness & Holistic Development": 30,
+      "Travel-Related Challenges & Competition Readiness": 30,
+      "Anti-Doping Awareness & Ethical Practices": 30,
+      "Interdisciplinary Coordination & Support Systems": 30
+    },
+    "provenanceVerification": {
+      "cdcYellowBookJetLagQuestions": 20,
+      "nccihYogaSafetyQuestions": 7,
+      "yogaAthleteReviewQuestions": 8,
+      "yogaMindfulnessReviewQuestions": 10,
+      "yogicBreathingStudyQuestions": 3,
+      "wadaCodeQuestions": 3,
+      "acsmQuestions": 3,
+      "nscaQuestions": 12
+    }
+  }
+}

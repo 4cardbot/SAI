@@ -1,0 +1,2173 @@
+{
+  "group": "Emerging Technologies & Biostatistics",
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "assignedAuditReport": "research/option_length_review_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "flaggedCount": 100,
+  "changedCount": 100,
+  "unchangedNaturalDifferenceCount": 50,
+  "exceptionCount": 0,
+  "criteria": {
+    "primary": [
+      "correct option is more than 8 characters longer than the median distractor",
+      "total option length spread exceeds 15 characters"
+    ],
+    "secondary": "correct option is strictly longest; reviewed as a signal, not an automatic rewrite"
+  },
+  "sourcesReviewed": [
+    {
+      "sourceId": "sai-notification-2026",
+      "locator": "A1 pp. 19-22; Annexure B pp. 106-107",
+      "scope": "controlling syllabus, sample MCQ structure, emerging technologies and ethics"
+    },
+    {
+      "sourceId": "neumann-kinesiology",
+      "locator": "3rd ed., Ch. 1 and Ch. 4; supplied PDF contents pp. 21-25",
+      "scope": "planes, force, movement analysis and sensor/kinematic terminology"
+    },
+    {
+      "sourceId": "nsca-essentials-5",
+      "locator": "5th ed., Chs. 13-14; supplied PDF contents pp. 15-16",
+      "scope": "test selection, administration, scoring and interpretation"
+    },
+    {
+      "sourceId": "physiology-sport-exercise-kenney",
+      "locator": "5th ed., research/data and exercise-science chapters; supplied PDF contents",
+      "scope": "measurement and exercise-science interpretation context"
+    },
+    {
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "locator": "June 2023 policy statement, official policy page",
+      "scope": "evidence quality, uncertainty, safety and accountable use of evidence"
+    }
+  ],
+  "changes": [
+    {
+      "id": "a1-tech-006",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A direct ATP measurement",
+        "A model-based estimate requiring validation",
+        "Equivalent to oxygen-consumption measurement",
+        "Independent of body size and movement"
+      ],
+      "revisedOptions": [
+        "A direct measure of ATP use",
+        "A validated model estimate",
+        "A direct oxygen-consumption measure",
+        "A device-independent value"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased wearable/testing choices using ACSM validity, reliability, criterion-measure, and measurement-quality concepts."
+    },
+    {
+      "id": "a1-tech-008",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Changing sensor site each trial",
+        "Keeping only the highest value",
+        "Deleting values differing from the team mean",
+        "Consistent placement and signal-quality checks"
+      ],
+      "revisedOptions": [
+        "Changing the sensor site between trials",
+        "Keeping only the highest reading",
+        "Deleting readings far from the team mean",
+        "Consistent placement and signal checks"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased wearable/testing choices using ACSM validity, reliability, criterion-measure, and measurement-quality concepts."
+    },
+    {
+      "id": "a1-tech-009",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The larger device output",
+        "A criterion distance under standardized conditions",
+        "The device with longer battery life",
+        "The average of both outputs"
+      ],
+      "revisedOptions": [
+        "The larger device reading",
+        "A standardized criterion distance",
+        "The device with longer battery life",
+        "The average of both readings"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased wearable/testing choices using ACSM validity, reliability, criterion-measure, and measurement-quality concepts."
+    },
+    {
+      "id": "a1-tech-011",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Surface electromyography",
+        "Force-platform strain gauges",
+        "Satellite signals received by the device",
+        "Blood-pressure oscillations"
+      ],
+      "revisedOptions": [
+        "Surface EMG signals",
+        "Force-platform strain data",
+        "Signals from orbiting satellites",
+        "Blood-pressure oscillations"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-012",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Total session duration",
+        "Brief high-speed changes and short sprints",
+        "Average body mass",
+        "Resting heart rate"
+      ],
+      "revisedOptions": [
+        "Total session duration",
+        "Brief high-speed actions",
+        "Average body mass",
+        "Resting heart rate"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-013",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Whether distance can be calculated",
+        "The athlete's body mass",
+        "How distance was distributed across speeds and accelerations",
+        "The number of training sessions"
+      ],
+      "revisedOptions": [
+        "Whether distance can be measured",
+        "The athlete's body mass",
+        "The speed and acceleration profile",
+        "The number of training sessions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-014",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Insufficient satellite visibility",
+        "Excessive blood lactate",
+        "Force-plate sampling error",
+        "Low body temperature"
+      ],
+      "revisedOptions": [
+        "Poor satellite visibility",
+        "Excessive blood lactate",
+        "Force-plate sampling error",
+        "Low body temperature"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-016",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Using only the maximum trial",
+        "Comparing different sports",
+        "Repeated standardized trials with measurement-error analysis",
+        "Removing all low-distance trials"
+      ],
+      "revisedOptions": [
+        "Using only the maximum trial",
+        "Comparing outputs across sports",
+        "Repeated standardized trials",
+        "Removing low-distance trials"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-017",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Athlete height",
+        "High-speed running distance",
+        "Satellite count",
+        "Resting blood pressure"
+      ],
+      "revisedOptions": [
+        "Athlete height and reach",
+        "High-speed running distance",
+        "Satellite count in the session",
+        "Resting blood-pressure level"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-019",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Automatically interchangeable",
+        "Identical because both use satellites",
+        "Comparable only after device-specific validation",
+        "Poolable without recording device type"
+      ],
+      "revisedOptions": [
+        "Automatically interchangeable",
+        "Identical because both use satellites",
+        "Comparable after device validation",
+        "Poolable without device labels"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-023",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Magnetic heading or orientation reference",
+        "Body mass",
+        "Blood glucose",
+        "Jump impulse"
+      ],
+      "revisedOptions": [
+        "Magnetic heading",
+        "Body mass",
+        "Blood glucose",
+        "Jump impulse"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-024",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only video and audio data",
+        "Only force and pressure data",
+        "Accelerometer, gyroscope, and often magnetometer data",
+        "Only post-session averages"
+      ],
+      "revisedOptions": [
+        "Video and audio data only",
+        "Force and pressure data only",
+        "Combined inertial-sensor readings",
+        "Post-session averages only"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-025",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Progressive drift",
+        "Automatic error correction",
+        "A fixed error with no later effect",
+        "An exact ground-force trace"
+      ],
+      "revisedOptions": [
+        "Progressive drift",
+        "Automatic error correction",
+        "A fixed error only",
+        "An exact ground-force trace"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-026",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Anatomical placement and attachment",
+        "Athlete footwear brand only",
+        "Sensor colour",
+        "Number of analysts"
+      ],
+      "revisedOptions": [
+        "Anatomical placement and attachment",
+        "Footwear brand and model for every trial",
+        "Sensor colour and casing design",
+        "Number of analysts on the team"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-027",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Fastest movement frequencies of interest",
+        "Number of athletes",
+        "Data-storage duration",
+        "Consent-form length"
+      ],
+      "revisedOptions": [
+        "Highest movement frequency of interest",
+        "Number of athletes tested in the session",
+        "Expected data-storage duration",
+        "Consent-form length and format"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-028",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Reference orientation and sensor offsets",
+        "Maximal oxygen uptake",
+        "Muscle strength",
+        "A replacement for repeated trials"
+      ],
+      "revisedOptions": [
+        "Reference orientation and offsets",
+        "A measure of maximal oxygen uptake",
+        "A direct measure of muscle strength",
+        "A substitute for repeated trials"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-030",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "An unrelated body-composition test",
+        "Synchronized motion capture or force data",
+        "A subjective fatigue score alone",
+        "An unmatched running speed"
+      ],
+      "revisedOptions": [
+        "An unrelated body-composition test",
+        "Synchronized motion or force data",
+        "A subjective fatigue score alone",
+        "An unmatched running speed"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-032",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "External ground-reaction force",
+        "Motor-unit firing rate",
+        "Blood lactate",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "External ground-reaction force",
+        "Motor-unit firing rate",
+        "Blood lactate concentration",
+        "Muscle cross-sectional area"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-033",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Adding body weight to every value",
+        "Using flight time alone",
+        "Subtracting body weight from measured vertical force",
+        "Ignoring the baseline"
+      ],
+      "revisedOptions": [
+        "Adding body weight to measured force",
+        "Using flight time to infer the force",
+        "Subtracting body weight from vertical force",
+        "Ignoring the body-weight baseline"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-034",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Slope of a force-time curve over a specified interval",
+        "Total jump distance",
+        "Weekly repetition count",
+        "Recovery heart rate"
+      ],
+      "revisedOptions": [
+        "Slope of the force-time curve",
+        "Total distance covered in a jump",
+        "Weekly repetition count in training",
+        "Heart rate during recovery"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-035",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Anatomical centre of mass",
+        "Highest point of a jump",
+        "Location of the resultant force distribution on the plate",
+        "Position of the nearest camera"
+      ],
+      "revisedOptions": [
+        "Anatomical centre of mass of the athlete",
+        "Highest point reached in a jump",
+        "Point of resultant force distribution",
+        "Position of the nearest camera"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-036",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the largest peak",
+        "Both legs after combining them",
+        "Different time windows for each side",
+        "Left and right force-time measures using the same rules"
+      ],
+      "revisedOptions": [
+        "Only the largest force peak",
+        "Both legs after averaging them",
+        "Different time windows for each side",
+        "Left and right force-time measures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-039",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "GPS",
+        "Surface electromyography",
+        "A video tripod",
+        "A radar gun"
+      ],
+      "revisedOptions": [
+        "A GPS unit",
+        "Surface EMG",
+        "A video tripod",
+        "A radar gun"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-041",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Transverse plane",
+        "Frontal plane",
+        "Sagittal plane",
+        "Coronal-transverse oblique plane"
+      ],
+      "revisedOptions": [
+        "Transverse plane",
+        "Frontal plane",
+        "Sagittal plane",
+        "Oblique plane"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-042",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Rapid foot-strike events",
+        "Body mass",
+        "A monthly trend",
+        "The training policy"
+      ],
+      "revisedOptions": [
+        "Rapid foot-strike events",
+        "Body mass during testing",
+        "A monthly training trend",
+        "The training policy"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-043",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The passage of time",
+        "All visible motion",
+        "Movement outside the camera plane",
+        "The need for calibration"
+      ],
+      "revisedOptions": [
+        "The passage of time in the recording",
+        "All visible motion in the recording",
+        "Motion outside the camera plane",
+        "The need for camera calibration"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-044",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A higher frame rate",
+        "Spatial scale for image distances",
+        "Blood-pressure data",
+        "Complete removal of parallax"
+      ],
+      "revisedOptions": [
+        "A higher video frame rate for the camera",
+        "Image scale for distance estimates",
+        "Blood-pressure measurements",
+        "Complete removal of perspective error"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-046",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Serum chemistry",
+        "Visible movement characteristics and technique",
+        "A p-value without observations",
+        "External force at every instant"
+      ],
+      "revisedOptions": [
+        "Serum chemistry values from blood",
+        "Visible movement patterns and technique",
+        "A p-value without visual observations",
+        "External force at every instant"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-047",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Moved behind the athlete",
+        "Perpendicular to the movement plane when possible",
+        "Placed at a changing angle",
+        "Set at a new distance each trial"
+      ],
+      "revisedOptions": [
+        "Moved behind the athlete",
+        "Perpendicular to the movement plane",
+        "Changed angle between trials",
+        "Changed distance between trials"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-048",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Different each session",
+        "As consistent as possible",
+        "Unrecorded",
+        "Chosen after seeing the result"
+      ],
+      "revisedOptions": [
+        "Different between sessions",
+        "Kept as consistent as possible",
+        "Left unrecorded between sessions",
+        "Chosen after viewing results"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-050",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A single uncalibrated photograph",
+        "Only a heart-rate strap",
+        "One force plate without cameras",
+        "Multiple calibrated and synchronized camera views"
+      ],
+      "revisedOptions": [
+        "One uncalibrated photograph",
+        "A heart-rate strap only",
+        "One force plate without cameras",
+        "Multiple calibrated camera views"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "neumann-kinesiology",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased sensor, force-plate, EMG, and video-analysis choices using the supplied Kinesiology movement-analysis terminology."
+    },
+    {
+      "id": "a1-tech-053",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "For final evaluation after model development",
+        "To tune every parameter repeatedly",
+        "To replace the training set",
+        "Only when training accuracy is low"
+      ],
+      "revisedOptions": [
+        "For final model evaluation",
+        "To tune parameters repeatedly",
+        "To replace the training set",
+        "Only when training accuracy is low"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-055",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Correctly identified",
+        "Incorrectly excluded",
+        "Correctly classified as negative",
+        "Predicted positive cases that are true"
+      ],
+      "revisedOptions": [
+        "Correctly classified as positive",
+        "Incorrectly classified as negative",
+        "Correctly classified as negative",
+        "Predicted positives that are true"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-056",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Predict the common non-injury class and appear accurate",
+        "Have no outcome variable",
+        "Become causal automatically",
+        "Need no validation"
+      ],
+      "revisedOptions": [
+        "Predict the common non-injury class",
+        "Have no defined outcome variable",
+        "Become causal without design",
+        "Need no external validation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-058",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Guarantee the model is unbiased",
+        "Treat a prediction as a diagnosis",
+        "Review which inputs contributed to a prediction",
+        "Avoid measuring outcomes"
+      ],
+      "revisedOptions": [
+        "Guarantee that the model is unbiased",
+        "Treat the prediction as a diagnosis",
+        "Review inputs contributing to a prediction",
+        "Avoid measuring clinical outcomes"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-059",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Replace medical judgment",
+        "Support decisions with accountable human oversight",
+        "Exclude the athlete automatically",
+        "Publish the raw data"
+      ],
+      "revisedOptions": [
+        "Replace clinical judgment entirely",
+        "Support decisions with human review",
+        "Exclude the athlete automatically",
+        "Publish raw monitoring data"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-060",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Proof that load caused injury",
+        "Proof that no load is safe",
+        "An association, not proof of causation",
+        "No need to consider confounding"
+      ],
+      "revisedOptions": [
+        "Evidence that load caused injury",
+        "Evidence that no load is safe",
+        "An association, not causation",
+        "Confounding need not be considered"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-063",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "GPS distance is external load and heart rate is internal load",
+        "GPS distance is internal and heart rate is external",
+        "Both directly measure tissue damage",
+        "Both measure technical skill only"
+      ],
+      "revisedOptions": [
+        "GPS distance is external; heart rate is internal",
+        "GPS distance is internal; heart rate is external",
+        "Both directly measure tissue damage in practice",
+        "Both measure technical skill alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-064",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Give every user read-write access",
+        "Use one shared account",
+        "Make all data public",
+        "Limit access to legitimate responsibilities"
+      ],
+      "revisedOptions": [
+        "Give every user full access",
+        "Use one shared account",
+        "Make all records publicly visible",
+        "Limit access by legitimate role"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-065",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Recorded as the worst score",
+        "Flagged as missing",
+        "Treated as proof of wellness",
+        "Replaced silently by the team mean"
+      ],
+      "revisedOptions": [
+        "Recorded as the worst score",
+        "Flagged as missing data",
+        "Treated as evidence of wellness",
+        "Replaced silently by the team mean"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-066",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A value from one session only",
+        "A password from a username",
+        "A short-term change from an athlete's baseline",
+        "A camera view from a force plate"
+      ],
+      "revisedOptions": [
+        "A value from one session",
+        "A password from a username",
+        "A short-term change from baseline",
+        "A camera view from a force plate"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-067",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Duplicate entry and incompatible records",
+        "The need for consent",
+        "All measurement error",
+        "Professional review"
+      ],
+      "revisedOptions": [
+        "Duplicate and incompatible records",
+        "The need for athlete consent",
+        "All measurement error",
+        "Professional review of data"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-068",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Hide uncertainty",
+        "Make irreversible medical decisions",
+        "Rank athletes publicly by sensitive data",
+        "Provide understandable feedback for discussion"
+      ],
+      "revisedOptions": [
+        "Hide uncertainty from users",
+        "Make irreversible medical decisions",
+        "Rank athletes by sensitive data",
+        "Provide understandable feedback"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-069",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Who changed a record and when",
+        "The athlete's training preference",
+        "The interface theme",
+        "Only the final value"
+      ],
+      "revisedOptions": [
+        "Who changed each record and when",
+        "The athlete's training preference",
+        "The dashboard's interface theme",
+        "Only the final stored value"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-070",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A definitive diagnosis",
+        "A prompt for contextual human review",
+        "A reason to ignore clinical findings",
+        "A substitute for consent"
+      ],
+      "revisedOptions": [
+        "A definitive clinical diagnosis",
+        "A prompt for human review",
+        "A reason to ignore clinical findings",
+        "A substitute for informed consent"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced GPS and athlete-monitoring choices while retaining external/internal load, standardization, longitudinal monitoring, and contextual-review concepts."
+    },
+    {
+      "id": "a1-tech-071",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Collect every available variable",
+        "Share raw data with all staff",
+        "Obtain informed consent explaining purpose, access, use, and withdrawal",
+        "Use data for unspecified future purposes"
+      ],
+      "revisedOptions": [
+        "Collect every available variable",
+        "Share raw data with all staff",
+        "Obtain informed consent for stated uses",
+        "Use data for unspecified future uses"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-072",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Every sensor stream indefinitely",
+        "The most invasive sensor",
+        "All data for future publication",
+        "Only data necessary for a defined purpose"
+      ],
+      "revisedOptions": [
+        "Every sensor stream indefinitely",
+        "The most invasive sensor available",
+        "All data for future publication",
+        "Only data needed for a defined purpose"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-073",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Identifiers are removed or replaced, but re-identification may remain possible",
+        "All privacy risk disappears",
+        "Access controls are unnecessary",
+        "Any secondary use is allowed"
+      ],
+      "revisedOptions": [
+        "Identifiers are masked, but re-identification may remain possible",
+        "Identifiers are masked, so privacy risk is eliminated",
+        "Identifiers are masked, so access controls are unnecessary",
+        "Identifiers are masked, so secondary use is automatically allowed"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-074",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A larger sample size",
+        "A dashboard summary",
+        "Role-based access with strong authentication",
+        "A higher sampling rate"
+      ],
+      "revisedOptions": [
+        "A larger athlete sample size",
+        "A summarized dashboard view",
+        "Role-based access and authentication",
+        "A higher sensor sampling rate"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-076",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "That data are never deleted",
+        "That every coach keeps a copy",
+        "That athletes cannot ask about data",
+        "How long data are needed and how they are securely deleted or anonymized"
+      ],
+      "revisedOptions": [
+        "Permanent retention without review",
+        "A complete copy for every coach",
+        "No athlete access to records",
+        "Retention period and secure deletion"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-077",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Check subgroup performance using representative data",
+        "Remove subgroup information without testing",
+        "Optimize only overall accuracy",
+        "Assume a large data set is fair"
+      ],
+      "revisedOptions": [
+        "Check subgroup performance on representative data",
+        "Remove subgroup information without evaluation",
+        "Optimize only the overall accuracy score",
+        "Assume a large data set is automatically fair"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-079",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Follow the approved ethics process and check consent or waiver",
+        "Assume original consent covers everything",
+        "Remove the date and skip review",
+        "Proceed without ethics review"
+      ],
+      "revisedOptions": [
+        "Check ethics approval and consent or waiver",
+        "Assume original consent covers all uses",
+        "Remove dates and skip ethical review",
+        "Proceed without research ethics review"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-080",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Contain access, document the incident, and follow notification procedures",
+        "Ignore it if no injury occurred",
+        "Delete the audit logs",
+        "Publish the affected records"
+      ],
+      "revisedOptions": [
+        "Contain access and follow breach procedures",
+        "Ignore the breach if no injury occurred",
+        "Delete the audit logs immediately",
+        "Publish all affected records to staff"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rephrased privacy, consent, data-governance, and AI-ethics choices within the notification's emerging-technology scope."
+    },
+    {
+      "id": "a1-tech-082",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Direction of association",
+        "Sample size",
+        "Probability the null is true",
+        "Spread around the mean"
+      ],
+      "revisedOptions": [
+        "Direction of a measured association",
+        "The number of observations",
+        "Probability that the null is true",
+        "Spread of observations around the mean"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-085",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Rename variables",
+        "Remove variation",
+        "Estimate or test population claims from sample data",
+        "Display one raw score"
+      ],
+      "revisedOptions": [
+        "Rename variables in a statistical dataset",
+        "Remove variation from measurements",
+        "Estimate population claims from samples",
+        "Display one raw observation"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-087",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Maximum minus minimum",
+        "Mean divided by SD",
+        "Third quartile minus first quartile",
+        "Sample size minus median"
+      ],
+      "revisedOptions": [
+        "Maximum value minus minimum value",
+        "Mean divided by standard deviation",
+        "Third quartile minus first quartile",
+        "Sample size minus the median"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-088",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Doubles",
+        "Stays unchanged",
+        "Becomes four times larger",
+        "Halves"
+      ],
+      "revisedOptions": [
+        "Becomes twice as large",
+        "Remains unchanged",
+        "Becomes four times larger",
+        "Becomes half as large"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-089",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The raw time order",
+        "Median, quartiles, and possible outliers",
+        "Causal effect",
+        "Exact injury probability"
+      ],
+      "revisedOptions": [
+        "The raw time sequence",
+        "Median, quartiles, and outliers",
+        "A causal treatment effect",
+        "An exact injury probability"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-090",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The null hypothesis itself",
+        "A clinically important effect",
+        "A representative sample",
+        "Data at least as extreme as observed"
+      ],
+      "revisedOptions": [
+        "The null hypothesis itself",
+        "A clinically important effect size",
+        "A representative sample of athletes",
+        "Data at least as extreme as observed"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-093",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Greater than one",
+        "Equal to the sample SD",
+        "Zero",
+        "Always positive"
+      ],
+      "revisedOptions": [
+        "Greater than one",
+        "Equal to the sample SD",
+        "Equal to zero",
+        "Always positive"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-094",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Accept a practically large effect",
+        "Reject the null at the 5% level",
+        "Prove the alternative true",
+        "Ignore the result"
+      ],
+      "revisedOptions": [
+        "Accept a practically large effect",
+        "Reject the null at the 5% level",
+        "Prove the alternative hypothesis",
+        "Ignore the statistical result"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-095",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A new random sample",
+        "Each athlete's difference score",
+        "The maximum score in each group",
+        "A rank for the team"
+      ],
+      "revisedOptions": [
+        "A new random sample of athletes",
+        "Each athlete's paired difference",
+        "The maximum score in each group",
+        "A rank for every team member"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-098",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Proves a positive change",
+        "Proves no change is possible",
+        "Shows every athlete improved",
+        "Includes zero and is not conventionally significant"
+      ],
+      "revisedOptions": [
+        "Excludes zero and supports a positive change",
+        "Rules out a true mean difference of zero",
+        "Shows that all athletes improved equally",
+        "Includes zero; not conventionally significant"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-101",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "One group only",
+        "Two measurements from one athlete",
+        "Three or more independent groups",
+        "Two categorical variables only"
+      ],
+      "revisedOptions": [
+        "A single independent group",
+        "Two measurements from one athlete",
+        "Three or more independent groups",
+        "Two categorical variables only"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-102",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Mean square within divided by sample size",
+        "Mean divided by SD",
+        "Mean square between divided by mean square within",
+        "Number of groups divided by p"
+      ],
+      "revisedOptions": [
+        "Within-group MS / sample size",
+        "Overall mean / standard deviation",
+        "Between-group MS / within-group MS",
+        "Number of groups / p-value"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-104",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Increase sample size",
+        "Replace the outcome",
+        "Report only the omnibus p-value",
+        "Identify which group pairs differ"
+      ],
+      "revisedOptions": [
+        "Increase the study sample",
+        "Replace the measured outcome",
+        "Report only the overall p-value",
+        "Identify group pairs that differ"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-106",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only one group mean",
+        "Two main effects and their interaction",
+        "Only standard deviation",
+        "Only normality"
+      ],
+      "revisedOptions": [
+        "The mean of one independent group",
+        "Two main effects and their interaction",
+        "The standard deviation of the sample",
+        "Only whether the data are normally distributed"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-107",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "There is no variability",
+        "One factor's effect changes across levels of the other",
+        "All cell means are equal",
+        "The outcome is categorical"
+      ],
+      "revisedOptions": [
+        "The outcome has no meaningful variability",
+        "One factor's effect depends on the other factor",
+        "All cell means are exactly equal across groups",
+        "The outcome is measured as categories"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-110",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A rounded p-value",
+        "Removal of the largest group",
+        "Hiding the raw data",
+        "A post-hoc or planned comparison"
+      ],
+      "revisedOptions": [
+        "A rounded version of the p-value",
+        "Removal of the largest group",
+        "Hiding the raw observations",
+        "A post-hoc or planned comparison"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-112",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Causation",
+        "A strong positive linear association",
+        "No association",
+        "A 0.80-unit mean difference"
+      ],
+      "revisedOptions": [
+        "Proof of a causal effect in the sample",
+        "A strong positive linear association",
+        "Evidence of no linear association",
+        "A mean difference of 0.80 units"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-113",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "No possible relationship",
+        "A perfect negative association",
+        "No linear association in the sample",
+        "Identical means"
+      ],
+      "revisedOptions": [
+        "No possible relationship at all",
+        "A perfect negative association",
+        "No linear association in the sample",
+        "Identical means in the two variables"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-114",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Proof that the predictor causes the outcome in this sample",
+        "49% of sample outcome variation is associated with the linear predictor",
+        "A 49-unit increase in the outcome for each relevant predictor change",
+        "A p-value equal to 0.49 for the fitted regression model"
+      ],
+      "revisedOptions": [
+        "Proof that the predictor caused the outcome in this sample",
+        "About 49% of outcome variation is explained by the model",
+        "A 49-unit outcome increase for each predictor unit",
+        "A p-value exactly equal to 0.49 for the fitted model"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-115",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Increasing sample size",
+        "Making variables categorical",
+        "Removing measurement error",
+        "Altering covariance and the fitted linear pattern"
+      ],
+      "revisedOptions": [
+        "Increasing the sample size alone",
+        "Converting both variables to categories",
+        "Removing measurement error from data",
+        "Altering covariance and the fitted line"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-116",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Paired t-test",
+        "ANOVA F",
+        "Standard deviation only",
+        "Spearman rank correlation"
+      ],
+      "revisedOptions": [
+        "A paired-samples t-test",
+        "An ANOVA F statistic",
+        "The standard deviation alone",
+        "Spearman rank correlation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-119",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Scatterplot for linearity and unusual observations",
+        "Histogram of one variable only",
+        "Pie chart of training categories",
+        "Table of athlete identifiers"
+      ],
+      "revisedOptions": [
+        "A scatterplot for linearity and outliers",
+        "A histogram for one variable only",
+        "A pie chart of training categories",
+        "A table of athlete identifiers"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-120",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Proof the population r is zero",
+        "A large practical effect",
+        "Proof of identical measurement",
+        "An association with insufficient clear population evidence"
+      ],
+      "revisedOptions": [
+        "Proof that the population correlation is zero",
+        "Evidence of a large practical effect",
+        "Proof that all measurements are identical",
+        "An association with limited population evidence"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-121",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "0.4-unit sample-size increase",
+        "0.4-unit outcome increase",
+        "64% variance explanation",
+        "0.4 p-value"
+      ],
+      "revisedOptions": [
+        "A 0.4-unit increase in sample size",
+        "A 0.4-unit increase in outcome",
+        "64% of outcome variance explained",
+        "A p-value equal to 0.4"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-123",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "64% accuracy for every athlete",
+        "64% of outcome variation in the fitted sample",
+        "A slope of 0.64",
+        "64% athlete improvement"
+      ],
+      "revisedOptions": [
+        "64% prediction accuracy for every athlete",
+        "64% of outcome variation in the fitted sample",
+        "A regression slope of exactly 0.64 units",
+        "64% improvement among all athletes"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-124",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Observed outcome minus predicted outcome",
+        "Sample size minus mean",
+        "Predictor minus SD",
+        "Difference between group means"
+      ],
+      "revisedOptions": [
+        "Observed minus predicted outcome",
+        "Sample size minus the mean",
+        "Predictor value minus its SD",
+        "Difference between group means"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-125",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Regression cannot use numbers",
+        "All slopes are causal",
+        "R squared is always zero",
+        "Prediction and association do not establish causation"
+      ],
+      "revisedOptions": [
+        "Regression cannot use numerical data",
+        "Every regression slope is automatically causal",
+        "R squared is always equal to zero",
+        "Association alone cannot establish causation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-126",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Guarantee no missing data",
+        "Make the sample random",
+        "Convert predictors to categories",
+        "Adjust for measured covariates related to the outcome"
+      ],
+      "revisedOptions": [
+        "Guarantee that data are complete",
+        "Make the sample randomly selected",
+        "Convert all predictors to categories",
+        "Adjust for measured covariates"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-127",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A force plate",
+        "Only its mean",
+        "Dummy or indicator coding",
+        "A confidence interval without an outcome"
+      ],
+      "revisedOptions": [
+        "A force-plate measurement",
+        "The predictor's mean value",
+        "Dummy or indicator coding",
+        "A confidence interval alone"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-130",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only as a p-value",
+        "As a correlation sign",
+        "As the number of predictors",
+        "In the outcome's original units"
+      ],
+      "revisedOptions": [
+        "Only as a statistical p-value",
+        "As the sign of a correlation",
+        "As the number of model predictors",
+        "In the outcome's original units"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-131",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Individual athlete's future score",
+        "Fixed population parameter",
+        "Null hypothesis",
+        "Sample's exact raw values"
+      ],
+      "revisedOptions": [
+        "An individual athlete's future score",
+        "A fixed population parameter",
+        "The null hypothesis itself",
+        "The sample's exact raw values"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-132",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only a negative difference",
+        "No difference at all",
+        "A difference above 10",
+        "A positive difference throughout the interval"
+      ],
+      "revisedOptions": [
+        "Only a negative difference",
+        "No difference at all",
+        "A difference above 10 units",
+        "A positive difference throughout"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-133",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Wider",
+        "Narrower",
+        "Exactly zero",
+        "Independent of standard error"
+      ],
+      "revisedOptions": [
+        "Becomes wider overall",
+        "Becomes narrower overall",
+        "Becomes exactly zero",
+        "Unrelated to standard error"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-135",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Lower limit",
+        "Upper limit",
+        "Confidence-level value",
+        "Centre of the interval"
+      ],
+      "revisedOptions": [
+        "The lower confidence limit",
+        "The upper confidence limit",
+        "The confidence-level value",
+        "The centre of the interval"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-136",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Excludes zero",
+        "Proves positive change",
+        "Shows every athlete changed equally",
+        "Includes zero"
+      ],
+      "revisedOptions": [
+        "Excludes a zero mean change",
+        "Proves a positive mean change",
+        "Shows every athlete changed equally",
+        "Includes a zero mean change"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-138",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The effect is certainly below threshold",
+        "The effect is certainly above threshold",
+        "The estimate is zero",
+        "Below-threshold and above-threshold effects remain compatible"
+      ],
+      "revisedOptions": [
+        "The effect is definitely below 0.5",
+        "The effect is definitely above 0.5",
+        "The estimate equals 0.5 exactly",
+        "The CI crosses the practical threshold"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-139",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A definite worthwhile benefit",
+        "A broad range of large benefits",
+        "A precise estimate excluding effects as large as 0.5",
+        "Proof of harm"
+      ],
+      "revisedOptions": [
+        "A definite worthwhile performance benefit",
+        "A broad range of large performance benefits",
+        "The CI excludes effects as large as 0.5",
+        "Proof that the intervention causes harm"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-140",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The probability of each athlete's score",
+        "The exact range of all future observations",
+        "The causal mechanism",
+        "Precision and uncertainty"
+      ],
+      "revisedOptions": [
+        "The probability of each athlete's score",
+        "The exact range of future observations",
+        "The causal mechanism of the effect",
+        "Precision and uncertainty of the estimate"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-141",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Sample size",
+        "p-value",
+        "Confidence level",
+        "Pooled standard deviation"
+      ],
+      "revisedOptions": [
+        "The number of participants in each sample",
+        "The reported p-value from the comparison",
+        "The selected confidence level",
+        "The pooled standard deviation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-142",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Number of participants only",
+        "Probability the null is true",
+        "Number of predictors",
+        "Magnitude, while sample size affects precision and power"
+      ],
+      "revisedOptions": [
+        "The magnitude of an effect",
+        "The probability that the null is true",
+        "The number of model predictors",
+        "The number of participants only"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-143",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "No standardized difference between group means",
+        "Statistical significance",
+        "A very large practical effect",
+        "Zero participants"
+      ],
+      "revisedOptions": [
+        "No standardized difference between means",
+        "Statistical significance of the result",
+        "A very large practical effect size",
+        "Zero participants in the sample"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-144",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Athletes who improved",
+        "p-values below alpha",
+        "Missing observations",
+        "Total outcome variance associated with the factor"
+      ],
+      "revisedOptions": [
+        "The proportion of athletes who improved",
+        "The proportion of p-values below alpha",
+        "The proportion of missing observations",
+        "Total variance linked to the factor"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-145",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "An effect-size measure of association",
+        "A replacement for raw data",
+        "A causal coefficient by definition",
+        "A retention measure"
+      ],
+      "revisedOptions": [
+        "An association effect-size measure",
+        "A replacement for raw data",
+        "A causal coefficient by definition",
+        "A retention measure"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-146",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Practical importance must be identical",
+        "They must have equal sample sizes",
+        "Both effects are causal",
+        "P-value alone does not determine magnitude or practical value"
+      ],
+      "revisedOptions": [
+        "Practical importance must be identical",
+        "The studies must have equal sample sizes",
+        "Both observed effects are causal",
+        "P-value does not determine effect magnitude"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-147",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A pre-specified smallest worthwhile change",
+        "Alphabetical athlete order",
+        "Only the largest p-value",
+        "Raw data volume"
+      ],
+      "revisedOptions": [
+        "A worthwhile-change threshold",
+        "Alphabetical order of the athletes",
+        "Only the largest p-value",
+        "The volume of raw data"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-148",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Uses original units without adjustment",
+        "Ignores variability",
+        "Applies only to categorical outcomes",
+        "Standardizes the difference using a measure of spread"
+      ],
+      "revisedOptions": [
+        "Uses original units without adjustment",
+        "Ignores all outcome variability",
+        "Applies only to categorical outcomes",
+        "Standardizes the difference by variability"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    },
+    {
+      "id": "a1-tech-150",
+      "reason": "Primary option-length flag: correct option exceeded the distractor median by more than 8 characters or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Large samples remove all bias",
+        "Statistical and practical significance differ",
+        "Effect size is unnecessary",
+        "A p-value measures motivation"
+      ],
+      "revisedOptions": [
+        "Large samples eliminate all sources of bias",
+        "Statistical and practical significance differ",
+        "Effect size is unnecessary for interpretation",
+        "A p-value measures athlete motivation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rephrased and balanced option set with source-supported wording",
+      "reviewerNote": "Rebalanced AI/statistical choices while retaining evidence interpretation, uncertainty, association-versus-causation, and practical-significance concepts."
+    }
+  ],
+  "exceptions": [],
+  "postReviewMetrics": {
+    "primaryFlags": 0,
+    "strictLongest": 50,
+    "strictLongestRate": 0.3333,
+    "longestOrTied": 60,
+    "longestOrTiedRate": 0.4,
+    "spreadOver15": 0,
+    "maxSpread": 15,
+    "answerIndexCounts": [
+      38,
+      38,
+      37,
+      37
+    ],
+    "meanCorrectOptionLength": 28.5,
+    "meanDistractorOptionLength": 26.9,
+    "meanCorrectLengthRank": 2
+  },
+  "validation": {
+    "exactlyFourOptions": true,
+    "zeroBasedCorrectIndex": true,
+    "idsPreserved": true,
+    "questionTextPreserved": true,
+    "sourceIdsPreserved": true
+  }
+}
+

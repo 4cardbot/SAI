@@ -1,0 +1,218 @@
+{
+  "auditType": "final_independent_read_only_content_audit",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "assignedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "mergedFile": "question_bank/section_a1.json",
+  "scope": "Independent item-level review of all assigned retained questions and their corresponding merged entries. Reviewed answer keys, distractor plausibility, explanation alignment, sourceId plausibility, official syllabus mapping, four-option schema, option-length patterns, and exact duplicates. No question-bank, source-catalog, script, test, README, or prior audit-log file was edited.",
+  "groups": [
+    {
+      "group": "data_analytics",
+      "retainedFile": "question_bank/section_a1_data_analytics.json",
+      "mergedIdRange": "a1-data-001 through a1-data-150",
+      "reviewedCount": 150,
+      "topic": "Data Interpretation & Applied Analytics",
+      "subtopics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      }
+    },
+    {
+      "group": "performance_recovery",
+      "retainedFile": "question_bank/section_a1_performance_recovery.json",
+      "mergedIdRange": "a1-recovery-001 through a1-recovery-150",
+      "reviewedCount": 150,
+      "topic": "Performance Enhancement & Recovery Protocols",
+      "subtopics": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      }
+    }
+  ],
+  "reviewedCount": 300,
+  "highConfidenceDefects": 2,
+  "answerKeyProblems": 2,
+  "distractorProblems": 0,
+  "sourceProblems": 0,
+  "schemaProblems": 0,
+  "lengthProblems": 0,
+  "exactDuplicates": 0,
+  "validationMetrics": {
+    "questionsPerRetainedFile": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "mergedEntriesCompared": 300,
+    "mergedEntriesExactlyMatchingRetainedEntries": 300,
+    "mergedEntryMismatches": [],
+    "answerIndexCountsCombined": [
+      76,
+      76,
+      74,
+      74
+    ],
+    "unknownSourceIds": [],
+    "allQuestionsHaveRequiredFields": true,
+    "allQuestionsHaveFourDistinctOptions": true,
+    "allCorrectIndicesInRange": true,
+    "syllabusMappingProblems": [],
+    "exactQuestionTextDuplicatesWithinAssignedFiles": [],
+    "exactQuestionTextDuplicatesAcrossAssignedFiles": [],
+    "duplicateOptionSets": 0,
+    "optionLengthRule": "Primary flag when the keyed option exceeds the median distractor length by more than 8 characters or when the four-option spread exceeds 15 characters; strictly-longest status is a secondary review signal.",
+    "optionLengthResults": {
+      "data_analytics": {
+        "primaryFlags": 0,
+        "spreadFlags": 0,
+        "strictlyLongestCorrect": 62,
+        "maximumCorrectMinusMedianDistractor": 7,
+        "maximumOptionSpread": 14
+      },
+      "performance_recovery": {
+        "primaryFlags": 0,
+        "spreadFlags": 0,
+        "strictlyLongestCorrect": 0,
+        "maximumCorrectMinusMedianDistractor": 3.5,
+        "maximumOptionSpread": 15
+      }
+    },
+    "secondaryObservations": [
+      "The data_analytics group has a statistical secondary length pattern: the keyed option is strictly longest in 62 of 150 items (41.3%), although no individual item exceeds either primary length threshold. This is recorded as an observation rather than a high-confidence defect because the maximum excess is 7 characters and the options remain within the configured spread threshold.",
+      "The assigned groups use repeated concept frames with different contextual openings. These are not exact duplicate question texts and were not counted as duplicate defects; no repeated frame was treated as a content defect without a clear answer, source, or schema failure."
+    ]
+  },
+  "mediumConfidenceConcerns": [
+    {
+      "ids": [
+        "a1-data-101",
+        "a1-data-102",
+        "a1-data-103",
+        "a1-data-104",
+        "a1-data-105",
+        "a1-data-106",
+        "a1-data-107",
+        "a1-data-108",
+        "a1-data-109",
+        "a1-data-110",
+        "a1-data-111",
+        "a1-data-112",
+        "a1-data-113",
+        "a1-data-114",
+        "a1-data-115",
+        "a1-data-116",
+        "a1-data-117",
+        "a1-data-118",
+        "a1-data-119",
+        "a1-data-120"
+      ],
+      "type": "sourceSpecificityConcern",
+      "confidence": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The source is defensible for evidence-based practice, but it is broader than a dedicated research-methods source for the RCT and cohort definitions. No high-confidence source defect was counted because the cited policy is relevant to the subtopic and the claims are standard.",
+      "recommendedFollowUp": "Consider a granular research-methods or epidemiology source entry during a later centralized catalog pass."
+    },
+    {
+      "ids": [
+        "a1-data-131",
+        "a1-data-132",
+        "a1-data-133",
+        "a1-data-134",
+        "a1-data-135",
+        "a1-data-136",
+        "a1-data-137",
+        "a1-data-138",
+        "a1-data-139",
+        "a1-data-140"
+      ],
+      "type": "sourceSpecificityConcern",
+      "confidence": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The confounder definition is factually correct and the source is relevant to evidence-based practice, but the catalog does not contain a dedicated epidemiology source or locator for confounding.",
+      "recommendedFollowUp": "Add a verified research-methods or epidemiology source only after inspecting and cataloging it centrally."
+    },
+    {
+      "ids": [
+        "a1-recovery-091",
+        "a1-recovery-092",
+        "a1-recovery-093",
+        "a1-recovery-094",
+        "a1-recovery-095",
+        "a1-recovery-096",
+        "a1-recovery-097",
+        "a1-recovery-098",
+        "a1-recovery-099",
+        "a1-recovery-100"
+      ],
+      "type": "sourceSpecificityConcern",
+      "confidence": "medium",
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The source is relevant to load and recovery, but it is broader than a modality-specific source for compression, massage, cryotherapy, and hydrotherapy. The item concept and answer remain defensible.",
+      "recommendedFollowUp": "Consider a verified recovery-modalities consensus or a precise NSCA recovery chapter locator during a later catalog pass."
+    },
+    {
+      "ids": [
+        "a1-recovery-121",
+        "a1-recovery-122",
+        "a1-recovery-123",
+        "a1-recovery-124",
+        "a1-recovery-125",
+        "a1-recovery-126",
+        "a1-recovery-127",
+        "a1-recovery-128",
+        "a1-recovery-129",
+        "a1-recovery-130"
+      ],
+      "type": "sourceSpecificityConcern",
+      "confidence": "medium",
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The rapid-load and inadequate-recovery claim is supported by the cited load consensus, but a direct injury-risk source would provide more specific provenance. This is not counted as a high-confidence defect because the current source directly addresses load and health risk.",
+      "recommendedFollowUp": "Consider a verified injury-risk consensus or relevant textbook chapter locator during a later catalog pass."
+    }
+  ],
+  "defects": [
+    {
+      "id": "a1-data-011",
+      "type": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+      "currentOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The explanation says that performance interpretation should compare related qualities and consider fatigue, technique, and sport demands. The only option expressing that interpretation is option 2, ‘Speed power, fatigue tolerance, or sprint technique,’ but the current zero-based key is 1 and selects the unrelated validity statement.",
+      "recommendedFix": {
+        "correct": 2,
+        "preserveOptions": true,
+        "action": "Change only the zero-based correct index from 1 to 2, then verify the merged entry."
+      }
+    },
+    {
+      "id": "a1-data-012",
+      "type": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+      "currentOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The explanation says that performance interpretation should compare related qualities and consider fatigue, technique, and sport demands. The only option expressing that interpretation is option 3, ‘Speed power, fatigue tolerance, or sprint technique,’ but the current zero-based key is 1 and selects the unrelated validity statement.",
+      "recommendedFix": {
+        "correct": 3,
+        "preserveOptions": true,
+        "action": "Change only the zero-based correct index from 1 to 3, then verify the merged entry."
+      }
+    }
+  ]
+}

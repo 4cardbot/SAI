@@ -1,0 +1,34 @@
+{
+  "auditType": "final-independent-read-only-audit",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [],
+  "summary": {
+    "status": "pass",
+    "counts": {
+      "technologyQuestions": 150,
+      "holisticQuestions": 150,
+      "mergedCorrespondenceChecked": 300,
+      "mergedCorrespondenceMismatches": 0,
+      "structuralErrors": 0,
+      "answerKeyFindings": 0,
+      "ambiguousStemFindings": 0,
+      "distractorFindings": 0,
+      "explanationFindings": 0,
+      "sourceSupportFindings": 0,
+      "duplicateFindings": 0,
+      "grammarFindings": 0,
+      "syllabusMappingFindings": 0,
+      "primaryOptionLengthFlags": 0,
+      "strictLongestCount": 94,
+      "strictLongestPercent": 31.33,
+      "answerPositionCounts": [81, 72, 79, 68],
+      "answerPatternFindings": 0
+    }
+  }
+}

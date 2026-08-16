@@ -1,0 +1,1322 @@
+{
+  "auditType": "independent_read_only_content_audit",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "assignedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "scope": "Independent item-level review of keyed answers, distractor plausibility, explanations, source fit, official syllabus mapping, grammar/padding, duplicates, and option-length cues. No assigned question-bank, source-catalog, script, test, or existing audit-log file was edited.",
+  "counts": {
+    "reviewed": 300,
+    "highConfidenceDefects": 30,
+    "mediumConfidenceConcerns": 20,
+    "exactDuplicates": 0,
+    "sourceProblems": 20,
+    "answerKeyProblems": 10,
+    "distractorProblems": 20,
+    "lengthProblems": 0,
+    "explanationProblems": 0,
+    "syllabusProblems": 0,
+    "grammarProblems": 0,
+    "duplicateOptionSets": 0
+  },
+  "validationMetrics": {
+    "questionsPerFile": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "answerIndexCounts": [
+      76,
+      76,
+      74,
+      74
+    ],
+    "unknownSourceIds": [],
+    "exactQuestionTextDuplicates": [],
+    "allQuestionsHaveFourDistinctOptions": true,
+    "allCorrectIndicesInRange": true,
+    "optionLengthFlagRule": "Flagged when the keyed option exceeded the median distractor length by more than 8 characters or when the four-option spread exceeded 15 characters.",
+    "lengthProblems": [],
+    "subtopicCounts": {
+      "Interpretation & Application of Data": 100,
+      "Principles of Research & Evidence-Based Practice": 50,
+      "Performance Enhancement Strategies": 50,
+      "Recovery Protocols & Regeneration": 50,
+      "Injury Prevention & Risk Management": 50
+    }
+  },
+  "defects": [
+    {
+      "id": "a1-data-131",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-132",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-133",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, a confounder is a variable that:",
+      "currentOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-134",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-135",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-136",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-137",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, a confounder is a variable that:",
+      "currentOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-138",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-139",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-data-140",
+      "defectType": "answerKeyProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, a confounder is a variable that:",
+      "currentOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "rationale": "The explanation defines a confounder as a variable related to both exposure and outcome that distorts their association, but the current zero-based key selects the measurement-error option. The keyed option is therefore incorrect."
+    },
+    {
+      "id": "a1-recovery-021",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, power training requires attention to both force and:",
+      "currentOptions": [
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only",
+        "The number of coaches"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Movement velocity",
+        "Movement accuracy",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-022",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, power training requires attention to both force and:",
+      "currentOptions": [
+        "The number of coaches",
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Movement velocity",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-023",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, power training requires attention to both force and:",
+      "currentOptions": [
+        "Resting temperature only",
+        "The number of coaches",
+        "Movement velocity",
+        "Body-fat percentage alone"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 2,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Muscular endurance",
+        "Movement velocity",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-024",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, power training requires attention to both force and:",
+      "currentOptions": [
+        "Body-fat percentage alone",
+        "Resting temperature only",
+        "The number of coaches",
+        "Movement velocity"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 3,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Muscular endurance",
+        "Joint mobility",
+        "Movement velocity"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-025",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, power training requires attention to both force and:",
+      "currentOptions": [
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only",
+        "The number of coaches"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Movement velocity",
+        "Movement accuracy",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-026",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, power training requires attention to both force and:",
+      "currentOptions": [
+        "The number of coaches",
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Movement velocity",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-027",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, power training requires attention to both force and:",
+      "currentOptions": [
+        "Resting temperature only",
+        "The number of coaches",
+        "Movement velocity",
+        "Body-fat percentage alone"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 2,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Muscular endurance",
+        "Movement velocity",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-028",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, power training requires attention to both force and:",
+      "currentOptions": [
+        "Body-fat percentage alone",
+        "Resting temperature only",
+        "The number of coaches",
+        "Movement velocity"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 3,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Muscular endurance",
+        "Joint mobility",
+        "Movement velocity"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-029",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, power training requires attention to both force and:",
+      "currentOptions": [
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only",
+        "The number of coaches"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Movement velocity",
+        "Movement accuracy",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-030",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, power training requires attention to both force and:",
+      "currentOptions": [
+        "The number of coaches",
+        "Movement velocity",
+        "Body-fat percentage alone",
+        "Resting temperature only"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Movement accuracy",
+        "Movement velocity",
+        "Muscular endurance",
+        "Joint mobility"
+      ],
+      "sourceId": "nsca-essentials-5",
+      "rationale": "The three distractors (body-fat percentage alone, resting temperature only, and the number of coaches) are unrelated or plainly implausible as the second component of power. They make Movement velocity immediately detectable rather than independently plausible."
+    },
+    {
+      "id": "a1-recovery-061",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-062",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-063",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Rest, sleep, and planned low-stimulation periods",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 2,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-064",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions",
+        "Rest, sleep, and planned low-stimulation periods"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 3,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window",
+        "Rest, sleep, and planned low-stimulation periods"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-065",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-066",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-067",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Rest, sleep, and planned low-stimulation periods",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 2,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-068",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions",
+        "Rest, sleep, and planned low-stimulation periods"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 3,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window",
+        "Rest, sleep, and planned low-stimulation periods"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-069",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Another maximal workout during the recovery window",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 0,
+      "revisedOptions": [
+        "Rest, sleep, and planned low-stimulation periods",
+        "Low-intensity movement performed after demanding work",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    },
+    {
+      "id": "a1-recovery-070",
+      "defectType": "distractorProblem",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, passive recovery includes strategies such as:",
+      "currentOptions": [
+        "Another maximal workout during the recovery window",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A sudden increase in training density without monitoring",
+        "Unmonitored dehydration between demanding sessions"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 1,
+      "revisedOptions": [
+        "Low-intensity movement performed after demanding work",
+        "Rest, sleep, and planned low-stimulation periods",
+        "A high-intensity interval session used to maintain fitness",
+        "A progressive conditioning session during the recovery window"
+      ],
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors are overtly non-recovery actions or harmful choices (another maximal workout, a sudden increase in training density, and unmonitored dehydration). They are not independently plausible alternatives to passive recovery."
+    }
+  ],
+  "mediumConfidenceConcerns": [
+    {
+      "id": "a1-recovery-091",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-092",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-093",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-094",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-095",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-096",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-097",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-098",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-099",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-100",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-121",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-122",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-123",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "A rapid increase in load without adequate tissue recovery",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-124",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days",
+        "A rapid increase in load without adequate tissue recovery"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-125",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-126",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-127",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "A rapid increase in load without adequate tissue recovery",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-128",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days",
+        "A rapid increase in load without adequate tissue recovery"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-129",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-130",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    }
+  ],
+  "exactDuplicates": [],
+  "sourceProblemDetails": [
+    {
+      "id": "a1-recovery-091",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-092",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-093",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-094",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-095",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-096",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-097",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-098",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-099",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The goal, evidence, timing, preference, and tradeoffs",
+        "The most expensive modality regardless of goals"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-100",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+      "currentOptions": [
+        "A fixed rule that passive care should replace training",
+        "A belief that every modality has identical effects",
+        "The most expensive modality regardless of goals",
+        "The goal, evidence, timing, preference, and tradeoffs"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The IOC load-and-illness consensus is a reasonable broad recovery source, but it is not a modality-specific evidence source for compression, massage, cryotherapy, and hydrotherapy. Provenance would be stronger with a recovery/modalities consensus or textbook locator."
+    },
+    {
+      "id": "a1-recovery-121",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-122",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-123",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "A rapid increase in load without adequate tissue recovery",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-124",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days",
+        "A rapid increase in load without adequate tissue recovery"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-125",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-126",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-127",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "A rapid increase in load without adequate tissue recovery",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-128",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days",
+        "A rapid increase in load without adequate tissue recovery"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-129",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A rapid increase in load without adequate tissue recovery",
+        "A stable progressive program with planned monitoring",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    },
+    {
+      "id": "a1-recovery-130",
+      "defectType": "sourceProblem",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, overuse injury risk is commonly increased by:",
+      "currentOptions": [
+        "A stable progressive program with planned monitoring",
+        "A rapid increase in load without adequate tissue recovery",
+        "Appropriate rest and monitoring between hard training sessions",
+        "Gradual sport-specific exposure with recovery days"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The cited source is the IOC consensus on load and risk of illness. The directly corresponding IOC load-and-risk-of-injury consensus is a separate paper; the concept is sound, but this sourceId is not the most direct provenance."
+    }
+  ],
+  "answerKeyProblemIds": [
+    "a1-data-131",
+    "a1-data-132",
+    "a1-data-133",
+    "a1-data-134",
+    "a1-data-135",
+    "a1-data-136",
+    "a1-data-137",
+    "a1-data-138",
+    "a1-data-139",
+    "a1-data-140"
+  ],
+  "distractorProblemIds": [
+    "a1-recovery-021",
+    "a1-recovery-022",
+    "a1-recovery-023",
+    "a1-recovery-024",
+    "a1-recovery-025",
+    "a1-recovery-026",
+    "a1-recovery-027",
+    "a1-recovery-028",
+    "a1-recovery-029",
+    "a1-recovery-030",
+    "a1-recovery-061",
+    "a1-recovery-062",
+    "a1-recovery-063",
+    "a1-recovery-064",
+    "a1-recovery-065",
+    "a1-recovery-066",
+    "a1-recovery-067",
+    "a1-recovery-068",
+    "a1-recovery-069",
+    "a1-recovery-070"
+  ],
+  "lengthProblemIds": [],
+  "reviewNotes": [
+    "All 300 records were inspected. Repeated ten-frame variants of the same concept were not treated as defects merely because the contextual frame changed.",
+    "The confounder group a1-data-131 through a1-data-140 has a consistent keying error; the explanation and one option identify the intended answer, so each recommendedCorrect value is the index of that option in the current array.",
+    "No high-confidence explanation, syllabus-mapping, grammar, or mechanical-padding defect was found outside the listed items. The power and passive-recovery distractor defects are repeated option-set defects, reported separately for every affected question."
+  ],
+  "sourcesInspected": [
+    {
+      "path": "src/data/sourceCatalog.ts",
+      "scope": "Source IDs, titles, kinds, local paths, URLs, and stated scopes for every source used by the two files."
+    },
+    {
+      "path": "research/sai_a1_sources.md",
+      "scope": "SAI A1 official-area mapping, supplied-book metadata and chapter locators, and provenance notes."
+    },
+    {
+      "path": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+      "scope": "Official A1 syllabus area labels and question-format context used for scope checks."
+    },
+    {
+      "url": "https://world.physio/policy/ps-ebp",
+      "scope": "World Physiotherapy evidence-based-practice policy page and linked 2023 policy PDF; used to assess the EBP source fit."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27535991/",
+      "scope": "PubMed record/abstract for the 2016 IOC consensus on load in sport and risk of illness; used to assess recovery/load source fit."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5013087/",
+      "scope": "Open full-text record for the same IOC load-and-illness consensus."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "auditType": "Post-repair independent read-only audit",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "questionFiles": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "repairLogs": [
+      "research/final3_content_repair_technology_biostatistics.json",
+      "research/final3_content_repair_holistic_travel_ethics.json"
+    ],
+    "manifests": [
+      "research/a1_provenance_remediation.json",
+      "research/a1_coverage_manifest.json"
+    ]
+  },
+  "metrics": {
+    "questionsReviewed": 300,
+    "questionsByFile": {
+      "technology_biostatistics": 150,
+      "holistic_travel_ethics": 150
+    },
+    "answerKeyReview": {
+      "highConfidenceErrors": 0,
+      "note": "All reviewed keyed answers were factually defensible and unambiguous at the intended level; no high-confidence answer-key correction was identified."
+    },
+    "semanticDistractorReview": {
+      "highConfidenceDefects": 0,
+      "note": "No distractor was found to be independently correct or materially invalid in its question context."
+    },
+    "schema": {
+      "validQuestionObjects": 300,
+      "invalidQuestionObjects": 0,
+      "exactExpectedKeys": true,
+      "fourOptionsEach": true,
+      "duplicateOptions": 0,
+      "validZeroBasedCorrectIndices": true,
+      "nonEmptyExplanations": true,
+      "uniqueQuestionIds": true
+    },
+    "syllabusMapping": {
+      "technologyTopic": "Emerging Technologies & Biostatistics",
+      "holisticTopic": "Holistic Development, Travel & Ethics",
+      "allExpectedSubtopicsPresent": true,
+      "coverageManifestSubtopicCountsMatch": true,
+      "technologySubtopicCounts": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70
+      },
+      "holisticSubtopicCounts": {
+        "Yoga & Mind–Body Interventions in Sports": 30,
+        "Athlete Health, Wellness & Holistic Development": 30,
+        "Travel-Related Challenges & Competition Readiness": 30,
+        "Anti-Doping Awareness & Ethical Practices": 30,
+        "Interdisciplinary Coordination & Support Systems": 30
+      }
+    },
+    "duplicatesAndMechanicalRepetition": {
+      "exactNormalizedStemFamilies": 0,
+      "mechanicalStemFamilies": 15,
+      "questionsInMechanicalFamilies": 30,
+      "technologyMechanicalFamilies": 0,
+      "holisticMechanicalFamilies": 15,
+      "note": "Each listed holistic family has the same context-stripped stem, the same option set, and the same keyed answer; only the generic opener and/or option order differs."
+    },
+    "grammarAndOptionLength": {
+      "primaryLengthFlags": 0,
+      "maximumOptionSpreadCharacters": 15,
+      "correctStrictlyLongest": {
+        "technology": 46,
+        "holistic": 49,
+        "combined": 95,
+        "combinedPercent": 31.67
+      },
+      "answerPositionCountsCombined": [
+        79,
+        73,
+        76,
+        72
+      ],
+      "highConfidenceGrammarStructureDefects": 8
+    },
+    "sourceTraceability": {
+      "sourceCatalogEntries": 40,
+      "distinctSourceIdsUsed": 18,
+      "unknownSourceIds": 0,
+      "usedSourcesMissingCatalogLocator": 0,
+      "explicitSourceIdsAcceptedBySourceHelper": 300,
+      "explicitSourceHelperDisagreements": 0,
+      "coverageManifestSourceCountsMatch": true,
+      "provenanceManifestRangeMismatches": 0,
+      "final3RepairLogCurrentStateMismatches": 0
+    },
+    "mergeCorrespondence": {
+      "mergedQuestionCount": 900,
+      "technologyQuestionsMatchedInMergedSlice": 150,
+      "holisticQuestionsMatchedInMergedSlice": 150,
+      "contentOrOrderMismatches": 0
+    }
+  },
+  "highConfidenceFindings": [
+    {
+      "findingId": "mechanical-holistic-stem-families",
+      "confidence": "high",
+      "category": "mechanically-repeated-stems",
+      "severity": "moderate",
+      "questionIds": [
+        "a1-holistic-001",
+        "a1-holistic-002",
+        "a1-holistic-011",
+        "a1-holistic-012",
+        "a1-holistic-021",
+        "a1-holistic-022",
+        "a1-holistic-031",
+        "a1-holistic-032",
+        "a1-holistic-041",
+        "a1-holistic-042",
+        "a1-holistic-051",
+        "a1-holistic-052",
+        "a1-holistic-061",
+        "a1-holistic-062",
+        "a1-holistic-071",
+        "a1-holistic-072",
+        "a1-holistic-081",
+        "a1-holistic-082",
+        "a1-holistic-091",
+        "a1-holistic-092",
+        "a1-holistic-101",
+        "a1-holistic-102",
+        "a1-holistic-111",
+        "a1-holistic-112",
+        "a1-holistic-121",
+        "a1-holistic-122",
+        "a1-holistic-131",
+        "a1-holistic-132",
+        "a1-holistic-141",
+        "a1-holistic-142"
+      ],
+      "families": [
+        ["a1-holistic-001", "a1-holistic-002"],
+        ["a1-holistic-011", "a1-holistic-012"],
+        ["a1-holistic-021", "a1-holistic-022"],
+        ["a1-holistic-031", "a1-holistic-032"],
+        ["a1-holistic-041", "a1-holistic-042"],
+        ["a1-holistic-051", "a1-holistic-052"],
+        ["a1-holistic-061", "a1-holistic-062"],
+        ["a1-holistic-071", "a1-holistic-072"],
+        ["a1-holistic-081", "a1-holistic-082"],
+        ["a1-holistic-091", "a1-holistic-092"],
+        ["a1-holistic-101", "a1-holistic-102"],
+        ["a1-holistic-111", "a1-holistic-112"],
+        ["a1-holistic-121", "a1-holistic-122"],
+        ["a1-holistic-131", "a1-holistic-132"],
+        ["a1-holistic-141", "a1-holistic-142"]
+      ],
+      "evidence": "Within each pair, removing the generic athlete-profile/training-block opener produces the same stem. The option sets and keyed answer text are identical, with only option order changing.",
+      "recommendedAction": "Rewrite one item in each pair with a materially different athlete scenario, measurement, or decision while preserving syllabus coverage and source traceability."
+    },
+    {
+      "findingId": "holistic-keyed-option-grammar",
+      "confidence": "high",
+      "category": "grammar-and-option-structure",
+      "severity": "moderate",
+      "questionIds": [
+        "a1-holistic-006",
+        "a1-holistic-013",
+        "a1-holistic-019",
+        "a1-holistic-039",
+        "a1-holistic-054",
+        "a1-holistic-116",
+        "a1-holistic-129",
+        "a1-holistic-147"
+      ],
+      "evidence": "The keyed choice is an imperative or verb-led instruction while the competing choices are noun/gerund phrases, or it repeats the verb already supplied by the stem. Examples include 'should use: Use ...', 'should integrate: Integrate ...', and 'should state: State ...'.",
+      "recommendedAction": "Revise only the option wording to a parallel noun phrase, preserving the keyed meaning and answer index semantics; for example, 'Use assent...' → 'Assent and required guardian consent'."
+    }
+  ],
+  "auditConclusion": "The current technology/biostatistics and holistic/travel/ethics files are structurally valid, correctly merged, source-ID resolvable, syllabus-mapped, and within the option-length target. The two high-confidence residual quality issues are the 15 mechanically repeated holistic pairs and 8 grammar/option-structure giveaways listed above. No high-confidence answer-key or semantic-distractor defect was found."
+}

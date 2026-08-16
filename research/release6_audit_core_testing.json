@@ -1,0 +1,63 @@
+{
+  "auditType": "Release6 final independent read-only audit: core disciplines and testing assessment",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [],
+  "summary": {
+    "status": "pass",
+    "counts": {
+      "highConfidenceFindingCount": 0,
+      "priorRelease5FindingsResolved": 4,
+      "answerKeyCorrectnessFindings": 0,
+      "ambiguousStemFindings": 0,
+      "exactDuplicateFindings": 0,
+      "actionableNearDuplicateFindings": 0,
+      "schemaFindings": 0,
+      "syllabusMappingFindings": 0,
+      "unknownSourceIdFindings": 0,
+      "sourceDirectSupportFindings": 0,
+      "grammarOrDistractorFindings": 0,
+      "mergedCorrespondenceDifferences": 0,
+      "primaryOptionLengthFlags": 0
+    },
+    "priorRepairChecks": {
+      "answerPositionClustersResolved": true,
+      "repeatedExplanationsResolved": true,
+      "grammarAndDistractorRepairsResolved": true,
+      "supplementProvenanceRepairResolved": true
+    },
+    "correspondence": {
+      "coreQuestionCount": 150,
+      "testingQuestionCount": 150,
+      "retainedQuestionCount": 300,
+      "mergedQuestionCount": 900,
+      "deepContentDifferencesInFirst300MergedItems": 0,
+      "retainedIdsUnique": true,
+      "mergedIdsUnique": true
+    },
+    "answerPatternAndLengthSignals": {
+      "correctIndexCounts": [73, 78, 79, 70],
+      "longestSameIndexRun": 3,
+      "strictlyLongestCorrectCount": 93,
+      "strictlyLongestCorrectPercent": 31,
+      "correctShortestCount": 58,
+      "correctShortestPercent": 19.33,
+      "primaryLengthFlagCount": 0,
+      "exactlyRepeatedTestingExplanations": 0,
+      "mechanicalDistractorSignals": 0
+    },
+    "coverage": {
+      "unexpectedTopicOrSubtopicMappings": 0,
+      "officialAreaFloorViolations": 0,
+      "allInspectedQuestionsHaveFourOptions": true,
+      "allCorrectIndexesValid": true,
+      "allInspectedSourceIdsResolve": true
+    },
+    "note": "The sensitivity and specificity definition stems were reviewed as an intentional complementary pair, not a duplicate. No actionable high-confidence defect remains in the inspected current files."
+  }
+}

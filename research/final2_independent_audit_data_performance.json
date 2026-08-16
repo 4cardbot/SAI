@@ -1,0 +1,328 @@
+{
+  "auditType": "final2_independent_read_only_content_audit",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "assignedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "mergedFile": "question_bank/section_a1.json",
+  "scope": "Independent review of all 300 assigned retained questions and their corresponding merged entries for answer-key correctness, distractor validity and ambiguity, duplicate questions and stems, source attribution, option-length giveaways, schema integrity, and syllabus mapping. No question-bank, source-catalog, script, test, README, or prior audit-log file was edited.",
+  "reviewedCount": 300,
+  "highConfidenceFindingCount": 1,
+  "highConfidenceFindings": [
+    {
+      "findingId": "dp-near-duplicate-families-001",
+      "type": "nearDuplicateQuestionFamilies",
+      "severity": "high",
+      "confidence": "high",
+      "affectedQuestionCount": 120,
+      "familyCount": 30,
+      "rationale": "Each listed family contains four entries with the same normalized question remainder and the same four-option set. The only material changes are one of four generic contextual openers and rotation of the option order/correct index. The opener does not add a distinct athlete, measurement, constraint, intervention, or decision context, so the four entries test the same item rather than four independent questions.",
+      "recommendedAction": "Keep one representative per family or rewrite the other three with materially different, source-supported scenarios, data, constraints, or decisions. Do not rely on changing only the opener or rotating options to create distinct questions.",
+      "families": [
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-001",
+          "ids": ["a1-data-001", "a1-data-002", "a1-data-003", "a1-data-004"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a performance profile is most useful when it identifies:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-011",
+          "ids": ["a1-data-011", "a1-data-012", "a1-data-013", "a1-data-014"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a repeated decline in sprint performance with stable strength may suggest a limitation in:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-021",
+          "ids": ["a1-data-021", "a1-data-022", "a1-data-023", "a1-data-024"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "when a test result is below a reference value, the first step should be to:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-031",
+          "ids": ["a1-data-031", "a1-data-032", "a1-data-033", "a1-data-034"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a practical training recommendation should link the observed result to:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-041",
+          "ids": ["a1-data-041", "a1-data-042", "a1-data-043", "a1-data-044"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "longitudinal monitoring is strengthened by using:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-051",
+          "ids": ["a1-data-051", "a1-data-052", "a1-data-053", "a1-data-054"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a small change in an athlete's score should be considered practically important only when it:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-061",
+          "ids": ["a1-data-061", "a1-data-062", "a1-data-063", "a1-data-064"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "when communicating data to a coach, the analyst should emphasize:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-071",
+          "ids": ["a1-data-071", "a1-data-072", "a1-data-073", "a1-data-074"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a sudden outlier in a monitoring dashboard should first prompt a check of:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-081",
+          "ids": ["a1-data-081", "a1-data-082", "a1-data-083", "a1-data-084"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "if an athlete's performance improves while training load also rises, the safest interpretation is:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-091",
+          "ids": ["a1-data-091", "a1-data-092", "a1-data-093", "a1-data-094"],
+          "subtopic": "Interpretation & Application of Data",
+          "normalizedStem": "a useful performance dashboard should avoid:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-101",
+          "ids": ["a1-data-101", "a1-data-102", "a1-data-103", "a1-data-104"],
+          "subtopic": "Principles of Research & Evidence-Based Practice",
+          "normalizedStem": "a randomized controlled trial is designed primarily to compare:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-111",
+          "ids": ["a1-data-111", "a1-data-112", "a1-data-113", "a1-data-114"],
+          "subtopic": "Principles of Research & Evidence-Based Practice",
+          "normalizedStem": "a cohort study commonly follows participants to examine:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-121",
+          "ids": ["a1-data-121", "a1-data-122", "a1-data-123", "a1-data-124"],
+          "subtopic": "Principles of Research & Evidence-Based Practice",
+          "normalizedStem": "critical appraisal of a paper should include assessment of:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-131",
+          "ids": ["a1-data-131", "a1-data-132", "a1-data-133", "a1-data-134"],
+          "subtopic": "Principles of Research & Evidence-Based Practice",
+          "normalizedStem": "a confounder is a variable that:"
+        },
+        {
+          "file": "question_bank/section_a1_data_analytics.json",
+          "canonicalId": "a1-data-141",
+          "ids": ["a1-data-141", "a1-data-142", "a1-data-143", "a1-data-144"],
+          "subtopic": "Principles of Research & Evidence-Based Practice",
+          "normalizedStem": "research involving athletes should include safeguards for:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-001",
+          "ids": ["a1-recovery-001", "a1-recovery-002", "a1-recovery-003", "a1-recovery-004"],
+          "subtopic": "Performance Enhancement Strategies",
+          "normalizedStem": "a strength program for an athlete should begin by matching the intervention to:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-011",
+          "ids": ["a1-recovery-011", "a1-recovery-012", "a1-recovery-013", "a1-recovery-014"],
+          "subtopic": "Performance Enhancement Strategies",
+          "normalizedStem": "speed development is most directly supported by training that addresses:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-021",
+          "ids": ["a1-recovery-021", "a1-recovery-022", "a1-recovery-023", "a1-recovery-024"],
+          "subtopic": "Performance Enhancement Strategies",
+          "normalizedStem": "power training requires attention to both force and:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-031",
+          "ids": ["a1-recovery-031", "a1-recovery-032", "a1-recovery-033", "a1-recovery-034"],
+          "subtopic": "Performance Enhancement Strategies",
+          "normalizedStem": "agility training differs from change-of-direction training because agility includes:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-041",
+          "ids": ["a1-recovery-041", "a1-recovery-042", "a1-recovery-043", "a1-recovery-044"],
+          "subtopic": "Performance Enhancement Strategies",
+          "normalizedStem": "load management is intended primarily to:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-051",
+          "ids": ["a1-recovery-051", "a1-recovery-052", "a1-recovery-053", "a1-recovery-054"],
+          "subtopic": "Recovery Protocols & Regeneration",
+          "normalizedStem": "active recovery is best described as:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-061",
+          "ids": ["a1-recovery-061", "a1-recovery-062", "a1-recovery-063", "a1-recovery-064"],
+          "subtopic": "Recovery Protocols & Regeneration",
+          "normalizedStem": "passive recovery includes strategies such as:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-071",
+          "ids": ["a1-recovery-071", "a1-recovery-072", "a1-recovery-073", "a1-recovery-074"],
+          "subtopic": "Recovery Protocols & Regeneration",
+          "normalizedStem": "sleep is important for athletes because it supports:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-081",
+          "ids": ["a1-recovery-081", "a1-recovery-082", "a1-recovery-083", "a1-recovery-084"],
+          "subtopic": "Recovery Protocols & Regeneration",
+          "normalizedStem": "a recovery-monitoring plan is strongest when it combines:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-091",
+          "ids": ["a1-recovery-091", "a1-recovery-092", "a1-recovery-093", "a1-recovery-094"],
+          "subtopic": "Recovery Protocols & Regeneration",
+          "normalizedStem": "compression, massage, cryotherapy, and hydrotherapy should be selected according to:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-101",
+          "ids": ["a1-recovery-101", "a1-recovery-102", "a1-recovery-103", "a1-recovery-104"],
+          "subtopic": "Injury Prevention & Risk Management",
+          "normalizedStem": "a useful injury-prevention plan should address:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-111",
+          "ids": ["a1-recovery-111", "a1-recovery-112", "a1-recovery-113", "a1-recovery-114"],
+          "subtopic": "Injury Prevention & Risk Management",
+          "normalizedStem": "a screening test should be used primarily to:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-121",
+          "ids": ["a1-recovery-121", "a1-recovery-122", "a1-recovery-123", "a1-recovery-124"],
+          "subtopic": "Injury Prevention & Risk Management",
+          "normalizedStem": "overuse injury risk is commonly increased by:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-131",
+          "ids": ["a1-recovery-131", "a1-recovery-132", "a1-recovery-133", "a1-recovery-134"],
+          "subtopic": "Injury Prevention & Risk Management",
+          "normalizedStem": "movement-based injury prevention should prioritize:"
+        },
+        {
+          "file": "question_bank/section_a1_performance_recovery.json",
+          "canonicalId": "a1-recovery-141",
+          "ids": ["a1-recovery-141", "a1-recovery-142", "a1-recovery-143", "a1-recovery-144"],
+          "subtopic": "Injury Prevention & Risk Management",
+          "normalizedStem": "return-to-sport coordination is improved when the team shares:"
+        }
+      ]
+    }
+  ],
+  "categoryFindings": {
+    "answerKeyProblems": [],
+    "distractorProblems": [],
+    "sourceProblems": [],
+    "schemaProblems": [],
+    "optionLengthProblems": [],
+    "syllabusMappingProblems": [],
+    "exactQuestionTextDuplicates": []
+  },
+  "validationMetrics": {
+    "retainedFileCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "mergedEntriesCompared": 300,
+    "mergedEntriesExactlyMatchingRetainedEntries": 300,
+    "mergedEntryMismatches": [],
+    "uniqueIdsAcrossAuditedFiles": 300,
+    "allQuestionsHaveRequiredFields": true,
+    "allQuestionsUseSectionA1": true,
+    "allQuestionsHaveFourOptions": true,
+    "allQuestionsHaveFourDistinctOptions": true,
+    "allCorrectIndicesInRange": true,
+    "allExplanationsNonEmpty": true,
+    "unknownSourceIds": [],
+    "fullMergedExactQuestionTextDuplicateCount": 0,
+    "answerIndexCountsCombined": [76, 74, 75, 75],
+    "answerIndexBalanceAssessment": "Acceptable near-uniform distribution; maximum deviation from 75 is one question.",
+    "optionLengthRule": "Primary flag when the keyed option exceeds the median of the three distractor lengths by more than 8 characters or when the four-option spread exceeds 15 characters. Strictly-longest status is secondary.",
+    "optionLengthResults": {
+      "data_analytics": {
+        "primaryFlags": 0,
+        "medianGapFlags": 0,
+        "spreadFlags": 0,
+        "strictlyLongestCorrect": 60,
+        "strictlyLongestPercent": 40.0,
+        "maximumCorrectMinusMedianDistractor": 7,
+        "maximumOptionSpread": 14
+      },
+      "performance_recovery": {
+        "primaryFlags": 0,
+        "medianGapFlags": 0,
+        "spreadFlags": 0,
+        "strictlyLongestCorrect": 0,
+        "strictlyLongestPercent": 0.0,
+        "maximumCorrectMinusMedianDistractor": 7,
+        "maximumOptionSpread": 15
+      },
+      "combined": {
+        "primaryFlags": 0,
+        "strictlyLongestCorrect": 60,
+        "strictlyLongestPercent": 20.0,
+        "maximumCorrectMinusMedianDistractor": 7,
+        "maximumOptionSpread": 15
+      }
+    },
+    "syllabusMapping": {
+      "question_bank/section_a1_data_analytics.json": {
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopics": {
+          "Interpretation & Application of Data": 100,
+          "Principles of Research & Evidence-Based Practice": 50
+        }
+      },
+      "question_bank/section_a1_performance_recovery.json": {
+        "topic": "Performance Enhancement & Recovery Protocols",
+        "subtopics": {
+          "Performance Enhancement Strategies": 50,
+          "Recovery Protocols & Regeneration": 50,
+          "Injury Prevention & Risk Management": 50
+        }
+      },
+      "coverageManifestComparison": "All audited topic/subtopic counts match research/a1_coverage_manifest.json."
+    },
+    "contentReview": {
+      "reviewedEntries": 300,
+      "distinctConceptFramesReviewed": 30,
+      "keyedOptionMatchesExplanation": true,
+      "distractorsSemanticallyPlausibleAndNonduplicative": true,
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceAmbiguousDistractors": 0
+    }
+  },
+  "sourceAudit": {
+    "catalogInspected": "src/data/sourceCatalog.ts",
+    "allCurrentSourceIdsResolve": true,
+    "unresolvedSourceIds": [],
+    "highConfidenceAttributionDefects": [],
+    "note": "Broad-source specificity observations in prior logs were not escalated because the catalogued scopes remain directly relevant to the audited claims; no current source ID was unsupported strongly enough to count as a high-confidence defect."
+  },
+  "auditConclusion": "The 300 audited entries pass answer-key, distractor, source-resolution, schema, option-length-threshold, merge-integrity, and syllabus-mapping checks. The actionable high-confidence defect is template-level redundancy: 120 entries form 30 four-item near-duplicate families and should be collapsed or materially rewritten before treating the bank as 300 independent questions."
+}

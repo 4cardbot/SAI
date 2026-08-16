@@ -1,0 +1,476 @@
+{
+  "auditType": "final4_length_repair_data_analytics",
+  "auditDate": "2026-08-16",
+  "file": "question_bank/section_a1_data_analytics.json",
+  "reviewedCount": 150,
+  "changedCount": 16,
+  "flagRule": "Flag when correct option length exceeds the median distractor length by more than 8 characters or when total option-length spread exceeds 15 characters.",
+  "postRepairFlags": 0,
+  "answerKeyChanges": 0,
+  "changes": [
+    {
+      "id": "a1-data-003",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Diagnose a cardiac disorder from the field-test result",
+        "Target high-intensity endurance and confirm response on retesting",
+        "Assume energy systems are adequate from the jump score",
+        "Discard the result because field tests cannot guide training"
+      ],
+      "revisedOptions": [
+        "Diagnose cardiac disease from this field result",
+        "Target high-intensity endurance; confirm with retesting",
+        "Assume energy systems are adequate from jump data",
+        "Dismiss the result because field tests inform no training"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "beforeCorrectMinusMedian": 11,
+      "beforeSpread": 11,
+      "afterCorrectMinusMedian": 6,
+      "afterSpread": 10,
+      "reviewerNote": "Shortened the keyed training recommendation and aligned the distractors to concise, parallel interpretations. The clinical-diagnosis distractor remains clearly outside what a field test can establish, while the correct answer retains the source-supported endurance-and-retesting meaning.",
+      "sourcesInspected": [
+        "nsca-essentials-5 (Essentials of Strength Training and Conditioning, 5th ed., performance testing and conditioning scope)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-014",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Remove technical drills from the training programme",
+        "Diagnose an iron disorder from video findings",
+        "Blame the device despite normal calibration and traces",
+        "Investigate sprint technique rather than maximal force alone"
+      ],
+      "revisedOptions": [
+        "Remove technical drills from the programme",
+        "Diagnose iron deficiency from video alone",
+        "Blame the device despite normal calibration",
+        "Investigate sprint technique and coordination"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "beforeCorrectMinusMedian": 9,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 3,
+      "afterSpread": 4,
+      "reviewerNote": "Replaced the unnecessarily long keyed phrase with an equivalent technique-and-coordination interpretation and shortened the three distractors without changing their intended meanings.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall (Basic Biomechanics, 6th ed., force, motion and sport-movement scope)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-022",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Label the athlete below standard and add maximal jumps",
+        "Check comparability and repeat the test under standard conditions",
+        "Discard the reference because norms are never useful",
+        "Diagnose fatigue from one post-practice comparison"
+      ],
+      "revisedOptions": [
+        "Label the athlete below standard and add jumps",
+        "Check comparability; repeat under standard conditions",
+        "Discard the reference because norms are unhelpful",
+        "Diagnose fatigue from one post-practice comparison"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "beforeCorrectMinusMedian": 13,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 4,
+      "afterSpread": 7,
+      "reviewerNote": "Condensed the standardization recommendation while preserving the need to check comparability and repeat testing under standard conditions. Distractor wording was tightened only.",
+      "sourcesInspected": [
+        "acsm-getp-12 (ACSM's Guidelines for Exercise Testing and Prescription, 12th ed., testing and standardization scope)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-033",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Redistribute high-intensity work and retest after recovery",
+        "Declare the athlete unfit for the season from one result",
+        "Increase sprint volume to overcome the decrement",
+        "Replace sprint testing with a body-mass measure"
+      ],
+      "revisedOptions": [
+        "Adjust high-intensity load and retest after recovery",
+        "Declare the athlete unfit for the season from one test",
+        "Increase sprint volume to overcome the weekly decrement",
+        "Replace sprint testing with a body-mass measure"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "beforeCorrectMinusMedian": 10,
+      "beforeSpread": 11,
+      "afterCorrectMinusMedian": -2,
+      "afterSpread": 8,
+      "reviewerNote": "Shortened the keyed load-adjustment recommendation and added a concise time qualifier to a distractor so all four action-oriented options remain comparable without padding.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016 (IOC consensus statement on load in sport and risk of illness, load, recovery and monitoring recommendations)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-044",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Pool device values because both report metres",
+        "Use the largest distance to avoid underestimation",
+        "Document device settings and compare compatible periods",
+        "Replace missing metadata with the team mean"
+      ],
+      "revisedOptions": [
+        "Pool device values because both report metres",
+        "Use the largest distance to avoid underestimation",
+        "Document settings and compare compatible periods",
+        "Replace missing metadata with the team mean"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "gps-validity-scott-2016",
+      "beforeCorrectMinusMedian": 10,
+      "beforeSpread": 12,
+      "afterCorrectMinusMedian": 3,
+      "afterSpread": 6,
+      "reviewerNote": "Removed redundant wording from the keyed GPS recommendation while retaining the requirements to document settings and compare compatible periods.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016 (GPS validity and reliability review in team sport)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-052",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Call the lower time a meaningful gain immediately",
+        "Treat the change as unclear because it is below typical error",
+        "Assume the timing test has perfect reliability",
+        "Remove timing error from the performance record"
+      ],
+      "revisedOptions": [
+        "Call the lower time a meaningful gain immediately",
+        "Treat it as unclear because it is below typical error",
+        "Assume the timing test has perfect reliability",
+        "Remove timing error from the performance record"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "beforeCorrectMinusMedian": 14,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 6,
+      "afterSpread": 7,
+      "reviewerNote": "Shortened the keyed interpretation to its essential measurement-error conclusion; the answer meaning and source-supported uncertainty judgment are unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023 (evidence quality, uncertainty and clinical reasoning)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-053",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Call any nonzero change practically important",
+        "Use peer rank even when the protocol changed",
+        "Confirm that the change exceeds error and alters a decision",
+        "Treat extra decimal places as evidence of improvement"
+      ],
+      "revisedOptions": [
+        "Call any nonzero change practically important",
+        "Use peer rank even when the protocol changed",
+        "Confirm it exceeds error and changes the decision",
+        "Treat extra decimal places as evidence of improvement"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "beforeCorrectMinusMedian": 14,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 4,
+      "afterSpread": 9,
+      "reviewerNote": "Condensed the keyed practical-importance criterion while retaining both necessary elements: exceeding expected error and changing a decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023 (evidence quality, uncertainty and clinical reasoning)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-054",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Treat p<0.05 alone as proof of a useful change",
+        "Consider effect size, uncertainty, test error, and decisions",
+        "Ignore inference because sport measurements vary",
+        "Replace the confidence interval with athlete ranking"
+      ],
+      "revisedOptions": [
+        "Treat p<0.05 alone as proof of a useful change",
+        "Consider effect size, uncertainty, error, and decisions",
+        "Ignore inference because sport measurements vary",
+        "Replace the confidence interval with athlete ranking"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "beforeCorrectMinusMedian": 12,
+      "beforeSpread": 14,
+      "afterCorrectMinusMedian": 7,
+      "afterSpread": 9,
+      "reviewerNote": "Removed the redundant word ‘test’ from the keyed statistical interpretation; effect size, uncertainty, measurement error and decisions remain explicit.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007 (effect size, confidence intervals and statistical significance)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-062",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Present key trends, uncertainty, and the proposed next step",
+        "Show every raw variable without prioritizing decisions",
+        "Show only favorable trends to protect confidence",
+        "Claim causation from the strongest correlation"
+      ],
+      "revisedOptions": [
+        "Present key trends, uncertainty, and next step",
+        "Show every raw variable without prioritizing decisions",
+        "Show only favorable trends to protect confidence",
+        "Claim causation from the strongest correlation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "beforeCorrectMinusMedian": 11,
+      "beforeSpread": 13,
+      "afterCorrectMinusMedian": -2,
+      "afterSpread": 8,
+      "reviewerNote": "Shortened the keyed communication recommendation while preserving decision relevance, uncertainty, and actionability.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023 (evidence-informed decision-making and interpretation of evidence)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-063",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Say the correlation proves load caused injury",
+        "Say correlations are never useful for coaching",
+        "Describe a preliminary association with possible confounding",
+        "Reduce all training load without further analysis"
+      ],
+      "revisedOptions": [
+        "Say the correlation proves load caused injury",
+        "Say correlations never help guide coaching",
+        "Describe an association, noting possible confounding",
+        "Reduce all training load without further analysis"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "cdc-confounding-epi-manual",
+      "beforeCorrectMinusMedian": 14,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 7,
+      "afterSpread": 10,
+      "reviewerNote": "Condensed the keyed epidemiologic interpretation while retaining the distinction between association and causation and the warning about possible confounding.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual (CDC Field Epidemiology Manual, analyze and interpret data chapter)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-074",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Treat zero distance as a true loss of speed",
+        "Increase sprint exposure to correct the value",
+        "Check firmware, synchronization, and the tracking protocol",
+        "Replace the value with a teammate's average"
+      ],
+      "revisedOptions": [
+        "Treat zero distance as a true loss of speed",
+        "Increase sprint exposure to correct the value",
+        "Check firmware, synchronization, and tracking",
+        "Replace the value with a teammate's average"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "gps-validity-scott-2016",
+      "beforeCorrectMinusMedian": 15,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 2,
+      "afterSpread": 2,
+      "reviewerNote": "Removed the redundant word ‘protocol’ from the keyed device-check recommendation while retaining firmware, synchronization and tracking checks.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016 (GPS validity and reliability review in team sport)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-083",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Assume both athletes had the same physiological response",
+        "Treat the declining athlete's result as invalid",
+        "Consider individual response and recovery before generalizing",
+        "Use the improving athlete to clear the whole squad"
+      ],
+      "revisedOptions": [
+        "Assume both athletes had the same physiological response",
+        "Treat the declining athlete's result as invalid",
+        "Consider individual response and recovery",
+        "Use the improving athlete to clear the whole squad"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "beforeCorrectMinusMedian": 11,
+      "beforeSpread": 14,
+      "afterCorrectMinusMedian": -9,
+      "afterSpread": 15,
+      "reviewerNote": "Shortened the keyed individual-response recommendation while preserving the need to interpret performance alongside recovery before generalizing.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016 (IOC consensus statement on load in sport and risk of illness, load, recovery and monitoring recommendations)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-102",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Ask whether participants trained at the same venue",
+        "Ask whether the paper uses a sports-specific font",
+        "Ask whether the trial measured several outcomes",
+        "Check whether differential withdrawals affected the analysis"
+      ],
+      "revisedOptions": [
+        "Ask whether participants trained at the same venue",
+        "Ask whether the paper uses a sports-specific font",
+        "Ask whether the trial measured several outcomes",
+        "Check whether differential withdrawals biased analysis"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "beforeCorrectMinusMedian": 11,
+      "beforeSpread": 13,
+      "afterCorrectMinusMedian": 5,
+      "afterSpread": 7,
+      "reviewerNote": "Replaced the longer keyed missing-data phrase with the equivalent bias-appraisal wording; the appraisal target and key are unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023 (evidence quality, uncertainty and clinical reasoning)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-123",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Check whether the sample and setting match the target athlete",
+        "Prefer the study only because its effect is largest",
+        "Accept the conclusion because its wording is confident",
+        "Assume significance removes sampling uncertainty"
+      ],
+      "revisedOptions": [
+        "Check whether the sample and setting fit the athlete",
+        "Prefer the study only because its effect is largest",
+        "Accept the conclusion because its wording is confident",
+        "Assume significance removes sampling uncertainty"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "beforeCorrectMinusMedian": 10,
+      "beforeSpread": 13,
+      "afterCorrectMinusMedian": 1,
+      "afterSpread": 6,
+      "reviewerNote": "Condensed the applicability criterion to a direct sample-and-setting comparison without changing its meaning.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023 (evidence quality, uncertainty and clinical reasoning)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-142",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Code records, restrict access, and obtain consent for use",
+        "Publish raw data so participants can verify records",
+        "Give all staff and sponsors unrestricted access",
+        "Explain the study only after collecting the data"
+      ],
+      "revisedOptions": [
+        "Code records, restrict access, obtain consent",
+        "Publish raw data so participants can verify records",
+        "Give all staff and sponsors unrestricted access",
+        "Explain the study only after collecting the data"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "beforeCorrectMinusMedian": 9,
+      "beforeSpread": 10,
+      "afterCorrectMinusMedian": -3,
+      "afterSpread": 6,
+      "reviewerNote": "Shortened the keyed privacy safeguard to three essential actions—coding, access restriction and consent—without changing the ethical meaning.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023 (privacy, confidentiality, autonomy and ethical research responsibilities)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-144",
+      "defectType": "primaryOptionLengthFlag",
+      "originalOptions": [
+        "Make participation a condition of team selection",
+        "Use independent consent, explain risks, and protect privacy",
+        "Collect verbal consent in front of teammates",
+        "Explain the study only after data collection"
+      ],
+      "revisedOptions": [
+        "Make participation mandatory for team selection",
+        "Use independent consent, explain risks, protect privacy",
+        "Collect verbal consent publicly in front of teammates",
+        "Explain the study only after all data collection"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-consent-2023",
+      "beforeCorrectMinusMedian": 15,
+      "beforeSpread": 15,
+      "afterCorrectMinusMedian": 7,
+      "afterSpread": 8,
+      "reviewerNote": "Shortened the keyed consent safeguard and added concise, meaningful qualifiers to coercive or procedurally inadequate distractors. Independent consent, risk explanation and privacy protection remain explicit.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023 (voluntary informed consent and communication of relevant information)",
+        "sai-notification-2026 (A1 detailed syllabus)",
+        "src/data/sourceCatalog.ts"
+      ]
+    }
+  ]
+}

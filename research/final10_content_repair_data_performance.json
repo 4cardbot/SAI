@@ -1,0 +1,738 @@
+{
+  "auditType": "a1_final10_content_repair_data_performance",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "sourceAudit": "research/release_audit_data_performance.json",
+    "questionIds": [
+      "a1-data-062",
+      "a1-data-072",
+      "a1-data-073",
+      "a1-data-092",
+      "a1-data-094",
+      "a1-data-104",
+      "a1-data-113",
+      "a1-data-122",
+      "a1-data-123",
+      "a1-data-132",
+      "a1-data-133",
+      "a1-data-134",
+      "a1-recovery-004",
+      "a1-recovery-022",
+      "a1-recovery-032",
+      "a1-recovery-083",
+      "a1-recovery-093",
+      "a1-recovery-094",
+      "a1-recovery-142",
+      "a1-recovery-143",
+      "a1-recovery-144"
+    ],
+    "repairFocus": "Grammar and parallel option structure findings from the release audit"
+  },
+  "reviewedQuestionCount": 21,
+  "changedCount": 21,
+  "constraints": [
+    "Exactly four options retained for every question.",
+    "All zero-based correct indices, explanations, source IDs, subtopics, difficulty levels, and tested answer meanings were preserved.",
+    "No meaningless padding was added."
+  ],
+  "changes": [
+    {
+      "id": "a1-data-062",
+      "original": {
+        "text": "A coach requests all 30 variables from a monitoring dashboard before selecting next week's training. The analyst should first present:",
+        "options": [
+          "Present key trends, uncertainty, and next step",
+          "Show every raw variable without prioritizing decisions",
+          "Show only favorable trends to protect confidence",
+          "Claim causation from the strongest correlation"
+        ],
+        "correct": 0,
+        "explanation": "Communication should prioritize decision-relevant findings, their limitations, and an actionable next step rather than overwhelm the decision-maker with unfiltered data.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A coach requests all 30 variables from a monitoring dashboard before selecting next week's training. The analyst should first present:",
+        "options": [
+          "Key trends, uncertainty, and next steps",
+          "Every raw variable without decision priorities",
+          "Only favorable trends to protect confidence",
+          "Causal claims from the strongest correlation"
+        ],
+        "correct": 0,
+        "explanation": "Communication should prioritize decision-relevant findings, their limitations, and an actionable next step rather than overwhelm the decision-maker with unfiltered data.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-072",
+      "original": {
+        "text": "A force-plate dashboard shows body mass doubled for one athlete on one day, with all other variables unchanged. Before interpreting training status, check:",
+        "options": [
+          "Check only the athlete's motivation score",
+          "Check calibration, units, identity, and data errors",
+          "Assign maximal loading because the value is unusual",
+          "Silently replace the outlier with the previous best"
+        ],
+        "correct": 1,
+        "explanation": "An implausible isolated value should first be verified against calibration, units, identity, and data-entry records.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A force-plate dashboard shows body mass doubled for one athlete on one day, with all other variables unchanged. Before interpreting training status, check:",
+        "options": [
+          "The athlete's motivation score alone",
+          "Calibration, units, identity, and data records",
+          "Maximal loading based on the unusual value",
+          "Silent replacement with the previous value"
+        ],
+        "correct": 1,
+        "explanation": "An implausible isolated value should first be verified against calibration, units, identity, and data-entry records.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-073",
+      "original": {
+        "text": "A wellness score of 1 appears after an athlete submitted the questionnaire twice, once with a missing date. The first data-quality check should address:",
+        "options": [
+          "Set training from the most extreme response",
+          "Diagnose severe fatigue from the single score",
+          "Delete the lower score without an audit trail",
+          "Check duplicates, timestamps, and missingness"
+        ],
+        "correct": 3,
+        "explanation": "Duplicate submissions and missing timestamps can create a false outlier; the records and missingness pattern should be checked before interpretation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A wellness score of 1 appears after an athlete submitted the questionnaire twice, once with a missing date. The first data-quality check should address:",
+        "options": [
+          "Training based on the most extreme response",
+          "A diagnosis of severe fatigue from the single score",
+          "Deletion of the lower score without an audit trail",
+          "Duplicate records, timestamps, and missingness"
+        ],
+        "correct": 3,
+        "explanation": "Duplicate submissions and missing timestamps can create a false outlier; the records and missingness pattern should be checked before interpretation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-092",
+      "original": {
+        "text": "A dashboard for a squad displays 40 metrics, mixed units, no definitions, and no stated decisions. Its main weakness is that it:",
+        "options": [
+          "Assume squad-wide trends are never useful",
+          "Present measures without context or a decision purpose",
+          "Reject quantitative data in favor of coach observation",
+          "Avoid showing more than one outcome on a screen"
+        ],
+        "correct": 1,
+        "explanation": "A dashboard becomes less useful when measures lack definitions, units, context, and a clear decision purpose.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A dashboard for a squad displays 40 metrics, mixed units, no definitions, and no stated decisions. Its main weakness is that it:",
+        "options": [
+          "Assuming squad trends are never useful",
+          "Presenting measures without context or purpose",
+          "Rejecting quantitative data for coach observation",
+          "Avoiding more than one outcome per screen"
+        ],
+        "correct": 1,
+        "explanation": "A dashboard becomes less useful when measures lack definitions, units, context, and a clear decision purpose.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-094",
+      "original": {
+        "text": "A dashboard reports a 12% improvement in jump height but omits baseline value, test error, and timing conditions. It should avoid:",
+        "options": [
+          "Interpret percentage change without baseline or test context",
+          "Display a non-health performance result beside a name",
+          "Graph repeated measurements across the testing period",
+          "Link the trend to a clearly defined coaching decision"
+        ],
+        "correct": 0,
+        "explanation": "The dashboard should avoid interpreting percentage change without baseline, uncertainty, and test-protocol context.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A dashboard reports a 12% improvement in jump height but omits baseline value, test error, and timing conditions. It should avoid:",
+        "options": [
+          "Interpreting percentage change without baseline or test context",
+          "Displaying a non-health performance result beside a name",
+          "Graphing repeated measurements across the testing period",
+          "Linking the trend to a clearly defined coaching decision"
+        ],
+        "correct": 0,
+        "explanation": "The dashboard should avoid interpreting percentage change without baseline, uncertainty, and test-protocol context.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-104",
+      "original": {
+        "text": "A randomized study compares a neuromuscular programme with usual training, but the intervention group also receives extra staff contact. The main design concern is:",
+        "options": [
+          "Claim there is no outcome because staff contact is unmeasured",
+          "Consider extra staff contact as a possible co-intervention",
+          "Claim randomization fails whenever programmes are visible",
+          "Remove the control group because the intervention is promising"
+        ],
+        "correct": 1,
+        "explanation": "Unequal staff contact is a co-intervention that may partly explain the outcome difference, complicating attribution to the neuromuscular programme.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A randomized study compares a neuromuscular programme with usual training, but the intervention group also receives extra staff contact. The main design concern is:",
+        "options": [
+          "Claiming no outcome because staff contact is unmeasured",
+          "Treating extra staff contact as a possible co-intervention",
+          "Claiming randomization fails when programmes are visible",
+          "Removing the control group because the intervention is promising"
+        ],
+        "correct": 1,
+        "explanation": "Unequal staff contact is a co-intervention that may partly explain the outcome difference, complicating attribution to the neuromuscular programme.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-113",
+      "original": {
+        "text": "A cohort study follows athletes with high versus low weekly travel for one season and compares new overuse injuries. This design can estimate:",
+        "options": [
+          "Estimate baseline disease prevalence only",
+          "Estimate a causal effect after random allocation",
+          "Assess device reliability without repeated trials",
+          "Estimate the travel–injury association over follow-up"
+        ],
+        "correct": 3,
+        "explanation": "A prospective cohort can compare subsequent outcome occurrence across naturally observed exposure groups, while causal interpretation remains cautious.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A cohort study follows athletes with high versus low weekly travel for one season and compares new overuse injuries. This design can estimate:",
+        "options": [
+          "Baseline disease prevalence only",
+          "A causal effect after random allocation",
+          "Device reliability without repeated trials",
+          "The travel–injury association over follow-up"
+        ],
+        "correct": 3,
+        "explanation": "A prospective cohort can compare subsequent outcome occurrence across naturally observed exposure groups, while causal interpretation remains cautious.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-122",
+      "original": {
+        "text": "A paper reports a statistically significant 0.03-second sprint improvement after training, but the confidence interval overlaps the test's typical error. Critical appraisal should ask whether:",
+        "options": [
+          "Generalize the result without examining the athletes studied",
+          "Stop appraisal because the p value is below 0.05",
+          "Use journal impact factor as a reliability measure",
+          "Check whether the effect is precise and decision-relevant"
+        ],
+        "correct": 3,
+        "explanation": "Statistical significance does not establish practical importance; the estimate's precision, measurement error, and decision threshold must also be considered.",
+        "sourceId": "nakagawa-cuthill-effect-size-2007"
+      },
+      "revised": {
+        "text": "A paper reports a statistically significant 0.03-second sprint improvement after training, but the confidence interval overlaps the test's typical error. Critical appraisal should ask whether the estimate is:",
+        "options": [
+          "Generalizable without examining the sample",
+          "Acceptable on the basis of p<0.05 alone",
+          "Reliable because of journal impact factor alone",
+          "Precise and relevant to the decision"
+        ],
+        "correct": 3,
+        "explanation": "Statistical significance does not establish practical importance; the estimate's precision, measurement error, and decision threshold must also be considered.",
+        "sourceId": "nakagawa-cuthill-effect-size-2007"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-123",
+      "original": {
+        "text": "A recovery intervention study includes eight national-level athletes from one sport and reports a large effect. To assess applicability, the reader should examine:",
+        "options": [
+          "Check whether the sample and setting fit the athlete",
+          "Prefer the study only because its effect is largest",
+          "Accept the conclusion because its wording is confident",
+          "Assume significance removes sampling uncertainty"
+        ],
+        "correct": 0,
+        "explanation": "Applicability depends on similarity between the study population, setting, intervention, outcome, and the athlete or decision under consideration.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "text": "A recovery intervention study includes eight national-level athletes from one sport and reports a large effect. To assess applicability, the reader should examine:",
+        "options": [
+          "Fit of sample and setting to the athlete and decision",
+          "Preference based only on the largest reported effect",
+          "Acceptance based only on confident wording",
+          "Assumption that significance removes sampling uncertainty"
+        ],
+        "correct": 0,
+        "explanation": "Applicability depends on similarity between the study population, setting, intervention, outcome, and the athlete or decision under consideration.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-132",
+      "original": {
+        "text": "In a study of recovery boots, users have substantially greater training age than non-users, and training age is related to injury risk. Training age may be:",
+        "options": [
+          "Call it random error unrelated to exposure or outcome",
+          "Treat it as a pressure unit for the boots",
+          "Call it an outcome that follows every injury",
+          "Treat it as a confounder of boot use and injury"
+        ],
+        "correct": 3,
+        "explanation": "Training age is a plausible confounder when it relates to both recovery-device use and injury risk and is not part of the causal exposure definition.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "text": "In a study of recovery boots, users have substantially greater training age than non-users, and training age is related to injury risk. Training age may be:",
+        "options": [
+          "Random error unrelated to exposure or outcome",
+          "A pressure unit used for the boots",
+          "An outcome that follows every injury",
+          "A confounder of boot use and injury"
+        ],
+        "correct": 3,
+        "explanation": "Training age is a plausible confounder when it relates to both recovery-device use and injury risk and is not part of the causal exposure definition.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-133",
+      "original": {
+        "text": "Outdoor training days are associated with both higher heat exposure and more muscle cramps. If heat exposure is not controlled, it may:",
+        "options": [
+          "Skip a clear outcome definition before analysis",
+          "Claim outdoor training directly causes every cramp",
+          "Treat the cohort design as randomized",
+          "Consider heat exposure as a confounder"
+        ],
+        "correct": 3,
+        "explanation": "A third variable related to both the exposure and outcome can distort their observed association if it is not addressed.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "text": "Outdoor training days are associated with both higher heat exposure and more muscle cramps. If heat exposure is not controlled, it may:",
+        "options": [
+          "Leave outcome definition unclear before analysis",
+          "Lead to the claim that outdoor training causes cramps",
+          "Make the observational cohort appear randomized",
+          "Confound the outdoor-training–cramp association"
+        ],
+        "correct": 3,
+        "explanation": "A third variable related to both the exposure and outcome can distort their observed association if it is not addressed.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-134",
+      "original": {
+        "text": "High-protein diet use is associated with better sprint improvement, but users also receive more individualized coaching. Individualized coaching is a possible confounder because it:",
+        "options": [
+          "Assume diet and sprint improvement are unrelated",
+          "Consider coaching a confounder of diet and improvement",
+          "Call timing error the explanation for the association",
+          "Measure the outcome before the dietary exposure"
+        ],
+        "correct": 1,
+        "explanation": "Individualized coaching may influence both diet choice and sprint improvement, so the diet–performance association may be partly confounded.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "text": "High-protein diet use is associated with better sprint improvement, but users also receive more individualized coaching. Individualized coaching is a possible confounder because it:",
+        "options": [
+          "Fails to relate diet choice to sprint improvement",
+          "Influences both diet choice and sprint improvement",
+          "Attributes the association to timing error",
+          "Measures the outcome before the dietary exposure"
+        ],
+        "correct": 1,
+        "explanation": "Individualized coaching may influence both diet choice and sprint improvement, so the diet–performance association may be partly confounded.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or clauses that grammatically complete the stem. The tested data-quality, evidence-appraisal, cohort, or confounding concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-004",
+      "original": {
+        "text": "During reconditioning after a lower-limb injury, the strength plan should be progressed according to:",
+        "options": [
+          "Use one fixed exercise list for every athlete and stage",
+          "Progress only to the heaviest tolerated load in training",
+          "Follow the calendar rather than current function or symptoms",
+          "Match tissue status, function, sport demands, and response"
+        ],
+        "correct": 3,
+        "explanation": "Progression should be individualized to current function, the target sport, tissue status, and the athlete's response to loading.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "During reconditioning after a lower-limb injury, the strength plan should be progressed according to:",
+        "options": [
+          "A fixed exercise list for every athlete and stage",
+          "Only the heaviest tolerated training load",
+          "The calendar rather than current function or symptoms",
+          "Tissue status, function, sport demands, and response"
+        ],
+        "correct": 3,
+        "explanation": "Progression should be individualized to current function, the target sport, tissue status, and the athlete's response to loading.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-022",
+      "original": {
+        "text": "For a basketball player with adequate maximal strength but a slow countermovement jump, power training should emphasize:",
+        "options": [
+          "Use long isometric holds at comfortable joint angles",
+          "Train rapid force at task-relevant velocities",
+          "Use hypertrophy volume until complete fatigue",
+          "Use mobility work without explosive practice"
+        ],
+        "correct": 1,
+        "explanation": "Power training must develop force rapidly at task-relevant movement velocities, not simply increase slow-force or fatigue volume.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "For a basketball player with adequate maximal strength but a slow countermovement jump, power training should emphasize:",
+        "options": [
+          "Long isometric holds at comfortable joint angles",
+          "Rapid force at task-relevant velocities",
+          "Hypertrophy volume to complete fatigue",
+          "Mobility work without explosive practice"
+        ],
+        "correct": 1,
+        "explanation": "Power training must develop force rapidly at task-relevant movement velocities, not simply increase slow-force or fatigue volume.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-032",
+      "original": {
+        "text": "A defender must react to an opponent's feint before changing direction. This drill primarily develops:",
+        "options": [
+          "Use a preplanned route with no perception demand",
+          "Use static flexibility without reactive movement",
+          "Train maximal strength without an external cue",
+          "Train agility through perception and reactive movement"
+        ],
+        "correct": 3,
+        "explanation": "Agility includes perception and decision-making in response to an external stimulus, followed by the movement.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A defender must react to an opponent's feint before changing direction. This drill primarily develops:",
+        "options": [
+          "A preplanned route without perception demands",
+          "Static flexibility without reactive movement",
+          "Maximal strength without an external cue",
+          "Agility through perception and reactive movement"
+        ],
+        "correct": 3,
+        "explanation": "Agility includes perception and decision-making in response to an external stimulus, followed by the movement.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-083",
+      "original": {
+        "text": "A recovery-monitoring system records wellness, sleep, session load, and a weekly performance test. Its main advantage is that it:",
+        "options": [
+          "Produce a diagnosis from one dashboard score",
+          "Remove the need for coach-athlete communication",
+          "Combine signals before guiding training decisions",
+          "Give every athlete the same recovery threshold"
+        ],
+        "correct": 2,
+        "explanation": "Combining several measures supports contextual interpretation; it does not produce an automatic diagnosis or a universal threshold.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "A recovery-monitoring system records wellness, sleep, session load, and a weekly performance test. Its main advantage is that it:",
+        "options": [
+          "Produces a diagnosis from one dashboard score",
+          "Removes the need for coach-athlete communication",
+          "Combines signals before guiding training decisions",
+          "Gives every athlete the same recovery threshold"
+        ],
+        "correct": 2,
+        "explanation": "Combining several measures supports contextual interpretation; it does not produce an automatic diagnosis or a universal threshold.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-093",
+      "original": {
+        "text": "An athlete wants massage after a match because of perceived soreness. The physiotherapist should select it by considering:",
+        "options": [
+          "Consider goal, timing, evidence, preference, and trade-offs",
+          "Require massage after every match, regardless of need",
+          "Choose by price rather than the athlete's goal or response",
+          "Use passive treatment instead of training, sleep, and assessment"
+        ],
+        "correct": 0,
+        "explanation": "Recovery modalities should be selected in relation to the goal, timing, evidence, athlete preference, and possible trade-offs rather than by routine.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete wants massage after a match because of perceived soreness. The physiotherapist should select it by considering:",
+        "options": [
+          "The goal, timing, evidence, preference, and trade-offs",
+          "Routine massage after every match regardless of need",
+          "Price rather than the athlete's goal or response",
+          "Passive treatment instead of training, sleep, and assessment"
+        ],
+        "correct": 0,
+        "explanation": "Recovery modalities should be selected in relation to the goal, timing, evidence, athlete preference, and possible trade-offs rather than by routine.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-094",
+      "original": {
+        "text": "Before choosing cryotherapy or hydrotherapy after competition, the team should clarify:",
+        "options": [
+          "Use one identical dose for every athlete and situation",
+          "Clarify goal, timing, evidence, tolerance, and alternatives",
+          "Replace pain assessment with passive treatment alone",
+          "Assume intense sensation always means better recovery"
+        ],
+        "correct": 1,
+        "explanation": "A modality decision should specify the intended outcome and consider timing, evidence, tolerance, and alternatives.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "Before choosing cryotherapy or hydrotherapy after competition, the team should clarify:",
+        "options": [
+          "A single dose for each athlete and situation",
+          "Goal, timing, evidence, tolerance, and alternatives",
+          "Pain assessment replaced by passive treatment alone",
+          "Intense sensation assumed to improve recovery"
+        ],
+        "correct": 1,
+        "explanation": "A modality decision should specify the intended outcome and consider timing, evidence, tolerance, and alternatives.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-142",
+      "original": {
+        "text": "After ACL reconstruction, an athlete meets a strength-symmetry target but reports pain during deceleration. Return-to-sport coordination should:",
+        "options": [
+          "Use the desired competition date as the main criterion",
+          "Share symptoms, criteria, progression, and sport demands",
+          "Clear the athlete from one laboratory value alone",
+          "Ignore deceleration because strength symmetry is sufficient"
+        ],
+        "correct": 1,
+        "explanation": "Return-to-sport decisions after ACL reconstruction should use shared functional criteria, symptoms, progression, and sport demands rather than a date or one laboratory value.",
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "revised": {
+        "text": "After ACL reconstruction, an athlete meets a strength-symmetry target but reports pain during deceleration. The return-to-sport team should:",
+        "options": [
+          "Use the desired competition date as the main criterion",
+          "Share symptoms, criteria, progression, and sport demands",
+          "Clear the athlete from one laboratory value alone",
+          "Ignore deceleration because strength symmetry is sufficient"
+        ],
+        "correct": 1,
+        "explanation": "Return-to-sport decisions after ACL reconstruction should use shared functional criteria, symptoms, progression, and sport demands rather than a date or one laboratory value.",
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "aspetar-acl-cpg-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-143",
+      "original": {
+        "text": "An athlete has medical clearance after ACL rehabilitation but has not completed cutting and sport-specific drills. The team should:",
+        "options": [
+          "Return immediately because medical clearance ended rehabilitation",
+          "Use only the athlete's preferred return date and timeline",
+          "Progress functional and sport-specific exposure with shared criteria",
+          "Delay all activity until every laboratory value is identical"
+        ],
+        "correct": 2,
+        "explanation": "Medical clearance does not replace completion of graded functional and sport-specific exposure; criteria and response should be shared by the team.",
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "revised": {
+        "text": "An athlete has medical clearance after ACL rehabilitation but has not completed cutting and sport-specific drills. The return-to-sport team should:",
+        "options": [
+          "Return immediately because medical clearance ended rehabilitation",
+          "Use only the athlete's preferred return date and timeline",
+          "Progress functional and sport-specific exposure with shared criteria",
+          "Delay all activity until every laboratory value is identical"
+        ],
+        "correct": 2,
+        "explanation": "Medical clearance does not replace completion of graded functional and sport-specific exposure; criteria and response should be shared by the team.",
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "aspetar-acl-cpg-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-recovery-144",
+      "original": {
+        "text": "A sprinter recovering from a hamstring injury wants to race this weekend, while the clinician recommends more high-speed exposure. The best coordination is to:",
+        "options": [
+          "Follow the preferred date without further clinical assessment",
+          "Use one unrecorded staff opinion as the decision",
+          "Clear the athlete from a single strength value alone",
+          "Agree on criteria, staged exposure, roles, and monitoring"
+        ],
+        "correct": 3,
+        "explanation": "Hamstring return-to-sport coordination should use agreed criteria, progressive high-speed exposure, clear roles, and ongoing symptom monitoring.",
+        "sourceId": "london-hamstring-consensus-2023"
+      },
+      "revised": {
+        "text": "A sprinter recovering from a hamstring injury wants to race this weekend, while the clinician recommends more high-speed exposure. The clinical team should:",
+        "options": [
+          "Follow the preferred date without further clinical assessment",
+          "Use one unrecorded staff opinion as the decision",
+          "Clear the athlete from a single strength value alone",
+          "Agree on criteria, staged exposure, roles, and monitoring"
+        ],
+        "correct": 3,
+        "explanation": "Hamstring return-to-sport coordination should use agreed criteria, progressive high-speed exposure, clear roles, and ongoing symptom monitoring.",
+        "sourceId": "london-hamstring-consensus-2023"
+      },
+      "reviewerNote": "Recast the answer choices as parallel noun phrases or inflected clauses, and clarified the return-to-sport coordination stems where needed. The tested performance, recovery, or injury-management concept, answer meaning, source, explanation, syllabus mapping, difficulty, and zero-based key were preserved; no filler wording was added.",
+      "sourcesInspected": [
+        "london-hamstring-consensus-2023",
+        "sai-notification-2026",
+        "research/release_audit_data_performance.json"
+      ]
+    }
+  ]
+}

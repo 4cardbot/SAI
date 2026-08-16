@@ -1,0 +1,223 @@
+{
+  "auditType": "Final release read-only audit of technology/biostatistics and holistic/travel/ethics A1 questions",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "reviewedCount": 300,
+  "scope": {
+    "retainedFiles": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "coverageManifest": "research/a1_coverage_manifest.json",
+    "provenanceManifest": "research/a1_provenance_remediation.json",
+    "repairLogsInspectedThroughFinal9": [
+      "research/final3_content_repair_technology_biostatistics.json",
+      "research/final3_content_repair_holistic_travel_ethics.json",
+      "research/final5_diversity_repair_technology_biostatistics.json",
+      "research/final5_diversity_repair_holistic_travel_ethics.json",
+      "research/final6_length_repair_technology_biostatistics.json",
+      "research/final6_length_repair_holistic_travel_ethics.json",
+      "research/final7_length_repair_holistic_travel_ethics.json",
+      "research/final8_content_repair_holistic_travel_ethics.json",
+      "research/final9_length_repair_data_analytics.json"
+    ],
+    "allFinalJsonLogsParse": true,
+    "allFinalJsonLogCount": 35
+  },
+  "checks": {
+    "retainedFiles": {
+      "passed": true,
+      "technologyCount": 150,
+      "holisticCount": 150,
+      "uniqueIds": true,
+      "sectionValues": ["A1"]
+    },
+    "schema": {
+      "passed": true,
+      "exactQuestionKeys": true,
+      "fourDistinctOptionsPerQuestion": true,
+      "validZeroBasedCorrectIndices": true,
+      "requiredTextAndExplanationPresent": true
+    },
+    "syllabusMapping": {
+      "passed": true,
+      "technologySubtopicCounts": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70
+      },
+      "holisticSubtopicCounts": {
+        "Yoga & Mind–Body Interventions in Sports": 30,
+        "Athlete Health, Wellness & Holistic Development": 30,
+        "Travel-Related Challenges & Competition Readiness": 30,
+        "Anti-Doping Awareness & Ethical Practices": 30,
+        "Interdisciplinary Coordination & Support Systems": 30
+      },
+      "unexpectedSubtopics": []
+    },
+    "mergedCorrespondence": {
+      "passed": true,
+      "technologyMergedCount": 150,
+      "holisticMergedCount": 150,
+      "relevantMergedCount": 300,
+      "retainedToMergedExactContentMatch": true,
+      "mergedTargetOrderMatch": true,
+      "mismatchedIds": []
+    },
+    "sourceResolution": {
+      "passed": true,
+      "unknownSourceIds": [],
+      "allUsedCatalogEntriesHaveLocatorAndUrlOrLocalPath": true
+    },
+    "coverageAndProvenanceManifests": {
+      "passed": true,
+      "coverageTotal": 900,
+      "currentSourceCountsMatchManifest": true,
+      "explicitRangeMappingsReviewed": true
+    },
+    "duplicates": {
+      "passed": true,
+      "exactNormalizedStemAndOptionFamilies": 0,
+      "repeatedNormalizedStems": 0,
+      "duplicateOptionsWithinQuestion": 0
+    },
+    "optionQuality": {
+      "passed": true,
+      "primaryLengthFlags": 0,
+      "maximumCorrectMinusDistractorMedian": 8,
+      "maximumOptionSpread": 15,
+      "technologyStrictlyLongestCorrect": 46,
+      "holisticStrictlyLongestCorrect": 47,
+      "combinedStrictlyLongestRate": 0.31,
+      "technologyAnswerPositionCounts": [39, 38, 37, 36],
+      "holisticAnswerPositionCounts": [42, 34, 42, 32]
+    },
+    "contentReview": {
+      "highConfidenceAnswerKeyDefects": 0,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "highConfidenceGrammarDefects": 0,
+      "answerAndExplanationReviewCompleted": true
+    },
+    "repairLogConsistency": {
+      "passed": true,
+      "latestLoggedRevisionsCompared": 156,
+      "currentQuestionsMatchingLatestApplicableRevision": 156,
+      "mismatches": []
+    }
+  },
+  "highConfidenceFindings": [
+    {
+      "findingId": "RH-001",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-tech-010"],
+      "currentSourceId": "gps-validity-scott-2016",
+      "problem": "The keyed claim distinguishes heart-rate response as internal load from GPS distance and acceleration as external load. The cited GPS validity review is directly about GPS-derived external-load measures and does not establish the heart-rate/internal-load side of the distinction.",
+      "recommendedAction": "Retain the answer and explanation, but remap the primary source to ioc-load-illness-2016 or add a directly inspected internal-versus-external-load source. Keep the GPS review only as a secondary source if desired.",
+      "sourceEvidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/26439776/",
+        "src/data/sourceCatalog.ts: gps-validity-scott-2016 and ioc-load-illness-2016"
+      ]
+    },
+    {
+      "findingId": "RH-002",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-tech-022", "a1-tech-023", "a1-tech-024", "a1-tech-025"],
+      "currentSourceId": "neumann-kinesiology",
+      "problem": "These items make specific claims about gyroscopes, magnetometers, inertial-sensor fusion, and integration drift. The inspected Neumann PDF directly discusses accelerometry, kinematic measurement, electromagnetic tracking, and force measurement, but its recorded locator does not directly support these four IMU-component and signal-processing claims.",
+      "recommendedAction": "Remap these items to the already catalogued wearable-inertial-camomilla-2018 source, or add a more granular inspected IMU source locator. Do not change the keyed answers solely because of this provenance issue.",
+      "sourceEvidence": [
+        "books/Kinesiology of the Musculoskeletal System.pdf: supplied PDF discussion of accelerometry and kinematic measurement around printed pp. 104–107",
+        "https://pubmed.ncbi.nlm.nih.gov/29543747/",
+        "src/data/sourceCatalog.ts: neumann-kinesiology and wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "findingId": "RH-003",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-tech-060"],
+      "currentSourceId": "nist-ai-rmf-2023",
+      "problem": "The item tests the statistical distinction between an observational association and a causal conclusion. The NIST AI RMF supports trustworthy AI risk, evaluation, and oversight, but is not the direct statistical or epidemiologic source for this causal-inference claim.",
+      "recommendedAction": "Keep the keyed answer, but use a directly inspected statistics or epidemiology source such as cdc-confounding-epi-manual for the primary attribution, or add a dedicated causal-inference source.",
+      "sourceEvidence": [
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+        "src/data/sourceCatalog.ts: nist-ai-rmf-2023 and cdc-confounding-epi-manual"
+      ]
+    },
+    {
+      "findingId": "RH-004",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-tech-064", "a1-tech-065", "a1-tech-067", "a1-tech-068", "a1-tech-069"],
+      "currentSourceId": "ioc-load-illness-2016",
+      "problem": "The keyed claims concern role-based permissions, missing-data handling, interoperability, athlete-facing dashboard design, and audit trails. The cited IOC load/illness consensus supports training-load monitoring and contextual management, but not these detailed software and data-governance controls. This concern was also left unresolved in the final3 and final5 technology audit logs.",
+      "recommendedAction": "Add or inspect a dedicated athlete-management-system/data-governance source and assign it as the primary source for these implementation details. Preserve the IOC consensus for the load-monitoring items it directly supports.",
+      "sourceEvidence": [
+        "https://bjsm.bmj.com/content/50/17/1043",
+        "src/data/sourceCatalog.ts: ioc-load-illness-2016",
+        "research/final3_content_repair_technology_biostatistics.json",
+        "research/final5_diversity_repair_technology_biostatistics.json"
+      ]
+    },
+    {
+      "findingId": "RH-005",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-holistic-015", "a1-holistic-018"],
+      "currentSourceId": "yoga-athletes-review-2025",
+      "problem": "The items prescribe safety responses to light-headedness during breathing practice and to breath-retention drills in an athlete with a respiratory condition. The cited systematic review supports yoga-related breathing and athlete performance or mental-health outcomes, but it is not a clinical safety or respiratory contraindication guideline for these specific recommendations.",
+      "recommendedAction": "Keep the conservative keyed answers, but add a directly inspected clinical breathing/respiratory safety source or recast the explanations as general safety reasoning with an appropriate clinical source.",
+      "sourceEvidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/41316576/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1360859225003080",
+        "src/data/sourceCatalog.ts: yoga-athletes-review-2025"
+      ]
+    },
+    {
+      "findingId": "RH-006",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-holistic-101", "a1-holistic-102", "a1-holistic-103", "a1-holistic-104", "a1-holistic-105", "a1-holistic-106", "a1-holistic-107", "a1-holistic-108", "a1-holistic-109", "a1-holistic-110"],
+      "currentSourceId": "wada-prohibited-list-2026",
+      "problem": "These items test Therapeutic Use Exemption definition, criteria, timing, authorization, emergency handling, permitted alternatives, and scope. The cited catalog entry is the 2026 Prohibited List; TUE criteria and process are established by the separate WADA International Standard for Therapeutic Use Exemptions, not by the List alone.",
+      "recommendedAction": "Add a granular WADA ISTUE source entry and use it as the primary source for questions 101–110. At the audit date, the 2023 ISTUE is the applicable standard; track the WADA 2027 revision separately for future updates.",
+      "sourceEvidence": [
+        "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list",
+        "https://www.wada-ama.org/sites/default/files/2022-09/international_standard_for_therapeutic_use_exemptions_istue_2023.pdf",
+        "src/data/sourceCatalog.ts: wada-prohibited-list-2026"
+      ]
+    },
+    {
+      "findingId": "RH-007",
+      "category": "source-traceability",
+      "confidence": "high",
+      "severity": "medium",
+      "questionIds": ["a1-holistic-131", "a1-holistic-132", "a1-holistic-133", "a1-holistic-134", "a1-holistic-135", "a1-holistic-136", "a1-holistic-137", "a1-holistic-138", "a1-holistic-139", "a1-holistic-140"],
+      "currentSourceId": "interdisciplinary-performance-sport-burns-2023",
+      "problem": "These items test detailed athlete-management-system governance and data-engineering practices: access control, secure storage, audit trails, standardized fields, missingness, dashboard thresholds, and system evaluation. The Burns and Collins scoping review supports interdisciplinary collaboration, roles, culture, and organizational processes, but does not directly establish this technical AMS/data-governance content.",
+      "recommendedAction": "Add or inspect a dedicated athlete-management-system, health-data governance, or information-security source and assign it as the primary source for questions 131–140. The collaboration source can remain for questions about team roles, communication, and shared decisions.",
+      "sourceEvidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/37042174/",
+        "https://onlinelibrary.wiley.com/doi/abs/10.1080/17461391.2023.2201812",
+        "src/data/sourceCatalog.ts: interdisciplinary-performance-sport-burns-2023"
+      ]
+    }
+  ],
+  "releaseConclusion": {
+    "status": "provenance_review_required",
+    "answerKeyOrDistractorBlocker": false,
+    "structuralReleaseChecksPassed": true,
+    "actionableFindingCount": 7,
+    "note": "The 300 reviewed questions are structurally valid, correspond exactly to the merged A1 bank, have no current primary option-length flags or normalized repetition families, and had no high-confidence answer-key or semantic-distractor defects. Release provenance should be strengthened for the seven source-scope findings above before treating the two groups as fully provenance-clean."
+  }
+}

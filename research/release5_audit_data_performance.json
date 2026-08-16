@@ -1,0 +1,169 @@
+{
+  "auditType": "release5_final_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "findingId": "dp5-answer-pattern-001",
+      "category": "answerPositionBias",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-001 through a1-data-150"
+      ],
+      "finding": "Correct-option positions are strongly clustered by official subtopic. Interpretation & Application of Data has positions [31, 35, 27, 7] for indices [0, 1, 2, 3] across 100 questions, while Principles of Research & Evidence-Based Practice has [7, 6, 9, 28] across 50 questions. Thus index 3 is correct in only 7% of the first subtopic but 56% of the second, despite the combined file being approximately balanced.",
+      "evidence": {
+        "dataAnalyticsOverallCounts": [
+          38,
+          41,
+          36,
+          35
+        ],
+        "dataAnalyticsSubtopicCounts": {
+          "Interpretation & Application of Data": [
+            31,
+            35,
+            27,
+            7
+          ],
+          "Principles of Research & Evidence-Based Practice": [
+            7,
+            6,
+            9,
+            28
+          ]
+        },
+        "performanceRecoverySubtopicCounts": {
+          "Performance Enhancement Strategies": [
+            13,
+            13,
+            12,
+            12
+          ],
+          "Recovery Protocols & Regeneration": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "Injury Prevention & Risk Management": [
+            13,
+            13,
+            12,
+            12
+          ]
+        }
+      },
+      "recommendedAction": "After content review, permute option order within the affected questions and update each zero-based correct index so answer positions are balanced within each file and official subtopic, while preserving option meaning and answer-key correctness."
+    }
+  ],
+  "summary": {
+    "status": "confirmed_actionable_findings",
+    "highConfidenceFindingCount": 1,
+    "affectedQuestionCount": 150,
+    "questionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150,
+      "question_bank/section_a1.json correspondence records": 300
+    },
+    "mergedCorrespondence": {
+      "checkedQuestionCount": 300,
+      "matchedQuestionCount": 300,
+      "mismatchCount": 0
+    },
+    "schema": {
+      "exactRequiredSchema": 300,
+      "fourOptions": 300,
+      "uniqueOptionStrings": 300,
+      "validCorrectIndices": 300,
+      "sectionA1": 300,
+      "nonEmptyTextAndExplanation": 300,
+      "sequentialIds": 300,
+      "schemaDefects": 0
+    },
+    "answerKeysAndOptions": {
+      "manuallyReviewedQuestionCount": 300,
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceStemKeyAlignmentErrors": 0,
+      "highConfidenceAmbiguityDefects": 0,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "confirmedGrammarOrParallelOptionDefects": 0,
+      "optionLengthFlags": 0,
+      "maximumCorrectMinusMedianDistractor": {
+        "dataAnalytics": 7.5,
+        "performanceRecovery": 7
+      },
+      "maximumOptionSpread": {
+        "dataAnalytics": 15,
+        "performanceRecovery": 15
+      },
+      "strictLongestCorrect": {
+        "dataAnalytics": 41,
+        "performanceRecovery": 47,
+        "combined": 88
+      },
+      "answerPositionCounts": {
+        "dataAnalytics": [
+          38,
+          41,
+          36,
+          35
+        ],
+        "performanceRecovery": [
+          38,
+          38,
+          37,
+          37
+        ],
+        "combined": [
+          76,
+          79,
+          73,
+          72
+        ]
+      }
+    },
+    "explanations": {
+      "highConfidenceNonResponsiveExplanationQuestionCount": 0
+    },
+    "duplicates": {
+      "duplicateIds": 0,
+      "exactNormalizedStemDuplicates": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "highConfidenceNearDuplicateQuestionPairs": 0
+    },
+    "sourceTraceability": {
+      "sourceCatalogChecked": "src/data/sourceCatalog.ts",
+      "uniqueSourceIdsUsed": 16,
+      "sourceIdsResolvingInCatalog": 300,
+      "questionsWithUnknownSourceId": 0,
+      "highConfidenceSourceScopeMismatches": 0,
+      "sourceTraceabilityDefects": 0
+    },
+    "coverage": {
+      "dataAnalytics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      },
+      "performanceRecovery": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      }
+    },
+    "cleanChecks": [
+      "All 300 group-file records use the expected ten-field schema and four unique options.",
+      "All 300 group-file records have valid zero-based answer indices and sequential IDs.",
+      "All 300 selected records correspond byte-for-byte by question ID with the relevant records in the merged A1 file.",
+      "No high-confidence answer-key, stem, ambiguity, semantic-distractor, grammar, explanation-responsiveness, source-scope, or duplicate defect was confirmed.",
+      "Option-length checks produced no actionable flags; the largest observed spread was 15 characters and the strict-longest rate was 29.3% combined.",
+      "The only actionable finding is the data-analytics subtopic-level answer-position clustering reported above."
+    ]
+  }
+}

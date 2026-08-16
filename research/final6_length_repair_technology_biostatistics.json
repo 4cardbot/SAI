@@ -1,0 +1,34 @@
+{
+  "auditType": "Final6 primary option-length repair audit",
+  "generatedAt": "2026-08-16",
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "changedCount": 0,
+  "questionFileChanged": false,
+  "readOnlyInspection": true,
+  "primaryLengthFlagDefinition": "Correct option more than 8 characters above the distractor median or total option spread above 15 characters",
+  "changes": [],
+  "checks": {
+    "questionCount": 150,
+    "exactlyFourOptionsEach": true,
+    "distinctOptionsEach": true,
+    "validZeroBasedCorrectIndices": true,
+    "primaryLengthFlagCount": 0,
+    "spreadAbove15Count": 0,
+    "maximumOptionSpread": 15,
+    "maximumCorrectMinusDistractorMedian": 8,
+    "maximumGapQuestionId": "a1-tech-027",
+    "strictlyLongestCorrectCount": 46,
+    "strictlyLongestCorrectRate": 0.3067,
+    "tiedOrLongestCorrectCount": 57,
+    "strictlyShortestCorrectCount": 16,
+    "answerPositionCounts": [
+      39,
+      38,
+      37,
+      36
+    ],
+    "allRequiredFieldsPresent": true
+  },
+  "reviewerNote": "Every current item was inspected. No option revision was warranted because the file already satisfies both primary length thresholds; no padding or unrelated content change was introduced."
+}

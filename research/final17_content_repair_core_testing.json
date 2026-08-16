@@ -1,0 +1,33 @@
+{
+  "auditType": "a1_final17_content_repair_core_testing",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json"
+    ],
+    "sourceAudit": "research/release4_audit_core_testing.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Torque terminology and multidisciplinary-report stem completion."
+  },
+  "reviewedCount": 300,
+  "changedCount": 2,
+  "changes": [
+    {
+      "id": "a1-core-061",
+      "revisedOptions": ["When force passes through the centre of the joint", "When force acts at about 90° to the lever arm", "When force is parallel to the moment arm", "When the moment arm is zero at the joint"],
+      "revisedCorrect": 1,
+      "revisedExplanation": "Torque equals force multiplied by the perpendicular moment arm; for a fixed force, the turning effect is greatest when the force's line of action is approximately perpendicular to the lever arm.",
+      "reviewerNote": "Replaced the ambiguous force-to-moment-arm wording with the precise force-line-to-lever-arm condition and aligned the explanation.",
+      "sourcesInspected": ["basic-biomechanics-hall", "research/release4_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-148",
+      "revisedText": "A report for a multidisciplinary team should:",
+      "revisedCorrect": 3,
+      "reviewerNote": "Removed the incompatible 'by:' so the four bare-infinitive options are parallel completions.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_core_testing.json"]
+    }
+  ]
+}

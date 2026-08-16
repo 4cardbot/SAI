@@ -1,0 +1,68 @@
+{
+  "auditType": "a1_final15_content_repair_core_testing",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json"
+    ],
+    "sourceAudit": "research/release3_audit_core_testing.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Nutrition-option parallelism, minor consent/assent clarity, termination-stem grammar, and anti-doping provenance."
+  },
+  "reviewedCount": 300,
+  "changedCount": 7,
+  "changes": [
+    {
+      "id": "a1-core-143",
+      "revisedOptions": ["Bone health while protecting endocrine and immune function", "Performance without broader physiological effects", "Health, recovery, endocrine function, and performance", "Immune function only when training load is light"],
+      "revisedCorrect": 2,
+      "reviewerNote": "Added 'function' to make the keyed outcomes grammatically parallel after 'risk of impaired'.",
+      "sourcesInspected": ["ioc-reds-2023", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-core-147",
+      "revisedSourceId": "wada-prohibited-list-2026",
+      "revisedCorrect": 2,
+      "reviewerNote": "Remapped the explicit anti-doping-status claim to the dated WADA prohibited-list source.",
+      "sourcesInspected": ["wada-prohibited-list-2026", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-core-148",
+      "revisedSourceId": "wada-prohibited-list-2026",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped the explicit anti-doping-status check to the dated WADA prohibited-list source.",
+      "sourcesInspected": ["wada-prohibited-list-2026", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-core-149",
+      "revisedSourceId": "wada-prohibited-list-2026",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped the prohibited-ingredient compliance claim to the dated WADA prohibited-list source.",
+      "sourcesInspected": ["wada-prohibited-list-2026", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-core-150",
+      "revisedSourceId": "wada-prohibited-list-2026",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped the anti-doping component of the supplement decision process to the dated WADA prohibited-list source.",
+      "sourcesInspected": ["wada-prohibited-list-2026", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-090",
+      "revisedOptions": ["That coach permission alone replaces required consent for a maximal test", "That previous participation counts as current consent for this assessment", "That anonymous results remove the need for permission from the minor", "Required consent/assent, screening, and safety arrangements are complete"],
+      "revisedCorrect": 3,
+      "revisedExplanation": "A minor's maximal assessment should proceed only after the applicable consent/assent process, screening, and safety arrangements are complete.",
+      "reviewerNote": "Made the minor-consent/assent requirement explicit and balanced the options while preserving the keyed answer.",
+      "sourcesInspected": ["acsm-getp-12", "world-physiotherapy-consent-2023", "research/release3_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-140",
+      "revisedText": "An athlete becomes confused and loses coordination during an exhaustive test. The administrator should:",
+      "revisedCorrect": 0,
+      "reviewerNote": "Changed the stem so the existing imperative termination options are grammatically parallel.",
+      "sourcesInspected": ["acsm-getp-12", "research/release3_audit_core_testing.json"]
+    }
+  ]
+}

@@ -31,4 +31,9 @@ describe("downloadable result summary", () => {
     const result = scoreAttempt(createAttempt(QUESTION_BANK), QUESTION_BANK, new Date("2026-08-15T09:02:07Z"));
     expect(summaryFilename(result)).toMatch(/^sai-performance-analyst-summary-\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.html$/);
   });
+
+  it("labels A1-only summaries as 100-question tests", () => {
+    const result = scoreAttempt(createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 12345, "A1_FULL"), QUESTION_BANK);
+    expect(buildSummaryHtml(result)).toContain("A1-only 100-question test");
+  });
 });

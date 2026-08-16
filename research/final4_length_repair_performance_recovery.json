@@ -1,0 +1,55 @@
+{
+  "auditType": "final4_length_repair_performance_recovery",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_performance_recovery.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median distractor or when total option-length spread exceeds 15 characters.",
+  "flagsBefore": 2,
+  "changedCount": 2,
+  "changedQuestions": [
+    {
+      "id": "a1-recovery-034",
+      "originalOptions": [
+        "Use passive recovery between repeated efforts",
+        "Train perception and decisions with directional movement",
+        "Train maximal strength without movement variability",
+        "Train linear speed without a decision component"
+      ],
+      "revisedOptions": [
+        "Passive recovery between repeated efforts",
+        "Perception and reactive decisions",
+        "Maximal strength without movement",
+        "Linear speed without reaction"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Shortened the correct option and converted all four options to comparable noun phrases while preserving the reactive-agility answer and its meaning. The revised set is source-supported and removes the correct-option length cue without padding.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-074",
+      "originalOptions": [
+        "Eliminate daytime light regardless of arrival time",
+        "Plan sleep, light exposure, and adjustment to local time",
+        "Replace sleep with caffeine during competition",
+        "Keep home hours despite the time-zone change"
+      ],
+      "revisedOptions": [
+        "Daytime light avoidance regardless of arrival",
+        "Sleep, light exposure, and local-time adjustment",
+        "Caffeine in place of sleep during competition",
+        "Home-time sleep despite local competition"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Recast all options as concise noun phrases and retained the source-supported emphasis on sleep, light exposure, and adjustment to local time. The correct option remains unambiguous without exceeding the primary length-gap threshold.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    }
+  ],
+  "flagsAfter": 0
+}

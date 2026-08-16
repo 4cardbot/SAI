@@ -1,0 +1,187 @@
+{
+  "auditType": "final2-independent-read-only-content-audit",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "reviewedFiles": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json",
+      "question_bank/section_a1.json",
+      "src/data/sourceCatalog.ts"
+    ],
+    "auditLogsInspected": [
+      "research/final_independent_audit_core_testing.json",
+      "research/independent_content_audit_core_testing.json",
+      "research/content_remediation_core_disciplines.json",
+      "research/content_remediation_testing_assessment.json",
+      "research/option_length_review_core_disciplines.json",
+      "research/option_length_review_testing_assessment.json",
+      "research/a1_coverage_manifest.json",
+      "research/a1_provenance_remediation.json"
+    ],
+    "reviewedQuestionCount": 300,
+    "groups": [
+      {
+        "file": "question_bank/section_a1_core_disciplines.json",
+        "topic": "Core Disciplines Foundational Concepts",
+        "count": 150
+      },
+      {
+        "file": "question_bank/section_a1_testing_assessment.json",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "count": 150
+      }
+    ]
+  },
+  "validation": {
+    "retainedFileCounts": {
+      "question_bank/section_a1_core_disciplines.json": 150,
+      "question_bank/section_a1_testing_assessment.json": 150
+    },
+    "uniqueIds": 300,
+    "mergedCorrespondingMismatches": 0,
+    "schemaErrors": 0,
+    "unknownSourceIds": 0,
+    "answerKeyErrors": 0,
+    "answerFamilyConsistencyErrors": 0,
+    "explanationProblems": 0,
+    "semanticDistractorProblems": 0,
+    "exactDuplicateQuestions": 0,
+    "exactDuplicateStems": 0,
+    "primaryOptionLengthFlags": 0,
+    "maximumOptionSpread": {
+      "core": 14,
+      "testing": 15
+    },
+    "strictLongestCorrect": {
+      "core": 38,
+      "testing": 23,
+      "combined": 61,
+      "combinedRate": 0.2033
+    },
+    "shortestCorrect": {
+      "core": 34,
+      "testing": 22,
+      "combined": 56,
+      "combinedRate": 0.1867
+    },
+    "answerIndexCounts": {
+      "core": [38, 38, 37, 37],
+      "testing": [38, 38, 37, 37],
+      "combined": [76, 76, 74, 74]
+    },
+    "conceptFamilyCounts": {
+      "core": 32,
+      "testing": 20,
+      "allVariantsPreservedAnswerMeaning": true
+    },
+    "syllabusMapping": {
+      "errors": 0,
+      "coreSubtopics": {
+        "Anthropometry — body composition, somatotypes, growth & maturation": 19,
+        "Exercise Physiology — energy systems, fatigue, adaptation": 19,
+        "Physiotherapy — injury mechanisms, basic rehabilitation principles": 19,
+        "Biomechanics — movement analysis, force, kinematics": 19,
+        "Biochemistry — biomarkers, metabolism, recovery indicators": 19,
+        "Strength & Conditioning — training principles, load, recovery": 19,
+        "Psychology — motivation, stress, arousal, mental readiness": 18,
+        "Nutrition — macronutrients, hydration, energy balance": 18
+      },
+      "testingSubtopics": {
+        "Test Parameters & Athlete Assessment": 75,
+        "Test Protocols & Standardization": 75
+      }
+    }
+  },
+  "highConfidenceFindings": [
+    {
+      "findingId": "testing-option-structure-verify",
+      "severity": "high",
+      "type": "option-structure-giveaway",
+      "questionIds": [
+        "a1-test-084",
+        "a1-test-085",
+        "a1-test-086",
+        "a1-test-087",
+        "a1-test-088",
+        "a1-test-089",
+        "a1-test-090",
+        "a1-test-091"
+      ],
+      "sourceId": "acsm-getp-12",
+      "stemPattern": "before a maximal exercise test, the practitioner should first verify:",
+      "correctOptionPattern": "Screening, contraindications, preparation, and emergency procedures",
+      "distractorPattern": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "rationale": "After the stem's verify: the keyed noun phrase completes the sentence grammatically, while every distractor begins with a bare verb and does not. The answer can therefore be selected from syntax rather than content.",
+      "recommendedAction": "Rewrite all four options as parallel noun phrases or as complete clauses. Preserve the safety concept and key, but remove the unique grammatical form of the correct option."
+    },
+    {
+      "findingId": "testing-option-structure-stop",
+      "severity": "high",
+      "type": "option-structure-giveaway",
+      "questionIds": [
+        "a1-test-137",
+        "a1-test-138",
+        "a1-test-139",
+        "a1-test-140",
+        "a1-test-141",
+        "a1-test-142",
+        "a1-test-143"
+      ],
+      "sourceId": "acsm-getp-12",
+      "stemPattern": "a test administrator should stop an exercise test when:",
+      "correctOptionPattern": "Predefined termination criteria or concerning symptoms occur",
+      "distractorPattern": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "rationale": "After when: the keyed option is the only complete finite clause. All distractors begin with imperative-style verbs, so the correct answer is exposed by grammar before the safety principle is considered.",
+      "recommendedAction": "Rewrite all four options as parallel finite clauses, for example by giving each option an explicit subject and verb. Preserve the termination-criteria answer."
+    },
+    {
+      "findingId": "testing-source-consent",
+      "severity": "high",
+      "type": "source-attribution",
+      "questionIds": [
+        "a1-test-108",
+        "a1-test-109",
+        "a1-test-110",
+        "a1-test-111",
+        "a1-test-112",
+        "a1-test-113",
+        "a1-test-114",
+        "a1-test-115"
+      ],
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "catalogScope": "Evidence quality, uncertainty and clinical reasoning",
+      "rationale": "These items assert detailed informed-consent elements, including risks, benefits, voluntary choice, data use, and withdrawal. The cited catalog entry does not identify consent or athlete-testing privacy as a covered section, so the primary source cannot be traced defensibly from the current catalog.",
+      "recommendedAction": "Assign a directly inspected consent/ethics/athlete-testing source with a locator, or revise the questions so every tested consent element is directly supported by the cited World Physiotherapy source."
+    },
+    {
+      "findingId": "testing-source-confidentiality",
+      "severity": "high",
+      "type": "source-attribution",
+      "questionIds": [
+        "a1-test-116",
+        "a1-test-117",
+        "a1-test-118",
+        "a1-test-119",
+        "a1-test-120",
+        "a1-test-121",
+        "a1-test-122"
+      ],
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "catalogScope": "Evidence quality, uncertainty and clinical reasoning",
+      "rationale": "These items test confidentiality and inappropriate disclosure of identifiable athlete data. The cited catalog entry does not identify privacy, confidentiality, or athlete-data governance as a covered section, leaving the specific claim unsupported by the recorded provenance.",
+      "recommendedAction": "Assign a directly inspected privacy/confidentiality or athlete-data governance source with a locator, or narrow the item to a claim supported by the cited World Physiotherapy source."
+    }
+  ],
+  "actionableFindingCount": 4,
+  "affectedQuestionCount": 30,
+  "auditConclusion": "No high-confidence answer-key, semantically ambiguous distractor, duplicate, schema, syllabus-mapping, or length-spread defect was found beyond the listed option-structure and source-attribution findings."
+}

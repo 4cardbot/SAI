@@ -1,4 +1,4 @@
-import { NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
+import { A1_FULL_COUNT, NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
 
@@ -36,12 +36,13 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
 
 export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), mode: AttemptMode = "full"): AttemptQuestion[] {
   const selected: Question[] = [];
-  const sections = mode === "full" ? SECTION_ORDER : [mode];
+  const sections: Section[] = mode === "full" ? SECTION_ORDER : [mode === "A1_FULL" ? "A1" : mode];
+  const selectedCount = mode === "A1_FULL" ? A1_FULL_COUNT : undefined;
   sections.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
     const sectionQuestions = section === "C"
       ? chooseCaseQuestions(pool, seed)
-      : chooseQuestions(pool, SECTION_COUNTS[section], seed, section);
+      : chooseQuestions(pool, selectedCount ?? SECTION_COUNTS[section], seed, section);
     selected.push(...sectionQuestions);
   });
   return selected.map((question) => ({

@@ -1,0 +1,3024 @@
+{
+  "group": "testing_assessment",
+  "auditBasis": "Independent audit findings filtered to a1-test-*; duplicate findings consolidated by question ID",
+  "file": "question_bank/section_a1_testing_assessment.json",
+  "reviewedCount": 150,
+  "changedCount": 119,
+  "answerKeyFixCount": 0,
+  "distractorFixCount": 119,
+  "sourceRecommendationCount": 15,
+  "changes": [
+    {
+      "id": "a1-test-017",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People with a high performance score",
+        "People with a strong preference for movement"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-018",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a strong preference for movement",
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People with a high performance score"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-019",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a high performance score",
+        "People with a strong preference for movement",
+        "People who truly have the target condition",
+        "People who truly lack the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who truly have the target condition",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-020",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly lack the target condition",
+        "People with a high performance score",
+        "People with a strong preference for movement",
+        "People who truly have the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition",
+        "People who truly have the target condition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-021",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People with a high performance score",
+        "People with a strong preference for movement"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-022",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a strong preference for movement",
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People with a high performance score"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-023",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a high performance score",
+        "People with a strong preference for movement",
+        "People who truly have the target condition",
+        "People who truly lack the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who truly have the target condition",
+        "People who report symptoms without a confirmed condition"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-024",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly lack the target condition",
+        "People with a high performance score",
+        "People with a strong preference for movement",
+        "People who truly have the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who report symptoms without a confirmed condition",
+        "People who truly have the target condition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: sensitivity identifies true cases. Replaced unrelated performance/preference distractors with plausible screening-result misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-025",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People with a low performance score",
+        "People who test negative on any screening measure"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-026",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People with a low performance score"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-027",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a low performance score",
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition",
+        "People who truly have the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who truly lack the target condition",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-028",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly have the target condition",
+        "People with a low performance score",
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status",
+        "People who truly lack the target condition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-029",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People with a low performance score",
+        "People who test negative on any screening measure"
+      ],
+      "revisedOptions": [
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-030",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition",
+        "People who truly have the target condition",
+        "People with a low performance score"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People who truly lack the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-031",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People with a low performance score",
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition",
+        "People who truly have the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who truly lack the target condition",
+        "People who test negative without knowing true status"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-032",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "People who truly have the target condition",
+        "People with a low performance score",
+        "People who test negative on any screening measure",
+        "People who truly lack the target condition"
+      ],
+      "revisedOptions": [
+        "People who truly have the target condition",
+        "People whose score falls below a performance norm",
+        "People who test negative without knowing true status",
+        "People who truly lack the target condition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified against the screening definition: specificity identifies true non-cases. Replaced tautological or performance-score distractors with plausible classification misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-041",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group",
+        "Larger than the sample, regardless of its make-up",
+        "Based only on the highest-performing athlete"
+      ],
+      "revisedOptions": [
+        "Comparable in age, sex, sport, level, and setting",
+        "Comparable in age and sport, but tested differently",
+        "A larger group with limited demographic information",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-042",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Based only on the highest-performing athlete",
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group",
+        "Larger than the sample, regardless of its make-up"
+      ],
+      "revisedOptions": [
+        "Comparable in age and sport, but tested differently",
+        "Comparable in age, sex, sport, level, and setting",
+        "A larger group with limited demographic information",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-043",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Larger than the sample, regardless of its make-up",
+        "Based only on the highest-performing athlete",
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group"
+      ],
+      "revisedOptions": [
+        "Comparable in age and sport, but tested differently",
+        "A larger group with limited demographic information",
+        "Comparable in age, sex, sport, level, and setting",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-044",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Drawn from a different sport and age group",
+        "Larger than the sample, regardless of its make-up",
+        "Based only on the highest-performing athlete",
+        "Comparable in age, sex, sport, level, and setting"
+      ],
+      "revisedOptions": [
+        "Comparable in age and sport, but tested differently",
+        "A larger group with limited demographic information",
+        "A high-performing subgroup from the same sport only",
+        "Comparable in age, sex, sport, level, and setting"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-045",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group",
+        "Larger than the sample, regardless of its make-up",
+        "Based only on the highest-performing athlete"
+      ],
+      "revisedOptions": [
+        "Comparable in age, sex, sport, level, and setting",
+        "Comparable in age and sport, but tested differently",
+        "A larger group with limited demographic information",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-046",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Based only on the highest-performing athlete",
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group",
+        "Larger than the sample, regardless of its make-up"
+      ],
+      "revisedOptions": [
+        "Comparable in age and sport, but tested differently",
+        "Comparable in age, sex, sport, level, and setting",
+        "A larger group with limited demographic information",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-047",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Larger than the sample, regardless of its make-up",
+        "Based only on the highest-performing athlete",
+        "Comparable in age, sex, sport, level, and setting",
+        "Drawn from a different sport and age group"
+      ],
+      "revisedOptions": [
+        "Comparable in age and sport, but tested differently",
+        "A larger group with limited demographic information",
+        "Comparable in age, sex, sport, level, and setting",
+        "A high-performing subgroup from the same sport only"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that relevant normative interpretation requires a comparable reference population and conditions. Replaced extreme reference-group distractors with realistic but imperfect alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-048",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result",
+        "Makes standardization unnecessary between sessions",
+        "Reflects sport conditions with portable resources"
+      ],
+      "revisedOptions": [
+        "Provides laboratory precision for every physiological variable",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions",
+        "Reflects sport conditions with portable resources"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-049",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result",
+        "Makes standardization unnecessary between sessions"
+      ],
+      "revisedOptions": [
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory precision for every physiological variable",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-050",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Makes standardization unnecessary between sessions",
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result"
+      ],
+      "revisedOptions": [
+        "Provides laboratory precision for every physiological variable",
+        "Reflects sport conditions with portable resources",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-051",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Removes environmental influences from the result",
+        "Makes standardization unnecessary between sessions",
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory-grade control of every variable"
+      ],
+      "revisedOptions": [
+        "Provides laboratory precision for every physiological variable",
+        "Removes environmental effects from field performance",
+        "Reflects sport conditions with portable resources",
+        "Needs no standardization across repeated sessions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-052",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result",
+        "Makes standardization unnecessary between sessions",
+        "Reflects sport conditions with portable resources"
+      ],
+      "revisedOptions": [
+        "Provides laboratory precision for every physiological variable",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions",
+        "Reflects sport conditions with portable resources"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-053",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result",
+        "Makes standardization unnecessary between sessions"
+      ],
+      "revisedOptions": [
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory precision for every physiological variable",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-054",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Makes standardization unnecessary between sessions",
+        "Reflects sport conditions with portable resources",
+        "Provides laboratory-grade control of every variable",
+        "Removes environmental influences from the result"
+      ],
+      "revisedOptions": [
+        "Provides laboratory precision for every physiological variable",
+        "Reflects sport conditions with portable resources",
+        "Removes environmental effects from field performance",
+        "Needs no standardization across repeated sessions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified the field-versus-laboratory trade-off: field testing improves ecological relevance and practicality but does not remove standardization needs. Replaced absolute distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-055",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures",
+        "Control conditions and quantify a physiological variable",
+        "Avoid calibration because laboratory equipment is precise"
+      ],
+      "revisedOptions": [
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Control conditions and quantify a physiological variable",
+        "Estimate sport performance without controlling the variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-056",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Avoid calibration because laboratory equipment is precise",
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures",
+        "Control conditions and quantify a physiological variable"
+      ],
+      "revisedOptions": [
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Estimate sport performance without controlling the variable",
+        "Control conditions and quantify a physiological variable"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-057",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control conditions and quantify a physiological variable",
+        "Avoid calibration because laboratory equipment is precise",
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures"
+      ],
+      "revisedOptions": [
+        "Control conditions and quantify a physiological variable",
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Estimate sport performance without controlling the variable"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-058",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replace clinical screening and informed consent procedures",
+        "Control conditions and quantify a physiological variable",
+        "Avoid calibration because laboratory equipment is precise",
+        "Replicate every competition environment exactly in the laboratory"
+      ],
+      "revisedOptions": [
+        "Maximize ecological validity under normal competition conditions",
+        "Control conditions and quantify a physiological variable",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Estimate sport performance without controlling the variable"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-059",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures",
+        "Control conditions and quantify a physiological variable",
+        "Avoid calibration because laboratory equipment is precise"
+      ],
+      "revisedOptions": [
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Control conditions and quantify a physiological variable",
+        "Estimate sport performance without controlling the variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-060",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Avoid calibration because laboratory equipment is precise",
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures",
+        "Control conditions and quantify a physiological variable"
+      ],
+      "revisedOptions": [
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Estimate sport performance without controlling the variable",
+        "Control conditions and quantify a physiological variable"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-061",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Control conditions and quantify a physiological variable",
+        "Avoid calibration because laboratory equipment is precise",
+        "Replicate every competition environment exactly in the laboratory",
+        "Replace clinical screening and informed consent procedures"
+      ],
+      "revisedOptions": [
+        "Control conditions and quantify a physiological variable",
+        "Maximize ecological validity under normal competition conditions",
+        "Eliminate the need for standardized preparation and safety screening",
+        "Estimate sport performance without controlling the variable"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that laboratory testing is useful for controlled measurement of a defined physiological variable. Replaced absolute, unsafe, or mismatched aims with plausible alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-069",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order",
+        "The order determines the athlete's normative category",
+        "A planned sequence makes a warm-up unnecessary"
+      ],
+      "revisedOptions": [
+        "Fatiguing tests can influence later results",
+        "Always place less-fatiguing tests after maximal tests",
+        "Fixed order leaves later effort unchanged",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-070",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A planned sequence makes a warm-up unnecessary",
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order",
+        "The order determines the athlete's normative category"
+      ],
+      "revisedOptions": [
+        "Always place less-fatiguing tests after maximal tests",
+        "Fatiguing tests can influence later results",
+        "Fixed order leaves later effort unchanged",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-071",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The order determines the athlete's normative category",
+        "A planned sequence makes a warm-up unnecessary",
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order"
+      ],
+      "revisedOptions": [
+        "Always place less-fatiguing tests after maximal tests",
+        "Fixed order leaves later effort unchanged",
+        "Fatiguing tests can influence later results",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-072",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Different tests are unaffected by their order",
+        "The order determines the athlete's normative category",
+        "A planned sequence makes a warm-up unnecessary",
+        "Fatiguing tests can influence later results"
+      ],
+      "revisedOptions": [
+        "Always place less-fatiguing tests after maximal tests",
+        "Fixed order leaves later effort unchanged",
+        "Normative scores remain comparable despite fatigue",
+        "Fatiguing tests can influence later results"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-073",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order",
+        "The order determines the athlete's normative category",
+        "A planned sequence makes a warm-up unnecessary"
+      ],
+      "revisedOptions": [
+        "Fatiguing tests can influence later results",
+        "Always place less-fatiguing tests after maximal tests",
+        "Fixed order leaves later effort unchanged",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-074",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "A planned sequence makes a warm-up unnecessary",
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order",
+        "The order determines the athlete's normative category"
+      ],
+      "revisedOptions": [
+        "Always place less-fatiguing tests after maximal tests",
+        "Fatiguing tests can influence later results",
+        "Fixed order leaves later effort unchanged",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-075",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The order determines the athlete's normative category",
+        "A planned sequence makes a warm-up unnecessary",
+        "Fatiguing tests can influence later results",
+        "Different tests are unaffected by their order"
+      ],
+      "revisedOptions": [
+        "Always place less-fatiguing tests after maximal tests",
+        "Fixed order leaves later effort unchanged",
+        "Fatiguing tests can influence later results",
+        "Normative scores remain comparable despite fatigue"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that fatigue and potentiation can affect later tests. Replaced order and norm-interpretation misconceptions with plausible sequencing alternatives; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-076",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar",
+        "Standardize procedures for consistent interpretation across sessions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-077",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score"
+      ],
+      "revisedOptions": [
+        "Standardize procedures for consistent interpretation across sessions",
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-078",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Standardize procedures for consistent interpretation across sessions",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-079",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Standardize procedures for consistent interpretation across sessions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-080",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar",
+        "Standardize procedures for consistent interpretation across sessions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-081",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score"
+      ],
+      "revisedOptions": [
+        "Standardize procedures for consistent interpretation across sessions",
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-082",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely",
+        "Replace consent with a written procedure"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Standardize procedures for consistent interpretation across sessions",
+        "Replace consent and safety screening with written instructions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-083",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replace consent with a written procedure",
+        "Guarantee that every athlete achieves a higher score",
+        "Standardize procedures for consistent interpretation",
+        "Allow each tester to adapt the protocol freely"
+      ],
+      "revisedOptions": [
+        "Allow each tester to alter the protocol according to preference",
+        "Replace consent and safety screening with written instructions",
+        "Standardize procedures for consistent interpretation across sessions",
+        "Guarantee higher scores by making the testing routine familiar"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that an SOP reduces procedural variation and supports consistent interpretation. Replaced free-choice, consent-substitution, and score-guarantee distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-084",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-085",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout"
+      ],
+      "revisedOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-086",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-087",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-088",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-089",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout"
+      ],
+      "revisedOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-090",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms",
+        "Only the athlete's previous score, target outcome, and ranking"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-091",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Only the athlete's previous score, target outcome, and ranking",
+        "Only the staff's familiarity with the equipment and room layout",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Only the athlete's health history, medications, and current symptoms"
+      ],
+      "revisedOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that maximal testing requires screening, contraindication review, preparation, and emergency readiness. Replaced incomplete safety checks with plausible but insufficient procedures; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-092",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading",
+        "Check measurement accuracy against a known standard"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-093",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading"
+      ],
+      "revisedOptions": [
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-094",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Check measurement accuracy against a known standard",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-095",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Check measurement accuracy against a known standard",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-096",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading",
+        "Check measurement accuracy against a known standard"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-097",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading"
+      ],
+      "revisedOptions": [
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-098",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Check measurement accuracy against a known standard",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-099",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Change the test construct to match the equipment",
+        "Replace routine recording with a single reading",
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task"
+      ],
+      "revisedOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Check measurement accuracy against a known standard",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that calibration compares instrument readings with a known standard. Replaced task-understanding and recording misconceptions; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-100",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results",
+        "Equipment checks, deviations, maintenance, and corrective actions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-101",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking"
+      ],
+      "revisedOptions": [
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-102",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-103",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-104",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results",
+        "Equipment checks, deviations, maintenance, and corrective actions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-105",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking"
+      ],
+      "revisedOptions": [
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-106",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome",
+        "Unverified assumptions about fatigue, readiness, and workload"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The coach's preferred target score and selection expectation",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-107",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Unverified assumptions about fatigue, readiness, and workload",
+        "The coach's preferred result, target score, and ranking",
+        "Equipment checks, deviations, maintenance, and fixes",
+        "The athlete's final ranking and competition outcome"
+      ],
+      "revisedOptions": [
+        "The athlete's predicted ranking before data collection began",
+        "The coach's preferred target score and selection expectation",
+        "Equipment checks, deviations, maintenance, and corrective actions",
+        "The report layout and font used for presenting results"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that quality-control logs document equipment checks, deviations, maintenance, and corrective action. Replaced ranking, preference, and presentation-format distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-108",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-109",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members"
+      ],
+      "revisedOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-110",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-111",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-112",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-113",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members"
+      ],
+      "revisedOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-114",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule",
+        "The expected benefits, likely performance improvement, and incentives"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-115",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The expected benefits, likely performance improvement, and incentives",
+        "The personal opinions of athletes, coaches, and staff members",
+        "The procedure, risks, benefits, voluntary choice, and data use",
+        "The procedure, expected score, risks, reporting plan, and schedule"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that informed consent covers the procedure, risks, benefits, voluntariness, data use, and withdrawal information. Replaced incomplete or non-consent distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-116",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete",
+        "Share raw results publicly after testing is complete",
+        "Prevent inappropriate disclosure of identifiable athlete data"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-117",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data",
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete",
+        "Share raw results publicly after testing is complete"
+      ],
+      "revisedOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-118",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Share raw results publicly after testing is complete",
+        "Prevent inappropriate disclosure of identifiable athlete data",
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-119",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Release results only to the coach rather than the athlete",
+        "Share raw results publicly after testing is complete",
+        "Prevent inappropriate disclosure of identifiable athlete data",
+        "Prevent all discussion of results within the care team and staff"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-120",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete",
+        "Share raw results publicly after testing is complete",
+        "Prevent inappropriate disclosure of identifiable athlete data"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-121",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data",
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete",
+        "Share raw results publicly after testing is complete"
+      ],
+      "revisedOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-122",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Share raw results publicly after testing is complete",
+        "Prevent inappropriate disclosure of identifiable athlete data",
+        "Prevent all discussion of results within the care team and staff",
+        "Release results only to the coach rather than the athlete"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that confidentiality concerns inappropriate disclosure of identifiable athlete data, subject to authorized and consented use. Replaced absolute-sharing and overbroad-secrecy distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ],
+      "sourceRecommendation": "Keep sourceId unchanged for compatibility. Consider adding a granular, directly inspected consent/data-privacy source to the shared catalog; the current World Physiotherapy policy is broader than these specific rules."
+    },
+    {
+      "id": "a1-test-123",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test",
+        "Defer or modify testing and seek clinical guidance",
+        "Proceed at maximal intensity without further review"
+      ],
+      "revisedOptions": [
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Defer or modify testing and seek clinical guidance",
+        "Exclude symptoms from the report to avoid bias"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-124",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Proceed at maximal intensity without further review",
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test",
+        "Defer or modify testing and seek clinical guidance"
+      ],
+      "revisedOptions": [
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Exclude symptoms from the report to avoid bias",
+        "Defer or modify testing and seek clinical guidance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-125",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Defer or modify testing and seek clinical guidance",
+        "Proceed at maximal intensity without further review",
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test"
+      ],
+      "revisedOptions": [
+        "Defer or modify testing and seek clinical guidance",
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Exclude symptoms from the report to avoid bias"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-126",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Alter the recorded result after completing the test",
+        "Defer or modify testing and seek clinical guidance",
+        "Proceed at maximal intensity without further review",
+        "Continue with the planned protocol despite the symptom"
+      ],
+      "revisedOptions": [
+        "Continue after documenting symptoms if requested",
+        "Defer or modify testing and seek clinical guidance",
+        "Complete at reduced intensity without clinical review",
+        "Exclude symptoms from the report to avoid bias"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-127",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test",
+        "Defer or modify testing and seek clinical guidance",
+        "Proceed at maximal intensity without further review"
+      ],
+      "revisedOptions": [
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Defer or modify testing and seek clinical guidance",
+        "Exclude symptoms from the report to avoid bias"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-128",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Proceed at maximal intensity without further review",
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test",
+        "Defer or modify testing and seek clinical guidance"
+      ],
+      "revisedOptions": [
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Exclude symptoms from the report to avoid bias",
+        "Defer or modify testing and seek clinical guidance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-129",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Defer or modify testing and seek clinical guidance",
+        "Proceed at maximal intensity without further review",
+        "Continue with the planned protocol despite the symptom",
+        "Alter the recorded result after completing the test"
+      ],
+      "revisedOptions": [
+        "Defer or modify testing and seek clinical guidance",
+        "Continue after documenting symptoms if requested",
+        "Complete at reduced intensity without clinical review",
+        "Exclude symptoms from the report to avoid bias"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that a contraindication requires deferral or appropriate modification with clinical guidance. Replaced unsafe continuation and documentation-only distractors; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-130",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions",
+        "The athlete's clothing, hairstyle, footwear, and name label",
+        "The report's page layout, font, headings, and name order"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "Instructions, warm-up, equipment, surface, timing, and setting",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Timing can be adjusted to match the expected score"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-131",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The report's page layout, font, headings, and name order",
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions",
+        "The athlete's clothing, hairstyle, footwear, and name label"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Instructions, warm-up, equipment, surface, timing, and setting",
+        "Timing can be adjusted to match the expected score"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-132",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's clothing, hairstyle, footwear, and name label",
+        "The report's page layout, font, headings, and name order",
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Timing can be adjusted to match the expected score",
+        "Instructions, warm-up, equipment, surface, timing, and setting"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-133",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Instructions, warm-up, equipment, surface, timing, and conditions",
+        "The athlete's clothing, hairstyle, footwear, and name label",
+        "The report's page layout, font, headings, and name order",
+        "The athlete's competition result, ranking, target, and selection status"
+      ],
+      "revisedOptions": [
+        "Instructions, warm-up, equipment, surface, timing, and setting",
+        "Only the stopwatch and assessor need to be standardized",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Timing can be adjusted to match the expected score"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-134",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions",
+        "The athlete's clothing, hairstyle, footwear, and name label",
+        "The report's page layout, font, headings, and name order"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "Instructions, warm-up, equipment, surface, timing, and setting",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Timing can be adjusted to match the expected score"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-135",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The report's page layout, font, headings, and name order",
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions",
+        "The athlete's clothing, hairstyle, footwear, and name label"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Instructions, warm-up, equipment, surface, timing, and setting",
+        "Timing can be adjusted to match the expected score"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-136",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete's clothing, hairstyle, footwear, and name label",
+        "The report's page layout, font, headings, and name order",
+        "The athlete's competition result, ranking, target, and selection status",
+        "Instructions, warm-up, equipment, surface, timing, and conditions"
+      ],
+      "revisedOptions": [
+        "Only the stopwatch and assessor need to be standardized",
+        "The athlete may choose a different warm-up and footwear each time",
+        "Timing can be adjusted to match the expected score",
+        "Instructions, warm-up, equipment, surface, timing, and setting"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Verified that repeated field testing requires standardizing controllable conditions such as instructions, warm-up, equipment, surface, timing, and environment. Replaced unrelated or incomplete controls; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md",
+        "books/Essentials of Strength Training and Conditioning.pdf"
+      ]
+    },
+    {
+      "id": "a1-test-137",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms",
+        "The coach requests a personal record despite no warning",
+        "The stopwatch reaches an arbitrary time limit set without protocol"
+      ],
+      "revisedOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-138",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The stopwatch reaches an arbitrary time limit set without protocol",
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms",
+        "The coach requests a personal record despite no warning"
+      ],
+      "revisedOptions": [
+        "Stop only after a maximal score has been reached",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-139",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The coach requests a personal record despite no warning",
+        "The stopwatch reaches an arbitrary time limit set without protocol",
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms"
+      ],
+      "revisedOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-140",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The athlete is performing well but wants to continue without symptoms",
+        "The coach requests a personal record despite no warning",
+        "The stopwatch reaches an arbitrary time limit set without protocol",
+        "Predefined termination criteria or concerning symptoms occur"
+      ],
+      "revisedOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol",
+        "Predefined termination criteria or concerning symptoms occur"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-141",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms",
+        "The coach requests a personal record despite no warning",
+        "The stopwatch reaches an arbitrary time limit set without protocol"
+      ],
+      "revisedOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-142",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The stopwatch reaches an arbitrary time limit set without protocol",
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms",
+        "The coach requests a personal record despite no warning"
+      ],
+      "revisedOptions": [
+        "Stop only after a maximal score has been reached",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-143",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "The coach requests a personal record despite no warning",
+        "The stopwatch reaches an arbitrary time limit set without protocol",
+        "Predefined termination criteria or concerning symptoms occur",
+        "The athlete is performing well but wants to continue without symptoms"
+      ],
+      "revisedOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Verified that predefined termination criteria and concerning symptoms govern test termination. Replaced unsafe personal-record, fixed-time, and athlete-request rules; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-144",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team",
+        "Presented without limitations, uncertainty, or caveats",
+        "Accurate, clear, contextualized, and decision-relevant"
+      ],
+      "revisedOptions": [
+        "Present only raw values so interpretation remains with the reader",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience",
+        "Accurate, clear, contextualized, and relevant to the decision"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-145",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Accurate, clear, contextualized, and decision-relevant",
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team",
+        "Presented without limitations, uncertainty, or caveats"
+      ],
+      "revisedOptions": [
+        "Accurate, clear, contextualized, and relevant to the decision",
+        "Present only raw values so interpretation remains with the reader",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-146",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Presented without limitations, uncertainty, or caveats",
+        "Accurate, clear, contextualized, and decision-relevant",
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team"
+      ],
+      "revisedOptions": [
+        "Present only raw values so interpretation remains with the reader",
+        "Accurate, clear, contextualized, and relevant to the decision",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-147",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Written only for the equipment manufacturer and audit team",
+        "Presented without limitations, uncertainty, or caveats",
+        "Accurate, clear, contextualized, and decision-relevant",
+        "Limited to raw numbers without interpretation or context"
+      ],
+      "revisedOptions": [
+        "Present only raw values so interpretation remains with the reader",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Accurate, clear, contextualized, and relevant to the decision",
+        "Use technical terminology without adapting it to the audience"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-148",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team",
+        "Presented without limitations, uncertainty, or caveats",
+        "Accurate, clear, contextualized, and decision-relevant"
+      ],
+      "revisedOptions": [
+        "Present only raw values so interpretation remains with the reader",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience",
+        "Accurate, clear, contextualized, and relevant to the decision"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-149",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Accurate, clear, contextualized, and decision-relevant",
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team",
+        "Presented without limitations, uncertainty, or caveats"
+      ],
+      "revisedOptions": [
+        "Accurate, clear, contextualized, and relevant to the decision",
+        "Present only raw values so interpretation remains with the reader",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    },
+    {
+      "id": "a1-test-150",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Presented without limitations, uncertainty, or caveats",
+        "Accurate, clear, contextualized, and decision-relevant",
+        "Limited to raw numbers without interpretation or context",
+        "Written only for the equipment manufacturer and audit team"
+      ],
+      "revisedOptions": [
+        "Present only raw values so interpretation remains with the reader",
+        "Accurate, clear, contextualized, and relevant to the decision",
+        "Emphasize the best result and omit uncertainty to avoid confusion",
+        "Use technical terminology without adapting it to the audience"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Verified that reporting should be accurate, clear, contextualized, and relevant to decisions, including appropriate uncertainty. Replaced raw-only, audience-mismatched, and caveat-free reporting practices; the keyed index is unchanged.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026",
+        "research/sai_a1_sources.md"
+      ]
+    }
+  ],
+  "unresolvedConcerns": []
+}

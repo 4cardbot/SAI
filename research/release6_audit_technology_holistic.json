@@ -1,0 +1,75 @@
+{
+  "auditType": "release6-final-independent-read-only-audit",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "category": "explanation-responsiveness",
+      "severity": "high",
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "questionCount": 127,
+      "questionIdGroups": [
+        "a1-tech-001–008",
+        "a1-tech-011–053",
+        "a1-tech-057–060",
+        "a1-tech-071",
+        "a1-tech-073",
+        "a1-tech-075–077",
+        "a1-tech-079–136",
+        "a1-tech-139–142",
+        "a1-tech-144–145",
+        "a1-tech-147",
+        "a1-tech-149–150"
+      ],
+      "issue": "These questions reuse generic block-level explanations rather than stating why the keyed option is correct. For example, the explanations for the accelerometer, criterion-measure, force-plate impulse, surface-EMG, p-value, ANOVA-assumption, regression-intercept, confidence-interval, and eta-squared questions do not identify the tested definition or calculation.",
+      "recommendation": "Rewrite each affected explanation to address the specific stem and keyed option, including the relevant definition, rationale, or calculation; preserve the current answer key and sourceId unless content review shows otherwise."
+    }
+  ],
+  "summary": {
+    "status": "action-needed",
+    "counts": {
+      "technologyQuestions": 150,
+      "holisticQuestions": 150,
+      "mergedCorrespondenceChecked": 300,
+      "mergedCorrespondenceMismatches": 0,
+      "structuralFindings": 0,
+      "answerKeyFindings": 0,
+      "ambiguousStemFindings": 0,
+      "distractorFindings": 0,
+      "sourceSupportFindings": 0,
+      "duplicateFindings": 0,
+      "coverageFindings": 0,
+      "grammarFindings": 0,
+      "explanationResponsivenessFindings": 1,
+      "optionLengthPrimaryFlags": 0,
+      "strictLongestCount": 94,
+      "strictLongestPercent": 31.33,
+      "answerPositionCounts": [81, 72, 79, 68],
+      "maxRepeatedAnswerIndexRun": 5,
+      "answerPatternFindings": 0
+    },
+    "coverage": {
+      "New & Emerging Technologies in Sports Science": 80,
+      "Biostatistics & Data Analysis": 70,
+      "Yoga & Mind–Body Interventions in Sports": 30,
+      "Athlete Health, Wellness & Holistic Development": 30,
+      "Travel-Related Challenges & Competition Readiness": 30,
+      "Anti-Doping Awareness & Ethical Practices": 30,
+      "Interdisciplinary Coordination & Support Systems": 30
+    },
+    "repairVerification": {
+      "itemSpecificExplanationRepairItemsVerified": 12,
+      "cdcYellowBookQuestionsVerified": 20,
+      "nccihYogaSafetyQuestionsVerified": 7,
+      "yogicBreathingStudyQuestionsVerified": 3,
+      "wadaCodeQuestionsVerified": 3,
+      "acsmQuestionsVerified": 3,
+      "nscaQuestionsVerified": 12
+    }
+  }
+}

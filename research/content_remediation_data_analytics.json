@@ -1,0 +1,266 @@
+{
+  "group": "data_analytics",
+  "file": "question_bank/section_a1_data_analytics.json",
+  "reviewedCount": 150,
+  "changedCount": 12,
+  "answerKeyFixCount": 12,
+  "distractorFixCount": 0,
+  "sourceRecommendationCount": 10,
+  "changes": [
+    {
+      "id": "a1-data-131",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Relates to exposure and outcome and distorts their association",
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 0 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-132",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 3 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-133",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-134",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-135",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Relates to exposure and outcome and distorts their association",
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 0 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-136",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 3 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-137",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-138",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-139",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Relates to exposure and outcome and distorts their association"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 3 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-140",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Corrected the zero-based key to the option defining confounding and moved that option to index 3 to preserve answer-position balance. The source ID was retained because the item is framed within evidence-based practice; a more specific research-methods source would improve provenance.",
+      "sourcesInspected": ["sai-notification-2026 (English A1 p. 21, area 17)", "world-physiotherapy-ebp-2023", "CDC Field Epidemiology Manual: Analyzing and Interpreting Data", "nsca-essentials-5 (5th ed., Chs. 13–14)", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-011",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Corrected the zero-based key to the option that matches the explanation: sprint limitation may involve speed-power qualities, fatigue tolerance, or technique.",
+      "sourcesInspected": ["nsca-essentials-5", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    },
+    {
+      "id": "a1-data-012",
+      "defectType": "answerKeyProblem",
+      "originalOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Corrected the zero-based key to the option that matches the explanation: sprint limitation may involve speed-power qualities, fatigue tolerance, or technique.",
+      "sourcesInspected": ["nsca-essentials-5", "research/sai_a1_sources.md", "src/data/sourceCatalog.ts"]
+    }
+  ],
+  "unresolvedConcerns": [
+    "All ten corrected items use the broad World Physiotherapy evidence-based-practice source. The existing catalog has no dedicated epidemiology or research-methods source for the definition of confounding; consider adding one centrally in a later catalog-maintenance task. No catalog file was edited here."
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "auditType": "Final5 holistic diversity and option-structure repair",
+  "generatedAt": "2026-08-16",
+  "readOnlyAuditBasis": "research/post_final_independent_audit_technology_holistic.json",
+  "questionFile": "question_bank/section_a1_holistic_travel_ethics.json",
+  "scope": {
+    "mechanicalPairSecondItems": [
+      "a1-holistic-002",
+      "a1-holistic-012",
+      "a1-holistic-022",
+      "a1-holistic-032",
+      "a1-holistic-042",
+      "a1-holistic-052",
+      "a1-holistic-062",
+      "a1-holistic-072",
+      "a1-holistic-082",
+      "a1-holistic-092",
+      "a1-holistic-102",
+      "a1-holistic-112",
+      "a1-holistic-122",
+      "a1-holistic-132",
+      "a1-holistic-142"
+    ],
+    "grammarItems": [
+      "a1-holistic-006",
+      "a1-holistic-013",
+      "a1-holistic-019",
+      "a1-holistic-039",
+      "a1-holistic-054",
+      "a1-holistic-116",
+      "a1-holistic-129",
+      "a1-holistic-147"
+    ]
+  },
+  "summary": {
+    "changedQuestions": 23,
+    "mechanicalPairRewrites": 15,
+    "grammarOptionRepairs": 8,
+    "questionCountPreserved": 150,
+    "optionsPerQuestionPreserved": 4,
+    "sourceIdsPreserved": true,
+    "difficultyAndSubtopicPreserved": true
+  },
+  "changes": [
+    {
+      "id": "a1-holistic-002",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-001",
+      "sourceId": "yoga-athletes-review-2025",
+      "reviewNotes": "Replaced the repeated definition item with a hurdler mobility-monitoring scenario and a standardized pain-free range outcome.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, yoga-based mobility work may contribute to performance by supporting:",
+        "options": [
+          "Sport-specific skill without sport practice",
+          "Maximal strength and power without progressive loading",
+          "Aerobic capacity without endurance training",
+          "Flexibility, balance, body awareness, and mobility"
+        ],
+        "correct": 3,
+        "explanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete."
+      },
+      "revised": {
+        "text": "A hurdler adds two supervised yoga sessions weekly while preparing for a mobility-limited hurdle drill. Which outcome is most appropriate to monitor?",
+        "options": [
+          "Change in pain-free hip range using a consistent test",
+          "Number of difficult poses completed despite discomfort",
+          "One-time sprint result used as the only mobility measure",
+          "Guaranteed improvement in maximal force after four sessions"
+        ],
+        "correct": 0,
+        "explanation": "A consistent pain-free range measure can track a mobility response; pose difficulty, a single sprint result, and guaranteed strength gains are not appropriate sole indicators."
+      }
+    },
+    {
+      "id": "a1-holistic-006",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "yoga-athletes-review-2025",
+      "reviewNotes": "Converted the keyed imperative and competing choices to parallel noun phrases; answer index and meaning are unchanged.",
+      "original": {
+        "text": "For a youth athlete, safe yoga programming should emphasize:",
+        "options": [
+          "Use supervised positions within comfortable range",
+          "Advanced end-range holds despite pain or fear",
+          "Replacing varied movement with daily yoga only",
+          "Competition-level intensity at every session"
+        ],
+        "correct": 0,
+        "explanation": "Youth programming should be age-appropriate, supervised, and responsive to comfort rather than forcing end-range positions."
+      },
+      "revised": {
+        "text": "For a youth athlete, safe yoga programming should emphasize:",
+        "options": [
+          "Supervised positions within a comfortable range",
+          "Advanced end-range holds despite pain or fear",
+          "Replacement of varied movement with yoga alone",
+          "Competition-level intensity at every session"
+        ],
+        "correct": 0,
+        "explanation": "Youth programming should be age-appropriate, supervised, and responsive to comfort rather than forcing end-range positions."
+      }
+    },
+    {
+      "id": "a1-holistic-012",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-011",
+      "sourceId": "yoga-athletes-review-2025",
+      "reviewNotes": "Replaced the repeated pranayama definition with an observed recovery-session classification scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, pranayama refers broadly to practices involving:",
+        "options": [
+          "Alignment of postures and movement",
+          "Progressive loading of muscles",
+          "Mindfulness of thoughts and sensations",
+          "Intentional regulation of breathing"
+        ],
+        "correct": 3,
+        "explanation": "Pranayama refers to yogic breathing regulation and is commonly integrated with relaxation or mind-body practice."
+      },
+      "revised": {
+        "text": "During a recovery session, an athlete deliberately lengthens exhalation while keeping breathing comfortable. This practice is best classified as:",
+        "options": [
+          "Postural alignment practice",
+          "Progressive muscle-loading exercise",
+          "Pranayama-based breathing regulation",
+          "Sport-specific visualization drill"
+        ],
+        "correct": 2,
+        "explanation": "Intentional, comfortable regulation of inhalation and exhalation is a pranayama-based breathing practice rather than postural, loading, or visualization work."
+      }
+    },
+    {
+      "id": "a1-holistic-013",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "yoga-athletes-review-2025",
+      "reviewNotes": "Converted all breathing choices to parallel noun phrases; answer index and meaning are unchanged.",
+      "original": {
+        "text": "An athlete feels pre-start arousal before a final. Which breathing approach is most appropriate to try first?",
+        "options": [
+          "Rapid maximal breathing until light-headedness occurs",
+          "Repeated breath holds with no supervision or screening",
+          "Use comfortable paced breathing with slow exhalation",
+          "Forceful breathing used instead of warm-up and preparation"
+        ],
+        "correct": 2,
+        "explanation": "Comfortable paced breathing may help regulate arousal; dizziness, force, and unsupervised breath holding are not goals of a routine sports-science intervention."
+      },
+      "revised": {
+        "text": "An athlete feels pre-start arousal before a final. Which breathing approach is most appropriate to try first?",
+        "options": [
+          "Rapid maximal breathing until light-headedness",
+          "Repeated unsupervised breath holds without screening",
+          "Comfortable paced breathing with slow exhalation",
+          "Forceful breathing in place of warm-up and preparation"
+        ],
+        "correct": 2,
+        "explanation": "Comfortable paced breathing may help regulate arousal; dizziness, force, and unsupervised breath holding are not goals of a routine sports-science intervention."
+      }
+    },
+    {
+      "id": "a1-holistic-019",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "yoga-athletes-review-2025",
+      "reviewNotes": "Changed the keyed verb-led option to a parallel outcome noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "Which outcome is most appropriate to monitor when adding a breathing practice to training?",
+        "options": [
+          "Guaranteed increase in maximal oxygen uptake after one session",
+          "Permanent correction of all exercise-related anxiety",
+          "Monitor comfort, arousal, and practice response",
+          "Replacement of objective training and competition measures"
+        ],
+        "correct": 2,
+        "explanation": "Immediate monitoring should include comfort and perceived response; a single session cannot establish guaranteed physiological or performance effects."
+      },
+      "revised": {
+        "text": "Which outcome is most appropriate to monitor when adding a breathing practice to training?",
+        "options": [
+          "Guaranteed oxygen-uptake increase after one session",
+          "Permanent elimination of exercise-related anxiety",
+          "Comfort, arousal, and practice response during sessions",
+          "Replacement of objective training and competition measures"
+        ],
+        "correct": 2,
+        "explanation": "Immediate monitoring should include comfort and perceived response; a single session cannot establish guaranteed physiological or performance effects."
+      }
+    },
+    {
+      "id": "a1-holistic-022",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-021",
+      "sourceId": "yoga-mindfulness-sport-buhlmayer-2017",
+      "reviewNotes": "Replaced the repeated mindfulness definition with a penalty-shoot-out attentional decision scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, mindfulness training primarily develops attention to:",
+        "options": [
+          "Focused attention on a selected performance cue",
+          "Present-moment awareness with non-reactive attention",
+          "Mental imagery of a planned competition scenario",
+          "Cognitive restructuring of an unhelpful belief"
+        ],
+        "correct": 1,
+        "explanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance."
+      },
+      "revised": {
+        "text": "During a penalty shoot-out, a footballer notices anxious thoughts, labels them, and returns attention to the ball. This illustrates:",
+        "options": [
+          "Present-moment, non-reactive awareness",
+          "Suppression of thoughts until arousal disappears",
+          "Mental rehearsal of the final score",
+          "Cognitive disputation of every distraction"
+        ],
+        "correct": 0,
+        "explanation": "Noticing thoughts without automatically following them and returning attention to the immediate task illustrates present-moment, non-reactive awareness."
+      }
+    },
+    {
+      "id": "a1-holistic-032",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-031",
+      "sourceId": "ioc-load-illness-2016",
+      "reviewNotes": "Replaced the repeated wellness-domain definition with a five-day multidomain monitoring scenario and interpretation decision.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, athlete wellness should be monitored across:",
+        "options": [
+          "Strength, speed, body mass, and competition ranking",
+          "Physical, mental, social, behavioural, and recovery factors",
+          "Physical and competition-performance metrics alone",
+          "Training, ranking, body mass, and sponsorship metrics"
+        ],
+        "correct": 1,
+        "explanation": "Holistic wellness includes multiple interacting domains rather than a single performance score."
+      },
+      "revised": {
+        "text": "A rower’s daily record shows poor sleep, high soreness, low mood, and reduced recovery for five days. Which interpretation is most appropriate?",
+        "options": [
+          "A confirmed overtraining diagnosis from the record alone",
+          "A single performance variable requiring no context",
+          "A multidomain wellness signal needing contextual review",
+          "A reason to publish the scores for team comparison"
+        ],
+        "correct": 2,
+        "explanation": "Several persistent changes across sleep, soreness, mood, and recovery form a multidomain wellness signal that warrants contextual review rather than a diagnosis from the record alone."
+      }
+    },
+    {
+      "id": "a1-holistic-039",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "ioc-load-illness-2016",
+      "reviewNotes": "Changed the keyed verb-led option to a parallel noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "For an adolescent athlete, wellness monitoring should use:",
+        "options": [
+          "Adult thresholds without explanation or adaptation",
+          "Public rankings of sleep and mood within the squad",
+          "Only coach observations because self-report is unsuitable",
+          "Use age-appropriate questions, privacy, and support"
+        ],
+        "correct": 3,
+        "explanation": "Adolescent monitoring should be understandable, private, and linked to appropriate support rather than public comparison."
+      },
+      "revised": {
+        "text": "For an adolescent athlete, wellness monitoring should use:",
+        "options": [
+          "Adult thresholds without explanation or adaptation",
+          "Public rankings of sleep and mood within the squad",
+          "Coach observation as the only source of information",
+          "Age-appropriate questions, privacy, and support"
+        ],
+        "correct": 3,
+        "explanation": "Adolescent monitoring should be understandable, private, and linked to appropriate support rather than public comparison."
+      }
+    },
+    {
+      "id": "a1-holistic-042",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-041",
+      "sourceId": "foundations-sport-exercise-psychology",
+      "reviewNotes": "Replaced the repeated burnout-feature recall item with a longitudinal athlete-support and referral scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, burnout is more concerning when an athlete shows persistent exhaustion, reduced accomplishment, and:",
+        "options": [
+          "Temporary post-match tiredness",
+          "Sport devaluation or cynicism",
+          "Improved enjoyment",
+          "A single missed session"
+        ],
+        "correct": 1,
+        "explanation": "Burnout is commonly described through exhaustion, reduced accomplishment, and devaluation or cynicism."
+      },
+      "revised": {
+        "text": "An athlete reports three months of exhaustion, loss of enjoyment, and feeling ineffective despite normal sleep after isolated hard sessions. The most appropriate initial response is to:",
+        "options": [
+          "Label burnout from the report alone",
+          "Discuss symptoms, demands, and referral",
+          "Increase training to test commitment",
+          "Treat one poor result as proof of burnout"
+        ],
+        "correct": 1,
+        "explanation": "Persistent exhaustion and reduced enjoyment warrant supportive discussion of symptoms and demands, with appropriate referral rather than an unsupported diagnosis or punitive load increase."
+      }
+    },
+    {
+      "id": "a1-holistic-052",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-051",
+      "sourceId": "nsca-essentials-5",
+      "reviewNotes": "Replaced the repeated LTAD definition with a maturation-related coordination-change scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, long-term athlete development models emphasize:",
+        "options": [
+          "Progression matched to age, maturation, and training stage",
+          "Identical training regardless of age or maturation",
+          "Competition results as the sole development outcome",
+          "Early specialization as the universal pathway"
+        ],
+        "correct": 0,
+        "explanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance."
+      },
+      "revised": {
+        "text": "A 14-year-old athlete is growing rapidly and has temporary coordination changes. Long-term development planning should:",
+        "options": [
+          "Keep the previous load because chronological age is unchanged",
+          "Prioritize selection results over movement learning",
+          "Adjust progression to maturation, training age, and response",
+          "Specialize immediately because current results matter"
+        ],
+        "correct": 2,
+        "explanation": "Long-term development should account for maturation, training age, movement response, and sustainable progression rather than chronological age or short-term ranking alone."
+      }
+    },
+    {
+      "id": "a1-holistic-054",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "nsca-essentials-5",
+      "reviewNotes": "Converted the imperative keyed choice to a parallel noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "A talented 13-year-old is winning regularly. Long-term development advice should emphasize:",
+        "options": [
+          "Maximizing early results even if movement variety is reduced",
+          "Specialize early because success predicts adulthood",
+          "Build broad capacities and avoid early specialization",
+          "Removing recovery because the athlete is adapting well"
+        ],
+        "correct": 2,
+        "explanation": "Early success should not replace broad development, age-appropriate training, recovery, and sustainable participation."
+      },
+      "revised": {
+        "text": "A talented 13-year-old is winning regularly. Long-term development advice should emphasize:",
+        "options": [
+          "Maximization of early results over movement variety",
+          "Early specialization based on current success",
+          "Broad capacity development without early specialization",
+          "Removal of recovery because adaptation is good"
+        ],
+        "correct": 2,
+        "explanation": "Early success should not replace broad development, age-appropriate training, recovery, and sustainable participation."
+      }
+    },
+    {
+      "id": "a1-holistic-062",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-061",
+      "sourceId": "ioc-load-illness-2016",
+      "reviewNotes": "Replaced the repeated circadian-definition item with a westward travel, early-race, and monitoring scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, jet lag occurs primarily because travel disrupts the alignment between:",
+        "options": [
+          "Meal timing and fluid intake at the destination",
+          "Sleep pressure and training load after a journey",
+          "Travel fatigue and prolonged sitting after a journey",
+          "The internal circadian clock and local time cues"
+        ],
+        "correct": 3,
+        "explanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule."
+      },
+      "revised": {
+        "text": "A swimmer travels six time zones west and races at 08:00 local time two days later. The travel plan should prioritize:",
+        "options": [
+          "Keeping home-time sleep until race morning",
+          "Gradual local-time adjustment with sleep monitoring",
+          "Avoiding daylight and training after arrival",
+          "Assuming westward travel removes circadian effects"
+        ],
+        "correct": 1,
+        "explanation": "A westward journey still requires circadian adjustment; a gradual local-time shift with sleep and alertness monitoring is more defensible than assuming no effect or avoiding all activity."
+      }
+    },
+    {
+      "id": "a1-holistic-072",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-071",
+      "sourceId": "ioc-load-illness-2016",
+      "reviewNotes": "Replaced the repeated jet-lag planning list with a severe time-zone crossing and 36-hour competition constraint.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a practical jet-lag plan should be based on:",
+        "options": [
+          "One fixed bedtime regardless of travel direction",
+          "Avoiding daylight and activity after every arrival",
+          "Travel direction, time zones, light, sleep, and timing",
+          "Flight duration, meal timing, hydration, and footwear only"
+        ],
+        "correct": 2,
+        "explanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition."
+      },
+      "revised": {
+        "text": "A team crosses nine time zones and must compete within 36 hours. Which preparation decision is most defensible?",
+        "options": [
+          "Use one sleep and light schedule for every direction",
+          "Force a maximal workout to complete adaptation",
+          "Protect sleep and coordinate light, meals, and workload",
+          "Ignore local time because adaptation is limited"
+        ],
+        "correct": 2,
+        "explanation": "With limited time for adaptation, the staff should protect sleep and coordinate light, meals, and workload around the competition rather than force adaptation or ignore local time."
+      }
+    },
+    {
+      "id": "a1-holistic-082",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-081",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewNotes": "Replaced the repeated heat-adaptation list with a same-workload cyclist monitoring scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+        "options": [
+          "Hydration status, exercise pace, and fluid access",
+          "Altitude exposure, oxygen availability, and pacing",
+          "Cold exposure, shivering, and peripheral vasoconstriction",
+          "Sweating, cardiovascular strain, and temperature control"
+        ],
+        "correct": 3,
+        "explanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance."
+      },
+      "revised": {
+        "text": "A cyclist completes repeated sessions in a hot camp. Which change at the same workload best suggests heat acclimatization?",
+        "options": [
+          "Earlier sweating with less cardiovascular and thermal strain",
+          "Greater shivering and vasoconstriction during exercise",
+          "Higher heart rate and reduced sweating at the same workload",
+          "Improved altitude tolerance without heat exposure"
+        ],
+        "correct": 0,
+        "explanation": "Earlier sweating with lower cardiovascular and thermal strain at the same workload is consistent with heat acclimatization; the other responses describe cold stress, worsening strain, or a different adaptation."
+      }
+    },
+    {
+      "id": "a1-holistic-092",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-091",
+      "sourceId": "wada-prohibited-list-2026",
+      "reviewNotes": "Replaced the repeated clean-sport principle item with a supplement verification and contamination-risk decision.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, the principle of clean sport requires sports-science staff to:",
+        "options": [
+          "Treat every supplement as safe after purchase",
+          "Recommend any effective substance without checking rules",
+          "Ignore the current prohibited list when advising athletes",
+          "Educate athletes and support safe, compliant decisions"
+        ],
+        "correct": 3,
+        "explanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules."
+      },
+      "revised": {
+        "text": "An athlete presents a ‘natural’ supplement with no batch-testing information. The sports-science staff should first:",
+        "options": [
+          "Approve it because natural products are exempt",
+          "Accept the package claim without checking ingredients",
+          "Check rules, ingredients, contamination risk, and quality",
+          "Recommend it after a teammate reports no positive test"
+        ],
+        "correct": 2,
+        "explanation": "Natural origin does not establish compliance; current rules, ingredients, contamination risk, and available quality information should be checked before advice is given."
+      }
+    },
+    {
+      "id": "a1-holistic-102",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-101",
+      "sourceId": "wada-prohibited-list-2026",
+      "reviewNotes": "Replaced the repeated TUE definition with a medically indicated prohibited-medication referral scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a Therapeutic Use Exemption is relevant when an athlete:",
+        "options": [
+          "Assumes an unverified supplement is automatically permitted",
+          "Wants a prohibited drug solely for performance enhancement",
+          "Needs a prohibited treatment for a documented medical condition",
+          "Has not checked whether a supplement is prohibited"
+        ],
+        "correct": 2,
+        "explanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method."
+      },
+      "revised": {
+        "text": "An athlete with a documented condition may need a prohibited medication before competition. The responsible next step is to:",
+        "options": [
+          "Use it immediately because medical need overrides rules",
+          "Refer for medical review and TUE guidance before use",
+          "Replace it with a coach-selected supplement",
+          "Wait for a positive test before reporting treatment"
+        ],
+        "correct": 1,
+        "explanation": "A documented medical need should be reviewed by the treating clinician and the relevant anti-doping process so that TUE requirements and safe alternatives are addressed before use."
+      }
+    },
+    {
+      "id": "a1-holistic-112",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-111",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewNotes": "Replaced the repeated ethical-responsibility list with a sponsor request for raw wellness data and a confidentiality decision.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a sports scientist's ethical responsibility includes:",
+        "options": [
+          "Prioritizing medals over safety and informed choice",
+          "Protecting welfare, privacy, autonomy, and informed choice",
+          "Making unsupported claims about likely performance",
+          "Sharing private data without appropriate consent"
+        ],
+        "correct": 1,
+        "explanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety."
+      },
+      "revised": {
+        "text": "A sponsor requests raw sleep and mood records from the performance team. The ethical response is to:",
+        "options": [
+          "Send records because sponsorship supports the programme",
+          "Share data after removing only the athlete’s name",
+          "Let the coach decide without athlete consultation",
+          "Disclose only for a consented purpose and protect privacy"
+        ],
+        "correct": 3,
+        "explanation": "Sensitive wellness records should be disclosed only for an understood and consented purpose, with confidentiality and athlete autonomy protected."
+      }
+    },
+    {
+      "id": "a1-holistic-116",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewNotes": "Changed the keyed imperative to a parallel noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "A 16-year-old agrees to optional monitoring. The ethical process should include:",
+        "options": [
+          "Use assent and required guardian consent",
+          "No explanation because youth cannot choose",
+          "Publicly disclose results for accountability",
+          "Coach approval in place of consent"
+        ],
+        "correct": 0,
+        "explanation": "Youth participation should use understandable information, assent, and any required guardian consent or safeguarding process."
+      },
+      "revised": {
+        "text": "A 16-year-old agrees to optional monitoring. The ethical process should include:",
+        "options": [
+          "Assent plus required guardian consent",
+          "No explanation because youth cannot choose",
+          "Public disclosure of results for accountability",
+          "Coach approval in place of consent"
+        ],
+        "correct": 0,
+        "explanation": "Youth participation should use understandable information, assent, and any required guardian consent or safeguarding process."
+      }
+    },
+    {
+      "id": "a1-holistic-122",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-121",
+      "sourceId": "interdisciplinary-performance-sport-burns-2023",
+      "reviewNotes": "Replaced the repeated teamwork definition with a disputed return-plan case conference and shared-criteria decision.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, an interdisciplinary high-performance team works best when members share:",
+        "options": [
+          "Clear roles, shared information, agreed goals, and team communication",
+          "Competing private plans without shared review or coordination",
+          "Only the athlete's final ranking and selection status in competition",
+          "Unrecorded assumptions about the athlete's needs and goals"
+        ],
+        "correct": 0,
+        "explanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support."
+      },
+      "revised": {
+        "text": "A footballer’s return plan is disputed by the physician, physiotherapist, and coach before selection. The best coordination step is to:",
+        "options": [
+          "Let each discipline issue a separate return instruction",
+          "Use selection timing as the sole clearance criterion",
+          "Hold an athlete case discussion with roles and criteria",
+          "Delay team communication until symptoms disappear"
+        ],
+        "correct": 2,
+        "explanation": "An athlete-involved case discussion can establish shared goals, role clarity, return criteria, and a communication plan instead of leaving disciplines to issue conflicting instructions."
+      }
+    },
+    {
+      "id": "a1-holistic-129",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "interdisciplinary-performance-sport-burns-2023",
+      "reviewNotes": "Changed the keyed verb-led option to a parallel noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "A return-to-sport decision should integrate:",
+        "options": [
+          "One laboratory score used as a universal clearance threshold",
+          "The athlete’s ranking and the coach’s selection needs only",
+          "The absence of pain during one isolated drill",
+          "Integrate symptoms, function, load, sport demands, and risk"
+        ],
+        "correct": 3,
+        "explanation": "Return decisions require integrated clinical, functional, loading, sport-demand, and athlete-risk information rather than one metric."
+      },
+      "revised": {
+        "text": "A return-to-sport decision should integrate:",
+        "options": [
+          "One laboratory score as a universal clearance threshold",
+          "The athlete’s ranking and coach’s selection needs alone",
+          "No pain during one isolated drill on one day",
+          "Integration of symptoms, function, load, demands, and risk"
+        ],
+        "correct": 3,
+        "explanation": "Return decisions require integrated clinical, functional, loading, sport-demand, and athlete-risk information rather than one metric."
+      }
+    },
+    {
+      "id": "a1-holistic-132",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-131",
+      "sourceId": "interdisciplinary-performance-sport-burns-2023",
+      "reviewNotes": "Replaced the repeated athlete-management-system definition with a pre-collection governance decision for a large squad.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, an athlete-management system is most useful when it supports:",
+        "options": [
+          "Unrestricted public access to confidential athlete records",
+          "Secure records, communication, monitoring, and shared decisions",
+          "Data collection without defined purpose or governance",
+          "Replacing professional discussion with automated reports"
+        ],
+        "correct": 1,
+        "explanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose."
+      },
+      "revised": {
+        "text": "A large squad is adopting an athlete-management system for wellness data. Before collection begins, the team should:",
+        "options": [
+          "Define purpose, users, access rules, and action pathway",
+          "Collect every variable for possible future questions",
+          "Allow all staff to view all fields for faster decisions",
+          "Replace team discussion with automated readiness reports"
+        ],
+        "correct": 0,
+        "explanation": "Before collecting sensitive wellness data, the team should define its purpose, responsible users, access rules, and how results will inform action rather than collect data without governance."
+      }
+    },
+    {
+      "id": "a1-holistic-142",
+      "changeType": "mechanical-pair-rewrite",
+      "pairRepresentative": "a1-holistic-141",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewNotes": "Replaced the repeated reporting-definition item with a GPS metric, missed-session context, and cautious interpretation scenario.",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a performance report should distinguish between:",
+        "options": [
+          "Facts and opinions treated as equally certain in reports",
+          "Raw scores and diagnoses treated as equivalent in reports",
+          "Observed data, interpretation, limitations, and next steps",
+          "A result treated as a guaranteed outcome for the athlete"
+        ],
+        "correct": 2,
+        "explanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action."
+      },
+      "revised": {
+        "text": "A GPS report shows reduced high-speed distance during a week with two missed sessions. The report should first:",
+        "options": [
+          "Describe the reduction as proof of fatigue despite context",
+          "Separate metric, context, limits, and interpretation",
+          "Convert the metric into a diagnosis without assessment",
+          "Omit the result because two sessions were missed"
+        ],
+        "correct": 1,
+        "explanation": "A lower metric should be reported as an observation alongside the missed-session context and limitations; it should not be treated as proof of fatigue or a diagnosis."
+      }
+    },
+    {
+      "id": "a1-holistic-147",
+      "changeType": "grammar-option-parallelism",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewNotes": "Changed the keyed verb-led option to a parallel noun phrase; answer index and meaning are unchanged.",
+      "original": {
+        "text": "When comparing an athlete’s test with a reference norm, the report should state:",
+        "options": [
+          "Only whether the athlete is above or below the average",
+          "State the reference group, conditions, and applicability",
+          "The athlete’s rank without describing how the norm was obtained",
+          "A universal threshold even when the populations differ"
+        ],
+        "correct": 1,
+        "explanation": "Normative comparisons are meaningful only when the reference group, protocol, and applicability are clear."
+      },
+      "revised": {
+        "text": "When comparing an athlete’s test with a reference norm, the report should state:",
+        "options": [
+          "Only the athlete’s position above or below the average",
+          "Reference group, conditions, and applicability",
+          "The athlete’s rank without the norm’s methodology",
+          "A universal threshold despite differing populations"
+        ],
+        "correct": 1,
+        "explanation": "Normative comparisons are meaningful only when the reference group, protocol, and applicability are clear."
+      }
+    }
+  ]
+}

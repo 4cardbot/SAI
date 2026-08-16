@@ -1,0 +1,1152 @@
+{
+  "auditType": "Explanation responsiveness repair for technology/biostatistics group",
+  "auditDate": "2026-08-16",
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "changedCount": 127,
+  "changes": [
+    {
+      "id": "a1-tech-001",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "An accelerometer measures linear acceleration; it does not directly measure blood lactate, ground-reaction force, or motor-unit recruitment.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-002",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Photoplethysmography uses optical changes associated with blood-volume pulses to obtain pulse-related signals.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-003",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "The manually counted step total is the criterion measure used as the reference for validating the wearable step count.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-004",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Similar results across repeated identical trials indicate test-retest reliability, which concerns consistency across occasions.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-005",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Heart-rate variability is derived from variation in successive beat-to-beat intervals rather than from a single average heart rate.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-006",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Smartwatch energy expenditure is a model-based estimate that requires validation; it is not a direct measure of ATP turnover or oxygen consumption.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-007",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Repeated peaks in a shoe accelerometer can identify foot contacts and help estimate cadence.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-008",
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Consistent sensor placement together with signal checks reduces placement-related and motion-artifact error across trials.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-athlete-sensors-seshadri-2019"
+      ]
+    },
+    {
+      "id": "a1-tech-011",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "GPS estimates position from signals received from orbiting satellites.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-012",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "A low-frequency GPS device may miss brief high-speed actions because they occur between recorded samples.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-013",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Total distance does not show how that distance was distributed across speeds and accelerations.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-014",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Structures such as a large arena can obstruct satellite visibility and produce incomplete GPS data.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-015",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Converting 36 km/h to metres per second gives 36 ÷ 3.6 = 10 m/s.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-016",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Repeated standardized trials allow GPS distance repeatability to be estimated under comparable conditions.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-017",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Changing the high-speed threshold changes the amount of distance classified as high-speed running.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-018",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "GPS distance represents external movement load, whereas heart rate represents internal physiological load.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-019",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "Outputs from different GPS sampling rates should be compared only after device-specific validation; satellite use alone does not make them interchangeable.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-020",
+      "originalExplanation": "GPS-based movement metrics describe external load and depend on signal, sampling, and device validation.",
+      "revisedExplanation": "An implausible speed spike should first be checked against signal quality and the device data before interpreting the workload.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "gps-validity-scott-2016"
+      ]
+    },
+    {
+      "id": "a1-tech-021",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Within an IMU, the accelerometer measures linear acceleration.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-022",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "A gyroscope measures angular velocity; acceleration and force are different quantities.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-023",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "A magnetometer senses the magnetic field and can help estimate heading.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-024",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Sensor fusion combines inertial-sensor readings to improve orientation or movement estimates.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-025",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Integrating even a small acceleration bias over time accumulates error and produces progressive drift.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-026",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Standardizing anatomical placement and attachment keeps sensor axes and movement estimates comparable.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-027",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Sampling frequency should be high enough for the highest movement frequency of interest to reduce aliasing.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-028",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "Static calibration establishes a reference orientation and sensor offsets before dynamic measurement.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-029",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "A body-worn IMU measures inertial signals; ground-reaction force is not directly measured without a force platform or validated model.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-030",
+      "originalExplanation": "IMU measures and derived kinematics depend on sensor type, placement, calibration, and signal processing.",
+      "revisedExplanation": "An IMU stride-time estimate should be checked against synchronized motion or force data as a criterion reference.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "wearable-inertial-camomilla-2018"
+      ]
+    },
+    {
+      "id": "a1-tech-031",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "The area under a force-time curve is the time integral of force, which is impulse.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-032",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "A force plate directly measures the external ground-reaction force applied to the plate.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-033",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Net vertical force is measured vertical force minus body weight because body weight is the gravitational baseline.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-034",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Rate of force development is the slope, or change in force per unit time, of the force-time curve.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-035",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Centre of pressure is the point of application of the resultant ground-reaction force.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-036",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Bilateral landing asymmetry requires comparing corresponding left- and right-leg force-time measures.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-037",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Rapid landing impacts occur over short time intervals, so high sampling frequency captures their force-time detail.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-038",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "The two vertical forces add: 700 N + 700 N = 1,400 N.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-039",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Surface EMG records electrical activity associated with muscle activation more directly than GPS, video, or radar.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-040",
+      "originalExplanation": "Force plates measure external force over time; derived variables require correct timing and processing.",
+      "revisedExplanation": "Timestamp synchronization aligns force events with the corresponding posture seen on video.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-041",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Knee flexion and extension occur mainly in the sagittal plane.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-042",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "A higher frame rate provides more temporal samples for resolving rapid foot-strike events.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-043",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "A single two-dimensional camera cannot fully capture movement occurring outside its image plane.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-044",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "A known-length reference object provides the spatial scale needed to convert image pixels into distances.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-045",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "When a joint landmark is occluded, its digitized position becomes uncertain.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-046",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Qualitative video analysis describes visible movement patterns and technique rather than serum or force values.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-047",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Placing the camera perpendicular to the movement plane reduces oblique viewing and perspective distortion.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-048",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Consistent camera geometry makes measured angles comparable across sessions.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-049",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Repeated measurements by one analyst assess intra-rater reliability.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-050",
+      "originalExplanation": "Video analysis depends on calibration, camera geometry, temporal resolution, and consistent digitization.",
+      "revisedExplanation": "Three-dimensional motion capture generally uses multiple calibrated camera views to reconstruct movement.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "neumann-kinesiology"
+      ]
+    },
+    {
+      "id": "a1-tech-051",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "Supervised learning fits examples in which input variables are paired with known labels or outcomes.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "scikit-learn-supervised-learning"
+      ]
+    },
+    {
+      "id": "a1-tech-052",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "High training accuracy with poor unseen-athlete accuracy indicates overfitting: training-specific patterns generalize poorly.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "scikit-learn-supervised-learning"
+      ]
+    },
+    {
+      "id": "a1-tech-053",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "A held-out test set is reserved for the final model evaluation after development and parameter tuning.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "scikit-learn-supervised-learning"
+      ]
+    },
+    {
+      "id": "a1-tech-057",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "External validation evaluates a model on a new athlete group, setting, or dataset rather than the records used for fitting.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-ai-rmf-2023"
+      ]
+    },
+    {
+      "id": "a1-tech-058",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "Explainability can show which inputs contributed to a prediction, supporting review but not proving that the model is unbiased.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-ai-rmf-2023"
+      ]
+    },
+    {
+      "id": "a1-tech-059",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "Human review keeps a serious AI alert as decision support rather than an automatic diagnosis or participation decision.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-ai-rmf-2023"
+      ]
+    },
+    {
+      "id": "a1-tech-060",
+      "originalExplanation": "Predictive models require valid data, appropriate validation, bias checks, and human interpretation.",
+      "revisedExplanation": "A non-randomized load-injury association does not establish that load caused injury; confounding and other explanations remain possible.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual"
+      ]
+    },
+    {
+      "id": "a1-tech-071",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Consent should be obtained before collecting continuous wearable data and should specify the stated purposes and uses.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-073",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "De-identification masks direct identifiers but does not eliminate the possibility of re-identification.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-075",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Using injury data for unrelated advertising conflicts with purpose limitation because the secondary use is outside the stated purpose.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-076",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "A retention policy should define how long data are kept and how secure deletion occurs.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-077",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Checking performance separately across representative subgroups can reveal unequal model performance and potential bias.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-079",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Secondary research with identifiable monitoring data requires appropriate ethics review and consent or an approved waiver.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-080",
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "After unauthorized access, staff should contain the breach and follow applicable incident-response procedures rather than delete logs or disclose records broadly.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "unesco-ai-ethics-2021"
+      ]
+    },
+    {
+      "id": "a1-tech-081",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "The arithmetic mean is (4 + 6 + 8) ÷ 3 = 6 s.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-082",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "Standard deviation summarizes how widely observations spread around their mean.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-083",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "The median is less influenced by one extreme value than the mean, variance, or standard error.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-084",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "Descriptive analysis summarizes the observed data; it does not by itself establish causation or population representation.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-085",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "Inferential statistics use sample data to estimate or test claims about a wider population.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-086",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "In a symmetric normal distribution, the mean and median coincide at the centre.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-087",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "The interquartile range is Q3 − Q1, the spread of the middle 50% of observations.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-088",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "Standard error is proportional to 1/√n; increasing n from 25 to 100 doubles √n, so the standard error halves.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-089",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "A box plot displays the median, quartiles, and potential outliers.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-090",
+      "originalExplanation": "Descriptive summaries organize observed data; inference requires assumptions and a population target.",
+      "revisedExplanation": "Under the null model, the p-value is the probability of data at least as extreme as observed, not the probability that the null is true.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-091",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "Pre- and post-training scores from the same athletes are paired observations, so a paired t-test is appropriate.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-092",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "An independent-groups t-test compares means from two separate, unrelated groups.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-093",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "A two-sided paired t-test usually tests the null hypothesis that the mean paired difference equals zero.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-094",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "Because p = 0.03 is below α = 0.05, the usual decision is to reject the null at the 5% level; this does not prove the alternative.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-095",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "A paired t-test analyzes each athlete's post-minus-pre, or equivalent, difference.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-096",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "Welch's t-test compares two independent means without requiring equal population variances.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-097",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "Each additional unplanned t-test increases the chance of at least one false-positive result, inflating familywise Type I error.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-098",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "Because the 95% CI includes zero, a zero mean difference remains compatible with the data and the result is not conventionally significant.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-099",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "The t statistic is mean difference divided by its standard error: 4 ÷ 2 = 2.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-100",
+      "originalExplanation": "t-tests compare means under a specified design; results require assumptions and context.",
+      "revisedExplanation": "For a mean, SE = SD/√n = 4/√16 = 1.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-101",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "One-way ANOVA tests mean differences across three or more independent groups.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-102",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "The ANOVA F statistic is between-group mean square divided by within-group mean square.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-103",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "A significant omnibus ANOVA shows that at least one group mean differs; it does not show that every pair differs.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-104",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "Post-hoc or planned pairwise comparisons identify which group pairs differ after the omnibus test.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-105",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "The same athletes measured at three time points require a repeated-measures ANOVA to account for within-athlete dependence.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-106",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "A two-way ANOVA tests two main effects and their interaction.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-107",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "An interaction means the effect of one factor changes according to the level of the other factor.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-108",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "Homogeneity of variance means outcome variance is reasonably similar across groups, a common ANOVA assumption.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-109",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "F = MSbetween/MSwithin; equal mean squares therefore give F approximately 1.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-110",
+      "originalExplanation": "ANOVA partitions variability across groups; omnibus results need appropriate follow-up and assumptions.",
+      "revisedExplanation": "Specific pairwise claims should be based on an appropriate post-hoc or planned comparison, not the omnibus p-value alone.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-111",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "Pearson's r is a standardized correlation coefficient ranging from −1 to +1.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-112",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "r = 0.80 indicates a strong positive linear association, not proof of causation.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-113",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "r = 0 indicates no linear association in the sample; nonlinear relationships may still exist.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-114",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "For a simple linear relationship, r² = 0.49 means the model accounts for about 49% of outcome variation in the sample.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-115",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "An extreme observation can change covariance and the fitted line, substantially altering Pearson's r.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-116",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "Spearman rank correlation suits ranked monotonic data when normality or linear-measurement assumptions for Pearson correlation are unsuitable.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-117",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "A load-injury correlation is evidence of association, but correlation alone cannot prove that load caused injury.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-118",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "Repeated observations from one athlete may be correlated, violating the independence assumption of a simple correlation analysis.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-119",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "A scatterplot helps assess linearity and identify outliers before reporting Pearson's r.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-120",
+      "originalExplanation": "Correlation describes association; interpretation requires checking linearity, outliers, independence, and causation.",
+      "revisedExplanation": "A positive sample r with non-significant p indicates observed association but limited evidence that the population association differs from zero.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-121",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "A regression slope of 0.4 means a one-unit increase in the predictor is associated with a 0.4-unit increase in the modeled outcome, on average.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-122",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "The intercept is the predicted outcome when the predictor value equals zero.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-123",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "R² = 0.64 means 64% of outcome variation is accounted for by the fitted model in that sample; it is not 64% accuracy for every athlete.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-124",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "A residual is the observed outcome minus the model's predicted outcome.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-125",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "An observational regression association does not establish causation because confounding and other explanations remain unresolved.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-126",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "Adding age and baseline fitness as covariates adjusts the model for those measured characteristics; it does not guarantee randomization or remove all bias.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-127",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "A categorical predictor is represented numerically with dummy or indicator coding.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-128",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "Prediction beyond the observed predictor range is extrapolation, which is less secure than interpolation.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-129",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "A widening residual fan indicates that residual variance changes with the fitted value, a pattern called heteroscedasticity.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-130",
+      "originalExplanation": "Regression coefficients describe modeled relationships; prediction is not automatically causal.",
+      "revisedExplanation": "RMSE is the square root of mean squared error and is expressed in the outcome's original units.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-131",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "In repeated sampling, a 95% CI procedure captures the fixed population parameter in about 95% of intervals; it is not a probability statement about this single interval.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-132",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "Because the entire interval 2 to 6 is above zero, it is consistent with a positive mean difference throughout the interval.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-133",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "With variability held reasonably constant, increasing sample size reduces standard error and generally narrows a CI.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-134",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "A 99% CI uses a larger critical value than a 95% CI and is therefore generally wider for the same data.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-135",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "For a symmetric CI, the point estimate lies at the interval's centre.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-136",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "An interval from −0.5 to 1.5 contains zero, so a zero mean change remains compatible with the data.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-139",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "The interval −0.1 to 0.1 lies below the worthwhile threshold 0.5, so it excludes effects as large as 0.5.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-140",
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "A confidence interval communicates the estimate's precision and the range of values compatible with the data under the procedure.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nist-sematech-statistics"
+      ]
+    },
+    {
+      "id": "a1-tech-141",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Cohen's d divides the mean difference by a pooled standard deviation, putting the difference on a standardized scale.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-142",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Effect size describes the magnitude of a difference or association, not the p-value or sample size.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-144",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Eta squared is the proportion of total outcome variance attributed to the factor in the analyzed model.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-145",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "For two continuous variables, Pearson's r can be reported as an association effect-size measure.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-147",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Practical value should be judged against a worthwhile-change threshold, not only a p-value or ranking.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-149",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "A CI around an effect size communicates its estimation precision and plausible values, not an exact future value.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    },
+    {
+      "id": "a1-tech-150",
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "A statistically significant tiny gain may still be practically unimportant, so statistical significance and practical significance must be distinguished.",
+      "reviewerNote": "Rewrote the explanation to state the item-specific definition, calculation, or rationale for the keyed option.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "a1-tech-001",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A wearable accelerometer primarily records:",
+    "options": [
+      "Blood lactate concentration",
+      "Ground-reaction force directly",
+      "Linear acceleration",
+      "Motor-unit recruitment"
+    ],
+    "correct": 2,
+    "explanation": "An accelerometer measures linear acceleration; it does not directly measure blood lactate, ground-reaction force, or motor-unit recruitment.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-002",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Optical wrist pulse sensing is commonly based on:",
+    "options": [
+      "Electromyography",
+      "Bioelectrical impedance",
+      "Photoplethysmography",
+      "Doppler ultrasound"
+    ],
+    "correct": 2,
+    "explanation": "Photoplethysmography uses optical changes associated with blood-volume pulses to obtain pulse-related signals.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-003",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "The manual count used to validate a wearable step count is the:",
+    "options": [
+      "Criterion measure",
+      "Predictor variable",
+      "Confounding variable",
+      "Sampling frame"
+    ],
+    "correct": 0,
+    "explanation": "The manually counted step total is the criterion measure used as the reference for validating the wearable step count.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-004",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Similar outputs across repeated identical wearable trials mainly support:",
+    "options": [
+      "Construct validity",
+      "Sensitivity",
+      "Test-retest reliability",
+      "External validity"
+    ],
+    "correct": 2,
+    "explanation": "Similar results across repeated identical trials indicate test-retest reliability, which concerns consistency across occasions.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-005",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Short-term heart-rate variability is derived most directly from:",
+    "options": [
+      "One-minute average heart rate",
+      "Daily step totals",
+      "Beat-to-beat intervals",
+      "Peak accelerations"
+    ],
+    "correct": 2,
+    "explanation": "Heart-rate variability is derived from variation in successive beat-to-beat intervals rather than from a single average heart rate.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-006",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A smartwatch energy-expenditure value should be treated as:",
+    "options": [
+      "A direct measure of ATP turnover",
+      "A model-based estimate requiring validation",
+      "A direct measure of oxygen consumption",
+      "A device-independent physiological value"
+    ],
+    "correct": 1,
+    "explanation": "Smartwatch energy expenditure is a model-based estimate that requires validation; it is not a direct measure of ATP turnover or oxygen consumption.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-007",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Repeated peaks from a shoe accelerometer can estimate:",
+    "options": [
+      "Blood-pressure changes",
+      "Muscle oxygenation",
+      "Foot contacts and cadence",
+      "Body-fat percentage"
+    ],
+    "correct": 2,
+    "explanation": "Repeated peaks in a shoe accelerometer can identify foot contacts and help estimate cadence.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-008",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Motion artefact is best reduced by:",
+    "options": [
+      "Changing the sensor site between trials",
+      "Keeping only the highest reading",
+      "Deleting readings far from the team mean",
+      "Consistent placement and signal checks"
+    ],
+    "correct": 3,
+    "explanation": "Consistent sensor placement together with signal checks reduces placement-related and motion-artifact error across trials.",
+    "sourceId": "wearable-athlete-sensors-seshadri-2019"
+  },
+  {
+    "id": "a1-tech-009",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Two wearables report different distances. The strongest first comparison is with:",
+    "options": [
+      "The larger device reading",
+      "A standardized criterion distance",
+      "The device with longer battery life",
+      "The average of both readings"
+    ],
+    "correct": 1,
+    "explanation": "A standardized criterion distance provides a reference for evaluating the validity of wearable distance estimates.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-010",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "The wearable output most directly representing internal load is:",
+    "options": [
+      "Total distance",
+      "High-speed running distance",
+      "Heart-rate response",
+      "Number of accelerations"
+    ],
+    "correct": 2,
+    "explanation": "Heart-rate response is an internal-load indicator, whereas distance and acceleration metrics represent external load.",
+    "sourceId": "ioc-load-illness-2016"
+  },
+  {
+    "id": "a1-tech-011",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "GPS position is estimated primarily from:",
+    "options": [
+      "Surface EMG signals",
+      "Force-platform strain data",
+      "Signals from orbiting satellites",
+      "Blood-pressure oscillations"
+    ],
+    "correct": 2,
+    "explanation": "GPS estimates position from signals received from orbiting satellites.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-012",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A low-frequency GPS unit is most likely to miss detail in:",
+    "options": [
+      "Total session duration",
+      "Brief high-speed actions",
+      "Average body mass",
+      "Resting heart rate"
+    ],
+    "correct": 1,
+    "explanation": "A low-frequency GPS device may miss brief high-speed actions because they occur between recorded samples.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-013",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Total distance alone is incomplete because it does not show:",
+    "options": [
+      "Whether distance can be measured",
+      "The athlete's body mass",
+      "The speed and acceleration profile",
+      "The number of training sessions"
+    ],
+    "correct": 2,
+    "explanation": "Total distance does not show how that distance was distributed across speeds and accelerations.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-014",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Incomplete GPS data inside a large arena most likely reflect:",
+    "options": [
+      "Poor satellite visibility",
+      "Excessive blood lactate",
+      "Force-plate sampling error",
+      "Low body temperature"
+    ],
+    "correct": 0,
+    "explanation": "Structures such as a large arena can obstruct satellite visibility and produce incomplete GPS data.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-015",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A sprint speed of 36 km/h equals:",
+    "options": [
+      "3.6 m/s",
+      "6 m/s",
+      "10 m/s",
+      "36 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Converting 36 km/h to metres per second gives 36 ÷ 3.6 = 10 m/s.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-016",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "GPS distance repeatability is best estimated by:",
+    "options": [
+      "Using only the maximum trial",
+      "Comparing outputs across sports",
+      "Repeated standardized trials",
+      "Removing low-distance trials"
+    ],
+    "correct": 2,
+    "explanation": "Repeated standardized trials allow GPS distance repeatability to be estimated under comparable conditions.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-017",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Changing the high-speed threshold directly changes reported:",
+    "options": [
+      "Athlete height and reach",
+      "High-speed running distance",
+      "Satellite count in the session",
+      "Resting blood-pressure level"
+    ],
+    "correct": 1,
+    "explanation": "Changing the high-speed threshold changes the amount of distance classified as high-speed running.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-018",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "GPS distance and heart rate represent, respectively:",
+    "options": [
+      "Internal load and external load",
+      "Two body-composition measures",
+      "External load and internal load",
+      "Two technical-skill measures"
+    ],
+    "correct": 2,
+    "explanation": "GPS distance represents external movement load, whereas heart rate represents internal physiological load.",
+    "sourceId": "ioc-load-illness-2016"
+  },
+  {
+    "id": "a1-tech-019",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Outputs from 5-Hz and 10-Hz GPS devices are:",
+    "options": [
+      "Automatically interchangeable",
+      "Identical because both use satellites",
+      "Comparable after device validation",
+      "Poolable without device labels"
+    ],
+    "correct": 2,
+    "explanation": "Outputs from different GPS sampling rates should be compared only after device-specific validation; satellite use alone does not make them interchangeable.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-020",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "An implausible GPS speed spike should first prompt a check of:",
+    "options": [
+      "Signal quality and device data",
+      "A new team record",
+      "The whole session being deleted",
+      "An immediate workload increase"
+    ],
+    "correct": 0,
+    "explanation": "An implausible speed spike should first be checked against signal quality and the device data before interpreting the workload.",
+    "sourceId": "gps-validity-scott-2016"
+  },
+  {
+    "id": "a1-tech-021",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Which IMU component measures linear acceleration?",
+    "options": [
+      "Gyroscope",
+      "Magnetometer",
+      "Accelerometer",
+      "Strain gauge"
+    ],
+    "correct": 2,
+    "explanation": "Within an IMU, the accelerometer measures linear acceleration.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-022",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A gyroscope primarily measures:",
+    "options": [
+      "Angular velocity",
+      "Vertical ground force",
+      "Linear displacement",
+      "Muscle oxygenation"
+    ],
+    "correct": 0,
+    "explanation": "A gyroscope measures angular velocity; acceleration and force are different quantities.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-023",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A magnetometer is useful for estimating:",
+    "options": [
+      "Magnetic heading",
+      "Body mass",
+      "Blood glucose",
+      "Jump impulse"
+    ],
+    "correct": 0,
+    "explanation": "A magnetometer senses the magnetic field and can help estimate heading.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-024",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Sensor fusion combines:",
+    "options": [
+      "Video and audio data only",
+      "Force and pressure data only",
+      "Combined inertial-sensor readings",
+      "Post-session averages only"
+    ],
+    "correct": 2,
+    "explanation": "Sensor fusion combines inertial-sensor readings to improve orientation or movement estimates.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-025",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Integrating acceleration with small sensor bias can cause:",
+    "options": [
+      "Progressive drift",
+      "Automatic error correction",
+      "A fixed error only",
+      "An exact ground-force trace"
+    ],
+    "correct": 0,
+    "explanation": "Integrating even a small acceleration bias over time accumulates error and produces progressive drift.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-026",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Comparable IMU trials require standardized:",
+    "options": [
+      "Anatomical placement and attachment",
+      "Footwear brand and model for every trial",
+      "Sensor colour and casing design",
+      "Number of analysts on the team"
+    ],
+    "correct": 0,
+    "explanation": "Standardizing anatomical placement and attachment keeps sensor axes and movement estimates comparable.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-027",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "IMU sampling frequency should reflect the:",
+    "options": [
+      "Highest movement frequency of interest",
+      "Number of athletes tested in the session",
+      "Expected data-storage duration",
+      "Consent-form length and format"
+    ],
+    "correct": 0,
+    "explanation": "Sampling frequency should be high enough for the highest movement frequency of interest to reduce aliasing.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-028",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A static IMU calibration position establishes:",
+    "options": [
+      "Reference orientation and offsets",
+      "A measure of maximal oxygen uptake",
+      "A direct measure of muscle strength",
+      "A substitute for repeated trials"
+    ],
+    "correct": 0,
+    "explanation": "Static calibration establishes a reference orientation and sensor offsets before dynamic measurement.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-029",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A typical body-worn IMU does not directly measure:",
+    "options": [
+      "Ground-reaction force",
+      "Linear acceleration",
+      "Angular velocity",
+      "Orientation-related signals"
+    ],
+    "correct": 0,
+    "explanation": "A body-worn IMU measures inertial signals; ground-reaction force is not directly measured without a force platform or validated model.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-030",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "An IMU stride-time estimate can be validated against:",
+    "options": [
+      "An unrelated body-composition test",
+      "Synchronized motion or force data",
+      "A subjective fatigue score alone",
+      "An unmatched running speed"
+    ],
+    "correct": 1,
+    "explanation": "An IMU stride-time estimate should be checked against synchronized motion or force data as a criterion reference.",
+    "sourceId": "wearable-inertial-camomilla-2018"
+  },
+  {
+    "id": "a1-tech-031",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "The area under a force-time curve represents:",
+    "options": [
+      "Impulse",
+      "Cadence",
+      "Joint angle",
+      "Body-fat percentage"
+    ],
+    "correct": 0,
+    "explanation": "The area under a force-time curve is the time integral of force, which is impulse.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-032",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A force plate directly records the athlete's:",
+    "options": [
+      "External ground-reaction force",
+      "Motor-unit firing rate",
+      "Blood lactate concentration",
+      "Muscle cross-sectional area"
+    ],
+    "correct": 0,
+    "explanation": "A force plate directly measures the external ground-reaction force applied to the plate.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-033",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Net vertical force is obtained by:",
+    "options": [
+      "Adding body weight to measured force",
+      "Using flight time to infer the force",
+      "Subtracting body weight from vertical force",
+      "Ignoring the body-weight baseline"
+    ],
+    "correct": 2,
+    "explanation": "Net vertical force is measured vertical force minus body weight because body weight is the gravitational baseline.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-034",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Rate of force development is estimated from the:",
+    "options": [
+      "Slope of the force-time curve",
+      "Total distance covered in a jump",
+      "Weekly repetition count in training",
+      "Heart rate during recovery"
+    ],
+    "correct": 0,
+    "explanation": "Rate of force development is the slope, or change in force per unit time, of the force-time curve.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-035",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Centre of pressure is defined as:",
+    "options": [
+      "The athlete's anatomical centre of mass",
+      "The highest point reached during a jump",
+      "The ground-reaction force's application point",
+      "The position of the nearest video camera"
+    ],
+    "correct": 2,
+    "explanation": "Centre of pressure is the point of application of the resultant ground-reaction force.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-036",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Bilateral landing asymmetry should compare:",
+    "options": [
+      "Only the largest force peak",
+      "Both legs after averaging them",
+      "Different time windows for each side",
+      "Left and right force-time measures"
+    ],
+    "correct": 3,
+    "explanation": "Bilateral landing asymmetry requires comparing corresponding left- and right-leg force-time measures.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-037",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "High force-plate sampling frequency is especially important for:",
+    "options": [
+      "Monthly training trends",
+      "Rapid landing impacts",
+      "Athlete age",
+      "Session title"
+    ],
+    "correct": 1,
+    "explanation": "Rapid landing impacts occur over short time intervals, so high sampling frequency captures their force-time detail.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-038",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Two plates each record 700 N vertically. Their combined force is:",
+    "options": [
+      "350 N",
+      "1,400 N",
+      "700 N",
+      "1,050 N"
+    ],
+    "correct": 1,
+    "explanation": "The two vertical forces add: 700 N + 700 N = 1,400 N.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-039",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Muscle electrical activation is assessed more directly with:",
+    "options": [
+      "A GPS unit",
+      "Surface EMG",
+      "A video tripod",
+      "A radar gun"
+    ],
+    "correct": 1,
+    "explanation": "Surface EMG records electrical activity associated with muscle activation more directly than GPS, video, or radar.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-040",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Force events can be linked to landing posture when force and video are:",
+    "options": [
+      "Synchronized by timestamps",
+      "Collected on different days",
+      "Recorded with different time bases",
+      "Aligned only at session end"
+    ],
+    "correct": 0,
+    "explanation": "Timestamp synchronization aligns force events with the corresponding posture seen on video.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-041",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A side-view assessment of knee flexion primarily uses the:",
+    "options": [
+      "Transverse plane",
+      "Frontal plane",
+      "Sagittal plane",
+      "Oblique plane"
+    ],
+    "correct": 2,
+    "explanation": "Knee flexion and extension occur mainly in the sagittal plane.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-042",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A higher video frame rate is most valuable for resolving:",
+    "options": [
+      "Rapid foot-strike events",
+      "Body mass during testing",
+      "A monthly training trend",
+      "The training policy"
+    ],
+    "correct": 0,
+    "explanation": "A higher frame rate provides more temporal samples for resolving rapid foot-strike events.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-043",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "A single-camera two-dimensional analysis may miss:",
+    "options": [
+      "The passage of time in the recording",
+      "All visible motion in the recording",
+      "Motion outside the camera plane",
+      "The need for camera calibration"
+    ],
+    "correct": 2,
+    "explanation": "A single two-dimensional camera cannot fully capture movement occurring outside its image plane.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-044",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A known-length reference object provides:",
+    "options": [
+      "A higher video frame rate for the camera",
+      "Image scale for distance estimates",
+      "Blood-pressure measurements",
+      "Complete removal of perspective error"
+    ],
+    "correct": 1,
+    "explanation": "A known-length reference object provides the spatial scale needed to convert image pixels into distances.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-045",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "An occluded joint landmark creates uncertainty in its:",
+    "options": [
+      "Sampling frequency",
+      "Athlete body mass",
+      "Camera battery level",
+      "Digitized position"
+    ],
+    "correct": 3,
+    "explanation": "When a joint landmark is occluded, its digitized position becomes uncertain.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-046",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Qualitative video analysis primarily describes:",
+    "options": [
+      "Serum chemistry values from blood",
+      "Visible movement patterns and technique",
+      "A p-value without visual observations",
+      "External force at every instant"
+    ],
+    "correct": 1,
+    "explanation": "Qualitative video analysis describes visible movement patterns and technique rather than serum or force values.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-047",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Perspective distortion is reduced when the camera is:",
+    "options": [
+      "Moved behind the athlete",
+      "Perpendicular to the movement plane",
+      "Changed angle between trials",
+      "Changed distance between trials"
+    ],
+    "correct": 1,
+    "explanation": "Placing the camera perpendicular to the movement plane reduces oblique viewing and perspective distortion.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-048",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "For comparing video angles across sessions, camera geometry should be:",
+    "options": [
+      "Different between sessions",
+      "Kept as consistent as possible",
+      "Left unrecorded between sessions",
+      "Chosen after viewing results"
+    ],
+    "correct": 1,
+    "explanation": "Consistent camera geometry makes measured angles comparable across sessions.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-049",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Repeated digitization by the same analyst supports:",
+    "options": [
+      "Population validity",
+      "Concurrent causality",
+      "Intra-rater reliability",
+      "Inter-device sensitivity"
+    ],
+    "correct": 2,
+    "explanation": "Repeated measurements by one analyst assess intra-rater reliability.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-050",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Three-dimensional motion capture generally requires:",
+    "options": [
+      "One uncalibrated photograph",
+      "A heart-rate strap only",
+      "One force plate without cameras",
+      "Multiple calibrated camera views"
+    ],
+    "correct": 3,
+    "explanation": "Three-dimensional motion capture generally uses multiple calibrated camera views to reconstruct movement.",
+    "sourceId": "neumann-kinesiology"
+  },
+  {
+    "id": "a1-tech-051",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Supervised machine learning uses examples with:",
+    "options": [
+      "Only unlabeled noise",
+      "No input variables",
+      "Known labels or outcomes",
+      "Outcomes created after deployment"
+    ],
+    "correct": 2,
+    "explanation": "Supervised learning fits examples in which input variables are paired with known labels or outcomes.",
+    "sourceId": "scikit-learn-supervised-learning"
+  },
+  {
+    "id": "a1-tech-052",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "High training accuracy but low unseen-athlete accuracy suggests:",
+    "options": [
+      "Perfect generalization",
+      "No target variable",
+      "A larger external sample",
+      "Overfitting"
+    ],
+    "correct": 3,
+    "explanation": "High training accuracy with poor unseen-athlete accuracy indicates overfitting: training-specific patterns generalize poorly.",
+    "sourceId": "scikit-learn-supervised-learning"
+  },
+  {
+    "id": "a1-tech-053",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A held-out test set should be used:",
+    "options": [
+      "For final model evaluation",
+      "To tune parameters repeatedly",
+      "To replace the training set",
+      "Only when training accuracy is low"
+    ],
+    "correct": 0,
+    "explanation": "A held-out test set is reserved for the final model evaluation after development and parameter tuning.",
+    "sourceId": "scikit-learn-supervised-learning"
+  },
+  {
+    "id": "a1-tech-054",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Using a post-injury variable to predict that injury is:",
+    "options": [
+      "Randomization",
+      "Data leakage",
+      "External validation",
+      "Measurement reliability"
+    ],
+    "correct": 1,
+    "explanation": "Data leakage occurs when information unavailable at prediction time, such as a post-injury variable, is used to build the model and produces over-optimistic performance estimates.",
+    "sourceId": "scikit-learn-common-pitfalls-1-9"
+  },
+  {
+    "id": "a1-tech-055",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Sensitivity is the proportion of actual positive cases:",
+    "options": [
+      "Correctly classified as positive",
+      "Incorrectly classified as negative",
+      "Correctly classified as negative",
+      "Predicted positives that are true"
+    ],
+    "correct": 0,
+    "explanation": "Sensitivity, also called recall for the positive class, is the proportion of actual positive cases that the classifier correctly identifies.",
+    "sourceId": "scikit-learn-model-evaluation-1-9"
+  },
+  {
+    "id": "a1-tech-056",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "With rare injury cases, accuracy may mislead because a model can:",
+    "options": [
+      "Predict the common non-injury class",
+      "Have no defined outcome variable",
+      "Become causal without design",
+      "Need no external validation"
+    ],
+    "correct": 0,
+    "explanation": "With rare injury cases, a model can obtain high accuracy by predicting the common non-injury class while missing the minority injury cases, so prevalence and class-specific metrics matter.",
+    "sourceId": "scikit-learn-model-evaluation-1-9"
+  },
+  {
+    "id": "a1-tech-057",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "External validation tests a model on:",
+    "options": [
+      "A new athlete group or setting",
+      "The same records used to fit it",
+      "Only its training loss",
+      "A larger number of predictors"
+    ],
+    "correct": 0,
+    "explanation": "External validation evaluates a model on a new athlete group, setting, or dataset rather than the records used for fitting.",
+    "sourceId": "nist-ai-rmf-2023"
+  },
+  {
+    "id": "a1-tech-058",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Explainability can help staff:",
+    "options": [
+      "Guarantee that the model is unbiased",
+      "Treat the prediction as a diagnosis",
+      "Review inputs contributing to a prediction",
+      "Avoid measuring clinical outcomes"
+    ],
+    "correct": 2,
+    "explanation": "Explainability can show which inputs contributed to a prediction, supporting review but not proving that the model is unbiased.",
+    "sourceId": "nist-ai-rmf-2023"
+  },
+  {
+    "id": "a1-tech-059",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A serious AI health alert should:",
+    "options": [
+      "Replace clinical judgment entirely",
+      "Support decisions with human review",
+      "Exclude the athlete automatically",
+      "Publish raw monitoring data"
+    ],
+    "correct": 1,
+    "explanation": "Human review keeps a serious AI alert as decision support rather than an automatic diagnosis or participation decision.",
+    "sourceId": "nist-ai-rmf-2023"
+  },
+  {
+    "id": "a1-tech-060",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "A non-randomized model linking GPS load and injury supports:",
+    "options": [
+      "Evidence that load caused injury",
+      "Evidence that no load is safe",
+      "An association, not causation",
+      "Confounding need not be considered"
+    ],
+    "correct": 2,
+    "explanation": "A non-randomized load-injury association does not establish that load caused injury; confounding and other explanations remain possible.",
+    "sourceId": "cdc-confounding-epi-manual"
+  },
+  {
+    "id": "a1-tech-061",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "The primary value of an athlete-management system is to:",
+    "options": [
+      "Replace professional judgment",
+      "Generate unmeasured laboratory values",
+      "Centralize longitudinal athlete information",
+      "Guarantee injury-free participation"
+    ],
+    "correct": 2,
+    "explanation": "An AMS organizes longitudinal data to support secure, contextual athlete-management decisions.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-062",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A 90-minute session at RPE 6 has a session-RPE load of:",
+    "options": [
+      "540 arbitrary units",
+      "15 arbitrary units",
+      "96 arbitrary units",
+      "5,400 arbitrary units"
+    ],
+    "correct": 0,
+    "explanation": "Session-RPE load is calculated as session duration multiplied by perceived exertion: 90 minutes × RPE 6 = 540 arbitrary units.",
+    "sourceId": "ioc-load-illness-2016"
+  },
+  {
+    "id": "a1-tech-063",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Which AMS pairing is correct?",
+    "options": [
+      "GPS distance is external; heart rate is internal",
+      "GPS distance is internal; heart rate is external",
+      "Both directly measure tissue damage in practice",
+      "Both measure technical skill alone"
+    ],
+    "correct": 0,
+    "explanation": "GPS distance reflects an external movement load, whereas heart rate reflects an internal physiological response.",
+    "sourceId": "ioc-load-illness-2016"
+  },
+  {
+    "id": "a1-tech-064",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Role-based permissions are intended to:",
+    "options": [
+      "Give every user full access",
+      "Use one shared account",
+      "Make all records publicly visible",
+      "Limit access by legitimate role"
+    ],
+    "correct": 3,
+    "explanation": "Role-based permissions limit athlete-information access to users with a legitimate role rather than granting universal or shared-account access.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-065",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "An unanswered wellness item should normally be:",
+    "options": [
+      "Recorded as the worst score",
+      "Flagged as missing data",
+      "Treated as evidence of wellness",
+      "Replaced silently by the team mean"
+    ],
+    "correct": 1,
+    "explanation": "An unanswered wellness item is missing data; silently treating it as a worst score, wellness evidence, or team mean would distort the record.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-066",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "A longitudinal AMS trend helps distinguish:",
+    "options": [
+      "A value from one session",
+      "A password from a username",
+      "A short-term change from baseline",
+      "A camera view from a force plate"
+    ],
+    "correct": 2,
+    "explanation": "Longitudinal records allow a short-term change to be compared with an athlete's baseline rather than being interpreted as an isolated value.",
+    "sourceId": "ioc-load-illness-2016"
+  },
+  {
+    "id": "a1-tech-067",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "Interoperable AMS fields mainly reduce:",
+    "options": [
+      "Duplicate and incompatible records",
+      "The need for athlete consent",
+      "All measurement error",
+      "Professional review of data"
+    ],
+    "correct": 0,
+    "explanation": "Interoperable fields use compatible definitions and formats, reducing duplicate or incompatible records when information moves between systems.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-068",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "An athlete-facing dashboard is best used to:",
+    "options": [
+      "Hide uncertainty from users",
+      "Make irreversible medical decisions",
+      "Rank athletes by sensitive data",
+      "Provide understandable feedback"
+    ],
+    "correct": 3,
+    "explanation": "An athlete-facing dashboard should communicate understandable feedback while preserving uncertainty and avoiding public ranking or irreversible medical decisions.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-069",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "An AMS audit trail should record:",
+    "options": [
+      "Who changed each record and when",
+      "The athlete's training preference",
+      "The dashboard's interface theme",
+      "Only the final stored value"
+    ],
+    "correct": 0,
+    "explanation": "An audit trail supports accountability by recording who changed a record and when, rather than retaining only the final value.",
+    "sourceId": "ais-athlete-data-governance"
+  },
+  {
+    "id": "a1-tech-070",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "An elevated injury-risk score should be treated as:",
+    "options": [
+      "A definitive clinical diagnosis",
+      "A prompt for human review",
+      "A reason to ignore clinical findings",
+      "A substitute for informed consent"
+    ],
+    "correct": 1,
+    "explanation": "An elevated risk score is a prompt for qualified human review; it is not a definitive diagnosis or a substitute for clinical findings and consent.",
+    "sourceId": "nist-ai-rmf-2023"
+  },
+  {
+    "id": "a1-tech-071",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Before continuous wearable data are collected, staff should:",
+    "options": [
+      "Collect every available variable",
+      "Share raw data with all staff",
+      "Obtain informed consent for stated uses",
+      "Use data for unspecified future uses"
+    ],
+    "correct": 2,
+    "explanation": "Consent should be obtained before collecting continuous wearable data and should specify the stated purposes and uses.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-072",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "foundational",
+    "text": "Data minimization means collecting:",
+    "options": [
+      "Every sensor stream indefinitely",
+      "The most invasive sensor available",
+      "All data for future publication",
+      "Only data necessary for that purpose"
+    ],
+    "correct": 3,
+    "explanation": "Data minimization limits collection to information necessary for the stated purpose.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-073",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "De-identification means that:",
+    "options": [
+      "Identifiers are masked, but re-identification may remain possible",
+      "Identifiers are masked, so privacy risk is eliminated",
+      "Identifiers are masked, so access controls are unnecessary",
+      "Identifiers are masked, so secondary use is automatically allowed"
+    ],
+    "correct": 0,
+    "explanation": "De-identification masks direct identifiers but does not eliminate the possibility of re-identification.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-074",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "The control most directly limiting access to sensitive data is:",
+    "options": [
+      "A larger athlete sample size",
+      "A summarized dashboard view",
+      "Role-based access controls",
+      "A higher sensor sampling rate"
+    ],
+    "correct": 2,
+    "explanation": "Role-based access controls limit who may view sensitive records, while authentication verifies the user's identity.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-075",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Using injury data for unrelated advertising raises a concern about:",
+    "options": [
+      "Sampling frequency",
+      "Inter-rater reliability",
+      "Purpose limitation",
+      "Regression to the mean"
+    ],
+    "correct": 2,
+    "explanation": "Using injury data for unrelated advertising conflicts with purpose limitation because the secondary use is outside the stated purpose.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-076",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A retention policy should specify:",
+    "options": [
+      "Permanent retention without review",
+      "A complete copy for every coach",
+      "No athlete access to records",
+      "Retention period and secure deletion"
+    ],
+    "correct": 3,
+    "explanation": "A retention policy should define how long data are kept and how secure deletion occurs.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-077",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "To reduce AI bias across diverse athletes, developers should:",
+    "options": [
+      "Check subgroup performance on representative data",
+      "Remove subgroup information without evaluation",
+      "Optimize only the overall accuracy score",
+      "Assume a large data set is automatically fair"
+    ],
+    "correct": 0,
+    "explanation": "Checking performance separately across representative subgroups can reveal unequal model performance and potential bias.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-078",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "A safeguard for a high-impact AI participation recommendation is:",
+    "options": [
+      "Automatic action with no review",
+      "Human review before implementation",
+      "A prediction with no human review",
+      "Permanent exclusion after one alert"
+    ],
+    "correct": 1,
+    "explanation": "Human oversight and reviewable reasoning help keep high-impact AI recommendations accountable.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-079",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "analytical",
+    "text": "Before secondary research use of identifiable monitoring data, staff should:",
+    "options": [
+      "Check ethics approval and consent or waiver",
+      "Assume original consent covers all uses",
+      "Remove dates and skip ethical review",
+      "Proceed without research ethics review"
+    ],
+    "correct": 0,
+    "explanation": "Secondary research with identifiable monitoring data requires appropriate ethics review and consent or an approved waiver.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-080",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "New & Emerging Technologies in Sports Science",
+    "difficulty": "applied",
+    "text": "After unauthorized database access, the immediate response is to:",
+    "options": [
+      "Contain access and follow breach procedures",
+      "Ignore the breach if no injury occurred",
+      "Delete the audit logs immediately",
+      "Publish all affected records to staff"
+    ],
+    "correct": 0,
+    "explanation": "After unauthorized access, staff should contain the breach and follow applicable incident-response procedures rather than delete logs or disclose records broadly.",
+    "sourceId": "unesco-ai-ethics-2021"
+  },
+  {
+    "id": "a1-tech-081",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "The mean of 4 s, 6 s, and 8 s is:",
+    "options": [
+      "6 s",
+      "5 s",
+      "7 s",
+      "18 s"
+    ],
+    "correct": 0,
+    "explanation": "The arithmetic mean is (4 + 6 + 8) ÷ 3 = 6 s.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-082",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Standard deviation primarily describes:",
+    "options": [
+      "Direction of a measured association",
+      "The number of observations",
+      "Probability that the null is true",
+      "Spread of observations around the mean"
+    ],
+    "correct": 3,
+    "explanation": "Standard deviation summarizes how widely observations spread around their mean.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-083",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Which summary is least affected by one extreme high outlier?",
+    "options": [
+      "Median",
+      "Mean",
+      "Variance",
+      "Standard error"
+    ],
+    "correct": 0,
+    "explanation": "The median is less influenced by one extreme value than the mean, variance, or standard error.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-084",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Descriptive analysis primarily:",
+    "options": [
+      "Proves population representation",
+      "Summarizes the observed data",
+      "Establishes causation",
+      "Replaces measurement protocol"
+    ],
+    "correct": 1,
+    "explanation": "Descriptive analysis summarizes the observed data; it does not by itself establish causation or population representation.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-085",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Inferential statistics primarily help to:",
+    "options": [
+      "Rename variables in a statistical dataset",
+      "Remove variation from measurements",
+      "Estimate population claims from samples",
+      "Display one raw observation"
+    ],
+    "correct": 2,
+    "explanation": "Inferential statistics use sample data to estimate or test claims about a wider population.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-086",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "For a symmetric normal distribution, mean and median are:",
+    "options": [
+      "Always zero",
+      "Always different",
+      "Equal",
+      "Undefined"
+    ],
+    "correct": 2,
+    "explanation": "In a symmetric normal distribution, the mean and median coincide at the centre.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-087",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "The interquartile range equals:",
+    "options": [
+      "Maximum value minus minimum value",
+      "Mean divided by standard deviation",
+      "Third quartile minus first quartile",
+      "Sample size minus the median"
+    ],
+    "correct": 2,
+    "explanation": "The interquartile range is Q3 − Q1, the spread of the middle 50% of observations.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-088",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "If sample size increases from 25 to 100 with SD fixed, standard error:",
+    "options": [
+      "Becomes twice as large",
+      "Remains unchanged",
+      "Becomes four times larger",
+      "Becomes half as large"
+    ],
+    "correct": 3,
+    "explanation": "Standard error is proportional to 1/√n; increasing n from 25 to 100 doubles √n, so the standard error halves.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-089",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A box plot most directly shows:",
+    "options": [
+      "The raw time sequence",
+      "Median, quartiles, and outliers",
+      "A causal treatment effect",
+      "An exact injury probability"
+    ],
+    "correct": 1,
+    "explanation": "A box plot displays the median, quartiles, and potential outliers.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-090",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A p-value is, under the null model, the probability of observing:",
+    "options": [
+      "The null hypothesis itself",
+      "A clinically important effect size",
+      "A representative sample of athletes",
+      "Data at least as extreme as observed"
+    ],
+    "correct": 3,
+    "explanation": "Under the null model, the p-value is the probability of data at least as extreme as observed, not the probability that the null is true.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-091",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Pre- and post-training scores from the same athletes use a:",
+    "options": [
+      "Paired t-test",
+      "One-sample t-test",
+      "Independent-groups t-test",
+      "Chi-square test"
+    ],
+    "correct": 0,
+    "explanation": "Pre- and post-training scores from the same athletes are paired observations, so a paired t-test is appropriate.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-092",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "An independent-groups t-test compares means of:",
+    "options": [
+      "Two separate groups",
+      "Three repeated time points",
+      "Two variables from one athlete",
+      "One sample with no reference"
+    ],
+    "correct": 0,
+    "explanation": "An independent-groups t-test compares means from two separate, unrelated groups.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-093",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "The null mean difference in a two-sided paired t-test is usually:",
+    "options": [
+      "Greater than one",
+      "Equal to the sample SD",
+      "Equal to zero",
+      "Always positive"
+    ],
+    "correct": 2,
+    "explanation": "A two-sided paired t-test usually tests the null hypothesis that the mean paired difference equals zero.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-094",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "With p = 0.03 and alpha = 0.05, the usual decision is to:",
+    "options": [
+      "Accept a practically large effect",
+      "Reject the null at the 5% level",
+      "Prove the alternative hypothesis",
+      "Ignore the statistical result"
+    ],
+    "correct": 1,
+    "explanation": "Because p = 0.03 is below α = 0.05, the usual decision is to reject the null at the 5% level; this does not prove the alternative.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-095",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "A paired t-test first forms:",
+    "options": [
+      "A new random sample of athletes",
+      "Each athlete's paired difference",
+      "The maximum score in each group",
+      "A rank for every team member"
+    ],
+    "correct": 1,
+    "explanation": "A paired t-test analyzes each athlete's post-minus-pre, or equivalent, difference.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-096",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "For two independent groups with unequal variances, use:",
+    "options": [
+      "A paired t-test",
+      "Repeated-measures ANOVA",
+      "A histogram",
+      "Welch's t-test"
+    ],
+    "correct": 3,
+    "explanation": "Welch's t-test compares two independent means without requiring equal population variances.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-097",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Many separate t-tests increase risk of:",
+    "options": [
+      "Lowering every mean",
+      "Inflated familywise Type I error",
+      "Creating a paired design",
+      "Eliminating random variation"
+    ],
+    "correct": 1,
+    "explanation": "Each additional unplanned t-test increases the chance of at least one false-positive result, inflating familywise Type I error.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-098",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A 95% CI for a mean difference of -1.2 to 0.4:",
+    "options": [
+      "Excludes zero and supports a positive change",
+      "Rules out a true mean difference of zero",
+      "Shows that all athletes improved equally",
+      "Includes zero; not conventionally significant"
+    ],
+    "correct": 3,
+    "explanation": "Because the 95% CI includes zero, a zero mean difference remains compatible with the data and the result is not conventionally significant.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-099",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "A mean difference of 4 with SE 2 gives a t statistic of:",
+    "options": [
+      "0.5",
+      "2",
+      "1",
+      "8"
+    ],
+    "correct": 1,
+    "explanation": "The t statistic is mean difference divided by its standard error: 4 ÷ 2 = 2.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-100",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "For mean change 2, SD 4, and n 16, standard error is:",
+    "options": [
+      "0.5",
+      "2",
+      "4",
+      "1"
+    ],
+    "correct": 3,
+    "explanation": "For a mean, SE = SD/√n = 4/√16 = 1.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-101",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A one-way ANOVA compares means across:",
+    "options": [
+      "A single independent group",
+      "Two measurements from one athlete",
+      "Three or more independent groups",
+      "Two categorical variables only"
+    ],
+    "correct": 2,
+    "explanation": "One-way ANOVA tests mean differences across three or more independent groups.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-102",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "The ANOVA F statistic is:",
+    "options": [
+      "Within-group MS / sample size",
+      "Overall mean / standard deviation",
+      "Between-group MS / within-group MS",
+      "Number of groups / p-value"
+    ],
+    "correct": 2,
+    "explanation": "The ANOVA F statistic is between-group mean square divided by within-group mean square.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-103",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A significant omnibus ANOVA indicates:",
+    "options": [
+      "Every group differs",
+      "At least one group mean differs",
+      "The largest group is best",
+      "The factor caused the outcome"
+    ],
+    "correct": 1,
+    "explanation": "A significant omnibus ANOVA shows that at least one group mean differs; it does not show that every pair differs.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-104",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "A post-hoc comparison helps:",
+    "options": [
+      "Increase the study sample",
+      "Replace the measured outcome",
+      "Report only the overall p-value",
+      "Identify group pairs that differ"
+    ],
+    "correct": 3,
+    "explanation": "Post-hoc or planned pairwise comparisons identify which group pairs differ after the omnibus test.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-105",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Three time points from the same athletes suit:",
+    "options": [
+      "Independent-groups ANOVA",
+      "Repeated-measures ANOVA",
+      "A single correlation",
+      "A frequency table"
+    ],
+    "correct": 1,
+    "explanation": "The same athletes measured at three time points require a repeated-measures ANOVA to account for within-athlete dependence.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-106",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A two-way ANOVA tests:",
+    "options": [
+      "The mean of one independent group",
+      "Two main effects and their interaction",
+      "The standard deviation of the sample",
+      "Only whether the data are normally distributed"
+    ],
+    "correct": 1,
+    "explanation": "A two-way ANOVA tests two main effects and their interaction.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-107",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "An interaction means:",
+    "options": [
+      "The outcome has no meaningful variability",
+      "One factor's effect depends on the other factor",
+      "All cell means are exactly equal across groups",
+      "The outcome is measured as categories"
+    ],
+    "correct": 1,
+    "explanation": "An interaction means the effect of one factor changes according to the level of the other factor.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-108",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A common ANOVA assumption is:",
+    "options": [
+      "Equal group labels",
+      "A zero sample mean",
+      "Correlation of exactly one",
+      "Homogeneity of variance"
+    ],
+    "correct": 3,
+    "explanation": "Homogeneity of variance means outcome variance is reasonably similar across groups, a common ANOVA assumption.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-109",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "If between- and within-group mean squares are equal, F is near:",
+    "options": [
+      "0",
+      "1",
+      "10",
+      "The sample size"
+    ],
+    "correct": 1,
+    "explanation": "F = MSbetween/MSwithin; equal mean squares therefore give F approximately 1.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-110",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Specific pairwise claims after ANOVA should wait for:",
+    "options": [
+      "A rounded version of the p-value",
+      "Removal of the largest group",
+      "Hiding the raw observations",
+      "A post-hoc or planned comparison"
+    ],
+    "correct": 3,
+    "explanation": "Specific pairwise claims should be based on an appropriate post-hoc or planned comparison, not the omnibus p-value alone.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-111",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Pearson r ranges from:",
+    "options": [
+      "-1 to +1",
+      "0 to 100",
+      "-100 to +100",
+      "1 to sample size"
+    ],
+    "correct": 0,
+    "explanation": "Pearson's r is a standardized correlation coefficient ranging from −1 to +1.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-112",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "An r of 0.80 indicates:",
+    "options": [
+      "Proof of a causal effect in the sample",
+      "A strong positive linear association",
+      "Evidence of no linear association",
+      "A mean difference of 0.80 units"
+    ],
+    "correct": 1,
+    "explanation": "r = 0.80 indicates a strong positive linear association, not proof of causation.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-113",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Pearson r = 0 most safely indicates:",
+    "options": [
+      "No possible relationship at all",
+      "A perfect negative association",
+      "No linear association in the sample",
+      "Identical means in the two variables"
+    ],
+    "correct": 2,
+    "explanation": "r = 0 indicates no linear association in the sample; nonlinear relationships may still exist.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-114",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "If r = 0.70, r squared = 0.49 suggests:",
+    "options": [
+      "Proof that the predictor caused the outcome in this sample",
+      "About 49% of outcome variation is explained by the model",
+      "A 49-unit outcome increase for each predictor unit",
+      "A p-value exactly equal to 0.49 for the fitted model"
+    ],
+    "correct": 1,
+    "explanation": "For a simple linear relationship, r² = 0.49 means the model accounts for about 49% of outcome variation in the sample.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-115",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "An extreme observation can change Pearson r by:",
+    "options": [
+      "Increasing the sample size alone",
+      "Converting both variables to categories",
+      "Removing measurement error from data",
+      "Altering covariance and the fitted line"
+    ],
+    "correct": 3,
+    "explanation": "An extreme observation can change covariance and the fitted line, substantially altering Pearson's r.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-116",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "For ranked monotonic non-normal soreness scores, use:",
+    "options": [
+      "A paired-samples t-test",
+      "An ANOVA F statistic",
+      "The standard deviation alone",
+      "Spearman rank correlation"
+    ],
+    "correct": 3,
+    "explanation": "Spearman rank correlation suits ranked monotonic data when normality or linear-measurement assumptions for Pearson correlation are unsuitable.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-117",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A strong load-injury correlation should not be treated as:",
+    "options": [
+      "Evidence of association",
+      "Proof that load caused injury",
+      "A reason to examine confounding",
+      "A finding requiring context"
+    ],
+    "correct": 1,
+    "explanation": "A load-injury correlation is evidence of association, but correlation alone cannot prove that load caused injury.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-118",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Repeated observations from one athlete may violate:",
+    "options": [
+      "Numerical measurement",
+      "Independence",
+      "Common units",
+      "Alphabetical ordering"
+    ],
+    "correct": 1,
+    "explanation": "Repeated observations from one athlete may be correlated, violating the independence assumption of a simple correlation analysis.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-119",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Before reporting Pearson r, inspect a:",
+    "options": [
+      "A scatterplot for linearity and outliers",
+      "A histogram for one variable only",
+      "A pie chart of training categories",
+      "A table of athlete identifiers"
+    ],
+    "correct": 0,
+    "explanation": "A scatterplot helps assess linearity and identify outliers before reporting Pearson's r.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-120",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A positive sample r with non-significant p is:",
+    "options": [
+      "Proof that the population correlation is zero",
+      "Evidence of a large practical effect",
+      "Proof that all measurements are identical",
+      "An association with limited population evidence"
+    ],
+    "correct": 3,
+    "explanation": "A positive sample r with non-significant p indicates observed association but limited evidence that the population association differs from zero.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-121",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A regression slope of 0.4 means a one-unit predictor increase is associated with:",
+    "options": [
+      "A 0.4-unit increase in sample size",
+      "A 0.4-unit increase in outcome",
+      "64% of outcome variance explained",
+      "A p-value equal to 0.4"
+    ],
+    "correct": 1,
+    "explanation": "A regression slope of 0.4 means a one-unit increase in the predictor is associated with a 0.4-unit increase in the modeled outcome, on average.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-122",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "The regression intercept is the predicted outcome when the predictor is:",
+    "options": [
+      "At its mean",
+      "One SD above mean",
+      "At its maximum",
+      "Zero"
+    ],
+    "correct": 3,
+    "explanation": "The intercept is the predicted outcome when the predictor value equals zero.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-123",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "R squared = 0.64 means the model accounts for:",
+    "options": [
+      "64% prediction accuracy for every athlete",
+      "64% of outcome variation in the fitted sample",
+      "A regression slope of exactly 0.64 units",
+      "64% improvement among all athletes"
+    ],
+    "correct": 1,
+    "explanation": "R² = 0.64 means 64% of outcome variation is accounted for by the fitted model in that sample; it is not 64% accuracy for every athlete.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-124",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A regression residual is:",
+    "options": [
+      "Observed minus predicted outcome",
+      "Sample size minus the mean",
+      "Predictor value minus its SD",
+      "Difference between group means"
+    ],
+    "correct": 0,
+    "explanation": "A residual is the observed outcome minus the model's predicted outcome.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-125",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "An observational regression association does not prove causation because:",
+    "options": [
+      "Regression cannot use numerical data",
+      "Every regression slope is automatically causal",
+      "R squared is always equal to zero",
+      "Association alone cannot establish causation"
+    ],
+    "correct": 3,
+    "explanation": "An observational regression association does not establish causation because confounding and other explanations remain unresolved.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-126",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Adding age and baseline fitness mainly aims to:",
+    "options": [
+      "Guarantee that data are complete",
+      "Make the sample randomly selected",
+      "Convert all predictors to categories",
+      "Adjust for measured covariates"
+    ],
+    "correct": 3,
+    "explanation": "Adding age and baseline fitness as covariates adjusts the model for those measured characteristics; it does not guarantee randomization or remove all bias.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-127",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A categorical predictor can be entered using:",
+    "options": [
+      "A force-plate measurement",
+      "The predictor's mean value",
+      "Dummy or indicator coding",
+      "A confidence interval alone"
+    ],
+    "correct": 2,
+    "explanation": "A categorical predictor is represented numerically with dummy or indicator coding.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-128",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Prediction outside the observed predictor range is:",
+    "options": [
+      "Interpolation",
+      "Extrapolation",
+      "Randomization",
+      "Standardization"
+    ],
+    "correct": 1,
+    "explanation": "Prediction beyond the observed predictor range is extrapolation, which is less secure than interpolation.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-129",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A widening residual fan suggests:",
+    "options": [
+      "Perfect normality",
+      "A zero intercept",
+      "Heteroscedasticity",
+      "No measurement scale"
+    ],
+    "correct": 2,
+    "explanation": "A widening residual fan indicates that residual variance changes with the fitted value, a pattern called heteroscedasticity.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-130",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "In performance-data analysis, RMSE is expressed:",
+    "options": [
+      "Only as a statistical p-value",
+      "As the sign of a correlation",
+      "As the number of model predictors",
+      "In the outcome's original units"
+    ],
+    "correct": 3,
+    "explanation": "RMSE is the square root of mean squared error and is expressed in the outcome's original units.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-131",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A frequentist 95% CI procedure means about 95% of repeated intervals contain:",
+    "options": [
+      "An individual athlete's future score",
+      "A fixed population parameter",
+      "The null hypothesis itself",
+      "The sample's exact raw values"
+    ],
+    "correct": 1,
+    "explanation": "In repeated sampling, a 95% CI procedure captures the fixed population parameter in about 95% of intervals; it is not a probability statement about this single interval.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-132",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "A CI for a mean difference of 2 to 6 units is compatible with:",
+    "options": [
+      "Only a negative difference",
+      "No difference at all",
+      "A difference above 10 units",
+      "A positive difference throughout"
+    ],
+    "correct": 3,
+    "explanation": "Because the entire interval 2 to 6 is above zero, it is consistent with a positive mean difference throughout the interval.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-133",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Increasing sample size generally makes a CI:",
+    "options": [
+      "wider overall",
+      "narrower overall",
+      "exactly zero",
+      "unrelated to standard error"
+    ],
+    "correct": 1,
+    "explanation": "With variability held reasonably constant, increasing sample size reduces standard error and generally narrows a CI.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-134",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A 99% CI from the same data is generally:",
+    "options": [
+      "Narrower than a 95% CI",
+      "Identical to a 95% CI",
+      "Centered at zero",
+      "Wider than a 95% CI"
+    ],
+    "correct": 3,
+    "explanation": "A 99% CI uses a larger critical value than a 95% CI and is therefore generally wider for the same data.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-135",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "In a symmetric CI, the point estimate is at:",
+    "options": [
+      "lower confidence limit",
+      "upper confidence limit",
+      "confidence-level value",
+      "centre of the interval"
+    ],
+    "correct": 3,
+    "explanation": "For a symmetric CI, the point estimate lies at the interval's centre.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-136",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A CI for mean change of -0.5 to 1.5:",
+    "options": [
+      "Excludes a zero mean change",
+      "Proves a positive mean change",
+      "Shows every athlete changed equally",
+      "Includes a zero mean change"
+    ],
+    "correct": 3,
+    "explanation": "An interval from −0.5 to 1.5 contains zero, so a zero mean change remains compatible with the data.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-137",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Mean 50 and SE 2 give an approximate normal 95% CI of:",
+    "options": [
+      "46.08 to 53.92",
+      "48.00 to 52.00",
+      "46.00 to 54.00",
+      "40.00 to 60.00"
+    ],
+    "correct": 0,
+    "explanation": "Using mean ± 1.96 × SE gives 50 ± 3.92, or approximately 46.08 to 53.92.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-138",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A benefit CI of 0.2 to 0.8 crossing threshold 0.5 means:",
+    "options": [
+      "The effect is definitely below 0.5",
+      "The effect is definitely above 0.5",
+      "The estimate equals 0.5 exactly",
+      "The interval includes threshold 0.5"
+    ],
+    "correct": 3,
+    "explanation": "Because the interval extends on both sides of 0.5, the estimate is uncertain relative to that practical threshold.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-139",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A worthwhile change 0.5 with CI -0.1 to 0.1 is consistent with:",
+    "options": [
+      "A definite worthwhile performance benefit",
+      "A broad range of large performance benefits",
+      "The CI excludes effects as large as 0.5",
+      "Proof that the intervention causes harm"
+    ],
+    "correct": 2,
+    "explanation": "The interval −0.1 to 0.1 lies below the worthwhile threshold 0.5, so it excludes effects as large as 0.5.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-140",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A confidence interval primarily communicates:",
+    "options": [
+      "The probability of each athlete's score",
+      "The exact range of future observations",
+      "The causal mechanism of the effect",
+      "Precision and uncertainty of the estimate"
+    ],
+    "correct": 3,
+    "explanation": "A confidence interval communicates the estimate's precision and the range of values compatible with the data under the procedure.",
+    "sourceId": "nist-sematech-statistics"
+  },
+  {
+    "id": "a1-tech-141",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Cohen's d is a mean difference divided by:",
+    "options": [
+      "the number of participants in each sample",
+      "the reported p-value from the comparison",
+      "the selected confidence level",
+      "the pooled standard deviation"
+    ],
+    "correct": 3,
+    "explanation": "Cohen's d divides the mean difference by a pooled standard deviation, putting the difference on a standardized scale.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-142",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Effect size primarily describes:",
+    "options": [
+      "The magnitude of an observed difference or association",
+      "The probability that the null hypothesis is true",
+      "The number of predictors included in a statistical model",
+      "The number of participants included in a study"
+    ],
+    "correct": 0,
+    "explanation": "Effect size describes the magnitude of a difference or association, not the p-value or sample size.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-143",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "A standardized mean difference d = 0 indicates:",
+    "options": [
+      "No standardized mean difference",
+      "Statistical significance of the result",
+      "A very large practical effect size",
+      "Zero participants in the sample"
+    ],
+    "correct": 0,
+    "explanation": "A standardized mean difference of zero means the means differ by zero after standardization; it does not establish significance or practical importance.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-144",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Eta squared represents the proportion of:",
+    "options": [
+      "Between-athlete variance in improvement",
+      "P-values below the chosen alpha level",
+      "Observations missing from the dataset",
+      "Total variance explained by the factor"
+    ],
+    "correct": 3,
+    "explanation": "Eta squared is the proportion of total outcome variance attributed to the factor in the analyzed model.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-145",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "For two continuous variables, r can serve as:",
+    "options": [
+      "An association effect-size measure",
+      "A replacement for raw data",
+      "A causal coefficient by definition",
+      "A retention measure"
+    ],
+    "correct": 0,
+    "explanation": "For two continuous variables, Pearson's r can be reported as an association effect-size measure.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-146",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "Two studies can have the same p-value but different effect sizes because:",
+    "options": [
+      "Practical importance must be identical",
+      "The studies must have equal sample sizes",
+      "Both observed effects are causal",
+      "P-values do not fix effect magnitude"
+    ],
+    "correct": 3,
+    "explanation": "Statistical significance depends on effect, variability, and sample size; a p-value alone does not determine effect magnitude.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-147",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "applied",
+    "text": "Practical value should be compared with:",
+    "options": [
+      "A worthwhile-change threshold",
+      "Alphabetical order of the athletes",
+      "Only the largest p-value",
+      "The volume of raw data"
+    ],
+    "correct": 0,
+    "explanation": "Practical value should be judged against a worthwhile-change threshold, not only a p-value or ranking.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-148",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "foundational",
+    "text": "Cohen's d differs from a raw difference because it:",
+    "options": [
+      "Uses original units without adjustment",
+      "Ignores all outcome variability",
+      "Applies only to categorical outcomes",
+      "Divides the difference by pooled SD"
+    ],
+    "correct": 3,
+    "explanation": "Cohen's d standardizes a mean difference by a measure of pooled within-group variability.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-149",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A CI around an effect size describes its:",
+    "options": [
+      "Exact future value",
+      "Probability of causation",
+      "Number of study variables",
+      "Precision and plausible range"
+    ],
+    "correct": 3,
+    "explanation": "A CI around an effect size communicates its estimation precision and plausible values, not an exact future value.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  },
+  {
+    "id": "a1-tech-150",
+    "section": "A1",
+    "topic": "Emerging Technologies & Biostatistics",
+    "subtopic": "Biostatistics & Data Analysis",
+    "difficulty": "analytical",
+    "text": "A tiny gain can be statistically significant but practically unimportant, showing:",
+    "options": [
+      "Large samples eliminate all sources of bias",
+      "Statistical and practical significance differ",
+      "Effect size is unnecessary for interpretation",
+      "A p-value measures athlete motivation"
+    ],
+    "correct": 1,
+    "explanation": "A statistically significant tiny gain may still be practically unimportant, so statistical significance and practical significance must be distinguished.",
+    "sourceId": "nakagawa-cuthill-effect-size-2007"
+  }
+]

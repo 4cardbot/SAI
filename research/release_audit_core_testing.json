@@ -1,0 +1,236 @@
+{
+  "auditType": "release-audit-core-testing",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "reviewedQuestionCount": 300,
+    "questionFiles": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "coverageManifest": "research/a1_coverage_manifest.json",
+    "repairLogsReviewedThroughFinal9": [
+      "research/final2_independent_audit_core_testing.json",
+      "research/final3_content_repair_core_disciplines.json",
+      "research/final3_content_repair_testing_assessment.json",
+      "research/final5_diversity_repair_core_disciplines.json",
+      "research/final5_diversity_repair_testing_assessment.json",
+      "research/final6_length_repair_core_disciplines.json",
+      "research/final6_length_repair_testing_assessment.json",
+      "research/final7_length_repair_core_disciplines.json",
+      "research/final8_content_repair_testing_assessment.json",
+      "research/final9_length_repair_data_analytics.json"
+    ],
+    "allFinalRepairLogsParsedThroughFinal9": [
+      "research/final2_independent_audit_core_testing.json",
+      "research/final2_independent_audit_data_performance.json",
+      "research/final2_independent_audit_technology_holistic.json",
+      "research/final3_content_repair_core_disciplines.json",
+      "research/final3_content_repair_data_analytics.json",
+      "research/final3_content_repair_holistic_travel_ethics.json",
+      "research/final3_content_repair_performance_recovery.json",
+      "research/final3_content_repair_technology_biostatistics.json",
+      "research/final3_content_repair_testing_assessment.json",
+      "research/final4_length_repair_data_analytics.json",
+      "research/final4_length_repair_performance_recovery.json",
+      "research/final5_diversity_repair_core_disciplines.json",
+      "research/final5_diversity_repair_data_analytics.json",
+      "research/final5_diversity_repair_holistic_travel_ethics.json",
+      "research/final5_diversity_repair_performance_recovery.json",
+      "research/final5_diversity_repair_technology_biostatistics.json",
+      "research/final5_diversity_repair_testing_assessment.json",
+      "research/final6_length_repair_core_disciplines.json",
+      "research/final6_length_repair_data_analytics.json",
+      "research/final6_length_repair_holistic_travel_ethics.json",
+      "research/final6_length_repair_performance_recovery.json",
+      "research/final6_length_repair_technology_biostatistics.json",
+      "research/final6_length_repair_testing_assessment.json",
+      "research/final7_length_repair_core_disciplines.json",
+      "research/final7_length_repair_holistic_travel_ethics.json",
+      "research/final7_length_repair_performance_recovery.json",
+      "research/final8_content_repair_data_analytics.json",
+      "research/final8_content_repair_holistic_travel_ethics.json",
+      "research/final8_content_repair_testing_assessment.json",
+      "research/final9_length_repair_data_analytics.json"
+    ],
+    "priorIndependentAuditReviewed": "research/post_final2_independent_audit_core_testing.json"
+  },
+  "validation": {
+    "retainedCounts": {
+      "coreDisciplines": 150,
+      "testingAssessment": 150
+    },
+    "mergedCount": 900,
+    "schema": {
+      "questionsWithExactRequiredSchema": 300,
+      "questionsWithFourUniqueOptions": 300,
+      "questionsWithValidZeroBasedCorrectIndex": 300,
+      "questionsWithSectionA1": 300,
+      "questionsWithNonEmptyTextAndExplanation": 300,
+      "duplicateQuestionIds": 0,
+      "unknownSourceIds": 0
+    },
+    "mergeCorrespondence": {
+      "coreObjectsComparedWithMerged": 150,
+      "testingObjectsComparedWithMerged": 150,
+      "objectMismatches": 0,
+      "orderingMismatches": 0
+    },
+    "syllabusMapping": {
+      "coreObservedSubtopics": 8,
+      "coreUnexpectedSubtopics": 0,
+      "coreSubtopicCounts": {
+        "Anthropometry — body composition, somatotypes, growth & maturation": 19,
+        "Exercise Physiology — energy systems, fatigue, adaptation": 19,
+        "Physiotherapy — injury mechanisms, basic rehabilitation principles": 19,
+        "Biomechanics — movement analysis, force, kinematics": 19,
+        "Biochemistry — biomarkers, metabolism, recovery indicators": 19,
+        "Strength & Conditioning — training principles, load, recovery": 19,
+        "Psychology — motivation, stress, arousal, mental readiness": 18,
+        "Nutrition — macronutrients, hydration, energy balance": 18
+      },
+      "testingObservedSubtopics": 2,
+      "testingUnexpectedSubtopics": 0,
+      "testingSubtopicCounts": {
+        "Test Parameters & Athlete Assessment": 75,
+        "Test Protocols & Standardization": 75
+      }
+    },
+    "sourceTraceability": {
+      "uniqueCatalogSourcesUsed": 12,
+      "sourceIdsResolvingInCatalog": 300,
+      "usedSourcesWithIdentifyingMetadata": 12,
+      "usedSourcesWithScopeAndLocator": 12,
+      "sourceScopeDefects": 0,
+      "sourceCounts": {
+        "acsm-getp-12": 102,
+        "nsca-essentials-5": 64,
+        "physiology-sport-exercise-kenney": 24,
+        "brukner-khan-clinical-sports-medicine": 19,
+        "basic-biomechanics-hall": 19,
+        "ioc-load-illness-2016": 9,
+        "clinical-sports-nutrition-burke": 19,
+        "foundations-sport-exercise-psychology": 18,
+        "ioc-reds-2023": 4,
+        "world-physiotherapy-consent-2023": 8,
+        "world-physiotherapy-ethics-2023": 7,
+        "world-physiotherapy-ebp-2023": 7
+      }
+    },
+    "answerOptionsAndGrammar": {
+      "answerPositionCounts": [
+        77,
+        74,
+        76,
+        73
+      ],
+      "strictLongestCorrectCount": 90,
+      "strictLongestCorrectPercent": 30.0,
+      "shortestCorrectCount": 61,
+      "shortestCorrectPercent": 20.33,
+      "primaryOptionLengthFlags": 0,
+      "maximumCorrectMinusMedianGap": 8,
+      "maximumOptionLengthSpread": 15
+    },
+    "repetition": {
+      "exactDuplicateStems": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "highConfidenceMechanicalStemOptionFamilies": 0,
+      "note": "Conceptually related high-yield items remain, but current stems and canonical option sets are materially distinct under the release-audit check."
+    },
+    "repairLogIntegrity": {
+      "allInspectedLogsParsedAsJson": true,
+      "currentQuestionsMatchLatestLoggedRevisions": true,
+      "logValidationErrors": 0
+    }
+  },
+  "actionableHighConfidenceFindings": [
+    {
+      "findingId": "a1-test-062-answer-key",
+      "severity": "high",
+      "category": "answer-key-correctness",
+      "questionIds": [
+        "a1-test-062"
+      ],
+      "evidence": {
+        "text": "For an athlete entering a new training block, a test-retest change should be interpreted against:",
+        "currentCorrectIndex": 2,
+        "currentKeyedOption": "Only the direction of the observed change",
+        "supportedIndex": 1,
+        "supportedOption": "The typical error and smallest worthwhile change",
+        "explanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "impact": "The keyed answer contradicts both the explanation and the measurement-interpretation principle tested by the item.",
+      "recommendedAction": "Set correct to 1 and retain the current option order and explanation, subject to the normal source review."
+    },
+    {
+      "findingId": "a1-test-013-explanation",
+      "severity": "high",
+      "category": "explanation-integrity",
+      "questionIds": [
+        "a1-test-013"
+      ],
+      "evidence": {
+        "text": "Two physiotherapists score the same movement video independently. This design primarily assesses:",
+        "correctIndex": 3,
+        "correctOption": "Inter-rater reliability",
+        "explanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+        "sourceId": "acsm-getp-12"
+      },
+      "impact": "The answer key identifies inter-rater reliability, but the explanation defines test–retest reliability, which is a different reliability design.",
+      "recommendedAction": "Replace the explanation with a direct definition of inter-rater reliability as agreement or consistency among independent raters scoring the same performance."
+    },
+    {
+      "findingId": "a1-test-071-explanation",
+      "severity": "high",
+      "category": "explanation-integrity",
+      "questionIds": [
+        "a1-test-071"
+      ],
+      "evidence": {
+        "text": "During a physiological battery, resting heart rate and blood pressure should generally be recorded:",
+        "correctIndex": 1,
+        "correctOption": "Before exercise, after an appropriate quiet rest",
+        "explanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "impact": "The explanation discusses test sequencing and later-test effects but does not justify obtaining resting baseline measures before exercise after quiet rest.",
+      "recommendedAction": "Replace the explanation with the baseline-rest rationale and note that acute exercise, fatigue, and inadequate rest can distort resting values."
+    },
+    {
+      "findingId": "a1-test-144-option-grammar",
+      "severity": "high",
+      "category": "option-structure-giveaway",
+      "questionIds": [
+        "a1-test-144"
+      ],
+      "evidence": {
+        "text": "For an athlete entering a new training block, a good test report should communicate results in a way that is:",
+        "correctIndex": 3,
+        "correctOption": "Accurate, clear, contextualized, and relevant to the decision",
+        "distractorForms": [
+          "Present only raw values so interpretation remains with the reader",
+          "Emphasize the best result and omit uncertainty to avoid confusion",
+          "Use technical terminology without adapting it to the audience"
+        ],
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "impact": "The stem requires an adjectival complement after ‘is’, but the keyed option is the only adjectival phrase; all distractors are imperative verb clauses. The answer can be selected from grammar before content is considered.",
+      "recommendedAction": "Rewrite the three distractors as parallel adjectival descriptions, or rewrite all four options as complete clauses while preserving the keyed meaning."
+    }
+  ],
+  "negativeChecks": {
+    "noAdditionalHighConfidenceAnswerKeyFindings": true,
+    "noHighConfidenceSemanticDistractorFindings": true,
+    "noHighConfidenceSourceTraceabilityFindings": true,
+    "noHighConfidenceSchemaFindings": true,
+    "noHighConfidenceSyllabusMappingFindings": true,
+    "noHighConfidenceMergeFindings": true,
+    "noHighConfidenceMechanicalStemOptionFindings": true,
+    "noPrimaryOptionLengthFlags": true
+  },
+  "auditConclusion": "Four actionable high-confidence findings remain in the current core/testing release scope; all structural, provenance-resolution, syllabus, merge, duplicate, and primary option-length checks otherwise pass."
+}

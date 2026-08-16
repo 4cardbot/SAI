@@ -1,0 +1,66 @@
+{
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "questionIds": [
+        "a1-core-143"
+      ],
+      "file": "question_bank/section_a1_core_disciplines.json",
+      "category": "grammar/parallel-option",
+      "finding": "The keyed completion is \"Health, recovery, endocrine, and performance\", which makes the stem read \"risk of impaired ... endocrine\"; \"endocrine\" is not a parallel outcome noun here.",
+      "requiredRepair": "Change the keyed option to \"Health, recovery, endocrine function, and performance\"."
+    },
+    {
+      "questionIds": [
+        "a1-test-090"
+      ],
+      "file": "question_bank/section_a1_testing_assessment.json",
+      "category": "answer-key/ambiguity/explanation",
+      "finding": "For a 15-year-old, the keyed option says \"consent or assent\", leaving the required minor-consent process ambiguous and allowing either component to stand alone. The explanation discusses screening and emergency readiness but does not explain the consent requirement tested by the stem.",
+      "requiredRepair": "State the applicable requirement explicitly (for example, \"required guardian consent and the young athlete's assent\", subject to jurisdiction) and explain that incomplete consent/assent prevents testing."
+    },
+    {
+      "questionIds": [
+        "a1-test-140"
+      ],
+      "file": "question_bank/section_a1_testing_assessment.json",
+      "category": "grammar/parallel-option",
+      "finding": "The stem ends \"Testing should stop when:\" while the keyed option begins \"Stop when...\", producing the ungrammatical construction \"Testing should stop when: Stop when...\".",
+      "requiredRepair": "Change the stem to \"The administrator should:\" so the existing action options are parallel, or change the keyed option to \"confusion or loss of coordination appears\"."
+    },
+    {
+      "questionIds": [
+        "a1-core-147",
+        "a1-core-148",
+        "a1-core-149",
+        "a1-core-150"
+      ],
+      "file": "question_bank/section_a1_core_disciplines.json",
+      "category": "source-traceability",
+      "finding": "Each item makes an anti-doping-rules/compliance claim but is keyed only to \"clinical-sports-nutrition-burke\". The repository source hierarchy catalogs that source for sports nutrition, supplements, and recovery, while anti-doping rules are assigned to the dated WADA source; the current provenance does not trace the anti-doping portion of these claims to an owning rules source.",
+      "requiredRepair": "Attach a claim-specific anti-doping source such as \"wada-prohibited-list-2026\" (or a dedicated current supplement/anti-doping consensus source), or narrow the item so the existing nutrition source supports the entire claim.",
+      "traceabilityBasis": [
+        {
+          "sourceId": "clinical-sports-nutrition-burke",
+          "role": "nutrition, supplements, and recovery"
+        },
+        {
+          "sourceId": "wada-prohibited-list-2026",
+          "role": "current prohibited substances, methods, and anti-doping terminology"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "confirmedFindingCount": 4,
+    "affectedQuestionCount": 7,
+    "manualCoverage": "All 150 items in each audited file were inspected.",
+    "schemaAndIntegrity": "No confirmed schema, invalid correct-index, blank-field, duplicate-ID, duplicate-question, duplicate-option, or duplicate-option-set defects.",
+    "sourceIdResolution": "All 300 sourceId values resolve to the local source catalog; the four supplement items above have a claim-specific anti-doping traceability gap.",
+    "answerKeyReview": "No other high-confidence answer-key defects were confirmed."
+  }
+}

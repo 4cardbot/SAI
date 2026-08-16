@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { BANK_VERSION, SECTION_COUNTS, SECTION_LABELS } from "./constants";
+import { A1_FULL_COUNT, BANK_VERSION, SECTION_COUNTS, SECTION_LABELS } from "./constants";
 import { completedCount, createAttempt, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning, updateTimer } from "./quiz";
 import { randomSeed } from "./random";
 import { loadState, saveState } from "./storage";
@@ -38,15 +38,17 @@ function displayedOptionLabel(item: { optionOrder: number[] }, optionIndex: numb
   return optionLabel(item.optionOrder.indexOf(optionIndex));
 }
 
-const SECTION_OPTIONS: Array<{ mode: Section; title: string; description: string }> = [
-  { mode: "A1", title: "Basic sports science", description: "Strength, physiology, nutrition, psychology and performance analysis." },
-  { mode: "A2", title: "Sports awareness", description: "Indian sports governance, anti-doping and major sporting events." },
-  { mode: "B", title: "Applied Physiotherapy", description: "Assessment, rehabilitation, electrotherapy and sports physiotherapy." },
-  { mode: "C", title: "Sports case studies", description: "Passage-based clinical reasoning and return-to-sport decisions." },
+const BANK_OPTIONS: Array<{ mode: AttemptMode; badge: string; badgeClass: string; title: string; count: number; description: string }> = [
+  { mode: "A1", badge: "A1", badgeClass: "a1", title: "Basic sports science", count: SECTION_COUNTS.A1, description: "Strength, physiology, nutrition, psychology and performance analysis." },
+  { mode: "A1_FULL", badge: "A1 · 100", badgeClass: "a1", title: "A1-only full test", count: A1_FULL_COUNT, description: "100 questions drawn only from the 900-question A1 bank." },
+  { mode: "A2", badge: "A2", badgeClass: "a2", title: "Sports awareness", count: SECTION_COUNTS.A2, description: "Indian sports governance, anti-doping and major sporting events." },
+  { mode: "B", badge: "B", badgeClass: "b", title: "Applied Physiotherapy", count: SECTION_COUNTS.B, description: "Assessment, rehabilitation, electrotherapy and sports physiotherapy." },
+  { mode: "C", badge: "C", badgeClass: "c", title: "Sports case studies", count: SECTION_COUNTS.C, description: "Passage-based clinical reasoning and return-to-sport decisions." },
 ];
 
 function modeTitle(mode: AttemptMode | undefined): string {
   if (!mode || mode === "full") return "Full CBT simulation";
+  if (mode === "A1_FULL") return "A1-only · 100-question test";
   return `${mode} · ${SECTION_LABELS[mode].replace(/^Section [A-Z0-9]+ · /, "")}`;
 }
 
@@ -67,7 +69,7 @@ function HomeScreen({ state, onStart, onResume, onStartInstead, onPrepareNewTest
       <div className="hero-score"><span>100</span><small>MCQs</small><span>02:00</span><small>hours</small></div>
     </section>
     <section className="info-grid" aria-label="Section question banks">
-      {SECTION_OPTIONS.map((option) => <button key={option.mode} className="info-card bank-card" onClick={() => onStart(option.mode)}><span className={`section-badge ${option.mode.toLowerCase()}`}>{option.mode}</span><strong>{option.title}</strong><small>{SECTION_COUNTS[option.mode]} questions per practice set · {option.description}</small></button>)}
+      {BANK_OPTIONS.map((option) => <button key={option.mode} className="info-card bank-card" onClick={() => onStart(option.mode)}><span className={`section-badge ${option.badgeClass}`}>{option.badge}</span><strong>{option.title}</strong><small>{option.count} questions · {option.description}</small></button>)}
     </section>
     <section className="action-card">
       {active ? <><div><p className="eyebrow">Saved attempt · {modeTitle(active.mode)}</p><h3>{completedCount(active)} of {active.questions.length} questions completed</h3><p className="muted">Your attempt is paused and will resume exactly where you left it.</p></div><button className="primary-button" onClick={onResume}>Resume practice</button></> : result ? <><div><p className="eyebrow">Latest result · {modeTitle(result.mode)}</p><h3>{result.score.toFixed(2)} / {result.total}</h3><p className="muted">{result.correctCount} correct · {result.wrongCount} wrong · {result.skippedCount} skipped</p></div><div className="button-row"><button className="secondary-button" onClick={onDownload}>Download summary</button><button className="primary-button" onClick={onPrepareNewTest}>Choose another bank</button></div></> : <><div><p className="eyebrow">Full exam simulation · v{BANK_VERSION}</p><h3>Practice all four sections</h3><p className="muted">100 questions in the official 32 / 8 / 40 / 20 weighting.</p></div><button className="primary-button" onClick={() => onStart("full")}>Start full CBT</button></>}
@@ -90,7 +92,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
   const percent = Math.round((completed / attempt.questions.length) * 100);
   const timerWarning = attempt.remainingMs < 10 * 60 * 1000;
   return <main className="test-shell">
-    <div className="test-topbar"><div><p className="eyebrow">{attempt.mode === "full" || !attempt.mode ? "Full CBT simulation" : "Section bank practice"}</p><h2>{modeTitle(attempt.mode)}</h2></div><div className="test-controls"><div className={`timer ${timerWarning ? "warning" : ""}`} aria-live="polite"><span className="timer-dot" />{formatTime(attempt.remainingMs)}</div>{attempt.status === "running" ? <button className="secondary-button compact" onClick={onPause}>Pause</button> : <button className="primary-button compact" onClick={onResume}>Resume</button>}</div></div>
+    <div className="test-topbar"><div><p className="eyebrow">{attempt.mode === "full" || !attempt.mode ? "Full CBT simulation" : attempt.mode === "A1_FULL" ? "A1-only full bank" : "Section bank practice"}</p><h2>{modeTitle(attempt.mode)}</h2></div><div className="test-controls"><div className={`timer ${timerWarning ? "warning" : ""}`} aria-live="polite"><span className="timer-dot" />{formatTime(attempt.remainingMs)}</div>{attempt.status === "running" ? <button className="secondary-button compact" onClick={onPause}>Pause</button> : <button className="primary-button compact" onClick={onResume}>Resume</button>}</div></div>
     <div className="progress-row"><div className="progress-track"><div className="progress-fill" style={{ width: `${percent}%` }} /></div><span>{completed}/{attempt.questions.length} completed</span></div>
     <section className="question-card">
       <div className="question-meta"><span>Question {attempt.currentIndex + 1} of {attempt.questions.length}</span><span className={`section-badge ${question.section.toLowerCase()}`}>{question.section}</span><span className={`difficulty ${question.difficulty}`}>{question.difficulty}</span></div>
@@ -190,10 +192,16 @@ export default function App() {
 
   const startTest = (mode: AttemptMode = "full") => {
     if (state.activeAttempt && !window.confirm("Starting a new test will permanently clear your saved attempt. Continue?")) return;
-    const selectedBank = mode === "full" ? QUESTION_BANK : SECTION_BANKS[mode];
+    const selectedBank = mode === "full" || mode === "A1_FULL" ? QUESTION_BANK : SECTION_BANKS[mode];
     const created = setRunning(createAttempt(selectedBank, new Date(), randomSeed(), mode));
     commit({ ...state, activeAttempt: created, latestResult: null });
     setScreen("test");
+  };
+
+  const chooseNewTest = () => {
+    if (state.activeAttempt && !window.confirm("Starting a new test will permanently clear your saved attempt. Continue?")) return;
+    commit({ ...state, activeAttempt: null, latestResult: null });
+    setScreen("home");
   };
 
   const prepareNewTest = () => {
@@ -223,5 +231,5 @@ export default function App() {
   const download = () => { if (result) downloadSummary(result); };
 
   const leaveTest = () => { pauseCurrentAttempt(); setScreen("home"); };
-  return <div className="app"><AppHeader onHome={screen === "test" ? leaveTest : undefined} />{screen === "home" && <HomeScreen state={state} onStart={startTest} onResume={resumeTest} onStartInstead={() => startTest("full")} onPrepareNewTest={prepareNewTest} onDownload={download} />}{screen === "test" && attempt && <TestScreen attempt={attempt} questionMap={questionMap} onPause={pauseTest} onResume={resumeTest} onAnswer={answer} onSkip={skip} onNext={next} onSubmit={submit} />}{screen === "result" && result && <ResultScreen result={result} onDownload={download} onStart={prepareNewTest} />}</div>;
+  return <div className="app"><AppHeader onHome={screen === "test" ? leaveTest : undefined} />{screen === "home" && <HomeScreen state={state} onStart={startTest} onResume={resumeTest} onStartInstead={chooseNewTest} onPrepareNewTest={prepareNewTest} onDownload={download} />}{screen === "test" && attempt && <TestScreen attempt={attempt} questionMap={questionMap} onPause={pauseTest} onResume={resumeTest} onAnswer={answer} onSkip={skip} onNext={next} onSubmit={submit} />}{screen === "result" && result && <ResultScreen result={result} onDownload={download} onStart={prepareNewTest} />}</div>;
 }

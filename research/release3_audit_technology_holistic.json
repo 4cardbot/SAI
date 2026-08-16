@@ -1,0 +1,74 @@
+{
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "id": "R3-001",
+      "defectType": "sourceId_does_not_directly_support_IMU_claims",
+      "evidence": {
+        "questionIds": [
+          "a1-tech-021",
+          "a1-tech-026",
+          "a1-tech-027",
+          "a1-tech-028",
+          "a1-tech-029",
+          "a1-tech-030"
+        ],
+        "sourceId": "neumann-kinesiology",
+        "keyedClaims": [
+          "IMU component measurement",
+          "standardized IMU placement and attachment",
+          "IMU sampling frequency",
+          "static IMU calibration",
+          "what a body-worn IMU directly measures",
+          "validation of IMU stride-time estimates"
+        ],
+        "sourceCatalogBasis": "neumann-kinesiology is cataloged for kinesiology, biomechanics, gait and movement analysis, with locator detail for ground-reaction force and centre of pressure; it is not cataloged as a wearable-inertial-sensor source. The cataloged wearable-inertial-camomilla-2018 source explicitly covers accelerometers, gyroscopes, magnetometers, sensor placement and device characteristics."
+      },
+      "recommendedRepair": "Remap the IMU-specific records to wearable-inertial-camomilla-2018 or add and inspect a direct IMU methods source; retain neumann-kinesiology where the tested claim is directly about force, gait or movement biomechanics."
+    },
+    {
+      "id": "R3-002",
+      "defectType": "sourceId_does_not_support_sedative_safety_claim",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-070"
+        ],
+        "sourceId": "ioc-load-illness-2016",
+        "keyedClaim": "Medication decisions after travel should be referred to a qualified clinician.",
+        "explanationClaim": "Self-medication and mixing a sedative with alcohol are unsafe substitutes for an individualized plan.",
+        "sourceCatalogBasis": "ioc-load-illness-2016 is cataloged for training load, recovery, travel and illness risk; that scope does not directly support sedative safety, medication interactions or clinical medication referral."
+      },
+      "recommendedRepair": "Assign a directly inspected clinical medication/travel-safety source, or narrow the item to a travel-sleep planning claim supported by the IOC source while preserving the safety-oriented key."
+    },
+    {
+      "id": "R3-003",
+      "defectType": "sourceId_does_not_support_prescribed_medication_claim",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-095"
+        ],
+        "sourceId": "ais-supplements-position-2022",
+        "keyedClaim": "A prescribed-medication question should be referred to qualified medical and anti-doping resources, with advice and product details documented.",
+        "sourceCatalogBasis": "ais-supplements-position-2022 is cataloged for supplement risk-reward assessment, contamination, batch testing, product quality, permitted status and supplement professional advice; it is not a direct source for prescribed-medication review, medication documentation or TUE handling."
+      },
+      "recommendedRepair": "Use a directly inspected medication/TUE source for this record (wada-istue-2023 where prohibited-treatment status is relevant, together with qualified clinical guidance), or rewrite the stem as a supplement question to match the AIS source."
+    }
+  ],
+  "summary": {
+    "status": "repair_required_before_final_release",
+    "confirmedFindingCount": 3,
+    "affectedQuestionCount": 8,
+    "checksPassed": [
+      "Both files contain 150 questions; 300 questions were inspected.",
+      "All records have the expected ten fields, four distinct options, an in-range correct index, a non-empty explanation and a non-empty sourceId.",
+      "All 300 sourceIds resolve in src/data/sourceCatalog.ts.",
+      "No duplicate IDs, exact or normalized duplicate stems, duplicate options, schema defects or option-count defects were found.",
+      "No high-confidence answer-key, explanation, ambiguity, grammar or parallel-option defect was confirmed outside the provenance findings above.",
+      "The repository test suite and the A1 audit pass."
+    ]
+  }
+}

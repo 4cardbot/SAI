@@ -1,0 +1,2448 @@
+{
+  "group": "Core Disciplines Foundational Concepts",
+  "file": "question_bank/section_a1_core_disciplines.json",
+  "reviewedCount": 150,
+  "flaggedCount": 115,
+  "changedCount": 115,
+  "unchangedNaturalDifferenceCount": 35,
+  "exceptionCount": 5,
+  "changes": [
+    {
+      "id": "a1-core-001",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "It does not distinguish fat mass from fat-free mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It measures maximal oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It does not separate fat mass from lean mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "ACSM body-composition principle retained: BMI uses height and mass but does not distinguish fat from lean mass; distractors remain distinct measurement claims."
+    },
+    {
+      "id": "a1-core-002",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "It measures maximal oxygen uptake",
+        "It does not distinguish fat mass from fat-free mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density"
+      ],
+      "revisedOptions": [
+        "It cannot be calculated from height and mass",
+        "It does not separate fat mass from lean mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "ACSM body-composition principle retained: BMI uses height and mass but does not distinguish fat from lean mass; distractors remain distinct measurement claims."
+    },
+    {
+      "id": "a1-core-003",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "It directly measures bone mineral density",
+        "It measures maximal oxygen uptake",
+        "It does not distinguish fat mass from fat-free mass",
+        "It cannot be calculated from height and mass"
+      ],
+      "revisedOptions": [
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It does not separate fat mass from lean mass",
+        "It directly measures peak oxygen uptake"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "ACSM body-composition principle retained: BMI uses height and mass but does not distinguish fat from lean mass; distractors remain distinct measurement claims."
+    },
+    {
+      "id": "a1-core-004",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It measures maximal oxygen uptake",
+        "It does not distinguish fat mass from fat-free mass"
+      ],
+      "revisedOptions": [
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake",
+        "It does not separate fat mass from lean mass"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "ACSM body-composition principle retained: BMI uses height and mass but does not distinguish fat from lean mass; distractors remain distinct measurement claims."
+    },
+    {
+      "id": "a1-core-005",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "It does not distinguish fat mass from fat-free mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It measures maximal oxygen uptake"
+      ],
+      "revisedOptions": [
+        "It does not separate fat mass from lean mass",
+        "It cannot be calculated from height and mass",
+        "It directly measures bone mineral density",
+        "It directly measures peak oxygen uptake"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "ACSM body-composition principle retained: BMI uses height and mass but does not distinguish fat from lean mass; distractors remain distinct measurement claims."
+    },
+    {
+      "id": "a1-core-011",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Linearity and slenderness",
+        "Biological age",
+        "Musculoskeletal robustness and muscularity",
+        "Adiposity"
+      ],
+      "revisedOptions": [
+        "Linearity and slenderness",
+        "Biological maturation",
+        "Muscular development",
+        "Subcutaneous adiposity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA somatotype interpretation retained: mesomorphy reflects muscular development; the other choices represent different constructs."
+    },
+    {
+      "id": "a1-core-012",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Adiposity",
+        "Linearity and slenderness",
+        "Biological age",
+        "Musculoskeletal robustness and muscularity"
+      ],
+      "revisedOptions": [
+        "Linearity and slenderness",
+        "Biological maturation",
+        "Subcutaneous adiposity",
+        "Muscular development"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA somatotype interpretation retained: mesomorphy reflects muscular development; the other choices represent different constructs."
+    },
+    {
+      "id": "a1-core-013",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Musculoskeletal robustness and muscularity",
+        "Adiposity",
+        "Linearity and slenderness",
+        "Biological age"
+      ],
+      "revisedOptions": [
+        "Muscular development",
+        "Linearity and slenderness",
+        "Biological maturation",
+        "Subcutaneous adiposity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA somatotype interpretation retained: mesomorphy reflects muscular development; the other choices represent different constructs."
+    },
+    {
+      "id": "a1-core-014",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Biological age",
+        "Musculoskeletal robustness and muscularity",
+        "Adiposity",
+        "Linearity and slenderness"
+      ],
+      "revisedOptions": [
+        "Linearity and slenderness",
+        "Muscular development",
+        "Biological maturation",
+        "Subcutaneous adiposity"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA somatotype interpretation retained: mesomorphy reflects muscular development; the other choices represent different constructs."
+    },
+    {
+      "id": "a1-core-015",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Linearity and slenderness",
+        "Biological age",
+        "Musculoskeletal robustness and muscularity",
+        "Adiposity"
+      ],
+      "revisedOptions": [
+        "Linearity and slenderness",
+        "Biological maturation",
+        "Muscular development",
+        "Subcutaneous adiposity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA somatotype interpretation retained: mesomorphy reflects muscular development; the other choices represent different constructs."
+    },
+    {
+      "id": "a1-core-016",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maturation makes all testing invalid",
+        "Maturation determines an athlete's final sport position",
+        "Maturation removes the need for normative data",
+        "Maturation affects size, strength, and the timing of adaptation"
+      ],
+      "revisedOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data",
+        "It affects size, strength, and adaptation timing"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA growth-and-maturation principle retained: maturation affects size, strength, and adaptation timing; absolute distractors remain false."
+    },
+    {
+      "id": "a1-core-017",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maturation affects size, strength, and the timing of adaptation",
+        "Maturation makes all testing invalid",
+        "Maturation determines an athlete's final sport position",
+        "Maturation removes the need for normative data"
+      ],
+      "revisedOptions": [
+        "It affects size, strength, and adaptation timing",
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA growth-and-maturation principle retained: maturation affects size, strength, and adaptation timing; absolute distractors remain false."
+    },
+    {
+      "id": "a1-core-018",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maturation removes the need for normative data",
+        "Maturation affects size, strength, and the timing of adaptation",
+        "Maturation makes all testing invalid",
+        "Maturation determines an athlete's final sport position"
+      ],
+      "revisedOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It affects size, strength, and adaptation timing",
+        "It determines an athlete's eventual sport position",
+        "It removes the need for age-specific reference data"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA growth-and-maturation principle retained: maturation affects size, strength, and adaptation timing; absolute distractors remain false."
+    },
+    {
+      "id": "a1-core-019",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maturation determines an athlete's final sport position",
+        "Maturation removes the need for normative data",
+        "Maturation affects size, strength, and the timing of adaptation",
+        "Maturation makes all testing invalid"
+      ],
+      "revisedOptions": [
+        "It makes comparisons impossible across all age groups",
+        "It determines an athlete's eventual sport position",
+        "It affects size, strength, and adaptation timing",
+        "It removes the need for age-specific reference data"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA growth-and-maturation principle retained: maturation affects size, strength, and adaptation timing; absolute distractors remain false."
+    },
+    {
+      "id": "a1-core-025",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced capillary density",
+        "Lower stroke volume",
+        "Reduced muscle oxygen extraction"
+      ],
+      "revisedOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Lower stroke volume during exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney exercise-physiology principle retained: greater mitochondrial oxidative capacity supports sustained aerobic ATP production."
+    },
+    {
+      "id": "a1-core-026",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Reduced muscle oxygen extraction",
+        "Greater mitochondrial oxidative capacity",
+        "Reduced capillary density",
+        "Lower stroke volume"
+      ],
+      "revisedOptions": [
+        "Reduced oxygen extraction by muscle",
+        "Greater mitochondrial oxidative capacity",
+        "Reduced capillary density in muscle",
+        "Lower stroke volume during exercise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney exercise-physiology principle retained: greater mitochondrial oxidative capacity supports sustained aerobic ATP production."
+    },
+    {
+      "id": "a1-core-027",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Lower stroke volume",
+        "Reduced muscle oxygen extraction",
+        "Greater mitochondrial oxidative capacity",
+        "Reduced capillary density"
+      ],
+      "revisedOptions": [
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Greater mitochondrial oxidative capacity",
+        "Lower stroke volume during exercise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney exercise-physiology principle retained: greater mitochondrial oxidative capacity supports sustained aerobic ATP production."
+    },
+    {
+      "id": "a1-core-028",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Reduced capillary density",
+        "Lower stroke volume",
+        "Reduced muscle oxygen extraction",
+        "Greater mitochondrial oxidative capacity"
+      ],
+      "revisedOptions": [
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Lower stroke volume during exercise",
+        "Greater mitochondrial oxidative capacity"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney exercise-physiology principle retained: greater mitochondrial oxidative capacity supports sustained aerobic ATP production."
+    },
+    {
+      "id": "a1-core-029",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced capillary density",
+        "Lower stroke volume",
+        "Reduced muscle oxygen extraction"
+      ],
+      "revisedOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Lower stroke volume during exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney exercise-physiology principle retained: greater mitochondrial oxidative capacity supports sustained aerobic ATP production."
+    },
+    {
+      "id": "a1-core-035",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability",
+        "Oxygen-supported oxidative metabolism and sufficient recovery",
+        "Complete cessation of muscle blood flow"
+      ],
+      "revisedOptions": [
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "Oxidative metabolism during adequate recovery",
+        "A sustained reduction in oxygen availability"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney bioenergetics principle retained: phosphocreatine resynthesis is oxidative and depends on adequate recovery."
+    },
+    {
+      "id": "a1-core-036",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability",
+        "Oxygen-supported oxidative metabolism and sufficient recovery"
+      ],
+      "revisedOptions": [
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney bioenergetics principle retained: phosphocreatine resynthesis is oxidative and depends on adequate recovery."
+    },
+    {
+      "id": "a1-core-037",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Oxygen-supported oxidative metabolism and sufficient recovery",
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability"
+      ],
+      "revisedOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney bioenergetics principle retained: phosphocreatine resynthesis is oxidative and depends on adequate recovery."
+    },
+    {
+      "id": "a1-core-038",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A sustained reduction in oxygen availability",
+        "Oxygen-supported oxidative metabolism and sufficient recovery",
+        "Complete cessation of muscle blood flow",
+        "Exclusive reliance on fat oxidation"
+      ],
+      "revisedOptions": [
+        "Complete cessation of muscle blood flow",
+        "Oxidative metabolism during adequate recovery",
+        "Exclusive reliance on fat oxidation",
+        "A sustained reduction in oxygen availability"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Kenney bioenergetics principle retained: phosphocreatine resynthesis is oxidative and depends on adequate recovery."
+    },
+    {
+      "id": "a1-core-039",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Resting respiratory rate",
+        "Serum ferritin",
+        "Proprioception and neuromuscular control",
+        "Bone mineral density"
+      ],
+      "revisedOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Proprioception and neuromuscular control",
+        "Low serum ferritin concentration"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan sports-injury principle retained: functional ankle instability is linked to sensorimotor-control deficits."
+    },
+    {
+      "id": "a1-core-040",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Bone mineral density",
+        "Resting respiratory rate",
+        "Serum ferritin",
+        "Proprioception and neuromuscular control"
+      ],
+      "revisedOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration",
+        "Proprioception and neuromuscular control"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan sports-injury principle retained: functional ankle instability is linked to sensorimotor-control deficits."
+    },
+    {
+      "id": "a1-core-041",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Proprioception and neuromuscular control",
+        "Bone mineral density",
+        "Resting respiratory rate",
+        "Serum ferritin"
+      ],
+      "revisedOptions": [
+        "Proprioception and neuromuscular control",
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan sports-injury principle retained: functional ankle instability is linked to sensorimotor-control deficits."
+    },
+    {
+      "id": "a1-core-042",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Serum ferritin",
+        "Proprioception and neuromuscular control",
+        "Bone mineral density",
+        "Resting respiratory rate"
+      ],
+      "revisedOptions": [
+        "Reduced bone mineral density",
+        "Proprioception and neuromuscular control",
+        "Resting respiratory-rate abnormality",
+        "Low serum ferritin concentration"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan sports-injury principle retained: functional ankle instability is linked to sensorimotor-control deficits."
+    },
+    {
+      "id": "a1-core-043",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Resting respiratory rate",
+        "Serum ferritin",
+        "Proprioception and neuromuscular control",
+        "Bone mineral density"
+      ],
+      "revisedOptions": [
+        "Reduced bone mineral density",
+        "Resting respiratory-rate abnormality",
+        "Proprioception and neuromuscular control",
+        "Low serum ferritin concentration"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan sports-injury principle retained: functional ankle instability is linked to sensorimotor-control deficits."
+    },
+    {
+      "id": "a1-core-044",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Achilles tendon",
+        "Deltoid ligament",
+        "Biceps tendon",
+        "Anterior cruciate ligament"
+      ],
+      "revisedOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament",
+        "Anterior cruciate ligament"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan injury-mechanism principle retained: the described non-contact pivot mechanism most strongly indicates ACL injury."
+    },
+    {
+      "id": "a1-core-045",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Anterior cruciate ligament",
+        "Achilles tendon",
+        "Deltoid ligament",
+        "Biceps tendon"
+      ],
+      "revisedOptions": [
+        "Anterior cruciate ligament",
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan injury-mechanism principle retained: the described non-contact pivot mechanism most strongly indicates ACL injury."
+    },
+    {
+      "id": "a1-core-046",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Biceps tendon",
+        "Anterior cruciate ligament",
+        "Achilles tendon",
+        "Deltoid ligament"
+      ],
+      "revisedOptions": [
+        "Long-head biceps tendon",
+        "Anterior cruciate ligament",
+        "Achilles tendon",
+        "Medial collateral ligament"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan injury-mechanism principle retained: the described non-contact pivot mechanism most strongly indicates ACL injury."
+    },
+    {
+      "id": "a1-core-047",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Deltoid ligament",
+        "Biceps tendon",
+        "Anterior cruciate ligament",
+        "Achilles tendon"
+      ],
+      "revisedOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Anterior cruciate ligament",
+        "Medial collateral ligament"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan injury-mechanism principle retained: the described non-contact pivot mechanism most strongly indicates ACL injury."
+    },
+    {
+      "id": "a1-core-048",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Achilles tendon",
+        "Deltoid ligament",
+        "Biceps tendon",
+        "Anterior cruciate ligament"
+      ],
+      "revisedOptions": [
+        "Long-head biceps tendon",
+        "Achilles tendon",
+        "Medial collateral ligament",
+        "Anterior cruciate ligament"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan injury-mechanism principle retained: the described non-contact pivot mechanism most strongly indicates ACL injury."
+    },
+    {
+      "id": "a1-core-049",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Restore symptoms, mobility, strength, control, and sport-specific load progressively",
+        "Begin maximal competition drills immediately",
+        "Avoid all loading until pain is permanently absent",
+        "Use passive treatment as the only intervention"
+      ],
+      "revisedOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan rehabilitation principle retained: progression should move from symptoms and capacity toward sport-specific loading."
+    },
+    {
+      "id": "a1-core-050",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Use passive treatment as the only intervention",
+        "Restore symptoms, mobility, strength, control, and sport-specific load progressively",
+        "Begin maximal competition drills immediately",
+        "Avoid all loading until pain is permanently absent"
+      ],
+      "revisedOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Progress from symptoms to sport-specific loading",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan rehabilitation principle retained: progression should move from symptoms and capacity toward sport-specific loading."
+    },
+    {
+      "id": "a1-core-051",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Avoid all loading until pain is permanently absent",
+        "Use passive treatment as the only intervention",
+        "Restore symptoms, mobility, strength, control, and sport-specific load progressively",
+        "Begin maximal competition drills immediately"
+      ],
+      "revisedOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Progress from symptoms to sport-specific loading",
+        "Begin maximal competition drills immediately"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan rehabilitation principle retained: progression should move from symptoms and capacity toward sport-specific loading."
+    },
+    {
+      "id": "a1-core-052",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Begin maximal competition drills immediately",
+        "Avoid all loading until pain is permanently absent",
+        "Use passive treatment as the only intervention",
+        "Restore symptoms, mobility, strength, control, and sport-specific load progressively"
+      ],
+      "revisedOptions": [
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately",
+        "Progress from symptoms to sport-specific loading"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan rehabilitation principle retained: progression should move from symptoms and capacity toward sport-specific loading."
+    },
+    {
+      "id": "a1-core-053",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Restore symptoms, mobility, strength, control, and sport-specific load progressively",
+        "Begin maximal competition drills immediately",
+        "Avoid all loading until pain is permanently absent",
+        "Use passive treatment as the only intervention"
+      ],
+      "revisedOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Delay all loading until pain has fully resolved",
+        "Use passive treatment as the only intervention",
+        "Begin maximal competition drills immediately"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan rehabilitation principle retained: progression should move from symptoms and capacity toward sport-specific loading."
+    },
+    {
+      "id": "a1-core-054",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A normal resting pulse alone",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Time since injury alone",
+        "The athlete's desire to compete alone"
+      ],
+      "revisedOptions": [
+        "Elapsed time since injury as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan return-to-play principle retained: readiness requires clinical, functional, sport-demand, and risk information."
+    },
+    {
+      "id": "a1-core-055",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "The athlete's desire to compete alone",
+        "A normal resting pulse alone",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Time since injury alone"
+      ],
+      "revisedOptions": [
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "A normal resting pulse as the only criterion"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan return-to-play principle retained: readiness requires clinical, functional, sport-demand, and risk information."
+    },
+    {
+      "id": "a1-core-056",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Time since injury alone",
+        "The athlete's desire to compete alone",
+        "A normal resting pulse alone",
+        "Risk-informed clinical and multidisciplinary criteria"
+      ],
+      "revisedOptions": [
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion",
+        "Risk-informed clinical and multidisciplinary criteria"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan return-to-play principle retained: readiness requires clinical, functional, sport-demand, and risk information."
+    },
+    {
+      "id": "a1-core-057",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Time since injury alone",
+        "The athlete's desire to compete alone",
+        "A normal resting pulse alone"
+      ],
+      "revisedOptions": [
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Elapsed time since injury as the only criterion",
+        "The athlete's desire to compete as the only criterion",
+        "A normal resting pulse as the only criterion"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Brukner and Khan return-to-play principle retained: readiness requires clinical, functional, sport-demand, and risk information."
+    },
+    {
+      "id": "a1-core-063",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Muscle cross-sectional area",
+        "Angular displacement of every joint",
+        "Horizontal deceleration",
+        "Vertical body mass"
+      ],
+      "revisedOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Horizontal deceleration of the body",
+        "Muscle cross-sectional area"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall biomechanics principle retained: reducing horizontal braking impulse reduces horizontal deceleration."
+    },
+    {
+      "id": "a1-core-064",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Vertical body mass",
+        "Muscle cross-sectional area",
+        "Angular displacement of every joint",
+        "Horizontal deceleration"
+      ],
+      "revisedOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area",
+        "Horizontal deceleration of the body"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall biomechanics principle retained: reducing horizontal braking impulse reduces horizontal deceleration."
+    },
+    {
+      "id": "a1-core-065",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Horizontal deceleration",
+        "Vertical body mass",
+        "Muscle cross-sectional area",
+        "Angular displacement of every joint"
+      ],
+      "revisedOptions": [
+        "Horizontal deceleration of the body",
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall biomechanics principle retained: reducing horizontal braking impulse reduces horizontal deceleration."
+    },
+    {
+      "id": "a1-core-066",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Angular displacement of every joint",
+        "Horizontal deceleration",
+        "Vertical body mass",
+        "Muscle cross-sectional area"
+      ],
+      "revisedOptions": [
+        "Angular displacement of every joint",
+        "Horizontal deceleration of the body",
+        "Vertical ground-force magnitude",
+        "Muscle cross-sectional area"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall biomechanics principle retained: reducing horizontal braking impulse reduces horizontal deceleration."
+    },
+    {
+      "id": "a1-core-067",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Muscle cross-sectional area",
+        "Angular displacement of every joint",
+        "Horizontal deceleration",
+        "Vertical body mass"
+      ],
+      "revisedOptions": [
+        "Angular displacement of every joint",
+        "Vertical ground-force magnitude",
+        "Horizontal deceleration of the body",
+        "Muscle cross-sectional area"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall biomechanics principle retained: reducing horizontal braking impulse reduces horizontal deceleration."
+    },
+    {
+      "id": "a1-core-073",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Can miss motion outside the camera plane",
+        "Always measures force directly",
+        "Eliminates parallax automatically",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "revisedOptions": [
+        "May miss motion outside the camera plane",
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall movement-analysis limitation retained: a single camera plane can miss out-of-plane motion and cannot supply complete 3-D kinetics."
+    },
+    {
+      "id": "a1-core-074",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Provides complete three-dimensional joint kinetics",
+        "Can miss motion outside the camera plane",
+        "Always measures force directly",
+        "Eliminates parallax automatically"
+      ],
+      "revisedOptions": [
+        "Always measures ground-reaction force directly",
+        "May miss motion outside the camera plane",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall movement-analysis limitation retained: a single camera plane can miss out-of-plane motion and cannot supply complete 3-D kinetics."
+    },
+    {
+      "id": "a1-core-075",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Eliminates parallax automatically",
+        "Provides complete three-dimensional joint kinetics",
+        "Can miss motion outside the camera plane",
+        "Always measures force directly"
+      ],
+      "revisedOptions": [
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "May miss motion outside the camera plane",
+        "Provides complete three-dimensional joint kinetics"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall movement-analysis limitation retained: a single camera plane can miss out-of-plane motion and cannot supply complete 3-D kinetics."
+    },
+    {
+      "id": "a1-core-076",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Always measures force directly",
+        "Eliminates parallax automatically",
+        "Provides complete three-dimensional joint kinetics",
+        "Can miss motion outside the camera plane"
+      ],
+      "revisedOptions": [
+        "Always measures ground-reaction force directly",
+        "Eliminates parallax without camera calibration",
+        "Provides complete three-dimensional joint kinetics",
+        "May miss motion outside the camera plane"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "basic-biomechanics-hall",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Hall movement-analysis limitation retained: a single camera plane can miss out-of-plane motion and cannot supply complete 3-D kinetics."
+    },
+    {
+      "id": "a1-core-077",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "High inter-individual variability and a delayed response",
+        "A fixed value in every athlete",
+        "A one-to-one relation with strength loss",
+        "No response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "High individual variability and a delayed response",
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: CK varies between athletes and has delayed kinetics, so one value is not diagnostic."
+    },
+    {
+      "id": "a1-core-078",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "No response to eccentric exercise",
+        "High inter-individual variability and a delayed response",
+        "A fixed value in every athlete",
+        "A one-to-one relation with strength loss"
+      ],
+      "revisedOptions": [
+        "A consistent value across all athletes",
+        "High individual variability and a delayed response",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: CK varies between athletes and has delayed kinetics, so one value is not diagnostic."
+    },
+    {
+      "id": "a1-core-079",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A one-to-one relation with strength loss",
+        "No response to eccentric exercise",
+        "High inter-individual variability and a delayed response",
+        "A fixed value in every athlete"
+      ],
+      "revisedOptions": [
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "High individual variability and a delayed response",
+        "No meaningful response to eccentric exercise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: CK varies between athletes and has delayed kinetics, so one value is not diagnostic."
+    },
+    {
+      "id": "a1-core-080",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A fixed value in every athlete",
+        "A one-to-one relation with strength loss",
+        "No response to eccentric exercise",
+        "High inter-individual variability and a delayed response"
+      ],
+      "revisedOptions": [
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise",
+        "High individual variability and a delayed response"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: CK varies between athletes and has delayed kinetics, so one value is not diagnostic."
+    },
+    {
+      "id": "a1-core-081",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "High inter-individual variability and a delayed response",
+        "A fixed value in every athlete",
+        "A one-to-one relation with strength loss",
+        "No response to eccentric exercise"
+      ],
+      "revisedOptions": [
+        "High individual variability and a delayed response",
+        "A consistent value across all athletes",
+        "A direct one-to-one measure of strength loss",
+        "No meaningful response to eccentric exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: CK varies between athletes and has delayed kinetics, so one value is not diagnostic."
+    },
+    {
+      "id": "a1-core-092",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Eccentric exercise has no biological effect",
+        "Biomarkers never change after exercise",
+        "All athletes have identical baselines",
+        "The collection time may precede the marker's peak response"
+      ],
+      "revisedOptions": [
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement",
+        "The sample may precede the marker's peak response"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: immediate post-exercise sampling may precede a biomarker's peak response."
+    },
+    {
+      "id": "a1-core-093",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "The collection time may precede the marker's peak response",
+        "Eccentric exercise has no biological effect",
+        "Biomarkers never change after exercise",
+        "All athletes have identical baselines"
+      ],
+      "revisedOptions": [
+        "The sample may precede the marker's peak response",
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: immediate post-exercise sampling may precede a biomarker's peak response."
+    },
+    {
+      "id": "a1-core-094",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "All athletes have identical baselines",
+        "The collection time may precede the marker's peak response",
+        "Eccentric exercise has no biological effect",
+        "Biomarkers never change after exercise"
+      ],
+      "revisedOptions": [
+        "It always indicates clinically important tissue damage",
+        "The sample may precede the marker's peak response",
+        "It is unaffected by the timing of exercise",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: immediate post-exercise sampling may precede a biomarker's peak response."
+    },
+    {
+      "id": "a1-core-095",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Biomarkers never change after exercise",
+        "All athletes have identical baselines",
+        "The collection time may precede the marker's peak response",
+        "Eccentric exercise has no biological effect"
+      ],
+      "revisedOptions": [
+        "It always indicates clinically important tissue damage",
+        "It is unaffected by the timing of exercise",
+        "The sample may precede the marker's peak response",
+        "It is diagnostic without a baseline measurement"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC load/recovery interpretation retained: immediate post-exercise sampling may precede a biomarker's peak response."
+    },
+    {
+      "id": "a1-core-096",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maximal intensity in every session",
+        "More volume without recovery",
+        "The same demand in every session",
+        "A sufficiently greater or new stimulus than the athlete is adapted to"
+      ],
+      "revisedOptions": [
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "The same demand in every training session",
+        "A greater or new stimulus beyond adaptation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA progressive-overload principle retained: adaptation requires a challenging but recoverable stimulus beyond current adaptation."
+    },
+    {
+      "id": "a1-core-097",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A sufficiently greater or new stimulus than the athlete is adapted to",
+        "Maximal intensity in every session",
+        "More volume without recovery",
+        "The same demand in every session"
+      ],
+      "revisedOptions": [
+        "A greater or new stimulus beyond adaptation",
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "The same demand in every training session"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA progressive-overload principle retained: adaptation requires a challenging but recoverable stimulus beyond current adaptation."
+    },
+    {
+      "id": "a1-core-098",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "The same demand in every session",
+        "A sufficiently greater or new stimulus than the athlete is adapted to",
+        "Maximal intensity in every session",
+        "More volume without recovery"
+      ],
+      "revisedOptions": [
+        "Maximal intensity in every training session",
+        "A greater or new stimulus beyond adaptation",
+        "More volume without adequate recovery",
+        "The same demand in every training session"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA progressive-overload principle retained: adaptation requires a challenging but recoverable stimulus beyond current adaptation."
+    },
+    {
+      "id": "a1-core-099",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "More volume without recovery",
+        "The same demand in every session",
+        "A sufficiently greater or new stimulus than the athlete is adapted to",
+        "Maximal intensity in every session"
+      ],
+      "revisedOptions": [
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "A greater or new stimulus beyond adaptation",
+        "The same demand in every training session"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA progressive-overload principle retained: adaptation requires a challenging but recoverable stimulus beyond current adaptation."
+    },
+    {
+      "id": "a1-core-100",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maximal intensity in every session",
+        "More volume without recovery",
+        "The same demand in every session",
+        "A sufficiently greater or new stimulus than the athlete is adapted to"
+      ],
+      "revisedOptions": [
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "The same demand in every training session",
+        "A greater or new stimulus beyond adaptation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA progressive-overload principle retained: adaptation requires a challenging but recoverable stimulus beyond current adaptation."
+    },
+    {
+      "id": "a1-core-101",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Mode, intensity, duration, and movement demands of training",
+        "Color of the equipment",
+        "Athlete's preferred music",
+        "Number of staff in the room"
+      ],
+      "revisedOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA specificity principle retained: adaptations depend on the mode, intensity, duration, and movement demands trained."
+    },
+    {
+      "id": "a1-core-102",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Number of staff in the room",
+        "Mode, intensity, duration, and movement demands of training",
+        "Color of the equipment",
+        "Athlete's preferred music"
+      ],
+      "revisedOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Mode, intensity, duration, and movement demands",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA specificity principle retained: adaptations depend on the mode, intensity, duration, and movement demands trained."
+    },
+    {
+      "id": "a1-core-103",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Athlete's preferred music",
+        "Number of staff in the room",
+        "Mode, intensity, duration, and movement demands of training",
+        "Color of the equipment"
+      ],
+      "revisedOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Mode, intensity, duration, and movement demands",
+        "Order of exercises within an unrelated session"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA specificity principle retained: adaptations depend on the mode, intensity, duration, and movement demands trained."
+    },
+    {
+      "id": "a1-core-104",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Color of the equipment",
+        "Athlete's preferred music",
+        "Number of staff in the room",
+        "Mode, intensity, duration, and movement demands of training"
+      ],
+      "revisedOptions": [
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session",
+        "Mode, intensity, duration, and movement demands"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA specificity principle retained: adaptations depend on the mode, intensity, duration, and movement demands trained."
+    },
+    {
+      "id": "a1-core-105",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Mode, intensity, duration, and movement demands of training",
+        "Color of the equipment",
+        "Athlete's preferred music",
+        "Number of staff in the room"
+      ],
+      "revisedOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Athlete's preferred equipment and training environment",
+        "Total staff available and session start time",
+        "Order of exercises within an unrelated session"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA specificity principle retained: adaptations depend on the mode, intensity, duration, and movement demands trained."
+    },
+    {
+      "id": "a1-core-106",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "The number of exercises in a textbook",
+        "Recovery time or elapsed time",
+        "Body-fat percentage",
+        "Joint circumference"
+      ],
+      "revisedOptions": [
+        "Number of exercises in the training plan",
+        "Recovery time between work bouts",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA training-density principle retained: density relates work to recovery or elapsed time."
+    },
+    {
+      "id": "a1-core-107",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Joint circumference",
+        "The number of exercises in a textbook",
+        "Recovery time or elapsed time",
+        "Body-fat percentage"
+      ],
+      "revisedOptions": [
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Recovery time between work bouts",
+        "Joint circumference measured before training"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA training-density principle retained: density relates work to recovery or elapsed time."
+    },
+    {
+      "id": "a1-core-108",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Body-fat percentage",
+        "Joint circumference",
+        "The number of exercises in a textbook",
+        "Recovery time or elapsed time"
+      ],
+      "revisedOptions": [
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training",
+        "Recovery time between work bouts"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA training-density principle retained: density relates work to recovery or elapsed time."
+    },
+    {
+      "id": "a1-core-109",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Recovery time or elapsed time",
+        "Body-fat percentage",
+        "Joint circumference",
+        "The number of exercises in a textbook"
+      ],
+      "revisedOptions": [
+        "Recovery time between work bouts",
+        "Number of exercises in the training plan",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA training-density principle retained: density relates work to recovery or elapsed time."
+    },
+    {
+      "id": "a1-core-110",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "The number of exercises in a textbook",
+        "Recovery time or elapsed time",
+        "Body-fat percentage",
+        "Joint circumference"
+      ],
+      "revisedOptions": [
+        "Number of exercises in the training plan",
+        "Recovery time between work bouts",
+        "Body-fat percentage during the training block",
+        "Joint circumference measured before training"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA training-density principle retained: density relates work to recovery or elapsed time."
+    },
+    {
+      "id": "a1-core-111",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Increasing fatigue deliberately",
+        "Ignoring the competition demands",
+        "Maintaining selected intensity and sport-specific quality",
+        "Eliminating all intensity and skill practice"
+      ],
+      "revisedOptions": [
+        "Maintaining the same volume and increasing fatigue",
+        "Eliminating intensity while preserving unrelated volume",
+        "Maintaining selected intensity and sport-specific quality",
+        "Stopping all sport-specific practice until competition"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA tapering principle retained: volume is reduced while selected intensity and sport-specific quality are maintained."
+    },
+    {
+      "id": "a1-core-112",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Eliminating all intensity and skill practice",
+        "Increasing fatigue deliberately",
+        "Ignoring the competition demands",
+        "Maintaining selected intensity and sport-specific quality"
+      ],
+      "revisedOptions": [
+        "Maintaining the same volume and increasing fatigue",
+        "Eliminating intensity while preserving unrelated volume",
+        "Stopping all sport-specific practice until competition",
+        "Maintaining selected intensity and sport-specific quality"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA tapering principle retained: volume is reduced while selected intensity and sport-specific quality are maintained."
+    },
+    {
+      "id": "a1-core-113",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Maintaining selected intensity and sport-specific quality",
+        "Eliminating all intensity and skill practice",
+        "Increasing fatigue deliberately",
+        "Ignoring the competition demands"
+      ],
+      "revisedOptions": [
+        "Maintaining selected intensity and sport-specific quality",
+        "Maintaining the same volume and increasing fatigue",
+        "Eliminating intensity while preserving unrelated volume",
+        "Stopping all sport-specific practice until competition"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA tapering principle retained: volume is reduced while selected intensity and sport-specific quality are maintained."
+    },
+    {
+      "id": "a1-core-114",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Ignoring the competition demands",
+        "Maintaining selected intensity and sport-specific quality",
+        "Eliminating all intensity and skill practice",
+        "Increasing fatigue deliberately"
+      ],
+      "revisedOptions": [
+        "Maintaining the same volume and increasing fatigue",
+        "Maintaining selected intensity and sport-specific quality",
+        "Eliminating intensity while preserving unrelated volume",
+        "Stopping all sport-specific practice until competition"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "NSCA tapering principle retained: volume is reduced while selected intensity and sport-specific quality are maintained."
+    },
+    {
+      "id": "a1-core-115",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Fear of punishment alone",
+        "A requirement to avoid challenge",
+        "Interest and enjoyment in the activity itself",
+        "External rewards alone"
+      ],
+      "revisedOptions": [
+        "Recognition and rewards provided by others",
+        "Avoidance of criticism or punishment from others",
+        "Interest and enjoyment from the activity itself",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould motivation principle retained: intrinsic motivation is driven by interest and enjoyment in the activity."
+    },
+    {
+      "id": "a1-core-116",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "External rewards alone",
+        "Fear of punishment alone",
+        "A requirement to avoid challenge",
+        "Interest and enjoyment in the activity itself"
+      ],
+      "revisedOptions": [
+        "Recognition and rewards provided by others",
+        "Avoidance of criticism or punishment from others",
+        "Pressure to meet an externally imposed standard",
+        "Interest and enjoyment from the activity itself"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould motivation principle retained: intrinsic motivation is driven by interest and enjoyment in the activity."
+    },
+    {
+      "id": "a1-core-117",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Interest and enjoyment in the activity itself",
+        "External rewards alone",
+        "Fear of punishment alone",
+        "A requirement to avoid challenge"
+      ],
+      "revisedOptions": [
+        "Interest and enjoyment from the activity itself",
+        "Recognition and rewards provided by others",
+        "Avoidance of criticism or punishment from others",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould motivation principle retained: intrinsic motivation is driven by interest and enjoyment in the activity."
+    },
+    {
+      "id": "a1-core-118",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A requirement to avoid challenge",
+        "Interest and enjoyment in the activity itself",
+        "External rewards alone",
+        "Fear of punishment alone"
+      ],
+      "revisedOptions": [
+        "Recognition and rewards provided by others",
+        "Interest and enjoyment from the activity itself",
+        "Avoidance of criticism or punishment from others",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould motivation principle retained: intrinsic motivation is driven by interest and enjoyment in the activity."
+    },
+    {
+      "id": "a1-core-119",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Fear of punishment alone",
+        "A requirement to avoid challenge",
+        "Interest and enjoyment in the activity itself",
+        "External rewards alone"
+      ],
+      "revisedOptions": [
+        "Recognition and rewards provided by others",
+        "Avoidance of criticism or punishment from others",
+        "Interest and enjoyment from the activity itself",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould motivation principle retained: intrinsic motivation is driven by interest and enjoyment in the activity."
+    },
+    {
+      "id": "a1-core-120",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Control every external outcome",
+        "Avoid all competitive pressure",
+        "Predict another athlete's thoughts",
+        "Perform the actions required for a specific task"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions",
+        "Perform the actions required for a specific task"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould self-efficacy principle retained: it is task-specific belief in the ability to perform required actions."
+    },
+    {
+      "id": "a1-core-121",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Perform the actions required for a specific task",
+        "Control every external outcome",
+        "Avoid all competitive pressure",
+        "Predict another athlete's thoughts"
+      ],
+      "revisedOptions": [
+        "Perform the actions required for a specific task",
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould self-efficacy principle retained: it is task-specific belief in the ability to perform required actions."
+    },
+    {
+      "id": "a1-core-122",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Predict another athlete's thoughts",
+        "Perform the actions required for a specific task",
+        "Control every external outcome",
+        "Avoid all competitive pressure"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Perform the actions required for a specific task",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould self-efficacy principle retained: it is task-specific belief in the ability to perform required actions."
+    },
+    {
+      "id": "a1-core-123",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Avoid all competitive pressure",
+        "Predict another athlete's thoughts",
+        "Perform the actions required for a specific task",
+        "Control every external outcome"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Perform the actions required for a specific task",
+        "Predict another athlete's thoughts and decisions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould self-efficacy principle retained: it is task-specific belief in the ability to perform required actions."
+    },
+    {
+      "id": "a1-core-124",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Control every external outcome",
+        "Avoid all competitive pressure",
+        "Predict another athlete's thoughts",
+        "Perform the actions required for a specific task"
+      ],
+      "revisedOptions": [
+        "Control every external outcome during competition",
+        "Avoid all competitive pressure in every setting",
+        "Predict another athlete's thoughts and decisions",
+        "Perform the actions required for a specific task"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould self-efficacy principle retained: it is task-specific belief in the ability to perform required actions."
+    },
+    {
+      "id": "a1-core-125",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Worry and negative performance-related thoughts",
+        "Sweating and muscle tension only",
+        "An increase in bone mass",
+        "A change in training volume"
+      ],
+      "revisedOptions": [
+        "Worry and negative thoughts about performance",
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould anxiety distinction retained: cognitive anxiety concerns performance-related worry and thoughts."
+    },
+    {
+      "id": "a1-core-126",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A change in training volume",
+        "Worry and negative performance-related thoughts",
+        "Sweating and muscle tension only",
+        "An increase in bone mass"
+      ],
+      "revisedOptions": [
+        "A change in training volume before competition",
+        "Worry and negative thoughts about performance",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould anxiety distinction retained: cognitive anxiety concerns performance-related worry and thoughts."
+    },
+    {
+      "id": "a1-core-127",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "An increase in bone mass",
+        "A change in training volume",
+        "Worry and negative performance-related thoughts",
+        "Sweating and muscle tension only"
+      ],
+      "revisedOptions": [
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "Worry and negative thoughts about performance",
+        "An increase in bone mass during training"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould anxiety distinction retained: cognitive anxiety concerns performance-related worry and thoughts."
+    },
+    {
+      "id": "a1-core-128",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Sweating and muscle tension only",
+        "An increase in bone mass",
+        "A change in training volume",
+        "Worry and negative performance-related thoughts"
+      ],
+      "revisedOptions": [
+        "A change in training volume before competition",
+        "Sweating and muscle tension as the only symptoms",
+        "An increase in bone mass during training",
+        "Worry and negative thoughts about performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould anxiety distinction retained: cognitive anxiety concerns performance-related worry and thoughts."
+    },
+    {
+      "id": "a1-core-129",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Consistent attentional and behavioral cues before execution",
+        "A guaranteed score",
+        "A replacement for technical practice",
+        "Prevention of every stress response"
+      ],
+      "revisedOptions": [
+        "Consistent attentional cues before performance",
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould mental-skills principle retained: routines provide consistent attentional cues without guaranteeing outcomes."
+    },
+    {
+      "id": "a1-core-130",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Prevention of every stress response",
+        "Consistent attentional and behavioral cues before execution",
+        "A guaranteed score",
+        "A replacement for technical practice"
+      ],
+      "revisedOptions": [
+        "A replacement for technical practice and preparation",
+        "Consistent attentional cues before performance",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould mental-skills principle retained: routines provide consistent attentional cues without guaranteeing outcomes."
+    },
+    {
+      "id": "a1-core-131",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A replacement for technical practice",
+        "Prevention of every stress response",
+        "Consistent attentional and behavioral cues before execution",
+        "A guaranteed score"
+      ],
+      "revisedOptions": [
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "Consistent attentional cues before performance",
+        "A guaranteed score regardless of preparation"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould mental-skills principle retained: routines provide consistent attentional cues without guaranteeing outcomes."
+    },
+    {
+      "id": "a1-core-132",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A guaranteed score",
+        "A replacement for technical practice",
+        "Prevention of every stress response",
+        "Consistent attentional and behavioral cues before execution"
+      ],
+      "revisedOptions": [
+        "A replacement for technical practice and preparation",
+        "Prevention of every stress response during competition",
+        "A guaranteed score regardless of preparation",
+        "Consistent attentional cues before performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "foundations-sport-exercise-psychology",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Weinberg and Gould mental-skills principle retained: routines provide consistent attentional cues without guaranteeing outcomes."
+    },
+    {
+      "id": "a1-core-133",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Only long-term bone remodeling",
+        "Protein synthesis without energy",
+        "Passive joint stability"
+      ],
+      "revisedOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin sports-nutrition principle retained: carbohydrate supports glycogen use and rapid ATP production during high-intensity work."
+    },
+    {
+      "id": "a1-core-134",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Passive joint stability",
+        "Rapid ATP production and muscle glycogen use",
+        "Only long-term bone remodeling",
+        "Protein synthesis without energy"
+      ],
+      "revisedOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Rapid ATP production and muscle glycogen use",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin sports-nutrition principle retained: carbohydrate supports glycogen use and rapid ATP production during high-intensity work."
+    },
+    {
+      "id": "a1-core-135",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Protein synthesis without energy",
+        "Passive joint stability",
+        "Rapid ATP production and muscle glycogen use",
+        "Only long-term bone remodeling"
+      ],
+      "revisedOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Rapid ATP production and muscle glycogen use",
+        "Passive joint stability during movement"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin sports-nutrition principle retained: carbohydrate supports glycogen use and rapid ATP production during high-intensity work."
+    },
+    {
+      "id": "a1-core-136",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Only long-term bone remodeling",
+        "Protein synthesis without energy",
+        "Passive joint stability",
+        "Rapid ATP production and muscle glycogen use"
+      ],
+      "revisedOptions": [
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement",
+        "Rapid ATP production and muscle glycogen use"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin sports-nutrition principle retained: carbohydrate supports glycogen use and rapid ATP production during high-intensity work."
+    },
+    {
+      "id": "a1-core-137",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Only long-term bone remodeling",
+        "Protein synthesis without energy",
+        "Passive joint stability"
+      ],
+      "revisedOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling and mineral storage",
+        "Protein synthesis without requiring energy",
+        "Passive joint stability during movement"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin sports-nutrition principle retained: carbohydrate supports glycogen use and rapid ATP production during high-intensity work."
+    },
+    {
+      "id": "a1-core-138",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "An increase in glycogen storage",
+        "Meaningful fluid loss that may increase physiological strain",
+        "A gain in lean tissue",
+        "A decrease in bone mineral density"
+      ],
+      "revisedOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "Meaningful fluid loss that raises physiological strain",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin hydration principle retained: rapid exercise-associated mass loss primarily reflects fluid loss and increased strain."
+    },
+    {
+      "id": "a1-core-139",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A decrease in bone mineral density",
+        "An increase in glycogen storage",
+        "Meaningful fluid loss that may increase physiological strain",
+        "A gain in lean tissue"
+      ],
+      "revisedOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "Meaningful fluid loss that raises physiological strain",
+        "An increase in glycogen storage during exercise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin hydration principle retained: rapid exercise-associated mass loss primarily reflects fluid loss and increased strain."
+    },
+    {
+      "id": "a1-core-140",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A gain in lean tissue",
+        "A decrease in bone mineral density",
+        "An increase in glycogen storage",
+        "Meaningful fluid loss that may increase physiological strain"
+      ],
+      "revisedOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise",
+        "Meaningful fluid loss that raises physiological strain"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin hydration principle retained: rapid exercise-associated mass loss primarily reflects fluid loss and increased strain."
+    },
+    {
+      "id": "a1-core-141",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Meaningful fluid loss that may increase physiological strain",
+        "A gain in lean tissue",
+        "A decrease in bone mineral density",
+        "An increase in glycogen storage"
+      ],
+      "revisedOptions": [
+        "Meaningful fluid loss that raises physiological strain",
+        "A gain in lean tissue during the exercise bout",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin hydration principle retained: rapid exercise-associated mass loss primarily reflects fluid loss and increased strain."
+    },
+    {
+      "id": "a1-core-142",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "An increase in glycogen storage",
+        "Meaningful fluid loss that may increase physiological strain",
+        "A gain in lean tissue",
+        "A decrease in bone mineral density"
+      ],
+      "revisedOptions": [
+        "A gain in lean tissue during the exercise bout",
+        "Meaningful fluid loss that raises physiological strain",
+        "A decrease in bone mineral density during exercise",
+        "An increase in glycogen storage during exercise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin hydration principle retained: rapid exercise-associated mass loss primarily reflects fluid loss and increased strain."
+    },
+    {
+      "id": "a1-core-143",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Immune function improvement",
+        "Performance with no physiological effects",
+        "Health, recovery, endocrine function, and performance",
+        "Bone health only when energy intake is high"
+      ],
+      "revisedOptions": [
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Health, recovery, endocrine, and performance",
+        "Immune function only when training is light"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-reds-2023",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC REDs principle retained: low energy availability can impair health, recovery, endocrine function, and performance."
+    },
+    {
+      "id": "a1-core-144",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Bone health only when energy intake is high",
+        "Immune function improvement",
+        "Performance with no physiological effects",
+        "Health, recovery, endocrine function, and performance"
+      ],
+      "revisedOptions": [
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light",
+        "Health, recovery, endocrine, and performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-reds-2023",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC REDs principle retained: low energy availability can impair health, recovery, endocrine function, and performance."
+    },
+    {
+      "id": "a1-core-145",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Health, recovery, endocrine function, and performance",
+        "Bone health only when energy intake is high",
+        "Immune function improvement",
+        "Performance with no physiological effects"
+      ],
+      "revisedOptions": [
+        "Health, recovery, endocrine, and performance",
+        "Performance without broader physiological effects",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-reds-2023",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC REDs principle retained: low energy availability can impair health, recovery, endocrine function, and performance."
+    },
+    {
+      "id": "a1-core-146",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Performance with no physiological effects",
+        "Health, recovery, endocrine function, and performance",
+        "Bone health only when energy intake is high",
+        "Immune function improvement"
+      ],
+      "revisedOptions": [
+        "Performance without broader physiological effects",
+        "Health, recovery, endocrine, and performance",
+        "Bone health only when energy intake is high",
+        "Immune function only when training is light"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-reds-2023",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "IOC REDs principle retained: low energy availability can impair health, recovery, endocrine function, and performance."
+    },
+    {
+      "id": "a1-core-147",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Only social-media popularity",
+        "A guaranteed benefit in every sport",
+        "Its status under applicable anti-doping rules",
+        "Only taste and packaging"
+      ],
+      "revisedOptions": [
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "Its status under applicable anti-doping rules",
+        "The color and shape of the capsule"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin supplement-safety principle retained: supplement decisions require evidence, safety, contamination, and anti-doping review."
+    },
+    {
+      "id": "a1-core-148",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Only taste and packaging",
+        "Only social-media popularity",
+        "A guaranteed benefit in every sport",
+        "Its status under applicable anti-doping rules"
+      ],
+      "revisedOptions": [
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule",
+        "Its status under applicable anti-doping rules"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin supplement-safety principle retained: supplement decisions require evidence, safety, contamination, and anti-doping review."
+    },
+    {
+      "id": "a1-core-149",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "Its status under applicable anti-doping rules",
+        "Only taste and packaging",
+        "Only social-media popularity",
+        "A guaranteed benefit in every sport"
+      ],
+      "revisedOptions": [
+        "Its status under applicable anti-doping rules",
+        "The number of ingredients listed on the label",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin supplement-safety principle retained: supplement decisions require evidence, safety, contamination, and anti-doping review."
+    },
+    {
+      "id": "a1-core-150",
+      "reason": "Primary option-length flag: the pre-review set exceeded the permitted spread or placed the correct answer more than eight characters above the distractor median.",
+      "originalOptions": [
+        "A guaranteed benefit in every sport",
+        "Its status under applicable anti-doping rules",
+        "Only taste and packaging",
+        "Only social-media popularity"
+      ],
+      "revisedOptions": [
+        "The number of ingredients listed on the label",
+        "Its status under applicable anti-doping rules",
+        "The athlete's preferred flavor and texture",
+        "The color and shape of the capsule"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "clinical-sports-nutrition-burke",
+      "action": "Rebalanced the complete option set with concise, source-supported, grammatically parallel wording.",
+      "reviewerNote": "Burke and Deakin supplement-safety principle retained: supplement decisions require evidence, safety, contamination, and anti-doping review."
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "a1-core-030",
+      "justification": "The Fick-principle answer remains somewhat longer because it names the specific arterial-venous oxygen difference. The original spread was 11 characters and the correct option was only 6.5 characters above the distractor median, so it did not meet a primary rewrite threshold."
+    },
+    {
+      "id": "a1-core-031",
+      "justification": "The Fick-principle answer remains somewhat longer because it names the specific arterial-venous oxygen difference. The original spread was 11 characters and the correct option was only 6.5 characters above the distractor median, so it did not meet a primary rewrite threshold."
+    },
+    {
+      "id": "a1-core-032",
+      "justification": "The Fick-principle answer remains somewhat longer because it names the specific arterial-venous oxygen difference. The original spread was 11 characters and the correct option was only 6.5 characters above the distractor median, so it did not meet a primary rewrite threshold."
+    },
+    {
+      "id": "a1-core-033",
+      "justification": "The Fick-principle answer remains somewhat longer because it names the specific arterial-venous oxygen difference. The original spread was 11 characters and the correct option was only 6.5 characters above the distractor median, so it did not meet a primary rewrite threshold."
+    },
+    {
+      "id": "a1-core-034",
+      "justification": "The Fick-principle answer remains somewhat longer because it names the specific arterial-venous oxygen difference. The original spread was 11 characters and the correct option was only 6.5 characters above the distractor median, so it did not meet a primary rewrite threshold."
+    }
+  ]
+}

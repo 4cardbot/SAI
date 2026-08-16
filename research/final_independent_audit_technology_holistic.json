@@ -1,0 +1,2462 @@
+{
+  "auditType": "Final independent read-only audit of regenerated merged A1 bank and assigned retained groups",
+  "generatedAt": "2026-08-16",
+  "groups": [
+    "Emerging Technologies & Biostatistics",
+    "Holistic Development, Travel & Ethics"
+  ],
+  "reviewedCount": 300,
+  "files": {
+    "question_bank/section_a1_technology_biostatistics.json": 150,
+    "question_bank/section_a1_holistic_travel_ethics.json": 150,
+    "question_bank/section_a1.json corresponding entries": 300
+  },
+  "mergedCorrespondence": {
+    "technology": {
+      "retainedCount": 150,
+      "mergedCount": 150,
+      "exactContentMatch": true
+    },
+    "holistic": {
+      "retainedCount": 150,
+      "mergedCount": 150,
+      "exactContentMatch": true
+    }
+  },
+  "highConfidenceDefects": 160,
+  "answerKeyProblems": 0,
+  "distractorProblems": 0,
+  "sourceProblems": 160,
+  "schemaProblems": 0,
+  "lengthProblems": 0,
+  "exactDuplicates": [],
+  "defects": [
+    {
+      "id": "a1-tech-001",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A wearable accelerometer primarily records:",
+      "currentOptions": [
+        "Blood lactate concentration",
+        "Ground-reaction force directly",
+        "Linear acceleration",
+        "Motor-unit recruitment"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-002",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Optical wrist pulse sensing is commonly based on:",
+      "currentOptions": [
+        "Electromyography",
+        "Bioelectrical impedance",
+        "Photoplethysmography",
+        "Doppler ultrasound"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-003",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The manual count used to validate a wearable step count is the:",
+      "currentOptions": [
+        "Criterion measure",
+        "Predictor variable",
+        "Confounding variable",
+        "Sampling frame"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-004",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Similar outputs across repeated identical wearable trials mainly support:",
+      "currentOptions": [
+        "Construct validity",
+        "Sensitivity",
+        "Test-retest reliability",
+        "External validity"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-005",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Short-term heart-rate variability is derived most directly from:",
+      "currentOptions": [
+        "One-minute average heart rate",
+        "Daily step totals",
+        "Beat-to-beat intervals",
+        "Peak accelerations"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-006",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A smartwatch energy-expenditure value should be treated as:",
+      "currentOptions": [
+        "A direct measure of ATP turnover",
+        "A model-based estimate requiring validation",
+        "A direct measure of oxygen consumption",
+        "A device-independent physiological value"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-007",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Repeated peaks from a shoe accelerometer can estimate:",
+      "currentOptions": [
+        "Blood-pressure changes",
+        "Muscle oxygenation",
+        "Foot contacts and cadence",
+        "Body-fat percentage"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-008",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Motion artefact is best reduced by:",
+      "currentOptions": [
+        "Changing the sensor site between trials",
+        "Keeping only the highest reading",
+        "Deleting readings far from the team mean",
+        "Consistent placement and signal checks"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-009",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Two wearables report different distances. The strongest first comparison is with:",
+      "currentOptions": [
+        "The larger device reading",
+        "A standardized criterion distance",
+        "The device with longer battery life",
+        "The average of both readings"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-010",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The wearable output most directly representing internal load is:",
+      "currentOptions": [
+        "Total distance",
+        "High-speed running distance",
+        "Heart-rate response",
+        "Number of accelerations"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific wearable-sensor or wearable-validation fact, but sourceId acsm-getp-12 is catalogued for exercise testing, safety, body composition, and exercise prescription; its recorded scope does not directly substantiate the named wearable modality or measurement claim.",
+      "recommendedFix": "Assign an inspected wearable-sensor validation or sports-technology source with a granular catalog entry; retain acsm-getp-12 only if the exact claim is located there."
+    },
+    {
+      "id": "a1-tech-051",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Supervised machine learning uses examples with:",
+      "currentOptions": [
+        "Only unlabeled noise",
+        "No input variables",
+        "Known labels or outcomes",
+        "Outcomes created after deployment"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-052",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "High training accuracy but low unseen-athlete accuracy suggests:",
+      "currentOptions": [
+        "Perfect generalization",
+        "No target variable",
+        "A larger external sample",
+        "Overfitting"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-053",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A held-out test set should be used:",
+      "currentOptions": [
+        "For final model evaluation",
+        "To tune parameters repeatedly",
+        "To replace the training set",
+        "Only when training accuracy is low"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-054",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Using a post-injury variable to predict that injury is:",
+      "currentOptions": [
+        "Randomization",
+        "Data leakage",
+        "External validation",
+        "Measurement reliability"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-055",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Sensitivity is the proportion of actual positive cases:",
+      "currentOptions": [
+        "Correctly classified as positive",
+        "Incorrectly classified as negative",
+        "Correctly classified as negative",
+        "Predicted positives that are true"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-056",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "With rare injury cases, accuracy may mislead because a model can:",
+      "currentOptions": [
+        "Predict the common non-injury class",
+        "Have no defined outcome variable",
+        "Become causal without design",
+        "Need no external validation"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-057",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "External validation tests a model on:",
+      "currentOptions": [
+        "A new athlete group or setting",
+        "The same records used to fit it",
+        "Only its training loss",
+        "A larger number of predictors"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-058",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Explainability can help staff:",
+      "currentOptions": [
+        "Guarantee that the model is unbiased",
+        "Treat the prediction as a diagnosis",
+        "Review inputs contributing to a prediction",
+        "Avoid measuring clinical outcomes"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-059",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A serious AI health alert should:",
+      "currentOptions": [
+        "Replace clinical judgment entirely",
+        "Support decisions with human review",
+        "Exclude the athlete automatically",
+        "Publish raw monitoring data"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-060",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A non-randomized model linking GPS load and injury supports:",
+      "currentOptions": [
+        "Evidence that load caused injury",
+        "Evidence that no load is safe",
+        "An association, not causation",
+        "Confounding need not be considered"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a machine-learning definition or validation principle, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly establish the machine-learning method stated in the answer.",
+      "recommendedFix": "Assign an inspected machine-learning, predictive-modelling, or sports-analytics source with a granular catalog entry."
+    },
+    {
+      "id": "a1-tech-071",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Before continuous wearable data are collected, staff should:",
+      "currentOptions": [
+        "Collect every available variable",
+        "Share raw data with all staff",
+        "Obtain informed consent for stated uses",
+        "Use data for unspecified future uses"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-072",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Data minimization means collecting:",
+      "currentOptions": [
+        "Every sensor stream indefinitely",
+        "The most invasive sensor available",
+        "All data for future publication",
+        "Only data needed for a defined purpose"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-073",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "De-identification means that:",
+      "currentOptions": [
+        "Identifiers are masked, but re-identification may remain possible",
+        "Identifiers are masked, so privacy risk is eliminated",
+        "Identifiers are masked, so access controls are unnecessary",
+        "Identifiers are masked, so secondary use is automatically allowed"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-074",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The control most directly limiting access to sensitive data is:",
+      "currentOptions": [
+        "A larger athlete sample size",
+        "A summarized dashboard view",
+        "Role-based access and authentication",
+        "A higher sensor sampling rate"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-075",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Using injury data for unrelated advertising raises a concern about:",
+      "currentOptions": [
+        "Sampling frequency",
+        "Inter-rater reliability",
+        "Purpose limitation",
+        "Regression to the mean"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-076",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A retention policy should specify:",
+      "currentOptions": [
+        "Permanent retention without review",
+        "A complete copy for every coach",
+        "No athlete access to records",
+        "Retention period and secure deletion"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-077",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "To reduce AI bias across diverse athletes, developers should:",
+      "currentOptions": [
+        "Check subgroup performance on representative data",
+        "Remove subgroup information without evaluation",
+        "Optimize only the overall accuracy score",
+        "Assume a large data set is automatically fair"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-078",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A safeguard for a high-impact AI participation recommendation is:",
+      "currentOptions": [
+        "Automatic action with no review",
+        "Human oversight and reviewable reasoning",
+        "A prediction with no human review",
+        "Permanent exclusion after one alert"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-079",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Before secondary research use of identifiable monitoring data, staff should:",
+      "currentOptions": [
+        "Check ethics approval and consent or waiver",
+        "Assume original consent covers all uses",
+        "Remove dates and skip ethical review",
+        "Proceed without research ethics review"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-080",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "After unauthorized database access, the immediate response is to:",
+      "currentOptions": [
+        "Contain access and follow breach procedures",
+        "Ignore the breach if no injury occurred",
+        "Delete the audit logs immediately",
+        "Publish all affected records to staff"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific data-governance, privacy, AI-bias, consent, or breach-control rule, while sourceId sai-notification-2026 records only the recruitment syllabus and its topic heading; the notification does not itself provide the detailed rule asserted.",
+      "recommendedFix": "Assign an inspected privacy, research-ethics, or AI-governance source with a granular catalog entry; keep the SAI notification as a syllabus-mapping source if needed."
+    },
+    {
+      "id": "a1-tech-081",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The mean of 4 s, 6 s, and 8 s is:",
+      "currentOptions": [
+        "6 s",
+        "5 s",
+        "7 s",
+        "18 s"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-082",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Standard deviation primarily describes:",
+      "currentOptions": [
+        "Direction of a measured association",
+        "The number of observations",
+        "Probability that the null is true",
+        "Spread of observations around the mean"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-083",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Which summary is least affected by one extreme high outlier?",
+      "currentOptions": [
+        "Median",
+        "Mean",
+        "Variance",
+        "Standard error"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-084",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Descriptive analysis primarily:",
+      "currentOptions": [
+        "Proves population representation",
+        "Summarizes the observed data",
+        "Establishes causation",
+        "Replaces measurement protocol"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-085",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Inferential statistics primarily help to:",
+      "currentOptions": [
+        "Rename variables in a statistical dataset",
+        "Remove variation from measurements",
+        "Estimate population claims from samples",
+        "Display one raw observation"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-086",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a symmetric normal distribution, mean and median are:",
+      "currentOptions": [
+        "Always zero",
+        "Always different",
+        "Equal",
+        "Undefined"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-087",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The interquartile range equals:",
+      "currentOptions": [
+        "Maximum value minus minimum value",
+        "Mean divided by standard deviation",
+        "Third quartile minus first quartile",
+        "Sample size minus the median"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-088",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "If sample size increases from 25 to 100 with SD fixed, standard error:",
+      "currentOptions": [
+        "Becomes twice as large",
+        "Remains unchanged",
+        "Becomes four times larger",
+        "Becomes half as large"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-089",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A box plot most directly shows:",
+      "currentOptions": [
+        "The raw time sequence",
+        "Median, quartiles, and outliers",
+        "A causal treatment effect",
+        "An exact injury probability"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-090",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A p-value is, under the null model, the probability of observing:",
+      "currentOptions": [
+        "The null hypothesis itself",
+        "A clinically important effect size",
+        "A representative sample of athletes",
+        "Data at least as extreme as observed"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-091",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Pre- and post-training scores from the same athletes use a:",
+      "currentOptions": [
+        "Paired t-test",
+        "One-sample t-test",
+        "Independent-groups t-test",
+        "Chi-square test"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-092",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "An independent-groups t-test compares means of:",
+      "currentOptions": [
+        "Two separate groups",
+        "Three repeated time points",
+        "Two variables from one athlete",
+        "One sample with no reference"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-093",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The null mean difference in a two-sided paired t-test is usually:",
+      "currentOptions": [
+        "Greater than one",
+        "Equal to the sample SD",
+        "Equal to zero",
+        "Always positive"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-094",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "With p = 0.03 and alpha = 0.05, the usual decision is to:",
+      "currentOptions": [
+        "Accept a practically large effect",
+        "Reject the null at the 5% level",
+        "Prove the alternative hypothesis",
+        "Ignore the statistical result"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-095",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A paired t-test first forms:",
+      "currentOptions": [
+        "A new random sample of athletes",
+        "Each athlete's paired difference",
+        "The maximum score in each group",
+        "A rank for every team member"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-096",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For two independent groups with unequal variances, use:",
+      "currentOptions": [
+        "A paired t-test",
+        "Repeated-measures ANOVA",
+        "A histogram",
+        "Welch's t-test"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-097",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Many separate t-tests increase risk of:",
+      "currentOptions": [
+        "Lowering every mean",
+        "Inflated familywise Type I error",
+        "Creating a paired design",
+        "Eliminating random variation"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-098",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A 95% CI for a mean difference of -1.2 to 0.4:",
+      "currentOptions": [
+        "Excludes zero and supports a positive change",
+        "Rules out a true mean difference of zero",
+        "Shows that all athletes improved equally",
+        "Includes zero; not conventionally significant"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-099",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A mean difference of 4 with SE 2 gives a t statistic of:",
+      "currentOptions": [
+        "0.5",
+        "2",
+        "1",
+        "8"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-100",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For mean change 2, SD 4, and n 16, standard error is:",
+      "currentOptions": [
+        "0.5",
+        "2",
+        "4",
+        "1"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-101",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A one-way ANOVA compares means across:",
+      "currentOptions": [
+        "A single independent group",
+        "Two measurements from one athlete",
+        "Three or more independent groups",
+        "Two categorical variables only"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-102",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The ANOVA F statistic is:",
+      "currentOptions": [
+        "Within-group MS / sample size",
+        "Overall mean / standard deviation",
+        "Between-group MS / within-group MS",
+        "Number of groups / p-value"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-103",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A significant omnibus ANOVA indicates:",
+      "currentOptions": [
+        "Every group differs",
+        "At least one group mean differs",
+        "The largest group is best",
+        "The factor caused the outcome"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-104",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A post-hoc comparison helps:",
+      "currentOptions": [
+        "Increase the study sample",
+        "Replace the measured outcome",
+        "Report only the overall p-value",
+        "Identify group pairs that differ"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-105",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Three time points from the same athletes suit:",
+      "currentOptions": [
+        "Independent-groups ANOVA",
+        "Repeated-measures ANOVA",
+        "A single correlation",
+        "A frequency table"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-106",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A two-way ANOVA tests:",
+      "currentOptions": [
+        "The mean of one independent group",
+        "Two main effects and their interaction",
+        "The standard deviation of the sample",
+        "Only whether the data are normally distributed"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-107",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "An interaction means:",
+      "currentOptions": [
+        "The outcome has no meaningful variability",
+        "One factor's effect depends on the other factor",
+        "All cell means are exactly equal across groups",
+        "The outcome is measured as categories"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-108",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A common ANOVA assumption is:",
+      "currentOptions": [
+        "Equal group labels",
+        "A zero sample mean",
+        "Correlation of exactly one",
+        "Homogeneity of variance"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-109",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "If between- and within-group mean squares are equal, F is near:",
+      "currentOptions": [
+        "0",
+        "1",
+        "10",
+        "The sample size"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-110",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Specific pairwise claims after ANOVA should wait for:",
+      "currentOptions": [
+        "A rounded version of the p-value",
+        "Removal of the largest group",
+        "Hiding the raw observations",
+        "A post-hoc or planned comparison"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-111",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Pearson r ranges from:",
+      "currentOptions": [
+        "-1 to +1",
+        "0 to 100",
+        "-100 to +100",
+        "1 to sample size"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-112",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "An r of 0.80 indicates:",
+      "currentOptions": [
+        "Proof of a causal effect in the sample",
+        "A strong positive linear association",
+        "Evidence of no linear association",
+        "A mean difference of 0.80 units"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-113",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Pearson r = 0 most safely indicates:",
+      "currentOptions": [
+        "No possible relationship at all",
+        "A perfect negative association",
+        "No linear association in the sample",
+        "Identical means in the two variables"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-114",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "If r = 0.70, r squared = 0.49 suggests:",
+      "currentOptions": [
+        "Proof that the predictor caused the outcome in this sample",
+        "About 49% of outcome variation is explained by the model",
+        "A 49-unit outcome increase for each predictor unit",
+        "A p-value exactly equal to 0.49 for the fitted model"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-115",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "An extreme observation can change Pearson r by:",
+      "currentOptions": [
+        "Increasing the sample size alone",
+        "Converting both variables to categories",
+        "Removing measurement error from data",
+        "Altering covariance and the fitted line"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-116",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For ranked monotonic non-normal soreness scores, use:",
+      "currentOptions": [
+        "A paired-samples t-test",
+        "An ANOVA F statistic",
+        "The standard deviation alone",
+        "Spearman rank correlation"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-117",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A strong load-injury correlation should not be treated as:",
+      "currentOptions": [
+        "Evidence of association",
+        "Proof that load caused injury",
+        "A reason to examine confounding",
+        "A finding requiring context"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-118",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Repeated observations from one athlete may violate:",
+      "currentOptions": [
+        "Numerical measurement",
+        "Independence",
+        "Common units",
+        "Alphabetical ordering"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-119",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Before reporting Pearson r, inspect a:",
+      "currentOptions": [
+        "A scatterplot for linearity and outliers",
+        "A histogram for one variable only",
+        "A pie chart of training categories",
+        "A table of athlete identifiers"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-120",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A positive sample r with non-significant p is:",
+      "currentOptions": [
+        "Proof that the population correlation is zero",
+        "Evidence of a large practical effect",
+        "Proof that all measurements are identical",
+        "An association with limited population evidence"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-121",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A regression slope of 0.4 means a one-unit predictor increase is associated with a predicted:",
+      "currentOptions": [
+        "A 0.4-unit increase in sample size",
+        "A 0.4-unit increase in outcome",
+        "64% of outcome variance explained",
+        "A p-value equal to 0.4"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-122",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "The regression intercept is the predicted outcome when the predictor is:",
+      "currentOptions": [
+        "At its mean",
+        "One SD above mean",
+        "At its maximum",
+        "Zero"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-123",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "R squared = 0.64 means the model accounts for:",
+      "currentOptions": [
+        "64% prediction accuracy for every athlete",
+        "64% of outcome variation in the fitted sample",
+        "A regression slope of exactly 0.64 units",
+        "64% improvement among all athletes"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-124",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A regression residual is:",
+      "currentOptions": [
+        "Observed minus predicted outcome",
+        "Sample size minus the mean",
+        "Predictor value minus its SD",
+        "Difference between group means"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-125",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "An observational regression association does not prove causation because:",
+      "currentOptions": [
+        "Regression cannot use numerical data",
+        "Every regression slope is automatically causal",
+        "R squared is always equal to zero",
+        "Association alone cannot establish causation"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-126",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Adding age and baseline fitness mainly aims to:",
+      "currentOptions": [
+        "Guarantee that data are complete",
+        "Make the sample randomly selected",
+        "Convert all predictors to categories",
+        "Adjust for measured covariates"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-127",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A categorical predictor can be entered using:",
+      "currentOptions": [
+        "A force-plate measurement",
+        "The predictor's mean value",
+        "Dummy or indicator coding",
+        "A confidence interval alone"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-128",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Prediction outside the observed predictor range is:",
+      "currentOptions": [
+        "Interpolation",
+        "Extrapolation",
+        "Randomization",
+        "Standardization"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-129",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A widening residual fan suggests:",
+      "currentOptions": [
+        "Perfect normality",
+        "A zero intercept",
+        "Heteroscedasticity",
+        "No measurement scale"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-130",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In performance-data analysis, RMSE is expressed:",
+      "currentOptions": [
+        "Only as a statistical p-value",
+        "As the sign of a correlation",
+        "As the number of model predictors",
+        "In the outcome's original units"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-131",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A frequentist 95% CI procedure means about 95% of repeated intervals contain the:",
+      "currentOptions": [
+        "An individual athlete's future score",
+        "A fixed population parameter",
+        "The null hypothesis itself",
+        "The sample's exact raw values"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-132",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A CI for a mean difference of 2 to 6 units is compatible with:",
+      "currentOptions": [
+        "Only a negative difference",
+        "No difference at all",
+        "A difference above 10 units",
+        "A positive difference throughout"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-133",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Increasing sample size generally makes a CI:",
+      "currentOptions": [
+        "Becomes wider overall",
+        "Becomes narrower overall",
+        "Becomes exactly zero",
+        "Unrelated to standard error"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-134",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A 99% CI from the same data is generally:",
+      "currentOptions": [
+        "Narrower than a 95% CI",
+        "Identical to a 95% CI",
+        "Centered at zero",
+        "Wider than a 95% CI"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-135",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a symmetric CI, the point estimate is at the:",
+      "currentOptions": [
+        "The lower confidence limit",
+        "The upper confidence limit",
+        "The confidence-level value",
+        "The centre of the interval"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-136",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A CI for mean change of -0.5 to 1.5:",
+      "currentOptions": [
+        "Excludes a zero mean change",
+        "Proves a positive mean change",
+        "Shows every athlete changed equally",
+        "Includes a zero mean change"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-137",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Mean 50 and SE 2 give an approximate normal 95% CI of:",
+      "currentOptions": [
+        "46.08 to 53.92",
+        "48 to 52",
+        "46 to 54",
+        "40 to 60"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-138",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A benefit CI of 0.2 to 0.8 crossing threshold 0.5 means:",
+      "currentOptions": [
+        "The effect is definitely below 0.5",
+        "The effect is definitely above 0.5",
+        "The estimate equals 0.5 exactly",
+        "The CI crosses the practical threshold"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-139",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A worthwhile change 0.5 with CI -0.1 to 0.1 is consistent with:",
+      "currentOptions": [
+        "A definite worthwhile performance benefit",
+        "A broad range of large performance benefits",
+        "The CI excludes effects as large as 0.5",
+        "Proof that the intervention causes harm"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-140",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A confidence interval primarily communicates:",
+      "currentOptions": [
+        "The probability of each athlete's score",
+        "The exact range of future observations",
+        "The causal mechanism of the effect",
+        "Precision and uncertainty of the estimate"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-141",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Cohen's d is a mean difference divided by the:",
+      "currentOptions": [
+        "The number of participants in each sample",
+        "The reported p-value from the comparison",
+        "The selected confidence level",
+        "The pooled standard deviation"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-142",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Effect size primarily describes:",
+      "currentOptions": [
+        "The magnitude of an observed difference or association",
+        "The probability that the null hypothesis is true",
+        "The number of predictors included in a statistical model",
+        "The number of participants included in a study"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-143",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A standardized mean difference d = 0 indicates:",
+      "currentOptions": [
+        "No standardized difference between means",
+        "Statistical significance of the result",
+        "A very large practical effect size",
+        "Zero participants in the sample"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-144",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Eta squared represents the proportion of:",
+      "currentOptions": [
+        "Between-athlete variance in improvement",
+        "P-values below the chosen alpha level",
+        "Observations missing from the dataset",
+        "Total variance explained by the factor"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-145",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For two continuous variables, r can serve as:",
+      "currentOptions": [
+        "An association effect-size measure",
+        "A replacement for raw data",
+        "A causal coefficient by definition",
+        "A retention measure"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-146",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Two studies can have the same p-value but different effect sizes because:",
+      "currentOptions": [
+        "Practical importance must be identical",
+        "The studies must have equal sample sizes",
+        "Both observed effects are causal",
+        "P-value does not determine effect magnitude"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-147",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Practical value should be compared with:",
+      "currentOptions": [
+        "A worthwhile-change threshold",
+        "Alphabetical order of the athletes",
+        "Only the largest p-value",
+        "The volume of raw data"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-148",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "Cohen's d differs from a raw difference because it:",
+      "currentOptions": [
+        "Uses original units without adjustment",
+        "Ignores all outcome variability",
+        "Applies only to categorical outcomes",
+        "Standardizes the difference by variability"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-149",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A CI around an effect size describes its:",
+      "currentOptions": [
+        "Exact future value",
+        "Probability of causation",
+        "Number of study variables",
+        "Precision and plausible range"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-tech-150",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "A tiny gain can be statistically significant but practically unimportant, showing:",
+      "currentOptions": [
+        "Large samples eliminate all sources of bias",
+        "Statistical and practical significance differ",
+        "Effect size is unnecessary for interpretation",
+        "A p-value measures athlete motivation"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific statistical definition, formula, test assumption, or effect-size interpretation, but sourceId world-physiotherapy-ebp-2023 is catalogued as a broad evidence-based-practice policy and does not directly substantiate the statistical claim.",
+      "recommendedFix": "Assign an inspected statistics or biostatistics source with a granular chapter/section locator; keep the EBP policy only for evidence-interpretation items it directly supports."
+    },
+    {
+      "id": "a1-holistic-001",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Maximal strength and power without progressive loading",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-002",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading",
+        "Aerobic capacity without endurance training",
+        "Flexibility, balance, body awareness, and mobility"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-003",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-004",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Maximal strength and power without progressive loading",
+        "Flexibility, balance, body awareness, and mobility",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-005",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading",
+        "Aerobic capacity without endurance training"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-006",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-007",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Maximal strength and power without progressive loading",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-008",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading",
+        "Flexibility, balance, body awareness, and mobility",
+        "Aerobic capacity without endurance training"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-009",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Aerobic capacity without endurance training",
+        "Flexibility, balance, body awareness, and mobility",
+        "Sport-specific skill without sport practice",
+        "Maximal strength and power without progressive loading"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-010",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Maximal strength and power without progressive loading",
+        "Flexibility, balance, body awareness, and mobility",
+        "Aerobic capacity without endurance training",
+        "Sport-specific skill without sport practice"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-011",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Progressive loading of muscles",
+        "Intentional regulation of breathing",
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-012",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Alignment of postures and movement",
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations",
+        "Intentional regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-013",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement",
+        "Intentional regulation of breathing",
+        "Progressive loading of muscles"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-014",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement",
+        "Intentional regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-015",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Intentional regulation of breathing",
+        "Alignment of postures and movement",
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-016",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Mindfulness of thoughts and sensations",
+        "Intentional regulation of breathing",
+        "Alignment of postures and movement",
+        "Progressive loading of muscles"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-017",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Intentional regulation of breathing",
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-018",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Alignment of postures and movement",
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations",
+        "Intentional regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-019",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement",
+        "Progressive loading of muscles",
+        "Intentional regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-020",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Progressive loading of muscles",
+        "Mindfulness of thoughts and sensations",
+        "Alignment of postures and movement",
+        "Intentional regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-021",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue",
+        "Present-moment awareness with non-reactive attention"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-022",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Focused attention on a selected performance cue",
+        "Present-moment awareness with non-reactive attention",
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-023",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Cognitive restructuring of an unhelpful belief",
+        "Present-moment awareness with non-reactive attention",
+        "Focused attention on a selected performance cue",
+        "Mental imagery of a planned competition scenario"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-024",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-025",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Focused attention on a selected performance cue",
+        "Mental imagery of a planned competition scenario",
+        "Present-moment awareness with non-reactive attention",
+        "Cognitive restructuring of an unhelpful belief"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-026",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue",
+        "Mental imagery of a planned competition scenario"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-027",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue",
+        "Present-moment awareness with non-reactive attention"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-028",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Focused attention on a selected performance cue",
+        "Present-moment awareness with non-reactive attention",
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-029",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue",
+        "Present-moment awareness with non-reactive attention",
+        "Mental imagery of a planned competition scenario"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-030",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Mental imagery of a planned competition scenario",
+        "Cognitive restructuring of an unhelpful belief",
+        "Focused attention on a selected performance cue"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a specific yoga, pranayama, or mindfulness concept, while sourceId sai-notification-2026 identifies the syllabus area but does not provide the substantive yoga or mind-body definition asserted.",
+      "recommendedFix": "Assign an inspected yoga, mind-body, or sports-psychology source with a granular catalog entry; retain the SAI notification as the syllabus source."
+    },
+    {
+      "id": "a1-holistic-111",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-112",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Making unsupported claims about likely performance",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-113",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Making unsupported claims about likely performance",
+        "Sharing private data without appropriate consent",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Prioritizing medals over safety and informed choice"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-114",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Sharing private data without appropriate consent",
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-115",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-116",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Making unsupported claims about likely performance",
+        "Sharing private data without appropriate consent",
+        "Prioritizing medals over safety and informed choice",
+        "Protecting welfare, privacy, autonomy, and informed choice"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-117",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Sharing private data without appropriate consent",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-118",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Making unsupported claims about likely performance",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-119",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-120",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Sharing private data without appropriate consent",
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-121",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition",
+        "Clear roles, shared information, agreed goals, and team communication"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-122",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition",
+        "Unrecorded assumptions about the athlete's needs and goals"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-123",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-124",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-125",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition",
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Clear roles, shared information, agreed goals, and team communication"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-126",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Only the athlete's final ranking and selection status in competition",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-127",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-128",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition",
+        "Unrecorded assumptions about the athlete's needs and goals"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-129",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Only the athlete's final ranking and selection status in competition",
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-130",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Competing private plans without shared review or coordination",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-131",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-132",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Unrestricted public access to confidential athlete records",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-133",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Replacing professional discussion with automated reports",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-134",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Replacing professional discussion with automated reports",
+        "Unrestricted public access to confidential athlete records",
+        "Data collection without defined purpose or governance",
+        "Secure records, communication, monitoring, and shared decisions"
+      ],
+      "currentCorrect": 3,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-135",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-136",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Secure records, communication, monitoring, and shared decisions",
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-137",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records",
+        "Data collection without defined purpose or governance"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-138",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records",
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports"
+      ],
+      "currentCorrect": 0,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-139",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 2,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    },
+    {
+      "id": "a1-holistic-140",
+      "type": "sourceId-specificity",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records",
+        "Data collection without defined purpose or governance"
+      ],
+      "currentCorrect": 1,
+      "rationale": "The stem tests a detailed professional-ethics, interdisciplinary-team, athlete-management-system, or reporting principle, while sourceId sai-notification-2026 identifies the syllabus topics but does not itself substantiate the detailed operational claim.",
+      "recommendedFix": "Assign an inspected sports-ethics, athlete-management, privacy, or evidence-reporting source with a granular catalog entry; retain the SAI notification as a syllabus-mapping source."
+    }
+  ],
+  "optionLengthAudit": {
+    "primaryRule": "Flag if correct length exceeds median distractor length by more than 8 characters or total option spread exceeds 15 characters.",
+    "technology": {
+      "count": 150,
+      "primaryFlags": 0,
+      "strictlyLongestCorrect": 52,
+      "strictlyShortestCorrect": 15,
+      "maxOptionSpread": 15
+    },
+    "holistic": {
+      "count": 150,
+      "primaryFlags": 0,
+      "strictlyLongestCorrect": 80,
+      "strictlyShortestCorrect": 0,
+      "maxOptionSpread": 13
+    },
+    "interpretation": "No primary length flags were found. Strictly-longest correct options remain a secondary statistical pattern: 52/150 in technology and 80/150 in holistic. These were not counted as item-level defects because the observed spreads remain at or below 15 characters and content review did not show a clear length-only giveaway for every flagged item."
+  },
+  "validationChecks": {
+    "fourOptionsEveryQuestion": true,
+    "validZeroBasedCorrectIndices": true,
+    "validSourceIds": true,
+    "syllabusMappingsValid": true,
+    "exactDuplicateTextsWithinAssignedGroups": 0,
+    "exactDuplicateTextsAgainstOtherMergedA1Groups": 0
+  },
+  "reviewConclusion": "All 300 assigned questions were read from the current retained files and their corresponding merged entries. The substantive answer, explanation, distractor, schema, and syllabus mappings were defensible on review. The reported defects are provenance-specificity defects requiring more granular inspected source IDs."
+}

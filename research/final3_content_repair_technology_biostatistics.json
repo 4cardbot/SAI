@@ -1,0 +1,377 @@
+{
+  "auditType": "Final targeted content and provenance audit of technology/biostatistics A1 questions",
+  "generatedAt": "2026-08-16",
+  "readOnlyAuditCompleted": true,
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "changedCount": 10,
+  "answerKeyFixCount": 0,
+  "optionRevisionCount": 8,
+  "explanationRevisionCount": 10,
+  "questionTextRevisionCount": 0,
+  "sourceIdRevisionCount": 0,
+  "reviewSummary": {
+    "schema": {
+      "questionCount": 150,
+      "fourOptionsEach": true,
+      "validZeroBasedCorrectIndices": true,
+      "allQuestionIdsUnique": true,
+      "allSourceIdsResolve": true
+    },
+    "optionLength": {
+      "strictlyLongestCorrectBefore": 52,
+      "strictlyLongestCorrectAfter": 46,
+      "strictlyLongestCorrectRateAfter": 0.3067,
+      "primaryFlagCountAfter": 0,
+      "spreadAbove15CountAfter": 0,
+      "answerPositionCountsAfter": [
+        39,
+        38,
+        37,
+        36
+      ],
+      "reviewDecision": "Only content-supported revisions were made; no padding or forced option reordering was used."
+    },
+    "duplicates": {
+      "exactNormalizedStemCount": 0,
+      "contextStrippedStemClusterCount": 0,
+      "nearDuplicateDecision": "No remaining near-duplicate stem families were found within this 150-question file."
+    },
+    "provenance": {
+      "explicitSourceIdsPreserved": true,
+      "currentSourceIdsInspected": [
+        "wearable-athlete-sensors-seshadri-2019",
+        "gps-validity-scott-2016",
+        "ioc-load-illness-2016",
+        "neumann-kinesiology",
+        "scikit-learn-supervised-learning",
+        "nist-ai-rmf-2023",
+        "unesco-ai-ethics-2021",
+        "nist-sematech-statistics",
+        "nakagawa-cuthill-effect-size-2007"
+      ]
+    }
+  },
+  "changes": [
+    {
+      "id": "a1-tech-009",
+      "defectType": "source-explanation-specificity",
+      "originalText": "Two wearables report different distances. The strongest first comparison is with:",
+      "revisedText": "Two wearables report different distances. The strongest first comparison is with:",
+      "originalOptions": [
+        "The larger device reading",
+        "A standardized criterion distance",
+        "The device with longer battery life",
+        "The average of both readings"
+      ],
+      "revisedOptions": [
+        "The larger device reading",
+        "A standardized criterion distance",
+        "The device with longer battery life",
+        "The average of both readings"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "A standardized criterion distance provides a reference for evaluating the validity of wearable distance estimates.",
+      "sourceId": "gps-validity-scott-2016",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The option set and key were sound, but the former generic wearable explanation did not directly justify criterion comparison. The revised explanation states the validity rationale supported by the GPS review.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — gps-validity-scott-2016 scope and locator",
+        "https://pubmed.ncbi.nlm.nih.gov/26439776/ — GPS validity and reliability review"
+      ]
+    },
+    {
+      "id": "a1-tech-010",
+      "defectType": "source-explanation-specificity",
+      "originalText": "The wearable output most directly representing internal load is:",
+      "revisedText": "The wearable output most directly representing internal load is:",
+      "originalOptions": [
+        "Total distance",
+        "High-speed running distance",
+        "Heart-rate response",
+        "Number of accelerations"
+      ],
+      "revisedOptions": [
+        "Total distance",
+        "High-speed running distance",
+        "Heart-rate response",
+        "Number of accelerations"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalExplanation": "Wearable outputs are sensor-derived estimates and should be interpreted with validity, reliability, and context.",
+      "revisedExplanation": "Heart-rate response is an internal-load indicator, whereas distance and acceleration metrics represent external load.",
+      "sourceId": "gps-validity-scott-2016",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The revised explanation directly distinguishes the keyed internal-load measure from the external-load distractors without changing the options or answer index.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — gps-validity-scott-2016 scope and locator",
+        "https://pubmed.ncbi.nlm.nih.gov/26439776/ — GPS and team-sport load-measure review"
+      ]
+    },
+    {
+      "id": "a1-tech-072",
+      "defectType": "option-length-and-definition-clarity",
+      "originalText": "Data minimization means collecting:",
+      "revisedText": "Data minimization means collecting:",
+      "originalOptions": [
+        "Every sensor stream indefinitely",
+        "The most invasive sensor available",
+        "All data for future publication",
+        "Only data needed for a defined purpose"
+      ],
+      "revisedOptions": [
+        "Every sensor stream indefinitely",
+        "The most invasive sensor available",
+        "All data for future publication",
+        "Only data necessary for that purpose"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Data minimization limits collection to information necessary for the stated purpose.",
+      "sourceId": "unesco-ai-ethics-2021",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The correct option was only modestly longer, but its wording could be made more concise and definition-focused. The revision preserves the requirement that collection be necessary for a stated purpose and removes the extra qualifier that made the answer more visually distinctive.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — unesco-ai-ethics-2021 scope and locator",
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence — data governance and purpose-limitation principles"
+      ]
+    },
+    {
+      "id": "a1-tech-074",
+      "defectType": "option-length-and-terminology-clarity",
+      "originalText": "The control most directly limiting access to sensitive data is:",
+      "revisedText": "The control most directly limiting access to sensitive data is:",
+      "originalOptions": [
+        "A larger athlete sample size",
+        "A summarized dashboard view",
+        "Role-based access and authentication",
+        "A higher sensor sampling rate"
+      ],
+      "revisedOptions": [
+        "A larger athlete sample size",
+        "A summarized dashboard view",
+        "Role-based access controls",
+        "A higher sensor sampling rate"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Role-based access controls limit who may view sensitive records, while authentication verifies the user's identity.",
+      "sourceId": "unesco-ai-ethics-2021",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The former answer was the clear longest option and combined two related controls. The shorter standard term is a more parallel option; the explanation retains the distinction between access control and authentication.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — unesco-ai-ethics-2021 scope and locator",
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence — data governance, security and accountability principles"
+      ]
+    },
+    {
+      "id": "a1-tech-078",
+      "defectType": "option-length-and-grammar-parallelism",
+      "originalText": "A safeguard for a high-impact AI participation recommendation is:",
+      "revisedText": "A safeguard for a high-impact AI participation recommendation is:",
+      "originalOptions": [
+        "Automatic action with no review",
+        "Human oversight and reviewable reasoning",
+        "A prediction with no human review",
+        "Permanent exclusion after one alert"
+      ],
+      "revisedOptions": [
+        "Automatic action with no review",
+        "Human review before implementation",
+        "A prediction with no human review",
+        "Permanent exclusion after one alert"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalExplanation": "Ethical monitoring requires informed consent, purpose limitation, minimization, secure access, and accountability.",
+      "revisedExplanation": "Human oversight and reviewable reasoning help keep high-impact AI recommendations accountable.",
+      "sourceId": "unesco-ai-ethics-2021",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The original correct option was the only substantially longer option. Human review before implementation preserves the human-oversight safeguard in a concise noun phrase that is grammatically parallel with the distractors.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — unesco-ai-ethics-2021 scope and locator",
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence — human oversight, transparency and accountability"
+      ]
+    },
+    {
+      "id": "a1-tech-137",
+      "defectType": "numeric-format-giveaway-and-explanation-specificity",
+      "originalText": "Mean 50 and SE 2 give an approximate normal 95% CI of:",
+      "revisedText": "Mean 50 and SE 2 give an approximate normal 95% CI of:",
+      "originalOptions": [
+        "46.08 to 53.92",
+        "48 to 52",
+        "46 to 54",
+        "40 to 60"
+      ],
+      "revisedOptions": [
+        "46.08 to 53.92",
+        "48.00 to 52.00",
+        "46.00 to 54.00",
+        "40.00 to 60.00"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "Using mean ± 1.96 × SE gives 50 ± 3.92, or approximately 46.08 to 53.92.",
+      "sourceId": "nist-sematech-statistics",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The precise two-decimal correct answer was visually distinctive because all distractors used fewer decimal places. Consistent two-decimal formatting removes that cue while preserving the calculation and key.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — nist-sematech-statistics scope and locator",
+        "https://www.itl.nist.gov/div898/handbook/index2.htm — confidence intervals and standard-error methods"
+      ]
+    },
+    {
+      "id": "a1-tech-138",
+      "defectType": "option-length-and-explanation-specificity",
+      "originalText": "A benefit CI of 0.2 to 0.8 crossing threshold 0.5 means:",
+      "revisedText": "A benefit CI of 0.2 to 0.8 crossing threshold 0.5 means:",
+      "originalOptions": [
+        "The effect is definitely below 0.5",
+        "The effect is definitely above 0.5",
+        "The estimate equals 0.5 exactly",
+        "The CI crosses the practical threshold"
+      ],
+      "revisedOptions": [
+        "The effect is definitely below 0.5",
+        "The effect is definitely above 0.5",
+        "The estimate equals 0.5 exactly",
+        "The interval includes threshold 0.5"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalExplanation": "Confidence intervals communicate sampling precision and uncertainty, not a causal mechanism or an individual forecast.",
+      "revisedExplanation": "Because the interval extends on both sides of 0.5, the estimate is uncertain relative to that practical threshold.",
+      "sourceId": "nist-sematech-statistics",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The revised option states the interval interpretation more directly and reduces the correct option's length without changing the conclusion that the CI contains the practical threshold.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — nist-sematech-statistics scope and locator",
+        "https://www.itl.nist.gov/div898/handbook/index2.htm — interval interpretation and uncertainty"
+      ]
+    },
+    {
+      "id": "a1-tech-143",
+      "defectType": "option-length-and-definition-clarity",
+      "originalText": "A standardized mean difference d = 0 indicates:",
+      "revisedText": "A standardized mean difference d = 0 indicates:",
+      "originalOptions": [
+        "No standardized difference between means",
+        "Statistical significance of the result",
+        "A very large practical effect size",
+        "Zero participants in the sample"
+      ],
+      "revisedOptions": [
+        "No standardized mean difference",
+        "Statistical significance of the result",
+        "A very large practical effect size",
+        "Zero participants in the sample"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "A standardized mean difference of zero means the means differ by zero after standardization; it does not establish significance or practical importance.",
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The shorter option is grammatically complete after the stem, remains unambiguous, and avoids making the correct option the longest solely because of redundant wording.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — nakagawa-cuthill-effect-size-2007 scope and locator",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/ — effect-size magnitude and interpretation"
+      ]
+    },
+    {
+      "id": "a1-tech-146",
+      "defectType": "option-length-and-explanation-specificity",
+      "originalText": "Two studies can have the same p-value but different effect sizes because:",
+      "revisedText": "Two studies can have the same p-value but different effect sizes because:",
+      "originalOptions": [
+        "Practical importance must be identical",
+        "The studies must have equal sample sizes",
+        "Both observed effects are causal",
+        "P-value does not determine effect magnitude"
+      ],
+      "revisedOptions": [
+        "Practical importance must be identical",
+        "The studies must have equal sample sizes",
+        "Both observed effects are causal",
+        "P-values do not fix effect magnitude"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Statistical significance depends on effect, variability, and sample size; a p-value alone does not determine effect magnitude.",
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The revised option is shorter and more natural after 'because:' while preserving the distinction between p-value and effect magnitude. The explanation makes the sample-size and variability dependence explicit.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — nakagawa-cuthill-effect-size-2007 scope and locator",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/ — relationship among effect size, uncertainty and statistical significance"
+      ]
+    },
+    {
+      "id": "a1-tech-148",
+      "defectType": "option-length-and-terminology-precision",
+      "originalText": "Cohen's d differs from a raw difference because it:",
+      "revisedText": "Cohen's d differs from a raw difference because it:",
+      "originalOptions": [
+        "Uses original units without adjustment",
+        "Ignores all outcome variability",
+        "Applies only to categorical outcomes",
+        "Standardizes the difference by variability"
+      ],
+      "revisedOptions": [
+        "Uses original units without adjustment",
+        "Ignores all outcome variability",
+        "Applies only to categorical outcomes",
+        "Divides the difference by pooled SD"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "revisedExplanation": "Cohen's d standardizes a mean difference by a measure of pooled within-group variability.",
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "sourceIdUnchanged": true,
+      "reviewerNote": "The revised option is shorter and more precise than the broad phrase 'by variability': Cohen's d uses a pooled standard-deviation denominator. The answer remains option index 3.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — nakagawa-cuthill-effect-size-2007 scope and locator",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/ — standardized effect-size interpretation"
+      ]
+    }
+  ],
+  "unresolvedConcerns": [
+    {
+      "defectType": "provenance-helper-scope",
+      "severity": "low",
+      "questionRanges": [
+        "a1-tech-001..a1-tech-150"
+      ],
+      "reviewerNote": "The retained questions contain explicit, valid sourceId values and those values are the source of truth. The keyword fallback in sourceIdForQuestion() is broader than the explicit range mappings when a question has no sourceId; the shared source catalog was intentionally not edited in this scoped repair.",
+      "recommendedFollowUp": "Add a regression check or explicit range mapping in the central provenance workflow; no question-file change is required."
+    },
+    {
+      "defectType": "source-granularity",
+      "severity": "medium",
+      "questionRanges": [
+        "a1-tech-011..a1-tech-020",
+        "a1-tech-061..a1-tech-070"
+      ],
+      "sourceIds": [
+        "ioc-load-illness-2016"
+      ],
+      "reviewerNote": "The IOC load/illness consensus supports training-load, monitoring and recovery interpretation, but the current catalog locator is broad for some GPS implementation and athlete-management-system details. The source ID was preserved as instructed, and no factual answer defect was found.",
+      "recommendedFollowUp": "Add granular locators or a dedicated inspected GPS/AMS source in the central catalog."
+    },
+    {
+      "defectType": "near-duplicate-review",
+      "severity": "none",
+      "questionRanges": [],
+      "reviewerNote": "No exact or context-stripped near-duplicate family remained within the technology/biostatistics file after normalization review."
+    }
+  ]
+}

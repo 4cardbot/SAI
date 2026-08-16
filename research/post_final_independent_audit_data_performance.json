@@ -1,0 +1,218 @@
+{
+  "auditType": "post_final_independent_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "retainedFiles": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "inspectedSources": [
+      "src/data/sourceCatalog.ts",
+      "research/final3_content_repair_data_analytics.json",
+      "research/final4_length_repair_data_analytics.json",
+      "research/final3_content_repair_performance_recovery.json",
+      "research/final4_length_repair_performance_recovery.json"
+    ],
+    "reviewCoverage": "All 300 retained questions were structurally enumerated and content-reviewed; high-confidence candidates were manually checked against their stems, options, explanations, source catalog scopes, and remediation logs."
+  },
+  "metrics": {
+    "retainedQuestionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "mergedA1QuestionCount": 900,
+    "mergedEntriesCompared": 300,
+    "mergedEntryMismatches": 0,
+    "uniqueIdsAcrossAuditedFiles": 300,
+    "schema": {
+      "requiredFieldErrors": 0,
+      "nonStandardKeyErrors": 0,
+      "wrongSectionErrors": 0,
+      "fourOptionErrors": 0,
+      "duplicateOptionErrors": 0,
+      "invalidCorrectIndexErrors": 0,
+      "emptyExplanationErrors": 0
+    },
+    "syllabusMapping": {
+      "data_analytics": {
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopics": {
+          "Interpretation & Application of Data": 100,
+          "Principles of Research & Evidence-Based Practice": 50
+        }
+      },
+      "performance_recovery": {
+        "topic": "Performance Enhancement & Recovery Protocols",
+        "subtopics": {
+          "Performance Enhancement Strategies": 50,
+          "Recovery Protocols & Regeneration": 50,
+          "Injury Prevention & Risk Management": 50
+        }
+      },
+      "coverageErrors": 0
+    },
+    "sourceResolution": {
+      "uniqueSourceIdsUsed": 17,
+      "questionsWithUnknownSourceId": 0,
+      "sourceUsageCounts": {
+        "nsca-essentials-5": 81,
+        "physiology-sport-exercise-kenney": 1,
+        "ioc-load-illness-2016": 82,
+        "basic-biomechanics-hall": 1,
+        "acsm-getp-12": 9,
+        "gps-validity-scott-2016": 3,
+        "world-physiotherapy-ebp-2023": 61,
+        "brukner-khan-clinical-sports-medicine": 35,
+        "kisner-therapeutic-exercise": 1,
+        "nakagawa-cuthill-effect-size-2007": 2,
+        "cdc-confounding-epi-manual": 13,
+        "world-physiotherapy-ethics-2023": 3,
+        "world-physiotherapy-consent-2023": 1,
+        "apta-lateral-ankle-cpg-2021": 2,
+        "london-hamstring-consensus-2023": 2,
+        "ioc-concussion-amsterdam-2022": 1,
+        "aspetar-acl-cpg-2023": 2
+      }
+    },
+    "answerPositionCounts": {
+      "combined": [75, 77, 73, 75],
+      "data_analytics": [37, 39, 36, 38],
+      "performance_recovery": [38, 38, 37, 37]
+    },
+    "optionLength": {
+      "primaryFlagRule": "Flag when the correct option exceeds the median distractor length by more than 8 characters or when total option spread exceeds 15 characters.",
+      "combinedPrimaryFlags": 0,
+      "combinedMaximumCorrectMinusMedianDistractor": 7,
+      "combinedMaximumOptionSpread": 15,
+      "combinedStrictlyLongestCorrect": 83,
+      "combinedStrictlyLongestPercent": 27.67,
+      "dataAnalyticsStrictlyLongestPercent": 38.67,
+      "performanceRecoveryStrictlyLongestPercent": 16.67
+    },
+    "duplicates": {
+      "exactNormalizedStemDuplicates": 0,
+      "mechanicalFamilyCount": 30,
+      "mechanicalFamilyCountByFile": {
+        "data_analytics": 15,
+        "performance_recovery": 15
+      },
+      "questionsInMechanicalFamilies": 210,
+      "description": "Each current family contains seven questions with the same normalized substantive stem and the same four-option set. The remaining variation is a generic context opener and option rotation/correct-index rotation."
+    },
+    "remediationLogIntegrity": {
+      "final3Data": {"reviewedCount": 150, "changedCount": 45, "changeEntries": 45, "currentEntryMismatches": 0},
+      "final4Data": {"reviewedCount": 150, "changedCount": 16, "changeEntries": 16, "currentEntryMismatches": 0},
+      "final3Performance": {"reviewedCount": 150, "changedCount": 45, "changeEntries": 45, "currentEntryMismatches": 0},
+      "final4Performance": {"reviewedCount": 150, "changedCount": 2, "changeEntries": 2, "currentEntryMismatches": 0}
+    }
+  },
+  "findings": [
+    {
+      "findingId": "dp-answer-key-001",
+      "category": "answerKeyAndExplanation",
+      "severity": "high",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": ["a1-data-094", "a1-data-124"],
+      "details": [
+        {
+          "id": "a1-data-094",
+          "keyedIndex": 3,
+          "keyedOption": "Link the trend to a clearly defined coaching decision",
+          "expectedIndex": 0,
+          "expectedOption": "Interpret percentage change without baseline or test context",
+          "evidence": "The stem asks what the dashboard should avoid and states that baseline, test error, and timing conditions are omitted. The explanation explicitly says that interpreting percentage change without baseline, uncertainty, and protocol context is misleading. Linking a trend to a defined coaching decision is a desirable practice, not the item to avoid."
+        },
+        {
+          "id": "a1-data-124",
+          "keyedIndex": 3,
+          "keyedOption": "Assume identical training histories are necessary",
+          "expectedIndex": 0,
+          "expectedOption": "Ask whether temporal order and confounding permit causation",
+          "evidence": "The stem describes simultaneous exposure and outcome measurement in an observational paper. The explanation explicitly identifies weak temporal inference and confounding as the appraisal issues, which directly supports option 0; option 3 is unrelated."
+        }
+      ],
+      "recommendedAction": "Correct the zero-based answer index in both retained and regenerated merged entries; retain or refine the existing explanations so they explicitly identify the corrected option."
+    },
+    {
+      "findingId": "dp-mechanical-repetition-001",
+      "category": "duplicateOrMechanicallyRepeatedStems",
+      "severity": "high",
+      "confidence": "high",
+      "files": [
+        "question_bank/section_a1_data_analytics.json",
+        "question_bank/section_a1_performance_recovery.json"
+      ],
+      "familyCount": 30,
+      "affectedQuestionCount": 210,
+      "evidence": "Within each listed family, removing the generic context opener leaves the same substantive stem, and sorting normalized option text produces the same four-option set. The final3 logs describe 15 four-question families per file and 45 rewrites per file, but the current files still retain seven mechanically repeated variants per family.",
+      "recommendedAction": "Retain one representative and materially rewrite the remaining six questions in every current family with distinct athlete data, constraints, interventions, decisions, or source-supported applications. Changing only context openers or option order is insufficient.",
+      "families": [
+        {"file":"data_analytics","normalizedStem":"a performance profile is most useful when it identifies:","questionIds":["a1-data-001","a1-data-005","a1-data-006","a1-data-007","a1-data-008","a1-data-009","a1-data-010"]},
+        {"file":"data_analytics","normalizedStem":"a repeated decline in sprint performance with stable strength may suggest a limitation in:","questionIds":["a1-data-011","a1-data-015","a1-data-016","a1-data-017","a1-data-018","a1-data-019","a1-data-020"]},
+        {"file":"data_analytics","normalizedStem":"when a test result is below a reference value, the first step should be to:","questionIds":["a1-data-021","a1-data-025","a1-data-026","a1-data-027","a1-data-028","a1-data-029","a1-data-030"]},
+        {"file":"data_analytics","normalizedStem":"a practical training recommendation should link the observed result to:","questionIds":["a1-data-031","a1-data-035","a1-data-036","a1-data-037","a1-data-038","a1-data-039","a1-data-040"]},
+        {"file":"data_analytics","normalizedStem":"longitudinal monitoring is strengthened by using:","questionIds":["a1-data-041","a1-data-045","a1-data-046","a1-data-047","a1-data-048","a1-data-049","a1-data-050"]},
+        {"file":"data_analytics","normalizedStem":"a small change in an athlete's score should be considered practically important only when it:","questionIds":["a1-data-051","a1-data-055","a1-data-056","a1-data-057","a1-data-058","a1-data-059","a1-data-060"]},
+        {"file":"data_analytics","normalizedStem":"when communicating data to a coach, the analyst should emphasize:","questionIds":["a1-data-061","a1-data-065","a1-data-066","a1-data-067","a1-data-068","a1-data-069","a1-data-070"]},
+        {"file":"data_analytics","normalizedStem":"a sudden outlier in a monitoring dashboard should first prompt a check of:","questionIds":["a1-data-071","a1-data-075","a1-data-076","a1-data-077","a1-data-078","a1-data-079","a1-data-080"]},
+        {"file":"data_analytics","normalizedStem":"if an athlete's performance improves while training load also rises, the safest interpretation is:","questionIds":["a1-data-081","a1-data-085","a1-data-086","a1-data-087","a1-data-088","a1-data-089","a1-data-090"]},
+        {"file":"data_analytics","normalizedStem":"a useful performance dashboard should avoid:","questionIds":["a1-data-091","a1-data-095","a1-data-096","a1-data-097","a1-data-098","a1-data-099","a1-data-100"]},
+        {"file":"data_analytics","normalizedStem":"a randomized controlled trial is designed primarily to compare:","questionIds":["a1-data-101","a1-data-105","a1-data-106","a1-data-107","a1-data-108","a1-data-109","a1-data-110"]},
+        {"file":"data_analytics","normalizedStem":"a cohort study commonly follows participants to examine:","questionIds":["a1-data-111","a1-data-115","a1-data-116","a1-data-117","a1-data-118","a1-data-119","a1-data-120"]},
+        {"file":"data_analytics","normalizedStem":"critical appraisal of a paper should include assessment of:","questionIds":["a1-data-121","a1-data-125","a1-data-126","a1-data-127","a1-data-128","a1-data-129","a1-data-130"]},
+        {"file":"data_analytics","normalizedStem":"a confounder is a variable that:","questionIds":["a1-data-131","a1-data-135","a1-data-136","a1-data-137","a1-data-138","a1-data-139","a1-data-140"]},
+        {"file":"data_analytics","normalizedStem":"research involving athletes should include safeguards for:","questionIds":["a1-data-141","a1-data-145","a1-data-146","a1-data-147","a1-data-148","a1-data-149","a1-data-150"]},
+        {"file":"performance_recovery","normalizedStem":"a strength program for an athlete should begin by matching the intervention to:","questionIds":["a1-recovery-001","a1-recovery-005","a1-recovery-006","a1-recovery-007","a1-recovery-008","a1-recovery-009","a1-recovery-010"]},
+        {"file":"performance_recovery","normalizedStem":"speed development is most directly supported by training that addresses:","questionIds":["a1-recovery-011","a1-recovery-015","a1-recovery-016","a1-recovery-017","a1-recovery-018","a1-recovery-019","a1-recovery-020"]},
+        {"file":"performance_recovery","normalizedStem":"power training requires attention to both force and:","questionIds":["a1-recovery-021","a1-recovery-025","a1-recovery-026","a1-recovery-027","a1-recovery-028","a1-recovery-029","a1-recovery-030"]},
+        {"file":"performance_recovery","normalizedStem":"agility training differs from change-of-direction training because agility includes:","questionIds":["a1-recovery-031","a1-recovery-035","a1-recovery-036","a1-recovery-037","a1-recovery-038","a1-recovery-039","a1-recovery-040"]},
+        {"file":"performance_recovery","normalizedStem":"load management is intended primarily to:","questionIds":["a1-recovery-041","a1-recovery-045","a1-recovery-046","a1-recovery-047","a1-recovery-048","a1-recovery-049","a1-recovery-050"]},
+        {"file":"performance_recovery","normalizedStem":"active recovery is best described as:","questionIds":["a1-recovery-051","a1-recovery-055","a1-recovery-056","a1-recovery-057","a1-recovery-058","a1-recovery-059","a1-recovery-060"]},
+        {"file":"performance_recovery","normalizedStem":"passive recovery includes strategies such as:","questionIds":["a1-recovery-061","a1-recovery-065","a1-recovery-066","a1-recovery-067","a1-recovery-068","a1-recovery-069","a1-recovery-070"]},
+        {"file":"performance_recovery","normalizedStem":"sleep is important for athletes because it supports:","questionIds":["a1-recovery-071","a1-recovery-075","a1-recovery-076","a1-recovery-077","a1-recovery-078","a1-recovery-079","a1-recovery-080"]},
+        {"file":"performance_recovery","normalizedStem":"a recovery-monitoring plan is strongest when it combines:","questionIds":["a1-recovery-081","a1-recovery-085","a1-recovery-086","a1-recovery-087","a1-recovery-088","a1-recovery-089","a1-recovery-090"]},
+        {"file":"performance_recovery","normalizedStem":"compression, massage, cryotherapy, and hydrotherapy should be selected according to:","questionIds":["a1-recovery-091","a1-recovery-095","a1-recovery-096","a1-recovery-097","a1-recovery-098","a1-recovery-099","a1-recovery-100"]},
+        {"file":"performance_recovery","normalizedStem":"a useful injury-prevention plan should address:","questionIds":["a1-recovery-101","a1-recovery-105","a1-recovery-106","a1-recovery-107","a1-recovery-108","a1-recovery-109","a1-recovery-110"]},
+        {"file":"performance_recovery","normalizedStem":"a screening test should be used primarily to:","questionIds":["a1-recovery-111","a1-recovery-115","a1-recovery-116","a1-recovery-117","a1-recovery-118","a1-recovery-119","a1-recovery-120"]},
+        {"file":"performance_recovery","normalizedStem":"overuse injury risk is commonly increased by:","questionIds":["a1-recovery-121","a1-recovery-125","a1-recovery-126","a1-recovery-127","a1-recovery-128","a1-recovery-129","a1-recovery-130"]},
+        {"file":"performance_recovery","normalizedStem":"movement-based injury prevention should prioritize:","questionIds":["a1-recovery-131","a1-recovery-135","a1-recovery-136","a1-recovery-137","a1-recovery-138","a1-recovery-139","a1-recovery-140"]},
+        {"file":"performance_recovery","normalizedStem":"return-to-sport coordination is improved when the team shares:","questionIds":["a1-recovery-141","a1-recovery-145","a1-recovery-146","a1-recovery-147","a1-recovery-148","a1-recovery-149","a1-recovery-150"]}
+      ]
+    },
+    {
+      "findingId": "dp-source-scope-001",
+      "category": "sourceTraceability",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": ["a1-data-141", "a1-data-145", "a1-data-146", "a1-data-147", "a1-data-148", "a1-data-149", "a1-data-150"],
+      "evidence": "These questions test consent, privacy, risk minimization, fair treatment, and participant safeguards, but use world-physiotherapy-ebp-2023. The catalog scopes that source to evidence quality, uncertainty, and clinical reasoning. The catalog already contains world-physiotherapy-ethics-2023, whose scope covers privacy, autonomy, welfare, and research ethics, and world-physiotherapy-consent-2023 for informed consent.",
+      "recommendedAction": "Reassign each item to the ethics or consent source that directly supports its safeguards, or add a directly inspected research-ethics source and locator."
+    },
+    {
+      "findingId": "dp-source-catalog-001",
+      "category": "sourceCatalogCompleteness",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": ["a1-data-034"],
+      "sourceId": "kisner-therapeutic-exercise",
+      "evidence": "The source ID resolves, but its catalog entry contains only title, publisher, and broad scope. It lacks author, edition or year, URL/localPath, and a chapter/page/section locator, so the exact source used for the neuromuscular landing-intervention claim cannot be independently identified from src/data/sourceCatalog.ts.",
+      "recommendedAction": "Complete the catalog entry with the inspected edition, authors, local PDF path or URL, and relevant chapter/page/section; otherwise replace it with a fully identified inspected source."
+    }
+  ],
+  "negativeChecks": {
+    "semanticDistractorDefectsBeyondListedFindings": 0,
+    "grammarOrOptionStructureGiveawaysBeyondListedFindings": 0,
+    "exactQuestionTextDuplicates": 0,
+    "unknownSources": 0,
+    "mergeCorrespondenceDefects": 0,
+    "schemaDefects": 0,
+    "syllabusMappingDefects": 0,
+    "final3Final4LogStructuralMismatches": 0
+  },
+  "conclusion": "The two retained files and their corresponding merged entries pass schema, source-ID resolution, option-count, option-uniqueness, answer-index-range, option-length-threshold, answer-position-balance, syllabus-mapping, and merge-correspondence checks. High-confidence content/provenance defects remain: two incorrect answer indices with contradictory explanations, 30 mechanically repeated families affecting 210 questions, seven ethics/safeguard items with a mismatched source scope, and one incomplete source-catalog entry."
+}

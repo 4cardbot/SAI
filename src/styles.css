@@ -38,7 +38,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .hero-score { min-width: 142px; display: grid; grid-template-columns: auto auto; align-items: baseline; column-gap: 8px; row-gap: 2px; padding: 22px; border: 1px solid rgba(255,255,255,.23); border-radius: 16px; background: rgba(255,255,255,.08); }
 .hero-score span { font-size: 1.65rem; font-weight: 800; }
 .hero-score small { color: #d9e2ec; }
-.info-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap: 12px; }
 .info-card, .action-card, .section-results, .review-item, .empty-card, .error-card { background: white; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 4px 14px rgba(16, 42, 67, .035); }
 .info-card { padding: 18px; display: grid; gap: 8px; }
 .bank-card { width: 100%; color: var(--navy); text-align: left; transition: border .15s ease, box-shadow .15s ease, transform .15s ease; }

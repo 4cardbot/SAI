@@ -1,0 +1,115 @@
+{
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionId": "a1-data-005",
+      "category": "ambiguity",
+      "finding": "The keyed option (0) is not uniquely best. Option 1, which says to interpret the 30-m rank alongside fatigue, asymmetry, and rugby demands, is also a defensible planning output and is more consistent with the stem's neutral squad-median result. Option 0 additionally prioritizes speed without evidence that the 30-m result is deficient.",
+      "action": "Rewrite one of the two options so only one supports the requested planning decision, or revise the stem and key together."
+    },
+    {
+      "file": "question_bank/section_a1_performance_recovery.json",
+      "questionId": "a1-recovery-056",
+      "category": "duplicateOptions",
+      "finding": "Options 1 and 2 are semantic duplicates: \"Test adaptation with another strength session\" and \"Test adaptation with a new strength session\". They do not provide distinct distractor concepts.",
+      "action": "Replace one duplicate with a distinct, plausible distractor."
+    },
+    {
+      "file": "question_bank/section_a1_performance_recovery.json",
+      "questionId": "a1-recovery-076",
+      "category": "stemKeyAlignment",
+      "finding": "The stem states that the athlete sleeps adequately, but the keyed option only states that sleep supports physical, cognitive, and emotional recovery; it does not explain difficulty learning after late training. No option addresses acute late-session fatigue or scheduling, so the item does not establish a defensible answer for its scenario.",
+      "action": "Either remove the adequate-sleep condition and make sleep deprivation the intended issue, or add/key an option addressing acute fatigue and the timing of tactical learning."
+    },
+    {
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-105",
+        "a1-data-106",
+        "a1-data-107",
+        "a1-data-108",
+        "a1-data-109",
+        "a1-data-110"
+      ],
+      "category": "nonResponsiveExplanation",
+      "finding": "Each item asks what an RCT compares or estimates, but each explanation is the same generic statement about linking a finding to a feasible intervention and follow-up. It does not explain random allocation, the comparator, or the assigned-intervention contrast that justifies the keyed answer.",
+      "action": "Replace each explanation with an item-specific rationale naming the randomized groups and the outcome contrast."
+    },
+    {
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-115",
+        "a1-data-116",
+        "a1-data-117",
+        "a1-data-118",
+        "a1-data-119",
+        "a1-data-120"
+      ],
+      "category": "nonResponsiveExplanation",
+      "finding": "Each item asks what a cohort study examines, but each explanation is the same generic statement about a feasible intervention and follow-up. It does not explain prospective exposure classification, later outcome follow-up, or the observational association that justifies the keyed answer.",
+      "action": "Replace each explanation with an item-specific rationale identifying the exposure, follow-up outcome, and non-randomized association."
+    },
+    {
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-125",
+        "a1-data-126",
+        "a1-data-127",
+        "a1-data-128",
+        "a1-data-129",
+        "a1-data-130"
+      ],
+      "category": "nonResponsiveExplanation",
+      "finding": "Each item asks for a specific critical-appraisal issue, but each explanation is the same generic statement about a feasible intervention and follow-up. It does not address the keyed issue such as attrition, validation, confounding, heterogeneity, comparator/adherence, or missing-data and transferability concerns.",
+      "action": "Replace each explanation with a rationale naming the study-design or applicability problem tested by that item."
+    }
+  ],
+  "summary": {
+    "status": "confirmed_actionable_findings",
+    "highConfidenceFindingCount": 6,
+    "affectedQuestionCount": 21,
+    "questionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "schema": {
+      "exactRequiredSchema": 300,
+      "fourOptions": 300,
+      "uniqueOptionStrings": 300,
+      "validCorrectIndices": 300,
+      "sectionA1": 300,
+      "nonEmptyTextAndExplanation": 300,
+      "sequentialIds": 300,
+      "schemaDefects": 0
+    },
+    "duplicates": {
+      "duplicateIds": 0,
+      "exactDuplicateStems": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "semanticDuplicateOptionPairs": 1
+    },
+    "answerKeysAndOptions": {
+      "confirmedAnswerKeyOrStemAlignmentDefects": 1,
+      "confirmedStandaloneGrammarOrParallelOptionDefects": 0,
+      "optionLengthFlags": 0
+    },
+    "sourceTraceability": {
+      "sourceCatalogChecked": "src/data/sourceCatalog.ts",
+      "sourceIdsResolvingInCatalog": 300,
+      "usedCatalogSourcesWithLocator": 16,
+      "confirmedSourceTraceabilityDefects": 0
+    },
+    "cleanChecks": [
+      "All 300 records use the expected ten-field object schema.",
+      "All 300 records have four valid answer options and a valid zero-based correct index.",
+      "No duplicate IDs, exact duplicate stems, or exact duplicate option sets were found.",
+      "All source IDs resolve to the local source catalog and its locator-bearing entries.",
+      "No standalone option-length, grammar, or parallel-option defect was confirmed outside the listed findings."
+    ]
+  }
+}

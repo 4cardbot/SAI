@@ -1,0 +1,187 @@
+{
+  "auditType": "Post-final7 independent read-only audit",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "questionFiles": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "coverageManifest": "research/a1_coverage_manifest.json",
+    "provenanceManifest": "research/a1_provenance_remediation.json",
+    "repairLogsInspected": [
+      "research/final3_content_repair_technology_biostatistics.json",
+      "research/final3_content_repair_holistic_travel_ethics.json",
+      "research/final5_diversity_repair_technology_biostatistics.json",
+      "research/final5_diversity_repair_holistic_travel_ethics.json",
+      "research/final6_length_repair_technology_biostatistics.json",
+      "research/final6_length_repair_holistic_travel_ethics.json",
+      "research/final7_length_repair_holistic_travel_ethics.json"
+    ]
+  },
+  "method": {
+    "contentReview": "Reviewed the current stem, four options, keyed index, explanation, subtopic, difficulty, and sourceId for all 300 in-scope questions; answer-key and distractor findings are limited to high-confidence, unambiguous defects.",
+    "repetitionCheck": "Normalized stems and option sets, removed the repository's generic scenario openers, and checked exact stems, full normalized question records, and mechanically repeated stem-and-option families.",
+    "lengthCheck": "Primary flag if the correct option is more than 8 characters above the distractor median or if total option spread exceeds 15 characters.",
+    "sourceCheck": "Resolved every explicit sourceId through the catalog, compared current source counts with the coverage manifest, checked the explicit-source helper, and verified every range mapping in the provenance manifest.",
+    "mergeCheck": "Compared each in-scope retained object with its matching object in the regenerated merged bank and checked the merged bank count and ordering."
+  },
+  "metrics": {
+    "questionsReviewed": 300,
+    "questionsByFile": {
+      "technology_biostatistics": 150,
+      "holistic_travel_ethics": 150
+    },
+    "answerKeyReview": {
+      "highConfidenceErrors": 0,
+      "note": "No current keyed answer contradicted its stem, explanation, and source-supported concept at high confidence."
+    },
+    "semanticDistractorReview": {
+      "highConfidenceDefects": 0,
+      "note": "No distractor was independently correct or materially invalid in its stated context at high confidence."
+    },
+    "schema": {
+      "validQuestionObjects": 300,
+      "invalidQuestionObjects": 0,
+      "exactExpectedKeys": true,
+      "fourOptionsEach": true,
+      "duplicateOptions": 0,
+      "validZeroBasedCorrectIndices": true,
+      "nonEmptyExplanations": true,
+      "uniqueQuestionIds": true,
+      "allQuestionsSectionA1": true
+    },
+    "syllabusMapping": {
+      "technologyTopic": "Emerging Technologies & Biostatistics",
+      "holisticTopic": "Holistic Development, Travel & Ethics",
+      "allExpectedSubtopicsPresent": true,
+      "unexpectedSubtopics": 0,
+      "coverageManifestSubtopicCountsMatch": true,
+      "technologySubtopicCounts": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70
+      },
+      "holisticSubtopicCounts": {
+        "Yoga & Mind–Body Interventions in Sports": 30,
+        "Athlete Health, Wellness & Holistic Development": 30,
+        "Travel-Related Challenges & Competition Readiness": 30,
+        "Anti-Doping Awareness & Ethical Practices": 30,
+        "Interdisciplinary Coordination & Support Systems": 30
+      }
+    },
+    "duplicatesAndMechanicalRepetition": {
+      "exactNormalizedStemFamilies": 0,
+      "exactNormalizedQuestionFamilies": 0,
+      "mechanicalStemAndOptionFamilies": 0,
+      "questionsInMechanicalFamilies": 0
+    },
+    "grammarAndOptionLength": {
+      "primaryLengthFlags": 0,
+      "maximumCorrectMinusDistractorMedian": 8,
+      "maximumOptionSpreadCharacters": 15,
+      "correctStrictlyLongest": {
+        "technology": 46,
+        "technologyPercent": 30.67,
+        "holistic": 48,
+        "holisticPercent": 32.0,
+        "combined": 94,
+        "combinedPercent": 31.33
+      },
+      "correctTiedOrLongest": {
+        "technology": 57,
+        "holistic": 56,
+        "combined": 113,
+        "combinedPercent": 37.67
+      },
+      "answerPositionCounts": {
+        "technology": [39, 38, 37, 36],
+        "holistic": [42, 34, 42, 32],
+        "combined": [81, 72, 79, 68]
+      },
+      "highConfidenceGrammarOptionStructureDefects": 1
+    },
+    "sourceTraceability": {
+      "sourceCatalogEntries": 40,
+      "distinctSourceIdsUsed": 18,
+      "unknownSourceIds": 0,
+      "explicitSourceHelperDisagreements": 0,
+      "coverageManifestSourceCountsMatch": true,
+      "provenanceManifestMappingsChecked": 12,
+      "provenanceManifestRangeMismatches": 0,
+      "highConfidenceSourceScopeDefects": 0,
+      "sourceRegistryMetadataContractDefects": 1,
+      "affectedSourceIds": ["foundations-sport-exercise-psychology"],
+      "affectedQuestionCount": 10
+    },
+    "repairLogIntegrity": {
+      "logsInspected": 7,
+      "currentQuestionStateMismatches": 0,
+      "structuralLogErrors": 0,
+      "final3Final7LogCoverage": "All existing final3–final7 logs for these two retained files were inspected; no final4 or technology final7 log exists for this scope."
+    },
+    "mergeCorrespondence": {
+      "mergedQuestionCount": 900,
+      "technologyQuestionsMatchedInMergedSlice": 150,
+      "holisticQuestionsMatchedInMergedSlice": 150,
+      "contentOrOrderMismatches": 0,
+      "mergedQuestionObjectsChecked": 300
+    }
+  },
+  "highConfidenceFindings": [
+    {
+      "findingId": "holistic-grammar-option-structure-001",
+      "confidence": "high",
+      "severity": "moderate",
+      "category": "grammar-and-option-structure",
+      "questionIds": ["a1-holistic-129"],
+      "evidence": {
+        "stem": "A return-to-sport decision should integrate:",
+        "currentOptions": [
+          "One laboratory score as a universal clearance threshold",
+          "The athlete’s ranking and coach’s selection needs alone",
+          "No pain during one isolated drill on one day",
+          "Integration of symptoms, function, load, demands, and risk"
+        ],
+        "currentCorrectIndex": 3,
+        "issue": "The keyed option repeats the stem's verb as a nominalized form, producing the awkward completion 'should integrate: Integration of ...'. The other choices are direct object noun phrases, so the keyed choice remains structurally distinguishable even after the logged final5 repair."
+      },
+      "recommendedAction": "Use a parallel object phrase such as 'Symptoms, function, load, sport demands, and risk' or revise the stem while preserving the same answer meaning."
+    },
+    {
+      "findingId": "source-registry-metadata-001",
+      "confidence": "high",
+      "severity": "medium",
+      "category": "source-traceability-and-catalog-completeness",
+      "questionIds": [
+        "a1-holistic-041",
+        "a1-holistic-042",
+        "a1-holistic-043",
+        "a1-holistic-044",
+        "a1-holistic-045",
+        "a1-holistic-046",
+        "a1-holistic-047",
+        "a1-holistic-048",
+        "a1-holistic-049",
+        "a1-holistic-050"
+      ],
+      "sourceId": "foundations-sport-exercise-psychology",
+      "evidence": "The catalog entry contains a title, authors, publisher, broad scope, and chapter-level locator, but it has neither an edition/year nor a URL/localPath. That fails the requested source-registry contract requiring an edition or URL, even though the sourceId resolves and the burnout locator is directionally relevant.",
+      "recommendedAction": "Add the inspected edition/year and local PDF path or stable URL to the catalog entry, retaining the existing sourceId unless the underlying source changes."
+    }
+  ],
+  "negativeChecks": {
+    "highConfidenceAnswerKeyErrorsBeyondFindings": 0,
+    "highConfidenceSemanticDistractorsBeyondFindings": 0,
+    "exactQuestionTextDuplicates": 0,
+    "unknownSources": 0,
+    "grammarOrOptionLengthDefectsBeyondListedFindings": 0,
+    "mergeCorrespondenceDefects": 0,
+    "schemaDefects": 0,
+    "syllabusMappingDefects": 0,
+    "coverageOrProvenanceManifestCountDefects": 0,
+    "repairLogCurrentStateDefects": 0
+  },
+  "conclusion": "The current technology and holistic retained files pass schema, answer-index, source-ID resolution, syllabus, coverage-count, duplicate, option-length-threshold, repair-log, and merged-bank correspondence checks. Two high-confidence issues remain: one residual grammar/option-structure giveaway in a previously repaired holistic item and one missing edition-or-URL field for the catalog entry used by ten holistic wellness questions. No high-confidence answer-key or semantic-distractor defects were found."
+}

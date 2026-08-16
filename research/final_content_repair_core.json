@@ -1,0 +1,108 @@
+{
+  "group": "core_disciplines",
+  "file": "question_bank/section_a1_core_disciplines.json",
+  "reviewedCount": 4,
+  "changedCount": 4,
+  "changes": [
+    {
+      "id": "a1-core-035",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "revisedOptions": [
+        "Glycogen depletion during repeated efforts",
+        "A fixed rate despite recovery duration",
+        "Oxidative metabolism during adequate recovery",
+        "Passive stretching between sprint efforts"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Recast all four choices as parallel noun phrases to remove the grammatical answer giveaway while preserving the source-supported answer. Revised option lengths have a 7-character spread and the correct option is 4 characters above the distractor median.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf (bioenergetics and oxidative metabolism, extracted pages 78–89)",
+        "research/final_independent_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-036",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "revisedOptions": [
+        "Glycogen depletion during repeated efforts",
+        "A fixed rate despite recovery duration",
+        "Passive stretching between sprint efforts",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Recast all four choices as parallel noun phrases to remove the grammatical answer giveaway while preserving the source-supported answer. Revised option lengths have a 7-character spread and the correct option is 4 characters above the distractor median.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf (bioenergetics and oxidative metabolism, extracted pages 78–89)",
+        "research/final_independent_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-037",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "It depends mainly on muscle glycogen depletion",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "revisedOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "Glycogen depletion during repeated efforts",
+        "A fixed rate despite recovery duration",
+        "Passive stretching between sprint efforts"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Recast all four choices as parallel noun phrases to remove the grammatical answer giveaway while preserving the source-supported answer. Revised option lengths have a 7-character spread and the correct option is 4 characters above the distractor median.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf (bioenergetics and oxidative metabolism, extracted pages 78–89)",
+        "research/final_independent_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-038",
+      "defectType": "distractorProblems",
+      "originalOptions": [
+        "It depends mainly on muscle glycogen depletion",
+        "Oxidative metabolism during adequate recovery",
+        "It occurs at the same rate despite recovery duration",
+        "It depends mainly on passive stretching between sprints"
+      ],
+      "revisedOptions": [
+        "Glycogen depletion during repeated efforts",
+        "Oxidative metabolism during adequate recovery",
+        "A fixed rate despite recovery duration",
+        "Passive stretching between sprint efforts"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Recast all four choices as parallel noun phrases to remove the grammatical answer giveaway while preserving the source-supported answer. Revised option lengths have a 7-character spread and the correct option is 4 characters above the distractor median.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "books/Physiology of Sport and Exercise with Web Study Guide.pdf (bioenergetics and oxidative metabolism, extracted pages 78–89)",
+        "research/final_independent_audit_core_testing.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "auditType": "Final6 holistic travel and ethics option-length repair",
+  "generatedAt": "2026-08-16",
+  "questionFile": "question_bank/section_a1_holistic_travel_ethics.json",
+  "scope": {
+    "questionCountExpected": 150,
+    "optionsPerQuestionExpected": 4,
+    "primaryFlags": [
+      "correct option is more than 8 characters longer than the distractor median",
+      "total option-length spread is greater than 15 characters"
+    ],
+    "preserveFields": [
+      "text",
+      "correct",
+      "explanation",
+      "sourceId",
+      "subtopic",
+      "difficulty"
+    ]
+  },
+  "inspection": {
+    "questionCountInspected": 150,
+    "validQuestionCount": 150,
+    "validFourOptionCount": 150,
+    "primaryFlagCount": 0,
+    "flaggedQuestionIds": [],
+    "maximumCorrectOptionMinusDistractorMedian": 8,
+    "maximumOptionLengthSpread": 15,
+    "strictlyLongestCorrectCount": 49,
+    "answerPositionCounts": [42, 34, 42, 32]
+  },
+  "summary": {
+    "changedQuestions": 0,
+    "questionCountPreserved": true,
+    "optionsPerQuestionPreserved": true,
+    "answerKeysPreserved": true,
+    "sourceIdsPreserved": true,
+    "subtopicsAndDifficultyPreserved": true,
+    "reason": "Every current item was inspected. No item exceeded either requested primary threshold, so no option revision was necessary or appropriate."
+  },
+  "changes": []
+}

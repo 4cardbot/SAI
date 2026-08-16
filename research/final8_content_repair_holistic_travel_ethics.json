@@ -1,0 +1,47 @@
+{
+  "auditType": "final8_content_repair_holistic_travel_ethics",
+  "generatedAt": "2026-08-16",
+  "questionFile": "question_bank/section_a1_holistic_travel_ethics.json",
+  "scope": {
+    "targetQuestionIds": [
+      "a1-holistic-129"
+    ],
+    "questionCount": 150,
+    "changesRestrictedToTargetIds": true
+  },
+  "summary": {
+    "changedCount": 1,
+    "questionCountVerified": 150,
+    "optionsPerQuestionVerified": 4,
+    "correctIndexPreserved": true,
+    "answerMeaningPreserved": true,
+    "metadataPreserved": true
+  },
+  "changes": [
+    {
+      "id": "a1-holistic-129",
+      "originalOptions": [
+        "One laboratory score as a universal clearance threshold",
+        "The athlete’s ranking and coach’s selection needs alone",
+        "No pain during one isolated drill on one day",
+        "Integration of symptoms, function, load, demands, and risk"
+      ],
+      "revisedOptions": [
+        "One laboratory score as a universal clearance threshold",
+        "The athlete’s ranking and coach’s selection needs alone",
+        "No pain during one isolated drill on one day",
+        "Symptoms, function, load, sport demands, and risk"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "reviewerNote": "The stem ends with ‘should integrate:’, so the keyed option was changed from an ‘Integration of’ gerund phrase to a parallel object list. The answer meaning is preserved: return-to-sport decisions should consider symptoms, function, loading, sport demands, and risk together.",
+      "sourcesInspected": [
+        "Interdisciplinary collaboration in sport and performance, Burns and Collins, 2023, PubMed PMID 37042174: multidisciplinary performance and return-to-sport decision-making",
+        "src/data/sourceCatalog.ts: interdisciplinary-performance-sport-burns-2023"
+      ],
+      "sourceId": "interdisciplinary-performance-sport-burns-2023",
+      "subtopic": "Interdisciplinary Coordination & Support Systems",
+      "difficulty": "applied"
+    }
+  ]
+}

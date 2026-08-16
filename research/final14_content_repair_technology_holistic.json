@@ -1,0 +1,77 @@
+{
+  "auditType": "a1_final14_content_repair_technology_holistic",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "sourceAudit": "research/release3_audit_technology_holistic.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "IMU-specific source remapping and direct medication/travel and therapeutic-use-exemption provenance."
+  },
+  "reviewedCount": 300,
+  "changedCount": 8,
+  "changes": [
+    {
+      "id": "a1-tech-021",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 2,
+      "reviewerNote": "Remapped the IMU component claim to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-026",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped standardized IMU placement and attachment to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-027",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped the IMU sampling-frequency claim to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-028",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped static IMU calibration to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-029",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped the body-worn IMU direct-measurement claim to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-030",
+      "revisedSourceId": "wearable-inertial-camomilla-2018",
+      "revisedCorrect": 1,
+      "reviewerNote": "Remapped IMU stride-time validation to the inspected wearable-inertial-sensor review.",
+      "sourcesInspected": ["wearable-inertial-camomilla-2018", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-070",
+      "revisedExplanation": "Travel-health guidance cautions against unsupervised sedative use and alcohol during travel; medication decisions should be individualized with qualified clinical oversight.",
+      "revisedSourceId": "cdc-yellow-book-jet-lag-2026",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped sedative, alcohol, and travel-medication safety to the inspected CDC Yellow Book jet-lag chapter.",
+      "sourcesInspected": ["cdc-yellow-book-jet-lag-2026", "research/release3_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-095",
+      "revisedText": "An athlete asks whether a prescribed medication is permitted under anti-doping rules. The appropriate action is to:",
+      "revisedExplanation": "Medication status should be checked with qualified medical and anti-doping resources; if treatment meets the criteria, the therapeutic-use-exemption process and supporting documentation must be followed.",
+      "revisedSourceId": "wada-istue-2023",
+      "revisedCorrect": 3,
+      "reviewerNote": "Narrowed the item to anti-doping medication status and remapped it to the inspected WADA therapeutic-use-exemption standard.",
+      "sourcesInspected": ["wada-istue-2023", "research/release3_audit_technology_holistic.json"]
+    }
+  ]
+}

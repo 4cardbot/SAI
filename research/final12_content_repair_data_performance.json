@@ -1,0 +1,90 @@
+{
+  "auditType": "a1_final12_content_repair_data_performance",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "sourceAudit": "research/release2_audit_data_performance.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Near-duplicate recovery scenarios, stem grammar/parallelism, and privacy/data-governance source traceability."
+  },
+  "reviewedCount": 300,
+  "changedCount": 8,
+  "changes": [
+    {
+      "id": "a1-recovery-001",
+      "revisedText": "For an athlete entering a new training block, the strength program should begin by matching the intervention to:",
+      "revisedCorrect": 0,
+      "reviewerNote": "Removed repeated wording so the stem is grammatical without changing the intended individualization principle.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-003",
+      "revisedText": "A rower has high maximal strength but poor repeated-power output. Which programming principle should guide the next training block?",
+      "revisedCorrect": 2,
+      "reviewerNote": "Changed the stem to ask for the programming principle represented by the keyed option.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-043",
+      "revisedText": "A monitoring report shows a sharp week-to-week load increase after a low-load period. What should staff review first?",
+      "revisedCorrect": 2,
+      "reviewerNote": "Changed the stem from an interpretation request to the review action expressed by the keyed option.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-055",
+      "revisedText": "After a match, a player with mild stiffness reports that easy cycling increases symptoms. What is the best active-recovery response?",
+      "revisedOptions": [
+        "Add maximal conditioning after the match",
+        "Rest completely and avoid movement for 48 hours",
+        "Modify activity and reassess symptoms",
+        "Stretch repeatedly into painful ranges"
+      ],
+      "revisedCorrect": 2,
+      "revisedExplanation": "Active recovery should remain symptom-tolerable; if even easy movement increases symptoms, the activity should be modified or stopped and the athlete reassessed.",
+      "reviewerNote": "Reframed the item around symptom response and monitoring, creating a distinct recovery decision from the general active-recovery item while retaining the source concept.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-075",
+      "revisedText": "A travelling athlete reports poor sleep and reduced alertness after crossing several time zones. What should monitoring prioritize?",
+      "revisedOptions": [
+        "Ignore destination time until competition day",
+        "Train hard at the new bedtime to accelerate adaptation",
+        "Track sleep and alertness on local time",
+        "Use caffeine instead of adjusting the schedule"
+      ],
+      "revisedCorrect": 2,
+      "revisedExplanation": "After travel, tracking sleep opportunity and alertness around the local schedule helps staff identify whether circadian disruption is affecting competition readiness.",
+      "reviewerNote": "Reframed the item around monitoring response after travel so it is distinct from the separate planning item on sleep, light, and local-time adjustment.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-069",
+      "revisedExplanation": "Health-related readiness data should be protected through need-to-know access and aggregated reporting when individual identity is not required for the decision.",
+      "revisedSourceId": "world-physiotherapy-ethics-2023",
+      "revisedCorrect": 1,
+      "reviewerNote": "Aligned the explanation and source with the question's confidentiality and aggregated-reporting concept.",
+      "sourcesInspected": ["world-physiotherapy-ethics-2023", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-081",
+      "revisedText": "If an athlete's performance improves while training load also rises, the safest interpretation is:",
+      "revisedCorrect": 0,
+      "reviewerNote": "Removed the duplicated generic subject phrase from the stem.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-099",
+      "revisedExplanation": "Identifiable health data should be restricted to authorized staff with a legitimate need to know, with aggregate reporting used when individual identity is unnecessary.",
+      "revisedSourceId": "ais-athlete-data-governance",
+      "revisedCorrect": 2,
+      "reviewerNote": "Aligned the explanation and source with confidentiality, access restriction, and responsible athlete-data governance.",
+      "sourcesInspected": ["ais-athlete-data-governance", "research/release2_audit_data_performance.json"]
+    }
+  ]
+}

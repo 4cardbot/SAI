@@ -1,0 +1,232 @@
+{
+  "group": "testing_assessment",
+  "file": "question_bank/section_a1_testing_assessment.json",
+  "reviewedCount": 8,
+  "changedCount": 8,
+  "changes": [
+    {
+      "id": "a1-test-009",
+      "defectType": "distractorProblems",
+      "originalQuestion": "For an athlete entering a new training block, reliability refers most directly to the:",
+      "revisedQuestion": "Test–retest reliability refers most directly to the:",
+      "originalOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "revisedOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-010",
+      "defectType": "distractorProblems",
+      "originalQuestion": "When reviewing a high-performance athlete profile, reliability refers most directly to the:",
+      "revisedQuestion": "In repeated athlete testing, which property reflects stable scores across sessions?",
+      "originalOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "revisedOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-011",
+      "defectType": "distractorProblems",
+      "originalQuestion": "During a competition preparation meeting, reliability refers most directly to the:",
+      "revisedQuestion": "When the same protocol is administered on two occasions, which reliability property is assessed?",
+      "originalOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "revisedOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-012",
+      "defectType": "distractorProblems",
+      "originalQuestion": "In a practical sports-science assessment, reliability refers most directly to the:",
+      "revisedQuestion": "A test that produces similar scores for the same athlete on separate days demonstrates:",
+      "originalOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "revisedOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-013",
+      "defectType": "distractorProblems",
+      "originalQuestion": "When communicating the finding to a coach, reliability refers most directly to the:",
+      "revisedQuestion": "The defining characteristic of test–retest reliability is:",
+      "originalOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "revisedOptions": [
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-014",
+      "defectType": "distractorProblems",
+      "originalQuestion": "For a youth athlete in a development programme, reliability refers most directly to the:",
+      "revisedQuestion": "For an assessment repeated under stable conditions, the key reliability question concerns:",
+      "originalOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "revisedOptions": [
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-015",
+      "defectType": "distractorProblems",
+      "originalQuestion": "During a congested competition period, reliability refers most directly to the:",
+      "revisedQuestion": "Agreement between an athlete's scores on two administrations primarily indicates:",
+      "originalOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "revisedOptions": [
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions",
+        "Agreement with the intended construct being measured"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-test-016",
+      "defectType": "distractorProblems",
+      "originalQuestion": "In a rehabilitation or reconditioning setting, reliability refers most directly to the:",
+      "revisedQuestion": "A field test has good test–retest reliability when it shows:",
+      "originalOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "revisedOptions": [
+        "Agreement with the intended construct being measured",
+        "Detection of true cases during a screening test",
+        "Agreement between independent trained raters",
+        "Consistency of scores under repeated conditions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Specified test–retest reliability so the keyed repeatability definition is unique; the inter-rater reliability option remains a distinct distractor.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "research/final_independent_audit_core_testing.json",
+        "src/data/sourceCatalog.ts"
+      ]
+    }
+  ]
+}

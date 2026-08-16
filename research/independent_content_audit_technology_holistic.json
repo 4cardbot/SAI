@@ -1,0 +1,3100 @@
+{
+  "auditType": "independent-read-only-content-audit",
+  "auditDate": "2026-08-16",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "questionCount": 300,
+    "writeConstraint": "Only this report file was written; question banks, source catalog, scripts, tests, and existing audit logs were not edited.",
+    "reviewRule": "High-confidence defects are recorded item-by-item. Repeated frames with materially different question text are not treated as duplicates."
+  },
+  "methodology": [
+    "Read every question, option array, keyed zero-based index, explanation, topic/subtopic, and sourceId in both files.",
+    "Checked whether the keyed option answers the stem, whether the explanation supports that key, whether distractors remain plausible and distinct, and whether the item fits its assigned official A1 area.",
+    "Compared exact question text and exact text/options/key tuples across both files.",
+    "Checked option-length thresholds using correct-option length versus median distractor length and maximum option spread.",
+    "Inspected the local source catalog, the local SAI notification syllabus pages, the two research source notes, and relevant text/contents in the supplied Kinesiology, NSCA, and Physiology books. External URLs named in the catalog/research notes were not treated as independently inspected during this audit."
+  ],
+  "inspectedMaterials": [
+    {
+      "path": "src/data/sourceCatalog.ts",
+      "scope": "Source IDs, declared source kinds, scopes, locators, and local paths."
+    },
+    {
+      "path": "research/sai_a1_sources.md",
+      "scope": "Official A1 area mapping, book metadata/locators, and provenance notes."
+    },
+    {
+      "path": "research/source_requests_technology_biostatistics.md",
+      "scope": "Technology/biostatistics source and comparator notes."
+    },
+    {
+      "path": "research/source_requests_holistic_travel_ethics.md",
+      "scope": "Holistic/travel/ethics source and comparator notes."
+    },
+    {
+      "path": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+      "scope": "Local text extraction of PDF pp. 19–22 for official A1 scope; relevant detailed syllabus references also appeared in the supplied PDF's discipline sections."
+    },
+    {
+      "path": "books/Kinesiology of the Musculoskeletal System.pdf",
+      "scope": "Text extraction around printed biomechanics/instrumentation material, including force, kinematic, video, and external-force measurement context."
+    },
+    {
+      "path": "books/Essentials of Strength Training and Conditioning.pdf",
+      "scope": "Contents/text extraction for periodization, rehabilitation, overreaching, overtraining, and recovery chapters."
+    },
+    {
+      "path": "books/Physiology of Sport and Exercise with Web Study Guide.pdf",
+      "scope": "Contents/text extraction for environmental heat/altitude physiology and acclimation chapters."
+    }
+  ],
+  "summary": {
+    "reviewed": 300,
+    "highConfidenceDefects": 142,
+    "mediumConfidenceConcerns": 10,
+    "exactDuplicates": 0,
+    "sourceProblems": 160,
+    "answerKeyProblems": 92,
+    "distractorProblems": 50,
+    "lengthProblems": 0,
+    "explanationProblems": 92,
+    "syllabusProblems": 0,
+    "schemaProblems": 0
+  },
+  "countDefinitions": {
+    "highConfidenceDefects": "Individual high-confidence defect records, including answer-key records and high-confidence distractor-quality records.",
+    "mediumConfidenceConcerns": "Grouped or item-level concerns retained below the high-confidence threshold; sourceProblems counts affected questions, not grouped records.",
+    "explanationProblems": "Questions where the explanation supports the recommended answer but not the currently keyed option; these overlap with answerKeyProblems and are not additional unique questions.",
+    "exactDuplicates": "Count of duplicate groups, not duplicate question instances."
+  },
+  "fileResults": [
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "reviewed": 150,
+      "highConfidenceDefects": 1,
+      "mediumConfidenceConcernRecords": 7,
+      "optionLengthAudit": {
+        "medianFlags": 0,
+        "spreadFlags": 0,
+        "strictLongest": 50,
+        "shortest": 16,
+        "maxSpread": 15
+      },
+      "exactQuestionTextDuplicateGroups": 0,
+      "exactItemDuplicateGroups": 0,
+      "structuralProblems": 0
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "reviewed": 150,
+      "highConfidenceDefects": 141,
+      "mediumConfidenceConcernRecords": 3,
+      "optionLengthAudit": {
+        "medianFlags": 0,
+        "spreadFlags": 0,
+        "strictLongest": 34,
+        "shortest": 29,
+        "maxSpread": 14
+      },
+      "exactQuestionTextDuplicateGroups": 0,
+      "exactItemDuplicateGroups": 0,
+      "structuralProblems": 0
+    }
+  ],
+  "highConfidenceDefects": [
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-003",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 2 selects \"Replacing all sport-specific practice in training\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-004",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 3 selects \"A direct rise in haemoglobin concentration\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-006",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 1 selects \"Guaranteed maximal strength without resistance training\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-007",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 2 selects \"Replacing all sport-specific practice in training\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-008",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 3 selects \"A direct rise in haemoglobin concentration\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-010",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Flexibility, balance, body awareness, and mobility",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Yoga can support mobility, balance, awareness, and relaxation, but effects depend on the program and athlete.",
+      "rationale": "The keyed index 1 selects \"Guaranteed maximal strength without resistance training\", but the stem is answered by option 0, \"Flexibility, balance, body awareness, and mobility\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-022",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 1 selects \"Future competition outcomes without present awareness\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-023",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 2 selects \"The opponent's private thoughts without direct evidence\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-024",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 3 selects \"Maximal arousal throughout each training session\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-026",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 1 selects \"Future competition outcomes without present awareness\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-027",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 2 selects \"The opponent's private thoughts without direct evidence\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-028",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 3 selects \"Maximal arousal throughout each training session\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-030",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Present-moment awareness with non-reactive attention",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Mindfulness emphasizes present-moment awareness and non-reactive observation rather than guaranteed relaxation or performance.",
+      "rationale": "The keyed index 1 selects \"Future competition outcomes without present awareness\", but the stem is answered by option 0, \"Present-moment awareness with non-reactive attention\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-032",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 3 selects \"Physical and competition-performance metrics alone\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-033",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 0 selects \"Training, ranking, body mass, and sponsorship metrics\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-034",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 1 selects \"Strength, speed, body mass, and competition ranking\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-036",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 3 selects \"Physical and competition-performance metrics alone\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-037",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 0 selects \"Training, ranking, body mass, and sponsorship metrics\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-038",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 1 selects \"Strength, speed, body mass, and competition ranking\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-040",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, athlete wellness should be monitored across:",
+      "currentOptions": [
+        "Training, ranking, body mass, and sponsorship metrics",
+        "Strength, speed, body mass, and competition ranking",
+        "Physical, mental, social, behavioural, and recovery factors",
+        "Physical and competition-performance metrics alone"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Physical, mental, social, behavioural, and recovery factors",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Holistic wellness includes multiple interacting domains rather than a single performance score.",
+      "rationale": "The keyed index 3 selects \"Physical and competition-performance metrics alone\", but the stem is answered by option 2, \"Physical, mental, social, behavioural, and recovery factors\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-052",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 3 selects \"Early specialization as the universal pathway\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-053",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 0 selects \"Identical training regardless of age or maturation\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-054",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 1 selects \"Competition results as the sole development outcome\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-056",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 3 selects \"Early specialization as the universal pathway\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-057",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 0 selects \"Identical training regardless of age or maturation\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-058",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 1 selects \"Competition results as the sole development outcome\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-060",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, long-term athlete development models emphasize:",
+      "currentOptions": [
+        "Identical training regardless of age or maturation",
+        "Competition results as the sole development outcome",
+        "Progression matched to age, maturation, and training stage",
+        "Early specialization as the universal pathway"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Progression matched to age, maturation, and training stage",
+      "sourceId": "nsca-essentials-5",
+      "currentExplanation": "LTAD approaches consider development, maturation, training age, and long-term health and performance.",
+      "rationale": "The keyed index 3 selects \"Early specialization as the universal pathway\", but the stem is answered by option 2, \"Progression matched to age, maturation, and training stage\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-062",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 1 selects \"Bone growth and muscle length during travel\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-063",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 2 selects \"Body mass and height at the destination\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-064",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 3 selects \"Blood lactate and ferritin after exercise\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-066",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 1 selects \"Bone growth and muscle length during travel\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-067",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 2 selects \"Body mass and height at the destination\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-068",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 3 selects \"Blood lactate and ferritin after exercise\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-070",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The internal circadian clock and local time cues",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "Time-zone travel creates a mismatch between internal circadian timing and the destination schedule.",
+      "rationale": "The keyed index 1 selects \"Bone growth and muscle length during travel\", but the stem is answered by option 0, \"The internal circadian clock and local time cues\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-072",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 3 selects \"One fixed bedtime regardless of travel direction\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-073",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 0 selects \"Avoiding daylight and activity after every arrival\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-074",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 1 selects \"Flight duration, meal timing, hydration, and footwear only\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-076",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 3 selects \"One fixed bedtime regardless of travel direction\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-077",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 0 selects \"Avoiding daylight and activity after every arrival\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-078",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 1 selects \"Flight duration, meal timing, hydration, and footwear only\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-080",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, a practical jet-lag plan should be based on:",
+      "currentOptions": [
+        "Avoiding daylight and activity after every arrival",
+        "Flight duration, meal timing, hydration, and footwear only",
+        "Travel direction, time zones, light, sleep, and timing",
+        "One fixed bedtime regardless of travel direction"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Travel direction, time zones, light, sleep, and timing",
+      "sourceId": "ioc-load-illness-2016",
+      "currentExplanation": "The direction and size of travel interact with light, sleep, meals, and the timing of competition.",
+      "rationale": "The keyed index 3 selects \"One fixed bedtime regardless of travel direction\", but the stem is answered by option 2, \"Travel direction, time zones, light, sleep, and timing\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-082",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 1 selects \"Bone length and limb proportion after repeated exposure\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-083",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 2 selects \"Somatotype classification after repeated heat exposure\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-084",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 3 selects \"Joint anatomy after one short heat session\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-086",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 1 selects \"Bone length and limb proportion after repeated exposure\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-087",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 2 selects \"Somatotype classification after repeated heat exposure\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-088",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 3 selects \"Joint anatomy after one short heat session\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-090",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Sweating, cardiovascular strain, and temperature control",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "currentExplanation": "Heat exposure can improve sweating responses, plasma volume, cardiovascular stability, and thermal tolerance.",
+      "rationale": "The keyed index 1 selects \"Bone length and limb proportion after repeated exposure\", but the stem is answered by option 0, \"Sweating, cardiovascular strain, and temperature control\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-092",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 3 selects \"Recommend any effective substance without checking rules\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-093",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 0 selects \"Ignore the current prohibited list when advising athletes\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-094",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 1 selects \"Treat every supplement as safe after purchase\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-096",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 3 selects \"Recommend any effective substance without checking rules\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-097",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 0 selects \"Ignore the current prohibited list when advising athletes\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-098",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 1 selects \"Treat every supplement as safe after purchase\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-100",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, the principle of clean sport requires sports-science staff to:",
+      "currentOptions": [
+        "Ignore the current prohibited list when advising athletes",
+        "Treat every supplement as safe after purchase",
+        "Educate athletes and support safe, compliant decisions",
+        "Recommend any effective substance without checking rules"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Educate athletes and support safe, compliant decisions",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "Clean sport involves education, prevention, ethical conduct, and attention to current anti-doping rules.",
+      "rationale": "The keyed index 3 selects \"Recommend any effective substance without checking rules\", but the stem is answered by option 2, \"Educate athletes and support safe, compliant decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-102",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 1 selects \"Wants a prohibited drug solely for performance enhancement\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-103",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 2 selects \"Has not checked whether a supplement is prohibited\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-104",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 3 selects \"Assumes an unverified supplement is automatically permitted\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-106",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 1 selects \"Wants a prohibited drug solely for performance enhancement\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-107",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 2,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 2 selects \"Has not checked whether a supplement is prohibited\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-108",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 3 selects \"Assumes an unverified supplement is automatically permitted\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-110",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, a Therapeutic Use Exemption is relevant when an athlete:",
+      "currentOptions": [
+        "Needs a prohibited treatment for a documented medical condition",
+        "Wants a prohibited drug solely for performance enhancement",
+        "Has not checked whether a supplement is prohibited",
+        "Assumes an unverified supplement is automatically permitted"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "Needs a prohibited treatment for a documented medical condition",
+      "sourceId": "wada-prohibited-list-2026",
+      "currentExplanation": "A TUE is a regulated process for medically justified use of an otherwise prohibited substance or method.",
+      "rationale": "The keyed index 1 selects \"Wants a prohibited drug solely for performance enhancement\", but the stem is answered by option 0, \"Needs a prohibited treatment for a documented medical condition\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-112",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 3 selects \"Sharing private data without appropriate consent\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-113",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 0 selects \"Prioritizing medals over safety and informed choice\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-114",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 1 selects \"Making unsupported claims about likely performance\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-116",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 3 selects \"Sharing private data without appropriate consent\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-117",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 0 selects \"Prioritizing medals over safety and informed choice\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-118",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 1 selects \"Making unsupported claims about likely performance\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-120",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, a sports scientist's ethical responsibility includes:",
+      "currentOptions": [
+        "Prioritizing medals over safety and informed choice",
+        "Making unsupported claims about likely performance",
+        "Protecting welfare, privacy, autonomy, and informed choice",
+        "Sharing private data without appropriate consent"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Protecting welfare, privacy, autonomy, and informed choice",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Professional conduct must protect welfare and respect autonomy, confidentiality, evidence, and safety.",
+      "rationale": "The keyed index 3 selects \"Sharing private data without appropriate consent\", but the stem is answered by option 2, \"Protecting welfare, privacy, autonomy, and informed choice\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-121",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 0 selects \"Unrecorded assumptions about the athlete's needs and goals\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-122",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 1 selects \"Competing private plans without shared review or coordination\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-124",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 3 selects \"Only the athlete's final ranking and selection status in competition\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-125",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 0 selects \"Unrecorded assumptions about the athlete's needs and goals\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-126",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 1 selects \"Competing private plans without shared review or coordination\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-128",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 3 selects \"Only the athlete's final ranking and selection status in competition\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-129",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 0 selects \"Unrecorded assumptions about the athlete's needs and goals\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-130",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, an interdisciplinary high-performance team works best when members share:",
+      "currentOptions": [
+        "Unrecorded assumptions about the athlete's needs and goals",
+        "Competing private plans without shared review or coordination",
+        "Clear roles, shared information, agreed goals, and team communication",
+        "Only the athlete's final ranking and selection status in competition"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Clear roles, shared information, agreed goals, and team communication",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "Shared goals, role clarity, and structured communication reduce fragmentation in athlete support.",
+      "rationale": "The keyed index 1 selects \"Competing private plans without shared review or coordination\", but the stem is answered by option 2, \"Clear roles, shared information, agreed goals, and team communication\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-132",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 3 selects \"Unrestricted public access to confidential athlete records\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-133",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a competition preparation meeting, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 0 selects \"Data collection without defined purpose or governance\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-134",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 1 selects \"Replacing professional discussion with automated reports\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-136",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 3 selects \"Unrestricted public access to confidential athlete records\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-137",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "During a congested competition period, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 0 selects \"Data collection without defined purpose or governance\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-138",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 1 selects \"Replacing professional discussion with automated reports\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-140",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete preparing for an important final, an athlete-management system is most useful when it supports:",
+      "currentOptions": [
+        "Data collection without defined purpose or governance",
+        "Replacing professional discussion with automated reports",
+        "Secure records, communication, monitoring, and shared decisions",
+        "Unrestricted public access to confidential athlete records"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Secure records, communication, monitoring, and shared decisions",
+      "sourceId": "sai-notification-2026",
+      "currentExplanation": "An AMS should improve secure information flow and coordinated decision-making rather than create data without purpose.",
+      "rationale": "The keyed index 3 selects \"Unrestricted public access to confidential athlete records\", but the stem is answered by option 2, \"Secure records, communication, monitoring, and shared decisions\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-141",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For an athlete entering a new training block, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 0 selects \"Facts and opinions treated as equally certain in reports\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-142",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When reviewing a high-performance athlete profile, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 1 selects \"Raw scores and diagnoses treated as equivalent in reports\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-144",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a practical sports-science assessment, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 3 selects \"A result treated as a guaranteed outcome for the athlete\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-145",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When communicating the finding to a coach, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 0 selects \"Facts and opinions treated as equally certain in reports\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-146",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "For a youth athlete in a development programme, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 1,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 1 selects \"Raw scores and diagnoses treated as equivalent in reports\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-148",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 3 selects \"A result treated as a guaranteed outcome for the athlete\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-149",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "When comparing laboratory and field information, a performance report should distinguish between:",
+      "currentOptions": [
+        "Facts and opinions treated as equally certain in reports",
+        "Raw scores and diagnoses treated as equivalent in reports",
+        "Observed data, interpretation, limitations, and next steps",
+        "A result treated as a guaranteed outcome for the athlete"
+      ],
+      "currentCorrect": 0,
+      "recommendedCorrect": 2,
+      "recommendedAnswer": "Observed data, interpretation, limitations, and next steps",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Clear reporting separates what was measured from interpretation, uncertainty, and the proposed action.",
+      "rationale": "The keyed index 0 selects \"Facts and opinions treated as equally certain in reports\", but the stem is answered by option 2, \"Observed data, interpretation, limitations, and next steps\". The explanation supports the latter answer, so the current key and explanation are inconsistent."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "id": "a1-tech-142",
+      "defectType": "answer-key",
+      "severity": "high",
+      "currentQuestion": "Effect size primarily describes:",
+      "currentOptions": [
+        "The magnitude of an effect",
+        "The probability that the null is true",
+        "The number of model predictors",
+        "The number of participants only"
+      ],
+      "currentCorrect": 3,
+      "recommendedCorrect": 0,
+      "recommendedAnswer": "The magnitude of an effect",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "currentExplanation": "Effect sizes describe magnitude; practical interpretation also requires uncertainty, measurement context, and a worthwhile threshold.",
+      "rationale": "Effect size primarily describes the magnitude of an effect, which is option 0. The current key selects \"The number of participants only\", and the explanation supports option 0 instead."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-001",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-002",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-003",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-004",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-005",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-006",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-007",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-008",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-009",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-010",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, yoga-based mobility work may contribute to performance by supporting:",
+      "currentOptions": [
+        "Flexibility, balance, body awareness, and mobility",
+        "Guaranteed maximal strength without resistance training",
+        "Replacing all sport-specific practice in training",
+        "A direct rise in haemoglobin concentration"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The three distractors invoke guaranteed maximal strength, replacement of sport-specific practice, or a direct haemoglobin change. They are unrelated or implausible alternatives to the stated yoga-mobility construct.",
+      "recommendedRevision": "Regenerate the three distractors around plausible but incorrect claims about yoga dose, transfer to performance, and the limits of mobility work; avoid guaranteed adaptations and unrelated blood outcomes."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-011",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing",
+        "Resistance-machine loading"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-012",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Resistance-machine loading",
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-013",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Regulation of breathing",
+        "Resistance-machine loading",
+        "Body-composition scanning",
+        "Force-plate calibration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-014",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Force-plate calibration",
+        "Regulation of breathing",
+        "Resistance-machine loading",
+        "Body-composition scanning"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-015",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing",
+        "Resistance-machine loading"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-016",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Resistance-machine loading",
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-017",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Regulation of breathing",
+        "Resistance-machine loading",
+        "Body-composition scanning",
+        "Force-plate calibration"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-018",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Force-plate calibration",
+        "Regulation of breathing",
+        "Resistance-machine loading",
+        "Body-composition scanning"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-019",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing",
+        "Resistance-machine loading"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-020",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, pranayama refers broadly to practices involving:",
+      "currentOptions": [
+        "Resistance-machine loading",
+        "Body-composition scanning",
+        "Force-plate calibration",
+        "Regulation of breathing"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe body-composition scanning, force-plate calibration, or resistance-machine loading. None is an independently plausible competing definition of pranayama.",
+      "recommendedRevision": "Use nearby mind–body or respiratory concepts as distractors, such as relaxation training, respiratory monitoring, and posture practice, while retaining only regulation of breathing as the definition of pranayama."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-021",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-022",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-023",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-024",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-025",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-026",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-027",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-028",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-029",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-030",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, mindfulness training primarily develops attention to:",
+      "currentOptions": [
+        "Present-moment awareness with non-reactive attention",
+        "Future competition outcomes without present awareness",
+        "The opponent's private thoughts without direct evidence",
+        "Maximal arousal throughout each training session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "sai-notification-2026",
+      "rationale": "The distractors describe future-focused rumination, inferring an opponent's private thoughts, or maintaining maximal arousal. They are easy eliminations rather than independently plausible alternatives to mindfulness.",
+      "recommendedRevision": "Use plausible contrasts such as attentional concentration, imagery, pre-performance routines, or cognitive restructuring, with wording that makes only present-moment non-reactive awareness correct."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-061",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-062",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-063",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-064",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-065",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-066",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-067",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-068",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-069",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-070",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, jet lag occurs primarily because travel disrupts the alignment between:",
+      "currentOptions": [
+        "The internal circadian clock and local time cues",
+        "Bone growth and muscle length during travel",
+        "Body mass and height at the destination",
+        "Blood lactate and ferritin after exercise"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "rationale": "The distractors concern bone and limb growth, body-mass/height changes, or blood lactate and ferritin. These are unrelated to the circadian misalignment that defines jet lag.",
+      "recommendedRevision": "Regenerate distractors using related travel-readiness constructs, such as travel fatigue, sleep debt, meal timing, or dehydration, while preserving circadian-clock/local-time alignment as the single correct answer."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-081",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete entering a new training block, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-082",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When reviewing a high-performance athlete profile, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-083",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a competition preparation meeting, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-084",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a practical sports-science assessment, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-085",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When communicating the finding to a coach, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-086",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For a youth athlete in a development programme, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-087",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "During a congested competition period, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-088",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "In a rehabilitation or reconditioning setting, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-089",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "When comparing laboratory and field information, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 0,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "id": "a1-holistic-090",
+      "defectType": "distractor-quality",
+      "severity": "medium",
+      "currentQuestion": "For an athlete preparing for an important final, heat acclimatization generally requires repeated exposure that allows adaptation of:",
+      "currentOptions": [
+        "Sweating, cardiovascular strain, and temperature control",
+        "Bone length and limb proportion after repeated exposure",
+        "Somatotype classification after repeated heat exposure",
+        "Joint anatomy after one short heat session"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "rationale": "The distractors claim heat exposure changes bone length, somatotype classification, or joint anatomy after one short session. These are unrelated to heat acclimatization.",
+      "recommendedRevision": "Use plausible environmental-physiology distractors involving hydration, pacing, cold exposure, or altitude, ensuring only sweating, cardiovascular strain, and thermal control describe heat acclimatization."
+    }
+  ],
+  "mediumConfidenceConcerns": [
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "acsm-getp-12",
+      "questionIds": [
+        "a1-tech-001",
+        "a1-tech-002",
+        "a1-tech-003",
+        "a1-tech-004",
+        "a1-tech-005",
+        "a1-tech-006",
+        "a1-tech-007",
+        "a1-tech-008",
+        "a1-tech-009",
+        "a1-tech-010"
+      ],
+      "affectedQuestionCount": 10,
+      "rationale": "The catalog entry covers exercise testing, safety, and prescription, but does not identify wearable sensors, photoplethysmography, accelerometer outputs, or wearable energy-expenditure validation. The source is relevant to testing context but not a sufficiently specific locator for these claims.",
+      "inspectionBasis": "Inspected src/data/sourceCatalog.ts and research/source_requests_technology_biostatistics.md; no wearable-specific locator or source-catalog entry was present."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "questionIds": [
+        "a1-tech-051",
+        "a1-tech-052",
+        "a1-tech-053",
+        "a1-tech-054",
+        "a1-tech-055",
+        "a1-tech-056",
+        "a1-tech-057",
+        "a1-tech-058",
+        "a1-tech-059",
+        "a1-tech-060"
+      ],
+      "affectedQuestionCount": 10,
+      "rationale": "The catalog scope is evidence quality, uncertainty, and clinical reasoning. It can support caution about model use, but it does not identify a source section for supervised learning, overfitting, data leakage, sensitivity, or external validation.",
+      "inspectionBasis": "Inspected src/data/sourceCatalog.ts and research/source_requests_technology_biostatistics.md; the research note names AI/ML comparators but no corresponding sourceId was added."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "sai-notification-2026",
+      "questionIds": [
+        "a1-tech-071",
+        "a1-tech-072",
+        "a1-tech-073",
+        "a1-tech-074",
+        "a1-tech-075",
+        "a1-tech-076",
+        "a1-tech-077",
+        "a1-tech-078",
+        "a1-tech-079",
+        "a1-tech-080"
+      ],
+      "affectedQuestionCount": 10,
+      "rationale": "The notification identifies technology limitations, ethical concerns, and privacy as syllabus scope, but the cited catalog locator does not establish the detailed principles of consent, minimization, de-identification, role-based access, retention, or breach response used by these items.",
+      "inspectionBasis": "Inspected the local notification PDF pages 19–22 with text extraction and src/data/sourceCatalog.ts."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "questionIds": [
+        "a1-tech-081",
+        "a1-tech-082",
+        "a1-tech-083",
+        "a1-tech-084",
+        "a1-tech-085",
+        "a1-tech-086",
+        "a1-tech-087",
+        "a1-tech-088",
+        "a1-tech-089",
+        "a1-tech-090",
+        "a1-tech-091",
+        "a1-tech-092",
+        "a1-tech-093",
+        "a1-tech-094",
+        "a1-tech-095",
+        "a1-tech-096",
+        "a1-tech-097",
+        "a1-tech-098",
+        "a1-tech-099",
+        "a1-tech-100",
+        "a1-tech-101",
+        "a1-tech-102",
+        "a1-tech-103",
+        "a1-tech-104",
+        "a1-tech-105",
+        "a1-tech-106",
+        "a1-tech-107",
+        "a1-tech-108",
+        "a1-tech-109",
+        "a1-tech-110",
+        "a1-tech-111",
+        "a1-tech-112",
+        "a1-tech-113",
+        "a1-tech-114",
+        "a1-tech-115",
+        "a1-tech-116",
+        "a1-tech-117",
+        "a1-tech-118",
+        "a1-tech-119",
+        "a1-tech-120",
+        "a1-tech-121",
+        "a1-tech-122",
+        "a1-tech-123",
+        "a1-tech-124",
+        "a1-tech-125",
+        "a1-tech-126",
+        "a1-tech-127",
+        "a1-tech-128",
+        "a1-tech-129",
+        "a1-tech-130",
+        "a1-tech-131",
+        "a1-tech-132",
+        "a1-tech-133",
+        "a1-tech-134",
+        "a1-tech-135",
+        "a1-tech-136",
+        "a1-tech-137",
+        "a1-tech-138",
+        "a1-tech-139",
+        "a1-tech-140",
+        "a1-tech-141",
+        "a1-tech-142",
+        "a1-tech-143",
+        "a1-tech-144",
+        "a1-tech-145",
+        "a1-tech-146",
+        "a1-tech-147",
+        "a1-tech-148",
+        "a1-tech-149",
+        "a1-tech-150"
+      ],
+      "affectedQuestionCount": 70,
+      "rationale": "The catalog scope supports evidence-based interpretation generally, but it does not provide a specific statistical-methods locator for means, SD/IQR, p-values, t-tests, ANOVA, correlation, regression, confidence intervals, Cohen's d, or eta squared. The research note names NIST and effect-size guidance, but those sources are not represented by the cited sourceId.",
+      "inspectionBasis": "Inspected src/data/sourceCatalog.ts and research/source_requests_technology_biostatistics.md; no statistics-specific catalog entry or locator was present."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "sai-notification-2026",
+      "questionIds": [
+        "a1-holistic-001",
+        "a1-holistic-002",
+        "a1-holistic-003",
+        "a1-holistic-004",
+        "a1-holistic-005",
+        "a1-holistic-006",
+        "a1-holistic-007",
+        "a1-holistic-008",
+        "a1-holistic-009",
+        "a1-holistic-010",
+        "a1-holistic-011",
+        "a1-holistic-012",
+        "a1-holistic-013",
+        "a1-holistic-014",
+        "a1-holistic-015",
+        "a1-holistic-016",
+        "a1-holistic-017",
+        "a1-holistic-018",
+        "a1-holistic-019",
+        "a1-holistic-020",
+        "a1-holistic-021",
+        "a1-holistic-022",
+        "a1-holistic-023",
+        "a1-holistic-024",
+        "a1-holistic-025",
+        "a1-holistic-026",
+        "a1-holistic-027",
+        "a1-holistic-028",
+        "a1-holistic-029",
+        "a1-holistic-030"
+      ],
+      "affectedQuestionCount": 30,
+      "rationale": "The notification establishes Yoga & Mind–Body Interventions in Sports as an official syllabus area and lists its subtopics, but the cited source does not provide a claim-specific locator for yoga benefits, pranayama, or the operational definition of mindfulness.",
+      "inspectionBasis": "Inspected the local notification PDF page 21 and src/data/sourceCatalog.ts; the research note identifies a mindfulness review but it is not a source-catalog entry used by these questions."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "sai-notification-2026",
+      "questionIds": [
+        "a1-holistic-111",
+        "a1-holistic-112",
+        "a1-holistic-113",
+        "a1-holistic-114",
+        "a1-holistic-115",
+        "a1-holistic-116",
+        "a1-holistic-117",
+        "a1-holistic-118",
+        "a1-holistic-119",
+        "a1-holistic-120"
+      ],
+      "affectedQuestionCount": 10,
+      "rationale": "The notification lists ethical responsibilities of sports scientists, but the cited source does not identify a specific section supporting the detailed combination of welfare, privacy, autonomy, informed choice, and evidence claims.",
+      "inspectionBasis": "Inspected the local notification PDF page 22 and src/data/sourceCatalog.ts."
+    },
+    {
+      "file": "question_bank/section_a1_holistic_travel_ethics.json",
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "sai-notification-2026",
+      "questionIds": [
+        "a1-holistic-121",
+        "a1-holistic-122",
+        "a1-holistic-123",
+        "a1-holistic-124",
+        "a1-holistic-125",
+        "a1-holistic-126",
+        "a1-holistic-127",
+        "a1-holistic-128",
+        "a1-holistic-129",
+        "a1-holistic-130",
+        "a1-holistic-131",
+        "a1-holistic-132",
+        "a1-holistic-133",
+        "a1-holistic-134",
+        "a1-holistic-135",
+        "a1-holistic-136",
+        "a1-holistic-137",
+        "a1-holistic-138",
+        "a1-holistic-139",
+        "a1-holistic-140"
+      ],
+      "affectedQuestionCount": 20,
+      "rationale": "The notification lists interdisciplinary coordination, athlete-management systems, documentation, communication, and professional conduct as syllabus content, but the broad notification sourceId is not a claim-specific support for all of the detailed best-practice statements in these items.",
+      "inspectionBasis": "Inspected the local notification PDF page 22 and src/data/sourceCatalog.ts."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "id": "a1-tech-006",
+      "defectType": "terminology-precision",
+      "severity": "medium",
+      "currentQuestion": "A smartwatch energy-expenditure value should be treated as:",
+      "currentOptions": [
+        "A direct measure of ATP use",
+        "A validated model estimate",
+        "A direct oxygen-consumption measure",
+        "A device-independent value"
+      ],
+      "currentCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "recommendedOptions": [
+        "A direct measure of ATP use",
+        "A model-based estimate requiring validation",
+        "A direct oxygen-consumption measure",
+        "A device-independent value"
+      ],
+      "rationale": "A smartwatch energy-expenditure output is model-based, but the wording 'A validated model estimate' can imply that the particular device estimate is already validated. The safer concept is that it is a model-based estimate whose validity must be established for the device, activity, and population."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "id": "a1-tech-035",
+      "defectType": "terminology-clarity",
+      "severity": "medium",
+      "currentQuestion": "Centre of pressure is the:",
+      "currentOptions": [
+        "Anatomical centre of mass of the athlete",
+        "Highest point reached in a jump",
+        "Point of resultant force distribution",
+        "Position of the nearest camera"
+      ],
+      "currentCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "recommendedOptions": [
+        "Anatomical centre of mass of the athlete",
+        "Highest point reached in a jump",
+        "Point of application of the resultant ground-reaction force",
+        "Position of the nearest camera"
+      ],
+      "rationale": "The keyed concept is centre of pressure, but 'Point of resultant force distribution' is nonstandard and incomplete terminology. It should identify the point of application of the resultant ground-reaction force."
+    },
+    {
+      "file": "question_bank/section_a1_technology_biostatistics.json",
+      "id": "a1-tech-144",
+      "defectType": "grammar-clarity",
+      "severity": "medium",
+      "currentQuestion": "Eta squared represents the proportion of:",
+      "currentOptions": [
+        "The proportion of athletes who improved",
+        "The proportion of p-values below alpha",
+        "The proportion of missing observations",
+        "Total variance linked to the factor"
+      ],
+      "currentCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "recommendedOptions": [
+        "Athletes who improved",
+        "p-values below alpha",
+        "Missing observations",
+        "Total variance explained by the factor"
+      ],
+      "rationale": "The stem already supplies 'the proportion of', so the first distractor repeats that phrase and the keyed option is elliptical. The revised wording is grammatically complete and more precise without changing the answer."
+    }
+  ],
+  "sourceAssessment": [
+    {
+      "sourceId": "ioc-load-illness-2016",
+      "status": "plausible-with-broad-scope",
+      "questionRanges": [
+        "a1-tech-011–020",
+        "a1-tech-061–070",
+        "a1-holistic-031–040",
+        "a1-holistic-061–080"
+      ],
+      "rationale": "Declared scope covers load, recovery, travel, illness, and monitoring; it is a plausible primary source for these broad concepts, though not a granular locator for every item."
+    },
+    {
+      "sourceId": "neumann-kinesiology",
+      "status": "plausible",
+      "questionRanges": [
+        "a1-tech-021–050"
+      ],
+      "rationale": "Declared scope and inspected supplied-book material cover biomechanics, kinematics, video/motion analysis, and external-force measurement."
+    },
+    {
+      "sourceId": "physiology-sport-exercise-kenney",
+      "status": "plausible",
+      "questionRanges": [
+        "a1-holistic-081–090"
+      ],
+      "rationale": "The supplied book contents identify heat, environmental physiology, and acclimation chapters."
+    },
+    {
+      "sourceId": "nsca-essentials-5",
+      "status": "plausible",
+      "questionRanges": [
+        "a1-holistic-051–060"
+      ],
+      "rationale": "The supplied book contents identify program design, periodization, rehabilitation, and recovery material relevant to long-term development framing."
+    },
+    {
+      "sourceId": "foundations-sport-exercise-psychology",
+      "status": "plausible-by-catalog-scope",
+      "questionRanges": [
+        "a1-holistic-041–050"
+      ],
+      "rationale": "The catalog explicitly scopes motivation, anxiety, mental skills, burnout, and team cohesion; the local PDF was not supplied."
+    },
+    {
+      "sourceId": "wada-prohibited-list-2026",
+      "status": "plausible-by-catalog-scope",
+      "questionRanges": [
+        "a1-holistic-091–110"
+      ],
+      "rationale": "The catalog explicitly scopes prohibited substances, methods, and anti-doping terminology; the external URL was not independently inspected during this audit."
+    },
+    {
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "status": "scope-limited",
+      "questionRanges": [
+        "a1-tech-051–060",
+        "a1-tech-081–150",
+        "a1-holistic-141–150"
+      ],
+      "rationale": "Plausible for evidence interpretation and reporting, but not sufficiently specific for all AI/ML and statistical formula claims; the detailed source concerns are listed above."
+    },
+    {
+      "sourceId": "sai-notification-2026",
+      "status": "scope-limited",
+      "questionRanges": [
+        "a1-tech-071–080",
+        "a1-holistic-001–030",
+        "a1-holistic-111–140"
+      ],
+      "rationale": "The local notification supports syllabus inclusion and broad ethical/coordination headings, but the detailed answer claims need more granular sources."
+    },
+    {
+      "sourceId": "acsm-getp-12",
+      "status": "scope-limited",
+      "questionRanges": [
+        "a1-tech-001–010"
+      ],
+      "rationale": "The catalog supports exercise testing and prescription but does not identify wearable-specific content or a locator for the sensor claims."
+    }
+  ],
+  "auditNotes": [
+    "The 91 holistic key defects follow repeated option templates: the explanation identifies a fixed correct concept, but several frame variants rotate the keyed index onto a distractor. The recommended index is the index of the concept actually answering the stem.",
+    "No exact duplicate question text or exact full item tuple was found. Repeated option templates with changed frames were deliberately not counted as duplicates under the requested rule.",
+    "Formal length checks found no question with correct-option length more than eight characters above the median distractor and no option spread above 15 characters. This does not repair the independent answer-key defects.",
+    "No question was removed or modified by this audit."
+  ]
+}
+

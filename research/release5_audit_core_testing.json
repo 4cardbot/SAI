@@ -1,0 +1,191 @@
+{
+  "auditType": "Final independent read-only audit: core disciplines and testing assessment",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "findingId": "R5-CT-001",
+      "category": "answer-pattern-bias",
+      "severity": "high",
+      "affectedFiles": [
+        "question_bank/section_a1_core_disciplines.json",
+        "question_bank/section_a1_testing_assessment.json"
+      ],
+      "affectedRanges": [
+        {
+          "from": "a1-core-001",
+          "to": "a1-core-019",
+          "correctIndexCounts": [16, 1, 1, 1]
+        },
+        {
+          "from": "a1-core-020",
+          "to": "a1-core-038",
+          "correctIndexCounts": [15, 2, 1, 1]
+        },
+        {
+          "from": "a1-core-039",
+          "to": "a1-core-057",
+          "correctIndexCounts": [1, 16, 1, 1]
+        },
+        {
+          "from": "a1-core-058",
+          "to": "a1-core-076",
+          "correctIndexCounts": [1, 16, 1, 1]
+        },
+        {
+          "from": "a1-core-077",
+          "to": "a1-core-095",
+          "correctIndexCounts": [1, 1, 16, 1]
+        },
+        {
+          "from": "a1-core-096",
+          "to": "a1-core-114",
+          "correctIndexCounts": [1, 1, 14, 3]
+        },
+        {
+          "from": "a1-core-115",
+          "to": "a1-core-132",
+          "correctIndexCounts": [2, 0, 1, 15]
+        },
+        {
+          "from": "a1-core-133",
+          "to": "a1-core-150",
+          "correctIndexCounts": [2, 1, 2, 13]
+        },
+        {
+          "from": "a1-test-084",
+          "to": "a1-test-092",
+          "correctIndexCounts": [0, 1, 1, 7]
+        },
+        {
+          "from": "a1-test-136",
+          "to": "a1-test-143",
+          "correctIndexCounts": [8, 0, 0, 0]
+        }
+      ],
+      "observedMetrics": {
+        "overallCorrectIndexCounts": [77, 75, 75, 73],
+        "longestSameIndexRun": 13,
+        "longestRun": {
+          "from": "a1-core-050",
+          "to": "a1-core-062",
+          "correctIndex": 1
+        }
+      },
+      "details": "Overall index counts are balanced, but correct options are mechanically clustered by topic and in long contiguous runs. Reorder options within the affected blocks while preserving each answer key and meaning; re-audit local and overall balance."
+    },
+    {
+      "findingId": "R5-CT-002",
+      "category": "explanation-responsiveness",
+      "severity": "high",
+      "affectedFile": "question_bank/section_a1_testing_assessment.json",
+      "affectedQuestionCount": 131,
+      "affectedRanges": [
+        "a1-test-002..008",
+        "a1-test-010..012",
+        "a1-test-014..016",
+        "a1-test-018..032",
+        "a1-test-034..040",
+        "a1-test-041..047",
+        "a1-test-049..054",
+        "a1-test-056..061",
+        "a1-test-062..067",
+        "a1-test-072..075",
+        "a1-test-077..083",
+        "a1-test-085..089",
+        "a1-test-091",
+        "a1-test-093..099",
+        "a1-test-101..107",
+        "a1-test-108..115",
+        "a1-test-117..122",
+        "a1-test-124..129",
+        "a1-test-130..136",
+        "a1-test-137..140",
+        "a1-test-142..150"
+      ],
+      "observedMetrics": {
+        "exactlyRepeatedExplanationGroups": 20,
+        "questionsUsingThoseExplanations": 131
+      },
+      "representativeQuestions": [
+        "a1-test-003",
+        "a1-test-006",
+        "a1-test-018",
+        "a1-test-026",
+        "a1-test-043",
+        "a1-test-063",
+        "a1-test-085",
+        "a1-test-111",
+        "a1-test-121",
+        "a1-test-143",
+        "a1-test-145"
+      ],
+      "details": "Many calculation, scenario, threshold, safety, consent, confidentiality, quality-control and reporting items reuse only a category definition. For example, the explanation for the z-score, 90% sensitivity, and chest-pressure items does not explain the selected answer or the decision in that stem. Rewrite explanations to connect the cited principle to the specific answer; retain the sourceId unless the factual basis changes."
+    },
+    {
+      "findingId": "R5-CT-003",
+      "category": "distractor-quality-and-grammar",
+      "severity": "medium",
+      "affectedFile": "question_bank/section_a1_testing_assessment.json",
+      "affectedQuestions": [
+        "a1-test-067",
+        "a1-test-085",
+        "a1-test-087",
+        "a1-test-088",
+        "a1-test-089",
+        "a1-test-091"
+      ],
+      "details": "Several distractors contain mechanically appended wording such as 'before maximal exercise', and a1-test-067 contains the ungrammatical phrases 'in this athlete for the same test'. These options are not natural, independently plausible alternatives. Rewrite only the affected distractors, preserving the keyed answer and the intended concept."
+    },
+    {
+      "findingId": "R5-CT-004",
+      "category": "source-direct-support",
+      "severity": "medium",
+      "affectedFile": "question_bank/section_a1_core_disciplines.json",
+      "affectedQuestions": [
+        "a1-core-147",
+        "a1-core-148",
+        "a1-core-149",
+        "a1-core-150"
+      ],
+      "sourceId": "wada-prohibited-list-2026",
+      "details": "The WADA Prohibited List directly supports checking anti-doping status, but the stems and explanations also claim evidence, dose, safety and contamination-risk guidance. The primary sourceId should be a supplement-specific source such as the catalogued AIS supplements position statement, or the question/explanation should be narrowed to the prohibited-list claim."
+    }
+  ],
+  "summary": {
+    "status": "findings remain",
+    "counts": {
+      "highConfidenceFindingCount": 4,
+      "answerKeyCorrectnessFindings": 0,
+      "ambiguousStemFindings": 0,
+      "exactDuplicateFindings": 0,
+      "nearDuplicateFindings": 0,
+      "schemaFindings": 0,
+      "syllabusMappingFindings": 0,
+      "unknownSourceIdFindings": 0,
+      "mergedCorrespondenceDifferences": 0,
+      "primaryOptionLengthFlags": 0
+    },
+    "correspondence": {
+      "retainedQuestionCount": 300,
+      "mergedQuestionCount": 900,
+      "deepContentDifferencesInFirst300MergedItems": 0,
+      "retainedIdsUnique": true,
+      "mergedIdsUnique": true
+    },
+    "optionBias": {
+      "correctIndexCounts": [77, 75, 75, 73],
+      "strictlyLongestCorrectCount": 89,
+      "strictlyLongestCorrectPercent": 29.67,
+      "correctShortestCount": 58,
+      "correctShortestPercent": 19.33,
+      "primaryLengthFlagCount": 0
+    },
+    "note": "No high-confidence answer-key error, ambiguous stem, exact duplicate, invalid schema, invalid syllabus mapping, or merged correspondence defect was found in the inspected current files."
+  }
+}

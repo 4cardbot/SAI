@@ -1,0 +1,286 @@
+{
+  "auditType": "post-final-independent-read-only-audit-core-testing",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "reviewedFiles": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json",
+      "question_bank/section_a1.json",
+      "src/data/sourceCatalog.ts"
+    ],
+    "reviewedQuestionCount": 300,
+    "mergedQuestionCountChecked": 900,
+    "priorLogsReviewed": [
+      "research/final3_content_repair_core_disciplines.json",
+      "research/final3_content_repair_testing_assessment.json",
+      "research/final_content_repair_core.json",
+      "research/final_content_repair_testing.json",
+      "research/final4_length_repair_data_analytics.json",
+      "research/final4_length_repair_performance_recovery.json"
+    ],
+    "coverageManifestReviewed": "research/a1_coverage_manifest.json"
+  },
+  "method": {
+    "contentReview": "Read the current question text, options, keyed index, explanation, subtopic, and source ID for all 300 in-scope questions; answer-key findings are limited to unambiguous repeated-option contradictions.",
+    "mechanicalRepetitionCheck": "Lowercase and normalize punctuation, then group questions with the same normalized option set and only generic context/opening variation.",
+    "lengthCheck": "Primary flag if the correct option exceeds the median distractor length by more than 8 characters or if total option spread exceeds 15 characters.",
+    "mergeCheck": "Compare the first 150 merged objects with the core file and the next 150 merged objects with the testing file using exact JSON object serialization."
+  },
+  "metrics": {
+    "groupCounts": {
+      "coreDisciplines": 150,
+      "testingAssessment": 150
+    },
+    "schema": {
+      "groupFilesWithExactly150": 2,
+      "mergedFileCount": 900,
+      "questionsWithExactRequiredSchema": 300,
+      "questionsWithFourOptions": 300,
+      "questionsWithFourUniqueOptions": 300,
+      "questionsWithValidZeroBasedCorrectIndex": 300,
+      "questionsWithSectionA1": 300,
+      "mergedQuestionsWithExactRequiredSchema": 900,
+      "mergedQuestionsWithFourOptions": 900,
+      "mergedQuestionsWithValidZeroBasedCorrectIndex": 900,
+      "duplicateQuestionIds": 0,
+      "unknownSourceIds": 0,
+      "mergedUnknownSourceIds": 0
+    },
+    "mergeCorrespondence": {
+      "coreFirst150ExactMatches": true,
+      "testingNext150ExactMatches": true,
+      "mergedObjectsChecked": 300
+    },
+    "syllabusMapping": {
+      "coreExpectedSubtopics": 8,
+      "coreObservedSubtopics": 8,
+      "coreSubtopicMismatches": 0,
+      "testingExpectedSubtopics": 2,
+      "testingObservedSubtopics": 2,
+      "testingSubtopicMismatches": 0,
+      "coreSubtopicCounts": {
+        "Anthropometry — body composition, somatotypes, growth & maturation": 19,
+        "Exercise Physiology — energy systems, fatigue, adaptation": 19,
+        "Physiotherapy — injury mechanisms, basic rehabilitation principles": 19,
+        "Biomechanics — movement analysis, force, kinematics": 19,
+        "Biochemistry — biomarkers, metabolism, recovery indicators": 19,
+        "Strength & Conditioning — training principles, load, recovery": 19,
+        "Psychology — motivation, stress, arousal, mental readiness": 18,
+        "Nutrition — macronutrients, hydration, energy balance": 18
+      },
+      "testingSubtopicCounts": {
+        "Test Parameters & Athlete Assessment": 75,
+        "Test Protocols & Standardization": 75
+      }
+    },
+    "sourceTraceability": {
+      "sourceIdsResolvingInCatalog": 300,
+      "usedCatalogEntriesWithLocatorOrEquivalentScope": 12,
+      "highConfidenceTraceabilityDefects": 0
+    },
+    "answerKeysAndOptions": {
+      "currentKeyedAnswerPositions": [76, 76, 74, 74],
+      "correctOptionStrictlyLongest": 56,
+      "correctOptionStrictlyLongestPercent": 18.67,
+      "correctOptionTiedForLongest": 76,
+      "primaryOptionLengthFlags": 0,
+      "maximumOptionLengthSpread": 15,
+      "highConfidenceAnswerKeyDefects": 11,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "highConfidenceGrammarGiveaways": 0
+    },
+    "repetition": {
+      "exactDuplicateStems": 0,
+      "coreMechanicalFamilies": 32,
+      "coreQuestionsInMechanicalFamilies": 150,
+      "coreFamilySizeDistribution": {
+        "4": 10,
+        "5": 22
+      },
+      "testingMechanicalFamilies": 20,
+      "testingQuestionsInMechanicalFamilies": 150,
+      "testingFamilySizeDistribution": {
+        "7": 10,
+        "8": 10
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "a1-test-answer-key-option-rewrite-mismatch",
+      "severity": "high",
+      "confidence": "high",
+      "category": "answer-key-correctness",
+      "questionIds": [
+        "a1-test-085",
+        "a1-test-086",
+        "a1-test-087",
+        "a1-test-089",
+        "a1-test-090",
+        "a1-test-091"
+      ],
+      "evidence": {
+        "sharedStemPattern": "before a maximal exercise test, the practitioner should first verify:",
+        "sharedOptions": [
+          "that history, medication, and symptoms are reviewed without readiness checks",
+          "that prior scores and coach expectations replace formal screening",
+          "that staff and equipment eliminate the need to check contraindications",
+          "that screening covers contraindications, preparation, and emergency procedures"
+        ],
+        "unambiguousCorrectIndex": 3,
+        "currentCorrectIndices": {
+          "a1-test-085": 0,
+          "a1-test-086": 1,
+          "a1-test-087": 2,
+          "a1-test-089": 0,
+          "a1-test-090": 1,
+          "a1-test-091": 2
+        },
+        "controlItemsWithSameOptions": {
+          "a1-test-084": 3,
+          "a1-test-088": 3
+        }
+      },
+      "impact": "Six current answer keys identify one of three explicitly unsafe alternatives instead of the screening-and-emergency-readiness option.",
+      "recommendedAction": "Set correct to 3 for all six listed questions; preserve the current option order and explanation."
+    },
+    {
+      "id": "a1-test-answer-key-option-rewrite-mismatch-termination",
+      "severity": "high",
+      "confidence": "high",
+      "category": "answer-key-correctness",
+      "questionIds": [
+        "a1-test-138",
+        "a1-test-139",
+        "a1-test-140",
+        "a1-test-142",
+        "a1-test-143"
+      ],
+      "evidence": {
+        "sharedStemPattern": "a test administrator should stop an exercise test when:",
+        "sharedOptions": [
+          "the administrator observes a termination criterion or concerning symptom",
+          "the administrator waits for the test to reach a maximal score",
+          "the administrator continues despite a warning sign if the athlete wishes",
+          "the administrator stops at a fixed time despite symptoms or protocol"
+        ],
+        "unambiguousCorrectIndex": 0,
+        "currentCorrectIndices": {
+          "a1-test-138": 1,
+          "a1-test-139": 2,
+          "a1-test-140": 3,
+          "a1-test-142": 1,
+          "a1-test-143": 2
+        },
+        "controlItemsWithSameOptions": {
+          "a1-test-137": 0,
+          "a1-test-141": 0
+        }
+      },
+      "impact": "Five current answer keys identify options that explicitly continue testing despite a warning, wait for a score, or stop for a fixed-time rule despite symptoms.",
+      "recommendedAction": "Set correct to 0 for all five listed questions; preserve the current option order and explanation."
+    },
+    {
+      "id": "a1-core-mechanical-repetition",
+      "severity": "moderate",
+      "confidence": "high",
+      "category": "mechanical-repetition",
+      "scope": "question_bank/section_a1_core_disciplines.json",
+      "evidence": {
+        "familyCount": 32,
+        "questionCount": 150,
+        "familySizes": {
+          "4": 10,
+          "5": 22
+        },
+        "familyRanges": [
+          "a1-core-001..005",
+          "a1-core-006..010",
+          "a1-core-011..015",
+          "a1-core-016..019",
+          "a1-core-020..024",
+          "a1-core-025..029",
+          "a1-core-030..034",
+          "a1-core-035..038",
+          "a1-core-039..043",
+          "a1-core-044..048",
+          "a1-core-049..053",
+          "a1-core-054..057",
+          "a1-core-058..062",
+          "a1-core-063..067",
+          "a1-core-068..072",
+          "a1-core-073..076",
+          "a1-core-077..081",
+          "a1-core-082..086",
+          "a1-core-087..091",
+          "a1-core-092..095",
+          "a1-core-096..100",
+          "a1-core-101..105",
+          "a1-core-106..110",
+          "a1-core-111..114",
+          "a1-core-115..119",
+          "a1-core-120..124",
+          "a1-core-125..128",
+          "a1-core-129..132",
+          "a1-core-133..137",
+          "a1-core-138..142",
+          "a1-core-143..146",
+          "a1-core-147..150"
+        ],
+        "pattern": "Each family repeats one concept with a generic scenario opener and option reordering; exact stem text is not duplicated."
+      },
+      "impact": "The file has 150 nominal items but no question-level diversity outside 32 underlying option sets, reducing effective practice breadth.",
+      "recommendedAction": "Replace repeated variants with materially different scenarios or concepts while retaining syllabus coverage and answer-position balance."
+    },
+    {
+      "id": "a1-test-mechanical-repetition",
+      "severity": "moderate",
+      "confidence": "high",
+      "category": "mechanical-repetition",
+      "scope": "question_bank/section_a1_testing_assessment.json",
+      "evidence": {
+        "familyCount": 20,
+        "questionCount": 150,
+        "familySizes": {
+          "7": 10,
+          "8": 10
+        },
+        "familyRanges": [
+          "a1-test-001..008",
+          "a1-test-009..016",
+          "a1-test-017..024",
+          "a1-test-025..032",
+          "a1-test-033..040",
+          "a1-test-041..047",
+          "a1-test-048..054",
+          "a1-test-055..061",
+          "a1-test-062..068",
+          "a1-test-069..075",
+          "a1-test-076..083",
+          "a1-test-084..091",
+          "a1-test-092..099",
+          "a1-test-100..107",
+          "a1-test-108..115",
+          "a1-test-116..122",
+          "a1-test-123..129",
+          "a1-test-130..136",
+          "a1-test-137..143",
+          "a1-test-144..150"
+        ],
+        "pattern": "Each family repeats one concept with generic context changes and option reordering; exact stem text is not duplicated."
+      },
+      "impact": "The file has 150 nominal items but only 20 underlying option-set families, so repeated practice can reward memorizing answer concepts rather than assessing varied application.",
+      "recommendedAction": "Diversify repeated families with materially different test data, protocols, scenarios, or decisions while preserving the two syllabus mappings."
+    }
+  ],
+  "conclusion": {
+    "highConfidenceContentFindings": 4,
+    "schemaAndMergeStatus": "pass",
+    "sourceResolutionStatus": "pass",
+    "syllabusMappingStatus": "pass",
+    "optionLengthStatus": "pass",
+    "answerKeyStatus": "fail: 11 high-confidence key mismatches remain",
+    "diversityStatus": "fail: 52 mechanical families cover all 300 questions"
+  }
+}

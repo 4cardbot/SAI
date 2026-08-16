@@ -1,0 +1,210 @@
+{
+  "auditType": "Final independent read-only audit of technology/biostatistics and holistic/travel/ethics A1 questions",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "reviewedCount": 300,
+  "scope": {
+    "retainedFiles": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "auditArtifacts": [
+      "research/final_independent_audit_technology_holistic.json",
+      "research/content_remediation_technology_biostatistics.json",
+      "research/content_remediation_holistic_travel_ethics.json",
+      "research/a1_coverage_manifest.json",
+      "research/a1_provenance_remediation.json",
+      "research/source_requests_technology_biostatistics.md",
+      "research/source_requests_holistic_travel_ethics.md"
+    ]
+  },
+  "correspondence": {
+    "technologyRetainedCount": 150,
+    "technologyMergedCount": 150,
+    "holisticRetainedCount": 150,
+    "holisticMergedCount": 150,
+    "retainedToMergedExactContentMatch": true,
+    "mergedTargetOrderMatch": true
+  },
+  "checks": {
+    "schema": {
+      "passed": true,
+      "invalidQuestionObjects": 0,
+      "invalidSections": 0,
+      "invalidOptionCounts": 0,
+      "duplicateOptions": 0,
+      "invalidCorrectIndices": 0,
+      "blankRequiredFields": 0,
+      "unknownSourceIds": 0
+    },
+    "answerKeys": {
+      "highConfidenceErrors": [],
+      "reviewedFor": [
+        "definition and formula consistency",
+        "numeric calculations",
+        "option-key alignment",
+        "explanation consistency"
+      ]
+    },
+    "distractors": {
+      "highConfidenceSemanticDefects": [],
+      "highConfidenceAmbiguities": []
+    },
+    "duplicates": {
+      "exactNormalizedStemCount": 0,
+      "contextStrippedStemClusterCount": 15,
+      "contextStrippedAffectedQuestionCount": 150,
+      "contextStrippedClusters": [
+        { "questionRange": "a1-holistic-001..a1-holistic-010", "stem": "yoga-based mobility work may contribute to performance by supporting" },
+        { "questionRange": "a1-holistic-011..a1-holistic-020", "stem": "pranayama refers broadly to practices involving" },
+        { "questionRange": "a1-holistic-021..a1-holistic-030", "stem": "mindfulness training primarily develops attention to" },
+        { "questionRange": "a1-holistic-031..a1-holistic-040", "stem": "athlete wellness should be monitored across" },
+        { "questionRange": "a1-holistic-041..a1-holistic-050", "stem": "burnout is more concerning when an athlete shows persistent exhaustion and reduced accomplishment" },
+        { "questionRange": "a1-holistic-051..a1-holistic-060", "stem": "long-term athlete development models emphasize" },
+        { "questionRange": "a1-holistic-061..a1-holistic-070", "stem": "jet lag occurs primarily because travel disrupts the alignment between" },
+        { "questionRange": "a1-holistic-071..a1-holistic-080", "stem": "a practical jet-lag plan should be based on" },
+        { "questionRange": "a1-holistic-081..a1-holistic-090", "stem": "heat acclimatization generally requires repeated exposure that allows adaptation of" },
+        { "questionRange": "a1-holistic-091..a1-holistic-100", "stem": "the principle of clean sport requires sports-science staff to" },
+        { "questionRange": "a1-holistic-101..a1-holistic-110", "stem": "a Therapeutic Use Exemption is relevant when an athlete" },
+        { "questionRange": "a1-holistic-111..a1-holistic-120", "stem": "a sports scientist's ethical responsibility includes" },
+        { "questionRange": "a1-holistic-121..a1-holistic-130", "stem": "an interdisciplinary high-performance team works best when members share" },
+        { "questionRange": "a1-holistic-131..a1-holistic-140", "stem": "an athlete-management system is most useful when it supports" },
+        { "questionRange": "a1-holistic-141..a1-holistic-150", "stem": "a performance report should distinguish between" }
+      ]
+    },
+    "optionLength": {
+      "primaryFlagDefinition": "correct option more than 8 characters above distractor median or total spread above 15 characters",
+      "primaryFlagCount": 0,
+      "spreadAbove15Count": 0,
+      "strictlyLongestCorrectCount": 132,
+      "strictlyLongestCorrectRate": 0.44,
+      "tiedOrLongestCorrectCount": 142,
+      "tiedOrLongestCorrectRate": 0.4733,
+      "strictlyShortestCorrectCount": 15,
+      "answerPositionCounts": [77, 76, 74, 73],
+      "answerPositionRates": [0.2567, 0.2533, 0.2467, 0.2433]
+    },
+    "syllabusMapping": {
+      "passed": true,
+      "unexpectedTopics": [],
+      "unexpectedSubtopics": [],
+      "subtopicCounts": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70,
+        "Yoga & Mind–Body Interventions in Sports": 30,
+        "Athlete Health, Wellness & Holistic Development": 30,
+        "Travel-Related Challenges & Competition Readiness": 30,
+        "Anti-Doping Awareness & Ethical Practices": 30,
+        "Interdisciplinary Coordination & Support Systems": 30
+      },
+      "minimumQuestionsPerOfficialArea": 30
+    },
+    "sourceAttribution": {
+      "allCurrentSourceIdsResolve": true,
+      "provenanceManifestRangeMappingsMatchCurrentFiles": true,
+      "usedSourceIdsWithoutLocator": [
+        { "sourceId": "neumann-kinesiology", "questionCount": 30, "questionRange": "a1-tech-021..a1-tech-050" },
+        { "sourceId": "nsca-essentials-5", "questionCount": 10, "questionRange": "a1-holistic-051..a1-holistic-060" },
+        { "sourceId": "world-physiotherapy-ebp-2023", "questionCount": 20, "questionRanges": ["a1-holistic-111..a1-holistic-120", "a1-holistic-141..a1-holistic-150"] }
+      ],
+      "sourceIdFallbackMismatches": {
+        "count": 220,
+        "affectedRanges": [
+          "a1-tech-001..a1-tech-020",
+          "a1-tech-041..a1-tech-150",
+          "a1-holistic-001..a1-holistic-030",
+          "a1-holistic-051..a1-holistic-060",
+          "a1-holistic-081..a1-holistic-090",
+          "a1-holistic-111..a1-holistic-150"
+        ],
+        "note": "The explicit sourceId values are valid, but sourceIdForQuestion() still returns older broad IDs for these records."
+      }
+    }
+  },
+  "highConfidenceFindings": [
+    {
+      "id": "F2-001",
+      "category": "duplicate-stems",
+      "severity": "high",
+      "affectedQuestionCount": 150,
+      "affectedRanges": ["a1-holistic-001..a1-holistic-150"],
+      "finding": "Each ten-question block repeats one conceptual stem and the same option set, changing only a superficial scenario prefix and option order.",
+      "action": "Replace or substantially rewrite most variants so different questions test different facts, decisions, or scenarios; retain at most a small deliberate set per concept."
+    },
+    {
+      "id": "F2-002",
+      "category": "aggregate-option-length-bias",
+      "severity": "medium",
+      "affectedQuestionCount": 132,
+      "affectedRanges": ["technology and holistic files"],
+      "finding": "The correct option is strictly the longest in 44.0% of these 300 questions, above the stated below-35% target, although no individual question crosses the primary 8-character-median or 15-character-spread flag.",
+      "action": "Run a targeted second-pass review of the strictly-longest items and rebalance only when content permits; do not pad distractors or rewrite sound options mechanically."
+    },
+    {
+      "id": "F2-003",
+      "category": "provenance-helper-drift",
+      "severity": "high",
+      "affectedQuestionCount": 220,
+      "affectedRanges": [
+        "a1-tech-001..a1-tech-020",
+        "a1-tech-041..a1-tech-150",
+        "a1-holistic-001..a1-holistic-030",
+        "a1-holistic-051..a1-holistic-060",
+        "a1-holistic-081..a1-holistic-090",
+        "a1-holistic-111..a1-holistic-150"
+      ],
+      "finding": "sourceIdForQuestion() does not reproduce the explicit granular source IDs currently stored in the retained files and falls back to older broad IDs.",
+      "action": "Update the helper with the approved granular mappings or make explicit per-question source IDs the sole generation path and add a regression check."
+    },
+    {
+      "id": "F2-004",
+      "category": "source-catalog-locator-gap",
+      "severity": "medium",
+      "affectedQuestionCount": 60,
+      "affectedSourceIds": ["neumann-kinesiology", "nsca-essentials-5", "world-physiotherapy-ebp-2023"],
+      "finding": "Three source entries used by the audited questions have no chapter, page, section, or equivalent locator in the catalog.",
+      "action": "Add inspected locators to each source entry so the answer and explanation can be traced beyond a broad title and scope."
+    },
+    {
+      "id": "F2-005",
+      "category": "source-scope-traceability-gap",
+      "severity": "medium",
+      "affectedQuestionCount": 10,
+      "affectedRanges": ["a1-holistic-111..a1-holistic-120"],
+      "finding": "The current source world-physiotherapy-ebp-2023 is catalogued only for evidence quality, uncertainty, and clinical reasoning, while these items assert professional ethics claims about welfare, privacy, autonomy, and informed choice.",
+      "action": "Add a source locator that directly supports these ethics claims or assign a more specific inspected professional-ethics source."
+    },
+    {
+      "id": "F2-006",
+      "category": "stale-provenance-artifact",
+      "severity": "medium",
+      "affectedFiles": ["research/source_requests_technology_biostatistics.md"],
+      "finding": "The technology source note still says no new source IDs are required, but the current catalog and provenance remediation manifest add and use granular source IDs.",
+      "action": "Update the note to list the current source IDs and their ranges, or mark the sentence as historical."
+    },
+    {
+      "id": "F2-007",
+      "category": "coverage-manifest-incomplete",
+      "severity": "medium",
+      "affectedFiles": ["research/a1_coverage_manifest.json"],
+      "finding": "The coverage manifest records group and subtopic counts but does not record source coverage, despite the required audit-manifest scope including source coverage.",
+      "action": "Add per-group or per-question source counts to the manifest, while preserving the existing question schema."
+    }
+  ],
+  "nonFindings": {
+    "answerKeyErrors": 0,
+    "ambiguousOrSemanticallyInvalidDistractors": 0,
+    "exactDuplicateQuestions": 0,
+    "schemaIssues": 0,
+    "unknownSourceIds": 0,
+    "syllabusMappingErrors": 0,
+    "primaryOptionLengthFlags": 0
+  },
+  "reviewNotes": [
+    "The repeated-stem finding is distinct from exact duplicate-text validation: the text differs only by mechanically substituted context prefixes.",
+    "The option-length result is an aggregate review signal, not a directive to rewrite every strictly-longest correct option.",
+    "The source findings concern traceability and catalog specificity; they do not establish that the keyed content is factually wrong."
+  ]
+}

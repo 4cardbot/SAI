@@ -1,0 +1,186 @@
+{
+  "auditType": "a1_final13_content_repair_technology_holistic",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ],
+    "sourceAudit": "research/release2_audit_technology_holistic.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Circadian relationship, grammar/completion defects, ML evaluation provenance, athlete-data governance, ethics/consent, supplement risk, and return-to-sport provenance."
+  },
+  "reviewedCount": 300,
+  "changedCount": 23,
+  "changes": [
+    {
+      "id": "a1-tech-035",
+      "revisedText": "Centre of pressure is defined as:",
+      "revisedCorrect": 2,
+      "reviewerNote": "Removed the duplicate article while preserving the force-plate concept and answer key.",
+      "sourcesInspected": ["neumann-kinesiology", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-121",
+      "revisedText": "A regression slope of 0.4 means a one-unit predictor increase is associated with:",
+      "revisedCorrect": 1,
+      "reviewerNote": "Revised the stem so the option is a grammatical completion.",
+      "sourcesInspected": ["nist-sematech-statistics", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-131",
+      "revisedText": "A frequentist 95% CI procedure means about 95% of repeated intervals contain:",
+      "revisedCorrect": 1,
+      "reviewerNote": "Removed the duplicated article before the keyed population-parameter option.",
+      "sourcesInspected": ["nist-sematech-statistics", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-133",
+      "revisedOptions": ["wider overall", "narrower overall", "exactly zero", "unrelated to standard error"],
+      "revisedCorrect": 1,
+      "reviewerNote": "Converted the options into grammatical complements of 'makes a CI'.",
+      "sourcesInspected": ["nist-sematech-statistics", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-135",
+      "revisedText": "In a symmetric CI, the point estimate is at:",
+      "revisedOptions": ["lower confidence limit", "upper confidence limit", "confidence-level value", "centre of the interval"],
+      "revisedCorrect": 3,
+      "reviewerNote": "Removed repeated articles so all options complete the revised stem consistently.",
+      "sourcesInspected": ["nist-sematech-statistics", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-141",
+      "revisedText": "Cohen's d is a mean difference divided by:",
+      "revisedOptions": ["the number of participants in each sample", "the reported p-value from the comparison", "the selected confidence level", "the pooled standard deviation"],
+      "revisedCorrect": 3,
+      "reviewerNote": "Removed the duplicated article while preserving the effect-size definition and key.",
+      "sourcesInspected": ["nakagawa-cuthill-effect-size-2007", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-054",
+      "revisedExplanation": "Data leakage occurs when information unavailable at prediction time, such as a post-injury variable, is used to build the model and produces over-optimistic performance estimates.",
+      "revisedSourceId": "scikit-learn-common-pitfalls-1-9",
+      "revisedCorrect": 1,
+      "reviewerNote": "Assigned a directly relevant official source for the data-leakage definition and aligned the explanation to it.",
+      "sourcesInspected": ["scikit-learn-common-pitfalls-1-9", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-055",
+      "revisedExplanation": "Sensitivity, also called recall for the positive class, is the proportion of actual positive cases that the classifier correctly identifies.",
+      "revisedSourceId": "scikit-learn-model-evaluation-1-9",
+      "revisedCorrect": 0,
+      "reviewerNote": "Assigned an official classification-metrics source and made the explanation directly support sensitivity/recall.",
+      "sourcesInspected": ["scikit-learn-model-evaluation-1-9", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-056",
+      "revisedExplanation": "With rare injury cases, a model can obtain high accuracy by predicting the common non-injury class while missing the minority injury cases, so prevalence and class-specific metrics matter.",
+      "revisedSourceId": "scikit-learn-model-evaluation-1-9",
+      "revisedCorrect": 0,
+      "reviewerNote": "Assigned an official model-evaluation source and explicitly justified the class-imbalance concern.",
+      "sourcesInspected": ["scikit-learn-model-evaluation-1-9", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-tech-061",
+      "revisedSourceId": "ais-athlete-data-governance",
+      "revisedCorrect": 2,
+      "reviewerNote": "Remapped the athlete-management-system definition to the directly relevant official athlete-data-governance source.",
+      "sourcesInspected": ["ais-athlete-data-governance", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-064",
+      "revisedOptions": ["The body clock has already delayed beyond the destination time", "Travel fatigue can occur only after eastward journeys", "The circadian phase remains relatively late for the new local time", "Jet lag is impossible when the athlete sleeps during the flight"],
+      "revisedExplanation": "After westward travel, the athlete may need a phase delay; early local-evening sleepiness can reflect an internal clock that remains relatively late or advanced for the destination time.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Corrected the westward-travel phase relationship while preserving the keyed index and travel-readiness concept.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-035",
+      "revisedOptions": ["Start a conversation about sleep or recovery", "Identify a trend that merits closer monitoring", "Compare the report with other available information", "Rely on one score alone for a high-stakes decision"],
+      "revisedCorrect": 3,
+      "reviewerNote": "Made the keyed option a grammatical verb-phrase complement of the stem.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-078",
+      "revisedOptions": ["Remain seated for the entire journey to preserve energy", "Perform exhaustive exercise in the aircraft aisle", "Use movement breaks, drink appropriately, and avoid exhaustion", "Replace sleep with repeated high-intensity mobility circuits"],
+      "revisedCorrect": 2,
+      "reviewerNote": "Repaired parallel coordination in the travel movement recommendation without changing the answer meaning.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-083",
+      "revisedText": "Heat acclimatization is best developed through:",
+      "revisedOptions": ["one maximal heat session before competition", "repeated heat exposure with recovery", "cold training with assumed heat transfer", "heat avoidance with pre-cooling only"],
+      "revisedCorrect": 1,
+      "reviewerNote": "Changed the stem and options into parallel noun phrases while preserving progressive heat-acclimatization content.",
+      "sourcesInspected": ["physiology-sport-exercise-kenney", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-036",
+      "revisedSourceId": "world-physiotherapy-consent-2023",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped the voluntary participation and access question to the directly relevant informed-consent policy.",
+      "sourcesInspected": ["world-physiotherapy-consent-2023", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-039",
+      "revisedSourceId": "world-physiotherapy-ethics-2023",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped privacy and age-appropriate support to the directly relevant ethics policy.",
+      "sourcesInspected": ["world-physiotherapy-ethics-2023", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-092",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "revisedCorrect": 2,
+      "reviewerNote": "Remapped supplement contamination, batch-testing, and quality-risk guidance to the inspected official AIS supplement statement.",
+      "sourcesInspected": ["ais-supplements-position-2022", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-093",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "revisedCorrect": 1,
+      "reviewerNote": "Remapped natural-supplement risk and contamination verification to the inspected official AIS supplement statement.",
+      "sourcesInspected": ["ais-supplements-position-2022", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-095",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped supplement/medication risk-management guidance to the inspected official AIS supplement statement.",
+      "sourcesInspected": ["ais-supplements-position-2022", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-096",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped the limitation of third-party supplement certification to the inspected official AIS supplement statement.",
+      "sourcesInspected": ["ais-supplements-position-2022", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-099",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped uncertain-supplement documentation and escalation guidance to the inspected official AIS supplement statement.",
+      "sourcesInspected": ["ais-supplements-position-2022", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-116",
+      "revisedSourceId": "world-physiotherapy-consent-2023",
+      "revisedCorrect": 0,
+      "reviewerNote": "Remapped minor assent and guardian-consent handling to the directly relevant informed-consent policy.",
+      "sourcesInspected": ["world-physiotherapy-consent-2023", "research/release2_audit_technology_holistic.json"]
+    },
+    {
+      "id": "a1-holistic-129",
+      "revisedSourceId": "bern-return-to-sport-2016",
+      "revisedCorrect": 3,
+      "reviewerNote": "Remapped the integrated return-to-sport criteria to the directly relevant Bern consensus statement.",
+      "sourcesInspected": ["bern-return-to-sport-2016", "research/release2_audit_technology_holistic.json"]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "auditType": "final_release_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "retainedFiles": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "repairLogsInspected": [
+      "research/final3_content_repair_data_analytics.json",
+      "research/final4_length_repair_data_analytics.json",
+      "research/final5_diversity_repair_data_analytics.json",
+      "research/final6_length_repair_data_analytics.json",
+      "research/final8_content_repair_data_analytics.json",
+      "research/final9_length_repair_data_analytics.json",
+      "research/final3_content_repair_performance_recovery.json",
+      "research/final4_length_repair_performance_recovery.json",
+      "research/final5_diversity_repair_performance_recovery.json",
+      "research/final6_length_repair_performance_recovery.json",
+      "research/final7_length_repair_performance_recovery.json"
+    ]
+  },
+  "method": {
+    "contentReview": "Reviewed all 300 current questions for keyed-answer fit, semantic distractors, stem/option grammar, explanation consistency, and source-scope fit.",
+    "repetitionReview": "Checked exact normalized stems, exact normalized option sets independent of order, and high-similarity stem pairs; only materially distinct current stems were retained as non-findings.",
+    "lengthReview": "Primary flag when the correct option exceeds the median distractor length by more than 8 characters or total option spread exceeds 15 characters.",
+    "mergeReview": "Compared every retained question object with the corresponding current object in the merged A1 file.",
+    "logReview": "Checked all listed repair logs for valid counts, current question IDs, resolved source IDs, and effective current revisions."
+  },
+  "metrics": {
+    "retainedQuestionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "mergedA1QuestionCount": 900,
+    "mergedEntriesCompared": 300,
+    "mergedEntryMismatches": 0,
+    "schema": {
+      "requiredFieldErrors": 0,
+      "nonStandardKeyErrors": 0,
+      "wrongSectionErrors": 0,
+      "fourOptionErrors": 0,
+      "duplicateOptionErrors": 0,
+      "invalidCorrectIndexErrors": 0,
+      "emptyExplanationErrors": 0
+    },
+    "syllabusMapping": {
+      "data_analytics": {
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopics": {
+          "Interpretation & Application of Data": 100,
+          "Principles of Research & Evidence-Based Practice": 50
+        }
+      },
+      "performance_recovery": {
+        "topic": "Performance Enhancement & Recovery Protocols",
+        "subtopics": {
+          "Performance Enhancement Strategies": 50,
+          "Recovery Protocols & Regeneration": 50,
+          "Injury Prevention & Risk Management": 50
+        }
+      },
+      "coverageErrors": 0
+    },
+    "sourceTraceability": {
+      "uniqueSourceIdsUsed": 15,
+      "unknownSourceIds": 0,
+      "usedCatalogEntriesWithoutLocator": 0,
+      "sourceScopeMismatches": 0,
+      "allRepairLogSourceIdsResolved": true
+    },
+    "repetition": {
+      "exactNormalizedStemDuplicates": 0,
+      "exactNormalizedOptionSetDuplicates": 0,
+      "highSimilarityStemPairsAtAuditThreshold": 0
+    },
+    "optionQuality": {
+      "primaryLengthFlags": 0,
+      "maximumCorrectMinusMedianDistractor": 8,
+      "maximumOptionLengthSpread": 15,
+      "strictlyLongestCorrectCount": 87,
+      "strictlyLongestCorrectPercent": 29,
+      "answerPositionCounts": [
+        77,
+        78,
+        73,
+        72
+      ]
+    },
+    "repairLogIntegrity": {
+      "presentLogsValidated": 11,
+      "logErrors": 0,
+      "effectiveCurrentRevisionMismatches": 0
+    }
+  },
+  "actionableFindings": [
+    {
+      "findingId": "dp-release-grammar-data-001",
+      "category": "grammarAndOptionStructure",
+      "confidence": "high",
+      "severity": "medium",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-062",
+        "a1-data-072",
+        "a1-data-073",
+        "a1-data-092",
+        "a1-data-094",
+        "a1-data-104",
+        "a1-data-113",
+        "a1-data-122",
+        "a1-data-123",
+        "a1-data-132",
+        "a1-data-133",
+        "a1-data-134"
+      ],
+      "evidence": "The keyed option does not grammatically complete the current stem in these items. Examples include 'should first present: Present key trends', 'check: Check calibration', 'is that it: Present measures', 'should avoid: Interpret percentage change', 'can estimate: Estimate the association', 'may be: Treat it as a confounder', and 'because it: Consider coaching a confounder'. In a1-data-133, the stem's 'it' refers to heat exposure, so 'Consider heat exposure as a confounder' also gives the wrong subject and action structure.",
+      "recommendedAction": "Revise each keyed option into the noun phrase or inflected clause required by its stem, or revise the stem to introduce an imperative. Preserve the answer meaning and zero-based correct index."
+    },
+    {
+      "findingId": "dp-release-grammar-performance-001",
+      "category": "grammarAndOptionStructure",
+      "confidence": "high",
+      "severity": "medium",
+      "file": "question_bank/section_a1_performance_recovery.json",
+      "questionIds": [
+        "a1-recovery-004",
+        "a1-recovery-022",
+        "a1-recovery-032",
+        "a1-recovery-083",
+        "a1-recovery-093",
+        "a1-recovery-094"
+      ],
+      "evidence": "The keyed option uses an imperative or uninflected verb where the stem requires a noun phrase or an inflected clause: 'progressed according to: Match tissue status', 'should emphasize: Train rapid force', 'drill primarily develops: Train agility', 'is that it: Combine signals', 'by considering: Consider goal', and 'should clarify: Clarify goal'. These constructions are visibly awkward and can make the keyed choice structurally distinct.",
+      "recommendedAction": "Convert the keyed options to parallel noun phrases or revise the stems to end before an imperative. Preserve the current answer meaning and correct index."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "auditType": "a1_final11_content_repair_testing_assessment",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "file": "question_bank/section_a1_testing_assessment.json",
+    "sourceAudit": "research/release2_audit_core_testing.json",
+    "reviewedQuestionCount": 150,
+    "repairFocus": "Four high-confidence release-audit findings: scenario logic, percentile wording, explanation mismatch, and stem-option grammar."
+  },
+  "reviewedCount": 150,
+  "changedCount": 4,
+  "changes": [
+    {
+      "id": "a1-test-011",
+      "revisedText": "A second trial is much faster because an athlete has become familiar with the task. This mainly threatens:",
+      "revisedCorrect": 1,
+      "reviewerNote": "Corrected the contradictory practice-effect scenario while retaining the keyed concept, options, source, and answer index.",
+      "sourcesInspected": ["acsm-getp-12", "research/release2_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-046",
+      "revisedText": "For a higher-is-better measure, an athlete at the 75th percentile had a score above:",
+      "revisedCorrect": 2,
+      "reviewerNote": "Specified the direction of the measure so the percentile interpretation has one unambiguous meaning; the keyed option remains the same.",
+      "sourcesInspected": ["acsm-getp-12", "research/release2_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-070",
+      "revisedCorrect": 2,
+      "revisedExplanation": "The 3-km run can induce fatigue and reduce subsequent jump performance, so placing the countermovement jump first limits fatigue carryover into the power measure.",
+      "reviewerNote": "Replaced an unrelated resting-vitals explanation with an explanation that directly justifies the keyed test sequence.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release2_audit_core_testing.json"]
+    },
+    {
+      "id": "a1-test-136",
+      "revisedText": "To compare a field test across a training block, the team should:",
+      "revisedCorrect": 0,
+      "reviewerNote": "Removed the incompatible preposition so the imperative options are grammatically parallel and complete the stem.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release2_audit_core_testing.json"]
+    }
+  ]
+}

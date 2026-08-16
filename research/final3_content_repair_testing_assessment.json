@@ -1,0 +1,856 @@
+{
+  "auditType": "final3-content-repair-testing-assessment",
+  "generatedAt": "2026-08-16",
+  "readOnly": false,
+  "scope": {
+    "reviewedFile": "question_bank/section_a1_testing_assessment.json",
+    "reviewedQuestionCount": 150,
+    "editScope": [
+      "question_bank/section_a1_testing_assessment.json",
+      "research/final3_content_repair_testing_assessment.json"
+    ],
+    "protectedFiles": [
+      "question_bank/section_a1.json",
+      "src/data/sourceCatalog.ts"
+    ],
+    "sourceReassignmentIds": [
+      "world-physiotherapy-consent-2023",
+      "world-physiotherapy-ethics-2023"
+    ]
+  },
+  "summary": {
+    "originalCount": 150,
+    "revisedCount": 150,
+    "changedCount": 30,
+    "optionStructureRepairs": 15,
+    "consentSourceReassignments": 8,
+    "ethicsSourceReassignments": 7,
+    "answerKeyChanges": 0,
+    "stemChanges": 0
+  },
+  "independentCheck": {
+    "checksPerformed": [
+      "150-item count and sequential unique IDs",
+      "required schema fields, four-option arrays, and zero-based answer indices",
+      "source IDs resolve in the existing source catalog",
+      "exact duplicate questions and duplicate stems",
+      "option-length spread and correct-option length flags",
+      "answer-family consistency across the reviewed testing concepts",
+      "manual review of the confirmed safety, consent, confidentiality, and termination concepts"
+    ],
+    "remainingHighConfidenceFindings": [],
+    "note": "No additional high-confidence answer-key, distractor, schema, duplicate, syllabus-mapping, or option-structure defects were identified beyond the confirmed repairs recorded below."
+  },
+  "changes": [
+    {
+      "id": "a1-test-084",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "For an athlete entering a new training block, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "For an athlete entering a new training block, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-085",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "When reviewing a high-performance athlete profile, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "When reviewing a high-performance athlete profile, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-086",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "During a competition preparation meeting, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "During a competition preparation meeting, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-087",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "In a practical sports-science assessment, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "In a practical sports-science assessment, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-088",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "When communicating the finding to a coach, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "When communicating the finding to a coach, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications",
+        "Screening, contraindications, preparation, and emergency procedures"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-089",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "For a youth athlete in a development programme, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "For a youth athlete in a development programme, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-090",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "During a congested competition period, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "During a congested competition period, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-091",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "In a rehabilitation or reconditioning setting, before a maximal exercise test, the practitioner should first verify:",
+      "revisedQuestion": "In a rehabilitation or reconditioning setting, before a maximal exercise test, the practitioner should first verify:",
+      "originalOptions": [
+        "Confirm history, medication, and symptoms without reviewing emergency readiness",
+        "Rely on previous scores and coach expectations instead of screening",
+        "Screening, contraindications, preparation, and emergency procedures",
+        "Assume experienced staff and precise equipment remove contraindications"
+      ],
+      "revisedOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel subordinate clauses beginning with “that,” preserving the safety concept, keyed meaning, answer index, and difficulty while removing the unique noun-phrase/verb-form clue.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-137",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "For an athlete entering a new training block, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "For an athlete entering a new training block, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-138",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "When reviewing a high-performance athlete profile, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Stop only after a maximal score has been reached",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-139",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "During a competition preparation meeting, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "During a competition preparation meeting, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-140",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "In a practical sports-science assessment, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "In a practical sports-science assessment, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol",
+        "Predefined termination criteria or concerning symptoms occur"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-141",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "When communicating the finding to a coach, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "When communicating the finding to a coach, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-142",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "For a youth athlete in a development programme, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "For a youth athlete in a development programme, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Stop only after a maximal score has been reached",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Continue if the athlete wishes even after a warning sign",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-143",
+      "defectType": "option-structure-giveaway",
+      "originalQuestion": "During a congested competition period, a test administrator should stop an exercise test when:",
+      "revisedQuestion": "During a congested competition period, a test administrator should stop an exercise test when:",
+      "originalOptions": [
+        "Stop only after a maximal score has been reached",
+        "Continue if the athlete wishes even after a warning sign",
+        "Predefined termination criteria or concerning symptoms occur",
+        "Stop at a fixed time regardless of symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Rewrote all options as parallel finite clauses with the same subject and then tightened wording to keep the options semantically plausible and within an 11-character length spread, preserving the exercise-test termination concept, keyed meaning, answer index, and difficulty.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-108",
+      "defectType": "source-reassignment",
+      "originalQuestion": "For an athlete entering a new training block, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "For an athlete entering a new training block, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-109",
+      "defectType": "source-reassignment",
+      "originalQuestion": "When reviewing a high-performance athlete profile, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "When reviewing a high-performance athlete profile, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-110",
+      "defectType": "source-reassignment",
+      "originalQuestion": "During a competition preparation meeting, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "During a competition preparation meeting, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-111",
+      "defectType": "source-reassignment",
+      "originalQuestion": "In a practical sports-science assessment, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "In a practical sports-science assessment, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-112",
+      "defectType": "source-reassignment",
+      "originalQuestion": "When communicating the finding to a coach, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "When communicating the finding to a coach, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-113",
+      "defectType": "source-reassignment",
+      "originalQuestion": "For a youth athlete in a development programme, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "For a youth athlete in a development programme, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-114",
+      "defectType": "source-reassignment",
+      "originalQuestion": "During a congested competition period, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "During a congested competition period, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-115",
+      "defectType": "source-reassignment",
+      "originalQuestion": "In a rehabilitation or reconditioning setting, informed consent means that the athlete receives information about:",
+      "revisedQuestion": "In a rehabilitation or reconditioning setting, informed consent means that the athlete receives information about:",
+      "originalOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "revisedOptions": [
+        "The procedure, expected score, and schedule without discussing possible risks",
+        "The likely benefits and coach recommendation without describing voluntary choice",
+        "The procedure, risks, benefits, voluntary choice, data use, and how to withdraw",
+        "The opinions of staff and teammates about the athlete's readiness and selection"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy informed-consent policy, which directly covers relevant information, voluntary choice, and withdrawal; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-116",
+      "defectType": "source-reassignment",
+      "originalQuestion": "For an athlete entering a new training block, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "For an athlete entering a new training block, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-117",
+      "defectType": "source-reassignment",
+      "originalQuestion": "When reviewing a high-performance athlete profile, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "When reviewing a high-performance athlete profile, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "revisedOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-118",
+      "defectType": "source-reassignment",
+      "originalQuestion": "During a competition preparation meeting, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "During a competition preparation meeting, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-119",
+      "defectType": "source-reassignment",
+      "originalQuestion": "In a practical sports-science assessment, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "In a practical sports-science assessment, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-120",
+      "defectType": "source-reassignment",
+      "originalQuestion": "When communicating the finding to a coach, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "When communicating the finding to a coach, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-121",
+      "defectType": "source-reassignment",
+      "originalQuestion": "For a youth athlete in a development programme, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "For a youth athlete in a development programme, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "revisedOptions": [
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-122",
+      "defectType": "source-reassignment",
+      "originalQuestion": "During a congested competition period, confidentiality in athlete testing primarily concerns:",
+      "revisedQuestion": "During a congested competition period, confidentiality in athlete testing primarily concerns:",
+      "originalOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "revisedOptions": [
+        "Give the coach unrestricted access to identifiable raw results by default",
+        "Prevent inappropriate disclosure of identifiable athlete data without consent",
+        "Tell teammates about results when selection decisions depend on them directly",
+        "Store identifiable data without access controls if the report is internal"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "reviewerNote": "Reassigned the provenance to the inspected World Physiotherapy ethics policy, which directly covers privacy, confidentiality, and protection of identifiable information; wording, explanation, options, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023",
+        "sai-notification-2026"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "auditType": "a1_final18_content_repair_data_performance",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "sourceAudit": "research/release4_audit_data_performance.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Practical-importance grammar and item-specific explanations for measurement error, data-quality verification, and dashboard design."
+  },
+  "reviewedCount": 300,
+  "changedCount": 16,
+  "changes": [
+    {
+      "id": "a1-data-053",
+      "revisedOptions": ["Call any nonzero change practically important", "Use peer rank even when the protocol changed", "Exceeds error and changes the decision", "Treat extra decimal places as evidence of improvement"],
+      "revisedCorrect": 2,
+      "reviewerNote": "Converted the keyed imperative into a grammatical stem completion while preserving the practical-importance concept.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-055",
+      "revisedExplanation": "Because the improvement is smaller than timing error, it is not clearly beyond measurement noise; it becomes practically relevant only if it exceeds error or changes a predefined decision.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named timing error and the threshold for practical relevance.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-056",
+      "revisedExplanation": "The 1-kg increase is smaller than the 2-kg familiarization variation, so it should not be treated as a dependable gain unless it exceeds that error or changes a justified loading decision.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named familiarization variation and its implication for interpreting the apparent gain.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-057",
+      "revisedExplanation": "A one-point wellness increase is smaller than the scale's three-point day-to-day variation, so it is meaningful only if it exceeds expected variation or a preset threshold.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named day-to-day variation and the threshold needed for a responsible conclusion.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-058",
+      "revisedExplanation": "Exceeding typical error and the smallest worthwhile change supports using the jump result in a decision when protocol and athlete context remain comparable.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named typical error, smallest worthwhile change, protocol, and context.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-059",
+      "revisedExplanation": "The one-percentage-point asymmetry change is smaller than the 3% trial variation, so it should be judged against error and a clinically or practically relevant threshold.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named trial variation and the threshold needed to interpret the small asymmetry change.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-060",
+      "revisedExplanation": "A 0.3-mmol/L lactate decrease below analytical and biological variation is not dependable evidence of adaptation unless it exceeds variation or changes a justified decision.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named analytical and biological variation and its implication for adaptation claims.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-075",
+      "revisedExplanation": "A brief satellite-lock loss can distort GPS distance and speed estimates, so satellite quality, processing, protocol, and raw records should be verified before interpreting performance.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named the GPS artifact and the integrity checks that precede interpretation.",
+      "sourcesInspected": ["gps-validity-scott-2016", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-076",
+      "revisedExplanation": "Moving a force plate can affect placement and calibration; body-mass records, protocol, and raw traces should be checked before accepting an abrupt jump-height change.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named force-plate placement/calibration and raw-trace checks.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-077",
+      "revisedExplanation": "A flat optical heart-rate trace despite normal effort may reflect contact, firmware, signal, or protocol problems, so an independent measure helps verify the recording.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named the optical-sensor artifact and independent verification step.",
+      "sourcesInspected": ["wearable-athlete-sensors-seshadri-2019", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-078",
+      "revisedExplanation": "A sample collected 20 minutes late can produce an invalid lactate comparison; sampling time, analyzer function, units, protocol, and the raw record should be checked first.",
+      "revisedCorrect": 1,
+      "reviewerNote": "Named delayed sampling and the required lactate-record integrity checks.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-079",
+      "revisedExplanation": "An unusual response time and reminder context can affect a wellness entry, so timestamps, duplicate submissions, and the raw response should be checked before changing training.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Named timestamp, duplicate, reminder-context, and raw-entry checks.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-080",
+      "revisedExplanation": "A gate time that conflicts with video and the next trial warrants checking setup, start procedure, timing data, and video before inferring a capacity loss.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Named timing-gate setup and cross-record verification.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-095",
+      "revisedExplanation": "An unlabelled composite can hide distinct performance and health constructs, so the component measures should remain separately labelled and interpretable.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Explained why an unlabelled composite obscures distinct constructs.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-098",
+      "revisedExplanation": "Metrics are more useful when linked to a defined coaching question or decision; displaying many unconnected measures increases noise without guiding action.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Explained why dashboard measures need a defined decision purpose.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-100",
+      "revisedExplanation": "Mixing pre-training and post-training wellness observations can create a misleading trend, so collection timing must be separated or labelled before comparison.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Explained why mixed collection timing invalidates an unqualified trend.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release4_audit_data_performance.json"]
+    }
+  ]
+}

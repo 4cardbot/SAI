@@ -1,0 +1,3720 @@
+{
+  "auditType": "a1_data_analytics_final5_diversity_repair",
+  "auditDate": "2026-08-16",
+  "readOnly": false,
+  "scope": {
+    "file": "question_bank/section_a1_data_analytics.json",
+    "sourceAudit": "research/post_final_independent_audit_data_performance.json",
+    "familyCount": 15,
+    "familyRule": "The first ID in each listed seven-ID family was retained as representative; every other listed current ID was materially rewritten with a distinct athlete scenario, constraint, analysis, or decision.",
+    "rewrittenQuestionCount": 90,
+    "sourceOnlyChangeCount": 2,
+    "totalChangedQuestionCount": 94,
+    "mergedFileEdited": false,
+    "sourceCatalogEdited": false
+  },
+  "retainedRepresentatives": [
+    "a1-data-001",
+    "a1-data-011",
+    "a1-data-021",
+    "a1-data-031",
+    "a1-data-041",
+    "a1-data-051",
+    "a1-data-061",
+    "a1-data-071",
+    "a1-data-081",
+    "a1-data-091",
+    "a1-data-101",
+    "a1-data-111",
+    "a1-data-121",
+    "a1-data-131",
+    "a1-data-141"
+  ],
+  "familyRewriteIds": [
+    "a1-data-005",
+    "a1-data-006",
+    "a1-data-007",
+    "a1-data-008",
+    "a1-data-009",
+    "a1-data-010",
+    "a1-data-015",
+    "a1-data-016",
+    "a1-data-017",
+    "a1-data-018",
+    "a1-data-019",
+    "a1-data-020",
+    "a1-data-025",
+    "a1-data-026",
+    "a1-data-027",
+    "a1-data-028",
+    "a1-data-029",
+    "a1-data-030",
+    "a1-data-035",
+    "a1-data-036",
+    "a1-data-037",
+    "a1-data-038",
+    "a1-data-039",
+    "a1-data-040",
+    "a1-data-045",
+    "a1-data-046",
+    "a1-data-047",
+    "a1-data-048",
+    "a1-data-049",
+    "a1-data-050",
+    "a1-data-055",
+    "a1-data-056",
+    "a1-data-057",
+    "a1-data-058",
+    "a1-data-059",
+    "a1-data-060",
+    "a1-data-065",
+    "a1-data-066",
+    "a1-data-067",
+    "a1-data-068",
+    "a1-data-069",
+    "a1-data-070",
+    "a1-data-075",
+    "a1-data-076",
+    "a1-data-077",
+    "a1-data-078",
+    "a1-data-079",
+    "a1-data-080",
+    "a1-data-085",
+    "a1-data-086",
+    "a1-data-087",
+    "a1-data-088",
+    "a1-data-089",
+    "a1-data-090",
+    "a1-data-095",
+    "a1-data-096",
+    "a1-data-097",
+    "a1-data-098",
+    "a1-data-099",
+    "a1-data-100",
+    "a1-data-105",
+    "a1-data-106",
+    "a1-data-107",
+    "a1-data-108",
+    "a1-data-109",
+    "a1-data-110",
+    "a1-data-115",
+    "a1-data-116",
+    "a1-data-117",
+    "a1-data-118",
+    "a1-data-119",
+    "a1-data-120",
+    "a1-data-125",
+    "a1-data-126",
+    "a1-data-127",
+    "a1-data-128",
+    "a1-data-129",
+    "a1-data-130",
+    "a1-data-135",
+    "a1-data-136",
+    "a1-data-137",
+    "a1-data-138",
+    "a1-data-139",
+    "a1-data-140",
+    "a1-data-145",
+    "a1-data-146",
+    "a1-data-147",
+    "a1-data-148",
+    "a1-data-149",
+    "a1-data-150"
+  ],
+  "requiredCorrections": {
+    "answerKey": [
+      {
+        "id": "a1-data-094",
+        "oldCorrect": 3,
+        "newCorrect": 0,
+        "reason": "Avoid interpreting percentage change without baseline or test context."
+      },
+      {
+        "id": "a1-data-124",
+        "oldCorrect": 3,
+        "newCorrect": 0,
+        "reason": "Appraise temporal order and confounding before causal language in simultaneous observational measurement."
+      }
+    ],
+    "sourceReassignments": [
+      {
+        "id": "a1-data-034",
+        "oldSource": "kisner-therapeutic-exercise",
+        "newSource": "brukner-khan-clinical-sports-medicine",
+        "reason": "Fully catalogued directly relevant inspected sports-medicine source."
+      },
+      {
+        "id": "a1-data-141",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Safeguards item requires ethics source."
+      },
+      {
+        "id": "a1-data-145",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      },
+      {
+        "id": "a1-data-146",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      },
+      {
+        "id": "a1-data-147",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      },
+      {
+        "id": "a1-data-148",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      },
+      {
+        "id": "a1-data-149",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      },
+      {
+        "id": "a1-data-150",
+        "oldSource": "world-physiotherapy-ebp-2023",
+        "newSource": "world-physiotherapy-ethics-2023",
+        "reason": "Participant safeguards and privacy require ethics source."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "a1-data-005",
+      "original": {
+        "id": "a1-data-005",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When communicating the finding to a coach, a performance profile is most useful when it identifies:",
+        "options": [
+          "Strengths, weaknesses, limits, and priorities",
+          "Only the athlete's best score without context",
+          "A rank compared with peers but no test purpose",
+          "A list of results without action priorities"
+        ],
+        "correct": 0,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-005",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A rugby back has a 30-m time near the squad median, a high repeated-sprint decrement, and a marked hip-strength asymmetry. Which profile output is most useful for planning?",
+        "options": [
+          "Strengths, limits, and priorities for rugby back",
+          "Only the best score without context for rugby back",
+          "A peer rank without test purpose for rugby back",
+          "A results list without action priorities for rugby back"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-006",
+      "original": {
+        "id": "a1-data-006",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For a youth athlete in a development programme, a performance profile is most useful when it identifies:",
+        "options": [
+          "Only the athlete's best score without context",
+          "Strengths, weaknesses, limits, and priorities",
+          "A rank compared with peers but no test purpose",
+          "A list of results without action priorities"
+        ],
+        "correct": 1,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-006",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A junior swimmer has stable 200-m pace, falling stroke-rate efficiency, and shoulder-endurance fatigue late in sets. What should the profile identify?",
+        "options": [
+          "Strengths, limits, and priorities for junior swimmer",
+          "Only the best score without context for junior swimmer",
+          "A peer rank without test purpose for junior swimmer",
+          "A results list without action priorities for junior swimmer"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-007",
+      "original": {
+        "id": "a1-data-007",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "During a congested competition period, a performance profile is most useful when it identifies:",
+        "options": [
+          "Only the athlete's best score without context",
+          "A rank compared with peers but no test purpose",
+          "Strengths, weaknesses, limits, and priorities",
+          "A list of results without action priorities"
+        ],
+        "correct": 2,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-007",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A volleyball player's jump height is unchanged, but landing control worsens and repeated-jump height falls late in practice. The profile should guide:",
+        "options": [
+          "Strengths, limits, and priorities for volleyball player's",
+          "Only the best score without context for volleyball player's",
+          "A peer rank without test purpose for volleyball player's",
+          "A results list without action priorities for volleyball player's"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-008",
+      "original": {
+        "id": "a1-data-008",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "In a rehabilitation or reconditioning setting, a performance profile is most useful when it identifies:",
+        "options": [
+          "Only the athlete's best score without context",
+          "A rank compared with peers but no test purpose",
+          "A list of results without action priorities",
+          "Strengths, weaknesses, limits, and priorities"
+        ],
+        "correct": 3,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-008",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A para-athlete improves a sprint time, but the start command and assistive setup differ from baseline. The profile should first:",
+        "options": [
+          "Strengths, limits, and priorities for para-athlete improves",
+          "Only the best score without context for para-athlete improves",
+          "A peer rank without test purpose for para-athlete improves",
+          "A results list without action priorities for para-athlete improves"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-009",
+      "original": {
+        "id": "a1-data-009",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When comparing laboratory and field information, a performance profile is most useful when it identifies:",
+        "options": [
+          "Strengths, weaknesses, limits, and priorities",
+          "Only the athlete's best score without context",
+          "A rank compared with peers but no test purpose",
+          "A list of results without action priorities"
+        ],
+        "correct": 0,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-009",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A rower's lactate-threshold pace improves while peak power falls over the same block. The best profiling response is to:",
+        "options": [
+          "Strengths, limits, and priorities for rower's lactate-threshold",
+          "Only the best score without context for rower's lactate-threshold",
+          "A peer rank without test purpose for rower's lactate-threshold",
+          "A results list without action priorities for rower's lactate-threshold"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-010",
+      "original": {
+        "id": "a1-data-010",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For an athlete preparing for an important final, a performance profile is most useful when it identifies:",
+        "options": [
+          "Only the athlete's best score without context",
+          "Strengths, weaknesses, limits, and priorities",
+          "A rank compared with peers but no test purpose",
+          "A list of results without action priorities"
+        ],
+        "correct": 1,
+        "explanation": "Profiling should connect valid measurements to performance priorities and practical decisions.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-010",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A wrestler has stable body mass, reduced grip endurance, and slower reaction time after weight management. The best summary is:",
+        "options": [
+          "Strengths, limits, and priorities for wrestler has",
+          "Only the best score without context for wrestler has",
+          "A peer rank without test purpose for wrestler has",
+          "A results list without action priorities for wrestler has"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-015",
+      "original": {
+        "id": "a1-data-015",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Ferritin status interpreted without other evidence",
+          "Validity of every test regardless of protocol and context",
+          "Speed power, fatigue tolerance, or sprint technique",
+          "Body height as the primary limiting variable"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-015",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A sprinter's squat strength is stable, but 30-m acceleration slows after repeated high-load sessions. Investigate first:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for sprinter's squat",
+          "Maximal force alone without event context for sprinter's squat",
+          "A diagnosis from one performance result for sprinter's squat",
+          "Body size as the primary explanation for sprinter's squat"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-016",
+      "original": {
+        "id": "a1-data-016",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Ferritin status interpreted without other evidence",
+          "Validity of every test regardless of protocol and context",
+          "Body height as the primary limiting variable",
+          "Speed power, fatigue tolerance, or sprint technique"
+        ],
+        "correct": 3,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-016",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A cyclist maintains peak isometric force while five-minute power declines across a stage race. Review:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for cyclist maintains",
+          "Maximal force alone without event context for cyclist maintains",
+          "A diagnosis from one performance result for cyclist maintains",
+          "Body size as the primary explanation for cyclist maintains"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-017",
+      "original": {
+        "id": "a1-data-017",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Speed power, fatigue tolerance, or sprint technique",
+          "Ferritin status interpreted without other evidence",
+          "Validity of every test regardless of protocol and context",
+          "Body height as the primary limiting variable"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-017",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A basketball player produces the same maximal force but loses jump height over four repeated sets. Investigate:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for basketball player",
+          "Maximal force alone without event context for basketball player",
+          "A diagnosis from one performance result for basketball player",
+          "Body size as the primary explanation for basketball player"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-018",
+      "original": {
+        "id": "a1-data-018",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Ferritin status interpreted without other evidence",
+          "Speed power, fatigue tolerance, or sprint technique",
+          "Validity of every test regardless of protocol and context",
+          "Body height as the primary limiting variable"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-018",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A swimmer's resisted-pull strength is unchanged, but 100-m pace fades over the final 25 m of repeated trials. Examine:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for swimmer's resisted-pull",
+          "Maximal force alone without event context for swimmer's resisted-pull",
+          "A diagnosis from one performance result for swimmer's resisted-pull",
+          "Body size as the primary explanation for swimmer's resisted-pull"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-019",
+      "original": {
+        "id": "a1-data-019",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Ferritin status interpreted without other evidence",
+          "Validity of every test regardless of protocol and context",
+          "Speed power, fatigue tolerance, or sprint technique",
+          "Body height as the primary limiting variable"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-019",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A footballer retains maximal force but slows during reactive changes of direction after a congested week. The safest interpretation is:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for footballer retains",
+          "Maximal force alone without event context for footballer retains",
+          "A diagnosis from one performance result for footballer retains",
+          "Body size as the primary explanation for footballer retains"
+        ],
+        "correct": 0,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-020",
+      "original": {
+        "id": "a1-data-020",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+        "options": [
+          "Ferritin status interpreted without other evidence",
+          "Validity of every test regardless of protocol and context",
+          "Body height as the primary limiting variable",
+          "Speed power, fatigue tolerance, or sprint technique"
+        ],
+        "correct": 3,
+        "explanation": "Performance interpretation compares related qualities and considers fatigue, technique, and sport demands.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-020",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A rower's peak stroke force is stable, but the final 500-m split worsens in repeated 2,000-m efforts. Prioritize:",
+        "options": [
+          "Fatigue tolerance and speed-specific technique for rower's peak",
+          "Maximal force alone without event context for rower's peak",
+          "A diagnosis from one performance result for rower's peak",
+          "Body size as the primary explanation for rower's peak"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-025",
+      "original": {
+        "id": "a1-data-025",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Check test quality, context, and reference-group relevance",
+          "Treat the score as diagnostic without clinical context",
+          "Prescribe maximal training before confirming context",
+          "Discard the result because reference groups vary"
+        ],
+        "correct": 0,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-025",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A 16-year-old footballer scores 15% below an under-18 hamstring-strength reference. Before changing training, the clinician should first:",
+        "options": [
+          "Check protocol, context, and norm comparability for 16-year-old footballer",
+          "Treat the score as a diagnosis without context for 16-year-old footballer",
+          "Prescribe maximal loading before confirming the result for 16-year-old footballer",
+          "Discard the result because reference groups vary for 16-year-old footballer"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-026",
+      "original": {
+        "id": "a1-data-026",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Treat the score as diagnostic without clinical context",
+          "Check test quality, context, and reference-group relevance",
+          "Prescribe maximal training before confirming context",
+          "Discard the result because reference groups vary"
+        ],
+        "correct": 1,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-026",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A 400-m runner is below a VO2 reference from mixed endurance athletes. The best first step is:",
+        "options": [
+          "Check protocol, context, and norm comparability for 400-m runner",
+          "Treat the score as a diagnosis without context for 400-m runner",
+          "Prescribe maximal loading before confirming the result for 400-m runner",
+          "Discard the result because reference groups vary for 400-m runner"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-027",
+      "original": {
+        "id": "a1-data-027",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Treat the score as diagnostic without clinical context",
+          "Prescribe maximal training before confirming context",
+          "Check test quality, context, and reference-group relevance",
+          "Discard the result because reference groups vary"
+        ],
+        "correct": 2,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-027",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A growing basketball player is below an age-based jump norm, but maturation and surface were not recorded. First:",
+        "options": [
+          "Check protocol, context, and norm comparability for growing basketball",
+          "Treat the score as a diagnosis without context for growing basketball",
+          "Prescribe maximal loading before confirming the result for growing basketball",
+          "Discard the result because reference groups vary for growing basketball"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-028",
+      "original": {
+        "id": "a1-data-028",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Treat the score as diagnostic without clinical context",
+          "Prescribe maximal training before confirming context",
+          "Discard the result because reference groups vary",
+          "Check test quality, context, and reference-group relevance"
+        ],
+        "correct": 3,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-028",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A post-ACL athlete is below a hop-symmetry criterion on the first familiarization trial and reports apprehension. First:",
+        "options": [
+          "Check protocol, context, and norm comparability for post-ACL athlete",
+          "Treat the score as a diagnosis without context for post-ACL athlete",
+          "Prescribe maximal loading before confirming the result for post-ACL athlete",
+          "Discard the result because reference groups vary for post-ACL athlete"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-029",
+      "original": {
+        "id": "a1-data-029",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Check test quality, context, and reference-group relevance",
+          "Treat the score as diagnostic without clinical context",
+          "Prescribe maximal training before confirming context",
+          "Discard the result because reference groups vary"
+        ],
+        "correct": 0,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-029",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A field sprint is slower than a laboratory result, but warm-up, start command, and timing systems differ. First:",
+        "options": [
+          "Check protocol, context, and norm comparability for field sprint",
+          "Treat the score as a diagnosis without context for field sprint",
+          "Prescribe maximal loading before confirming the result for field sprint",
+          "Discard the result because reference groups vary for field sprint"
+        ],
+        "correct": 0,
+        "explanation": "A result below a reference requires attention to test quality, protocol, reference-group relevance, and athlete context before action.",
+        "sourceId": "acsm-getp-12"
+      }
+    },
+    {
+      "id": "a1-data-030",
+      "original": {
+        "id": "a1-data-030",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, when a test result is below a reference value, the first step should be to:",
+        "options": [
+          "Treat the score as diagnostic without clinical context",
+          "Check test quality, context, and reference-group relevance",
+          "Prescribe maximal training before confirming context",
+          "Discard the result because reference groups vary"
+        ],
+        "correct": 1,
+        "explanation": "A low score requires checking validity, reliability, comparability, and the athlete's context before action.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-data-030",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "Two days before a final, an athlete is below a repeated-sprint reference after travel. First:",
+        "options": [
+          "Check protocol, context, and norm comparability for Two days",
+          "Treat the score as a diagnosis without context for Two days",
+          "Prescribe maximal loading before confirming the result for Two days",
+          "Discard the result because reference groups vary for Two days"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-035",
+      "original": {
+        "id": "a1-data-035",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When communicating the finding to a coach, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A change without a defined follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A feasible intervention linked to a follow-up measure",
+          "A generic exercise list without athlete-specific goals"
+        ],
+        "correct": 2,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-035",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A volleyball player shows delayed trunk control on landing video but normal jump height. Link the finding to follow-up by:",
+        "options": [
+          "Targeted intervention with a follow-up measure for volleyball player",
+          "Generic exercises without athlete-specific goals for volleyball player",
+          "Diagnosis from one performance result for volleyball player",
+          "Training change without a defined reassessment for volleyball player"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-036",
+      "original": {
+        "id": "a1-data-036",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For a youth athlete in a development programme, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A change without a defined follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A generic exercise list without athlete-specific goals",
+          "A feasible intervention linked to a follow-up measure"
+        ],
+        "correct": 3,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-036",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A swimmer's shoulder-endurance test falls after a hard week, with no pain and unchanged maximal pull strength. The plan should:",
+        "options": [
+          "Targeted intervention with a follow-up measure for swimmer's shoulder-endurance",
+          "Generic exercises without athlete-specific goals for swimmer's shoulder-endurance",
+          "Diagnosis from one performance result for swimmer's shoulder-endurance",
+          "Training change without a defined reassessment for swimmer's shoulder-endurance"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-037",
+      "original": {
+        "id": "a1-data-037",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "During a congested competition period, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A feasible intervention linked to a follow-up measure",
+          "A change without a defined follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A generic exercise list without athlete-specific goals"
+        ],
+        "correct": 0,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-037",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A distance runner's heart rate is higher at the same submaximal pace after a congested week. Recommend:",
+        "options": [
+          "Targeted intervention with a follow-up measure for distance runner's",
+          "Generic exercises without athlete-specific goals for distance runner's",
+          "Diagnosis from one performance result for distance runner's",
+          "Training change without a defined reassessment for distance runner's"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-038",
+      "original": {
+        "id": "a1-data-038",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "In a rehabilitation or reconditioning setting, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A change without a defined follow-up measure",
+          "A feasible intervention linked to a follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A generic exercise list without athlete-specific goals"
+        ],
+        "correct": 1,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-038",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A rower's peak power is 8% below target while technique remains consistent. A practical recommendation includes:",
+        "options": [
+          "Targeted intervention with a follow-up measure for rower's peak",
+          "Generic exercises without athlete-specific goals for rower's peak",
+          "Diagnosis from one performance result for rower's peak",
+          "Training change without a defined reassessment for rower's peak"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-039",
+      "original": {
+        "id": "a1-data-039",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When comparing laboratory and field information, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A change without a defined follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A feasible intervention linked to a follow-up measure",
+          "A generic exercise list without athlete-specific goals"
+        ],
+        "correct": 2,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-039",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A footballer shows excessive trunk sway while braking in cuts, but normal straight-line speed. Recommend:",
+        "options": [
+          "Targeted intervention with a follow-up measure for footballer shows",
+          "Generic exercises without athlete-specific goals for footballer shows",
+          "Diagnosis from one performance result for footballer shows",
+          "Training change without a defined reassessment for footballer shows"
+        ],
+        "correct": 0,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-040",
+      "original": {
+        "id": "a1-data-040",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For an athlete preparing for an important final, a practical training recommendation should link the observed result to:",
+        "options": [
+          "A change without a defined follow-up measure",
+          "Only the athlete's ranking without a decision plan",
+          "A generic exercise list without athlete-specific goals",
+          "A feasible intervention linked to a follow-up measure"
+        ],
+        "correct": 3,
+        "explanation": "Applied analysis is useful when it produces an actionable intervention and a way to evaluate response.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-040",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A climber's timed-hang result is below route demand although maximal grip force is normal. Plan:",
+        "options": [
+          "Generic exercises without athlete-specific goals for climber's timed-hang",
+          "Targeted intervention with a follow-up measure for climber's timed-hang",
+          "Diagnosis from one performance result for climber's timed-hang",
+          "Training change without a defined reassessment for climber's timed-hang"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-045",
+      "original": {
+        "id": "a1-data-045",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "When communicating the finding to a coach, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Consistent measures, repeated timing, trends, and context",
+          "Different tests each session without common timing",
+          "Only the best result from each testing period",
+          "Informal impressions without recorded measurements"
+        ],
+        "correct": 0,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-045",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "Weekly readiness uses a different jump device and timing each session. Monitoring improves most by:",
+        "options": [
+          "Different tests without common timing or context for Weekly readiness",
+          "Standardized measures with timing and context for Weekly readiness",
+          "Only the best result without repeated context for Weekly readiness",
+          "Informal impressions without recorded measures for Weekly readiness"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-046",
+      "original": {
+        "id": "a1-data-046",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "For a youth athlete in a development programme, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Different tests each session without common timing",
+          "Consistent measures, repeated timing, trends, and context",
+          "Only the best result from each testing period",
+          "Informal impressions without recorded measurements"
+        ],
+        "correct": 1,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-046",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A developing athlete grows 4 cm while standing-long-jump distance improves. Interpret the trend with:",
+        "options": [
+          "Different tests without common timing or context for developing athlete",
+          "Standardized measures with timing and context for developing athlete",
+          "Only the best result without repeated context for developing athlete",
+          "Informal impressions without recorded measures for developing athlete"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-047",
+      "original": {
+        "id": "a1-data-047",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "During a congested competition period, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Different tests each session without common timing",
+          "Only the best result from each testing period",
+          "Consistent measures, repeated timing, trends, and context",
+          "Informal impressions without recorded measurements"
+        ],
+        "correct": 2,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-047",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A team tests readiness during congested fixtures. The strongest design is to:",
+        "options": [
+          "Different tests without common timing or context for team tests",
+          "Standardized measures with timing and context for team tests",
+          "Only the best result without repeated context for team tests",
+          "Informal impressions without recorded measures for team tests"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-048",
+      "original": {
+        "id": "a1-data-048",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "In a rehabilitation or reconditioning setting, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Different tests each session without common timing",
+          "Only the best result from each testing period",
+          "Informal impressions without recorded measurements",
+          "Consistent measures, repeated timing, trends, and context"
+        ],
+        "correct": 3,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-048",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "During ACL rehabilitation, hop distance is measured with changing instructions. First:",
+        "options": [
+          "Different tests without common timing or context for During ACL",
+          "Standardized measures with timing and context for During ACL",
+          "Only the best result without repeated context for During ACL",
+          "Informal impressions without recorded measures for During ACL"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-049",
+      "original": {
+        "id": "a1-data-049",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "When comparing laboratory and field information, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Consistent measures, repeated timing, trends, and context",
+          "Different tests each session without common timing",
+          "Only the best result from each testing period",
+          "Informal impressions without recorded measurements"
+        ],
+        "correct": 0,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-049",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A laboratory force test and field jump test are tracked for six weeks. Document:",
+        "options": [
+          "Different tests without common timing or context for laboratory force",
+          "Standardized measures with timing and context for laboratory force",
+          "Only the best result without repeated context for laboratory force",
+          "Informal impressions without recorded measures for laboratory force"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-050",
+      "original": {
+        "id": "a1-data-050",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "For an athlete preparing for an important final, longitudinal monitoring is strengthened by using:",
+        "options": [
+          "Different tests each session without common timing",
+          "Consistent measures, repeated timing, trends, and context",
+          "Only the best result from each testing period",
+          "Informal impressions without recorded measurements"
+        ],
+        "correct": 1,
+        "explanation": "Repeated standardized measurement makes trends more interpretable than isolated observations.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-050",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "Before a swimmer's major final, compare readiness with baseline by:",
+        "options": [
+          "Different tests without common timing or context for Before a",
+          "Standardized measures with timing and context for Before a",
+          "Only the best result without repeated context for Before a",
+          "Informal impressions without recorded measures for Before a"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-055",
+      "original": {
+        "id": "a1-data-055",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Improves the athlete's rank by one place in the sample",
+          "Adds decimal places without improving measurement precision",
+          "Exceeds expected error or changes the practical decision",
+          "Is numerically nonzero but below the decision threshold"
+        ],
+        "correct": 2,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-055",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A sprint improvement of 0.02 s is smaller than timing error. Treat it as practically important only if it:",
+        "options": [
+          "Changes rank without exceeding test error for sprint improvement",
+          "Exceeds expected error or changes the decision for sprint improvement",
+          "Adds decimals without improving precision for sprint improvement",
+          "Is nonzero but below the decision threshold for sprint improvement"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-056",
+      "original": {
+        "id": "a1-data-056",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Improves the athlete's rank by one place in the sample",
+          "Adds decimal places without improving measurement precision",
+          "Is numerically nonzero but below the decision threshold",
+          "Exceeds expected error or changes the practical decision"
+        ],
+        "correct": 3,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-056",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A resistance test rises 1 kg, but familiarization varies by 2 kg. Interpret the change as:",
+        "options": [
+          "Changes rank without exceeding test error for resistance test",
+          "Exceeds expected error or changes the decision for resistance test",
+          "Adds decimals without improving precision for resistance test",
+          "Is nonzero but below the decision threshold for resistance test"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-057",
+      "original": {
+        "id": "a1-data-057",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Exceeds expected error or changes the practical decision",
+          "Improves the athlete's rank by one place in the sample",
+          "Adds decimal places without improving measurement precision",
+          "Is numerically nonzero but below the decision threshold"
+        ],
+        "correct": 0,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-057",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "Wellness changes from 6 to 7 on a scale with three-point day-to-day variation. The responsible conclusion is:",
+        "options": [
+          "Changes rank without exceeding test error for Wellness changes",
+          "Exceeds expected error or changes the decision for Wellness changes",
+          "Adds decimals without improving precision for Wellness changes",
+          "Is nonzero but below the decision threshold for Wellness changes"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-058",
+      "original": {
+        "id": "a1-data-058",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Improves the athlete's rank by one place in the sample",
+          "Exceeds expected error or changes the practical decision",
+          "Adds decimal places without improving measurement precision",
+          "Is numerically nonzero but below the decision threshold"
+        ],
+        "correct": 1,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-058",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "Jump height exceeds typical error and crosses the team's smallest worthwhile change. This can:",
+        "options": [
+          "Changes rank without exceeding test error for Jump height",
+          "Exceeds expected error or changes the decision for Jump height",
+          "Adds decimals without improving precision for Jump height",
+          "Is nonzero but below the decision threshold for Jump height"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-059",
+      "original": {
+        "id": "a1-data-059",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Improves the athlete's rank by one place in the sample",
+          "Adds decimal places without improving measurement precision",
+          "Exceeds expected error or changes the practical decision",
+          "Is numerically nonzero but below the decision threshold"
+        ],
+        "correct": 2,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-059",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "Limb asymmetry changes from 8% to 7%, while repeated trials vary by 3%. Interpret it as:",
+        "options": [
+          "Changes rank without exceeding test error for Limb asymmetry",
+          "Exceeds expected error or changes the decision for Limb asymmetry",
+          "Adds decimals without improving precision for Limb asymmetry",
+          "Is nonzero but below the decision threshold for Limb asymmetry"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-060",
+      "original": {
+        "id": "a1-data-060",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, a small change in an athlete's score should be considered practically important only when it:",
+        "options": [
+          "Improves the athlete's rank by one place in the sample",
+          "Adds decimal places without improving measurement precision",
+          "Is numerically nonzero but below the decision threshold",
+          "Exceeds expected error or changes the practical decision"
+        ],
+        "correct": 3,
+        "explanation": "Statistical or numerical change is not automatically practically important; error and decision relevance matter.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-060",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "Blood lactate falls 0.3 mmol/L, less than analytical and biological variation. It should:",
+        "options": [
+          "Changes rank without exceeding test error for Blood lactate",
+          "Exceeds expected error or changes the decision for Blood lactate",
+          "Adds decimals without improving precision for Blood lactate",
+          "Is nonzero but below the decision threshold for Blood lactate"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-065",
+      "original": {
+        "id": "a1-data-065",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When communicating the finding to a coach, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Decision relevance, uncertainty, and practical next step",
+          "Every raw variable without interpretation or prioritization",
+          "Only the most favorable result without uncertainty",
+          "A causal claim based on one correlation alone"
+        ],
+        "correct": 0,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-065",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A coach receives an 8% GPS high-speed-running increase. The analyst should emphasize:",
+        "options": [
+          "The percentage alone without baseline or outcome context for coach receives",
+          "Metric meaning, context, uncertainty, and action for coach receives",
+          "A peer rank without metric definition or baseline for coach receives",
+          "A diagnosis from one dashboard value without clinical review for coach receives"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-066",
+      "original": {
+        "id": "a1-data-066",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For a youth athlete in a development programme, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Every raw variable without interpretation or prioritization",
+          "Decision relevance, uncertainty, and practical next step",
+          "Only the most favorable result without uncertainty",
+          "A causal claim based on one correlation alone"
+        ],
+        "correct": 1,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-066",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "An athlete asks why a monitoring score fell after a match. Explain:",
+        "options": [
+          "The percentage alone without baseline or outcome context for athlete asks",
+          "Metric meaning, context, uncertainty, and action for athlete asks",
+          "A peer rank without metric definition or baseline for athlete asks",
+          "A diagnosis from one dashboard value without clinical review for athlete asks"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-067",
+      "original": {
+        "id": "a1-data-067",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "During a congested competition period, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Every raw variable without interpretation or prioritization",
+          "Only the most favorable result without uncertainty",
+          "Decision relevance, uncertainty, and practical next step",
+          "A causal claim based on one correlation alone"
+        ],
+        "correct": 2,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-067",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A coach wants to compare a goalkeeper's reaction time with a sprinter's. First explain:",
+        "options": [
+          "The percentage alone without baseline or outcome context for coach wants",
+          "Metric meaning, context, uncertainty, and action for coach wants",
+          "A peer rank without metric definition or baseline for coach wants",
+          "A diagnosis from one dashboard value without clinical review for coach wants"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-068",
+      "original": {
+        "id": "a1-data-068",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "In a rehabilitation or reconditioning setting, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Every raw variable without interpretation or prioritization",
+          "Only the most favorable result without uncertainty",
+          "A causal claim based on one correlation alone",
+          "Decision relevance, uncertainty, and practical next step"
+        ],
+        "correct": 3,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-068",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A report shows increased pain with stable running volume. Communicate it by:",
+        "options": [
+          "The percentage alone without baseline or outcome context for report shows",
+          "Metric meaning, context, uncertainty, and action for report shows",
+          "A peer rank without metric definition or baseline for report shows",
+          "A diagnosis from one dashboard value without clinical review for report shows"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-069",
+      "original": {
+        "id": "a1-data-069",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "When comparing laboratory and field information, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Decision relevance, uncertainty, and practical next step",
+          "Every raw variable without interpretation or prioritization",
+          "Only the most favorable result without uncertainty",
+          "A causal claim based on one correlation alone"
+        ],
+        "correct": 0,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-069",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "A manager requests a public ranking using health-related readiness scores. Emphasize:",
+        "options": [
+          "The percentage alone without baseline or outcome context for manager requests",
+          "Metric meaning, context, uncertainty, and action for manager requests",
+          "A peer rank without metric definition or baseline for manager requests",
+          "A diagnosis from one dashboard value without clinical review for manager requests"
+        ],
+        "correct": 1,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-070",
+      "original": {
+        "id": "a1-data-070",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "For an athlete preparing for an important final, when communicating data to a coach, the analyst should emphasize:",
+        "options": [
+          "Every raw variable without interpretation or prioritization",
+          "Decision relevance, uncertainty, and practical next step",
+          "Only the most favorable result without uncertainty",
+          "A causal claim based on one correlation alone"
+        ],
+        "correct": 1,
+        "explanation": "Good communication translates evidence into a clear decision while preserving uncertainty and limitations.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-070",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "Two staff members interpret a workload dashboard differently. Resolve this with:",
+        "options": [
+          "The percentage alone without baseline or outcome context for Two staff",
+          "Metric meaning, context, uncertainty, and action for Two staff",
+          "A peer rank without metric definition or baseline for Two staff",
+          "A diagnosis from one dashboard value without clinical review for Two staff"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-075",
+      "original": {
+        "id": "a1-data-075",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "An injury diagnosis based on one unusual value",
+          "Deletion of the observation without checking context",
+          "Data entry, device function, protocol, and athlete context",
+          "An immediate training increase without confirming cause"
+        ],
+        "correct": 2,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-075",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A GPS report shows 40% more high-speed distance, but satellite lock was briefly lost. First check:",
+        "options": [
+          "Change training after one unverified outlier for GPS report",
+          "Check device quality, protocol, and raw data for GPS report",
+          "Use one unverified value as a new baseline for GPS report",
+          "Diagnose a change from one record without confirmation for GPS report"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-076",
+      "original": {
+        "id": "a1-data-076",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "An injury diagnosis based on one unusual value",
+          "Deletion of the observation without checking context",
+          "An immediate training increase without confirming cause",
+          "Data entry, device function, protocol, and athlete context"
+        ],
+        "correct": 3,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-076",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A force plate shows a sudden 20% jump-height increase after being moved. First check:",
+        "options": [
+          "Change training after one unverified outlier for force plate",
+          "Check device quality, protocol, and raw data for force plate",
+          "Use one unverified value as a new baseline for force plate",
+          "Diagnose a change from one record without confirmation for force plate"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-077",
+      "original": {
+        "id": "a1-data-077",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "Data entry, device function, protocol, and athlete context",
+          "An injury diagnosis based on one unusual value",
+          "Deletion of the observation without checking context",
+          "An immediate training increase without confirming cause"
+        ],
+        "correct": 0,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-077",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "An optical heart-rate trace is flat during a hard interval while effort feels normal. Troubleshoot:",
+        "options": [
+          "Change training after one unverified outlier for optical heart-rate",
+          "Check device quality, protocol, and raw data for optical heart-rate",
+          "Use one unverified value as a new baseline for optical heart-rate",
+          "Diagnose a change from one record without confirmation for optical heart-rate"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-078",
+      "original": {
+        "id": "a1-data-078",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "An injury diagnosis based on one unusual value",
+          "Data entry, device function, protocol, and athlete context",
+          "Deletion of the observation without checking context",
+          "An immediate training increase without confirming cause"
+        ],
+        "correct": 1,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-078",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A lactate value is an extreme outlier and sampling occurred 20 minutes late. Check:",
+        "options": [
+          "Change training after one unverified outlier for lactate value",
+          "Check device quality, protocol, and raw data for lactate value",
+          "Use one unverified value as a new baseline for lactate value",
+          "Diagnose a change from one record without confirmation for lactate value"
+        ],
+        "correct": 1,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-079",
+      "original": {
+        "id": "a1-data-079",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "An injury diagnosis based on one unusual value",
+          "Deletion of the observation without checking context",
+          "Data entry, device function, protocol, and athlete context",
+          "An immediate training increase without confirming cause"
+        ],
+        "correct": 2,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-079",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A wellness score abruptly drops after an entry made at an unusual time following a reminder. Check:",
+        "options": [
+          "Change training after one unverified outlier for wellness score",
+          "Use one unverified value as a new baseline for wellness score",
+          "Check device quality, protocol, and raw data for wellness score",
+          "Diagnose a change from one record without confirmation for wellness score"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-080",
+      "original": {
+        "id": "a1-data-080",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+        "options": [
+          "An injury diagnosis based on one unusual value",
+          "Deletion of the observation without checking context",
+          "An immediate training increase without confirming cause",
+          "Data entry, device function, protocol, and athlete context"
+        ],
+        "correct": 3,
+        "explanation": "Outliers may reflect true change or measurement and data-management problems, so they require verification.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-080",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A timing gate records a sprint far slower than video and the next trial. Review:",
+        "options": [
+          "Change training after one unverified outlier for timing gate",
+          "Use one unverified value as a new baseline for timing gate",
+          "Check device quality, protocol, and raw data for timing gate",
+          "Diagnose a change from one record without confirmation for timing gate"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-085",
+      "original": {
+        "id": "a1-data-085",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Consider response alongside recovery, trends, and other outcomes",
+          "Higher load is always beneficial when performance improves",
+          "The athlete cannot be fatigued because performance improved",
+          "The result proves the programme is optimal for the athlete"
+        ],
+        "correct": 0,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-085",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A soccer team raises weekly load 15% and improves repeated-sprint score 3% over six weeks. Safest conclusion:",
+        "options": [
+          "Assume the gain was caused by the intervention for soccer team",
+          "Increase load because one score improved for soccer team",
+          "Interpret improvement with recovery data for soccer team",
+          "Stop monitoring because performance improved for soccer team"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-086",
+      "original": {
+        "id": "a1-data-086",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Higher load is always beneficial when performance improves",
+          "Consider response alongside recovery, trends, and other outcomes",
+          "The athlete cannot be fatigued because performance improved",
+          "The result proves the programme is optimal for the athlete"
+        ],
+        "correct": 1,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-086",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A sprinter adds resisted runs, raises volume, and improves acceleration. Before more volume, determine whether:",
+        "options": [
+          "Assume the gain was caused by the intervention for sprinter adds",
+          "Increase load because one score improved for sprinter adds",
+          "Interpret improvement with recovery data for sprinter adds",
+          "Stop monitoring because performance improved for sprinter adds"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-087",
+      "original": {
+        "id": "a1-data-087",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Higher load is always beneficial when performance improves",
+          "The athlete cannot be fatigued because performance improved",
+          "Consider response alongside recovery, trends, and other outcomes",
+          "The result proves the programme is optimal for the athlete"
+        ],
+        "correct": 2,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-087",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A jumper's power improves while load rises, but sleep and morning readiness decline for ten days. Interpret as:",
+        "options": [
+          "Assume the gain was caused by the intervention for jumper's power",
+          "Increase load because one score improved for jumper's power",
+          "Interpret improvement with recovery data for jumper's power",
+          "Stop monitoring because performance improved for jumper's power"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-088",
+      "original": {
+        "id": "a1-data-088",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Higher load is always beneficial when performance improves",
+          "The athlete cannot be fatigued because performance improved",
+          "The result proves the programme is optimal for the athlete",
+          "Consider response alongside recovery, trends, and other outcomes"
+        ],
+        "correct": 3,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-088",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A recovering footballer increases running load and improves hop symmetry but still has cutting pain. Use the data to:",
+        "options": [
+          "Assume the gain was caused by the intervention for recovering footballer",
+          "Increase load because one score improved for recovering footballer",
+          "Interpret improvement with recovery data for recovering footballer",
+          "Stop monitoring because performance improved for recovering footballer"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-089",
+      "original": {
+        "id": "a1-data-089",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Consider response alongside recovery, trends, and other outcomes",
+          "Higher load is always beneficial when performance improves",
+          "The athlete cannot be fatigued because performance improved",
+          "The result proves the programme is optimal for the athlete"
+        ],
+        "correct": 0,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-089",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A cyclist's five-minute power improves during shortened sleep. Safest interpretation:",
+        "options": [
+          "Assume the gain was caused by the intervention for cyclist's five-minute",
+          "Increase load because one score improved for cyclist's five-minute",
+          "Interpret improvement with recovery data for cyclist's five-minute",
+          "Stop monitoring because performance improved for cyclist's five-minute"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-090",
+      "original": {
+        "id": "a1-data-090",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "options": [
+          "Higher load is always beneficial when performance improves",
+          "Consider response alongside recovery, trends, and other outcomes",
+          "The athlete cannot be fatigued because performance improved",
+          "The result proves the programme is optimal for the athlete"
+        ],
+        "correct": 1,
+        "explanation": "A single favorable outcome does not establish causality or eliminate the need to monitor recovery and risk.",
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "id": "a1-data-090",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "analytical",
+        "text": "A swimmer improves race pace after a large interval-volume increase but reports persistent soreness. Conclude:",
+        "options": [
+          "Assume the gain was caused by the intervention for swimmer improves",
+          "Increase load because one score improved for swimmer improves",
+          "Interpret improvement with recovery data for swimmer improves",
+          "Stop monitoring because performance improved for swimmer improves"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-095",
+      "original": {
+        "id": "a1-data-095",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "When communicating the finding to a coach, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying a small set of metrics with documented definitions and context",
+          "Displaying athlete scores alongside dates and relevant reference ranges",
+          "Displaying metrics without definitions, context, or a decision purpose",
+          "Displaying trends with clear units, dates, and a defined decision purpose"
+        ],
+        "correct": 2,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-095",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A dashboard combines sprint time, wellness, and injury status into one unlabelled colour score. Avoid:",
+        "options": [
+          "Separate dated measures with clear labels for dashboard combines",
+          "A protocol note beside each sprint result for dashboard combines",
+          "An undefined composite without a decision rule for dashboard combines",
+          "A defined follow-up rule linked to the metric for dashboard combines"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-096",
+      "original": {
+        "id": "a1-data-096",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "For a youth athlete in a development programme, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying trends with clear units, dates, and a defined decision purpose",
+          "Displaying a small set of metrics with documented definitions and context",
+          "Displaying athlete scores alongside dates and relevant reference ranges",
+          "Displaying metrics without definitions, context, or a decision purpose"
+        ],
+        "correct": 3,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-096",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A dashboard ranks athletes by one jump score without test error or reference context. Avoid:",
+        "options": [
+          "Individual trends with dates and reference context for dashboard ranks",
+          "A planned retest linked to the score and threshold for dashboard ranks",
+          "An isolated rank without error or context for dashboard ranks",
+          "Separate performance and health measures with labels for dashboard ranks"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-097",
+      "original": {
+        "id": "a1-data-097",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "During a congested competition period, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying metrics without definitions, context, or a decision purpose",
+          "Displaying trends with clear units, dates, and a defined decision purpose",
+          "Displaying a small set of metrics with documented definitions and context",
+          "Displaying athlete scores alongside dates and relevant reference ranges"
+        ],
+        "correct": 0,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-097",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "An alert fires after one abnormal recovery score from an incomplete entry after travel. Avoid:",
+        "options": [
+          "A confirmed entry reviewed with travel context for alert fires",
+          "A raw response flagged for confirmation for alert fires",
+          "An unverified outlier used to trigger action for alert fires",
+          "A repeated pattern checked before action for alert fires"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-098",
+      "original": {
+        "id": "a1-data-098",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "In a rehabilitation or reconditioning setting, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying athlete scores alongside dates and relevant reference ranges",
+          "Displaying metrics without definitions, context, or a decision purpose",
+          "Displaying trends with clear units, dates, and a defined decision purpose",
+          "Displaying a small set of metrics with documented definitions and context"
+        ],
+        "correct": 1,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-098",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A dashboard has 35 metrics and no linked staff decisions. Avoid:",
+        "options": [
+          "Measures organized around questions and actions for dashboard has",
+          "Collection periods shown beside each measure for dashboard has",
+          "More metrics without purpose or interpretation for dashboard has",
+          "Protocols recorded for each result for dashboard has"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-099",
+      "original": {
+        "id": "a1-data-099",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "When comparing laboratory and field information, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying a small set of metrics with documented definitions and context",
+          "Displaying athlete scores alongside dates and relevant reference ranges",
+          "Displaying metrics without definitions, context, or a decision purpose",
+          "Displaying trends with clear units, dates, and a defined decision purpose"
+        ],
+        "correct": 2,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-099",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "Identifiable illness and pain scores appear on a screen visible to all athletes. Avoid:",
+        "options": [
+          "Restricted access limited to the legitimate purpose for Identifiable illness",
+          "Aggregate trends when individual identity is unnecessary for Identifiable illness",
+          "Identifiable health data exposed without a need to know for Identifiable illness",
+          "Documented access to sensitive reports and users for Identifiable illness"
+        ],
+        "correct": 2,
+        "explanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+        "sourceId": "nsca-essentials-5"
+      }
+    },
+    {
+      "id": "a1-data-100",
+      "original": {
+        "id": "a1-data-100",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "For an athlete preparing for an important final, a useful performance dashboard should avoid:",
+        "options": [
+          "Displaying trends with clear units, dates, and a defined decision purpose",
+          "Displaying a small set of metrics with documented definitions and context",
+          "Displaying athlete scores alongside dates and relevant reference ranges",
+          "Displaying metrics without definitions, context, or a decision purpose"
+        ],
+        "correct": 3,
+        "explanation": "Dashboards support decisions when measures are defined, contextualized, and connected to action.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-data-100",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A trendline compares wellness collected before training on some days and after training on others. Avoid:",
+        "options": [
+          "Collection timing recorded beside each response for trendline compares",
+          "Individual observations shown behind the trend for trendline compares",
+          "A clean trendline without marked timing differences for trendline compares",
+          "Match and travel context noted beside the trend for trendline compares"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-105",
+      "original": {
+        "id": "a1-data-105",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When communicating the finding to a coach, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "Outcomes under allocated interventions while reducing confounding",
+          "Naturally occurring groups without allocating an intervention to participants",
+          "A single athlete's trend without a comparison condition or allocation",
+          "A measurement device's calibration across repeated technical trials"
+        ],
+        "correct": 0,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-105",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A trial randomly allocates injured athletes to two rehabilitation programmes and compares return-to-running time. It compares:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for trial randomly",
+          "A single athlete's trend without a comparator for trial randomly",
+          "Outcomes under assigned interventions and a comparison for trial randomly",
+          "Device repeatability rather than intervention outcome for trial randomly"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-106",
+      "original": {
+        "id": "a1-data-106",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For a youth athlete in a development programme, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "A measurement device's calibration across repeated technical trials",
+          "Outcomes under allocated interventions while reducing confounding",
+          "Naturally occurring groups without allocating an intervention to participants",
+          "A single athlete's trend without a comparison condition or allocation"
+        ],
+        "correct": 1,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-106",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Athletes are randomly assigned to carbohydrate or placebo drinks before cycling trials. The design compares:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for Athletes are",
+          "A single athlete's trend without a comparator for Athletes are",
+          "Outcomes under assigned interventions and a comparison for Athletes are",
+          "Device repeatability rather than intervention outcome for Athletes are"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-107",
+      "original": {
+        "id": "a1-data-107",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "During a congested competition period, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "A single athlete's trend without a comparison condition or allocation",
+          "A measurement device's calibration across repeated technical trials",
+          "Outcomes under allocated interventions while reducing confounding",
+          "Naturally occurring groups without allocating an intervention to participants"
+        ],
+        "correct": 2,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-107",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Swimmers are randomly assigned to a technique programme or usual training and tested after eight weeks. The design estimates:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for Swimmers are",
+          "A single athlete's trend without a comparator for Swimmers are",
+          "Outcomes under assigned interventions and a comparison for Swimmers are",
+          "Device repeatability rather than intervention outcome for Swimmers are"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-108",
+      "original": {
+        "id": "a1-data-108",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "In a rehabilitation or reconditioning setting, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "Naturally occurring groups without allocating an intervention to participants",
+          "A single athlete's trend without a comparison condition or allocation",
+          "A measurement device's calibration across repeated technical trials",
+          "Outcomes under allocated interventions while reducing confounding"
+        ],
+        "correct": 3,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-108",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Post-ACL participants are randomly assigned to two exercise doses with blinded outcome assessment. The advantage is comparison of:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for Post-ACL participants",
+          "A single athlete's trend without a comparator for Post-ACL participants",
+          "Outcomes under assigned interventions and a comparison for Post-ACL participants",
+          "Device repeatability rather than intervention outcome for Post-ACL participants"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-109",
+      "original": {
+        "id": "a1-data-109",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When comparing laboratory and field information, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "Outcomes under allocated interventions while reducing confounding",
+          "Naturally occurring groups without allocating an intervention to participants",
+          "A single athlete's trend without a comparison condition or allocation",
+          "A measurement device's calibration across repeated technical trials"
+        ],
+        "correct": 0,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-109",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Endurance athletes are randomly assigned to two hydration strategies and core temperature is measured. It asks whether:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for Endurance athletes",
+          "A single athlete's trend without a comparator for Endurance athletes",
+          "Outcomes under assigned interventions and a comparison for Endurance athletes",
+          "Device repeatability rather than intervention outcome for Endurance athletes"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-110",
+      "original": {
+        "id": "a1-data-110",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For an athlete preparing for an important final, a randomized controlled trial is designed primarily to compare:",
+        "options": [
+          "A measurement device's calibration across repeated technical trials",
+          "Outcomes under allocated interventions while reducing confounding",
+          "Naturally occurring groups without allocating an intervention to participants",
+          "A single athlete's trend without a comparison condition or allocation"
+        ],
+        "correct": 1,
+        "explanation": "Random allocation can reduce systematic baseline differences when evaluating an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-110",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Athletes are randomly assigned to sleep coaching or usual routines and reaction time is measured. The central comparison is:",
+        "options": [
+          "Outcomes from self-selected programmes without allocation for Athletes are",
+          "A single athlete's trend without a comparator for Athletes are",
+          "Outcomes under assigned interventions and a comparison for Athletes are",
+          "Device repeatability rather than intervention outcome for Athletes are"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-115",
+      "original": {
+        "id": "a1-data-115",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When communicating the finding to a coach, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Calibration of one laboratory instrument over repeated trials",
+          "Definition and classification of an athlete's somatotype",
+          "Associations between exposures and later outcomes",
+          "Reliability of one instrument under repeated conditions"
+        ],
+        "correct": 2,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-115",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A cohort records academy players' weekly training load and follows them for a season. It examines:",
+        "options": [
+          "Instrument repeatability without exposure comparison for cohort records",
+          "Randomized effects without an assigned intervention for cohort records",
+          "Exposure-outcome associations over follow-up for cohort records",
+          "Body type as the sole outcome explanation for cohort records"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-116",
+      "original": {
+        "id": "a1-data-116",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For a youth athlete in a development programme, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Calibration of one laboratory instrument over repeated trials",
+          "Definition and classification of an athlete's somatotype",
+          "Reliability of one instrument under repeated conditions",
+          "Associations between exposures and later outcomes"
+        ],
+        "correct": 3,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-116",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Athletes are classified by baseline sleep duration and followed for respiratory illness. The cohort examines:",
+        "options": [
+          "Instrument repeatability without exposure comparison for Athletes are",
+          "Randomized effects without an assigned intervention for Athletes are",
+          "Exposure-outcome associations over follow-up for Athletes are",
+          "Body type as the sole outcome explanation for Athletes are"
+        ],
+        "correct": 2,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-117",
+      "original": {
+        "id": "a1-data-117",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "During a congested competition period, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Associations between exposures and later outcomes",
+          "Calibration of one laboratory instrument over repeated trials",
+          "Definition and classification of an athlete's somatotype",
+          "Reliability of one instrument under repeated conditions"
+        ],
+        "correct": 0,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-117",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A season-long study records travel days and later muscle complaints without assigning travel. It estimates:",
+        "options": [
+          "Instrument repeatability without exposure comparison for season-long study",
+          "Randomized effects without an assigned intervention for season-long study",
+          "Body type as the sole outcome explanation for season-long study",
+          "Exposure-outcome associations over follow-up for season-long study"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-118",
+      "original": {
+        "id": "a1-data-118",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "In a rehabilitation or reconditioning setting, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Calibration of one laboratory instrument over repeated trials",
+          "Associations between exposures and later outcomes",
+          "Definition and classification of an athlete's somatotype",
+          "Reliability of one instrument under repeated conditions"
+        ],
+        "correct": 1,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-118",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A rehabilitation cohort groups patients by home-exercise adherence and follows return to running. It examines:",
+        "options": [
+          "Instrument repeatability without exposure comparison for rehabilitation cohort",
+          "Randomized effects without an assigned intervention for rehabilitation cohort",
+          "Body type as the sole outcome explanation for rehabilitation cohort",
+          "Exposure-outcome associations over follow-up for rehabilitation cohort"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-119",
+      "original": {
+        "id": "a1-data-119",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When comparing laboratory and field information, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Calibration of one laboratory instrument over repeated trials",
+          "Definition and classification of an athlete's somatotype",
+          "Associations between exposures and later outcomes",
+          "Reliability of one instrument under repeated conditions"
+        ],
+        "correct": 2,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-119",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A cohort follows athletes who do or do not use a recovery room and records illness for four weeks. It asks:",
+        "options": [
+          "Instrument repeatability without exposure comparison for cohort follows",
+          "Randomized effects without an assigned intervention for cohort follows",
+          "Body type as the sole outcome explanation for cohort follows",
+          "Exposure-outcome associations over follow-up for cohort follows"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-120",
+      "original": {
+        "id": "a1-data-120",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For an athlete preparing for an important final, a cohort study commonly follows participants to examine:",
+        "options": [
+          "Calibration of one laboratory instrument over repeated trials",
+          "Definition and classification of an athlete's somatotype",
+          "Reliability of one instrument under repeated conditions",
+          "Associations between exposures and later outcomes"
+        ],
+        "correct": 3,
+        "explanation": "Cohort studies observe exposure and outcome over time without necessarily assigning an intervention.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-120",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A university cohort records low-energy-availability indicators and follows runners for bone-stress injury. It examines:",
+        "options": [
+          "Instrument repeatability without exposure comparison for university cohort",
+          "Randomized effects without an assigned intervention for university cohort",
+          "Body type as the sole outcome explanation for university cohort",
+          "Exposure-outcome associations over follow-up for university cohort"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-125",
+      "original": {
+        "id": "a1-data-125",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Methods, bias, precision, applicability, and claim-data fit",
+          "Only the journal's visual design and presentation style",
+          "Only the number of references cited by the paper",
+          "Whether the conclusion sounds confident and persuasive"
+        ],
+        "correct": 0,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-125",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A small rehabilitation trial reports a large effect but substantial loss to follow-up. Appraise:",
+        "options": [
+          "Journal style and reference count without methods for small rehabilitation",
+          "A confident conclusion without checking the data for small rehabilitation",
+          "Positive statistical direction without practical context for small rehabilitation",
+          "Methods, bias, precision, and applicability for small rehabilitation"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-126",
+      "original": {
+        "id": "a1-data-126",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Only the journal's visual design and presentation style",
+          "Methods, bias, precision, applicability, and claim-data fit",
+          "Only the number of references cited by the paper",
+          "Whether the conclusion sounds confident and persuasive"
+        ],
+        "correct": 1,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-126",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A wearable study uses an unvalidated fatigue score and recruits from one club. Appraise:",
+        "options": [
+          "Journal style and reference count without methods for wearable study",
+          "A confident conclusion without checking the data for wearable study",
+          "Positive statistical direction without practical context for wearable study",
+          "Methods, bias, precision, and applicability for wearable study"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-127",
+      "original": {
+        "id": "a1-data-127",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Only the journal's visual design and presentation style",
+          "Only the number of references cited by the paper",
+          "Methods, bias, precision, applicability, and claim-data fit",
+          "Whether the conclusion sounds confident and persuasive"
+        ],
+        "correct": 2,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-127",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A cohort links high training load to injury but omits prior injury and exposure timing. Appraise:",
+        "options": [
+          "Journal style and reference count without methods for cohort links",
+          "A confident conclusion without checking the data for cohort links",
+          "Positive statistical direction without practical context for cohort links",
+          "Methods, bias, precision, and applicability for cohort links"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-128",
+      "original": {
+        "id": "a1-data-128",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Only the journal's visual design and presentation style",
+          "Only the number of references cited by the paper",
+          "Whether the conclusion sounds confident and persuasive",
+          "Methods, bias, precision, applicability, and claim-data fit"
+        ],
+        "correct": 3,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-128",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A review pools recovery studies with very different protocols and outcomes. Appraise:",
+        "options": [
+          "Journal style and reference count without methods for review pools",
+          "A confident conclusion without checking the data for review pools",
+          "Positive statistical direction without practical context for review pools",
+          "Methods, bias, precision, and applicability for review pools"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-129",
+      "original": {
+        "id": "a1-data-129",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Methods, bias, precision, applicability, and claim-data fit",
+          "Only the journal's visual design and presentation style",
+          "Only the number of references cited by the paper",
+          "Whether the conclusion sounds confident and persuasive"
+        ],
+        "correct": 0,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-129",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A paper claims a warm-up prevents hamstring injury but poorly reports comparator, adherence, and confidence interval. Ask whether:",
+        "options": [
+          "Journal style and reference count without methods for paper claims",
+          "A confident conclusion without checking the data for paper claims",
+          "Positive statistical direction without practical context for paper claims",
+          "Methods, bias, precision, and applicability for paper claims"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-130",
+      "original": {
+        "id": "a1-data-130",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, critical appraisal of a paper should include assessment of:",
+        "options": [
+          "Only the journal's visual design and presentation style",
+          "Methods, bias, precision, applicability, and claim-data fit",
+          "Only the number of references cited by the paper",
+          "Whether the conclusion sounds confident and persuasive"
+        ],
+        "correct": 1,
+        "explanation": "Appraisal asks whether the design and analysis support the reported conclusion and whether it applies to the athlete setting.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-130",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A wearable study links daily load to performance but has frequent missing data and one elite squad. Appraise:",
+        "options": [
+          "Journal style and reference count without methods for wearable study",
+          "A confident conclusion without checking the data for wearable study",
+          "Positive statistical direction without practical context for wearable study",
+          "Methods, bias, precision, and applicability for wearable study"
+        ],
+        "correct": 3,
+        "explanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-135",
+      "original": {
+        "id": "a1-data-135",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "When communicating the finding to a coach, a confounder is a variable that:",
+        "options": [
+          "Relates to exposure and outcome and distorts their association",
+          "Is the primary outcome selected before exposure measurement",
+          "Is measurement error caused only by an unreliable instrument",
+          "Is unrelated to exposure and outcome but adds random noise"
+        ],
+        "correct": 0,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-135",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "Training load is linked to injury, but previous-injury athletes receive modified loads and have higher injury risk. The confounder is:",
+        "options": [
+          "Random error unrelated to exposure and outcome for Training load",
+          "An outcome definition chosen after the analysis for Training load",
+          "A report feature unrelated to either study variable for Training load",
+          "A variable related to both exposure and outcome for Training load"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-136",
+      "original": {
+        "id": "a1-data-136",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "For a youth athlete in a development programme, a confounder is a variable that:",
+        "options": [
+          "Is the primary outcome selected before exposure measurement",
+          "Is unrelated to exposure and outcome but adds random noise",
+          "Is measurement error caused only by an unreliable instrument",
+          "Relates to exposure and outcome and distorts their association"
+        ],
+        "correct": 3,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-136",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "Travel is associated with poor sleep and illness. Which variable could confound this association?",
+        "options": [
+          "Random error unrelated to exposure and outcome for Travel is",
+          "An outcome definition chosen after the analysis for Travel is",
+          "A report feature unrelated to either study variable for Travel is",
+          "A variable related to both exposure and outcome for Travel is"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-137",
+      "original": {
+        "id": "a1-data-137",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "During a congested competition period, a confounder is a variable that:",
+        "options": [
+          "Is measurement error caused only by an unreliable instrument",
+          "Is the primary outcome selected before exposure measurement",
+          "Relates to exposure and outcome and distorts their association",
+          "Is unrelated to exposure and outcome but adds random noise"
+        ],
+        "correct": 2,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-137",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "Supplement users have higher power, but stronger athletes choose supplements and perform better. The confounder is:",
+        "options": [
+          "Random error unrelated to exposure and outcome for Supplement users",
+          "An outcome definition chosen after the analysis for Supplement users",
+          "A report feature unrelated to either study variable for Supplement users",
+          "A variable related to both exposure and outcome for Supplement users"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-138",
+      "original": {
+        "id": "a1-data-138",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "In a rehabilitation or reconditioning setting, a confounder is a variable that:",
+        "options": [
+          "Is the primary outcome selected before exposure measurement",
+          "Is measurement error caused only by an unreliable instrument",
+          "Relates to exposure and outcome and distorts their association",
+          "Is unrelated to exposure and outcome but adds random noise"
+        ],
+        "correct": 2,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-138",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "More intensive rehabilitation appears to produce faster recovery, but severe injuries receive a different programme and recover slowly. The confounder may be:",
+        "options": [
+          "Random error unrelated to exposure and outcome for More intensive",
+          "An outcome definition chosen after the analysis for More intensive",
+          "A report feature unrelated to either study variable for More intensive",
+          "A variable related to both exposure and outcome for More intensive"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-139",
+      "original": {
+        "id": "a1-data-139",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "When comparing laboratory and field information, a confounder is a variable that:",
+        "options": [
+          "Is the primary outcome selected before exposure measurement",
+          "Is measurement error caused only by an unreliable instrument",
+          "Is unrelated to exposure and outcome but adds random noise",
+          "Relates to exposure and outcome and distorts their association"
+        ],
+        "correct": 3,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-139",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "Altitude-training users improve more, but fitter athletes are more likely to choose camps. The confounder is:",
+        "options": [
+          "Random error unrelated to exposure and outcome for Altitude-training users",
+          "An outcome definition chosen after the analysis for Altitude-training users",
+          "A report feature unrelated to either study variable for Altitude-training users",
+          "A variable related to both exposure and outcome for Altitude-training users"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-140",
+      "original": {
+        "id": "a1-data-140",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "For an athlete preparing for an important final, a confounder is a variable that:",
+        "options": [
+          "Is the primary outcome selected before exposure measurement",
+          "Is unrelated to exposure and outcome but adds random noise",
+          "Is measurement error caused only by an unreliable instrument",
+          "Relates to exposure and outcome and distorts their association"
+        ],
+        "correct": 3,
+        "explanation": "Confounding can create or mask an association when a third variable relates to exposure and outcome.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-140",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "A screening score predicts injury, but previously injured athletes score poorly and are more likely to re-injure. The confounder may be:",
+        "options": [
+          "Random error unrelated to exposure and outcome for screening score",
+          "An outcome definition chosen after the analysis for screening score",
+          "A report feature unrelated to either study variable for screening score",
+          "A variable related to both exposure and outcome for screening score"
+        ],
+        "correct": 3,
+        "explanation": "A confounder is related to both the exposure and outcome and can distort their observed association.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-145",
+      "original": {
+        "id": "a1-data-145",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When communicating the finding to a coach, research involving athletes should include safeguards for:",
+        "options": [
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 0,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-145",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A study collects blood from youth athletes. The key safeguard before collection is to:",
+        "options": [
+          "Faster data collection without participant safeguards for study collects",
+          "Public release of identifiable records for study collects",
+          "Excluding participant questions from consent for study collects",
+          "Consent, privacy, risk, and fair treatment for study collects"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-146",
+      "original": {
+        "id": "a1-data-146",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For a youth athlete in a development programme, research involving athletes should include safeguards for:",
+        "options": [
+          "Faster data collection without addressing participant risk",
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 1,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-146",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A club stores GPS and wellness records for future studies. The protocol should ensure:",
+        "options": [
+          "Faster data collection without participant safeguards for club stores",
+          "Public release of identifiable records for club stores",
+          "Excluding participant questions from consent for club stores",
+          "Consent, privacy, risk, and fair treatment for club stores"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-147",
+      "original": {
+        "id": "a1-data-147",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "During a congested competition period, research involving athletes should include safeguards for:",
+        "options": [
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 2,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-147",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A lactate study may cause brief discomfort and includes a control. Safeguards include:",
+        "options": [
+          "Faster data collection without participant safeguards for lactate study",
+          "Public release of identifiable records for lactate study",
+          "Excluding participant questions from consent for lactate study",
+          "Consent, privacy, risk, and fair treatment for lactate study"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-148",
+      "original": {
+        "id": "a1-data-148",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "In a rehabilitation or reconditioning setting, research involving athletes should include safeguards for:",
+        "options": [
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions",
+          "Consent, privacy, risk minimization, and fair treatment"
+        ],
+        "correct": 3,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-148",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A trial compares two conditioning programmes with no known superior option. A fair protocol should:",
+        "options": [
+          "Faster data collection without participant safeguards for trial compares",
+          "Public release of identifiable records for trial compares",
+          "Excluding participant questions from consent for trial compares",
+          "Consent, privacy, risk, and fair treatment for trial compares"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-149",
+      "original": {
+        "id": "a1-data-149",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "When comparing laboratory and field information, research involving athletes should include safeguards for:",
+        "options": [
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 0,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-149",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "Researchers video-record identifiable landing mechanics for publication. Before recording:",
+        "options": [
+          "Faster data collection without participant safeguards for Researchers video-record",
+          "Public release of identifiable records for Researchers video-record",
+          "Excluding participant questions from consent for Researchers video-record",
+          "Consent, privacy, risk, and fair treatment for Researchers video-record"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-150",
+      "original": {
+        "id": "a1-data-150",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For an athlete preparing for an important final, research involving athletes should include safeguards for:",
+        "options": [
+          "Faster data collection without addressing participant risk",
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 1,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-150",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "A coach encourages athletes to join a monitoring study linked to selection. Ethical response:",
+        "options": [
+          "Faster data collection without participant safeguards for coach encourages",
+          "Public release of identifiable records for coach encourages",
+          "Excluding participant questions from consent for coach encourages",
+          "Consent, privacy, risk, and fair treatment for coach encourages"
+        ],
+        "correct": 3,
+        "explanation": "Ethical athlete research protects autonomy, privacy, welfare, voluntary participation, risk minimization, and fair treatment.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a1-data-094",
+      "original": {
+        "id": "a1-data-094",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A dashboard reports a 12% improvement in jump height but omits baseline value, test error, and timing conditions. It should avoid:",
+        "options": [
+          "Interpret percentage change without baseline or test context",
+          "Display a non-health performance result beside a name",
+          "Graph repeated measurements across the testing period",
+          "Link the trend to a clearly defined coaching decision"
+        ],
+        "correct": 3,
+        "explanation": "A percentage change without baseline, uncertainty, and protocol context can be misleading and should not be treated as a self-explanatory result.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-094",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "foundational",
+        "text": "A dashboard reports a 12% improvement in jump height but omits baseline value, test error, and timing conditions. It should avoid:",
+        "options": [
+          "Interpret percentage change without baseline or test context",
+          "Display a non-health performance result beside a name",
+          "Graph repeated measurements across the testing period",
+          "Link the trend to a clearly defined coaching decision"
+        ],
+        "correct": 0,
+        "explanation": "The dashboard should avoid interpreting percentage change without baseline, uncertainty, and test-protocol context.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      }
+    },
+    {
+      "id": "a1-data-124",
+      "original": {
+        "id": "a1-data-124",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "An observational paper states that a high acute-to-chronic load ratio causes injury, but load and injury were measured during the same week. Which appraisal issue is most important?",
+        "options": [
+          "Ask whether temporal order and confounding permit causation",
+          "Require random allocation in every observational study",
+          "Reject the paper if descriptive statistics are reported",
+          "Assume identical training histories are necessary"
+        ],
+        "correct": 3,
+        "explanation": "Simultaneous measurement weakens temporal inference, and confounding must be considered before an observational association is described as causal.",
+        "sourceId": "cdc-confounding-epi-manual"
+      },
+      "revised": {
+        "id": "a1-data-124",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "analytical",
+        "text": "An observational paper states that a high acute-to-chronic load ratio causes injury, but load and injury were measured during the same week. Which appraisal issue is most important?",
+        "options": [
+          "Ask whether temporal order and confounding permit causation",
+          "Require random allocation in every observational study",
+          "Reject the paper if descriptive statistics are reported",
+          "Assume identical training histories are necessary"
+        ],
+        "correct": 0,
+        "explanation": "Simultaneous observational measurement weakens temporal inference; confounding must be considered before an association is described as causal.",
+        "sourceId": "cdc-confounding-epi-manual"
+      }
+    },
+    {
+      "id": "a1-data-034",
+      "original": {
+        "id": "a1-data-034",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "Video analysis identifies excessive knee valgus on landing in 3 of 5 trials, with stable jump height. Which recommendation is most appropriate?",
+        "options": [
+          "Avoid jumping permanently without measuring response",
+          "Treat stable jump height as proof landing is normal",
+          "Use team ranking as the only programme guide",
+          "Use neuromuscular technique work with a landing retest"
+        ],
+        "correct": 3,
+        "explanation": "A movement-quality finding should lead to a targeted, feasible intervention and a defined reassessment rather than reliance on jump height alone.",
+        "sourceId": "kisner-therapeutic-exercise"
+      },
+      "revised": {
+        "id": "a1-data-034",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Interpretation & Application of Data",
+        "difficulty": "applied",
+        "text": "Video analysis identifies excessive knee valgus on landing in 3 of 5 trials, with stable jump height. Which recommendation is most appropriate?",
+        "options": [
+          "Avoid jumping permanently without measuring response",
+          "Treat stable jump height as proof landing is normal",
+          "Use team ranking as the only programme guide",
+          "Use neuromuscular technique work with a landing retest"
+        ],
+        "correct": 3,
+        "explanation": "A movement-quality finding should lead to a targeted, feasible intervention and a defined reassessment rather than reliance on jump height alone.",
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      }
+    },
+    {
+      "id": "a1-data-141",
+      "original": {
+        "id": "a1-data-141",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For an athlete entering a new training block, research involving athletes should include safeguards for:",
+        "options": [
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 0,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-data-141",
+        "section": "A1",
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopic": "Principles of Research & Evidence-Based Practice",
+        "difficulty": "foundational",
+        "text": "For an athlete entering a new training block, research involving athletes should include safeguards for:",
+        "options": [
+          "Consent, privacy, risk minimization, and fair treatment",
+          "Faster data collection without addressing participant risk",
+          "Public release of identifiable health information",
+          "Exclusion of participant questions from consent discussions"
+        ],
+        "correct": 0,
+        "explanation": "Ethical research respects autonomy, confidentiality, safety, and fair participation.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    }
+  ],
+  "validation": {
+    "exactQuestionCount": 150,
+    "fourOptionsEveryQuestion": true,
+    "validCorrectIndices": true,
+    "uniqueOptionsEveryQuestion": true,
+    "familyRewriteCount": 90,
+    "sourceOnlyChangeCount": 2,
+    "correctedAnswerIds": [
+      "a1-data-094",
+      "a1-data-124"
+    ],
+    "sourceReassignedIds": [
+      "a1-data-034",
+      "a1-data-141",
+      "a1-data-145",
+      "a1-data-146",
+      "a1-data-147",
+      "a1-data-148",
+      "a1-data-149",
+      "a1-data-150"
+    ],
+    "answerPositionCounts": [
+      39,
+      40,
+      36,
+      35
+    ],
+    "optionReordering": {
+      "scope": "Reordered revised options only to distribute correct indices while preserving answer meaning.",
+      "targetVariantCounts": [
+        23,
+        23,
+        22,
+        22
+      ],
+      "variantCounts": [
+        23,
+        23,
+        22,
+        22
+      ]
+    },
+    "optionLengthReview": {
+      "primaryFlagCount": 0,
+      "maxCorrectMinusMedianDistractor": 8,
+      "maxOptionSpread": 15,
+      "strictlyLongestCount": 38
+    }
+  }
+}

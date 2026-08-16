@@ -1,0 +1,1894 @@
+{
+  "auditType": "final21_bounded_repair_testing_assessment",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_testing_assessment.json",
+  "sourceAudit": "research/release5_audit_core_testing.json",
+  "reviewedCount": 150,
+  "changedCount": 135,
+  "findingIdsAddressed": [
+    "R5-CT-001",
+    "R5-CT-002",
+    "R5-CT-003"
+  ],
+  "explanationChangeCount": 131,
+  "optionChangeCount": 16,
+  "answerPositionReorderBlocks": [
+    {
+      "from": "a1-test-084",
+      "to": "a1-test-092",
+      "localCorrectIndexCountsAfter": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "from": "a1-test-136",
+      "to": "a1-test-143",
+      "localCorrectIndexCountsAfter": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "preserved": {
+    "questionText": true,
+    "sourceIds": true,
+    "keyedAnswerMeaning": true,
+    "questionCount": 150,
+    "optionsPerQuestion": 4
+  },
+  "changes": [
+    {
+      "id": "a1-test-002",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "Because criterion validity compares the new 20-m sprint with an established acceleration measure, an association between their scores supports the intended acceleration interpretation.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-003",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "Stable values show repeatability, but failure to reflect lower-body power means validity for that intended construct is not established.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-004",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "Content validity is supported when the battery samples the physical qualities required for soccer performance.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-005",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "A hop score should be interpreted as readiness only when evidence supports that readiness interpretation, not merely because the test is quick or familiar.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-006",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "Construct validity is supported when balance scores relate to established measures of balance.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-007",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "If the score is unrelated to established sprint measures, the result questions whether the test captures repeated-sprint ability.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-008",
+      "originalExplanation": "Validity concerns whether a test supports the intended interpretation and use of its score.",
+      "revisedExplanation": "Comparing the new agility test with an accepted agility measure in the same athletes examines criterion-related validity.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-010",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "With conditions unchanged, similar reaction-time scores across sessions support test–retest reliability.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-011",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "The practice effect changes the second score without a corresponding performance change, reducing repeatability and therefore test–retest reliability.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-012",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "Repeating the standardized test permits estimation of typical error rather than treating the highest score as the athlete’s true value.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-014",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "Small random variation under identical conditions is expected in a reliable measure; perfect agreement with every physiological variable is not required.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-015",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "A change larger than typical error is less likely to be measurement noise, although practical importance still requires a decision threshold.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-016",
+      "originalExplanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+      "revisedExplanation": "Reliability shows repeatability, not that the test measures the intended construct; validity evidence is still needed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-018",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "Sensitivity is the proportion of true cases detected: 18 of 20 cases gives 18/20 = 90%.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-019",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "A false negative occurs when an athlete has the target condition but receives a negative test result.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-020",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "When missing a dangerous condition is unacceptable, high sensitivity reduces missed true cases, even if false positives increase.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-021",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "Sensitivity uses confirmed cases as the denominator: 45 positive screens among 50 cases gives 45/50 = 90%.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-022",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "Low sensitivity means the screen fails to identify a larger proportion of athletes who truly have the condition.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-023",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "Sensitivity is calculated among all athletes with the confirmed condition, not among all positive tests or all tested athletes.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-024",
+      "originalExplanation": "Sensitivity is the proportion of true cases correctly identified by a screening test.",
+      "revisedExplanation": "Lowering the threshold usually captures more true cases and raises sensitivity, while potentially reducing specificity.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-025",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "Specificity is the ability to classify people who truly lack the target condition as negative.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-026",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "Specificity is the proportion of confirmed non-cases testing negative: 92 of 100 gives 92%.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-027",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "A high-specificity confirmatory test limits false-positive classifications among people who do not have the condition.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-028",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "Specificity counts true non-cases that receive negative results.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-029",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "High specificity can coexist with poor sensitivity, so the test may miss true cases while correctly clearing many non-cases.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-030",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "The false-positive rate is 1 − specificity: 1 − 0.85 = 0.15, or 15%.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-031",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "A stricter positive threshold generally reduces false positives and raises specificity, but may miss more true cases and lower sensitivity.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-032",
+      "originalExplanation": "Specificity is the proportion of true non-cases correctly classified as negative.",
+      "revisedExplanation": "After a broad screen, a specific follow-up test helps confirm the condition among athletes who screened positive.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-034",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "A volleyball battery should sample repeated jumping, short sprinting, and change-of-direction demands that occur in the sport.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-035",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "Return-to-play testing should measure safe, sport-relevant functions that inform the return decision rather than replace clinical examination.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-036",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "Sprinters and marathoners have different performance demands, so their test batteries should be tailored to their groups.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-037",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "If battery length creates fatigue, retaining the relevant tests and shortening the battery protects interpretability of later results.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-038",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "Youth testing should prioritize age-appropriate safety and relevant qualities rather than applying adult maximal protocols without adjustment.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-039",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "A battery guiding weekly training must be valid, reliable, feasible, and connected to the decision it is intended to support.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-040",
+      "originalExplanation": "Test selection should reflect the performance question, sport demands, athlete characteristics, evidence, safety, and feasibility.",
+      "revisedExplanation": "When batteries measure similar qualities, the better choice matches the purpose while limiting unnecessary time and athlete burden.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-041",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "Normative values are most interpretable when the reference group matches the athlete and testing setting in the relevant characteristics.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-042",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "The comparison is strongest when the reference group matches the runner’s age, sex, event, performance level, and test conditions.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-043",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "A z-score of −1.0 means the result is one standard deviation below the reference mean.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-044",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "Different protocols can change the measured performance, so values collected under another protocol may not be directly comparable.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-045",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "Differences in maturation and performance level can make elite adult norms inappropriate for a youth athlete.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-046",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "The 75th percentile indicates a score approximately as high as or higher than three quarters of the relevant reference group.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-047",
+      "originalExplanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+      "revisedExplanation": "Normative data describe an athlete’s position relative to a relevant reference group; they do not diagnose injury or guarantee competition results.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-049",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "A repeated-sprint field test on the normal pitch can represent sport demands while remaining practical for team monitoring.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-050",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "Rainfall can alter surface and environmental conditions, reducing comparability between outdoor field-test sessions.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-051",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "Portable field equipment permits frequent testing of many athletes when laboratory access is limited.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-052",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "Consistent surface, start, timing, footwear, and instructions reduce avoidable variation in the 30-m field sprint.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-053",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "A field test can reflect match demands when its task is representative of the sport, although motivation and conditions still require control.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-054",
+      "originalExplanation": "Field tests can be practical and ecologically relevant, although environmental control and measurement precision may be limited.",
+      "revisedExplanation": "For precise oxygen uptake, field testing usually offers less environmental control and less direct physiological measurement than a laboratory protocol.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-056",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "A laboratory test is useful when controlled conditions and direct quantification of a physiological variable are the primary goals.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-057",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "A treadmill permits controlled workload progression while the metabolic cart measures gas exchange.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-058",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "The laboratory protocol controls workload and measurement, but may be less representative of the athlete’s sport and therefore have lower ecological validity.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-059",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "A standard pre-test routine and safety screen help make maximal oxygen-uptake testing comparable and safe.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-060",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "A controlled ramp test allows the same workload progression to be reproduced when two training phases are compared.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-061",
+      "originalExplanation": "Laboratory tests can provide controlled workloads and specialized measurement, but practical relevance must still be considered.",
+      "revisedExplanation": "Different results should first be interpreted by checking whether the tests measure the same outcome under similar conditions.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-062",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "A test–retest change should be judged against typical error and the smallest worthwhile change, not its direction alone.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-063",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "The 0.02-second improvement is smaller than the 0.04-second typical error, so it is not clearly beyond expected measurement noise.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-064",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "The smallest worthwhile change helps determine whether an observed change is large enough to alter the performance decision.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-065",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "Using the same protocol and similar preparation makes repeated jump scores more defensible as a longitudinal comparison.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-066",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "A responsive test detects meaningful performance change when the athlete’s performance genuinely changes.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-067",
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "Exceeding typical error suggests the change may be real, but failing to exceed the pre-specified worthwhile change leaves its practical importance uncertain.",
+      "originalOptions": [
+        "The change is statistically and practically decisive",
+        "The test has no reliability in this athlete for the same test",
+        "The change may be real but its practical importance is uncertain",
+        "The athlete must have worsened in this athlete for the same test"
+      ],
+      "revisedOptions": [
+        "The change is statistically and practically decisive",
+        "The test has no reliability because the score changed",
+        "The change may be real, but practical importance is uncertain",
+        "The athlete must have worsened despite the higher score"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance. A final wording pass also narrowed or qualified the choices to keep the keyed option from becoming a length signal while preserving meaning.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-072",
+      "originalExplanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+      "revisedExplanation": "Defined recovery intervals and consistent encouragement reduce fatigue, potentiation, and motivational differences between maximal sprint trials.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-073",
+      "originalExplanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+      "revisedExplanation": "Familiarization reduces learning effects, so the formal technical score is less likely to reflect task novelty.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-074",
+      "originalExplanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+      "revisedExplanation": "Planning the order of tests minimizes fatigue and potentiation from earlier tests affecting later results.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-075",
+      "originalExplanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+      "revisedExplanation": "Exhaustive intervals can temporarily impair balance, so fatigue is the most direct explanation for the later lower score.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-077",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "An SOP should specify preparation, equipment, scoring, and safety so repeated sprint testing is performed consistently and safely.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-078",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "Changing the recovery interval is a protocol deviation; documenting it allows its effect on interpretation to be assessed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-079",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "Version control identifies which approved procedure was used at each session and helps trace later differences.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-080",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "Shared instructions, position, endpoint, and scoring rule reduce assessor-dependent variation in the flexibility test.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-081",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "An SOP standardizes procedures but cannot replace professional judgment, informed consent, or safety responsibilities.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-082",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "An approved translated script and a check of understanding preserve the intended instructions across language groups.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-083",
+      "originalExplanation": "A standard operating procedure reduces procedural variation and supports repeatable, safe data collection.",
+      "revisedExplanation": "An SOP audit compares observed practice with the current approved procedure and its safety requirements.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-084",
+      "originalOptions": [
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications",
+        "that screening covers contraindications, preparation, and emergency procedures"
+      ],
+      "revisedOptions": [
+        "that screening covers contraindications, preparation, and emergency procedures",
+        "that history, medication, and symptoms are reviewed without readiness checks",
+        "that prior scores and coach expectations replace formal screening",
+        "that staff and equipment eliminate the need to check contraindications"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "changeTypes": [
+        "options"
+      ],
+      "reviewerNote": "Repaired the named distractor wording and/or reordered the existing options for local answer-position balance without changing their meanings.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-085",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "New chest pressure is a safety concern; the practitioner must confirm appropriate deferral and emergency readiness before any maximal test.",
+      "originalOptions": [
+        "That the athlete can continue if the coach accepts the risk before maximal exercise",
+        "That a previous normal test overrides today’s symptom before maximal exercise",
+        "That the symptom is omitted to protect the planned schedule before maximal exercise",
+        "That screening, appropriate deferral, and emergency readiness are confirmed"
+      ],
+      "revisedOptions": [
+        "That the athlete can continue if the coach accepts the risk",
+        "That screening, deferral, and emergency readiness are confirmed",
+        "That a previous normal test overrides today’s new symptom",
+        "That today’s symptom is omitted to protect the schedule"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance. A final wording pass also narrowed or qualified the choices to keep the keyed option from becoming a length signal while preserving meaning.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-086",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "Medication can alter heart-rate response, so medication history, symptoms, and safety readiness must be reviewed before grading the test.",
+      "originalOptions": [
+        "That the medication can be ignored if the athlete feels motivated",
+        "That the old heart-rate zones are used without adjustment",
+        "That the coach’s expected score determines test readiness",
+        "That medication, symptoms, and safety readiness are reviewed"
+      ],
+      "revisedOptions": [
+        "That the medication can be ignored if the athlete feels motivated",
+        "That the old heart-rate zones are used without adjustment",
+        "That medication, symptoms, and safety readiness are reviewed",
+        "That the coach’s expected score determines test readiness"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-087",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "A maximal test requires trained staff, suitable equipment, and ready emergency procedures before it begins.",
+      "originalOptions": [
+        "That the athlete signs a form accepting all responsibility",
+        "That the test is shortened without changing the safety plan",
+        "That a high previous score indicates low risk before maximal exercise",
+        "That trained staff, equipment, and emergency procedures are ready"
+      ],
+      "revisedOptions": [
+        "That the athlete signs a form accepting all responsibility",
+        "That the test is shortened without changing the safety plan",
+        "That a high previous score indicates low current risk",
+        "That trained staff, equipment, and emergency procedures are ready"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-088",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "Overnight work and non-standard preparation may compromise readiness, so testing should be reviewed and postponed or modified when necessary.",
+      "originalOptions": [
+        "That the athlete’s motivation compensates for non-standard preparation",
+        "That readiness is reviewed and testing is postponed or modified if needed",
+        "That the result will be compared with a rested athlete before maximal exercise",
+        "That the deviation is ignored if the session is already scheduled"
+      ],
+      "revisedOptions": [
+        "That readiness is reviewed and testing is postponed or modified if needed",
+        "That the athlete’s motivation compensates for non-standard preparation",
+        "That the result can be compared with a rested athlete without adjustment",
+        "That the deviation is ignored if the session is already scheduled"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance. A final wording pass also narrowed or qualified the choices to keep the keyed option from becoming a length signal while preserving meaning.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-089",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "Fever and marked fatigue are acute safety concerns; symptoms should be assessed, testing deferred if needed, and clinical guidance obtained.",
+      "originalOptions": [
+        "That the athlete can complete the test at a slower pace without review before maximal exercise",
+        "That only the final score will be recorded before maximal exercise for the same test",
+        "That a warm-up will determine safety without further assessment before maximal exercise",
+        "That symptoms are assessed, testing deferred if needed, and clinical guidance obtained"
+      ],
+      "revisedOptions": [
+        "That the athlete can complete a slower test without further review",
+        "That fever and fatigue prompt deferral and clinical guidance",
+        "That only the final score is recorded despite fever and fatigue",
+        "That a warm-up alone determines safety despite fever and fatigue"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance. A final wording pass also narrowed or qualified the choices to keep the keyed option from becoming a length signal while preserving meaning.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-090",
+      "originalOptions": [
+        "That coach permission alone replaces required consent for a maximal test",
+        "That previous participation counts as current consent for this assessment",
+        "That anonymous results remove the need for permission from the minor",
+        "Required consent/assent, screening, and safety arrangements are complete"
+      ],
+      "revisedOptions": [
+        "That coach permission alone replaces required consent for a maximal test",
+        "That previous participation counts as current consent for this assessment",
+        "Required consent/assent, screening, and safety arrangements are complete",
+        "That anonymous results remove the need for permission from the minor"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "changeTypes": [
+        "options"
+      ],
+      "reviewerNote": "Repaired the named distractor wording and/or reordered the existing options for local answer-position balance without changing their meanings.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-091",
+      "originalExplanation": "Pre-test safety requires screening, preparation, contraindication review, and emergency readiness.",
+      "revisedExplanation": "Heat and humidity increase risk, so hydration, monitoring, staffing, and stopping procedures must be adequate before exhaustive testing.",
+      "originalOptions": [
+        "That hydration and emergency planning are unnecessary for trained athletes",
+        "That the same workload is safe regardless of heat exposure before maximal exercise",
+        "That stopping rules can be relaxed to obtain a complete score before maximal exercise",
+        "That heat risk, hydration, monitoring, staffing, and stopping procedures are adequate"
+      ],
+      "revisedOptions": [
+        "That hydration and emergency planning are unnecessary for fit athletes",
+        "That the same workload is safe regardless of heat exposure",
+        "That stopping rules can be relaxed to obtain a complete score",
+        "That heat risk, hydration, monitoring, and stopping rules suffice"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance. A final wording pass also narrowed or qualified the choices to keep the keyed option from becoming a length signal while preserving meaning.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-092",
+      "originalOptions": [
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading",
+        "Check measurement accuracy against a known standard"
+      ],
+      "revisedOptions": [
+        "Check measurement accuracy against a known standard",
+        "Confirm that the athlete understands the measurement task",
+        "Change the test construct to match the equipment",
+        "Replace repeated recordings with a single reading"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "changeTypes": [
+        "options"
+      ],
+      "reviewerNote": "Repaired the named distractor wording and/or reordered the existing options for local answer-position balance without changing their meanings.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-093",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "Applying a known load and checking the displayed value compares the instrument with a known standard, which is calibration.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-094",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "Increasing device error requires investigation and service or recalibration, with the action documented before further testing.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-095",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "An uneven setup can introduce measurement error even when the scale was previously calibrated.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-096",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "Recording the date, standard, result, and operator creates traceability for the measurement system and its calibration status.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-097",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "A timing gate that fails its accuracy check should be removed from service until the fault is resolved.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-098",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "Zeroing establishes the baseline reference from which subsequent sensor readings are measured.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-099",
+      "originalExplanation": "Calibration checks whether an instrument produces accurate readings relative to a known reference.",
+      "revisedExplanation": "Calibration most directly reduces systematic error introduced by the instrument, not athlete motivation or consent requirements.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-101",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "Recording that the gate moved documents a procedural deviation that may explain differences in session comparability.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-102",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "A maintenance log should record service dates, work performed, and the analyser’s relevant equipment status.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-103",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "Short recovery intervals can alter performance; the deviation should be documented and the results qualified or repeated.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-104",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "A traceable result links the score to its date, protocol version, equipment status, assessor, and testing conditions.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-105",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "Corrective action addresses the cause of a detected problem and reduces the chance that it will recur.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-106",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "Missing warm-up records create uncertainty, so they should be flagged and the interpretation qualified rather than fabricated.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-107",
+      "originalExplanation": "Quality-control records identify procedural deviations, support traceability, and protect data integrity.",
+      "revisedExplanation": "Periodic review identifies recurring process problems and supports improvements in data integrity.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-108",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Valid consent explains the procedure, risks, benefits, voluntary choice, data use, and withdrawal process before testing.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-109",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Before blood-lactate testing, the athlete should understand the procedure, risks, benefits, alternatives, and freedom to decline.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-110",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Linking participation to selection can undermine free choice, so the team must assess whether consent was voluntary and unpressured.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-111",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Future research storage requires a clear purpose, access rules, storage arrangements, and a withdrawal process before samples or data are retained.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-112",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Withdrawal ends participation; the practitioner should stop and explain how data already collected will be handled.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-113",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Inviting questions and checking understanding helps ensure that agreement is informed rather than merely signed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-114",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Minor participation requires the applicable guardian permission together with the young athlete’s assent.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-115",
+      "originalExplanation": "Informed consent requires understandable information and voluntary agreement before participation.",
+      "revisedExplanation": "Venous blood sampling is a material change from movement testing, so it requires explanation and amended consent before continuing.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-consent-2023"
+      ]
+    },
+    {
+      "id": "a1-test-117",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "Role-based access gives the strength coach only the identifiable information needed for an authorized professional purpose.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-118",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "Aggregated or de-identified results reduce disclosure risk when individual identity is not necessary for the coaching presentation.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-119",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "An approved secure channel and authorized data scope protect raw testing information during transfer to a consultant.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-120",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "Before sharing identifiable pain and test results, the practitioner should confirm authorization, purpose, and the minimum data needed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-121",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "An accidental disclosure requires the breach procedure, immediate containment, and documentation so the incident can be managed and reviewed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-122",
+      "originalExplanation": "Confidentiality protects identifiable information while allowing only appropriate, authorized professional communication.",
+      "revisedExplanation": "A defined retention and disposal period limits how long identifiable records remain accessible for the stated purpose.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ethics-2023"
+      ]
+    },
+    {
+      "id": "a1-test-124",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "Faintness before exercise testing warrants pausing the test and obtaining appropriate clinical guidance rather than proceeding.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-125",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "Fever indicates acute illness, so maximal testing should be postponed until the illness resolves.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-126",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "A markedly high blood-pressure reading should be confirmed and handled under the service’s referral or deferral procedure.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-127",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "New exertional chest pain is a red flag requiring test deferral and medical evaluation.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-128",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "Severe sleep loss with dizziness may compromise readiness and safety, so testing should be assessed and modified or deferred.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-129",
+      "originalExplanation": "Contraindications and concerning symptoms require appropriate deferral, modification, or clinical review.",
+      "revisedExplanation": "Medication changes can alter heart-rate responses, so the protocol and interpretation should be adapted after reviewing the change.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-130",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Standardized instructions, warm-up, equipment, surface, timing, and setting reduce avoidable variation in repeated field tests.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-131",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Keeping surface, footwear, start, timing, and instructions constant makes repeated 20-m sprint scores more comparable.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-132",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Sampling site, workload, timing, and analyser method must be consistent to compare serial blood-lactate measurements.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-133",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Specifying arm movement, depth, attempts, rest, and scoring makes repeated countermovement-jump results comparable.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-134",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Food, fluid, sleep, exercise, and time of day can affect readiness, so these factors should be recorded and standardized where feasible.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-135",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "A shared movement endpoint, script, and recording rule reduces differences between flexibility assessors.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-136",
+      "originalExplanation": "Standardizing controllable conditions reduces avoidable variation between testing sessions.",
+      "revisedExplanation": "Comparable timing, equipment, preparation, and conditions are needed to interpret field-test changes across a training block.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-test-137",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "The administrator should stop when a predefined termination criterion or concerning symptom appears, protecting the athlete before a maximal score is reached.",
+      "originalOptions": [
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "revisedOptions": [
+        "the administrator waits for the test to reach a maximal score",
+        "the administrator observes a termination criterion or concerning symptom",
+        "the administrator continues despite a warning sign if the athlete wishes",
+        "the administrator stops at a fixed time despite symptoms or protocol"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-138",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "Crushing chest pain is an immediate termination signal, so the test should stop and the safety procedure should be activated.",
+      "originalOptions": [
+        "The symptom appears and the termination procedure is activated",
+        "The planned maximal stage is reached during testing",
+        "The athlete says the symptom is tolerable during testing",
+        "The scheduled test duration has elapsed during testing"
+      ],
+      "revisedOptions": [
+        "The planned maximal stage is reached during testing",
+        "The athlete says the symptom is tolerable during testing",
+        "The symptom appears and the termination procedure is activated",
+        "The scheduled test duration has elapsed during testing"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-139",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "A concerning rhythm change can threaten safety and requires immediate termination followed by the defined emergency procedure.",
+      "originalOptions": [
+        "Stop the test and follow the defined emergency procedure",
+        "Continue until the athlete reaches the target score",
+        "Wait for the next stage to see whether it resolves",
+        "Ignore it if the athlete wants the result recorded"
+      ],
+      "revisedOptions": [
+        "Continue until the athlete reaches the target score",
+        "Wait for the next stage to see whether it resolves",
+        "Ignore it if the athlete wants the result recorded",
+        "Stop the test and follow the defined emergency procedure"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-140",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "Confusion or loss of coordination signals that the athlete cannot safely continue, so the test should stop immediately.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-141",
+      "originalOptions": [
+        "Stop the test and follow the safety procedure",
+        "Continue until the planned workload is complete",
+        "Continue if the athlete says symptoms are tolerable",
+        "Record the symptom while keeping the trial running"
+      ],
+      "revisedOptions": [
+        "Continue until the planned workload is complete",
+        "Stop the test and follow the safety procedure",
+        "Continue if the athlete says symptoms are tolerable",
+        "Record the symptom while keeping the trial running"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "changeTypes": [
+        "options"
+      ],
+      "reviewerNote": "Repaired the named distractor wording and/or reordered the existing options for local answer-position balance without changing their meanings.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-142",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "Severe dyspnoea with an unsafe oxygen-saturation response meets safety criteria for termination and initiation of the safety procedure.",
+      "originalOptions": [
+        "Terminate the test and start the safety procedure",
+        "Continue until the next workload stage for completeness",
+        "Record the symptom but allow the athlete to decide alone",
+        "Stop only when the planned time has been reached"
+      ],
+      "revisedOptions": [
+        "Continue until the next workload stage for completeness",
+        "Record the symptom but allow the athlete to decide alone",
+        "Terminate the test and start the safety procedure",
+        "Stop only when the planned time has been reached"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-143",
+      "originalExplanation": "Termination criteria protect the athlete and should be defined before testing begins.",
+      "revisedExplanation": "Equipment failure can compromise both safety and validity, so the run should stop when the fault threatens either.",
+      "originalOptions": [
+        "Stop if equipment failure threatens safety or validity",
+        "Continue because equipment faults cannot affect safety",
+        "Estimate the result from the previous season",
+        "Repeat immediately without checking the device"
+      ],
+      "revisedOptions": [
+        "Continue because equipment faults cannot affect safety",
+        "Estimate the result from the previous season",
+        "Repeat immediately without checking the device",
+        "Stop if equipment failure threatens safety or validity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "changeTypes": [
+        "explanation",
+        "options"
+      ],
+      "reviewerNote": "Rewrote the explanation to address this stem and keyed answer, repaired the named distractor wording where applicable, and reordered existing options for local answer-position balance.",
+      "sourcesInspected": [
+        "acsm-getp-12"
+      ]
+    },
+    {
+      "id": "a1-test-144",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "A useful report states the result accurately, adds context, and explains its relevance to the decision in language the audience can use.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-145",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "Comparing current sprint time with baseline is most useful when the report includes the change, uncertainty, conditions, and practical context.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-146",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "A small improvement should be compared with measurement error, the worthwhile-change threshold, and the decision before training is changed.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-147",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "Different preparation makes the comparison uncertain, so the report should disclose the deviation and qualify the interpretation.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-148",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "A multidisciplinary report should explain results in language appropriate to its audience rather than rely on unexplained technical terms.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-149",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "An athlete-facing report should define the measure, state the result and uncertainty, and identify a clear next step.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-test-150",
+      "originalExplanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+      "revisedExplanation": "One unexpected score should be checked against protocol quality, repeatability, context, symptoms, and other evidence before training changes are recommended.",
+      "changeTypes": [
+        "explanation"
+      ],
+      "reviewerNote": "Replaced the repeated category-level explanation with a concise, stem-specific explanation of the keyed answer and its numeric or scenario decision.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023"
+      ]
+    }
+  ]
+}

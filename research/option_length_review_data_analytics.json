@@ -1,0 +1,2768 @@
+{
+  "group": "Data Interpretation & Applied Analytics",
+  "file": "question_bank/section_a1_data_analytics.json",
+  "reviewedCount": 150,
+  "flaggedCount": 130,
+  "changedCount": 130,
+  "unchangedNaturalDifferenceCount": 20,
+  "exceptionCount": 0,
+  "thresholds": {
+    "primary": [
+      "correct option > 8 characters longer than the median distractor",
+      "overall option length spread > 15 characters"
+    ],
+    "secondary": "correct option strictly longest; review signal only",
+    "postReviewTarget": "No primary length flags; factual naturalness takes precedence over exact equality."
+  },
+  "sourceReview": [
+    {
+      "sourceId": "nsca-essentials-5",
+      "material": "Purchased PDF, 5th edition, Contents PDF p. 15: Ch. 13 Principles of Test Selection and Administration and Ch. 14 Administration, Scoring, and Interpretation of Selected Tests."
+    },
+    {
+      "sourceId": "acsm-getp-12",
+      "material": "ACSM official 12th-edition page: evidence-based standards for exercise testing and prescription, including applied testing procedures and case-based interpretation."
+    },
+    {
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "material": "World Physiotherapy policy statement, June 2023: use the best available evidence and avoid ineffective or unsafe techniques; applied here to evidence appraisal, uncertainty, applicability, and participant safeguards."
+    },
+    {
+      "sourceId": "ioc-load-illness-2016",
+      "material": "IOC consensus source catalogued for load, recovery, illness risk, and monitoring; applied here to cautious interpretation of concurrent load and performance changes."
+    }
+  ],
+  "changes": [
+    {
+      "id": "a1-data-001",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose",
+        "A result without comparison or context"
+      ],
+      "revisedOptions": [
+        "Strengths, weaknesses, limits, and priorities",
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-002",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "Strengths, weaknesses, limits, and priorities",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-003",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A ranking without test purpose",
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "Strengths, weaknesses, limits, and priorities",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-004",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the athlete's highest score",
+        "A ranking without test purpose",
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities",
+        "Strengths, weaknesses, limits, and priorities"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-005",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose",
+        "A result without comparison or context"
+      ],
+      "revisedOptions": [
+        "Strengths, weaknesses, limits, and priorities",
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-006",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "Strengths, weaknesses, limits, and priorities",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-007",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A ranking without test purpose",
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "Strengths, weaknesses, limits, and priorities",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-008",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the athlete's highest score",
+        "A ranking without test purpose",
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities",
+        "Strengths, weaknesses, limits, and priorities"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-009",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose",
+        "A result without comparison or context"
+      ],
+      "revisedOptions": [
+        "Strengths, weaknesses, limits, and priorities",
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-010",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A result without comparison or context",
+        "Strengths, weaknesses, limiting factors, and actionable priorities",
+        "Only the athlete's highest score",
+        "A ranking without test purpose"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "Strengths, weaknesses, limits, and priorities",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the profile answer and replaced terse distractors with comparable, decision-oriented alternatives. NSCA 5e Chs. 13–14 supports interpreting profiles through context and actionable priorities."
+    },
+    {
+      "id": "a1-data-011",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-012",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Body height alone",
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-013",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone",
+        "Ferritin alone without other evidence",
+        "The validity of every test"
+      ],
+      "revisedOptions": [
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-014",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone",
+        "Ferritin alone without other evidence"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-015",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-016",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Body height alone",
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-017",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone",
+        "Ferritin alone without other evidence",
+        "The validity of every test"
+      ],
+      "revisedOptions": [
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-018",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone",
+        "Ferritin alone without other evidence"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-019",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique",
+        "Body height alone"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-020",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Body height alone",
+        "Ferritin alone without other evidence",
+        "The validity of every test",
+        "Speed-specific power, fatigue tolerance, or sprint technique"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the performance-limitation answer and made each distractor a plausible but incomplete interpretation. NSCA 5e testing/data-interpretation content supports contextual interpretation of performance trends."
+    },
+    {
+      "id": "a1-data-021",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless"
+      ],
+      "revisedOptions": [
+        "Check test quality, context, and reference-group relevance",
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-022",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Check test quality, context, and reference-group relevance",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-023",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Check test quality, context, and reference-group relevance",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-024",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary",
+        "Check test quality, context, and reference-group relevance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-025",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless"
+      ],
+      "revisedOptions": [
+        "Check test quality, context, and reference-group relevance",
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-026",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Check test quality, context, and reference-group relevance",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-027",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Check test quality, context, and reference-group relevance",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-028",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary",
+        "Check test quality, context, and reference-group relevance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-029",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training",
+        "Ignore the result because all norms are useless"
+      ],
+      "revisedOptions": [
+        "Check test quality, context, and reference-group relevance",
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-030",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Ignore the result because all norms are useless",
+        "Check test quality, context, and the relevance of the reference group",
+        "Diagnose a disorder immediately",
+        "Prescribe maximal training"
+      ],
+      "revisedOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Check test quality, context, and reference-group relevance",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the first-step answer and made the alternatives comparable while preserving the ACSM testing principle of checking test quality, context, and reference-group relevance before acting."
+    },
+    {
+      "id": "a1-data-031",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A feasible intervention linked to a follow-up measure",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-032",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals",
+        "A feasible intervention linked to a follow-up measure"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-033",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan",
+        "Only the athlete's ranking"
+      ],
+      "revisedOptions": [
+        "A feasible intervention linked to a follow-up measure",
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-034",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "A feasible intervention linked to a follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-035",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A feasible intervention linked to a follow-up measure",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-036",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals",
+        "A feasible intervention linked to a follow-up measure"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-037",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan",
+        "Only the athlete's ranking"
+      ],
+      "revisedOptions": [
+        "A feasible intervention linked to a follow-up measure",
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-038",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "A feasible intervention linked to a follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-039",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure",
+        "A generic exercise list for every athlete"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A feasible intervention linked to a follow-up measure",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-040",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A generic exercise list for every athlete",
+        "A change with no monitoring plan",
+        "Only the athlete's ranking",
+        "A specific, feasible intervention and a follow-up measure"
+      ],
+      "revisedOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals",
+        "A feasible intervention linked to a follow-up measure"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the recommendation answer and made distractors reflect common but incomplete decision paths. World Physiotherapy evidence-based-practice guidance supports linking findings to safe, feasible actions and follow-up."
+    },
+    {
+      "id": "a1-data-041",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result",
+        "Unrecorded informal impressions"
+      ],
+      "revisedOptions": [
+        "Consistent measures, repeated timing, trends, and context",
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-042",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Consistent measures, repeated timing, trends, and context",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-043",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the single best result",
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Consistent measures, repeated timing, trends, and context",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-044",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A different test every session",
+        "Only the single best result",
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements",
+        "Consistent measures, repeated timing, trends, and context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-045",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result",
+        "Unrecorded informal impressions"
+      ],
+      "revisedOptions": [
+        "Consistent measures, repeated timing, trends, and context",
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-046",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Consistent measures, repeated timing, trends, and context",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-047",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the single best result",
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Consistent measures, repeated timing, trends, and context",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-048",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A different test every session",
+        "Only the single best result",
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements",
+        "Consistent measures, repeated timing, trends, and context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-049",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result",
+        "Unrecorded informal impressions"
+      ],
+      "revisedOptions": [
+        "Consistent measures, repeated timing, trends, and context",
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-050",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Unrecorded informal impressions",
+        "Consistent measures, repeated timing, trend analysis, and relevant context",
+        "A different test every session",
+        "Only the single best result"
+      ],
+      "revisedOptions": [
+        "Different tests each session without common timing",
+        "Consistent measures, repeated timing, trends, and context",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the monitoring answer and expanded distractors into plausible monitoring errors. NSCA 5e testing and data-interpretation content supports consistent protocols, repeated timing, trends, and context."
+    },
+    {
+      "id": "a1-data-051",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Exceeds expected error or changes the practical decision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-052",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold",
+        "Exceeds expected error or changes the practical decision"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-053",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places"
+      ],
+      "revisedOptions": [
+        "Exceeds expected error or changes the practical decision",
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-054",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Exceeds expected error or changes the practical decision",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-055",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Exceeds expected error or changes the practical decision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-056",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold",
+        "Exceeds expected error or changes the practical decision"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-057",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places"
+      ],
+      "revisedOptions": [
+        "Exceeds expected error or changes the practical decision",
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-058",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Exceeds expected error or changes the practical decision",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-059",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision",
+        "Is numerically nonzero"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Exceeds expected error or changes the practical decision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-060",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is numerically nonzero",
+        "Improves the athlete's rank by one place",
+        "Is reported with extra decimal places",
+        "Exceeds expected error or has meaningful consequences for the decision"
+      ],
+      "revisedOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold",
+        "Exceeds expected error or changes the practical decision"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Reframed all options around meaningful change rather than decimal precision. World Physiotherapy evidence-based-practice principles support considering uncertainty and practical consequences, not numerical change alone."
+    },
+    {
+      "id": "a1-data-061",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result",
+        "A causal claim from a single correlation"
+      ],
+      "revisedOptions": [
+        "Decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-062",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Decision relevance, uncertainty, and practical next step",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-063",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the most favorable result",
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "Decision relevance, uncertainty, and practical next step",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-064",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Every raw variable without interpretation",
+        "Only the most favorable result",
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone",
+        "Decision relevance, uncertainty, and practical next step"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-065",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result",
+        "A causal claim from a single correlation"
+      ],
+      "revisedOptions": [
+        "Decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-066",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Decision relevance, uncertainty, and practical next step",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-067",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the most favorable result",
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "Decision relevance, uncertainty, and practical next step",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-068",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Every raw variable without interpretation",
+        "Only the most favorable result",
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone",
+        "Decision relevance, uncertainty, and practical next step"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-069",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result",
+        "A causal claim from a single correlation"
+      ],
+      "revisedOptions": [
+        "Decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-070",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A causal claim from a single correlation",
+        "The decision relevance, uncertainty, and practical next step",
+        "Every raw variable without interpretation",
+        "Only the most favorable result"
+      ],
+      "revisedOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Decision relevance, uncertainty, and practical next step",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the communication options while retaining the requirement to foreground decision relevance, uncertainty, and the next practical step. World Physiotherapy evidence-based-practice guidance supports this clinical reasoning."
+    },
+    {
+      "id": "a1-data-071",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "Data entry, device function, protocol, and athlete context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-072",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause",
+        "Data entry, device function, protocol, and athlete context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-073",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation"
+      ],
+      "revisedOptions": [
+        "Data entry, device function, protocol, and athlete context",
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-074",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Data entry, device function, protocol, and athlete context",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-075",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "Data entry, device function, protocol, and athlete context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-076",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause",
+        "Data entry, device function, protocol, and athlete context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-077",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation"
+      ],
+      "revisedOptions": [
+        "Data entry, device function, protocol, and athlete context",
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-078",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Data entry, device function, protocol, and athlete context",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-079",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context",
+        "A decision to increase training immediately"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "Data entry, device function, protocol, and athlete context",
+        "An immediate training increase without confirming cause"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-080",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A decision to increase training immediately",
+        "A conclusion that the athlete is injured",
+        "Deletion of the observation",
+        "Data entry, device function, protocol deviations, and athlete context"
+      ],
+      "revisedOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause",
+        "Data entry, device function, protocol, and athlete context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the anomaly-check answer and made distractors plausible premature responses. NSCA 5e testing/data-interpretation principles support checking data entry, equipment, protocol deviations, and athlete context before interpretation."
+    },
+    {
+      "id": "a1-data-081",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal"
+      ],
+      "revisedOptions": [
+        "Consider response alongside recovery, trends, and other outcomes",
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-082",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-083",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-084",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete",
+        "Consider response alongside recovery, trends, and other outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-085",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal"
+      ],
+      "revisedOptions": [
+        "Consider response alongside recovery, trends, and other outcomes",
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-086",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-087",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-088",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete",
+        "Consider response alongside recovery, trends, and other outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-089",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued",
+        "The result proves the program is optimal"
+      ],
+      "revisedOptions": [
+        "Consider response alongside recovery, trends, and other outcomes",
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-090",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The result proves the program is optimal",
+        "The response should be considered with recovery, trend, and other outcomes",
+        "Higher load is always beneficial",
+        "The athlete cannot become fatigued"
+      ],
+      "revisedOptions": [
+        "Higher load is always beneficial when performance improves",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the load-response options while retaining the cautious interpretation. IOC load-and-illness consensus supports interpreting performance alongside recovery, trends, and other outcomes rather than treating one result as proof."
+    },
+    {
+      "id": "a1-data-111",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Associations between exposures and later outcomes",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-112",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the reliability of one instrument",
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions",
+        "Associations between exposures and later outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-113",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument",
+        "A single laboratory calibration",
+        "The definition of a somatotype"
+      ],
+      "revisedOptions": [
+        "Associations between exposures and later outcomes",
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-114",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument",
+        "A single laboratory calibration"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Associations between exposures and later outcomes",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-115",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Associations between exposures and later outcomes",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-116",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the reliability of one instrument",
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions",
+        "Associations between exposures and later outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-117",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument",
+        "A single laboratory calibration",
+        "The definition of a somatotype"
+      ],
+      "revisedOptions": [
+        "Associations between exposures and later outcomes",
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-118",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument",
+        "A single laboratory calibration"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Associations between exposures and later outcomes",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-119",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes",
+        "Only the reliability of one instrument"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Associations between exposures and later outcomes",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-120",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the reliability of one instrument",
+        "A single laboratory calibration",
+        "The definition of a somatotype",
+        "Associations between exposures and later outcomes"
+      ],
+      "revisedOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions",
+        "Associations between exposures and later outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Kept the cohort-study concept concise and expanded distractors into distinct research questions. World Physiotherapy evidence-based-practice and research-appraisal principles distinguish longitudinal exposure–outcome associations from instrument studies."
+    },
+    {
+      "id": "a1-data-121",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references",
+        "Whether the conclusion sounds confident"
+      ],
+      "revisedOptions": [
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-122",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-123",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the number of references",
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-124",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the journal's visual design",
+        "Only the number of references",
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive",
+        "Methods, bias, precision, applicability, and claim-data fit"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-125",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references",
+        "Whether the conclusion sounds confident"
+      ],
+      "revisedOptions": [
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-126",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-127",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the number of references",
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-128",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only the journal's visual design",
+        "Only the number of references",
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive",
+        "Methods, bias, precision, applicability, and claim-data fit"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-129",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references",
+        "Whether the conclusion sounds confident"
+      ],
+      "revisedOptions": [
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-130",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Whether the conclusion sounds confident",
+        "Methods, bias, precision, applicability, and the match between claims and data",
+        "Only the journal's visual design",
+        "Only the number of references"
+      ],
+      "revisedOptions": [
+        "Only the journal's visual design and presentation style",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the appraisal answer while preserving methods, bias, precision, applicability, and claim–data fit. World Physiotherapy evidence-based-practice guidance supports appraisal of evidence quality and applicability."
+    },
+    {
+      "id": "a1-data-131",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-132",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-133",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured"
+      ],
+      "revisedOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-134",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-135",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-136",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-137",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured"
+      ],
+      "revisedOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-138",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-139",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association",
+        "Is unrelated to exposure and outcome but adds random measurement noise"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-140",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Is unrelated to exposure and outcome but adds random measurement noise",
+        "Is a measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before the exposure is measured",
+        "Relates to both the exposure and outcome and can distort their apparent association"
+      ],
+      "revisedOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise",
+        "Is measurement error caused only by an unreliable instrument"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Shortened the confounder definition while retaining its essential exposure–outcome relationship. World Physiotherapy evidence-based-practice research-appraisal principles support distinguishing confounding from measurement error and random noise."
+    },
+    {
+      "id": "a1-data-141",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data",
+        "Exclusion of participant questions"
+      ],
+      "revisedOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-142",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-143",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Public release of all health data",
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-144",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only faster data collection",
+        "Public release of all health data",
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions",
+        "Consent, privacy, risk minimization, and fair treatment"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-145",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data",
+        "Exclusion of participant questions"
+      ],
+      "revisedOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-146",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-147",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Public release of all health data",
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-148",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Only faster data collection",
+        "Public release of all health data",
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions",
+        "Consent, privacy, risk minimization, and fair treatment"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-149",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data",
+        "Exclusion of participant questions"
+      ],
+      "revisedOptions": [
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    },
+    {
+      "id": "a1-data-150",
+      "reason": "Primary option-length flag: the correct option exceeded the distractor median by more than 8 characters and/or the option spread exceeded 15 characters.",
+      "originalOptions": [
+        "Exclusion of participant questions",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Only faster data collection",
+        "Public release of all health data"
+      ],
+      "revisedOptions": [
+        "Faster data collection without addressing participant risk",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "action": "Rewrote the complete option set with concise, source-supported, grammatically parallel distractors; retained the zero-based answer index.",
+      "reviewerNote": "Balanced the ethics options with meaningful participant-safety and privacy wording. World Physiotherapy evidence-based-practice guidance supports safe, respectful use of evidence and protection of participants."
+    }
+  ],
+  "exceptions": []
+}

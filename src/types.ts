@@ -1,5 +1,5 @@
 export type Section = "A1" | "A2" | "B" | "C";
-export type AttemptMode = "full" | Section;
+export type AttemptMode = "full" | "A1_FULL" | Section;
 export type Difficulty = "foundational" | "applied" | "analytical";
 export type ResponseStatus = "unanswered" | "answered" | "skipped";
 

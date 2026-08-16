@@ -1,0 +1,193 @@
+{
+  "auditType": "Final5 targeted content, diversity, option-structure, and provenance audit",
+  "generatedAt": "2026-08-16",
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "changedCount": 10,
+  "readOnly": false,
+  "answerKeyFixCount": 0,
+  "semanticDistractorRevisionCount": 0,
+  "optionRevisionCount": 1,
+  "sourceIdRevisionCount": 9,
+  "questionTextRevisionCount": 0,
+  "checks": {
+    "schema": {
+      "passed": true,
+      "questionCount": 150,
+      "exactQuestionKeys": true,
+      "fourOptionsEach": true,
+      "duplicateOptions": 0,
+      "validZeroBasedCorrectIndices": true,
+      "uniqueQuestionIds": true,
+      "nonEmptyRequiredFields": true,
+      "allSourceIdsResolve": true
+    },
+    "syllabusMapping": {
+      "passed": true,
+      "topic": "Emerging Technologies & Biostatistics",
+      "subtopicCounts": {
+        "New & Emerging Technologies in Sports Science": 80,
+        "Biostatistics & Data Analysis": 70
+      },
+      "unexpectedSubtopics": []
+    },
+    "answerKeys": {
+      "passed": true,
+      "highConfidenceErrors": 0,
+      "numericAndFormulaChecks": [
+        "GPS speed conversion",
+        "session-RPE load",
+        "descriptive statistics",
+        "standard errors and confidence intervals",
+        "t-tests and ANOVA",
+        "correlation and regression",
+        "effect-size definitions"
+      ]
+    },
+    "semanticDistractors": {
+      "passed": true,
+      "highConfidenceDefects": 0,
+      "independentlyCorrectDistractors": 0
+    },
+    "duplicates": {
+      "passed": true,
+      "exactNormalizedStemFamilies": 0,
+      "exactNormalizedQuestionFamilies": 0,
+      "highConfidenceNearDuplicateFamilies": 0,
+      "reviewNote": "No mechanically repeated stem-and-option family was found within this 150-question file."
+    },
+    "optionLengthAndStructure": {
+      "passed": true,
+      "primaryLengthFlagDefinition": "Correct option more than 8 characters above distractor median or total option spread above 15 characters",
+      "primaryLengthFlagCount": 0,
+      "spreadAbove15Count": 0,
+      "strictlyLongestCorrectCount": 46,
+      "strictlyLongestCorrectRate": 0.3067,
+      "tiedOrLongestCorrectCount": 57,
+      "strictlyShortestCorrectCount": 36,
+      "answerPositionCounts": [
+        39,
+        38,
+        37,
+        36
+      ],
+      "grammarGiveawaysAfterRepair": 0
+    },
+    "sourceAttribution": {
+      "passed": true,
+      "usedSourceIds": [
+        "wearable-athlete-sensors-seshadri-2019",
+        "gps-validity-scott-2016",
+        "ioc-load-illness-2016",
+        "neumann-kinesiology",
+        "scikit-learn-supervised-learning",
+        "nist-ai-rmf-2023",
+        "unesco-ai-ethics-2021",
+        "nist-sematech-statistics",
+        "nakagawa-cuthill-effect-size-2007"
+      ],
+      "usedSourcesWithMissingLocator": [],
+      "highConfidenceScopeDefectsRemaining": 0,
+      "reviewNote": "Nine GPS-detail items were remapped to the inspected GPS validity/reliability review. The separate GPS distance/internal-load item remains linked to the IOC load consensus because its keyed distinction is directly about external versus internal load."
+    }
+  },
+  "changes": [
+    {
+      "questionId": "a1-tech-035",
+      "defectType": "grammar-and-option-structure",
+      "originalOptions": [
+        "The athlete's anatomical centre of mass",
+        "The highest point reached during a jump",
+        "Where the resultant ground-reaction force acts",
+        "The position of the nearest video camera"
+      ],
+      "revisedOptions": [
+        "The athlete's anatomical centre of mass",
+        "The highest point reached during a jump",
+        "The ground-reaction force's application point",
+        "The position of the nearest video camera"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "reviewerNote": "The keyed option uniquely began with 'Where' after a definition stem whose distractors were noun phrases. The revised option is a semantically equivalent noun phrase with comparable length and structure."
+    },
+    {
+      "questionId": "a1-tech-011",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review directly describes position estimation from orbiting-satellite signals. The IOC load consensus is relevant to monitoring but is not the primary source for this GPS mechanism."
+    },
+    {
+      "questionId": "a1-tech-012",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review directly addresses sampling-rate limitations during high-intensity and short linear running."
+    },
+    {
+      "questionId": "a1-tech-013",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review distinguishes distance from speed, velocity, and acceleration measures."
+    },
+    {
+      "questionId": "a1-tech-014",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The item concerns GPS signal and measurement limitations, which are within the GPS validity/reliability review's scope."
+    },
+    {
+      "questionId": "a1-tech-015",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The item tests conversion of a GPS-reported speed and is better anchored to the GPS review's speed-measurement scope."
+    },
+    {
+      "questionId": "a1-tech-016",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review directly addresses reliability and repeatability through repeated device/trial measurements."
+    },
+    {
+      "questionId": "a1-tech-017",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The item concerns velocity-zone reporting from GPS movement data, covered by the GPS review."
+    },
+    {
+      "questionId": "a1-tech-019",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review explicitly compares sampling rates and cautions that device outputs require validity and reliability evaluation."
+    },
+    {
+      "questionId": "a1-tech-020",
+      "defectType": "source-scope-mismatch",
+      "originalSourceId": "ioc-load-illness-2016",
+      "revisedSourceId": "gps-validity-scott-2016",
+      "reviewerNote": "The GPS review's validity/reliability scope supports checking signal quality and device data before interpreting an implausible speed."
+    }
+  ],
+  "sourcesInspected": [
+    "src/data/sourceCatalog.ts",
+    "src/data/sourceCatalog.ts — neumann-kinesiology locator for force-plate and centre-of-pressure concepts",
+    "https://pubmed.ncbi.nlm.nih.gov/26439776/ — GPS position, speed, distance, acceleration, sampling-rate validity and reliability",
+    "https://bjsm.bmj.com/content/50/17/1043 — IOC definitions of external and internal load and athlete monitoring"
+  ],
+  "nonBlockingObservations": [
+    {
+      "severity": "medium",
+      "questionRange": "a1-tech-061..a1-tech-070",
+      "observation": "The IOC load-consensus source is broad for some athlete-management implementation details such as permissions, interoperability, dashboard design, and audit trails. No existing catalog entry was a more direct inspected source for the complete AMS block, so no additional source remapping was made in this scoped review."
+    }
+  ],
+  "auditConclusion": "One grammar/option-structure defect and nine high-confidence GPS provenance mismatches were repaired. No high-confidence answer-key, semantic-distractor, duplicate, syllabus, schema, or residual primary option-length defect remains in the technology/biostatistics file."
+}

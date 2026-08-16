@@ -1,0 +1,799 @@
+{
+  "auditType": "Central answer-position balancing after independent audit",
+  "auditDate": "2026-08-16",
+  "reviewedCount": 150,
+  "changedCount": 33,
+  "scope": {
+    "file": "question_bank/section_a1_data_analytics.json",
+    "reviewedQuestionCount": 150
+  },
+  "before": {
+    "Interpretation & Application of Data": [
+      31,
+      35,
+      27,
+      7
+    ],
+    "Principles of Research & Evidence-Based Practice": [
+      7,
+      6,
+      9,
+      28
+    ]
+  },
+  "after": {
+    "Interpretation & Application of Data": [
+      25,
+      25,
+      25,
+      25
+    ],
+    "Principles of Research & Evidence-Based Practice": [
+      12,
+      13,
+      12,
+      13
+    ]
+  },
+  "changes": [
+    {
+      "id": "a1-data-001",
+      "originalOptions": [
+        "Strengths, weaknesses, limits, and priorities",
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "revisedOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities",
+        "Strengths, weaknesses, limits, and priorities"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-004",
+      "originalOptions": [
+        "Review recovery capacity and training distribution",
+        "Treat body mass as the sole intervention target",
+        "Treat one stable time as proof of an optimal programme",
+        "Stop all testing until the competition season ends"
+      ],
+      "revisedOptions": [
+        "Treat body mass as the sole intervention target",
+        "Treat one stable time as proof of an optimal programme",
+        "Stop all testing until the competition season ends",
+        "Review recovery capacity and training distribution"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-006",
+      "originalOptions": [
+        "Link pace, stroke efficiency, and shoulder endurance to next steps",
+        "Interpret the 200-m time without technique or fatigue information",
+        "Compare peers without recording the swimmer's testing conditions",
+        "List results without identifying an intervention priority for the swimmer"
+      ],
+      "revisedOptions": [
+        "Interpret the 200-m time without technique or fatigue information",
+        "Compare peers without recording the swimmer's testing conditions",
+        "List results without identifying an intervention priority for the swimmer",
+        "Link pace, stroke efficiency, and shoulder endurance to next steps"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-007",
+      "originalOptions": [
+        "Link landing control and late-set jump loss to targeted training",
+        "Use jump height without reviewing landing or fatigue patterns",
+        "Rank the player without considering repeated-jump performance",
+        "List the results without a follow-up decision or training priority"
+      ],
+      "revisedOptions": [
+        "Use jump height without reviewing landing or fatigue patterns",
+        "Rank the player without considering repeated-jump performance",
+        "List the results without a follow-up decision or training priority",
+        "Link landing control and late-set jump loss to targeted training"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-008",
+      "originalOptions": [
+        "Verify comparable setup before interpreting the faster sprint",
+        "Accept the faster time despite changed start and equipment",
+        "Apply a peer norm without considering assistive equipment",
+        "Report the result without documenting whether trials match"
+      ],
+      "revisedOptions": [
+        "Accept the faster time despite changed start and equipment",
+        "Apply a peer norm without considering assistive equipment",
+        "Report the result without documenting whether trials match",
+        "Verify comparable setup before interpreting the faster sprint"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-009",
+      "originalOptions": [
+        "Separate improved threshold pace from reduced peak-power capacity",
+        "Use the endurance score as the whole performance profile",
+        "Rank the rower without checking whether pace and power differ",
+        "Report both changes without assigning follow-up priorities"
+      ],
+      "revisedOptions": [
+        "Use the endurance score as the whole performance profile",
+        "Rank the rower without checking whether pace and power differ",
+        "Report both changes without assigning follow-up priorities",
+        "Separate improved threshold pace from reduced peak-power capacity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-003",
+      "originalOptions": [
+        "Diagnose cardiac disease from this field result",
+        "Target high-intensity endurance; confirm with retesting",
+        "Assume energy systems are adequate from jump data",
+        "Dismiss the result because field tests inform no training"
+      ],
+      "revisedOptions": [
+        "Diagnose cardiac disease from this field result",
+        "Assume energy systems are adequate from jump data",
+        "Dismiss the result because field tests inform no training",
+        "Target high-intensity endurance; confirm with retesting"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-005",
+      "originalOptions": [
+        "Prioritize extra speed work because the 30-m time is squad-median",
+        "Interpret the 30-m rank alongside fatigue, asymmetry, and rugby demands",
+        "Treat the athlete's best sprint score as the complete profile and plan",
+        "List results without priorities or follow-up measures for training"
+      ],
+      "revisedOptions": [
+        "Prioritize extra speed work because the 30-m time is squad-median",
+        "Treat the athlete's best sprint score as the complete profile and plan",
+        "List results without priorities or follow-up measures for training",
+        "Interpret the 30-m rank alongside fatigue, asymmetry, and rugby demands"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-013",
+      "originalOptions": [
+        "Assume a permanent loss of acceleration capacity",
+        "Consider residual fatigue before changing technique",
+        "Treat body height as the main determinant of sprint time",
+        "Discard the rested result as less relevant"
+      ],
+      "revisedOptions": [
+        "Assume a permanent loss of acceleration capacity",
+        "Treat body height as the main determinant of sprint time",
+        "Discard the rested result as less relevant",
+        "Consider residual fatigue before changing technique"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-022",
+      "originalOptions": [
+        "Label the athlete below standard and add jumps",
+        "Check comparability; repeat under standard conditions",
+        "Discard the reference because norms are unhelpful",
+        "Diagnose fatigue from one post-practice comparison"
+      ],
+      "revisedOptions": [
+        "Label the athlete below standard and add jumps",
+        "Discard the reference because norms are unhelpful",
+        "Diagnose fatigue from one post-practice comparison",
+        "Check comparability; repeat under standard conditions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-032",
+      "originalOptions": [
+        "Ignore the asymmetry because the athlete reports no pain",
+        "Add targeted strength work and schedule a standardized retest",
+        "Remove all lower-limb loading until symmetry is perfect",
+        "Use the opposite limb as the only training target"
+      ],
+      "revisedOptions": [
+        "Ignore the asymmetry because the athlete reports no pain",
+        "Remove all lower-limb loading until symmetry is perfect",
+        "Use the opposite limb as the only training target",
+        "Add targeted strength work and schedule a standardized retest"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-040",
+      "originalOptions": [
+        "Add exercises without linking them to timed-hang demand or reassessment",
+        "Target finger-flexor endurance and repeat a route-specific hang test",
+        "Diagnose a climbing disorder from one below-demand result without review",
+        "Change route selection without addressing the measured endurance deficit"
+      ],
+      "revisedOptions": [
+        "Add exercises without linking them to timed-hang demand or reassessment",
+        "Diagnose a climbing disorder from one below-demand result without review",
+        "Change route selection without addressing the measured endurance deficit",
+        "Target finger-flexor endurance and repeat a route-specific hang test"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-042",
+      "originalOptions": [
+        "Select the best weekly value to represent potential",
+        "Standardize device, timing, warm-up, and recording",
+        "Convert scores to team ranks and discard raw values",
+        "Average scores without recording testing conditions"
+      ],
+      "revisedOptions": [
+        "Select the best weekly value to represent potential",
+        "Convert scores to team ranks and discard raw values",
+        "Average scores without recording testing conditions",
+        "Standardize device, timing, warm-up, and recording"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-045",
+      "originalOptions": [
+        "Allow different devices, warm-ups, and timing across readiness sessions",
+        "Keep the device, warm-up, timing, and instructions consistent",
+        "Choose only each athlete's highest score without a common protocol",
+        "Replace recorded measures with informal staff impressions"
+      ],
+      "revisedOptions": [
+        "Allow different devices, warm-ups, and timing across readiness sessions",
+        "Choose only each athlete's highest score without a common protocol",
+        "Replace recorded measures with informal staff impressions",
+        "Keep the device, warm-up, timing, and instructions consistent"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-046",
+      "originalOptions": [
+        "Ignore growth because distance is the only relevant result for this athlete",
+        "Record growth, surface, timing, and the same protocol at each assessment",
+        "Select the longest jump without considering maturation or conditions",
+        "Replace measurements with a coach's impression of development"
+      ],
+      "revisedOptions": [
+        "Ignore growth because distance is the only relevant result for this athlete",
+        "Select the longest jump without considering maturation or conditions",
+        "Replace measurements with a coach's impression of development",
+        "Record growth, surface, timing, and the same protocol at each assessment"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-047",
+      "originalOptions": [
+        "Test whenever convenient without recording match timing or context",
+        "Keep test timing, warm-up, device, and match-day context consistent",
+        "Use each athlete's best result as the readiness baseline without standardization",
+        "Rely on staff impressions when the fixture schedule becomes busy for decisions"
+      ],
+      "revisedOptions": [
+        "Test whenever convenient without recording match timing or context",
+        "Use each athlete's best result as the readiness baseline without standardization",
+        "Rely on staff impressions when the fixture schedule becomes busy for decisions",
+        "Keep test timing, warm-up, device, and match-day context consistent"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-011",
+      "originalOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Body height as the primary limiting variable"
+      ],
+      "revisedOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-012",
+      "originalOptions": [
+        "Use body height as the main performance explanation",
+        "Reject the split data because maximal force was stable",
+        "Investigate speed endurance and fatigue tolerance",
+        "Diagnose iron deficiency from split times alone"
+      ],
+      "revisedOptions": [
+        "Use body height as the main performance explanation",
+        "Reject the split data because maximal force was stable",
+        "Diagnose iron deficiency from split times alone",
+        "Investigate speed endurance and fatigue tolerance"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "sourceId": "physiology-sport-exercise-kenney",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-102",
+      "originalOptions": [
+        "Ask whether participants trained at the same venue",
+        "Ask whether the paper uses a sports-specific font",
+        "Ask whether the trial measured several outcomes",
+        "Check whether differential withdrawals biased analysis"
+      ],
+      "revisedOptions": [
+        "Check whether differential withdrawals biased analysis",
+        "Ask whether participants trained at the same venue",
+        "Ask whether the paper uses a sports-specific font",
+        "Ask whether the trial measured several outcomes"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-113",
+      "originalOptions": [
+        "Baseline disease prevalence only",
+        "A causal effect after random allocation",
+        "Device reliability without repeated trials",
+        "The travel–injury association over follow-up"
+      ],
+      "revisedOptions": [
+        "The travel–injury association over follow-up",
+        "Baseline disease prevalence only",
+        "A causal effect after random allocation",
+        "Device reliability without repeated trials"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-117",
+      "originalOptions": [
+        "Check repeatability of the travel log across the season",
+        "Estimate a randomized travel effect after assigning travel exposure",
+        "Estimate starting prevalence of muscle complaints before follow-up",
+        "Examine the association between recorded travel and later complaints"
+      ],
+      "revisedOptions": [
+        "Examine the association between recorded travel and later complaints",
+        "Check repeatability of the travel log across the season",
+        "Estimate a randomized travel effect after assigning travel exposure",
+        "Estimate starting prevalence of muscle complaints before follow-up"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-118",
+      "originalOptions": [
+        "Check repeatability of home-exercise reports across follow-up",
+        "Estimate a randomized effect of assigned adherence on recovery",
+        "Estimate prevalence without comparing follow-up outcomes between groups",
+        "Examine the association between adherence and return-to-running time"
+      ],
+      "revisedOptions": [
+        "Examine the association between adherence and return-to-running time",
+        "Check repeatability of home-exercise reports across follow-up",
+        "Estimate a randomized effect of assigned adherence on recovery",
+        "Estimate prevalence without comparing follow-up outcomes between groups"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-119",
+      "originalOptions": [
+        "Check repeatability of the recovery-room record across four weeks",
+        "Estimate a randomized effect of assigned recovery-room use on illness",
+        "Claim the recovery room prevents illness in every athlete",
+        "Examine the association between recovery-room use and later illness"
+      ],
+      "revisedOptions": [
+        "Examine the association between recovery-room use and later illness",
+        "Check repeatability of the recovery-room record across four weeks",
+        "Estimate a randomized effect of assigned recovery-room use on illness",
+        "Claim the recovery room prevents illness in every athlete"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-120",
+      "originalOptions": [
+        "Check repeatability of the energy-availability indicator",
+        "Estimate a randomized effect of assigned energy availability on injury",
+        "Claim bone-stress injury has no confounding explanation",
+        "Examine the association of baseline indicators with later injury"
+      ],
+      "revisedOptions": [
+        "Check repeatability of the energy-availability indicator",
+        "Examine the association of baseline indicators with later injury",
+        "Estimate a randomized effect of assigned energy availability on injury",
+        "Claim bone-stress injury has no confounding explanation"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-122",
+      "originalOptions": [
+        "Generalizable without examining the sample",
+        "Acceptable on the basis of p<0.05 alone",
+        "Reliable because of journal impact factor alone",
+        "Precise and relevant to the decision"
+      ],
+      "revisedOptions": [
+        "Generalizable without examining the sample",
+        "Precise and relevant to the decision",
+        "Acceptable on the basis of p<0.05 alone",
+        "Reliable because of journal impact factor alone"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "nakagawa-cuthill-effect-size-2007",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-125",
+      "originalOptions": [
+        "Judge journal style without examining study methods, bias, or applicability",
+        "Accept a large effect without checking missing outcomes or attrition",
+        "Treat statistical direction as benefit without context or uncertainty",
+        "Appraise attrition bias, precision, and rehabilitation applicability"
+      ],
+      "revisedOptions": [
+        "Judge journal style without examining study methods, bias, or applicability",
+        "Appraise attrition bias, precision, and rehabilitation applicability",
+        "Accept a large effect without checking missing outcomes or attrition",
+        "Treat statistical direction as benefit without context or uncertainty"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-126",
+      "originalOptions": [
+        "Treat the wearable brand as proof of measurement validity",
+        "Generalize one club's sample to every athlete and setting",
+        "Accept the association without checking score validation or uncertainty",
+        "Appraise validation, sampling bias, precision, and applicability"
+      ],
+      "revisedOptions": [
+        "Treat the wearable brand as proof of measurement validity",
+        "Appraise validation, sampling bias, precision, and applicability",
+        "Generalize one club's sample to every athlete and setting",
+        "Accept the association without checking score validation or uncertainty"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-127",
+      "originalOptions": [
+        "Accept the association without prior-injury and exposure-timing data",
+        "Infer causation from the reported p value alone without context",
+        "Assume a strong load effect despite unmeasured confounding",
+        "Appraise confounding, timing, measurement quality, and applicability"
+      ],
+      "revisedOptions": [
+        "Accept the association without prior-injury and exposure-timing data",
+        "Appraise confounding, timing, measurement quality, and applicability",
+        "Infer causation from the reported p value alone without context",
+        "Assume a strong load effect despite unmeasured confounding"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-128",
+      "originalOptions": [
+        "Accept pooled results despite different recovery protocols",
+        "Judge the review by citation count instead of methods",
+        "Ignore heterogeneity because the overall effect is significant",
+        "Appraise compatibility, heterogeneity, bias, and relevance"
+      ],
+      "revisedOptions": [
+        "Accept pooled results despite different recovery protocols",
+        "Appraise compatibility, heterogeneity, bias, and relevance",
+        "Judge the review by citation count instead of methods",
+        "Ignore heterogeneity because the overall effect is significant"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-129",
+      "originalOptions": [
+        "Accept the warm-up claim because it sounds plausible",
+        "Ignore comparator and adherence during interpretation",
+        "Ignore confidence intervals because results are positive",
+        "Appraise comparator, adherence, uncertainty, and study design"
+      ],
+      "revisedOptions": [
+        "Accept the warm-up claim because it sounds plausible",
+        "Appraise comparator, adherence, uncertainty, and study design",
+        "Ignore comparator and adherence during interpretation",
+        "Ignore confidence intervals because results are positive"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-130",
+      "originalOptions": [
+        "Accept the relationship despite missing data and one-team sampling",
+        "Generalize one elite squad to every athlete without qualification",
+        "Treat the association as causal without checking missingness",
+        "Appraise missing data, selection bias, precision, and transferability"
+      ],
+      "revisedOptions": [
+        "Accept the relationship despite missing data and one-team sampling",
+        "Generalize one elite squad to every athlete without qualification",
+        "Appraise missing data, selection bias, precision, and transferability",
+        "Treat the association as causal without checking missingness"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-132",
+      "originalOptions": [
+        "Random error unrelated to exposure or outcome",
+        "A pressure unit used for the boots",
+        "An outcome that follows every injury",
+        "A confounder of boot use and injury"
+      ],
+      "revisedOptions": [
+        "Random error unrelated to exposure or outcome",
+        "A pressure unit used for the boots",
+        "A confounder of boot use and injury",
+        "An outcome that follows every injury"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "sourceId": "cdc-confounding-epi-manual",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual",
+        "research/release5_audit_data_performance.json"
+      ]
+    },
+    {
+      "id": "a1-data-133",
+      "originalOptions": [
+        "Leave outcome definition unclear before analysis",
+        "Lead to the claim that outdoor training causes cramps",
+        "Make the observational cohort appear randomized",
+        "Confound the outdoor-training–cramp association"
+      ],
+      "revisedOptions": [
+        "Leave outcome definition unclear before analysis",
+        "Lead to the claim that outdoor training causes cramps",
+        "Confound the outdoor-training–cramp association",
+        "Make the observational cohort appear randomized"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "sourceId": "cdc-confounding-epi-manual",
+      "reviewerNote": "Reordered unchanged options after an independent audit identified subtopic-level answer-position clustering; option wording, meaning, source, and keyed answer were preserved.",
+      "sourcesInspected": [
+        "cdc-confounding-epi-manual",
+        "research/release5_audit_data_performance.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "auditType": "release7_final_read_only_release_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json",
+    "question_bank/section_a1.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [],
+  "summary": {
+    "status": "pass",
+    "questionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150,
+      "mergedA1CorrespondenceRecords": 300
+    },
+    "mergedCorrespondence": {
+      "checkedQuestionCount": 300,
+      "matchedQuestionCount": 300,
+      "mismatchCount": 0
+    },
+    "answerPositionChecks": {
+      "dataAnalytics": {
+        "overallCounts": [
+          37,
+          38,
+          37,
+          38
+        ],
+        "subtopicCounts": {
+          "Interpretation & Application of Data": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "Principles of Research & Evidence-Based Practice": [
+            12,
+            13,
+            12,
+            13
+          ]
+        },
+        "maximumSameIndexRun": 3,
+        "lag4RepeatRate": 0.22602739726027396,
+        "obviousPeriodDetected": false
+      },
+      "performanceRecovery": {
+        "overallCounts": [
+          38,
+          38,
+          37,
+          37
+        ],
+        "subtopicCounts": {
+          "Performance Enhancement Strategies": [
+            13,
+            13,
+            12,
+            12
+          ],
+          "Recovery Protocols & Regeneration": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "Injury Prevention & Risk Management": [
+            13,
+            13,
+            12,
+            12
+          ]
+        },
+        "maximumSameIndexRun": 3,
+        "lag4RepeatRate": 0.23972602739726026,
+        "obviousPeriodDetected": false,
+        "exactModulo4Cycle": false
+      },
+      "combinedCounts": [
+        75,
+        76,
+        74,
+        75
+      ]
+    },
+    "schema": {
+      "manuallyInspectedQuestionCount": 300,
+      "exactRequiredSchema": 300,
+      "fourOptions": 300,
+      "uniqueOptionStrings": 300,
+      "validCorrectIndices": 300,
+      "sectionA1": 300,
+      "nonEmptyTextAndExplanation": 300,
+      "sequentialIds": 300,
+      "schemaDefects": 0
+    },
+    "contentQuality": {
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceStemOrKeyAlignmentDefects": 0,
+      "highConfidenceAmbiguityDefects": 0,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "highConfidenceGrammarDefects": 0,
+      "highConfidenceNonResponsiveExplanationDefects": 0
+    },
+    "sourceTraceability": {
+      "sourceCatalogChecked": "src/data/sourceCatalog.ts",
+      "uniqueSourceIdsUsed": 16,
+      "sourceIdsResolvingInCatalog": 300,
+      "unknownSourceIds": 0,
+      "highConfidenceSourceSupportDefects": 0
+    },
+    "duplicates": {
+      "duplicateIds": 0,
+      "exactNormalizedStemDuplicates": 0,
+      "exactCanonicalQuestionDuplicates": 0,
+      "highConfidenceNearDuplicatePairs": 0
+    },
+    "optionLengthChecks": {
+      "maximumOptionSpread": 15,
+      "maximumCorrectMinusMedianDistractor": 7.5,
+      "strictLongestCorrect": 88,
+      "strictShortestCorrect": 32,
+      "actionableFlags": 0
+    },
+    "coverage": {
+      "dataAnalytics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      },
+      "performanceRecovery": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      }
+    },
+    "cleanChecks": [
+      "All 300 current group questions were inspected.",
+      "The data subtopic balance is preserved and no long or obvious answer-position pattern remains.",
+      "The performance answer positions are nonperiodic and no exact modulo-four cycle remains.",
+      "All current group records correspond exactly with the relevant merged A1 records.",
+      "No actionable high-confidence defect was found in keys, distractors, explanations, sources, duplicates, coverage, schema, grammar, or option length."
+    ]
+  }
+}

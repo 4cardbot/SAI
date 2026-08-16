@@ -1,0 +1,35 @@
+{
+  "section": "Part A1 - Performance, Recovery and Injury Prevention",
+  "groupFile": "question_bank/section_a1_performance_recovery.json",
+  "auditType": "primary-option-length-review",
+  "reviewer": "central-validation",
+  "reviewedQuestionCount": 150,
+  "changedCount": 0,
+  "primaryFlagsBefore": 0,
+  "primaryFlagsAfter": 0,
+  "flagDefinition": {
+    "correctAboveDistractorMedianByMoreThan": 8,
+    "totalOptionSpreadAbove": 15
+  },
+  "metrics": {
+    "maximumCorrectAboveDistractorMedian": 8,
+    "maximumTotalOptionSpread": 15,
+    "strictlyLongestCorrectCount": 60,
+    "strictlyLongestCorrectPercent": 40,
+    "correctAnswerPositions": [38, 38, 37, 37]
+  },
+  "changes": [],
+  "validation": {
+    "exactQuestionCount": true,
+    "fourOptionsPerQuestion": true,
+    "validZeroBasedCorrectIndices": true,
+    "primaryLengthFlagsRemaining": 0,
+    "stemsPreserved": true,
+    "answerKeysPreserved": true,
+    "explanationsPreserved": true,
+    "sourceIdsPreserved": true,
+    "subtopicsPreserved": true,
+    "difficultyPreserved": true
+  },
+  "reviewNotes": "Every current item was inspected. No option set required revision under the requested primary thresholds. The maximum correct-option gap is exactly 8 characters, so it does not exceed the strict greater-than-8 threshold; the maximum total spread is exactly 15 characters, so it does not exceed the strict greater-than-15 threshold."
+}

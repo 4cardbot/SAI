@@ -1,0 +1,196 @@
+{
+  "auditType": "release4_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "method": {
+    "coverage": "Every current question object was reviewed for answer-key fit, explanation responsiveness, ambiguity, grammar and parallel option structure, source traceability, schema integrity, option duplication, exact duplication, and near-duplication.",
+    "mechanicalChecks": [
+      "Parsed both JSON files and checked all required fields and field types.",
+      "Checked four-option cardinality, unique option strings, valid zero-based correct indices, sequential IDs, exact normalized stem duplicates, and canonical option-set duplicates.",
+      "Checked option-pair semantic overlap and primary option-length flags using correct-minus-median-distractor > 8 characters or total spread > 15 characters."
+    ],
+    "sourceChecks": [
+      "Resolved every current sourceId against src/data/sourceCatalog.ts and checked the used catalog entry's title, scope, URL or local path, and locator.",
+      "Cross-checked evidence-appraisal and confounding claims against World Physiotherapy's evidence-based-practice policy and the CDC Field Epidemiology Manual.",
+      "Cross-checked athlete-data governance wording against the Australian Institute of Sport/Australian Sports Commission Data Governance guidance."
+    ],
+    "primarySourcesConsulted": [
+      "https://world.physio/policy/ps-ebp",
+      "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+      "https://www.ausport.gov.au/ais/performance-support/topicinitiative/data-governance"
+    ]
+  },
+  "highConfidenceFindings": [
+    {
+      "findingId": "dp4-grammar-001",
+      "category": "grammarAndParallelOption",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-053"
+      ],
+      "finding": "The stem ends 'This change is practically important because it:', but every option is an imperative phrase. The keyed completion would read 'because it: Confirm it exceeds error and changes the decision', which is ungrammatical and does not complete the stem.",
+      "evidence": {
+        "stem": "An athlete's jump height increases 5 cm, exceeding the test's typical error of 2 cm and crossing the programme's return-to-training threshold. This change is practically important because it:",
+        "keyedIndex": 2,
+        "keyedOption": "Confirm it exceeds error and changes the decision",
+        "otherOptions": [
+          "Call any nonzero change practically important",
+          "Use peer rank even when the protocol changed",
+          "Treat extra decimal places as evidence of improvement"
+        ],
+        "semanticKeyStatus": "The intended concept is sound: practical importance is supported by exceeding error and changing a predefined decision."
+      },
+      "recommendedAction": "Either change the stem to ask for the most defensible interpretation, or rewrite all four options as grammatical completions, such as 'Exceeds expected error and changes the practical decision'. Preserve the intended key concept."
+    },
+    {
+      "findingId": "dp4-explanation-001",
+      "category": "nonResponsiveExplanation",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-055",
+        "a1-data-056",
+        "a1-data-057",
+        "a1-data-058",
+        "a1-data-059",
+        "a1-data-060"
+      ],
+      "finding": "These six items test whether a small change is credible or practically important relative to timing, familiarization, day-to-day, trial, analytical, or biological variation and/or a predefined decision threshold. All six use the same generic explanation about linking a finding to an intervention and follow-up; it never names the relevant error/variation or decision-threshold rationale.",
+      "sharedExplanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+      "recommendedAction": "Replace each explanation with an item-specific rationale identifying the stated error or variation and explaining why exceeding it or changing the decision supports the keyed interpretation."
+    },
+    {
+      "findingId": "dp4-explanation-002",
+      "category": "nonResponsiveExplanation",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-075",
+        "a1-data-076",
+        "a1-data-077",
+        "a1-data-078",
+        "a1-data-079",
+        "a1-data-080"
+      ],
+      "finding": "These items ask what to verify first when a GPS, force-plate, optical heart-rate, lactate, wellness, or timing-gate value is implausible or conflicts with another record. The shared explanation discusses broad performance interpretation but does not explain measurement artifact, data completeness, calibration, timing, sensor contact, protocol, or raw-record verification.",
+      "sharedExplanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+      "recommendedAction": "Replace each explanation with an item-specific data-quality rationale naming the relevant artifact or integrity check and explaining why the keyed verification step precedes performance interpretation."
+    },
+    {
+      "findingId": "dp4-explanation-003",
+      "category": "nonResponsiveExplanation",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": [
+        "a1-data-095",
+        "a1-data-098",
+        "a1-data-100"
+      ],
+      "finding": "The keyed choices address dashboard design and data-collection comparability: an unlabelled composite, metrics with no decision link, and a trendline that ignores pre- versus post-training timing. The shared explanation is a generic statement about integrating valid measures and follow-up; it does not justify labeling/separation, decision linkage, or collection-timing comparability.",
+      "sharedExplanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+      "recommendedAction": "Use item-specific explanations: identify why the composite obscures distinct constructs, why metrics need a defined decision purpose, and why mixed collection timing invalidates an unqualified trend."
+    }
+  ],
+  "summary": {
+    "status": "confirmed_actionable_findings",
+    "highConfidenceFindingCount": 4,
+    "affectedQuestionCount": 16,
+    "questionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "schema": {
+      "exactRequiredSchema": 300,
+      "fourOptions": 300,
+      "uniqueOptionStrings": 300,
+      "validCorrectIndices": 300,
+      "sectionA1": 300,
+      "nonEmptyTextAndExplanation": 300,
+      "sequentialIds": 300,
+      "schemaDefects": 0
+    },
+    "answerKeysAndOptions": {
+      "manuallyReviewedQuestionCount": 300,
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceStemKeyAlignmentErrors": 0,
+      "highConfidenceAmbiguityDefects": 0,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "confirmedGrammarOrParallelOptionDefects": 1,
+      "optionLengthFlags": 0,
+      "maximumCorrectMinusMedianDistractor": {
+        "dataAnalytics": 7.5,
+        "performanceRecovery": 7
+      },
+      "maximumOptionSpread": 15
+    },
+    "explanations": {
+      "highConfidenceNonResponsiveExplanationQuestionCount": 15,
+      "exactDuplicateExplanationGroups": 5,
+      "questionsInExactDuplicateExplanationGroups": 69
+    },
+    "duplicates": {
+      "duplicateIds": 0,
+      "exactNormalizedStemDuplicates": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "semanticDuplicateOptionPairs": 0,
+      "highConfidenceNearDuplicateQuestionPairs": 0
+    },
+    "sourceTraceability": {
+      "sourceCatalogChecked": "src/data/sourceCatalog.ts",
+      "uniqueSourceIdsUsed": 16,
+      "sourceIdsResolvingInCatalog": 300,
+      "usedCatalogSourcesWithLocator": 16,
+      "questionsWithUnknownSourceId": 0,
+      "highConfidenceSourceScopeMismatches": 0,
+      "sourceTraceabilityDefects": 0
+    },
+    "answerPositionCounts": {
+      "dataAnalytics": [
+        38,
+        41,
+        36,
+        35
+      ],
+      "performanceRecovery": [
+        38,
+        38,
+        37,
+        37
+      ],
+      "combined": [
+        76,
+        79,
+        73,
+        72
+      ]
+    },
+    "coverage": {
+      "dataAnalytics": {
+        "Interpretation & Application of Data": 100,
+        "Principles of Research & Evidence-Based Practice": 50
+      },
+      "performanceRecovery": {
+        "Performance Enhancement Strategies": 50,
+        "Recovery Protocols & Regeneration": 50,
+        "Injury Prevention & Risk Management": 50
+      }
+    },
+    "cleanChecks": [
+      "All 300 records use the expected ten-field object schema and contain four unique options.",
+      "All 300 correct indices are valid zero-based values and all IDs are sequential within their file.",
+      "No exact duplicate stems, canonical option sets, duplicate IDs, or high-confidence near-duplicate question pairs were found.",
+      "No high-confidence wrong key, ambiguity, semantic distractor, source-scope, or option-length defect was confirmed.",
+      "All 16 used source IDs resolve to locator-bearing catalog entries; no unknown source ID remains."
+    ]
+  }
+}

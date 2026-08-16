@@ -1,0 +1,281 @@
+{
+  "group": "technology_biostatistics",
+  "file": "question_bank/section_a1_technology_biostatistics.json",
+  "reviewedCount": 150,
+  "changedCount": 4,
+  "answerKeyFixCount": 1,
+  "distractorFixCount": 0,
+  "wordingFixCount": 3,
+  "sourceRecommendationCount": 4,
+  "changes": [
+    {
+      "id": "a1-tech-006",
+      "defectType": "terminology-precision",
+      "originalOptions": [
+        "A direct measure of ATP use",
+        "A validated model estimate",
+        "A direct oxygen-consumption measure",
+        "A device-independent value"
+      ],
+      "revisedOptions": [
+        "A direct measure of ATP turnover",
+        "A model-based estimate requiring validation",
+        "A direct measure of oxygen consumption",
+        "A device-independent physiological value"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "The keyed concept remains that smartwatch energy expenditure is an algorithmic estimate, but 'validated model estimate' could imply that the particular device, activity, and population have already been validated. The revised option preserves the answer while making the validation requirement explicit and keeping the four options comparable in length and grammatical form.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — acsm-getp-12 scope",
+        "research/source_requests_technology_biostatistics.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509623/ — systematic review of commercial wearable validity and reliability",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952119/ — recommendations for evaluating wearable-sensor reliability, sensitivity, and validity"
+      ]
+    },
+    {
+      "id": "a1-tech-035",
+      "defectType": "terminology-clarity",
+      "originalOptions": [
+        "Anatomical centre of mass of the athlete",
+        "Highest point reached in a jump",
+        "Point of resultant force distribution",
+        "Position of the nearest camera"
+      ],
+      "revisedOptions": [
+        "The athlete's anatomical centre of mass",
+        "The highest point reached during a jump",
+        "Where the resultant ground-reaction force acts",
+        "The position of the nearest video camera"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "neumann-kinesiology",
+      "reviewerNote": "Centre of pressure is the location at which the resultant ground-reaction force acts on the support surface. The original keyed wording, 'point of resultant force distribution,' is nonstandard and incomplete; the revised option states the biomechanical concept directly. The revised set has no primary option-length flag.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — neumann-kinesiology scope",
+        "books/Kinesiology of the Musculoskeletal System.pdf — extracted discussion of centre-of-pressure path and ground-reaction force, PDF pp. 645, 680, and 710",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6609298/ — definition of centre of pressure as the point at which the resultant ground-reaction force acts"
+      ]
+    },
+    {
+      "id": "a1-tech-142",
+      "defectType": "answer-key",
+      "originalOptions": [
+        "The magnitude of an effect",
+        "The probability that the null is true",
+        "The number of model predictors",
+        "The number of participants only"
+      ],
+      "revisedOptions": [
+        "The magnitude of an observed difference or association",
+        "The probability that the null hypothesis is true",
+        "The number of predictors included in a statistical model",
+        "The number of participants included in a study"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "The audit's current key selected 'The number of participants only,' while both the explanation and the statistical definition support option 0. Effect size describes the magnitude of an observed difference or association; it is not a probability, predictor count, or sample-size count. The answer index was corrected from 3 to 0, and the option set was rewritten for parallel, plausible distractors without changing the source-supported meaning.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — world-physiotherapy-ebp-2023 scope",
+        "research/source_requests_technology_biostatistics.md",
+        "https://www.itl.nist.gov/div898/handbook/index2.htm — NIST/SEMATECH e-Handbook of Statistical Methods",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/ — Nakagawa and Cuthill, effect size, confidence interval, and statistical significance"
+      ]
+    },
+    {
+      "id": "a1-tech-144",
+      "defectType": "grammar-clarity",
+      "originalOptions": [
+        "The proportion of athletes who improved",
+        "The proportion of p-values below alpha",
+        "The proportion of missing observations",
+        "Total variance linked to the factor"
+      ],
+      "revisedOptions": [
+        "Between-athlete variance in improvement",
+        "P-values below the chosen alpha level",
+        "Observations missing from the dataset",
+        "Total variance explained by the factor"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "The stem already supplies 'the proportion of', so the first three original options redundantly repeated the phrase and the keyed option was elliptical. The revised fragments are grammatically parallel with the stem; eta squared is the proportion of total variance explained by the factor. The four revised options remain closely matched in length.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts — world-physiotherapy-ebp-2023 scope",
+        "research/source_requests_technology_biostatistics.md",
+        "https://www.itl.nist.gov/div898/handbook/index2.htm — NIST/SEMATECH e-Handbook of Statistical Methods",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/ — discussion of effect-size statistics and interpretation"
+      ]
+    }
+  ],
+  "unresolvedConcerns": [
+    {
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "acsm-getp-12",
+      "questionIds": [
+        "a1-tech-001",
+        "a1-tech-002",
+        "a1-tech-003",
+        "a1-tech-004",
+        "a1-tech-005",
+        "a1-tech-006",
+        "a1-tech-007",
+        "a1-tech-008",
+        "a1-tech-009",
+        "a1-tech-010"
+      ],
+      "affectedQuestionCount": 10,
+      "recommendation": "Add a dedicated catalog entry for wearable-sensor validation and energy-expenditure estimation, with the inspected review locators. The existing ACSM source remains a defensible testing-context source, so sourceId was not changed.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts",
+        "research/source_requests_technology_biostatistics.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509623/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952119/"
+      ],
+      "reviewerNote": "The concern is provenance specificity rather than an answer or content defect. a1-tech-006 was independently corrected for terminology, but its existing sourceId is retained as required because the shared catalog is out of scope."
+    },
+    {
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "questionIds": [
+        "a1-tech-051",
+        "a1-tech-052",
+        "a1-tech-053",
+        "a1-tech-054",
+        "a1-tech-055",
+        "a1-tech-056",
+        "a1-tech-057",
+        "a1-tech-058",
+        "a1-tech-059",
+        "a1-tech-060"
+      ],
+      "affectedQuestionCount": 10,
+      "recommendation": "Add dedicated catalog entries for applied machine-learning validation and AI ethics/explainability, rather than relying on the broad evidence-based-practice scope. The existing sourceId was retained.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts",
+        "research/source_requests_technology_biostatistics.md",
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952119/"
+      ],
+      "reviewerNote": "The reported concepts are factually coherent, but supervised learning, leakage, sensitivity, external validation, and explainability need a more specific technical source locator than the current World Physiotherapy catalog entry."
+    },
+    {
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "sai-notification-2026",
+      "questionIds": [
+        "a1-tech-071",
+        "a1-tech-072",
+        "a1-tech-073",
+        "a1-tech-074",
+        "a1-tech-075",
+        "a1-tech-076",
+        "a1-tech-077",
+        "a1-tech-078",
+        "a1-tech-079",
+        "a1-tech-080"
+      ],
+      "affectedQuestionCount": 10,
+      "recommendation": "Add a dedicated data-governance/AI-ethics catalog entry covering consent, purpose limitation, minimization, access control, retention, de-identification, bias, oversight, and breach response. The SAI notification remains the correct syllabus source and was not replaced.",
+      "sourcesInspected": [
+        "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf — English A1 syllabus p. 21",
+        "src/data/sourceCatalog.ts",
+        "research/source_requests_technology_biostatistics.md",
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence"
+      ],
+      "reviewerNote": "The notification explicitly places technology limitations, ethical concerns, and data privacy in the syllabus, but it does not itself establish all detailed data-governance principles used in these items."
+    },
+    {
+      "defectType": "source-specificity",
+      "severity": "medium",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "questionIds": [
+        "a1-tech-081",
+        "a1-tech-082",
+        "a1-tech-083",
+        "a1-tech-084",
+        "a1-tech-085",
+        "a1-tech-086",
+        "a1-tech-087",
+        "a1-tech-088",
+        "a1-tech-089",
+        "a1-tech-090",
+        "a1-tech-091",
+        "a1-tech-092",
+        "a1-tech-093",
+        "a1-tech-094",
+        "a1-tech-095",
+        "a1-tech-096",
+        "a1-tech-097",
+        "a1-tech-098",
+        "a1-tech-099",
+        "a1-tech-100",
+        "a1-tech-101",
+        "a1-tech-102",
+        "a1-tech-103",
+        "a1-tech-104",
+        "a1-tech-105",
+        "a1-tech-106",
+        "a1-tech-107",
+        "a1-tech-108",
+        "a1-tech-109",
+        "a1-tech-110",
+        "a1-tech-111",
+        "a1-tech-112",
+        "a1-tech-113",
+        "a1-tech-114",
+        "a1-tech-115",
+        "a1-tech-116",
+        "a1-tech-117",
+        "a1-tech-118",
+        "a1-tech-119",
+        "a1-tech-120",
+        "a1-tech-121",
+        "a1-tech-122",
+        "a1-tech-123",
+        "a1-tech-124",
+        "a1-tech-125",
+        "a1-tech-126",
+        "a1-tech-127",
+        "a1-tech-128",
+        "a1-tech-129",
+        "a1-tech-130",
+        "a1-tech-131",
+        "a1-tech-132",
+        "a1-tech-133",
+        "a1-tech-134",
+        "a1-tech-135",
+        "a1-tech-136",
+        "a1-tech-137",
+        "a1-tech-138",
+        "a1-tech-139",
+        "a1-tech-140",
+        "a1-tech-141",
+        "a1-tech-142",
+        "a1-tech-143",
+        "a1-tech-144",
+        "a1-tech-145",
+        "a1-tech-146",
+        "a1-tech-147",
+        "a1-tech-148",
+        "a1-tech-149",
+        "a1-tech-150"
+      ],
+      "affectedQuestionCount": 70,
+      "recommendation": "Add dedicated catalog entries for statistical methods and effect-size interpretation, preferably the NIST/SEMATECH e-Handbook for descriptive/inferential methods and Nakagawa and Cuthill (2007) for effect sizes and confidence intervals. The existing sourceId was retained.",
+      "sourcesInspected": [
+        "src/data/sourceCatalog.ts",
+        "research/source_requests_technology_biostatistics.md",
+        "https://www.itl.nist.gov/div898/handbook/index2.htm",
+        "https://pubmed.ncbi.nlm.nih.gov/17944619/"
+      ],
+      "reviewerNote": "The statistical answer keys were screened against the cited concepts; the definite key error at a1-tech-142 was corrected and the wording issue at a1-tech-144 was corrected. The remaining concern is catalog specificity, not a verified content error."
+    }
+  ]
+}

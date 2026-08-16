@@ -1,0 +1,11 @@
+{
+  "auditType": "final6_length_repair_core_disciplines",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_core_disciplines.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median distractor or when total option-length spread exceeds 15 characters.",
+  "flagsBefore": 0,
+  "changedCount": 0,
+  "changedQuestions": [],
+  "flagsAfter": 0,
+  "reviewNote": "Inspected all 150 current questions. Each question has exactly four options; no primary option-length flag remains, so no question was changed."
+}

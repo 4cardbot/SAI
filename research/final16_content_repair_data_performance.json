@@ -1,0 +1,165 @@
+{
+  "auditType": "a1_final16_content_repair_data_performance",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "scope": {
+    "files": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "sourceAudit": "research/release3_audit_data_performance.json",
+    "reviewedQuestionCount": 300,
+    "repairFocus": "Ambiguous data-planning key, duplicate distractor, sleep-scenario alignment, and item-specific evidence-appraisal explanations."
+  },
+  "reviewedCount": 300,
+  "changedCount": 21,
+  "changes": [
+    {
+      "id": "a1-data-005",
+      "revisedOptions": ["Prioritize extra speed work because the 30-m time is squad-median", "Interpret the 30-m rank alongside fatigue, asymmetry, and rugby demands", "Treat the athlete's best sprint score as the complete profile and plan", "List results without priorities or follow-up measures for training"],
+      "revisedCorrect": 1,
+      "reviewerNote": "Made the integration option uniquely best by contrasting it with an unjustified speed-only response to a median sprint result.",
+      "sourcesInspected": ["nsca-essentials-5", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-056",
+      "revisedOptions": ["Perform maximal intervals to chase fatigue before sleep", "Test adaptation with another strength session", "Repeat maximal training to test immediate tolerance", "Use a low-intensity walk with normal recovery habits"],
+      "revisedCorrect": 3,
+      "reviewerNote": "Replaced a semantic duplicate distractor with a distinct high-intensity tolerance-testing error.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-recovery-076",
+      "revisedText": "A young athlete sleeps poorly after late training and struggles to learn new tactical patterns. Which explanation is most defensible?",
+      "revisedCorrect": 3,
+      "reviewerNote": "Removed the contradictory adequate-sleep condition so the keyed sleep-learning explanation matches the scenario.",
+      "sourcesInspected": ["ioc-load-illness-2016", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-105",
+      "revisedExplanation": "Random allocation creates assigned programmes that can be compared through the difference in return-to-running outcomes, subject to adherence and uncertainty.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Replaced the generic explanation with an RCT-specific assigned-group outcome contrast.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-106",
+      "revisedExplanation": "Randomly assigned carbohydrate and placebo groups provide the intervention contrast used to compare cycling-test outcomes.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the trial-specific assigned carbohydrate/placebo contrast.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-107",
+      "revisedExplanation": "Random allocation permits estimation of the outcome contrast between assigned technique training and usual training, rather than a self-selection association.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the randomized technique-training/usual-training contrast.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-108",
+      "revisedExplanation": "The trial compares outcomes under the two assigned exercise doses; blinded assessment helps reduce outcome-assessment bias but does not change the assigned-group contrast.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the assigned dose contrast and explained the role of blinded assessment.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-109",
+      "revisedExplanation": "Random assignment creates two hydration-strategy groups whose core-temperature outcomes can be contrasted while accounting for uncertainty and adherence.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the trial-specific hydration-strategy contrast.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-110",
+      "revisedExplanation": "The central RCT comparison is reaction time under assigned sleep coaching versus the assigned usual routine, not a self-selected sleep association.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the assigned sleep-coaching/usual-routine comparison.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-115",
+      "revisedExplanation": "A prospective cohort classifies or records weekly load without random assignment and examines its association with later player outcomes.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the prospective exposure and later-outcome association specific to the cohort item.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-116",
+      "revisedExplanation": "The cohort observes baseline sleep duration and follows athletes for later respiratory illness, estimating an association rather than a randomized effect.",
+      "revisedCorrect": 2,
+      "reviewerNote": "Added the sleep-exposure and later-illness follow-up rationale.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-117",
+      "revisedExplanation": "Recorded travel exposure precedes follow-up for muscle complaints, so the design can examine their association but cannot claim a randomized travel effect.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Added the observed travel exposure and later-complaint association rationale.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-118",
+      "revisedExplanation": "The registry observes home-exercise adherence and later return-to-running time, estimating an observational association that may be confounded by adherence-related factors.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Added the adherence exposure and return-to-running follow-up rationale.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-119",
+      "revisedExplanation": "The cohort compares observed recovery-room use with later illness, so it estimates an association rather than a randomized preventive effect.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Added the observed recovery-room exposure and later-illness association rationale.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-120",
+      "revisedExplanation": "Baseline low-energy-availability indicators are followed against later bone-stress injury, allowing an association to be examined without randomizing energy availability.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Added the baseline indicator and later-injury follow-up rationale.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-125",
+      "revisedExplanation": "Substantial loss to follow-up can create attrition bias and reduce precision, so the large effect must be judged for missing outcomes and rehabilitation applicability.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named attrition bias, precision, missing outcomes, and applicability tested by the item.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-126",
+      "revisedExplanation": "An unvalidated fatigue score threatens measurement validity, while a single-club sample and imprecision limit how confidently the finding transfers to other athletes.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named validation, sampling bias, precision, and applicability concerns specific to the wearable study.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-127",
+      "revisedExplanation": "Omitted prior injury and exposure timing can confound the load–injury association; measurement quality and applicability must also be appraised.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named confounding, timing, measurement quality, and applicability tested by the cohort item.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-128",
+      "revisedExplanation": "Very different protocols and outcomes create heterogeneity and question whether pooling is meaningful, alongside bias and relevance of the review.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named compatibility, heterogeneity, bias, and relevance concerns specific to the pooled review.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-129",
+      "revisedExplanation": "A poorly reported comparator, adherence, and confidence interval weaken interpretation of the warm-up claim and require critical appraisal before application.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named comparator, adherence, uncertainty, and study-design concerns specific to the prevention claim.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    },
+    {
+      "id": "a1-data-130",
+      "revisedExplanation": "Frequent missing data and one-team sampling can introduce selection bias and reduce transferability, so precision and missingness must be considered.",
+      "revisedCorrect": 3,
+      "reviewerNote": "Named missing-data, selection-bias, precision, and transferability concerns specific to the wearable paper.",
+      "sourcesInspected": ["world-physiotherapy-ebp-2023", "research/release3_audit_data_performance.json"]
+    }
+  ]
+}

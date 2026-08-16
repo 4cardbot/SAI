@@ -1,0 +1,251 @@
+{
+  "auditType": "Independent final current-file audit of technology/biostatistics and holistic/travel/ethics A1 question banks",
+  "auditDate": "2026-08-16",
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "id": "R4-001",
+      "defectType": "sourceId_does_not_directly_support_jet_lag_management_claims",
+      "severity": "high",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-061",
+          "a1-holistic-062",
+          "a1-holistic-063",
+          "a1-holistic-064",
+          "a1-holistic-065",
+          "a1-holistic-066",
+          "a1-holistic-067",
+          "a1-holistic-068",
+          "a1-holistic-069",
+          "a1-holistic-071",
+          "a1-holistic-072",
+          "a1-holistic-073",
+          "a1-holistic-074",
+          "a1-holistic-075",
+          "a1-holistic-076",
+          "a1-holistic-077",
+          "a1-holistic-078",
+          "a1-holistic-079",
+          "a1-holistic-080"
+        ],
+        "sourceId": "ioc-load-illness-2016",
+        "keyedClaimFamily": "jet-lag definition, east/west circadian phase, light timing, sleep shifting, travel-readiness planning, and flight-management recommendations",
+        "sourceCatalogScope": "Training load, recovery, travel and illness risk",
+        "sourceEvidence": "The IOC paper supports travel as a load/illness-risk factor and identifies jet lag as a research priority, but it does not provide the current items' circadian-management guidance. The CDC Yellow Book directly defines jet lag, east/west phase advances and delays, timed light, sleep shifting, hydration, and short-trip planning.",
+        "directSource": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html",
+        "currentSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5013087/"
+      },
+      "recommendedRepair": "Remap these 19 items to cdc-yellow-book-jet-lag-2026 or another directly inspected athlete travel-fatigue/jet-lag consensus source. Retain ioc-load-illness-2016 for travel load, illness risk, recovery, and monitoring claims."
+    },
+    {
+      "id": "R4-002",
+      "defectType": "sourceId_is_too_broad_for_yoga_safety_and_pranayama_claims",
+      "severity": "high",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-006",
+          "a1-holistic-008",
+          "a1-holistic-011",
+          "a1-holistic-012",
+          "a1-holistic-013",
+          "a1-holistic-014",
+          "a1-holistic-016",
+          "a1-holistic-017",
+          "a1-holistic-019",
+          "a1-holistic-020"
+        ],
+        "sourceId": "yoga-athletes-review-2025",
+        "keyedClaimFamilies": [
+          "youth-safe programming",
+          "coordination of yoga with hamstring rehabilitation",
+          "pranayama terminology and classification",
+          "breathing-specific arousal, safety, monitoring, and performance-effect claims"
+        ],
+        "sourceEvidence": "The cited review is a systematic review of yoga in track-and-field athletes. Its reported conclusions concern strength, balance, flexibility, mental health, burnout, mindfulness, and quality of life; the abstract does not directly establish youth-safety protocols, injury-rehabilitation coordination, or the listed pranayama-specific definitions and safety rules.",
+        "currentSource": "https://www.sciencedirect.com/science/article/abs/pii/S1360859225003080"
+      },
+      "recommendedRepair": "Assign a directly inspected yoga/pranayama safety or rehabilitation source for the out-of-scope claims, or narrow the stems to track-and-field yoga outcomes and evidence limitations that the review directly reports."
+    },
+    {
+      "id": "R4-003",
+      "defectType": "sourceId_population_and_clinical_scope_mismatch",
+      "severity": "high",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-026",
+          "a1-holistic-027"
+        ],
+        "sourceId": "yoga-mindfulness-sport-buhlmayer-2017",
+        "keyedClaimFamilies": [
+          "age-appropriate mindfulness delivery to a youth squad",
+          "mindfulness instructions for an injured athlete during rehabilitation"
+        ],
+        "sourceEvidence": "The cited meta-analysis examined healthy sportive participants over 15 years of age and is not a youth-squad or injured-athlete rehabilitation guidance source. Its conclusion supports mindfulness as a complementary mental-skills approach with variable evidence, not these population-specific safety and clinical-limit claims.",
+        "currentSource": "https://pubmed.ncbi.nlm.nih.gov/28664327/"
+      },
+      "recommendedRepair": "Use a youth-specific mindfulness/yoga source and a directly inspected rehabilitation or pain-management source, or rewrite both items to the healthy-athlete population and complementary mental-skills scope of the cited review."
+    },
+    {
+      "id": "R4-004",
+      "defectType": "sourceId_does_not_directly_support_clean_sport_education_and_ethics_claims",
+      "severity": "moderate",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-091",
+          "a1-holistic-098",
+          "a1-holistic-100"
+        ],
+        "sourceId": "wada-prohibited-list-2026",
+        "keyedClaimFamilies": [
+          "staff education and prevention as a clean-sport principle",
+          "ethical response to a prohibited performance-enhancing substance",
+          "education should emphasize advance product/rule checking"
+        ],
+        "sourceEvidence": "The WADA page directly supports the current prohibited list and its status, but these three items test education, prevention, and ethical-response practice rather than a substance's prohibited status. Those claims belong to a directly inspected anti-doping education or code/ethics source.",
+        "currentSource": "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list"
+      },
+      "recommendedRepair": "Use WADA anti-doping education or ethics guidance for these three items; retain wada-prohibited-list-2026 for current-list checking and substance/status questions such as a1-holistic-094 and a1-holistic-097."
+    },
+    {
+      "id": "R4-005",
+      "defectType": "sourceId_is_too_broad_for_detailed_performance_reporting_claims",
+      "severity": "moderate",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-146",
+          "a1-holistic-147",
+          "a1-holistic-148"
+        ],
+        "sourceId": "world-physiotherapy-ebp-2023",
+        "keyedClaimFamilies": [
+          "screening result is not a diagnosis",
+          "reference-group and norm applicability reporting",
+          "reproducible reporting of units, protocol, timing, and deviations"
+        ],
+        "sourceEvidence": "The cited World Physiotherapy policy supports use of the best available evidence, critical appraisal, implementation, and outcome evaluation. It does not directly prescribe the three detailed performance-reporting rules tested here, especially the measurement-method fields and screening-versus-diagnosis distinction.",
+        "currentSource": "https://world.physio/sites/default/files/2024-01/PS-2023-EBP.pdf"
+      },
+      "recommendedRepair": "Assign a directly inspected measurement/reporting, screening, or clinical-assessment source, or narrow the items to evidence appraisal, uncertainty, applicability, and outcome evaluation claims explicitly supported by the EBP policy."
+    },
+    {
+      "id": "R4-006",
+      "defectType": "explanations_do_not_explain_the_keyed_claim",
+      "severity": "moderate",
+      "evidence": {
+        "questionIds": [
+          "a1-tech-062",
+          "a1-tech-063",
+          "a1-tech-064",
+          "a1-tech-065",
+          "a1-tech-066",
+          "a1-tech-067",
+          "a1-tech-068",
+          "a1-tech-069",
+          "a1-tech-070"
+        ],
+        "sourceIds": [
+          "ioc-load-illness-2016",
+          "ais-athlete-data-governance"
+        ],
+        "exactRepeatedExplanation": "An AMS organizes longitudinal data to support secure, contextual athlete-management decisions.",
+        "mismatchExamples": [
+          "a1-tech-062 asks for the session-RPE calculation 90 × 6 = 540, but the explanation gives no calculation or session-RPE definition.",
+          "a1-tech-063 asks which GPS/heart-rate internal-versus-external-load pairing is correct, but the explanation does not state that pairing.",
+          "a1-tech-064 through a1-tech-069 test permissions, missingness, interoperability, dashboards, and audit trails, but the explanation only repeats the general AMS purpose.",
+          "a1-tech-070 tests why an elevated risk score requires human review, but the explanation does not state that a score is not a diagnosis or substitute for professional judgment."
+        ]
+      },
+      "recommendedRepair": "Replace the repeated sentence with a short item-specific rationale for each key; preserve the current answer indices unless the wording is changed."
+    }
+  ],
+  "summary": {
+    "status": "repair_required_before_final_release",
+    "confirmedFindingCount": 6,
+    "affectedQuestionCount": 46,
+    "sourceIdsReviewed": 29,
+    "sourceIdsWithDirectSupportGaps": 5,
+    "sourceIdCoverage": {
+      "allSourceIdsResolveInSourceCatalog": true,
+      "sourceIdCounts": {
+        "acsm-getp-12": 2,
+        "ais-athlete-data-governance": 16,
+        "ais-supplements-position-2022": 4,
+        "bern-return-to-sport-2016": 1,
+        "cdc-confounding-epi-manual": 1,
+        "cdc-yellow-book-jet-lag-2026": 1,
+        "foundations-sport-exercise-psychology": 10,
+        "gps-validity-scott-2016": 10,
+        "interdisciplinary-performance-sport-burns-2023": 9,
+        "ioc-load-illness-2016": 33,
+        "nakagawa-cuthill-effect-size-2007": 10,
+        "neumann-kinesiology": 20,
+        "nist-ai-rmf-2023": 3,
+        "nist-sematech-statistics": 60,
+        "nsca-essentials-5": 10,
+        "physiology-sport-exercise-kenney": 10,
+        "scikit-learn-common-pitfalls-1-9": 1,
+        "scikit-learn-model-evaluation-1-9": 2,
+        "scikit-learn-supervised-learning": 3,
+        "unesco-ai-ethics-2021": 10,
+        "wada-istue-2023": 11,
+        "wada-prohibited-list-2026": 5,
+        "wearable-athlete-sensors-seshadri-2019": 8,
+        "wearable-inertial-camomilla-2018": 10,
+        "world-physiotherapy-consent-2023": 2,
+        "world-physiotherapy-ebp-2023": 10,
+        "world-physiotherapy-ethics-2023": 10,
+        "yoga-athletes-review-2025": 18,
+        "yoga-mindfulness-sport-buhlmayer-2017": 10
+      },
+      "partialSupportSourceIds": [
+        "ioc-load-illness-2016",
+        "wada-prohibited-list-2026",
+        "world-physiotherapy-ebp-2023",
+        "yoga-athletes-review-2025",
+        "yoga-mindfulness-sport-buhlmayer-2017"
+      ],
+      "directSupportConfirmedForOtherAssignments": true
+    },
+    "answerKeyAssessment": {
+      "status": "no_high_confidence_answer_key_defect_confirmed",
+      "checks": [
+        "Numeric keys checked: 36 km/h = 10 m/s, 700 N + 700 N = 1,400 N, 90 × 6 = 540, mean/SE/t and CI calculations, and Cohen's d definitions.",
+        "Conceptual keys checked across sensor measurement, machine learning, statistics, wellness, travel, heat, anti-doping, ethics, and interdisciplinary blocks.",
+        "Answer-position counts are [39, 38, 37, 36] for technology and [42, 34, 42, 32] for holistic; no key-pattern defect was confirmed."
+      ]
+    },
+    "explanationAssessment": {
+      "confirmedDefectQuestionCount": 9,
+      "otherExplanations": "No other high-confidence explanation defect was confirmed; many technology explanations are intentionally block-level context, but the AMS sentence is materially non-responsive for the nine listed keys."
+    },
+    "schemaAssessment": {
+      "status": "passed",
+      "checks": [
+        "Both files contain 150 questions.",
+        "All records have exactly the expected ten fields.",
+        "All records have section A1, four distinct options, an in-range integer correct index, non-empty explanation, and non-empty sourceId.",
+        "IDs are sequential and unique; all 29 sourceIds resolve."
+      ]
+    },
+    "duplicateAssessment": {
+      "status": "passed",
+      "checks": [
+        "No duplicate IDs.",
+        "No exact or normalized duplicate stems.",
+        "No duplicate options within a question.",
+        "No repeated-base-stem or option-length warning was reported by the repository A1 audit."
+      ]
+    },
+    "verificationChecksPassed": [
+      "npm run validate:bank",
+      "npm run audit:a1",
+      "npm test (6 test files, 19 tests passed)",
+      "Source question files were not edited during this audit."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "auditType": "final8-content-repair-testing-assessment",
+  "generatedAt": "2026-08-16",
+  "readOnly": false,
+  "scope": {
+    "reviewedFile": "question_bank/section_a1_testing_assessment.json",
+    "reviewedQuestionCount": 150,
+    "editScope": [
+      "question_bank/section_a1_testing_assessment.json",
+      "research/final8_content_repair_testing_assessment.json"
+    ],
+    "protectedFiles": [
+      "question_bank/section_a1.json",
+      "src/data/sourceCatalog.ts",
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json",
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ]
+  },
+  "summary": {
+    "originalCount": 150,
+    "revisedCount": 150,
+    "changedCount": 1,
+    "answerKeyChanges": 1,
+    "stemChanges": 0,
+    "optionChanges": 0,
+    "explanationChanges": 1,
+    "sourceIdChanges": 0
+  },
+  "independentCheck": {
+    "checksPerformed": [
+      "150-item count and sequential unique IDs",
+      "required schema fields, four-option arrays, and zero-based answer indices",
+      "a1-test-068 answer-key verification against the stated concept",
+      "source attribution retained and explanation aligned with the cited testing and assessment concept"
+    ],
+    "remainingHighConfidenceFindings": [],
+    "note": "The independently verified answer-key error in a1-test-068 was corrected. No other changes were made in this scoped repair."
+  },
+  "changes": [
+    {
+      "id": "a1-test-068",
+      "defectType": "answer-key-error",
+      "originalQuestion": "Why is a universal 5% improvement rule problematic across different tests?",
+      "revisedQuestion": "Why is a universal 5% improvement rule problematic across different tests?",
+      "originalOptions": [
+        "All tests have exactly 5% measurement error in this athlete",
+        "Percentage change cannot be calculated for performance data",
+        "Tests differ in scale, error, variability, and practical importance",
+        "Normative data always make percentage change invalid"
+      ],
+      "revisedOptions": [
+        "All tests have exactly 5% measurement error in this athlete",
+        "Percentage change cannot be calculated for performance data",
+        "Tests differ in scale, error, variability, and practical importance",
+        "Normative data always make percentage change invalid"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "originalExplanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+      "revisedExplanation": "A universal percentage rule ignores differences in test scale, measurement error, variability, and the practical importance of change; interpretation should account for the test's measurement properties and meaningfulness.",
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "The independently verified key was incorrect: the third option directly explains why a fixed 5% rule cannot be applied uniformly across tests. The explanation was aligned to the corrected answer while retaining the established source attribution.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026"
+      ]
+    }
+  ]
+}

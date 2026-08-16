@@ -1,0 +1,39 @@
+{
+  "auditType": "option-length-remediation",
+  "group": "data_analytics",
+  "questionFile": "question_bank/section_a1_data_analytics.json",
+  "reviewer": "central-length-review",
+  "thresholds": {
+    "correctAboveDistractorMedianByMoreThan": 8,
+    "totalOptionSpreadAbove": 15
+  },
+  "inspectedQuestionCount": 150,
+  "reviewedQuestionIds": [
+    "a1-data-001", "a1-data-002", "a1-data-003", "a1-data-004", "a1-data-005", "a1-data-006", "a1-data-007", "a1-data-008", "a1-data-009", "a1-data-010",
+    "a1-data-011", "a1-data-012", "a1-data-013", "a1-data-014", "a1-data-015", "a1-data-016", "a1-data-017", "a1-data-018", "a1-data-019", "a1-data-020",
+    "a1-data-021", "a1-data-022", "a1-data-023", "a1-data-024", "a1-data-025", "a1-data-026", "a1-data-027", "a1-data-028", "a1-data-029", "a1-data-030",
+    "a1-data-031", "a1-data-032", "a1-data-033", "a1-data-034", "a1-data-035", "a1-data-036", "a1-data-037", "a1-data-038", "a1-data-039", "a1-data-040",
+    "a1-data-041", "a1-data-042", "a1-data-043", "a1-data-044", "a1-data-045", "a1-data-046", "a1-data-047", "a1-data-048", "a1-data-049", "a1-data-050",
+    "a1-data-051", "a1-data-052", "a1-data-053", "a1-data-054", "a1-data-055", "a1-data-056", "a1-data-057", "a1-data-058", "a1-data-059", "a1-data-060",
+    "a1-data-061", "a1-data-062", "a1-data-063", "a1-data-064", "a1-data-065", "a1-data-066", "a1-data-067", "a1-data-068", "a1-data-069", "a1-data-070",
+    "a1-data-071", "a1-data-072", "a1-data-073", "a1-data-074", "a1-data-075", "a1-data-076", "a1-data-077", "a1-data-078", "a1-data-079", "a1-data-080",
+    "a1-data-081", "a1-data-082", "a1-data-083", "a1-data-084", "a1-data-085", "a1-data-086", "a1-data-087", "a1-data-088", "a1-data-089", "a1-data-090",
+    "a1-data-091", "a1-data-092", "a1-data-093", "a1-data-094", "a1-data-095", "a1-data-096", "a1-data-097", "a1-data-098", "a1-data-099", "a1-data-100",
+    "a1-data-101", "a1-data-102", "a1-data-103", "a1-data-104", "a1-data-105", "a1-data-106", "a1-data-107", "a1-data-108", "a1-data-109", "a1-data-110",
+    "a1-data-111", "a1-data-112", "a1-data-113", "a1-data-114", "a1-data-115", "a1-data-116", "a1-data-117", "a1-data-118", "a1-data-119", "a1-data-120",
+    "a1-data-121", "a1-data-122", "a1-data-123", "a1-data-124", "a1-data-125", "a1-data-126", "a1-data-127", "a1-data-128", "a1-data-129", "a1-data-130",
+    "a1-data-131", "a1-data-132", "a1-data-133", "a1-data-134", "a1-data-135", "a1-data-136", "a1-data-137", "a1-data-138", "a1-data-139", "a1-data-140",
+    "a1-data-141", "a1-data-142", "a1-data-143", "a1-data-144", "a1-data-145", "a1-data-146", "a1-data-147", "a1-data-148", "a1-data-149", "a1-data-150"
+  ],
+  "flaggedQuestionCount": 0,
+  "changedCount": 0,
+  "changes": [],
+  "validation": {
+    "questionCount": 150,
+    "allQuestionsHaveExactlyFourOptions": true,
+    "allCorrectIndicesValid": true,
+    "answerPositionCounts": [39, 40, 36, 35],
+    "primaryLengthFlagsRemaining": 0,
+    "questionFileModified": false
+  }
+}

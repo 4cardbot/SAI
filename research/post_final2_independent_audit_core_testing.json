@@ -1,0 +1,250 @@
+{
+  "auditType": "post-final2-independent-read-only-audit-core-testing",
+  "generatedAt": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "questionFiles": [
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_testing_assessment.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "logsInspected": [
+      "research/final3_content_repair_core_disciplines.json",
+      "research/final5_diversity_repair_core_disciplines.json",
+      "research/final6_length_repair_core_disciplines.json",
+      "research/final7_length_repair_core_disciplines.json",
+      "research/final3_content_repair_testing_assessment.json",
+      "research/final5_diversity_repair_testing_assessment.json",
+      "research/final6_length_repair_testing_assessment.json"
+    ],
+    "reviewedQuestionCount": 300
+  },
+  "metrics": {
+    "groupCounts": {
+      "coreDisciplines": 150,
+      "testingAssessment": 150
+    },
+    "schema": {
+      "questionsWithExactRequiredSchema": 300,
+      "questionsWithFourOptions": 300,
+      "questionsWithFourUniqueOptions": 300,
+      "questionsWithValidZeroBasedCorrectIndex": 300,
+      "questionsWithSectionA1": 300,
+      "questionsWithNonEmptyTextAndExplanation": 300,
+      "duplicateQuestionIds": 0,
+      "unknownSourceIds": 0
+    },
+    "mergeCorrespondence": {
+      "mergedFileCount": 900,
+      "coreFirst150ExactMatches": true,
+      "testingNext150ExactMatches": true,
+      "coreTestingObjectsChecked": 300,
+      "coreTestingObjectMismatches": 0
+    },
+    "syllabusMapping": {
+      "coreExpectedSubtopics": 8,
+      "coreObservedSubtopics": 8,
+      "coreSubtopicMismatches": 0,
+      "coreSubtopicCounts": {
+        "Anthropometry — body composition, somatotypes, growth & maturation": 19,
+        "Exercise Physiology — energy systems, fatigue, adaptation": 19,
+        "Physiotherapy — injury mechanisms, basic rehabilitation principles": 19,
+        "Biomechanics — movement analysis, force, kinematics": 19,
+        "Biochemistry — biomarkers, metabolism, recovery indicators": 19,
+        "Strength & Conditioning — training principles, load, recovery": 19,
+        "Psychology — motivation, stress, arousal, mental readiness": 18,
+        "Nutrition — macronutrients, hydration, energy balance": 18
+      },
+      "testingExpectedSubtopics": 2,
+      "testingObservedSubtopics": 2,
+      "testingSubtopicMismatches": 0,
+      "testingSubtopicCounts": {
+        "Test Parameters & Athlete Assessment": 75,
+        "Test Protocols & Standardization": 75
+      }
+    },
+    "sourceTraceability": {
+      "sourceIdsResolvingInCatalog": 300,
+      "uniqueCatalogSourcesUsed": 12,
+      "usedSourcesWithLocatorOrEquivalentScope": 12,
+      "sourceSpecificHighConfidenceDefects": 0,
+      "sourceCounts": {
+        "acsm-getp-12": 102,
+        "nsca-essentials-5": 64,
+        "physiology-sport-exercise-kenney": 24,
+        "brukner-khan-clinical-sports-medicine": 19,
+        "basic-biomechanics-hall": 19,
+        "ioc-load-illness-2016": 9,
+        "clinical-sports-nutrition-burke": 19,
+        "foundations-sport-exercise-psychology": 18,
+        "ioc-reds-2023": 4,
+        "world-physiotherapy-consent-2023": 8,
+        "world-physiotherapy-ethics-2023": 7,
+        "world-physiotherapy-ebp-2023": 7
+      }
+    },
+    "answerKeysAndOptions": {
+      "currentKeyedAnswerPositions": [
+        77,
+        76,
+        74,
+        73
+      ],
+      "correctOptionStrictlyLongest": 89,
+      "correctOptionStrictlyLongestPercent": 29.67,
+      "correctOptionTiedForLongest": 109,
+      "correctOptionTiedForLongestPercent": 36.33,
+      "primaryOptionLengthFlags": 0,
+      "maximumCorrectMinusMedianGap": 8,
+      "maximumOptionLengthSpread": 15,
+      "highConfidenceAnswerKeyDefects": 1,
+      "highConfidenceSemanticDistractorDefects": 0,
+      "highConfidenceGrammarGiveaways": 0
+    },
+    "repetition": {
+      "exactDuplicateStems": 0,
+      "exactCanonicalOptionSetDuplicates": 0,
+      "coreMechanicalFamilies": 32,
+      "coreQuestionsInMechanicalFamilies": 150,
+      "coreFamilySizeDistribution": {
+        "4": 10,
+        "5": 22
+      },
+      "testingMechanicalFamilies": 20,
+      "testingQuestionsInMechanicalFamilies": 150,
+      "testingFamilySizeDistribution": {
+        "7": 10,
+        "8": 10
+      },
+      "mechanicalFamilyDetection": "Manual semantic review of contiguous families sharing the same construct, keyed concept, and distractor pattern; generic scenario changes and option reordering were not counted as material diversity."
+    },
+    "remediationLogs": {
+      "core": {
+        "final3ChangedEntries": 9,
+        "final5ChangedEntries": 118,
+        "final6ChangedEntries": 0,
+        "final7ChangedEntries": 9,
+        "latestUniqueChangedQuestionIds": 120,
+        "finalQuestionCount": 150
+      },
+      "testing": {
+        "final3ChangedEntries": 30,
+        "final5ChangedEntries": 130,
+        "final6ChangedEntries": 12,
+        "latestUniqueChangedQuestionIds": 134,
+        "finalQuestionCount": 150
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "a1-test-068-answer-key-error",
+      "severity": "high",
+      "confidence": "high",
+      "category": "answer-key-correctness",
+      "questionIds": [
+        "a1-test-068"
+      ],
+      "evidence": {
+        "text": "Why is a universal 5% improvement rule problematic across different tests?",
+        "currentCorrectIndex": 1,
+        "currentKeyedOption": "Percentage change cannot be calculated for performance data",
+        "correctIndex": 2,
+        "correctOption": "Tests differ in scale, error, variability, and practical importance",
+        "otherOptions": [
+          "All tests have exactly 5% measurement error in this athlete",
+          "Normative data always make percentage change invalid"
+        ],
+        "explanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+        "sourceId": "nsca-essentials-5",
+        "sourceBasis": "The source and the explanation support interpreting change using test-specific error and practical importance; they do not support the claim that percentage change cannot be calculated for performance data."
+      },
+      "impact": "The keyed answer states a false general limitation and rejects the option that directly explains why a fixed 5% threshold is inappropriate across tests.",
+      "recommendedAction": "Set correct to 2, preserve the current option order, and update the audit log with the corrected answer key."
+    },
+    {
+      "id": "core-and-testing-mechanical-repetition",
+      "severity": "moderate",
+      "confidence": "high",
+      "category": "mechanical-repetition",
+      "scope": {
+        "coreFamilyRanges": [
+          "a1-core-001..005",
+          "a1-core-006..010",
+          "a1-core-011..015",
+          "a1-core-016..019",
+          "a1-core-020..024",
+          "a1-core-025..029",
+          "a1-core-030..034",
+          "a1-core-035..038",
+          "a1-core-039..043",
+          "a1-core-044..048",
+          "a1-core-049..053",
+          "a1-core-054..057",
+          "a1-core-058..062",
+          "a1-core-063..067",
+          "a1-core-068..072",
+          "a1-core-073..076",
+          "a1-core-077..081",
+          "a1-core-082..086",
+          "a1-core-087..091",
+          "a1-core-092..095",
+          "a1-core-096..100",
+          "a1-core-101..105",
+          "a1-core-106..110",
+          "a1-core-111..114",
+          "a1-core-115..119",
+          "a1-core-120..124",
+          "a1-core-125..128",
+          "a1-core-129..132",
+          "a1-core-133..137",
+          "a1-core-138..142",
+          "a1-core-143..146",
+          "a1-core-147..150"
+        ],
+        "testingFamilyRanges": [
+          "a1-test-001..008",
+          "a1-test-009..016",
+          "a1-test-017..024",
+          "a1-test-025..032",
+          "a1-test-033..040",
+          "a1-test-041..047",
+          "a1-test-048..054",
+          "a1-test-055..061",
+          "a1-test-062..068",
+          "a1-test-069..075",
+          "a1-test-076..083",
+          "a1-test-084..091",
+          "a1-test-092..099",
+          "a1-test-100..107",
+          "a1-test-108..115",
+          "a1-test-116..122",
+          "a1-test-123..129",
+          "a1-test-130..136",
+          "a1-test-137..143",
+          "a1-test-144..150"
+        ],
+        "patternExamples": [
+          "a1-core-001..005 repeatedly test BMI's inability to distinguish fat from lean mass through closely related contexts.",
+          "a1-core-020..024 repeatedly test phosphagen dominance during brief maximal efforts.",
+          "a1-test-001..008 repeatedly test validity through generic scenario changes and reworded criterion/content/construct examples.",
+          "a1-test-017..024 repeatedly test sensitivity and its denominator or threshold consequences.",
+          "a1-test-137..143 repeatedly test stopping an exercise test for a symptom, safety criterion, or equipment-validity problem."
+        ]
+      },
+      "impact": "The files have no exact duplicate stems or exact canonical option sets, but all 300 questions fall into repeated underlying concept families. This reduces effective practice breadth and can reward memorizing a concept-answer pattern rather than applying varied information.",
+      "recommendedAction": "Treat the final5 diversity claims as exact-duplicate checks only. If broader question diversity is required, retain representative items and rewrite additional family members with different data, constraints, decisions, or adjacent syllabus concepts."
+    }
+  ],
+  "negativeChecks": {
+    "noAdditionalHighConfidenceAnswerKeyFindings": true,
+    "noAdditionalHighConfidenceSemanticDistractorFindings": true,
+    "noAdditionalHighConfidenceSourceTraceabilityFindings": true,
+    "noHighConfidenceSchemaFindings": true,
+    "noHighConfidenceSyllabusMappingFindings": true,
+    "noHighConfidenceMergeFindings": true,
+    "noHighConfidenceGrammarGiveawayFindings": true,
+    "noPrimaryOptionLengthFlags": true
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "auditType": "final9_length_repair_data_analytics",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_data_analytics.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median of the three distractors or when total option-length spread exceeds 15 characters.",
+  "scope": {
+    "questionCount": 150,
+    "targetQuestionIds": [
+      "a1-data-050",
+      "a1-data-057",
+      "a1-data-079",
+      "a1-data-095",
+      "a1-data-120"
+    ],
+    "changesRestrictedToTargetIds": true
+  },
+  "summary": {
+    "flagsBefore": 5,
+    "changedCount": 5,
+    "flagsAfter": 0,
+    "maximumCorrectMinusMedianAfter": 8,
+    "maximumOptionLengthSpreadAfter": 15,
+    "correctIndicesPreserved": true,
+    "fourOptionsForEveryQuestion": true
+  },
+  "changedQuestions": [
+    {
+      "id": "a1-data-050",
+      "originalOptions": [
+        "Use a different warm-up, time, and start procedure before the final",
+        "Repeat the baseline protocol at a comparable time with the same instructions",
+        "Select the best historical result regardless of test conditions",
+        "Replace readiness testing with an unrecorded coach impression before the final"
+      ],
+      "revisedOptions": [
+        "Use a different warm-up, time, or start procedure before the final",
+        "Repeat the baseline protocol at a similar time using the same instructions",
+        "Select the best historical result without matching test conditions",
+        "Replace testing with a documented coach impression before the final"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Shortened the keyed protocol-comparison choice and made the alternatives concise, parallel testing decisions. The answer still requires repeating the baseline protocol at a comparable time with consistent instructions; the revised maximum gap is 8 characters and spread is 8.",
+      "sourcesInspected": [
+        "World Physiotherapy, Policy statement: Evidence-based practice (June 2023), PS-EBP: evidence-informed interpretation and decision-making",
+        "src/data/sourceCatalog.ts: world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-data-057",
+      "originalOptions": [
+        "Treat one point as proof of recovery despite scale variation",
+        "Call it meaningful only beyond expected variation or a decision threshold",
+        "Add decimal places without addressing day-to-day scale variation",
+        "Change training after any nonzero wellness difference or isolated response"
+      ],
+      "revisedOptions": [
+        "Treat one point as proof of recovery despite scale variation",
+        "Call it meaningful only beyond expected variation or a preset threshold",
+        "Add decimal places without addressing day-to-day scale variation",
+        "Change training after any nonzero wellness difference or isolated response"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Replaced the longer phrase “decision threshold” with the equally meaningful, concise “preset threshold.” The answer still requires exceeding expected measurement variation or a predefined decision threshold; the revised maximum gap is 7 characters and spread is 14.",
+      "sourcesInspected": [
+        "World Physiotherapy, Policy statement: Evidence-based practice (June 2023), PS-EBP: evidence-informed interpretation and uncertainty",
+        "src/data/sourceCatalog.ts: world-physiotherapy-ebp-2023"
+      ]
+    },
+    {
+      "id": "a1-data-079",
+      "originalOptions": [
+        "Change training from one low response before verifying the entry",
+        "Assume the reminder caused a genuine recovery decline",
+        "Check timestamp, duplicates, reminder context, and raw response",
+        "Delete the low score without documenting the decision"
+      ],
+      "revisedOptions": [
+        "Change training from one low response before verifying the entry",
+        "Assume the reminder caused a genuine recovery decline",
+        "Check timestamp, duplicates, reminder context, and raw entry",
+        "Delete the low score without documenting the decision"
+      ],
+      "originalCorrectIndex": 2,
+      "revisedCorrectIndex": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Shortened “raw response” to “raw entry” without changing the data-quality check required by the scenario. The keyed choice remains verification of timing, duplicates, reminder context, and the original entry; the revised maximum gap is 7 characters and spread is 11.",
+      "sourcesInspected": [
+        "Essentials of Strength Training and Conditioning, Haff and Triplett eds., 5th ed. (2016), supplied PDF: testing, monitoring, protocol and data-recording concepts",
+        "src/data/sourceCatalog.ts: nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-data-095",
+      "originalOptions": [
+        "Display dated sprint, wellness, and injury measures with separate labels",
+        "Define how each component was collected in a protocol note",
+        "Use an unlabelled composite that hides performance and health measures",
+        "Set a follow-up rule linked to the combined data and decision"
+      ],
+      "revisedOptions": [
+        "Display dated sprint, wellness, and injury measures with separate labels",
+        "Define how each component was collected in a protocol note",
+        "Use an unlabelled composite hiding performance and health measures",
+        "Set a follow-up rule linked to the combined data and decision"
+      ],
+      "originalCorrectIndex": 2,
+      "revisedCorrectIndex": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Removed the unnecessary relative clause from the keyed dashboard-design warning while retaining the meaning that an unlabelled composite can hide distinct performance and health measures. The revised maximum gap is 5 characters and spread is 14.",
+      "sourcesInspected": [
+        "Essentials of Strength Training and Conditioning, Haff and Triplett eds., 5th ed. (2016), supplied PDF: testing interpretation and reporting context",
+        "src/data/sourceCatalog.ts: nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-data-120",
+      "originalOptions": [
+        "Check repeatability of the energy-availability indicator",
+        "Estimate a randomized effect of assigned energy availability on injury",
+        "Claim bone-stress injury has no confounding explanation",
+        "Examine the association between baseline indicators and later injury"
+      ],
+      "revisedOptions": [
+        "Check repeatability of the energy-availability indicator",
+        "Estimate a randomized effect of assigned energy availability on injury",
+        "Claim bone-stress injury has no confounding explanation",
+        "Examine the association of baseline indicators with later injury"
+      ],
+      "originalCorrectIndex": 3,
+      "revisedCorrectIndex": 3,
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "Shortened the observational-study answer while preserving the distinction between examining an association and estimating a randomized causal effect. The revised correct-minus-median gap is exactly 8 characters and spread is 15, both within the repository rule.",
+      "sourcesInspected": [
+        "World Physiotherapy, Policy statement: Evidence-based practice (June 2023), PS-EBP: evidence-informed interpretation of observational evidence and uncertainty",
+        "src/data/sourceCatalog.ts: world-physiotherapy-ebp-2023"
+      ]
+    }
+  ]
+}

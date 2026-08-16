@@ -1,0 +1,238 @@
+{
+  "auditType": "final10-content-repair-testing-assessment",
+  "generatedAt": "2026-08-16",
+  "readOnly": false,
+  "scope": {
+    "reviewedFile": "question_bank/section_a1_testing_assessment.json",
+    "reviewedQuestionCount": 150,
+    "editScope": [
+      "question_bank/section_a1_testing_assessment.json",
+      "research/final10_content_repair_testing_assessment.json"
+    ],
+    "protectedFiles": [
+      "question_bank/section_a1.json",
+      "src/data/sourceCatalog.ts",
+      "question_bank/section_a1_core_disciplines.json",
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json",
+      "question_bank/section_a1_technology_biostatistics.json",
+      "question_bank/section_a1_holistic_travel_ethics.json"
+    ]
+  },
+  "summary": {
+    "originalCount": 150,
+    "revisedCount": 150,
+    "changedCount": 4,
+    "answerKeyChanges": 1,
+    "stemChanges": 0,
+    "optionChanges": 1,
+    "explanationChanges": 2,
+    "sourceIdChanges": 0
+  },
+  "independentCheck": {
+    "checksPerformed": [
+      "150-item count",
+      "unique sequential question IDs",
+      "required question fields",
+      "exactly four options per question",
+      "zero-based correct indices in the range 0 through 3",
+      "a1-test-062 answer-key verification against the stated intended answer",
+      "a1-test-013 explanation verification for inter-rater reliability",
+      "a1-test-071 explanation verification for rested pre-exercise measurements and acute exercise/fatigue effects",
+      "a1-test-144 grammatical parallelism after the stem ending in is:"
+    ],
+    "remainingHighConfidenceFindings": [],
+    "note": "The four release-audit findings were repaired while preserving question stems, source IDs, answer meaning, and the established four-option schema."
+  },
+  "changes": [
+    {
+      "id": "a1-test-062",
+      "defectType": "answer-key-error",
+      "original": {
+        "id": "a1-test-062",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "analytical",
+        "text": "For an athlete entering a new training block, a test-retest change should be interpreted against:",
+        "options": [
+          "The athlete's ranking, position, and recent performance",
+          "The typical error and smallest worthwhile change",
+          "Only the direction of the observed change",
+          "A universal percentage applied to every test"
+        ],
+        "correct": 2,
+        "explanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-test-062",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "analytical",
+        "text": "For an athlete entering a new training block, a test-retest change should be interpreted against:",
+        "options": [
+          "The athlete's ranking, position, and recent performance",
+          "The typical error and smallest worthwhile change",
+          "Only the direction of the observed change",
+          "A universal percentage applied to every test"
+        ],
+        "correct": 1,
+        "explanation": "A change is more meaningful when it exceeds expected measurement error and matters practically.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "originalCorrectIndex": 2,
+      "revisedCorrectIndex": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "The intended answer is the second option, The typical error and smallest worthwhile change. The zero-based correct index was changed from 2 to 1; the question, options, explanation, and source attribution otherwise remain unchanged.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-013",
+      "defectType": "explanation-definition-error",
+      "original": {
+        "id": "a1-test-013",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "foundational",
+        "text": "Two physiotherapists score the same movement video independently. This design primarily assesses:",
+        "options": [
+          "Test–retest reliability",
+          "Criterion validity",
+          "Sensitivity to change",
+          "Inter-rater reliability"
+        ],
+        "correct": 3,
+        "explanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+        "sourceId": "acsm-getp-12"
+      },
+      "revised": {
+        "id": "a1-test-013",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "foundational",
+        "text": "Two physiotherapists score the same movement video independently. This design primarily assesses:",
+        "options": [
+          "Test–retest reliability",
+          "Criterion validity",
+          "Sensitivity to change",
+          "Inter-rater reliability"
+        ],
+        "correct": 3,
+        "explanation": "Inter-rater reliability is the agreement or consistency of scores assigned independently by different raters assessing the same performance or material.",
+        "sourceId": "acsm-getp-12"
+      },
+      "originalCorrectIndex": 3,
+      "revisedCorrectIndex": 3,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "reviewerNote": "The keyed answer is inter-rater reliability, so the explanation now defines agreement or consistency among independent raters rather than test–retest reliability.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-071",
+      "defectType": "explanation-context-error",
+      "original": {
+        "id": "a1-test-071",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "applied",
+        "text": "During a physiological battery, resting heart rate and blood pressure should generally be recorded:",
+        "options": [
+          "After the maximal test in the battery",
+          "Before exercise, after an appropriate quiet rest",
+          "Only if the athlete reports fatigue afterward",
+          "At a different time for every participant"
+        ],
+        "correct": 1,
+        "explanation": "Fatigue, potentiation, learning, and psychological effects can alter later test results, so sequence should be planned.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "id": "a1-test-071",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Parameters & Athlete Assessment",
+        "difficulty": "applied",
+        "text": "During a physiological battery, resting heart rate and blood pressure should generally be recorded:",
+        "options": [
+          "After the maximal test in the battery",
+          "Before exercise, after an appropriate quiet rest",
+          "Only if the athlete reports fatigue afterward",
+          "At a different time for every participant"
+        ],
+        "correct": 1,
+        "explanation": "Resting heart rate and blood pressure should be recorded before exercise after a quiet rest period, because acute exercise and fatigue can raise or otherwise alter these measures; allowing rest helps reduce the influence of the preceding activity and establishes a comparable resting baseline.",
+        "sourceId": "nsca-essentials-5"
+      },
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "The explanation now justifies the keyed rested pre-exercise measurement: acute exercise and fatigue can alter heart rate and blood pressure, while quiet rest reduces preceding-activity effects and establishes a comparable baseline.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "acsm-getp-12",
+        "sai-notification-2026"
+      ]
+    },
+    {
+      "id": "a1-test-144",
+      "defectType": "option-grammar-giveaway",
+      "original": {
+        "id": "a1-test-144",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Protocols & Standardization",
+        "difficulty": "analytical",
+        "text": "For an athlete entering a new training block, a good test report should communicate results in a way that is:",
+        "options": [
+          "Present only raw values so interpretation remains with the reader",
+          "Emphasize the best result and omit uncertainty to avoid confusion",
+          "Use technical terminology without adapting it to the audience",
+          "Accurate, clear, contextualized, and relevant to the decision"
+        ],
+        "correct": 3,
+        "explanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "revised": {
+        "id": "a1-test-144",
+        "section": "A1",
+        "topic": "Testing Parameters, Standardization & Athlete Assessment",
+        "subtopic": "Test Protocols & Standardization",
+        "difficulty": "analytical",
+        "text": "For an athlete entering a new training block, a good test report should communicate results in a way that is:",
+        "options": [
+          "Raw and uninterpreted, leaving context to the reader",
+          "Selective, emphasizing the best result while omitting uncertainty",
+          "Technical and audience-insensitive, using unexplained terminology",
+          "Accurate, clear, contextualized, and relevant to the decision"
+        ],
+        "correct": 3,
+        "explanation": "Applied reporting links results to context, uncertainty, practical meaning, and the intended audience.",
+        "sourceId": "world-physiotherapy-ebp-2023"
+      },
+      "originalCorrectIndex": 3,
+      "revisedCorrectIndex": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "reviewerNote": "All four options now function as parallel adjectival descriptions after is:. The correct index and answer meaning are preserved; the three distractors remain semantically incorrect reporting styles while matching the grammatical form of the keyed option.",
+      "sourcesInspected": [
+        "world-physiotherapy-ebp-2023",
+        "sai-notification-2026"
+      ]
+    }
+  ]
+}

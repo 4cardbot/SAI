@@ -1,0 +1,194 @@
+{
+  "auditType": "Independent final release audit of the current technology/biostatistics and holistic/travel/ethics A1 question files",
+  "auditedFiles": [
+    "question_bank/section_a1_technology_biostatistics.json",
+    "question_bank/section_a1_holistic_travel_ethics.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "id": "R2-001",
+      "defectType": "incorrect_circadian_phase_relationship",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-064"
+        ],
+        "sourceId": "ioc-load-illness-2016",
+        "stem": "An athlete travels west and becomes sleepy early in the local evening. The likely issue is that:",
+        "keyedOption": "The circadian phase remains relatively early for the new local time",
+        "explanation": "After westward travel, the athlete may need a phase delay; early evening sleepiness can reflect a relatively early internal clock.",
+        "basis": "Westward travel requires a phase delay. Until adjustment, the athlete's internal clock is relatively late/advanced compared with destination local time; that mismatch can produce early local-evening sleepiness. The keyed option and explanation say relatively early, reversing the relationship."
+      },
+      "recommendedRepair": "Change the keyed option to an equivalent of 'The circadian phase remains relatively late/advanced for the new local time' and update the explanation; the correct index can remain 2."
+    },
+    {
+      "id": "R2-002",
+      "defectType": "stem_option_grammar_and_completion",
+      "evidence": {
+        "questionIds": [
+          "a1-tech-035",
+          "a1-tech-121",
+          "a1-tech-131",
+          "a1-tech-133",
+          "a1-tech-135",
+          "a1-tech-141",
+          "a1-holistic-035",
+          "a1-holistic-078",
+          "a1-holistic-083"
+        ],
+        "examples": [
+          "a1-tech-035: 'Centre of pressure is the:' + 'The ground-reaction force's application point' duplicates the article.",
+          "a1-tech-121: 'associated with a predicted:' + 'A 0.4-unit increase in outcome' is not a grammatical completion.",
+          "a1-tech-131: 'contain the:' + 'A fixed population parameter' duplicates/misplaces the article.",
+          "a1-tech-133: 'makes a CI:' + 'Becomes narrower overall' uses a finite verb where an object complement is required.",
+          "a1-tech-135 and a1-tech-141 repeat 'the' before options that already begin with 'The'.",
+          "a1-holistic-035: 'should not be used to:' + 'Use one score alone...' is redundant and awkward as a completion.",
+          "a1-holistic-078: 'is to:' + 'Use movement breaks, appropriate fluids, avoid exhaustion' is not parallel coordination.",
+          "a1-holistic-083: 'developed by:' + 'Use repeated heat exposure...' requires 'using' or a rewritten stem."
+        ]
+      },
+      "recommendedRepair": "Make each completion grammatical while preserving the keyed meaning: remove duplicate articles or revise the stems for a1-tech-035/a1-tech-131/a1-tech-135/a1-tech-141; use 'a 0.4-unit increase...' for a1-tech-121; use 'narrower overall' for a1-tech-133; use 'Rely on one score alone...' for a1-holistic-035; use 'Use movement breaks, drink appropriately, and avoid exhaustion' for a1-holistic-078; and use 'Using repeated heat exposure with recovery' for a1-holistic-083."
+    },
+    {
+      "id": "R2-003",
+      "defectType": "sourceId_does_not_directly_support_ML_claim",
+      "evidence": {
+        "questionIds": [
+          "a1-tech-054",
+          "a1-tech-055",
+          "a1-tech-056"
+        ],
+        "sourceId": "nist-ai-rmf-2023",
+        "claims": [
+          "post-injury predictors are data leakage",
+          "sensitivity is the true-positive proportion",
+          "accuracy can mislead with rare injury cases because a model predicts the majority class"
+        ],
+        "basis": "The cataloged NIST AI RMF source covers high-level validation, accuracy/generalizability, bias, and human oversight, but does not define data leakage, sensitivity, or rare-class/majority-class accuracy behavior. The current source catalog has no directly assigned classification-metrics or leakage source for these three items.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: nist-ai-rmf-2023",
+          "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+        ]
+      },
+      "recommendedRepair": "Assign a directly inspected primary machine-learning evaluation/classification source covering leakage, sensitivity/true-positive rate, and class imbalance, or rewrite the items to claims explicitly supported by the NIST AI RMF. Keep the existing keys unless the repaired wording changes them."
+    },
+    {
+      "id": "R2-004",
+      "defectType": "sourceId_does_not_support_athlete_management_system_definition",
+      "evidence": {
+        "questionIds": [
+          "a1-tech-061"
+        ],
+        "sourceId": "ioc-load-illness-2016",
+        "keyedClaim": "The primary value of an athlete-management system is to centralize longitudinal athlete information.",
+        "basis": "The assigned IOC consensus source is cataloged for training load, recovery, travel, illness, and athlete monitoring; it does not establish the definition or primary function of an athlete-management system. The cataloged AIS Data Governance source is the direct source family for governed athlete-information systems.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: ioc-load-illness-2016 and ais-athlete-data-governance",
+          "https://bjsm.bmj.com/content/50/17/1043",
+          "https://www.ausport.gov.au/ais/performance-support/topicinitiative/data-governance"
+        ]
+      },
+      "recommendedRepair": "Remap a1-tech-061 to ais-athlete-data-governance or add an inspected athlete-management-system source; retain the answer and explanation if the source is repaired."
+    },
+    {
+      "id": "R2-005",
+      "defectType": "sourceId_does_not_support_monitoring_ethics_claim",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-036",
+          "a1-holistic-039"
+        ],
+        "sourceId": "ioc-load-illness-2016",
+        "claims": [
+          "ethical first steps for collecting mood and sleep data include purpose, access, storage, and voluntary participation",
+          "adolescent wellness monitoring should be age-appropriate, private, and linked to support"
+        ],
+        "basis": "The IOC source is directly relevant to athlete wellness/load monitoring but not to informed consent, privacy, youth participation, or safeguarding. The cataloged World Physiotherapy ethics and informed-consent sources directly cover autonomy, confidentiality, consent, and responsible-party arrangements.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: ioc-load-illness-2016, world-physiotherapy-ethics-2023, and world-physiotherapy-consent-2023",
+          "https://bjsm.bmj.com/content/50/17/1043",
+          "https://world.physio/policy/ps-ethical-responsibilities-and-principles",
+          "https://world.physio/policy/ps-consent"
+        ]
+      },
+      "recommendedRepair": "Remap a1-holistic-036 to world-physiotherapy-consent-2023 and a1-holistic-039 to world-physiotherapy-ethics-2023 or another directly inspected youth-monitoring ethics source; preserve the current answer keys."
+    },
+    {
+      "id": "R2-006",
+      "defectType": "sourceId_does_not_support_supplement_and_medication_risk_claims",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-092",
+          "a1-holistic-093",
+          "a1-holistic-095",
+          "a1-holistic-096",
+          "a1-holistic-099"
+        ],
+        "sourceId": "wada-prohibited-list-2026",
+        "claims": [
+          "batch-testing, contamination risk, and product quality must be checked for natural/herbal supplements",
+          "prescribed-medication questions require qualified medical and anti-doping referral plus documentation",
+          "third-party certification reduces uncertainty but cannot guarantee safety",
+          "uncertain supplement use should be documented and escalated for guidance"
+        ],
+        "basis": "The WADA source is the current prohibited-substances/methods list and supports checking anti-doping status, but it is not the direct source for supplement contamination, batch-testing limits, product-quality advice, clinical medication referral, or documentation practice. Official AIS supplement material directly addresses those risk and certification claims.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: wada-prohibited-list-2026",
+          "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list",
+          "https://www.ais.gov.au/nutrition/supplements",
+          "https://www.ais.gov.au/__data/assets/pdf_file/0015/1000491/Sport-supplement-fact-sheets-Multivitamins-finalised-030225.pdf"
+        ]
+      },
+      "recommendedRepair": "Add and inspect a dated official supplement-risk/anti-doping guidance source, then assign it to the supplement-risk and medication-advice items; retain wada-prohibited-list-2026 for questions that ask about current prohibited status or list checking."
+    },
+    {
+      "id": "R2-007",
+      "defectType": "sourceId_is_not_specific_to_minor_consent_claim",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-116"
+        ],
+        "sourceId": "world-physiotherapy-ethics-2023",
+        "keyedClaim": "A 16-year-old's optional monitoring should include assent plus required guardian consent.",
+        "basis": "The assigned ethics policy supports autonomy, privacy, and informed consent generally, but the specific minor/responsible-party requirement is stated directly in the separate cataloged World Physiotherapy informed-consent policy, which addresses minors and guardians.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: world-physiotherapy-ethics-2023 and world-physiotherapy-consent-2023",
+          "https://world.physio/policy/ps-ethical-responsibilities-and-principles",
+          "https://world.physio/policy/ps-consent"
+        ]
+      },
+      "recommendedRepair": "Remap a1-holistic-116 to world-physiotherapy-consent-2023 or another directly inspected youth-research/monitoring consent source; retain the keyed answer with jurisdiction-sensitive wording if needed."
+    },
+    {
+      "id": "R2-008",
+      "defectType": "sourceId_does_not_directly_support_return_to_sport_criteria",
+      "evidence": {
+        "questionIds": [
+          "a1-holistic-129"
+        ],
+        "sourceId": "interdisciplinary-performance-sport-burns-2023",
+        "keyedClaim": "Return-to-sport decisions integrate symptoms, function, load, sport demands, and risk.",
+        "basis": "The assigned Burns and Collins scoping review is cataloged for interdisciplinary collaboration, roles, culture, and organizational processes. It does not directly establish clinical return-to-sport criteria or the listed symptom/function/load/demand/risk framework.",
+        "sourceEvidence": [
+          "src/data/sourceCatalog.ts: interdisciplinary-performance-sport-burns-2023",
+          "https://pubmed.ncbi.nlm.nih.gov/37042174/",
+          "https://bjsm.bmj.com/content/57/9/500"
+        ]
+      },
+      "recommendedRepair": "Assign a directly inspected general return-to-sport consensus/guideline, or pair a relevant injury-specific guideline with a narrower stem; keep the interdisciplinary source for questions about team roles and coordination."
+    }
+  ],
+  "summary": {
+    "status": "repair_required_before_final_release",
+    "confirmedFindingCount": 8,
+    "affectedQuestionCount": 23,
+    "checksPassed": [
+      "Both files contain 150 questions; total inspected count is 300.",
+      "All records have the expected ten fields, four distinct options, an in-range correct index, and a non-empty sourceId.",
+      "All 300 sourceIds resolve in src/data/sourceCatalog.ts; repository bank validation passes.",
+      "No duplicate IDs, exact duplicate stems, or exact duplicate option sets were found within either audited file.",
+      "The questions follow the notification's Section A1 topic coverage and four-option sample-item shape."
+    ],
+    "excludedConceptualConcerns": "General concerns about item difficulty, conservative wording, broad source scope, or possible alternative phrasing were not reported unless the keyed concept was demonstrably wrong, the completion was ungrammatical, or the assigned source clearly did not support the tested claim."
+  }
+}

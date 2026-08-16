@@ -1,0 +1,2642 @@
+{
+  "auditType": "final21-bounded-repair-core-disciplines",
+  "auditDate": "2026-08-16",
+  "reviewedCount": 150,
+  "changedCount": 115,
+  "findingIds": [
+    "R5-CT-001",
+    "R5-CT-004"
+  ],
+  "scope": {
+    "file": "question_bank/section_a1_core_disciplines.json",
+    "mergedFileIntentionallyUntouched": "question_bank/section_a1.json",
+    "optionPermutationQuestionCount": 113,
+    "sourceChangeQuestionCount": 4,
+    "targetBlocks": [
+      {
+        "from": "a1-core-001",
+        "to": "a1-core-019",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "from": "a1-core-020",
+        "to": "a1-core-038",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "from": "a1-core-039",
+        "to": "a1-core-057",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "from": "a1-core-058",
+        "to": "a1-core-076",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          4,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "from": "a1-core-077",
+        "to": "a1-core-095",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "from": "a1-core-096",
+        "to": "a1-core-114",
+        "questionCount": 19,
+        "correctIndexCounts": [
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "from": "a1-core-115",
+        "to": "a1-core-132",
+        "questionCount": 18,
+        "correctIndexCounts": [
+          5,
+          4,
+          5,
+          4
+        ]
+      },
+      {
+        "from": "a1-core-133",
+        "to": "a1-core-150",
+        "questionCount": 18,
+        "correctIndexCounts": [
+          4,
+          5,
+          4,
+          5
+        ]
+      }
+    ],
+    "finalCorrectIndexCounts": [
+      38,
+      38,
+      37,
+      37
+    ]
+  },
+  "changes": [
+    {
+      "id": "a1-core-001",
+      "originalOptions": [
+        "It does not separate fat mass from lean mass",
+        "It directly estimates body-fat percentage",
+        "It accounts for muscularity in athletes",
+        "It identifies regional fat distribution"
+      ],
+      "revisedOptions": [
+        "It accounts for muscularity in athletes",
+        "It directly estimates body-fat percentage",
+        "It does not separate fat mass from lean mass",
+        "It identifies regional fat distribution"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-002",
+      "originalOptions": [
+        "BMI cannot distinguish muscle from fat",
+        "BMI directly measures adiposity",
+        "BMI is valid only in endurance athletes",
+        "BMI identifies regional fat pattern"
+      ],
+      "revisedOptions": [
+        "BMI directly measures adiposity",
+        "BMI cannot distinguish muscle from fat",
+        "BMI is valid only in endurance athletes",
+        "BMI identifies regional fat pattern"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-004",
+      "originalOptions": [
+        "Use a validated body-composition assessment",
+        "Assume identical body composition from BMI",
+        "Diagnose excess adiposity from BMI alone",
+        "Assign both athletes the same somatotype"
+      ],
+      "revisedOptions": [
+        "Assign both athletes the same somatotype",
+        "Assume identical body composition from BMI",
+        "Diagnose excess adiposity from BMI alone",
+        "Use a validated body-composition assessment"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-005",
+      "originalOptions": [
+        "Interpret BMI with body-composition context",
+        "A BMI above 25 proves high body fat",
+        "BMI is irrelevant for every athlete",
+        "BMI alone determines readiness for competition"
+      ],
+      "revisedOptions": [
+        "A BMI above 25 proves high body fat",
+        "Interpret BMI with body-composition context",
+        "BMI is irrelevant for every athlete",
+        "BMI alone determines readiness for competition"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-006",
+      "originalOptions": [
+        "Air-displacement plethysmography",
+        "Skinfold assessment",
+        "Bioelectrical impedance analysis",
+        "Dual-energy X-ray absorptiometry"
+      ],
+      "revisedOptions": [
+        "Skinfold assessment",
+        "Air-displacement plethysmography",
+        "Bioelectrical impedance analysis",
+        "Dual-energy X-ray absorptiometry"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-007",
+      "originalOptions": [
+        "Skinfolds at standardized sites",
+        "Bioelectrical impedance with hydration control",
+        "Air-displacement plethysmography",
+        "Dual-energy X-ray absorptiometry"
+      ],
+      "revisedOptions": [
+        "Bioelectrical impedance with hydration control",
+        "Skinfolds at standardized sites",
+        "Air-displacement plethysmography",
+        "Dual-energy X-ray absorptiometry"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-008",
+      "originalOptions": [
+        "Skinfold assessment",
+        "Hydrostatic weighing",
+        "Waist-to-height ratio",
+        "Air-displacement plethysmography"
+      ],
+      "revisedOptions": [
+        "Waist-to-height ratio",
+        "Hydrostatic weighing",
+        "Skinfold assessment",
+        "Air-displacement plethysmography"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-010",
+      "originalOptions": [
+        "Use identical sites and technique each visit",
+        "Measure different sites at each visit",
+        "Measure only after heavy exercise sessions",
+        "Replace skinfolds with BMI alone"
+      ],
+      "revisedOptions": [
+        "Measure only after heavy exercise sessions",
+        "Measure different sites at each visit",
+        "Use identical sites and technique each visit",
+        "Replace skinfolds with BMI alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "acsm-getp-12",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-011",
+      "originalOptions": [
+        "Linearity and slenderness",
+        "Biological maturation",
+        "Muscular development",
+        "Subcutaneous adiposity"
+      ],
+      "revisedOptions": [
+        "Linearity and slenderness",
+        "Muscular development",
+        "Biological maturation",
+        "Subcutaneous adiposity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-012",
+      "originalOptions": [
+        "Mesomorphy",
+        "Ectomorphy",
+        "Endomorphy",
+        "Chronological age"
+      ],
+      "revisedOptions": [
+        "Chronological age",
+        "Ectomorphy",
+        "Endomorphy",
+        "Mesomorphy"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-014",
+      "originalOptions": [
+        "Relative muscular development",
+        "The timing of peak height velocity",
+        "The distribution of subcutaneous fat",
+        "The athlete’s training motivation"
+      ],
+      "revisedOptions": [
+        "The distribution of subcutaneous fat",
+        "The timing of peak height velocity",
+        "Relative muscular development",
+        "The athlete’s training motivation"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-015",
+      "originalOptions": [
+        "Mesomorphy describes muscular development",
+        "Mesomorphy measures chronological age",
+        "Mesomorphy estimates regional adiposity",
+        "Mesomorphy indicates competition anxiety"
+      ],
+      "revisedOptions": [
+        "Mesomorphy indicates competition anxiety",
+        "Mesomorphy measures chronological age",
+        "Mesomorphy estimates regional adiposity",
+        "Mesomorphy describes muscular development"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-016",
+      "originalOptions": [
+        "It has no relationship to adolescent body size",
+        "Chronological age precisely identifies maturation status",
+        "Its timing is identical among athletes of the same age",
+        "It affects size, strength, and adaptation timing"
+      ],
+      "revisedOptions": [
+        "It has no relationship to adolescent body size",
+        "It affects size, strength, and adaptation timing",
+        "Its timing is identical among athletes of the same age",
+        "Chronological age precisely identifies maturation status"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-017",
+      "originalOptions": [
+        "Maturation alters size, strength, and timing",
+        "Chronological age removes maturation effects",
+        "Maturation affects flexibility only",
+        "Adolescent strength testing is always invalid"
+      ],
+      "revisedOptions": [
+        "Maturation affects flexibility only",
+        "Chronological age removes maturation effects",
+        "Maturation alters size, strength, and timing",
+        "Adolescent strength testing is always invalid"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-019",
+      "originalOptions": [
+        "Growth can alter coordination and tissue tolerance",
+        "Growth guarantees identical adaptation in every athlete",
+        "Growth changes only the athlete’s motivation",
+        "Growth eliminates injury risk during training"
+      ],
+      "revisedOptions": [
+        "Growth eliminates injury risk during training",
+        "Growth guarantees identical adaptation in every athlete",
+        "Growth changes only the athlete’s motivation",
+        "Growth can alter coordination and tissue tolerance"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-020",
+      "originalOptions": [
+        "Oxidative phosphorylation",
+        "Beta oxidation",
+        "Gluconeogenesis",
+        "The phosphagen system"
+      ],
+      "revisedOptions": [
+        "Oxidative phosphorylation",
+        "Beta oxidation",
+        "The phosphagen system",
+        "Gluconeogenesis"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-021",
+      "originalOptions": [
+        "The phosphagen system in the first seconds",
+        "Aerobic oxidation over the whole effort",
+        "Anaerobic glycolysis after several seconds",
+        "Fat oxidation during prolonged exercise"
+      ],
+      "revisedOptions": [
+        "Fat oxidation during prolonged exercise",
+        "Aerobic oxidation over the whole effort",
+        "Anaerobic glycolysis after several seconds",
+        "The phosphagen system in the first seconds"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-023",
+      "originalOptions": [
+        "The phosphagen system",
+        "Oxidative phosphorylation",
+        "Fatty-acid oxidation",
+        "Gluconeogenesis"
+      ],
+      "revisedOptions": [
+        "Oxidative phosphorylation",
+        "The phosphagen system",
+        "Fatty-acid oxidation",
+        "Gluconeogenesis"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-024",
+      "originalOptions": [
+        "The phosphagen system",
+        "Aerobic metabolism",
+        "Beta-oxidation",
+        "Glycolysis alone"
+      ],
+      "revisedOptions": [
+        "Beta-oxidation",
+        "Aerobic metabolism",
+        "The phosphagen system",
+        "Glycolysis alone"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-025",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Lower stroke volume during exercise"
+      ],
+      "revisedOptions": [
+        "Lower stroke volume during exercise",
+        "Reduced oxygen extraction by muscle",
+        "Reduced capillary density in muscle",
+        "Greater mitochondrial oxidative capacity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-027",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced oxidative enzyme activity",
+        "Lower muscle blood flow during exercise",
+        "A smaller capillary network in muscle"
+      ],
+      "revisedOptions": [
+        "Reduced oxidative enzyme activity",
+        "Greater mitochondrial oxidative capacity",
+        "Lower muscle blood flow during exercise",
+        "A smaller capillary network in muscle"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-028",
+      "originalOptions": [
+        "Greater mitochondrial oxidative capacity",
+        "Reduced mitochondrial enzyme activity",
+        "A shift away from aerobic oxygen use",
+        "Lower oxygen extraction during exercise"
+      ],
+      "revisedOptions": [
+        "A shift away from aerobic oxygen use",
+        "Reduced mitochondrial enzyme activity",
+        "Greater mitochondrial oxidative capacity",
+        "Lower oxygen extraction during exercise"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-030",
+      "originalOptions": [
+        "Blood lactate concentration",
+        "Arterial-venous oxygen difference",
+        "Respiratory exchange ratio",
+        "Ventilatory equivalent"
+      ],
+      "revisedOptions": [
+        "Blood lactate concentration",
+        "Ventilatory equivalent",
+        "Respiratory exchange ratio",
+        "Arterial-venous oxygen difference"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-031",
+      "originalOptions": [
+        "Arterial-venous oxygen difference",
+        "Resting respiratory rate",
+        "Venous carbon-dioxide pressure",
+        "Blood glucose concentration"
+      ],
+      "revisedOptions": [
+        "Resting respiratory rate",
+        "Arterial-venous oxygen difference",
+        "Venous carbon-dioxide pressure",
+        "Blood glucose concentration"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-033",
+      "originalOptions": [
+        "Arterial-venous oxygen extraction difference",
+        "Cardiac output as the central pump variable",
+        "Stroke volume as the only variable",
+        "Pulmonary ventilation during exercise"
+      ],
+      "revisedOptions": [
+        "Pulmonary ventilation during exercise",
+        "Cardiac output as the central pump variable",
+        "Stroke volume as the only variable",
+        "Arterial-venous oxygen extraction difference"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-034",
+      "originalOptions": [
+        "4.50 L/min",
+        "0.72 L/min",
+        "18.25 L/min",
+        "72.00 L/min"
+      ],
+      "revisedOptions": [
+        "0.72 L/min",
+        "4.50 L/min",
+        "18.25 L/min",
+        "72.00 L/min"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-035",
+      "originalOptions": [
+        "Glycogen depletion during repeated efforts",
+        "A fixed rate despite recovery duration",
+        "Oxidative metabolism during adequate recovery",
+        "Passive stretching between sprint efforts"
+      ],
+      "revisedOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "A fixed rate despite recovery duration",
+        "Glycogen depletion during repeated efforts",
+        "Passive stretching between sprint efforts"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-036",
+      "originalOptions": [
+        "Oxidative metabolism during adequate recovery",
+        "Complete muscle inactivity without oxygen delivery",
+        "Immediate depletion of muscle glycogen",
+        "Fat oxidation only during the sprint"
+      ],
+      "revisedOptions": [
+        "Fat oxidation only during the sprint",
+        "Complete muscle inactivity without oxygen delivery",
+        "Immediate depletion of muscle glycogen",
+        "Oxidative metabolism during adequate recovery"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-037",
+      "originalOptions": [
+        "Oxidative recovery has not restored phosphocreatine",
+        "Glycogen stores are instantly depleted during recovery",
+        "The athlete cannot resynthesize ATP between efforts",
+        "Lactate is the only fuel for the next sprint"
+      ],
+      "revisedOptions": [
+        "The athlete cannot resynthesize ATP between efforts",
+        "Glycogen stores are instantly depleted during recovery",
+        "Oxidative recovery has not restored phosphocreatine",
+        "Lactate is the only fuel for the next sprint"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-040",
+      "originalOptions": [
+        "Cardiorespiratory endurance alone during running",
+        "Proprioception and neuromuscular control",
+        "Bone mineral density alone after a sprain",
+        "Upper-limb flexibility alone in the athlete"
+      ],
+      "revisedOptions": [
+        "Cardiorespiratory endurance alone during running",
+        "Upper-limb flexibility alone in the athlete",
+        "Bone mineral density alone after a sprain",
+        "Proprioception and neuromuscular control"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-041",
+      "originalOptions": [
+        "Reduced lung volume during exercise",
+        "Proprioception and neuromuscular control",
+        "Loss of muscle glycogen during rest",
+        "Excess body fat as the primary deficit"
+      ],
+      "revisedOptions": [
+        "Proprioception and neuromuscular control",
+        "Reduced lung volume during exercise",
+        "Loss of muscle glycogen during rest",
+        "Excess body fat as the primary deficit"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-043",
+      "originalOptions": [
+        "Resting heart rate and blood pressure",
+        "Proprioception and neuromuscular control",
+        "Visual acuity during the landing task",
+        "Body-mass index without movement testing"
+      ],
+      "revisedOptions": [
+        "Resting heart rate and blood pressure",
+        "Visual acuity during the landing task",
+        "Proprioception and neuromuscular control",
+        "Body-mass index without movement testing"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-045",
+      "originalOptions": [
+        "Medial meniscal injury during the pivot",
+        "Anterior cruciate ligament injury",
+        "Achilles tendon injury during running",
+        "Deltoid ligament injury at the ankle"
+      ],
+      "revisedOptions": [
+        "Anterior cruciate ligament injury",
+        "Medial meniscal injury during the pivot",
+        "Achilles tendon injury during running",
+        "Deltoid ligament injury at the ankle"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-047",
+      "originalOptions": [
+        "Posterior cruciate ligament",
+        "Anterior cruciate ligament",
+        "Medial collateral ligament",
+        "Patellar ligament"
+      ],
+      "revisedOptions": [
+        "Posterior cruciate ligament",
+        "Medial collateral ligament",
+        "Anterior cruciate ligament",
+        "Patellar ligament"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-048",
+      "originalOptions": [
+        "Delayed-onset muscle soreness after training",
+        "An anterior cruciate ligament injury",
+        "A simple finger sprain after contact",
+        "An uncomplicated skin abrasion"
+      ],
+      "revisedOptions": [
+        "An anterior cruciate ligament injury",
+        "Delayed-onset muscle soreness after training",
+        "A simple finger sprain after contact",
+        "An uncomplicated skin abrasion"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-049",
+      "originalOptions": [
+        "Progress from symptoms to sport-specific loading",
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Rely on passive treatment without active loading"
+      ],
+      "revisedOptions": [
+        "Rely on passive treatment without active loading",
+        "Return directly from daily activity to competition",
+        "Use a fixed calendar regardless of function",
+        "Progress from symptoms to sport-specific loading"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-050",
+      "originalOptions": [
+        "Return directly to unrestricted competition",
+        "Progress loading using symptoms and function",
+        "Avoid loading until the season ends",
+        "Use analgesia as the only clearance criterion"
+      ],
+      "revisedOptions": [
+        "Return directly to unrestricted competition",
+        "Avoid loading until the season ends",
+        "Progress loading using symptoms and function",
+        "Use analgesia as the only clearance criterion"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-051",
+      "originalOptions": [
+        "Return immediately to maximal competition",
+        "Advance from controlled to sport-specific loading",
+        "Stop all strengthening permanently during rehabilitation",
+        "Test resting range of motion only before clearance"
+      ],
+      "revisedOptions": [
+        "Advance from controlled to sport-specific loading",
+        "Return immediately to maximal competition",
+        "Stop all strengthening permanently during rehabilitation",
+        "Test resting range of motion only before clearance"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-052",
+      "originalOptions": [
+        "Replace exercise with complete bed rest throughout recovery",
+        "Increase sport-specific load while monitoring symptoms",
+        "Add maximal jumping without preparation or progression",
+        "Clear the athlete because resting pain is absent"
+      ],
+      "revisedOptions": [
+        "Replace exercise with complete bed rest throughout recovery",
+        "Clear the athlete because resting pain is absent",
+        "Add maximal jumping without preparation or progression",
+        "Increase sport-specific load while monitoring symptoms"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-054",
+      "originalOptions": [
+        "Injury date combined with a fixed time-based schedule",
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Pain report combined with functional testing alone",
+        "A performance test without considering sport context"
+      ],
+      "revisedOptions": [
+        "Risk-informed clinical and multidisciplinary criteria",
+        "Injury date combined with a fixed time-based schedule",
+        "Pain report combined with functional testing alone",
+        "A performance test without considering sport context"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-055",
+      "originalOptions": [
+        "Use only the athlete’s desire and motivation to compete",
+        "Integrate symptoms, function, sport demands, and risk",
+        "Use only elapsed days since the injury occurred",
+        "Use one resting pain score without function testing"
+      ],
+      "revisedOptions": [
+        "Use only the athlete’s desire and motivation to compete",
+        "Use one resting pain score without function testing",
+        "Use only elapsed days since the injury occurred",
+        "Integrate symptoms, function, sport demands, and risk"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-056",
+      "originalOptions": [
+        "A normal resting pulse as the only clearance measure",
+        "Sport demands and multidisciplinary risk assessment",
+        "The athlete’s jersey number as the only identifier",
+        "A longer period of complete inactivity before testing"
+      ],
+      "revisedOptions": [
+        "A normal resting pulse as the only clearance measure",
+        "The athlete’s jersey number as the only identifier",
+        "Sport demands and multidisciplinary risk assessment",
+        "A longer period of complete inactivity before testing"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-058",
+      "originalOptions": [
+        "Angular velocity",
+        "Moment arm",
+        "Linear impulse",
+        "Segment mass"
+      ],
+      "revisedOptions": [
+        "Angular velocity",
+        "Linear impulse",
+        "Moment arm",
+        "Segment mass"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-059",
+      "originalOptions": [
+        "15 N·m",
+        "60 N·m",
+        "150 N·m",
+        "375 N·m"
+      ],
+      "revisedOptions": [
+        "15 N·m",
+        "375 N·m",
+        "150 N·m",
+        "60 N·m"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-061",
+      "originalOptions": [
+        "When force passes through the centre of the joint",
+        "When force acts at about 90° to the lever arm",
+        "When force is parallel to the moment arm",
+        "When the moment arm is zero at the joint"
+      ],
+      "revisedOptions": [
+        "When force passes through the centre of the joint",
+        "When force is parallel to the moment arm",
+        "When force acts at about 90° to the lever arm",
+        "When the moment arm is zero at the joint"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-062",
+      "originalOptions": [
+        "3.2 N·m",
+        "20 N·m",
+        "80 N·m",
+        "320 N·m"
+      ],
+      "revisedOptions": [
+        "20 N·m",
+        "3.2 N·m",
+        "80 N·m",
+        "320 N·m"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-063",
+      "originalOptions": [
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Horizontal deceleration of the body",
+        "Angular displacement of the trunk"
+      ],
+      "revisedOptions": [
+        "Vertical impulse during that contact",
+        "Propulsive impulse in the next contact",
+        "Angular displacement of the trunk",
+        "Horizontal deceleration of the body"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-065",
+      "originalOptions": [
+        "More horizontal speed is lost",
+        "Less horizontal deceleration occurs",
+        "Vertical mass disappears",
+        "The athlete’s limb length changes"
+      ],
+      "revisedOptions": [
+        "More horizontal speed is lost",
+        "Vertical mass disappears",
+        "Less horizontal deceleration occurs",
+        "The athlete’s limb length changes"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-066",
+      "originalOptions": [
+        "Increase passive body mass during ground contact",
+        "Reduce braking impulse and speed loss",
+        "Eliminate all vertical ground force during contact",
+        "Decrease the athlete’s effective leg length"
+      ],
+      "revisedOptions": [
+        "Increase passive body mass during ground contact",
+        "Decrease the athlete’s effective leg length",
+        "Eliminate all vertical ground force during contact",
+        "Reduce braking impulse and speed loss"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-068",
+      "originalOptions": [
+        "Skinfold caliper",
+        "Spirometer",
+        "Goniometer alone",
+        "Force plate"
+      ],
+      "revisedOptions": [
+        "Skinfold caliper",
+        "Spirometer",
+        "Force plate",
+        "Goniometer alone"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-069",
+      "originalOptions": [
+        "Skinfold caliper",
+        "Force plate",
+        "Spirometer",
+        "Goniometer"
+      ],
+      "revisedOptions": [
+        "Skinfold caliper",
+        "Goniometer",
+        "Spirometer",
+        "Force plate"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-070",
+      "originalOptions": [
+        "A body-mass index calculated before testing",
+        "A force plate beneath each landing area",
+        "A resting blood-pressure cuff during testing",
+        "A thigh-circumference tape measure at rest"
+      ],
+      "revisedOptions": [
+        "A force plate beneath each landing area",
+        "A body-mass index calculated before testing",
+        "A resting blood-pressure cuff during testing",
+        "A thigh-circumference tape measure at rest"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-072",
+      "originalOptions": [
+        "A stadiometer",
+        "A force plate",
+        "A spirometer",
+        "A tape measure"
+      ],
+      "revisedOptions": [
+        "A force plate",
+        "A stadiometer",
+        "A spirometer",
+        "A tape measure"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-073",
+      "originalOptions": [
+        "May miss motion outside the camera plane",
+        "Cannot record timing in the camera plane",
+        "Requires no calibration to estimate displacement",
+        "Directly measures joint moments from trajectories"
+      ],
+      "revisedOptions": [
+        "Directly measures joint moments from trajectories",
+        "Cannot record timing in the camera plane",
+        "Requires no calibration to estimate displacement",
+        "May miss motion outside the camera plane"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-075",
+      "originalOptions": [
+        "The view always measures joint torque exactly",
+        "The view may miss transverse-plane rotation",
+        "The view proves the ACL is torn",
+        "The view directly measures ground force"
+      ],
+      "revisedOptions": [
+        "The view always measures joint torque exactly",
+        "The view proves the ACL is torn",
+        "The view may miss transverse-plane rotation",
+        "The view directly measures ground force"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-076",
+      "originalOptions": [
+        "The athlete’s body mass during the trial",
+        "Rotation and displacement outside that plane",
+        "The athlete’s chronological age at testing",
+        "The room’s temperature during filming"
+      ],
+      "revisedOptions": [
+        "Rotation and displacement outside that plane",
+        "The athlete’s body mass during the trial",
+        "The athlete’s chronological age at testing",
+        "The room’s temperature during filming"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "basic-biomechanics-hall",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-077",
+      "originalOptions": [
+        "High individual variability and a delayed response",
+        "Independence from exercise type or sampling time",
+        "Direct measurement of post-exercise muscle force",
+        "A uniform response range across athletes"
+      ],
+      "revisedOptions": [
+        "Independence from exercise type or sampling time",
+        "High individual variability and a delayed response",
+        "Direct measurement of post-exercise muscle force",
+        "A uniform response range across athletes"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-079",
+      "originalOptions": [
+        "The marker is produced only by the liver",
+        "The value is independent of exercise timing",
+        "The marker may show a delayed response",
+        "The marker cannot vary between athletes"
+      ],
+      "revisedOptions": [
+        "The marker may show a delayed response",
+        "The value is independent of exercise timing",
+        "The marker is produced only by the liver",
+        "The marker cannot vary between athletes"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-080",
+      "originalOptions": [
+        "Diagnose injury from the number alone without examination",
+        "Assume the athlete has no muscle response after exercise",
+        "Consider baseline, timing, symptoms, and workload",
+        "Ignore all subsequent measurements and symptoms"
+      ],
+      "revisedOptions": [
+        "Diagnose injury from the number alone without examination",
+        "Consider baseline, timing, symptoms, and workload",
+        "Assume the athlete has no muscle response after exercise",
+        "Ignore all subsequent measurements and symptoms"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-081",
+      "originalOptions": [
+        "Use one universal cutoff for every athlete and test",
+        "Sample only before the first competitive season",
+        "Compare serial results with baseline and symptoms",
+        "Treat any increase as a confirmed muscle injury"
+      ],
+      "revisedOptions": [
+        "Use one universal cutoff for every athlete and test",
+        "Sample only before the first competitive season",
+        "Treat any increase as a confirmed muscle injury",
+        "Compare serial results with baseline and symptoms"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-082",
+      "originalOptions": [
+        "Glycogen breakdown",
+        "Lactate clearance",
+        "Amino-acid deamination",
+        "Substrate phosphorylation"
+      ],
+      "revisedOptions": [
+        "Glycogen breakdown",
+        "Amino-acid deamination",
+        "Lactate clearance",
+        "Substrate phosphorylation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-083",
+      "originalOptions": [
+        "A direct measure of exercise-related muscle damage",
+        "The athlete’s total muscle glycogen reserve",
+        "The balance of lactate production and clearance",
+        "The exact oxygen content of blood and lungs"
+      ],
+      "revisedOptions": [
+        "A direct measure of exercise-related muscle damage",
+        "The athlete’s total muscle glycogen reserve",
+        "The exact oxygen content of blood and lungs",
+        "The balance of lactate production and clearance"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-084",
+      "originalOptions": [
+        "Bone remodelling during recovery from exercise",
+        "Fat storage in adipose tissue during rest",
+        "Lactate transport, utilization, and clearance",
+        "Loss of all muscle ATP during exercise"
+      ],
+      "revisedOptions": [
+        "Lactate transport, utilization, and clearance",
+        "Fat storage in adipose tissue during rest",
+        "Bone remodelling during recovery from exercise",
+        "Loss of all muscle ATP during exercise"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-085",
+      "originalOptions": [
+        "The higher value proves greater muscle damage",
+        "The lower value proves no anaerobic contribution",
+        "Their lactate handling processes may differ",
+        "Lactate is unrelated to exercise intensity"
+      ],
+      "revisedOptions": [
+        "The higher value proves greater muscle damage",
+        "Their lactate handling processes may differ",
+        "The lower value proves no anaerobic contribution",
+        "Lactate is unrelated to exercise intensity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "physiology-sport-exercise-kenney",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-087",
+      "originalOptions": [
+        "Creatine stores",
+        "Joint-fluid volume",
+        "Iron stores",
+        "Muscle glycogen stores"
+      ],
+      "revisedOptions": [
+        "Iron stores",
+        "Joint-fluid volume",
+        "Creatine stores",
+        "Muscle glycogen stores"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-088",
+      "originalOptions": [
+        "Muscle glycogen",
+        "Plasma sodium",
+        "Iron stores",
+        "Lung volume"
+      ],
+      "revisedOptions": [
+        "Muscle glycogen",
+        "Plasma sodium",
+        "Lung volume",
+        "Iron stores"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-089",
+      "originalOptions": [
+        "Excess muscle glycogen",
+        "Increased lung compliance",
+        "Reduced iron stores",
+        "High body-water content"
+      ],
+      "revisedOptions": [
+        "Reduced iron stores",
+        "Increased lung compliance",
+        "Excess muscle glycogen",
+        "High body-water content"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-090",
+      "originalOptions": [
+        "The athlete has excessive plasma volume",
+        "The athlete has maximal aerobic capacity",
+        "Iron stores may be reduced before overt anaemia",
+        "The athlete’s muscle glycogen is depleted"
+      ],
+      "revisedOptions": [
+        "The athlete has excessive plasma volume",
+        "Iron stores may be reduced before overt anaemia",
+        "The athlete has maximal aerobic capacity",
+        "The athlete’s muscle glycogen is depleted"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-092",
+      "originalOptions": [
+        "The marker is unaffected by exercise intensity",
+        "A single measurement provides a complete diagnosis",
+        "The marker must peak immediately after exercise stops",
+        "The sample may precede the marker's peak response"
+      ],
+      "revisedOptions": [
+        "The marker is unaffected by exercise intensity",
+        "The sample may precede the marker's peak response",
+        "The marker must peak immediately after exercise stops",
+        "A single measurement provides a complete diagnosis"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-093",
+      "originalOptions": [
+        "Eccentric exercise prevents all marker changes",
+        "The marker peaks before every session",
+        "The sample may precede the marker’s peak response",
+        "Sampling time cannot affect biomarker concentration"
+      ],
+      "revisedOptions": [
+        "Eccentric exercise prevents all marker changes",
+        "The marker peaks before every session",
+        "Sampling time cannot affect biomarker concentration",
+        "The sample may precede the marker’s peak response"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-095",
+      "originalOptions": [
+        "The value proves the tissue has fully recovered",
+        "The value cannot be related to exercise timing",
+        "The value may not represent the eventual peak response",
+        "The value is identical for all athletes"
+      ],
+      "revisedOptions": [
+        "The value may not represent the eventual peak response",
+        "The value cannot be related to exercise timing",
+        "The value proves the tissue has fully recovered",
+        "The value is identical for all athletes"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-096",
+      "originalOptions": [
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "The same demand in every training session",
+        "A greater or new stimulus beyond adaptation"
+      ],
+      "revisedOptions": [
+        "Maximal intensity in every training session",
+        "More volume without adequate recovery",
+        "A greater or new stimulus beyond adaptation",
+        "The same demand in every training session"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-097",
+      "originalOptions": [
+        "Removing all training stimulus from the plan",
+        "Repeating the identical workload indefinitely",
+        "A greater or new stimulus beyond current adaptation",
+        "Reducing every session to recovery intensity"
+      ],
+      "revisedOptions": [
+        "Removing all training stimulus from the plan",
+        "Repeating the identical workload indefinitely",
+        "Reducing every session to recovery intensity",
+        "A greater or new stimulus beyond current adaptation"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-098",
+      "originalOptions": [
+        "Keep every variable identical throughout the entire block",
+        "Remove resistance and retain only stretching between sessions",
+        "Increase a relevant training demand while preserving technique",
+        "Increase load without regard to readiness or technique"
+      ],
+      "revisedOptions": [
+        "Increase a relevant training demand while preserving technique",
+        "Remove resistance and retain only stretching between sessions",
+        "Keep every variable identical throughout the entire block",
+        "Increase load without regard to readiness or technique"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-099",
+      "originalOptions": [
+        "Repeat the same load despite clear adaptation to it",
+        "Replace all lifting with passive recovery between sessions",
+        "Increase a tolerated 3 × 8 load slightly with sound technique",
+        "Add maximal load without any progression plan or testing"
+      ],
+      "revisedOptions": [
+        "Repeat the same load despite clear adaptation to it",
+        "Increase a tolerated 3 × 8 load slightly with sound technique",
+        "Replace all lifting with passive recovery between sessions",
+        "Add maximal load without any progression plan or testing"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-101",
+      "originalOptions": [
+        "Mode, intensity, duration, and movement demands",
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Session location without intensity details"
+      ],
+      "revisedOptions": [
+        "Session location without intensity details",
+        "Total weekly training time without mode",
+        "Preferred equipment without movement demands",
+        "Mode, intensity, duration, and movement demands"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-102",
+      "originalOptions": [
+        "All exercise produces identical adaptations in every sport",
+        "Training frequency alone determines every adaptation",
+        "Specificity reflects mode, intensity, duration, and movement",
+        "Body mass alone determines adaptation to training"
+      ],
+      "revisedOptions": [
+        "Specificity reflects mode, intensity, duration, and movement",
+        "Training frequency alone determines every adaptation",
+        "All exercise produces identical adaptations in every sport",
+        "Body mass alone determines adaptation to training"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-103",
+      "originalOptions": [
+        "Cycling automatically improves change-of-direction skill",
+        "Training mode has no effect on adaptation",
+        "Cycling does not reproduce football cutting demands",
+        "Endurance work directly measures cutting technique"
+      ],
+      "revisedOptions": [
+        "Cycling automatically improves change-of-direction skill",
+        "Cycling does not reproduce football cutting demands",
+        "Training mode has no effect on adaptation",
+        "Endurance work directly measures cutting technique"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-105",
+      "originalOptions": [
+        "The number of exercises completed in the session",
+        "Whether the exercise causes maximal soreness",
+        "Similarity to the target movement and demand",
+        "The athlete’s chronological age at testing"
+      ],
+      "revisedOptions": [
+        "Similarity to the target movement and demand",
+        "Whether the exercise causes maximal soreness",
+        "The number of exercises completed in the session",
+        "The athlete’s chronological age at testing"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-106",
+      "originalOptions": [
+        "Total training volume accumulated weekly",
+        "Recovery time between work bouts",
+        "Mean load used across the session",
+        "Number of exercises in the program"
+      ],
+      "revisedOptions": [
+        "Total training volume accumulated weekly",
+        "Number of exercises in the program",
+        "Mean load used across the session",
+        "Recovery time between work bouts"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-107",
+      "originalOptions": [
+        "Volume",
+        "Flexibility",
+        "Density",
+        "Body composition"
+      ],
+      "revisedOptions": [
+        "Volume",
+        "Density",
+        "Flexibility",
+        "Body composition"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-108",
+      "originalOptions": [
+        "Somatotype",
+        "Joint torque",
+        "Training density",
+        "Vital capacity"
+      ],
+      "revisedOptions": [
+        "Training density",
+        "Joint torque",
+        "Somatotype",
+        "Vital capacity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-109",
+      "originalOptions": [
+        "Athlete height",
+        "Muscle insertion length",
+        "Session density",
+        "Skinfold thickness"
+      ],
+      "revisedOptions": [
+        "Athlete height",
+        "Muscle insertion length",
+        "Skinfold thickness",
+        "Session density"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-110",
+      "originalOptions": [
+        "Training specificity",
+        "Maximal strength",
+        "Training density",
+        "Biological maturity"
+      ],
+      "revisedOptions": [
+        "Training specificity",
+        "Training density",
+        "Maximal strength",
+        "Biological maturity"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-111",
+      "originalOptions": [
+        "Maintaining the same volume and increasing fatigue",
+        "Eliminating intensity while preserving unrelated volume",
+        "Maintaining selected intensity and sport-specific quality",
+        "Stopping all sport-specific practice until competition"
+      ],
+      "revisedOptions": [
+        "Maintaining selected intensity and sport-specific quality",
+        "Eliminating intensity while preserving unrelated volume",
+        "Maintaining the same volume and increasing fatigue",
+        "Stopping all sport-specific practice until competition"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-112",
+      "originalOptions": [
+        "Stop all sport-specific intensity before race day",
+        "Increase training volume until the day of racing",
+        "Reduce volume while retaining key intensity and quality",
+        "Replace training with repeated maximal testing"
+      ],
+      "revisedOptions": [
+        "Stop all sport-specific intensity before race day",
+        "Increase training volume until the day of racing",
+        "Replace training with repeated maximal testing",
+        "Reduce volume while retaining key intensity and quality"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-113",
+      "originalOptions": [
+        "It removes useful adaptation before the championship",
+        "It guarantees a new maximal strength record in racing",
+        "It increases cumulative training stress before racing",
+        "It reduces fatigue while retaining race-specific quality"
+      ],
+      "revisedOptions": [
+        "It removes useful adaptation before the championship",
+        "It guarantees a new maximal strength record in racing",
+        "It reduces fatigue while retaining race-specific quality",
+        "It increases cumulative training stress before racing"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-114",
+      "originalOptions": [
+        "Increase every session’s volume before competition",
+        "Eliminate all intensity and movement practice",
+        "Add unfamiliar exercises to create soreness before racing",
+        "Lower volume while retaining selected high-quality efforts"
+      ],
+      "revisedOptions": [
+        "Increase every session’s volume before competition",
+        "Lower volume while retaining selected high-quality efforts",
+        "Add unfamiliar exercises to create soreness before racing",
+        "Eliminate all intensity and movement practice"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "nsca-essentials-5",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-115",
+      "originalOptions": [
+        "Recognition and rewards provided by others",
+        "Avoidance of criticism or punishment from others",
+        "Interest and enjoyment from the activity itself",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "revisedOptions": [
+        "Interest and enjoyment from the activity itself",
+        "Avoidance of criticism or punishment from others",
+        "Recognition and rewards provided by others",
+        "Pressure to meet an externally imposed standard"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-116",
+      "originalOptions": [
+        "External regulation",
+        "Amotivation",
+        "Avoidance conditioning",
+        "Intrinsic motivation"
+      ],
+      "revisedOptions": [
+        "External regulation",
+        "Amotivation",
+        "Intrinsic motivation",
+        "Avoidance conditioning"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-118",
+      "originalOptions": [
+        "External pressure only",
+        "Avoidance of exercise",
+        "A loss of self-efficacy",
+        "Intrinsic motivation"
+      ],
+      "revisedOptions": [
+        "External pressure only",
+        "Avoidance of exercise",
+        "Intrinsic motivation",
+        "A loss of self-efficacy"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-119",
+      "originalOptions": [
+        "The athlete participates only to avoid a fine",
+        "The athlete refuses all coaching feedback",
+        "The athlete trains only when a reward is displayed",
+        "The athlete enjoys the challenge itself"
+      ],
+      "revisedOptions": [
+        "The athlete participates only to avoid a fine",
+        "The athlete enjoys the challenge itself",
+        "The athlete trains only when a reward is displayed",
+        "The athlete refuses all coaching feedback"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-120",
+      "originalOptions": [
+        "Control every external outcome during competition",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event",
+        "Perform the actions required for a specific task"
+      ],
+      "revisedOptions": [
+        "Perform the actions required for a specific task",
+        "Predict an opponent's decisions accurately",
+        "Eliminate competitive pressure before every event",
+        "Control every external outcome during competition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-121",
+      "originalOptions": [
+        "Every possible sport",
+        "The coach’s performance",
+        "The final competition result only",
+        "That specific task"
+      ],
+      "revisedOptions": [
+        "Every possible sport",
+        "That specific task",
+        "The final competition result only",
+        "The coach’s performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-123",
+      "originalOptions": [
+        "Both beliefs are identical performance measures",
+        "The first is somatic anxiety; the second is flexibility",
+        "The first is body image; the second is motivation",
+        "The first concerns action capability; the second, outcome"
+      ],
+      "revisedOptions": [
+        "The first concerns action capability; the second, outcome",
+        "The first is somatic anxiety; the second is flexibility",
+        "The first is body image; the second is motivation",
+        "Both beliefs are identical performance measures"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-124",
+      "originalOptions": [
+        "How tall are you compared with teammates in this squad?",
+        "How much do you enjoy every activity in daily life?",
+        "What was the team’s final score in the last season?",
+        "How capable do you feel of completing the final sprint?"
+      ],
+      "revisedOptions": [
+        "How tall are you compared with teammates in this squad?",
+        "How much do you enjoy every activity in daily life?",
+        "How capable do you feel of completing the final sprint?",
+        "What was the team’s final score in the last season?"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-125",
+      "originalOptions": [
+        "Worry and negative thoughts about performance",
+        "Physiological activation such as sweating and tension",
+        "Belief in one's ability to execute the task",
+        "Motivation to participate in the activity"
+      ],
+      "revisedOptions": [
+        "Physiological activation such as sweating and tension",
+        "Worry and negative thoughts about performance",
+        "Belief in one's ability to execute the task",
+        "Motivation to participate in the activity"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-127",
+      "originalOptions": [
+        "A rapid heartbeat during the start of competition",
+        "Sweaty palms before the race begins",
+        "Tight abdominal muscles under competitive pressure",
+        "Worry that a mistake will confirm poor ability"
+      ],
+      "revisedOptions": [
+        "Worry that a mistake will confirm poor ability",
+        "Sweaty palms before the race begins",
+        "Tight abdominal muscles under competitive pressure",
+        "A rapid heartbeat during the start of competition"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-128",
+      "originalOptions": [
+        "Somatic anxiety only",
+        "Delayed muscle soreness",
+        "Training specificity",
+        "Cognitive anxiety"
+      ],
+      "revisedOptions": [
+        "Somatic anxiety only",
+        "Delayed muscle soreness",
+        "Cognitive anxiety",
+        "Training specificity"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-131",
+      "originalOptions": [
+        "It makes the shot independent of technical skill",
+        "It removes the need for a physical warm-up",
+        "It ensures the opponent cannot defend the shot",
+        "It creates repeatable attentional and behavioural cues"
+      ],
+      "revisedOptions": [
+        "It makes the shot independent of technical skill",
+        "It removes the need for a physical warm-up",
+        "It creates repeatable attentional and behavioural cues",
+        "It ensures the opponent cannot defend the shot"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-132",
+      "originalOptions": [
+        "Erase the previous result from the scoreboard",
+        "Guarantee the next kick will score",
+        "Avoid all performance feedback after the error",
+        "Reset attention with a consistent cue"
+      ],
+      "revisedOptions": [
+        "Erase the previous result from the scoreboard",
+        "Reset attention with a consistent cue",
+        "Avoid all performance feedback after the error",
+        "Guarantee the next kick will score"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "foundations-sport-exercise-psychology",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-133",
+      "originalOptions": [
+        "Rapid ATP production and muscle glycogen use",
+        "Primary reliance on fat oxidation during maximal work",
+        "Primary use of protein as immediate fuel",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "revisedOptions": [
+        "Primary use of protein as immediate fuel",
+        "Primary reliance on fat oxidation during maximal work",
+        "Rapid ATP production and muscle glycogen use",
+        "Long-term bone remodeling during the exercise bout"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-135",
+      "originalOptions": [
+        "Providing only structural protein for recovery",
+        "Reducing all sweat production during exercise",
+        "Replacing neuromuscular coordination in sprinting",
+        "Supporting rapid ATP production from muscle glycogen"
+      ],
+      "revisedOptions": [
+        "Supporting rapid ATP production from muscle glycogen",
+        "Reducing all sweat production during exercise",
+        "Replacing neuromuscular coordination in sprinting",
+        "Providing only structural protein for recovery"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-136",
+      "originalOptions": [
+        "Exclusive oxidation of stored fat during intervals",
+        "Immediate bone mineralization after exercise",
+        "Elimination of oxygen demand during sprinting",
+        "Rapid ATP production and muscle glycogen use"
+      ],
+      "revisedOptions": [
+        "Exclusive oxidation of stored fat during intervals",
+        "Rapid ATP production and muscle glycogen use",
+        "Elimination of oxygen demand during sprinting",
+        "Immediate bone mineralization after exercise"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-137",
+      "originalOptions": [
+        "Avoid all carbohydrate after the first hard session",
+        "Use passive stretching instead of carbohydrate",
+        "Consume fluid without considering total energy needs",
+        "Replace carbohydrate to replenish glycogen between sessions"
+      ],
+      "revisedOptions": [
+        "Avoid all carbohydrate after the first hard session",
+        "Use passive stretching instead of carbohydrate",
+        "Replace carbohydrate to replenish glycogen between sessions",
+        "Consume fluid without considering total energy needs"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-138",
+      "originalOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Meaningful fluid loss that raises physiological strain",
+        "Acute fat loss as the primary explanation for change",
+        "Increased lean tissue during the exercise bout"
+      ],
+      "revisedOptions": [
+        "Reduced glycogen stores without associated water loss",
+        "Increased lean tissue during the exercise bout",
+        "Acute fat loss as the primary explanation for change",
+        "Meaningful fluid loss that raises physiological strain"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-139",
+      "originalOptions": [
+        "A 2% gain in lean mass during the session",
+        "A complete loss of body fat during the run",
+        "A measure of aerobic capacity from body mass alone",
+        "Meaningful fluid loss that can increase strain"
+      ],
+      "revisedOptions": [
+        "A 2% gain in lean mass during the session",
+        "Meaningful fluid loss that can increase strain",
+        "A measure of aerobic capacity from body mass alone",
+        "A complete loss of body fat during the run"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-140",
+      "originalOptions": [
+        "The athlete has gained lean tissue during exercise",
+        "The change directly measures glycogen synthesis",
+        "The change proves a bone injury occurred",
+        "The athlete likely has meaningful fluid loss"
+      ],
+      "revisedOptions": [
+        "The athlete likely has meaningful fluid loss",
+        "The change directly measures glycogen synthesis",
+        "The change proves a bone injury occurred",
+        "The athlete has gained lean tissue during exercise"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-142",
+      "originalOptions": [
+        "0.2%; increased muscle mass",
+        "5%; improved hydration",
+        "20%; normal measurement error",
+        "2%; meaningful fluid loss"
+      ],
+      "revisedOptions": [
+        "0.2%; increased muscle mass",
+        "2%; meaningful fluid loss",
+        "20%; normal measurement error",
+        "5%; improved hydration"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "clinical-sports-nutrition-burke",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-143",
+      "originalOptions": [
+        "Bone health while protecting endocrine and immune function",
+        "Performance without broader physiological effects",
+        "Health, recovery, endocrine function, and performance",
+        "Immune function only when training load is light"
+      ],
+      "revisedOptions": [
+        "Health, recovery, endocrine function, and performance",
+        "Performance without broader physiological effects",
+        "Bone health while protecting endocrine and immune function",
+        "Immune function only when training load is light"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-145",
+      "originalOptions": [
+        "Improved recovery without any health consequence for the athlete",
+        "A purely technical skill deficit during sport performance",
+        "A change limited to hydration status during training",
+        "Impaired health, recovery, endocrine function, and performance"
+      ],
+      "revisedOptions": [
+        "Improved recovery without any health consequence for the athlete",
+        "Impaired health, recovery, endocrine function, and performance",
+        "A change limited to hydration status during training",
+        "A purely technical skill deficit during sport performance"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "reviewerNote": "Reordered existing options only to reduce contiguous answer-position clustering within the core block; no option text, answer meaning, question content, explanation, or source changed.",
+      "sourcesInspected": [
+        "ioc-reds-2023",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-148",
+      "originalOptions": [
+        "Its colour and package size on the label",
+        "Whether it replaces all meals during training",
+        "Whether it guarantees selection for competition",
+        "Its status under applicable anti-doping rules"
+      ],
+      "revisedOptions": [
+        "Its colour and package size on the label",
+        "Its status under applicable anti-doping rules",
+        "Whether it guarantees selection for competition",
+        "Whether it replaces all meals during training"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "wada-prohibited-list-2026",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "reviewerNote": "Reordered existing options to reduce contiguous answer-position clustering within the core block; changed only the primary source ID per R5-CT-004, with no question, option, answer meaning, or explanation change.",
+      "sourcesInspected": [
+        "wada-prohibited-list-2026",
+        "ais-supplements-position-2022",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-150",
+      "originalOptions": [
+        "Use it because a teammate recommends the product",
+        "Assume a natural product is automatically permitted",
+        "Ignore the label when the recommended dose is small",
+        "Check evidence, dose, contamination, and anti-doping status"
+      ],
+      "revisedOptions": [
+        "Use it because a teammate recommends the product",
+        "Assume a natural product is automatically permitted",
+        "Check evidence, dose, contamination, and anti-doping status",
+        "Ignore the label when the recommended dose is small"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "originalSourceId": "wada-prohibited-list-2026",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "reviewerNote": "Reordered existing options to reduce contiguous answer-position clustering within the core block; changed only the primary source ID per R5-CT-004, with no question, option, answer meaning, or explanation change.",
+      "sourcesInspected": [
+        "wada-prohibited-list-2026",
+        "ais-supplements-position-2022",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-147",
+      "originalSourceId": "wada-prohibited-list-2026",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "reviewerNote": "Changed only the primary source ID per R5-CT-004; question text, options, correct answer, explanation, subtopic, difficulty, and answer meaning are unchanged.",
+      "sourcesInspected": [
+        "wada-prohibited-list-2026",
+        "ais-supplements-position-2022",
+        "research/release5_audit_core_testing.json"
+      ]
+    },
+    {
+      "id": "a1-core-149",
+      "originalSourceId": "wada-prohibited-list-2026",
+      "revisedSourceId": "ais-supplements-position-2022",
+      "reviewerNote": "Changed only the primary source ID per R5-CT-004; question text, options, correct answer, explanation, subtopic, difficulty, and answer meaning are unchanged.",
+      "sourcesInspected": [
+        "wada-prohibited-list-2026",
+        "ais-supplements-position-2022",
+        "research/release5_audit_core_testing.json"
+      ]
+    }
+  ],
+  "validation": {
+    "exactQuestionCount": true,
+    "fourOptionsEveryQuestion": true,
+    "uniqueQuestionIds": true,
+    "validCorrectIndices": true,
+    "optionPermutationsPreserveMultisets": true,
+    "sourceChangesAreExact": true,
+    "finalCorrectIndexCounts": [
+      38,
+      38,
+      37,
+      37
+    ]
+  }
+}

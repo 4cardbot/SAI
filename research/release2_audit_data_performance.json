@@ -1,0 +1,140 @@
+{
+  "auditType": "independent_final_release_audit_data_performance",
+  "auditedFiles": [
+    "question_bank/section_a1_data_analytics.json",
+    "question_bank/section_a1_performance_recovery.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "id": "dp-near-duplicate-recovery-001",
+      "defectType": "near_duplicate_stems",
+      "evidence": {
+        "file": "question_bank/section_a1_performance_recovery.json",
+        "pairs": [
+          {
+            "questionIds": [
+              "a1-recovery-052",
+              "a1-recovery-055"
+            ],
+            "stems": [
+              "After a tournament, an athlete has generalized stiffness but no red-flag symptoms. Which option best represents active recovery?",
+              "After a match, a player has mild stiffness but no red-flag symptoms. Which option best represents active recovery?"
+            ],
+            "keyedAnswers": [
+              "Use easy movement below a demanding training intensity",
+              "Use easy cycling at a conversational intensity"
+            ],
+            "basis": "The premise, safety condition, question wording, and decision are the same; the only material changes are the competition label, stiffness wording, and example of low-intensity movement."
+          },
+          {
+            "questionIds": [
+              "a1-recovery-074",
+              "a1-recovery-075"
+            ],
+            "stems": [
+              "An athlete crossing several time zones before competition should receive sleep guidance that emphasizes:",
+              "A travelling athlete crosses several time zones before competition. Which sleep intervention is most relevant?"
+            ],
+            "keyedAnswers": [
+              "Sleep, light exposure, and local-time adjustment",
+              "Plan sleep timing and protect adequate opportunity"
+            ],
+            "basis": "Both items use the same travel-before-competition scenario and ask for the same sleep-timing intervention; the second does not add a distinct constraint or decision."
+          }
+        ],
+        "exactDuplicateStemCount": 0
+      },
+      "recommendedRepair": "Keep one representative from each pair and rewrite the other around a materially different recovery decision, such as modality contraindication, dose/timing selection, monitoring response, or a specific travel constraint. Do not distinguish the pair only by sport/competition label or by swapping one low-intensity activity for another."
+    },
+    {
+      "id": "dp-grammar-data-081",
+      "defectType": "grammar_and_stem_redundancy",
+      "evidence": {
+        "file": "question_bank/section_a1_data_analytics.json",
+        "questionId": "a1-data-081",
+        "stem": "For an athlete entering a new training block, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+        "problem": "The introductory phrase and the conditional clause repeat the subject and create an awkward/dangling construction: 'For an athlete ... if an athlete's ...'."
+      },
+      "recommendedRepair": "Remove the generic opener and use: 'If an athlete's performance improves while training load also rises, the safest interpretation is:'; keep the existing keyed answer and index."
+    },
+    {
+      "id": "dp-grammar-recovery-001",
+      "defectType": "grammar_and_stem_redundancy",
+      "evidence": {
+        "file": "question_bank/section_a1_performance_recovery.json",
+        "questionId": "a1-recovery-001",
+        "stem": "For an athlete entering a new training block, a strength program for an athlete should begin by matching the intervention to:",
+        "problem": "The phrase 'for an athlete' is repeated in the same stem, making the construction needlessly redundant and formulaic."
+      },
+      "recommendedRepair": "Use either 'A strength program should begin by matching the intervention to:' or 'For an athlete entering a new training block, the strength program should begin by matching the intervention to:'; keep the existing keyed answer and index."
+    },
+    {
+      "id": "dp-stem-key-parallelism-recovery-001",
+      "defectType": "stem_key_parallelism",
+      "evidence": {
+        "file": "question_bank/section_a1_performance_recovery.json",
+        "questions": [
+          {
+            "questionId": "a1-recovery-003",
+            "stem": "A rower has high maximal strength but poor repeated-power output. Which assessment should guide the next training block?",
+            "keyedAnswer": "Match force-endurance demands to testing and history",
+            "problem": "The stem asks for an assessment, but the keyed option is a programming principle/action rather than an assessment."
+          },
+          {
+            "questionId": "a1-recovery-043",
+            "stem": "A monitoring report shows a sharp week-to-week load increase after a low-load period. Which interpretation is most defensible?",
+            "keyedAnswer": "Review response, recent exposure, and upcoming demands",
+            "problem": "The stem asks for an interpretation, but the keyed option is an instruction to review information; the option does not grammatically supply an interpretation."
+          }
+        ]
+      },
+      "recommendedRepair": "For a1-recovery-003, change the stem to ask which principle should guide the block, or change the keyed option to name a force-endurance/repeated-power assessment. For a1-recovery-043, change the stem to 'What should staff review first?' or rewrite the keyed option as an interpretation that explicitly incorporates recent exposure, response, and upcoming demands. Preserve the intended concept and correct index."
+    },
+    {
+      "id": "dp-privacy-provenance-001",
+      "defectType": "source_traceability_and_explanation_mismatch",
+      "evidence": {
+        "file": "question_bank/section_a1_data_analytics.json",
+        "questions": [
+          {
+            "questionId": "a1-data-069",
+            "stem": "A manager requests a public ranking based on health-related readiness scores. What should the analyst emphasize?",
+            "keyedAnswer": "Protect confidentiality and report aggregated, decision-relevant data",
+            "currentSourceId": "world-physiotherapy-ebp-2023",
+            "catalogScope": "Evidence quality, uncertainty and clinical reasoning",
+            "currentExplanation": "Evidence-informed application links the finding to a feasible decision, acknowledges uncertainty, and uses an appropriate follow-up measure.",
+            "problem": "The keyed concept is confidentiality/privacy, but the assigned source scope and explanation address evidence-informed decision-making rather than privacy or access control."
+          },
+          {
+            "questionId": "a1-data-099",
+            "stem": "A screen visible to all athletes displays identifiable illness and pain scores. What should be avoided?",
+            "keyedAnswer": "Display identifiable health data without a need to know",
+            "currentSourceId": "nsca-essentials-5",
+            "catalogScope": "Strength, conditioning, loading, periodisation and testing",
+            "currentExplanation": "Performance interpretation should integrate valid measures, test context, fatigue, technique, and sport demands rather than overread an isolated score.",
+            "problem": "The keyed concept is confidentiality/access restriction, but the assigned source scope and explanation do not support privacy or need-to-know handling."
+          }
+        ],
+        "directlyRelevantCatalogEntries": [
+          "world-physiotherapy-ethics-2023",
+          "ais-athlete-data-governance"
+        ]
+      },
+      "recommendedRepair": "Assign a privacy/data-governance source that directly covers confidentiality, access control, and responsible athlete-data use (for example world-physiotherapy-ethics-2023 or ais-athlete-data-governance), and rewrite each explanation to explicitly justify need-to-know access, aggregation/de-identification, and protection of identifiable health data."
+    }
+  ],
+  "summary": {
+    "result": "Five confirmed actionable findings were identified across 300 questions.",
+    "confirmedFindingCount": 5,
+    "findingQuestionCount": 10,
+    "schemaAndFourOptionDefects": 0,
+    "unknownSourceIds": 0,
+    "highConfidenceAnswerKeyErrors": 0,
+    "highConfidenceAmbiguityDefects": 0,
+    "highConfidenceExplanationDefects": 2,
+    "exactDuplicateStemCount": 0,
+    "highConfidenceNearDuplicatePairCount": 2,
+    "conceptualConcernsNotEscalated": "Several items share broad topic frames and repeated generic 'new training block' openers, but they were not counted as duplicate stems unless the scenario and decision were materially the same. No additional answer-key, ambiguity, option-validity, or source-scope concern met the high-confidence threshold."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "section": "Part A1 - Performance, Recovery and Injury Prevention",
+  "groupFile": "question_bank/section_a1_performance_recovery.json",
+  "auditType": "final7_length_repair_performance_recovery",
+  "auditDate": "2026-08-16",
+  "reviewer": "central-validation",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median of the three distractors or when total option-length spread exceeds 15 characters.",
+  "reviewedQuestionCount": 150,
+  "flagsBefore": 7,
+  "changedCount": 7,
+  "changedQuestions": [
+    {
+      "id": "a1-recovery-010",
+      "originalOptions": [
+        "Add accessory volume to create a final stimulus",
+        "Reduce volume while retaining selected quality lifts",
+        "Repeat maximum tests to confirm readiness",
+        "Stop resistance training before the final"
+      ],
+      "revisedOptions": [
+        "Add accessory volume before the final",
+        "Reduce volume; retain quality lifts",
+        "Repeat maximal tests before the final",
+        "Stop lifting until competition"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Shortened the taper alternatives into comparable action phrases. The keyed plan still reduces volume while retaining a quality lifting stimulus, consistent with tapering and strength-conditioning principles; no filler wording was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-028",
+      "originalOptions": [
+        "Use the uninjured limb’s best jump as the only target",
+        "Count weeks since surgery rather than function",
+        "Begin maximal depth jumps at the next session",
+        "Progress power using force, symptoms, and landing quality"
+      ],
+      "revisedOptions": [
+        "Use the other limb as the only target",
+        "Progress by calendar time alone",
+        "Start maximal depth jumps immediately",
+        "Use force, symptoms, and landing quality"
+      ],
+      "originalCorrectIndex": 3,
+      "revisedCorrectIndex": 3,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Converted the four choices to concise, parallel progression decisions. The keyed option preserves force, symptoms, and landing-quality criteria for power progression, while the distractors remain plausible but clinically insufficient alternatives.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-046",
+      "originalOptions": [
+        "Assume unchanged load is automatically safe",
+        "Consider maturation, tolerance, recovery, and symptoms",
+        "Increase intensity to overcome temporary soreness",
+        "Compare the athlete only with adult standards"
+      ],
+      "revisedOptions": [
+        "Assume unchanged load is automatically safe",
+        "Consider maturation, tolerance, recovery, symptoms",
+        "Increase intensity despite rising soreness",
+        "Compare readiness with adult standards alone"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Kept the maturation and recovery concepts required by the load-management source, while making the alternatives parallel and clinically meaningful: unchanged-load assumptions, escalation despite symptoms, and adult-only comparison.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-050",
+      "originalOptions": [
+        "Increase volume while preserving usual fatigue",
+        "Reduce volume while monitoring performance and recovery",
+        "Use mood alone and ignore training records",
+        "Remove all training without considering response"
+      ],
+      "revisedOptions": [
+        "Increase volume and preserve accumulated fatigue",
+        "Reduce volume; monitor readiness and recovery",
+        "Use mood alone to set training volume",
+        "Stop all training without checking response"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Recast the taper choices as parallel load-management actions. The keyed option retains reduction of volume with monitoring of readiness and recovery; the alternatives represent excessive loading, single-source monitoring, or unnecessary cessation.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-057",
+      "originalOptions": [
+        "Gentle mobility and low-intensity aerobic movement",
+        "Repeated sprints at competition intensity",
+        "A long circuit taken to technical failure",
+        "Heavy eccentric training for the most fatigued muscles"
+      ],
+      "revisedOptions": [
+        "Gentle mobility with easy aerobic work",
+        "Repeated sprints at competition intensity",
+        "A circuit continued to technical failure",
+        "Heavy eccentric work for fatigued muscles"
+      ],
+      "originalCorrectIndex": 0,
+      "revisedCorrectIndex": 0,
+      "sourceId": "ioc-load-illness-2016",
+      "reviewerNote": "Preserved low-intensity mobility and aerobic movement as the active-recovery prescription, while shortening redundant wording in all options. The distractors still represent progressively demanding work that could add load during a congested week.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-106",
+      "originalOptions": [
+        "Increase competition volume to adapt under fatigue quickly",
+        "Use age-appropriate technique, landing, and strength work",
+        "Exclude the athlete until growth is complete",
+        "Apply an adult programme without modification"
+      ],
+      "revisedOptions": [
+        "Increase competition volume despite growth changes",
+        "Use age-appropriate technique, landing, and strength",
+        "Exclude the athlete until growth changes settle",
+        "Apply an adult programme without developmental changes"
+      ],
+      "originalCorrectIndex": 1,
+      "revisedCorrectIndex": 1,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Retained the developmentally appropriate prevention plan covering technique, landing, and strength. The distractors now express distinct unsafe choices—greater exposure, exclusion, and unmodified adult programming—in comparable language.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-120",
+      "originalOptions": [
+        "Clear the athlete because the screen is normal",
+        "Repeat the screen until the pain disappears",
+        "Allow play if the athlete completes warm-up",
+        "Use the symptom report to prompt clinical assessment"
+      ],
+      "revisedOptions": [
+        "Clear the athlete because screening was normal",
+        "Repeat screening until the pain disappears",
+        "Allow play after a symptom-free warm-up",
+        "Refer new sharp pain for clinical assessment"
+      ],
+      "originalCorrectIndex": 3,
+      "revisedCorrectIndex": 3,
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "reviewerNote": "Preserved the clinical-safety meaning that new sharp pain warrants assessment despite a normal screen. The alternatives remain plausible screening errors and were brought into parallel decision wording.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    }
+  ],
+  "flagsAfter": 0,
+  "metricsAfter": {
+    "maximumCorrectAboveDistractorMedian": 8,
+    "maximumTotalOptionSpread": 15,
+    "primaryLengthFlagsRemaining": 0,
+    "correctAnswerPositions": [38, 38, 37, 37]
+  },
+  "validation": {
+    "exactQuestionCount": true,
+    "fourOptionsPerQuestion": true,
+    "validZeroBasedCorrectIndices": true,
+    "stemsPreserved": true,
+    "answerKeysPreserved": true,
+    "explanationsPreserved": true,
+    "sourceIdsPreserved": true,
+    "subtopicsPreserved": true,
+    "difficultyPreserved": true
+  }
+}

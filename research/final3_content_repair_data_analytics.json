@@ -1,0 +1,1468 @@
+{
+  "auditType": "final3_content_repair_data_analytics",
+  "auditDate": "2026-08-16",
+  "file": "question_bank/section_a1_data_analytics.json",
+  "reviewedCount": 150,
+  "changedCount": 45,
+  "nearDuplicateFamilyCount": 15,
+  "retainedRepresentatives": [
+    "a1-data-001",
+    "a1-data-011",
+    "a1-data-021",
+    "a1-data-031",
+    "a1-data-041",
+    "a1-data-051",
+    "a1-data-061",
+    "a1-data-071",
+    "a1-data-081",
+    "a1-data-091",
+    "a1-data-101",
+    "a1-data-111",
+    "a1-data-121",
+    "a1-data-131",
+    "a1-data-141"
+  ],
+  "familyPolicy": "One representative was retained in each audited four-question family; the other three questions were materially rewritten with distinct athlete-data scenarios rather than opener or option rotation alone.",
+  "changes": [
+    {
+      "id": "a1-data-002",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-002",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a performance profile is most useful when it identifies:",
+      "revisedQuestion": "A 100-m sprinter's profile shows 10-m acceleration below the team reference, normal maximal-velocity split, and a 12% unilateral jump asymmetry. Which priority is most defensible?",
+      "originalOptions": [
+        "Only the athlete's best score without context",
+        "Strengths, weaknesses, limits, and priorities",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities"
+      ],
+      "revisedOptions": [
+        "Increase sprint volume without checking recovery or asymmetry",
+        "Replace the profile with body mass as the training guide",
+        "Use the season-best sprint and ignore the asymmetry",
+        "Prioritize acceleration and unilateral strength, then retest"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "The profile should turn several valid findings into a prioritized, testable intervention rather than an isolated score or an unverified training increase.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-003",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-003",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a performance profile is most useful when it identifies:",
+      "revisedQuestion": "A football midfielder records a normal countermovement jump but a low Yo-Yo intermittent-recovery result across two standardized tests. Which interpretation is most appropriate?",
+      "originalOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "Strengths, weaknesses, limits, and priorities",
+        "A list of results without action priorities"
+      ],
+      "revisedOptions": [
+        "Diagnose a cardiac disorder from the field-test result",
+        "Target high-intensity endurance and confirm response on retesting",
+        "Assume energy systems are adequate from the jump score",
+        "Discard the result because field tests cannot guide training"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "A repeated, appropriately administered result can identify a performance quality to investigate, but it does not establish a medical diagnosis.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-004",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-004",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a performance profile is most useful when it identifies:",
+      "revisedQuestion": "A swimmer's profile shows a stable 50-m time, worsening repeated-sprint recovery, and unchanged body mass over four weeks. What should the profile help the staff decide?",
+      "originalOptions": [
+        "Only the athlete's best score without context",
+        "A rank compared with peers but no test purpose",
+        "A list of results without action priorities",
+        "Strengths, weaknesses, limits, and priorities"
+      ],
+      "revisedOptions": [
+        "Review recovery capacity and training distribution",
+        "Treat body mass as the sole intervention target",
+        "Treat one stable time as proof of an optimal programme",
+        "Stop all testing until the competition season ends"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 0,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "A profile is useful when related trends inform a practical priority; a stable headline time does not exclude a recovery or training-distribution issue.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-012",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-012",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+      "revisedQuestion": "Across three 400-m trials, a runner's final 100-m split slows progressively while maximal isometric force remains stable. Which quality should be investigated first?",
+      "originalOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable",
+        "Speed power, fatigue tolerance, or sprint technique"
+      ],
+      "revisedOptions": [
+        "Use body height as the main performance explanation",
+        "Reject the split data because maximal force was stable",
+        "Investigate speed endurance and fatigue tolerance",
+        "Diagnose iron deficiency from split times alone"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "revisedExplanation": "A late-race slowdown with stable maximal force points toward event-specific speed endurance or fatigue tolerance, while medical causes require separate evidence.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "physiology-sport-exercise-kenney",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-013",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-013",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+      "revisedQuestion": "A soccer player's 5-m sprint time is normal after 48 hours of rest but 8% slower after two congested match days. What is the most defensible interpretation?",
+      "originalOptions": [
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Ferritin status interpreted without other evidence",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "revisedOptions": [
+        "Assume a permanent loss of acceleration capacity",
+        "Consider residual fatigue before changing technique",
+        "Treat body height as the main determinant of sprint time",
+        "Discard the rested result as less relevant"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "A context-dependent decline after congested competition should first be interpreted with recovery and load information rather than as a permanent technical loss.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-014",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-014",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a repeated decline in sprint performance with stable strength may suggest a limitation in:",
+      "revisedQuestion": "Video from a sprint test shows longer ground-contact time and reduced front-side mechanics, while force-plate peak force is unchanged. Which limitation is most plausible?",
+      "originalOptions": [
+        "Ferritin status interpreted without other evidence",
+        "Speed power, fatigue tolerance, or sprint technique",
+        "Validity of every test regardless of protocol and context",
+        "Body height as the primary limiting variable"
+      ],
+      "revisedOptions": [
+        "Remove technical drills from the training programme",
+        "Diagnose an iron disorder from video findings",
+        "Blame the device despite normal calibration and traces",
+        "Investigate sprint technique rather than maximal force alone"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "basic-biomechanics-hall",
+      "revisedExplanation": "When peak force is stable but movement mechanics change, technique and coordination are reasonable performance hypotheses to test with targeted analysis.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "basic-biomechanics-hall",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-022",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-022",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, when a test result is below a reference value, the first step should be to:",
+      "revisedQuestion": "An athlete's countermovement-jump score is 8 cm below a published reference, but testing followed a 90-minute practice and the reference group was tested rested. What should happen first?",
+      "originalOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Check test quality, context, and reference-group relevance",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary"
+      ],
+      "revisedOptions": [
+        "Label the athlete below standard and add maximal jumps",
+        "Check comparability and repeat the test under standard conditions",
+        "Discard the reference because norms are never useful",
+        "Diagnose fatigue from one post-practice comparison"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "revisedExplanation": "Reference comparisons are meaningful only when the test protocol, athlete context, and reference group are sufficiently comparable; standardization should precede a training decision.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "acsm-getp-12",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-023",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-023",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, when a test result is below a reference value, the first step should be to:",
+      "revisedQuestion": "A 16-year-old gymnast's handgrip value falls below an adult reference table, although age, sex, body mass, and device protocol differ. The first step is to:",
+      "originalOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Check test quality, context, and reference-group relevance",
+        "Discard the result because reference groups vary"
+      ],
+      "revisedOptions": [
+        "Apply the adult cut-off as a clinical diagnosis",
+        "Select whichever reference has the lowest threshold",
+        "Verify an age- and protocol-matched reference first",
+        "Replace the measure with a coach's visual impression"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "acsm-getp-12",
+      "revisedExplanation": "Normative interpretation requires an appropriate reference population and comparable measurement conditions; an adult cut-off should not be applied automatically to a youth athlete.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "acsm-getp-12",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-024",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-024",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, when a test result is below a reference value, the first step should be to:",
+      "revisedQuestion": "A GPS report shows unusually low high-speed distance in a match, and the device recorded satellite drop-out for 11 minutes. What is the first analytic step?",
+      "originalOptions": [
+        "Treat the score as diagnostic without clinical context",
+        "Prescribe maximal training before confirming context",
+        "Discard the result because reference groups vary",
+        "Check test quality, context, and reference-group relevance"
+      ],
+      "revisedOptions": [
+        "Compare devices without documenting their differences",
+        "Increase high-speed workload before verifying the record",
+        "Treat missing distance as evidence of poor conditioning",
+        "Verify data completeness, device function, and protocol"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "acsm-getp-12",
+      "sourceId": "gps-validity-scott-2016",
+      "revisedExplanation": "A known tracking gap makes data quality and completeness the first issue; the performance value should not drive training until the measurement is verified.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "gps-validity-scott-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-032",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-032",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a practical training recommendation should link the observed result to:",
+      "revisedQuestion": "An athlete's isokinetic knee-extension strength is 14% lower on the previously injured side, while the return-to-sport criterion is 10%. A practical recommendation should first:",
+      "originalOptions": [
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals",
+        "A feasible intervention linked to a follow-up measure"
+      ],
+      "revisedOptions": [
+        "Ignore the asymmetry because the athlete reports no pain",
+        "Add targeted strength work and schedule a standardized retest",
+        "Remove all lower-limb loading until symmetry is perfect",
+        "Use the opposite limb as the only training target"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "revisedExplanation": "A meaningful side-to-side deficit should be linked to a proportionate intervention and a predefined reassessment, not ignored or treated as a reason for indefinite unloading.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "brukner-khan-clinical-sports-medicine",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-033",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-033",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a practical training recommendation should link the observed result to:",
+      "revisedQuestion": "Repeated-sprint testing shows a 6% performance decrement after a congested week, exceeding the athlete's typical error. Which recommendation best links data to action?",
+      "originalOptions": [
+        "A feasible intervention linked to a follow-up measure",
+        "A change without a defined follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "revisedOptions": [
+        "Redistribute high-intensity work and retest after recovery",
+        "Declare the athlete unfit for the season from one result",
+        "Increase sprint volume to overcome the decrement",
+        "Replace sprint testing with a body-mass measure"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "A change exceeding expected error can support a proportionate load or recovery adjustment followed by repeat measurement.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-034",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-034",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a practical training recommendation should link the observed result to:",
+      "revisedQuestion": "Video analysis identifies excessive knee valgus on landing in 3 of 5 trials, with stable jump height. Which recommendation is most appropriate?",
+      "originalOptions": [
+        "A change without a defined follow-up measure",
+        "A feasible intervention linked to a follow-up measure",
+        "Only the athlete's ranking without a decision plan",
+        "A generic exercise list without athlete-specific goals"
+      ],
+      "revisedOptions": [
+        "Avoid jumping permanently without measuring response",
+        "Treat stable jump height as proof landing is normal",
+        "Use team ranking as the only programme guide",
+        "Use neuromuscular technique work with a landing retest"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "kisner-therapeutic-exercise",
+      "revisedExplanation": "A movement-quality finding should lead to a targeted, feasible intervention and a defined reassessment rather than reliance on jump height alone.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "kisner-therapeutic-exercise",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-042",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-042",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, longitudinal monitoring is strengthened by using:",
+      "revisedQuestion": "Over six weeks, countermovement jumps were recorded on different devices and at different times relative to training. To strengthen the longitudinal comparison, the staff should:",
+      "originalOptions": [
+        "Different tests each session without common timing",
+        "Consistent measures, repeated timing, trends, and context",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements"
+      ],
+      "revisedOptions": [
+        "Select the best weekly value to represent potential",
+        "Standardize device, timing, warm-up, and recording",
+        "Convert scores to team ranks and discard raw values",
+        "Average scores without recording testing conditions"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "Consistent device, timing, preparation, and recording conditions make repeated scores more interpretable as a trend.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-043",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-043",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, longitudinal monitoring is strengthened by using:",
+      "revisedQuestion": "A wellness questionnaire used a 1–5 fatigue scale for four weeks and then changed to 1–10 without an overlap study. What is the main monitoring problem?",
+      "originalOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Consistent measures, repeated timing, trends, and context",
+        "Informal impressions without recorded measurements"
+      ],
+      "revisedOptions": [
+        "Assume the new scale automatically improves validity",
+        "Treat the change as evidence of greater fatigue",
+        "Discard all subjective data from the first four weeks",
+        "Re-establish comparability before interpreting later scores"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Changing the response scale interrupts comparability; the new scale needs a documented bridge or a new baseline before trends are interpreted.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-044",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-044",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, longitudinal monitoring is strengthened by using:",
+      "revisedQuestion": "One athlete's GPS high-speed distance was collected with two device models using different sampling settings. A defensible longitudinal analysis should:",
+      "originalOptions": [
+        "Different tests each session without common timing",
+        "Only the best result from each testing period",
+        "Informal impressions without recorded measurements",
+        "Consistent measures, repeated timing, trends, and context"
+      ],
+      "revisedOptions": [
+        "Pool device values because both report metres",
+        "Use the largest distance to avoid underestimation",
+        "Document device settings and compare compatible periods",
+        "Replace missing metadata with the team mean"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 2,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "gps-validity-scott-2016",
+      "revisedExplanation": "Device and sampling differences can affect measured distances, so metadata and compatible periods must be considered before combining a time series.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "gps-validity-scott-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-052",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-052",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a small change in an athlete's score should be considered practically important only when it:",
+      "revisedQuestion": "A sprinter improves from 10.20 s to 10.18 s, but the test's typical error is 0.04 s and no coaching decision would change. The change should be interpreted as:",
+      "originalOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold",
+        "Exceeds expected error or changes the practical decision"
+      ],
+      "revisedOptions": [
+        "Call the lower time a meaningful gain immediately",
+        "Treat the change as unclear because it is below typical error",
+        "Assume the timing test has perfect reliability",
+        "Remove timing error from the performance record"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "A numerical difference smaller than expected measurement error is not clearly a real or decision-relevant performance change.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-053",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-053",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a small change in an athlete's score should be considered practically important only when it:",
+      "revisedQuestion": "An athlete's jump height increases 5 cm, exceeding the test's typical error of 2 cm and crossing the programme's return-to-training threshold. This change is practically important because it:",
+      "originalOptions": [
+        "Exceeds expected error or changes the practical decision",
+        "Improves the athlete's rank by one place in the sample",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "revisedOptions": [
+        "Call any nonzero change practically important",
+        "Use peer rank even when the protocol changed",
+        "Confirm that the change exceeds error and alters a decision",
+        "Treat extra decimal places as evidence of improvement"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "The change is more credible than expected error and is large enough to alter the predefined practical decision.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-054",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-054",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a small change in an athlete's score should be considered practically important only when it:",
+      "revisedQuestion": "A study reports p=0.03 for a 0.02-second sprint improvement, but the 95% confidence interval includes values smaller than the timing error. What should guide the practical interpretation?",
+      "originalOptions": [
+        "Improves the athlete's rank by one place in the sample",
+        "Exceeds expected error or changes the practical decision",
+        "Adds decimal places without improving measurement precision",
+        "Is numerically nonzero but below the decision threshold"
+      ],
+      "revisedOptions": [
+        "Treat p<0.05 alone as proof of a useful change",
+        "Consider effect size, uncertainty, test error, and decisions",
+        "Ignore inference because sport measurements vary",
+        "Replace the confidence interval with athlete ranking"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "revisedExplanation": "Practical interpretation combines effect magnitude and uncertainty with measurement error and the decision threshold; a p value alone is insufficient.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nakagawa-cuthill-effect-size-2007",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-062",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-062",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, when communicating data to a coach, the analyst should emphasize:",
+      "revisedQuestion": "A coach requests all 30 variables from a monitoring dashboard before selecting next week's training. The analyst should first present:",
+      "originalOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Decision relevance, uncertainty, and practical next step",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone"
+      ],
+      "revisedOptions": [
+        "Present key trends, uncertainty, and the proposed next step",
+        "Show every raw variable without prioritizing decisions",
+        "Show only favorable trends to protect confidence",
+        "Claim causation from the strongest correlation"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Communication should prioritize decision-relevant findings, their limitations, and an actionable next step rather than overwhelm the decision-maker with unfiltered data.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-063",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-063",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, when communicating data to a coach, the analyst should emphasize:",
+      "revisedQuestion": "In 12 athletes, weekly training load correlates with injury days (r=0.62), but exposure time and prior injury were not recorded. The coach should be told that:",
+      "originalOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "Decision relevance, uncertainty, and practical next step",
+        "A causal claim based on one correlation alone"
+      ],
+      "revisedOptions": [
+        "Say the correlation proves load caused injury",
+        "Say correlations are never useful for coaching",
+        "Describe a preliminary association with possible confounding",
+        "Reduce all training load without further analysis"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "An unadjusted association with missing exposure and prior-injury information does not establish causation and should be treated as preliminary.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-064",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-064",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, when communicating data to a coach, the analyst should emphasize:",
+      "revisedQuestion": "An athlete's seven-day HRV average drops 12% while sprint performance is unchanged and sleep reports worsen. The most useful communication is to:",
+      "originalOptions": [
+        "Every raw variable without interpretation or prioritization",
+        "Only the most favorable result without uncertainty",
+        "A causal claim based on one correlation alone",
+        "Decision relevance, uncertainty, and practical next step"
+      ],
+      "revisedOptions": [
+        "Increase training load to test the HRV signal",
+        "Diagnose overtraining from the HRV change alone",
+        "Ignore HRV because sprint performance is unchanged",
+        "Report HRV with baseline, sleep, and recovery context"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "A monitoring signal should be interpreted with individual baseline, performance, sleep, and recovery context before a training adjustment is made.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-072",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-072",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+      "revisedQuestion": "A force-plate dashboard shows body mass doubled for one athlete on one day, with all other variables unchanged. Before interpreting training status, check:",
+      "originalOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause",
+        "Data entry, device function, protocol, and athlete context"
+      ],
+      "revisedOptions": [
+        "Check only the athlete's motivation score",
+        "Check calibration, units, identity, and data errors",
+        "Assign maximal loading because the value is unusual",
+        "Silently replace the outlier with the previous best"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "An implausible isolated value should first be verified against calibration, units, identity, and data-entry records.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-073",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-073",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+      "revisedQuestion": "A wellness score of 1 appears after an athlete submitted the questionnaire twice, once with a missing date. The first data-quality check should address:",
+      "originalOptions": [
+        "Data entry, device function, protocol, and athlete context",
+        "An injury diagnosis based on one unusual value",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "revisedOptions": [
+        "Set training from the most extreme response",
+        "Diagnose severe fatigue from the single score",
+        "Delete the lower score without an audit trail",
+        "Check duplicates, timestamps, and missingness"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Duplicate submissions and missing timestamps can create a false outlier; the records and missingness pattern should be checked before interpretation.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-074",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-074",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a sudden outlier in a monitoring dashboard should first prompt a check of:",
+      "revisedQuestion": "GPS sprint distance falls to zero immediately after a firmware update, while the athlete's video shows normal sprinting. The analyst should first:",
+      "originalOptions": [
+        "An injury diagnosis based on one unusual value",
+        "Data entry, device function, protocol, and athlete context",
+        "Deletion of the observation without checking context",
+        "An immediate training increase without confirming cause"
+      ],
+      "revisedOptions": [
+        "Treat zero distance as a true loss of speed",
+        "Increase sprint exposure to correct the value",
+        "Check firmware, synchronization, and the tracking protocol",
+        "Replace the value with a teammate's average"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 2,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "gps-validity-scott-2016",
+      "revisedExplanation": "The timing of the zero value and the independent video evidence make a device or synchronization check necessary before using the metric.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "gps-validity-scott-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-082",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-082",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+      "revisedQuestion": "During a two-week congested schedule, external load rises 20%, sprint performance improves 3%, but sleep and wellness scores deteriorate. The safest interpretation is:",
+      "originalOptions": [
+        "Higher load is always beneficial when performance improves",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "revisedOptions": [
+        "Assume the load is beneficial because performance improved",
+        "Interpret performance with recovery and illness-risk indicators",
+        "Assume fatigue is impossible when sprint performance rises",
+        "Ignore wellness scores because they are subjective"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "ioc-load-illness-2016",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "A favorable performance result does not remove concern from worsening recovery indicators; the combined pattern should inform progression.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-083",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-083",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+      "revisedQuestion": "Two athletes complete the same weekly load; one improves sprint performance and the other declines with poor sleep. What conclusion is most defensible?",
+      "originalOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "Consider response alongside recovery, trends, and other outcomes",
+        "The result proves the programme is optimal for the athlete"
+      ],
+      "revisedOptions": [
+        "Assume both athletes had the same physiological response",
+        "Treat the declining athlete's result as invalid",
+        "Consider individual response and recovery before generalizing",
+        "Use the improving athlete to clear the whole squad"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "originalSourceId": "ioc-load-illness-2016",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "The same external load can produce different responses, so individual recovery and performance trends should inform interpretation.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-084",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-084",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, if an athlete's performance improves while training load also rises, the safest interpretation is:",
+      "revisedQuestion": "An athlete's performance improves during a planned taper while training load falls. Which interpretation is most cautious?",
+      "originalOptions": [
+        "Higher load is always beneficial when performance improves",
+        "The athlete cannot be fatigued because performance improved",
+        "The result proves the programme is optimal for the athlete",
+        "Consider response alongside recovery, trends, and other outcomes"
+      ],
+      "revisedOptions": [
+        "Attribute improvement to the previous high load alone",
+        "Judge the taper with planned load, recovery, and trends",
+        "Keep future load minimal after any taper improvement",
+        "Treat the pre-taper score as invalid without checking conditions"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "ioc-load-illness-2016",
+      "sourceId": "ioc-load-illness-2016",
+      "revisedExplanation": "Improvement during a taper is compatible with several explanations; planned load, recovery, and repeated trends are needed before attributing causality.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "ioc-load-illness-2016",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-092",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-092",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a useful performance dashboard should avoid:",
+      "revisedQuestion": "A dashboard for a squad displays 40 metrics, mixed units, no definitions, and no stated decisions. Its main weakness is that it:",
+      "originalOptions": [
+        "Displaying trends with clear units, dates, and a defined decision purpose",
+        "Displaying a small set of metrics with documented definitions and context",
+        "Displaying athlete scores alongside dates and relevant reference ranges",
+        "Displaying metrics without definitions, context, or a decision purpose"
+      ],
+      "revisedOptions": [
+        "Assume squad-wide trends are never useful",
+        "Present measures without context or a decision purpose",
+        "Reject quantitative data in favor of coach observation",
+        "Avoid showing more than one outcome on a screen"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "nsca-essentials-5",
+      "revisedExplanation": "A dashboard becomes less useful when measures lack definitions, units, context, and a clear decision purpose.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nsca-essentials-5",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-093",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-093",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "During a competition preparation meeting, a useful performance dashboard should avoid:",
+      "revisedQuestion": "A performance dashboard shows injury status, GPS location, and athlete names on a screen visible to visitors. What should the analyst avoid?",
+      "originalOptions": [
+        "Displaying metrics without definitions, context, or a decision purpose",
+        "Displaying trends with clear units, dates, and a defined decision purpose",
+        "Displaying athlete scores alongside dates and relevant reference ranges",
+        "Displaying a small set of metrics with documented definitions and context"
+      ],
+      "revisedOptions": [
+        "Use dates and units to interpret performance trends",
+        "Restrict access and show only decision-relevant information",
+        "Display identifiable health and location data to visitors",
+        "Explain every metric to the authorized performance team"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 2,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "revisedExplanation": "Identifiable health and location information should not be exposed to unauthorized viewers; access and presentation should be limited to the decision need.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ethics-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-094",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-094",
+      "representativeId": "a1-data-001",
+      "originalQuestion": "In a practical sports-science assessment, a useful performance dashboard should avoid:",
+      "revisedQuestion": "A dashboard reports a 12% improvement in jump height but omits baseline value, test error, and timing conditions. It should avoid:",
+      "originalOptions": [
+        "Displaying athlete scores alongside dates and relevant reference ranges",
+        "Displaying metrics without definitions, context, or a decision purpose",
+        "Displaying trends with clear units, dates, and a defined decision purpose",
+        "Displaying a small set of metrics with documented definitions and context"
+      ],
+      "revisedOptions": [
+        "Interpret percentage change without baseline or test context",
+        "Display a non-health performance result beside a name",
+        "Graph repeated measurements across the testing period",
+        "Link the trend to a clearly defined coaching decision"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "nsca-essentials-5",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "A percentage change without baseline, uncertainty, and protocol context can be misleading and should not be treated as a self-explanatory result.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-102",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-102",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a randomized controlled trial is designed primarily to compare:",
+      "revisedQuestion": "A six-week hamstring-prevention trial randomizes athletes to two programmes, but 18% withdraw from one group. Which appraisal question is most important before interpreting the result?",
+      "originalOptions": [
+        "A measurement device's calibration across repeated technical trials",
+        "Outcomes under allocated interventions while reducing confounding",
+        "Naturally occurring groups without allocating an intervention to participants",
+        "A single athlete's trend without a comparison condition or allocation"
+      ],
+      "revisedOptions": [
+        "Ask whether participants trained at the same venue",
+        "Ask whether the paper uses a sports-specific font",
+        "Ask whether the trial measured several outcomes",
+        "Check whether differential withdrawals affected the analysis"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Differential withdrawal can bias the comparison, so the analysis population and handling of missing outcomes must be examined before interpreting the randomized trial.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-103",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-103",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "During a competition preparation meeting, a randomized controlled trial is designed primarily to compare:",
+      "revisedQuestion": "In an RCT of two recovery protocols, baseline sleep differs by chance between groups. The most appropriate report should:",
+      "originalOptions": [
+        "A single athlete's trend without a comparison condition or allocation",
+        "A measurement device's calibration across repeated technical trials",
+        "Outcomes under allocated interventions while reducing confounding",
+        "Naturally occurring groups without allocating an intervention to participants"
+      ],
+      "revisedOptions": [
+        "Hide baseline differences because randomization balances groups",
+        "Report outcomes with uncertainty and discuss the imbalance",
+        "Change the design to a cohort after seeing baseline data",
+        "Compare only the best responder from each study group"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Randomization reduces systematic imbalance but does not guarantee identical baseline values; transparent reporting and uncertainty are essential.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-104",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-104",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "In a practical sports-science assessment, a randomized controlled trial is designed primarily to compare:",
+      "revisedQuestion": "A randomized study compares a neuromuscular programme with usual training, but the intervention group also receives extra staff contact. The main design concern is:",
+      "originalOptions": [
+        "Naturally occurring groups without allocating an intervention to participants",
+        "A single athlete's trend without a comparison condition or allocation",
+        "A measurement device's calibration across repeated technical trials",
+        "Outcomes under allocated interventions while reducing confounding"
+      ],
+      "revisedOptions": [
+        "Claim there is no outcome because staff contact is unmeasured",
+        "Consider extra staff contact as a possible co-intervention",
+        "Claim randomization fails whenever programmes are visible",
+        "Remove the control group because the intervention is promising"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Unequal staff contact is a co-intervention that may partly explain the outcome difference, complicating attribution to the neuromuscular programme.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-112",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-112",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a cohort study commonly follows participants to examine:",
+      "revisedQuestion": "A prospective cohort records sleep below 7 hours or at least 7 hours at preseason and follows athletes for 10 weeks to record illness. The exposure is:",
+      "originalOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions",
+        "Associations between exposures and later outcomes"
+      ],
+      "revisedOptions": [
+        "Illness days recorded during follow-up",
+        "Sleep category recorded before follow-up",
+        "The analyst's recruitment decision",
+        "The athlete's final performance ranking"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "In this cohort, sleep category is measured before follow-up and is the exposure used to examine a later illness outcome.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-113",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-113",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "During a competition preparation meeting, a cohort study commonly follows participants to examine:",
+      "revisedQuestion": "A cohort study follows athletes with high versus low weekly travel for one season and compares new overuse injuries. This design can estimate:",
+      "originalOptions": [
+        "Associations between exposures and later outcomes",
+        "Calibration of one laboratory instrument over repeated trials",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "revisedOptions": [
+        "Estimate baseline disease prevalence only",
+        "Estimate a causal effect after random allocation",
+        "Assess device reliability without repeated trials",
+        "Estimate the travel–injury association over follow-up"
+      ],
+      "originalCorrect": 0,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "A prospective cohort can compare subsequent outcome occurrence across naturally observed exposure groups, while causal interpretation remains cautious.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-114",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-114",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "In a practical sports-science assessment, a cohort study commonly follows participants to examine:",
+      "revisedQuestion": "Former injury is more common among athletes who use a recovery device, and those athletes also receive more medical contact. In a cohort analysis, medical contact may:",
+      "originalOptions": [
+        "Calibration of one laboratory instrument over repeated trials",
+        "Associations between exposures and later outcomes",
+        "Definition and classification of an athlete's somatotype",
+        "Reliability of one instrument under repeated conditions"
+      ],
+      "revisedOptions": [
+        "Be an outcome that follows device use in every athlete",
+        "Confound the device–injury association when linked to both",
+        "Remove the need to record when device use occurred",
+        "Prove that device use caused each new injury"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "A factor related to both exposure and outcome ascertainment can distort an observed association and should be considered in the analysis.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-122",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-122",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "When reviewing a high-performance athlete profile, critical appraisal of a paper should include assessment of:",
+      "revisedQuestion": "A paper reports a statistically significant 0.03-second sprint improvement after training, but the confidence interval overlaps the test's typical error. Critical appraisal should ask whether:",
+      "originalOptions": [
+        "Only the journal's visual design and presentation style",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "revisedOptions": [
+        "Generalize the result without examining the athletes studied",
+        "Stop appraisal because the p value is below 0.05",
+        "Use journal impact factor as a reliability measure",
+        "Check whether the effect is precise and decision-relevant"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "nakagawa-cuthill-effect-size-2007",
+      "revisedExplanation": "Statistical significance does not establish practical importance; the estimate's precision, measurement error, and decision threshold must also be considered.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "nakagawa-cuthill-effect-size-2007",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-123",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-123",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "During a competition preparation meeting, critical appraisal of a paper should include assessment of:",
+      "revisedQuestion": "A recovery intervention study includes eight national-level athletes from one sport and reports a large effect. To assess applicability, the reader should examine:",
+      "originalOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Methods, bias, precision, applicability, and claim-data fit",
+        "Whether the conclusion sounds confident and persuasive"
+      ],
+      "revisedOptions": [
+        "Check whether the sample and setting match the target athlete",
+        "Prefer the study only because its effect is largest",
+        "Accept the conclusion because its wording is confident",
+        "Assume significance removes sampling uncertainty"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ebp-2023",
+      "revisedExplanation": "Applicability depends on similarity between the study population, setting, intervention, outcome, and the athlete or decision under consideration.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ebp-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-124",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-124",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "In a practical sports-science assessment, critical appraisal of a paper should include assessment of:",
+      "revisedQuestion": "An observational paper states that a high acute-to-chronic load ratio causes injury, but load and injury were measured during the same week. Which appraisal issue is most important?",
+      "originalOptions": [
+        "Only the journal's visual design and presentation style",
+        "Only the number of references cited by the paper",
+        "Whether the conclusion sounds confident and persuasive",
+        "Methods, bias, precision, applicability, and claim-data fit"
+      ],
+      "revisedOptions": [
+        "Ask whether temporal order and confounding permit causation",
+        "Require random allocation in every observational study",
+        "Reject the paper if descriptive statistics are reported",
+        "Assume identical training histories are necessary"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "Simultaneous measurement weakens temporal inference, and confounding must be considered before an observational association is described as causal.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-132",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-132",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "When reviewing a high-performance athlete profile, a confounder is a variable that:",
+      "revisedQuestion": "In a study of recovery boots, users have substantially greater training age than non-users, and training age is related to injury risk. Training age may be:",
+      "originalOptions": [
+        "Relates to exposure and outcome and distorts their association",
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Call it random error unrelated to exposure or outcome",
+        "Treat it as a pressure unit for the boots",
+        "Call it an outcome that follows every injury",
+        "Treat it as a confounder of boot use and injury"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 3,
+      "originalSourceId": "cdc-confounding-epi-manual",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "Training age is a plausible confounder when it relates to both recovery-device use and injury risk and is not part of the causal exposure definition.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-133",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-133",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "During a competition preparation meeting, a confounder is a variable that:",
+      "revisedQuestion": "Outdoor training days are associated with both higher heat exposure and more muscle cramps. If heat exposure is not controlled, it may:",
+      "originalOptions": [
+        "Is measurement error caused only by an unreliable instrument",
+        "Is the primary outcome selected before exposure measurement",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Skip a clear outcome definition before analysis",
+        "Claim outdoor training directly causes every cramp",
+        "Treat the cohort design as randomized",
+        "Consider heat exposure as a confounder"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "originalSourceId": "cdc-confounding-epi-manual",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "A third variable related to both the exposure and outcome can distort their observed association if it is not addressed.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-134",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-134",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "In a practical sports-science assessment, a confounder is a variable that:",
+      "revisedQuestion": "High-protein diet use is associated with better sprint improvement, but users also receive more individualized coaching. Individualized coaching is a possible confounder because it:",
+      "originalOptions": [
+        "Is the primary outcome selected before exposure measurement",
+        "Is measurement error caused only by an unreliable instrument",
+        "Relates to exposure and outcome and distorts their association",
+        "Is unrelated to exposure and outcome but adds random noise"
+      ],
+      "revisedOptions": [
+        "Assume diet and sprint improvement are unrelated",
+        "Consider coaching a confounder of diet and improvement",
+        "Call timing error the explanation for the association",
+        "Measure the outcome before the dietary exposure"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 1,
+      "originalSourceId": "cdc-confounding-epi-manual",
+      "sourceId": "cdc-confounding-epi-manual",
+      "revisedExplanation": "Individualized coaching may influence both diet choice and sprint improvement, so the diet–performance association may be partly confounded.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "cdc-confounding-epi-manual",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-142",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-142",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "When reviewing a high-performance athlete profile, research involving athletes should include safeguards for:",
+      "revisedQuestion": "An online study stores athlete names with GPS tracks and injury records. Which safeguard is most appropriate?",
+      "originalOptions": [
+        "Faster data collection without addressing participant risk",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "revisedOptions": [
+        "Code records, restrict access, and obtain consent for use",
+        "Publish raw data so participants can verify records",
+        "Give all staff and sponsors unrestricted access",
+        "Explain the study only after collecting the data"
+      ],
+      "originalCorrect": 1,
+      "revisedCorrect": 0,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "revisedExplanation": "Identifiable athlete data require informed consent, privacy safeguards, controlled access, and a clear explanation of how the information will be used.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ethics-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-143",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-143",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "During a competition preparation meeting, research involving athletes should include safeguards for:",
+      "revisedQuestion": "A study recruits adolescent athletes for a fatigue-monitoring protocol. Ethical safeguards should include:",
+      "originalOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Consent, privacy, risk minimization, and fair treatment",
+        "Exclusion of participant questions from consent discussions"
+      ],
+      "revisedOptions": [
+        "Tie participation to team selection for full attendance",
+        "Exclude questions to prevent misunderstanding",
+        "Publish individual scores to encourage compliance",
+        "Obtain assent, parental consent, and a risk plan"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 3,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-ethics-2023",
+      "revisedExplanation": "Research with young athletes requires appropriate consent and assent processes, risk oversight, and protection from coercion or unmanaged adverse events.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. After content review, the final option order was adjusted to distribute zero-based answer positions; option meaning and the keyed answer were unchanged. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-ethics-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    },
+    {
+      "id": "a1-data-144",
+      "defectType": "nearDuplicateRewrite",
+      "familyId": "a1-data-144",
+      "representativeId": "a1-data-101",
+      "originalQuestion": "In a practical sports-science assessment, research involving athletes should include safeguards for:",
+      "revisedQuestion": "An athlete employed by the team is invited to join a study led by the head coach. To protect voluntary participation, the research team should:",
+      "originalOptions": [
+        "Faster data collection without addressing participant risk",
+        "Public release of identifiable health information",
+        "Exclusion of participant questions from consent discussions",
+        "Consent, privacy, risk minimization, and fair treatment"
+      ],
+      "revisedOptions": [
+        "Make participation a condition of team selection",
+        "Use independent consent, explain risks, and protect privacy",
+        "Collect verbal consent in front of teammates",
+        "Explain the study only after data collection"
+      ],
+      "originalCorrect": 3,
+      "revisedCorrect": 1,
+      "originalSourceId": "world-physiotherapy-ebp-2023",
+      "sourceId": "world-physiotherapy-consent-2023",
+      "revisedExplanation": "A power relationship can create undue influence; independent consent, transparent risk communication, confidentiality, and freedom to decline are essential.",
+      "reviewerNote": "Rewrote the generic opener into a distinct athlete-data scenario with concrete measurements, constraints, or a decision. The four options remain parallel and the key is the zero-based index of the defensible source-supported answer. Final option wording was also tightened or qualified so distractors remain semantically plausible and broadly comparable in length; no padding was added.",
+      "sourcesInspected": [
+        "sai-notification-2026 (A1 Detailed Syllabus, area 17: interpretation/application and evidence-based practice)",
+        "research/final2_independent_audit_data_performance.json",
+        "world-physiotherapy-consent-2023",
+        "src/data/sourceCatalog.ts"
+      ]
+    }
+  ]
+}

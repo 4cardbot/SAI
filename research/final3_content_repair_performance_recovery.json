@@ -1,0 +1,1333 @@
+{
+  "auditType": "final3_content_repair_performance_recovery",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_performance_recovery.json",
+  "readOnlyAuditFinding": "The final2 independent audit identified 15 four-question near-duplicate families in this file. Each family retained one representative and required three materially distinct rewrites.",
+  "representativePolicy": "The first question in each named family was retained unchanged as the representative.",
+  "changedCount": 45,
+  "familyCount": 15,
+  "representatives": [
+    "a1-recovery-001",
+    "a1-recovery-011",
+    "a1-recovery-021",
+    "a1-recovery-031",
+    "a1-recovery-041",
+    "a1-recovery-051",
+    "a1-recovery-061",
+    "a1-recovery-071",
+    "a1-recovery-081",
+    "a1-recovery-091",
+    "a1-recovery-101",
+    "a1-recovery-111",
+    "a1-recovery-121",
+    "a1-recovery-131",
+    "a1-recovery-141"
+  ],
+  "changedQuestions": [
+    {
+      "id": "a1-recovery-002",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a strength program for an athlete should begin by matching the intervention to:",
+        "options": [
+          "A generic exercise list without individual athlete profiling",
+          "Sport demands, athlete profile, and recovery capacity",
+          "The heaviest safe load available in each session",
+          "The coach's preferred machine and exercise order"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A volleyball player loses jump height after two heavy lower-body sessions. Which strength-program decision best respects individualization?",
+        "options": [
+          "Add another heavy session before the athlete recovers",
+          "Reduce lower-body volume and retain jump quality",
+          "Keep the planned dose despite falling jump height",
+          "Replace strength work with stretching for the block"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-003",
+      "original": {
+        "text": "During a competition preparation meeting, a strength program for an athlete should begin by matching the intervention to:",
+        "options": [
+          "A generic exercise list without individual athlete profiling",
+          "The heaviest safe load available in each session",
+          "Sport demands, athlete profile, and recovery capacity",
+          "The coach's preferred machine and exercise order"
+        ],
+        "correct": 2,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A rower has high maximal strength but poor repeated-power output. Which assessment should guide the next training block?",
+        "options": [
+          "Use a generic circuit without performance testing",
+          "Select the heaviest load tolerated in one session",
+          "Match force-endurance demands to testing and history",
+          "Follow preferred exercises without athlete data"
+        ],
+        "correct": 2,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-004",
+      "original": {
+        "text": "In a practical sports-science assessment, a strength program for an athlete should begin by matching the intervention to:",
+        "options": [
+          "A generic exercise list without individual athlete profiling",
+          "The heaviest safe load available in each session",
+          "The coach's preferred machine and exercise order",
+          "Sport demands, athlete profile, and recovery capacity"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "During reconditioning after a lower-limb injury, the strength plan should be progressed according to:",
+        "options": [
+          "Use one fixed exercise list for every athlete and stage",
+          "Progress only to the heaviest tolerated load in training",
+          "Follow the calendar rather than current function or symptoms",
+          "Match tissue status, function, sport demands, and response"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-012",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, speed development is most directly supported by training that addresses:",
+        "options": [
+          "Passive stretching alone without sprint-specific practice",
+          "A maximal volume increase across every training session",
+          "Long slow distance training as the primary method for sprint speed",
+          "Force, technique, coordination, and quality sprint exposure"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "Video shows a sprinter repeatedly overstriding at maximal velocity. Which training emphasis is most specific?",
+        "options": [
+          "Add long-distance running as the main speed method",
+          "Use stretching alone before each sprint session",
+          "Increase sprint volume despite poorer technique",
+          "Refine mechanics with high-quality sprint exposures"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-013",
+      "original": {
+        "text": "During a competition preparation meeting, speed development is most directly supported by training that addresses:",
+        "options": [
+          "Force, technique, coordination, and quality sprint exposure",
+          "Passive stretching alone without sprint-specific practice",
+          "A maximal volume increase across every training session",
+          "Long slow distance training as the primary method for sprint speed"
+        ],
+        "correct": 0,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A 200-m runner maintains maximal velocity but fades across repeated sprint efforts. Which training focus is most appropriate?",
+        "options": [
+          "Develop speed endurance while preserving sprint quality",
+          "Replace sprinting with passive flexibility sessions",
+          "Increase intervals until every repetition is completed",
+          "Use distance running as the only speed stimulus"
+        ],
+        "correct": 0,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-014",
+      "original": {
+        "text": "In a practical sports-science assessment, speed development is most directly supported by training that addresses:",
+        "options": [
+          "Passive stretching alone without sprint-specific practice",
+          "Force, technique, coordination, and quality sprint exposure",
+          "A maximal volume increase across every training session",
+          "Long slow distance training as the primary method for sprint speed"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A soccer winger reaches high top speed but is slow during the first three steps. Which intervention best targets the limitation?",
+        "options": [
+          "Use distance running without acceleration practice",
+          "Train acceleration with horizontal force and feedback",
+          "Use stretching as the main neuromuscular method",
+          "Add conditioning without reviewing sprint mechanics"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-022",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, power training requires attention to both force and:",
+        "options": [
+          "Movement accuracy",
+          "Movement velocity",
+          "Muscular endurance",
+          "Joint mobility"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "For a basketball player with adequate maximal strength but a slow countermovement jump, power training should emphasize:",
+        "options": [
+          "Use long isometric holds at comfortable joint angles",
+          "Train rapid force at task-relevant velocities",
+          "Use hypertrophy volume until complete fatigue",
+          "Use mobility work without explosive practice"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-023",
+      "original": {
+        "text": "During a competition preparation meeting, power training requires attention to both force and:",
+        "options": [
+          "Movement accuracy",
+          "Muscular endurance",
+          "Movement velocity",
+          "Joint mobility"
+        ],
+        "correct": 2,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A force–velocity profile shows high force but low movement velocity. Which adjustment best addresses power?",
+        "options": [
+          "Use heavier loads and accept slower movement",
+          "Remove explosive work until strength is unchanged",
+          "Use loads that preserve force and movement speed",
+          "Train flexibility instead of power"
+        ],
+        "correct": 2,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-024",
+      "original": {
+        "text": "In a practical sports-science assessment, power training requires attention to both force and:",
+        "options": [
+          "Movement accuracy",
+          "Muscular endurance",
+          "Joint mobility",
+          "Movement velocity"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "During a jump-training session, bar velocity falls markedly and landing mechanics deteriorate. The safest power-training decision is to:",
+        "options": [
+          "Add repetitions to compensate for lower velocity",
+          "Increase load to restore the planned stimulus",
+          "Continue while fatigue worsens movement quality",
+          "Reduce the set to preserve speed and landing quality"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-032",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, agility training differs from change-of-direction training because agility includes:",
+        "options": [
+          "Maximal strength without reactive movement practice",
+          "Flexibility testing without a sport-specific or reactive stimulus",
+          "A preplanned route with no opponent or external cue",
+          "Perception and decision-making after an external stimulus"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A defender must react to an opponent's feint before changing direction. This drill primarily develops:",
+        "options": [
+          "Use a preplanned route with no perception demand",
+          "Use static flexibility without reactive movement",
+          "Train maximal strength without an external cue",
+          "Train agility through perception and reactive movement"
+        ],
+        "correct": 3,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-033",
+      "original": {
+        "text": "During a competition preparation meeting, agility training differs from change-of-direction training because agility includes:",
+        "options": [
+          "Perception and decision-making after an external stimulus",
+          "Maximal strength without reactive movement practice",
+          "Flexibility testing without a sport-specific or reactive stimulus",
+          "A preplanned route with no opponent or external cue"
+        ],
+        "correct": 0,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "An athlete completes a cone shuttle along a route known in advance. This is best classified as:",
+        "options": [
+          "Preplanned change-of-direction without an external cue",
+          "Reactive agility because the route is fast",
+          "Perceptual training because the route is specific",
+          "Agility training whether or not a cue is present"
+        ],
+        "correct": 0,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-034",
+      "original": {
+        "text": "In a practical sports-science assessment, agility training differs from change-of-direction training because agility includes:",
+        "options": [
+          "Maximal strength without reactive movement practice",
+          "Perception and decision-making after an external stimulus",
+          "Flexibility testing without a sport-specific or reactive stimulus",
+          "A preplanned route with no opponent or external cue"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "revised": {
+        "text": "A coach adds randomized light cues to a previously planned shuttle. The added element chiefly trains:",
+        "options": [
+          "Use passive recovery between repeated efforts",
+          "Train perception and decisions with directional movement",
+          "Train maximal strength without movement variability",
+          "Train linear speed without a decision component"
+        ],
+        "correct": 1,
+        "sourceId": "nsca-essentials-5"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ]
+    },
+    {
+      "id": "a1-recovery-042",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, load management is intended primarily to:",
+        "options": [
+          "Eliminate all fatigue from every training session and competition",
+          "Balance training stress, adaptation, performance, and risk",
+          "Maximize training load regardless of context, readiness, or schedule",
+          "Replace clinical assessment with workload data alone for decisions"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An endurance squad has three races in seven days, rising external load, and worsening wellness scores. The first load-management response should be to:",
+        "options": [
+          "Ignore wellness and keep the planned load unchanged",
+          "Adjust load and recovery using response and context",
+          "Remove all training until fatigue is absent",
+          "Use workload data alone to diagnose readiness"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-043",
+      "original": {
+        "text": "During a competition preparation meeting, load management is intended primarily to:",
+        "options": [
+          "Eliminate all fatigue from every training session and competition",
+          "Maximize training load regardless of context, readiness, or schedule",
+          "Balance training stress, adaptation, performance, and risk",
+          "Replace clinical assessment with workload data alone for decisions"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "A monitoring report shows a sharp week-to-week load increase after a low-load period. Which interpretation is most defensible?",
+        "options": [
+          "Assume the increase guarantees injury and rest completely",
+          "Call it harmless because external load is only one measure",
+          "Review response, recent exposure, and upcoming demands",
+          "Judge it only against a universal workload cutoff"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-044",
+      "original": {
+        "text": "In a practical sports-science assessment, load management is intended primarily to:",
+        "options": [
+          "Eliminate all fatigue from every training session and competition",
+          "Maximize training load regardless of context, readiness, or schedule",
+          "Replace clinical assessment with workload data alone for decisions",
+          "Balance training stress, adaptation, performance, and risk"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete's external load is within plan, but persistent fatigue and reduced performance are reported. The team should:",
+        "options": [
+          "Increase load because the external target was achieved",
+          "Discard reports because subjective data are limited",
+          "Replace clinical review with one monitoring metric",
+          "Integrate symptoms, performance, load, and recovery"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-052",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, active recovery is best described as:",
+        "options": [
+          "A maximal interval session performed soon after training",
+          "A diagnostic blood test used to assess tissue healing",
+          "Complete inactivity maintained for several days",
+          "Low-intensity movement performed after demanding work"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "After a tournament, an athlete has generalized stiffness but no red-flag symptoms. Which option best represents active recovery?",
+        "options": [
+          "Perform maximal intervals while still fatigued",
+          "Stop all activity for several days regardless of symptoms",
+          "Use a blood test as the recovery intervention",
+          "Use easy movement below a demanding training intensity"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-053",
+      "original": {
+        "text": "During a competition preparation meeting, active recovery is best described as:",
+        "options": [
+          "Low-intensity movement performed after demanding work",
+          "A maximal interval session performed soon after training",
+          "A diagnostic blood test used to assess tissue healing",
+          "Complete inactivity maintained for several days"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete develops increasing pain and swelling during a proposed recovery session. The appropriate response is to:",
+        "options": [
+          "Stop and obtain clinical assessment before continuing",
+          "Continue so circulation is maintained despite swelling",
+          "Increase intensity to complete the recovery prescription",
+          "Mask symptoms and repeat the same session tomorrow"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-054",
+      "original": {
+        "text": "In a practical sports-science assessment, active recovery is best described as:",
+        "options": [
+          "A maximal interval session performed soon after training",
+          "Low-intensity movement performed after demanding work",
+          "A diagnostic blood test used to assess tissue healing",
+          "Complete inactivity maintained for several days"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "Following repeated sprint training, which recovery session is most consistent with active recovery?",
+        "options": [
+          "Perform maximal intervals that repeat the training stimulus",
+          "Use brief low-intensity movement below training load",
+          "Use a static session with no movement or monitoring",
+          "Complete conditioning to prevent any fatigue"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-062",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, passive recovery includes strategies such as:",
+        "options": [
+          "Low-intensity movement performed after demanding work",
+          "Rest, sleep, and planned low-stimulation periods",
+          "A high-intensity interval session used to maintain fitness",
+          "A progressive conditioning session during the recovery window"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete has a demanding travel day after competition. Which passive-recovery plan is most appropriate?",
+        "options": [
+          "Add high-intensity conditioning during the travel day",
+          "Protect sleep and reduce unnecessary stimulation",
+          "Replace rest with repeated mobility circuits",
+          "Schedule maximal strength work before the flight"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-063",
+      "original": {
+        "text": "During a competition preparation meeting, passive recovery includes strategies such as:",
+        "options": [
+          "Low-intensity movement performed after demanding work",
+          "A high-intensity interval session used to maintain fitness",
+          "Rest, sleep, and planned low-stimulation periods",
+          "A progressive conditioning session during the recovery window"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "After a late match, the next morning's plan is intended to provide passive recovery. It should prioritize:",
+        "options": [
+          "A second hard training session to accelerate adaptation",
+          "Continuous low-intensity exercise as the only recovery method",
+          "Rest, sleep, hydration, and a period free from training demands",
+          "A fixed treatment modality regardless of symptoms or schedule"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-064",
+      "original": {
+        "text": "In a practical sports-science assessment, passive recovery includes strategies such as:",
+        "options": [
+          "Low-intensity movement performed after demanding work",
+          "A high-intensity interval session used to maintain fitness",
+          "A progressive conditioning session during the recovery window",
+          "Rest, sleep, and planned low-stimulation periods"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "During a congested competition period, a passive-recovery day should be used to:",
+        "options": [
+          "Stop recovery monitoring because no training is scheduled",
+          "Guarantee inactivity for every athlete and injury state",
+          "Replace medical review when pain or illness occurs",
+          "Plan rest while monitoring readiness and symptoms"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-072",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, sleep is important for athletes because it supports:",
+        "options": [
+          "Body-mass loss as the primary recovery mechanism overnight",
+          "Ligament length changes as the primary adaptation",
+          "Body-temperature reduction as the primary outcome",
+          "Neuromuscular, immune, cognitive, and emotional recovery"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete reports slower reaction time after two nights of curtailed sleep. The most appropriate first intervention is to:",
+        "options": [
+          "Add conditioning to restore alertness and readiness",
+          "Use a modality instead of restoring sleep",
+          "Ignore changes unless competition performance falls",
+          "Restore sleep duration and regular sleep opportunity"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-073",
+      "original": {
+        "text": "During a competition preparation meeting, sleep is important for athletes because it supports:",
+        "options": [
+          "Neuromuscular, immune, cognitive, and emotional recovery",
+          "Body-mass loss as the primary recovery mechanism overnight",
+          "Ligament length changes as the primary adaptation",
+          "Body-temperature reduction as the primary outcome"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "Before an important final, a short period of sleep extension is most likely to support:",
+        "options": [
+          "Alertness, cognitive function, mood, and recovery readiness",
+          "A guaranteed increase in maximal strength within one night",
+          "Permanent changes in ligament length and joint structure",
+          "Fitness gains independent of training and nutrition"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-074",
+      "original": {
+        "text": "In a practical sports-science assessment, sleep is important for athletes because it supports:",
+        "options": [
+          "Body-mass loss as the primary recovery mechanism overnight",
+          "Neuromuscular, immune, cognitive, and emotional recovery",
+          "Ligament length changes as the primary adaptation",
+          "Body-temperature reduction as the primary outcome"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete crossing several time zones before competition should receive sleep guidance that emphasizes:",
+        "options": [
+          "Eliminate daytime light regardless of arrival time",
+          "Plan sleep, light exposure, and adjustment to local time",
+          "Replace sleep with caffeine during competition",
+          "Keep home hours despite the time-zone change"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-082",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a recovery-monitoring plan is strongest when it combines:",
+        "options": [
+          "One biomarker used in isolation for every athlete and session",
+          "Subjective reports, objective measures, and training context",
+          "Only the previous competition result and score from one event",
+          "A universal cutoff applied to every athlete and sport"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete reports high soreness, but HRV and training load are unchanged. The best interpretation is to:",
+        "options": [
+          "Treat HRV alone as evidence of complete recovery",
+          "Combine soreness with sleep, performance, symptoms, and load",
+          "Ignore the report because subjective data are limited",
+          "Apply a universal cutoff before discussing the athlete"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-083",
+      "original": {
+        "text": "During a competition preparation meeting, a recovery-monitoring plan is strongest when it combines:",
+        "options": [
+          "One biomarker used in isolation for every athlete and session",
+          "Only the previous competition result and score from one event",
+          "Subjective reports, objective measures, and training context",
+          "A universal cutoff applied to every athlete and sport"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "A recovery-monitoring system records wellness, sleep, session load, and a weekly performance test. Its main advantage is that it:",
+        "options": [
+          "Produce a diagnosis from one dashboard score",
+          "Remove the need for coach-athlete communication",
+          "Combine signals before guiding training decisions",
+          "Give every athlete the same recovery threshold"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-084",
+      "original": {
+        "text": "In a practical sports-science assessment, a recovery-monitoring plan is strongest when it combines:",
+        "options": [
+          "One biomarker used in isolation for every athlete and session",
+          "Only the previous competition result and score from one event",
+          "A universal cutoff applied to every athlete and sport",
+          "Subjective reports, objective measures, and training context"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "One morning's HRV is lower than an athlete's baseline, but symptoms and performance are normal. The most defensible action is to:",
+        "options": [
+          "Cancel all training immediately on the basis of one value",
+          "Increase training load to test whether the value is meaningful",
+          "Ignore all future HRV readings because one value fluctuates",
+          "Repeat and contextualize the measure before making a major change"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-092",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+        "options": [
+          "A fixed rule that passive care should replace training",
+          "A belief that every modality has identical effects",
+          "The most expensive modality regardless of goals",
+          "The goal, evidence, timing, preference, and tradeoffs"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "Immediately after a lateral ankle sprain, selection of a recovery modality should first be guided by:",
+        "options": [
+          "Choose the most expensive device at the facility",
+          "Assume every modality has identical effects",
+          "Replace rehabilitation with passive care",
+          "Match stage, findings, goals, and athlete response"
+        ],
+        "correct": 3,
+        "sourceId": "apta-lateral-ankle-cpg-2021"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "apta-lateral-ankle-cpg-2021"
+      ]
+    },
+    {
+      "id": "a1-recovery-093",
+      "original": {
+        "text": "During a competition preparation meeting, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+        "options": [
+          "The goal, evidence, timing, preference, and tradeoffs",
+          "A fixed rule that passive care should replace training",
+          "A belief that every modality has identical effects",
+          "The most expensive modality regardless of goals"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete wants massage after a match because of perceived soreness. The physiotherapist should select it by considering:",
+        "options": [
+          "Consider goal, timing, evidence, preference, and trade-offs",
+          "Require massage after every match, regardless of need",
+          "Choose by price rather than the athlete's goal or response",
+          "Use passive treatment instead of training, sleep, and assessment"
+        ],
+        "correct": 0,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-094",
+      "original": {
+        "text": "In a practical sports-science assessment, compression, massage, cryotherapy, and hydrotherapy should be selected according to:",
+        "options": [
+          "A fixed rule that passive care should replace training",
+          "The goal, evidence, timing, preference, and tradeoffs",
+          "A belief that every modality has identical effects",
+          "The most expensive modality regardless of goals"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "Before choosing cryotherapy or hydrotherapy after competition, the team should clarify:",
+        "options": [
+          "Use one identical dose for every athlete and situation",
+          "Clarify goal, timing, evidence, tolerance, and alternatives",
+          "Replace pain assessment with passive treatment alone",
+          "Assume intense sensation always means better recovery"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-102",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a useful injury-prevention plan should address:",
+        "options": [
+          "Body mass and stature without considering training exposure",
+          "Modifiable risks, exposure, capacity, technique, and recovery",
+          "A single screening score interpreted without clinical context",
+          "The assumption that injury risk is entirely random and unmodifiable"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "A footballer with recurrent muscle strains has recently increased sprint exposure and reports inadequate sleep. Prevention should prioritize:",
+        "options": [
+          "Review body mass without the training exposure",
+          "Review modifiable load, recovery, capacity, and technique",
+          "Use one screening score without the athlete history",
+          "Assume recurrence cannot be influenced by training"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-103",
+      "original": {
+        "text": "During a competition preparation meeting, a useful injury-prevention plan should address:",
+        "options": [
+          "Body mass and stature without considering training exposure",
+          "A single screening score interpreted without clinical context",
+          "Modifiable risks, exposure, capacity, technique, and recovery",
+          "The assumption that injury risk is entirely random and unmodifiable"
+        ],
+        "correct": 2,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "To reduce hamstring injury risk during a return to full training, the programme should include:",
+        "options": [
+          "Begin maximal sprinting without graded exposure",
+          "Use passive stretching as the only intervention",
+          "Progress high-speed running, strength, and monitoring",
+          "Avoid running until the competitive season ends"
+        ],
+        "correct": 2,
+        "sourceId": "london-hamstring-consensus-2023"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "london-hamstring-consensus-2023"
+      ]
+    },
+    {
+      "id": "a1-recovery-104",
+      "original": {
+        "text": "In a practical sports-science assessment, a useful injury-prevention plan should address:",
+        "options": [
+          "Body mass and stature without considering training exposure",
+          "A single screening score interpreted without clinical context",
+          "The assumption that injury risk is entirely random and unmodifiable",
+          "Modifiable risks, exposure, capacity, technique, and recovery"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "An athlete with repeated lateral ankle sprains is beginning preseason. A prevention plan should most appropriately combine:",
+        "options": [
+          "Immobilize the ankle for the entire competitive season",
+          "Use one balance score as the only decision criterion",
+          "Exercise without supervision or sport-specific progression",
+          "Combine neuromuscular training, strength, and sport exposure"
+        ],
+        "correct": 3,
+        "sourceId": "apta-lateral-ankle-cpg-2021"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "apta-lateral-ankle-cpg-2021"
+      ]
+    },
+    {
+      "id": "a1-recovery-112",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, a screening test should be used primarily to:",
+        "options": [
+          "Diagnose every condition from the screening result alone",
+          "Exclude all athletes with any detected asymmetry or performance deficit",
+          "Predict the exact injury and date from one screening test",
+          "Identify athletes needing follow-up or targeted intervention"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "An asymptomatic athlete has a positive preseason screening result. The next step should be to:",
+        "options": [
+          "Diagnose the condition from the screening result alone",
+          "Exclude the athlete from all sport automatically",
+          "Predict the exact injury from the screening result",
+          "Confirm the finding with history and clinical assessment"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-113",
+      "original": {
+        "text": "During a competition preparation meeting, a screening test should be used primarily to:",
+        "options": [
+          "Identify athletes needing follow-up or targeted intervention",
+          "Diagnose every condition from the screening result alone",
+          "Exclude all athletes with any detected asymmetry or performance deficit",
+          "Predict the exact injury and date from one screening test"
+        ],
+        "correct": 0,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "A screening test identifies a movement asymmetry, but the athlete has no pain or functional limitation. The result should be used to:",
+        "options": [
+          "Use it to guide follow-up and risk discussion",
+          "Label the athlete injured until asymmetry disappears",
+          "Replace examination and sport-history review",
+          "Guarantee injury during the competitive season"
+        ],
+        "correct": 0,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-114",
+      "original": {
+        "text": "In a practical sports-science assessment, a screening test should be used primarily to:",
+        "options": [
+          "Diagnose every condition from the screening result alone",
+          "Identify athletes needing follow-up or targeted intervention",
+          "Exclude all athletes with any detected asymmetry or performance deficit",
+          "Predict the exact injury and date from one screening test"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "A questionnaire flags previous concussion before preseason. The physiotherapist should first:",
+        "options": [
+          "Clear the athlete after a brief current examination",
+          "Arrange a focused history and assessment before participation",
+          "Predict the next concussion from the questionnaire score",
+          "Exclude the athlete indefinitely without further evaluation"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-concussion-amsterdam-2022"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-concussion-amsterdam-2022"
+      ]
+    },
+    {
+      "id": "a1-recovery-122",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, overuse injury risk is commonly increased by:",
+        "options": [
+          "A stable progressive program with planned monitoring",
+          "A rapid increase in load without adequate tissue recovery",
+          "Appropriate rest and monitoring between hard training sessions",
+          "Gradual sport-specific exposure with recovery days"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "A distance runner doubles weekly mileage after a short break and develops focal tendon pain. The most likely preventable contributor is:",
+        "options": [
+          "Use stable progression with adequate recovery",
+          "Recognize rapid exposure beyond tissue capacity",
+          "Plan rest between demanding training sessions",
+          "Use gradual loading with symptom monitoring"
+        ],
+        "correct": 1,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-123",
+      "original": {
+        "text": "During a competition preparation meeting, overuse injury risk is commonly increased by:",
+        "options": [
+          "A stable progressive program with planned monitoring",
+          "Appropriate rest and monitoring between hard training sessions",
+          "A rapid increase in load without adequate tissue recovery",
+          "Gradual sport-specific exposure with recovery days"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "A swimmer increases stroke volume and intensity while shoulder pain steadily rises. The first load-management priority is to:",
+        "options": [
+          "Maintain the increase because fitness requires discomfort",
+          "Stop all shoulder movement until the season ends",
+          "Modify exposure and reassess symptoms and capacity",
+          "Use a workload ratio without examining the athlete"
+        ],
+        "correct": 2,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-124",
+      "original": {
+        "text": "In a practical sports-science assessment, overuse injury risk is commonly increased by:",
+        "options": [
+          "A stable progressive program with planned monitoring",
+          "Appropriate rest and monitoring between hard training sessions",
+          "Gradual sport-specific exposure with recovery days",
+          "A rapid increase in load without adequate tissue recovery"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "revised": {
+        "text": "An athlete develops persistent knee pain despite an unchanged weekly load. Appropriate risk management should:",
+        "options": [
+          "Assume unchanged weekly load means risk is unchanged",
+          "Continue unchanged until pain forces withdrawal",
+          "Use one external-load measure for the final decision",
+          "Review technique, recovery, capacity, and clinical findings"
+        ],
+        "correct": 3,
+        "sourceId": "ioc-load-illness-2016"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "ioc-load-illness-2016"
+      ]
+    },
+    {
+      "id": "a1-recovery-132",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, movement-based injury prevention should prioritize:",
+        "options": [
+          "Avoiding external load during training and competition",
+          "Passive flexibility used as the sole prevention strategy",
+          "A single movement pattern prescribed for every sport",
+          "Improving technique and capacity under relevant loads"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "Video review shows dynamic knee valgus during a single-leg landing. The prevention response should emphasize:",
+        "options": [
+          "Avoid all landing and jumping for the entire season",
+          "Use passive flexibility as the only prevention intervention",
+          "Use one movement drill for every sport and athlete",
+          "Train landing technique and capacity under relevant load"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-133",
+      "original": {
+        "text": "During a competition preparation meeting, movement-based injury prevention should prioritize:",
+        "options": [
+          "Improving technique and capacity under relevant loads",
+          "Avoiding external load during training and competition",
+          "Passive flexibility used as the sole prevention strategy",
+          "A single movement pattern prescribed for every sport"
+        ],
+        "correct": 0,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "A basketball player loses trunk control while decelerating from a fast approach. Which prevention strategy is most appropriate?",
+        "options": [
+          "Progress deceleration technique and trunk/hip capacity",
+          "Remove external load and avoid deceleration practice",
+          "Use only a flexibility score to select intervention",
+          "Wait for injury before addressing the movement pattern"
+        ],
+        "correct": 0,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-134",
+      "original": {
+        "text": "In a practical sports-science assessment, movement-based injury prevention should prioritize:",
+        "options": [
+          "Avoiding external load during training and competition",
+          "Improving technique and capacity under relevant loads",
+          "Passive flexibility used as the sole prevention strategy",
+          "A single movement pattern prescribed for every sport"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "An athlete has limited ankle dorsiflexion during a squat but no symptoms. A movement-based plan should first:",
+        "options": [
+          "Treat the measurement as proof of future injury",
+          "Assess relevance and address mobility or control in tasks",
+          "Use passive stretching as the only prevention method",
+          "Exclude lower-limb training until symmetry is perfect"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "brukner-khan-clinical-sports-medicine"
+      ]
+    },
+    {
+      "id": "a1-recovery-142",
+      "original": {
+        "text": "When reviewing a high-performance athlete profile, return-to-sport coordination is improved when the team shares:",
+        "options": [
+          "Only the athlete's desired return date and personal preference",
+          "Shared criteria, roles, progressions, symptoms, and sport demands",
+          "Unrecorded informal opinions from the multidisciplinary team",
+          "A single laboratory value without functional or sport-specific testing"
+        ],
+        "correct": 1,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "After ACL reconstruction, an athlete meets a strength-symmetry target but reports pain during deceleration. Return-to-sport coordination should:",
+        "options": [
+          "Use the desired competition date as the main criterion",
+          "Share symptoms, criteria, progression, and sport demands",
+          "Clear the athlete from one laboratory value alone",
+          "Ignore deceleration because strength symmetry is sufficient"
+        ],
+        "correct": 1,
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "aspetar-acl-cpg-2023"
+      ]
+    },
+    {
+      "id": "a1-recovery-143",
+      "original": {
+        "text": "During a competition preparation meeting, return-to-sport coordination is improved when the team shares:",
+        "options": [
+          "Only the athlete's desired return date and personal preference",
+          "Unrecorded informal opinions from the multidisciplinary team",
+          "Shared criteria, roles, progressions, symptoms, and sport demands",
+          "A single laboratory value without functional or sport-specific testing"
+        ],
+        "correct": 2,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "An athlete has medical clearance after ACL rehabilitation but has not completed cutting and sport-specific drills. The team should:",
+        "options": [
+          "Return immediately because medical clearance ended rehabilitation",
+          "Use only the athlete's preferred return date and timeline",
+          "Progress functional and sport-specific exposure with shared criteria",
+          "Delay all activity until every laboratory value is identical"
+        ],
+        "correct": 2,
+        "sourceId": "aspetar-acl-cpg-2023"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "aspetar-acl-cpg-2023"
+      ]
+    },
+    {
+      "id": "a1-recovery-144",
+      "original": {
+        "text": "In a practical sports-science assessment, return-to-sport coordination is improved when the team shares:",
+        "options": [
+          "Only the athlete's desired return date and personal preference",
+          "Unrecorded informal opinions from the multidisciplinary team",
+          "A single laboratory value without functional or sport-specific testing",
+          "Shared criteria, roles, progressions, symptoms, and sport demands"
+        ],
+        "correct": 3,
+        "sourceId": "brukner-khan-clinical-sports-medicine"
+      },
+      "revised": {
+        "text": "A sprinter recovering from a hamstring injury wants to race this weekend, while the clinician recommends more high-speed exposure. The best coordination is to:",
+        "options": [
+          "Follow the preferred date without further clinical assessment",
+          "Use one unrecorded staff opinion as the decision",
+          "Clear the athlete from a single strength value alone",
+          "Agree on criteria, staged exposure, roles, and monitoring"
+        ],
+        "correct": 3,
+        "sourceId": "london-hamstring-consensus-2023"
+      },
+      "reviewerNote": "Rewritten as a materially distinct scenario-based item; the original representative remains the family anchor. The revised answer and explanation are aligned with the cited source, the zero-based correct index is preserved, and options were reviewed for parallel wording and avoidable length cues.",
+      "sourcesInspected": [
+        "london-hamstring-consensus-2023"
+      ]
+    }
+  ]
+}

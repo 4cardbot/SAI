@@ -1,0 +1,314 @@
+{
+  "auditType": "post_final2_independent_read_only_audit_data_performance",
+  "auditDate": "2026-08-16",
+  "readOnly": true,
+  "scope": {
+    "retainedFiles": [
+      "question_bank/section_a1_data_analytics.json",
+      "question_bank/section_a1_performance_recovery.json"
+    ],
+    "mergedFile": "question_bank/section_a1.json",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "remediationLogsInspected": [
+      "research/final3_content_repair_data_analytics.json",
+      "research/final4_length_repair_data_analytics.json",
+      "research/final5_diversity_repair_data_analytics.json",
+      "research/final6_length_repair_data_analytics.json",
+      "research/final3_content_repair_performance_recovery.json",
+      "research/final4_length_repair_performance_recovery.json",
+      "research/final5_diversity_repair_performance_recovery.json",
+      "research/final6_length_repair_performance_recovery.json",
+      "research/final7_length_repair_performance_recovery.json"
+    ],
+    "expectedButNotPresentLogs": [
+      "research/final7_length_repair_data_analytics.json"
+    ],
+    "reviewCoverage": "All 300 retained questions were inspected for answer-key consistency, distractor validity, repetition, grammar and option structure, option-length signals, source resolution and scope, schema, syllabus mapping, and merged-file correspondence."
+  },
+  "method": {
+    "answerKeyReview": "Checked each keyed option against the stem and explanation; prior corrected items a1-data-094 and a1-data-124 were rechecked in their current state.",
+    "mechanicalRepetitionCheck": "Grouped exact normalized stems and then manually reviewed equivalent option templates. The high-confidence template finding includes synonym-only changes and scenario suffixes; it does not count merely related concepts as duplicates.",
+    "lengthCheck": "Primary flag when the correct option exceeds the median distractor length by more than 8 characters or when total option spread exceeds 15 characters.",
+    "mergeCheck": "Compared every current data/performance object with the corresponding entries at offsets 300 and 450 in the merged A1 file.",
+    "logCheck": "Validated declared review counts, change-entry counts, source IDs, four-option revisions, reviewer notes, and the latest effective logged revision for each changed question."
+  },
+  "metrics": {
+    "retainedQuestionCounts": {
+      "question_bank/section_a1_data_analytics.json": 150,
+      "question_bank/section_a1_performance_recovery.json": 150
+    },
+    "mergedA1QuestionCount": 900,
+    "mergedEntriesCompared": 300,
+    "mergedEntryMismatches": 0,
+    "uniqueIdsAcrossAuditedFiles": 300,
+    "schema": {
+      "requiredFieldErrors": 0,
+      "nonStandardKeyErrors": 0,
+      "wrongSectionErrors": 0,
+      "fourOptionErrors": 0,
+      "duplicateOptionErrors": 0,
+      "invalidCorrectIndexErrors": 0,
+      "emptyExplanationErrors": 0
+    },
+    "syllabusMapping": {
+      "data_analytics": {
+        "topic": "Data Interpretation & Applied Analytics",
+        "subtopics": {
+          "Interpretation & Application of Data": 100,
+          "Principles of Research & Evidence-Based Practice": 50
+        }
+      },
+      "performance_recovery": {
+        "topic": "Performance Enhancement & Recovery Protocols",
+        "subtopics": {
+          "Performance Enhancement Strategies": 50,
+          "Recovery Protocols & Regeneration": 50,
+          "Injury Prevention & Risk Management": 50
+        }
+      },
+      "coverageErrors": 0
+    },
+    "sourceResolution": {
+      "uniqueSourceIdsUsed": 15,
+      "questionsWithUnknownSourceId": 0,
+      "sourceUsageCounts": {
+        "nsca-essentials-5": 86,
+        "physiology-sport-exercise-kenney": 1,
+        "ioc-load-illness-2016": 76,
+        "basic-biomechanics-hall": 1,
+        "acsm-getp-12": 9,
+        "gps-validity-scott-2016": 3,
+        "world-physiotherapy-ebp-2023": 55,
+        "brukner-khan-clinical-sports-medicine": 36,
+        "nakagawa-cuthill-effect-size-2007": 2,
+        "cdc-confounding-epi-manual": 13,
+        "world-physiotherapy-ethics-2023": 11,
+        "apta-lateral-ankle-cpg-2021": 2,
+        "london-hamstring-consensus-2023": 2,
+        "ioc-concussion-amsterdam-2022": 1,
+        "aspetar-acl-cpg-2023": 2
+      },
+      "highConfidenceSourceScopeMismatches": 0,
+      "usedCatalogEntriesWithoutLocator": {
+        "entryCount": 4,
+        "questionCount": 7,
+        "sourceIds": [
+          "apta-lateral-ankle-cpg-2021",
+          "london-hamstring-consensus-2023",
+          "ioc-concussion-amsterdam-2022",
+          "aspetar-acl-cpg-2023"
+        ]
+      }
+    },
+    "answerPositionCounts": {
+      "data_analytics": [39, 40, 36, 35],
+      "performance_recovery": [38, 38, 37, 37],
+      "combined": [77, 78, 73, 72]
+    },
+    "answerKeyReview": {
+      "highConfidenceAnswerKeyErrors": 0,
+      "highConfidenceSemanticDistractorDefects": 0
+    },
+    "optionLength": {
+      "primaryFlagRule": "Flag when the correct option exceeds the median distractor length by more than 8 characters or when total option spread exceeds 15 characters.",
+      "dataAnalyticsPrimaryFlags": 0,
+      "performanceRecoveryPrimaryFlags": 0,
+      "combinedPrimaryFlags": 0,
+      "combinedMaximumCorrectMinusMedianDistractor": 8,
+      "combinedMaximumOptionSpread": 15,
+      "strictlyLongestCorrect": {
+        "data_analytics": 38,
+        "data_analytics_percent": 25.33,
+        "performance_recovery": 48,
+        "performance_recovery_percent": 32.0,
+        "combined": 86,
+        "combined_percent": 28.67
+      },
+      "correctShortest": {
+        "data_analytics": 32,
+        "performance_recovery": 12,
+        "combined": 44
+      },
+      "tiedForLongestCorrectCombined": 99,
+      "tiedForLongestCorrectCombinedPercent": 33.0,
+      "grammarOrOptionStructureGiveaways": 0,
+      "grammarDefectQuestionsWithinRepeatedTemplates": 90
+    },
+    "duplicates": {
+      "exactNormalizedStemDuplicates": 0,
+      "strictNormalizedOptionTemplateFamilies": {
+        "data_analytics": 14,
+        "performance_recovery": 0,
+        "combined": 14,
+        "dataQuestionsAffected": 84
+      },
+      "highConfidenceEquivalentTemplateFamilies": {
+        "data_analytics": 15,
+        "performance_recovery": 0,
+        "combined": 15,
+        "dataQuestionsAffected": 105
+      },
+      "performanceRecoveryMateriallyDistinctFamilyCount": 0,
+      "dataFamilySizeDistribution": {
+        "7": 15
+      }
+    },
+    "remediationLogIntegrity": {
+      "final3Data": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 45,
+        "changeEntries": 45
+      },
+      "final4Data": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 16,
+        "changeEntries": 16
+      },
+      "final5Data": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 94,
+        "changeEntries": 94
+      },
+      "final6Data": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 0,
+        "changeEntries": 0,
+        "postRepairFlags": 0
+      },
+      "final3Performance": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 45,
+        "changeEntries": 45
+      },
+      "final4Performance": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 2,
+        "changeEntries": 2
+      },
+      "final5Performance": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 90,
+        "changeEntries": 90
+      },
+      "final6Performance": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 0,
+        "changeEntries": 0,
+        "postRepairFlags": 0
+      },
+      "final7Performance": {
+        "reviewedCount": 150,
+        "declaredChangedCount": 7,
+        "changeEntries": 7,
+        "postRepairFlags": 0
+      },
+      "latestEffectiveCurrentEntryMismatches": 0,
+      "logStructuralErrors": 0
+    }
+  },
+  "findings": [
+    {
+      "findingId": "dp2-mechanical-template-001",
+      "category": "duplicateOrMechanicallyRepeatedStemsAndOptions",
+      "severity": "high",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "familyCount": 15,
+      "affectedQuestionCount": 105,
+      "familyRanges": [
+        "a1-data-001 plus a1-data-005..010",
+        "a1-data-011 plus a1-data-015..020",
+        "a1-data-021 plus a1-data-025..030",
+        "a1-data-031 plus a1-data-035..040",
+        "a1-data-041 plus a1-data-045..050",
+        "a1-data-051 plus a1-data-055..060",
+        "a1-data-061 plus a1-data-065..070",
+        "a1-data-071 plus a1-data-075..080",
+        "a1-data-081 plus a1-data-085..090",
+        "a1-data-091 plus a1-data-095..100",
+        "a1-data-101 plus a1-data-105..110",
+        "a1-data-111 plus a1-data-115..120",
+        "a1-data-121 plus a1-data-125..130",
+        "a1-data-131 plus a1-data-135..140",
+        "a1-data-141 plus a1-data-145..150"
+      ],
+      "evidence": "Each listed family retains one base item and six later variants whose options preserve the same four answer concepts and answer logic. Most variants add an athlete or measurement context but do not introduce materially different distractor reasoning; the strict normalized option-template check independently identifies 14 of the 15 families.",
+      "recommendedAction": "Rewrite the six nonrepresentative variants in each family with distinct source-supported decisions, measurements, constraints, and distractor concepts. Scenario nouns, suffixes, and option rotation alone should not count as a new question."
+    },
+    {
+      "findingId": "dp2-grammar-template-001",
+      "category": "grammarAndOptionStructure",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionCount": 90,
+      "questionRanges": [
+        "a1-data-005..010",
+        "a1-data-015..020",
+        "a1-data-025..030",
+        "a1-data-035..040",
+        "a1-data-045..050",
+        "a1-data-055..060",
+        "a1-data-065..070",
+        "a1-data-075..080",
+        "a1-data-085..090",
+        "a1-data-095..100",
+        "a1-data-105..110",
+        "a1-data-115..120",
+        "a1-data-125..130",
+        "a1-data-135..140",
+        "a1-data-145..150"
+      ],
+      "evidence": "The six rewritten variants in each family append context fragments to all four options, producing fragments such as 'for para-athlete improves', 'for study collects', and 'for Two days'. The defect is shared across the option set, so it creates no uniquely grammatical correct answer or measurable length giveaway, but it makes the choices unnatural and sometimes ungrammatical.",
+      "recommendedAction": "Regenerate the affected option sets as complete, parallel phrases or clauses that fit the revised stem; retain only wording supported by the item source."
+    },
+    {
+      "findingId": "dp2-explanation-001",
+      "category": "explanationConsistency",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "question_bank/section_a1_data_analytics.json",
+      "questionIds": ["a1-data-020"],
+      "evidence": "The stem describes a rower's stable peak stroke force and worsening final 500-m split during repeated 2,000-m efforts. The keyed answer, 'Fatigue tolerance and speed-specific technique for rower's peak', is defensible, but the explanation instead discusses a result below a reference, protocol quality, and reference-group relevance—facts not present in the stem and not a justification for the keyed answer.",
+      "recommendedAction": "Replace the explanation with one that explicitly connects stable peak force and late-effort split deterioration to speed endurance, fatigue tolerance, or task-specific technique."
+    },
+    {
+      "findingId": "dp2-source-metadata-001",
+      "category": "sourceTraceabilityMetadata",
+      "severity": "medium",
+      "confidence": "high",
+      "questionIds": [
+        "a1-recovery-092",
+        "a1-recovery-103",
+        "a1-recovery-104",
+        "a1-recovery-114",
+        "a1-recovery-142",
+        "a1-recovery-143",
+        "a1-recovery-144"
+      ],
+      "sourceIds": [
+        "apta-lateral-ankle-cpg-2021",
+        "london-hamstring-consensus-2023",
+        "ioc-concussion-amsterdam-2022",
+        "aspetar-acl-cpg-2023"
+      ],
+      "evidence": "All four source IDs resolve and their broad scopes fit the associated questions, but their catalog entries have no explicit locator; they also lack author/year fields where those are not inferable from the title. The source can be identified by title and URL, but the exact inspected section is not recorded.",
+      "recommendedAction": "Add the inspected consensus/guideline section, page or recommendation locator and complete author/date metadata where available."
+    }
+  ],
+  "negativeChecks": {
+    "highConfidenceAnswerKeyErrorsBeyondListedFindings": 0,
+    "semanticDistractorDefectsBeyondListedFindings": 0,
+    "exactQuestionTextDuplicates": 0,
+    "exactNormalizedStemDuplicates": 0,
+    "unknownSources": 0,
+    "sourceScopeMismatches": 0,
+    "optionLengthPrimaryFlags": 0,
+    "grammarOrOptionLengthGiveaways": 0,
+    "schemaDefects": 0,
+    "syllabusMappingDefects": 0,
+    "mergeCorrespondenceDefects": 0,
+    "remediationLogStructuralDefects": 0
+  },
+  "conclusion": "The current data and performance retained files pass schema, answer-index, four-option, source-ID resolution, syllabus, option-length-threshold, answer-position-balance, and merged-file correspondence checks. No high-confidence answer-key or semantic-distractor errors remain. The data group still contains 15 high-confidence equivalent option-template families affecting 105 questions, 90 malformed appended-option variants, and one explanation that does not justify its keyed answer. Four used catalog sources cover their items but lack granular locators, affecting seven questions."
+}

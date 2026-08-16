@@ -1,0 +1,52 @@
+{
+  "auditType": "Final7 holistic travel and ethics option-length repair",
+  "auditDate": "2026-08-16",
+  "assignedFile": "question_bank/section_a1_holistic_travel_ethics.json",
+  "flagRule": "Primary flag when the correct option is more than 8 characters longer than the median distractor or when total option-length spread exceeds 15 characters.",
+  "reviewedCount": 150,
+  "flagsBefore": 1,
+  "changedCount": 1,
+  "changedQuestions": [
+    {
+      "id": "a1-holistic-054",
+      "originalOptions": [
+        "Maximization of early results over movement variety",
+        "Early specialization based on current success",
+        "Broad capacity development without early specialization",
+        "Removal of recovery because adaptation is good"
+      ],
+      "revisedOptions": [
+        "Early competitive success over broad movement skills",
+        "Specialization because current performance is promising",
+        "Broad capacity development with delayed specialization",
+        "Less recovery because adaptation is progressing well"
+      ],
+      "originalCorrect": 2,
+      "revisedCorrect": 2,
+      "sourceId": "nsca-essentials-5",
+      "reviewerNote": "Revised the complete option set into parallel noun phrases. The keyed meaning remains broad, age-appropriate capacity development with delayed specialization; the distractors remain plausible but conflict with long-term development principles concerning early results, early specialization, and recovery. No padding was added.",
+      "sourcesInspected": [
+        "nsca-essentials-5"
+      ],
+      "metricsBefore": {
+        "correctOptionLength": 55,
+        "distractorMedianLength": 46,
+        "correctMedianGap": 9,
+        "optionLengthSpread": 10
+      },
+      "metricsAfter": {
+        "correctOptionLength": 54,
+        "distractorMedianLength": 52,
+        "correctMedianGap": 2,
+        "optionLengthSpread": 3
+      }
+    }
+  ],
+  "inspection": {
+    "questionCountExpected": 150,
+    "questionCountInspected": 150,
+    "validFourOptionCount": 150,
+    "remainingPrimaryFlagCount": 0,
+    "remainingPrimaryFlagIds": []
+  }
+}

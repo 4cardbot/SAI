@@ -1,0 +1,105 @@
+{
+  "auditType": "independent-final-release-audit-core-testing",
+  "auditedFiles": [
+    "question_bank/section_a1_core_disciplines.json",
+    "question_bank/section_a1_testing_assessment.json"
+  ],
+  "inspectedQuestionCount": 300,
+  "highConfidenceFindings": [
+    {
+      "id": "a1-test-011",
+      "defectType": "scenario_logic",
+      "evidence": {
+        "question": "A first trial is much faster because an athlete was unfamiliar with the task. This mainly threatens:",
+        "keyedOption": "Test–retest reliability through a practice effect",
+        "explanation": "Test–retest reliability concerns repeatability of scores when the same measurement is repeated under stable conditions.",
+        "sourceId": "acsm-getp-12",
+        "problem": "Unfamiliarity normally makes the initial trial less practiced and commonly slower, not much faster. The stated premise therefore contradicts the practice-effect answer it keys."
+      },
+      "recommendedRepair": "Change the stem to: ‘A second trial is much faster because an athlete has become familiar with the task. This mainly threatens:’ Keep the current key and option order."
+    },
+    {
+      "id": "a1-test-046",
+      "defectType": "ambiguous_answer",
+      "evidence": {
+        "question": "An athlete at the 75th percentile performed better than:",
+        "keyedOption": "Approximately three quarters of the reference group on that measure",
+        "explanation": "Reference values are interpretable only when the comparison population and testing conditions are relevant.",
+        "sourceId": "acsm-getp-12",
+        "problem": "A percentile ranks the numeric score, but ‘performed better’ depends on score direction. For a time-based measure where lower is better, the 75th percentile does not necessarily mean better performance than approximately three quarters of the group."
+      },
+      "recommendedRepair": "Either specify a higher-is-better measure in the stem, or replace ‘performed better than’ with ‘had a score at or above approximately three quarters of the reference group’s scores.’"
+    },
+    {
+      "id": "a1-test-070",
+      "defectType": "explanation_mismatch",
+      "evidence": {
+        "question": "In a battery containing a countermovement jump and a 3-km run, which sequence best limits fatigue effects on power?",
+        "keyedOption": "Jump before the endurance test",
+        "currentExplanation": "Resting heart rate and blood pressure should be recorded before exercise after a quiet rest period, because acute exercise and fatigue can raise or otherwise alter these measures; allowing rest helps reduce the influence of the preceding activity and establishes a comparable resting baseline.",
+        "sourceId": "nsca-essentials-5",
+        "problem": "The explanation concerns resting cardiovascular measurements, not sequencing a power test before a fatiguing endurance test. It does not explain the keyed answer."
+      },
+      "recommendedRepair": "Replace the explanation with: ‘The 3-km run can induce fatigue and reduce subsequent jump performance, so placing the countermovement jump first limits fatigue carryover into the power measure.’"
+    },
+    {
+      "id": "a1-test-136",
+      "defectType": "stem_option_grammar",
+      "evidence": {
+        "question": "To compare a field test across a training block, the team should schedule it with:",
+        "keyedOption": "Keep timing, equipment, preparation, and conditions comparable",
+        "sourceId": "nsca-essentials-5",
+        "problem": "The preposition ‘with’ cannot grammatically introduce the imperative verb phrase ‘Keep timing…’; the item reads as ‘schedule it with keep’. The other choices use the same imperative form, so this is a stem-construction defect rather than a content distinction."
+      },
+      "recommendedRepair": "Change the stem ending to ‘the team should:’ and retain the four parallel verb-phrase options, or convert all options to noun phrases introduced by ‘with’."
+    }
+  ],
+  "summary": {
+    "status": "conditional_release",
+    "highConfidenceFindingCount": 4,
+    "questionCounts": {
+      "question_bank/section_a1_core_disciplines.json": 150,
+      "question_bank/section_a1_testing_assessment.json": 150
+    },
+    "schemaAndValidity": {
+      "validFourOptionQuestions": 300,
+      "uniqueOptionSets": 300,
+      "validZeroBasedAnswerIndexes": 300,
+      "nonEmptyStemsAndExplanations": 300,
+      "unknownSourceIds": 0
+    },
+    "answerKeyCheck": {
+      "additionalHighConfidenceAnswerKeyErrors": 0,
+      "note": "The four keyed answers in the findings remain conceptually correct after their stems/explanations are repaired; no other current key was found wrong."
+    },
+    "explanationCheck": {
+      "highConfidenceErrors": 1,
+      "findingIds": ["a1-test-070"]
+    },
+    "grammarAndUnambiguityCheck": {
+      "highConfidenceFindings": ["a1-test-046", "a1-test-136"],
+      "parallelOptionDefectsBeyondThoseListed": 0
+    },
+    "sourceTraceability": {
+      "questionsWithCatalogResolvingSourceIds": 300,
+      "uniqueCatalogSourcesUsed": 12,
+      "usedCatalogSourcesWithScopeAndLocator": 12,
+      "confirmedTraceabilityDefects": 0
+    },
+    "duplicateCheck": {
+      "exactDuplicateStems": 0,
+      "actionableNearDuplicateStemPairs": 0,
+      "note": "The closest parallel pair contrasts sensitivity and specificity and is intentional coverage, not a duplicate stem."
+    },
+    "syllabusAndMaterialCheck": {
+      "withinAuditedA1Mappings": true,
+      "notificationAndSampleReviewed": true,
+      "relevantSourceCatalogEntriesReviewed": true
+    },
+    "conceptualConcernsNotReportedAsDefects": [
+      "Repeated high-yield construct variants were not treated as duplicates when their stems and answer choices remained materially distinct.",
+      "Potential source-strengthening opportunities were excluded unless the current catalog assignment was a confirmed traceability defect."
+    ],
+    "releaseRecommendation": "Repair the four listed findings before release; structural validity, answer-key correctness outside those repairs, source-ID resolution, and duplicate checks otherwise pass."
+  }
+}
