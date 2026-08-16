@@ -7,7 +7,7 @@ describe("question bank validation", () => {
     const result = validateQuestionBank(QUESTION_BANK);
     expect(result.valid).toBe(true);
     expect(result.errors).toEqual([]);
-    expect(result.counts).toEqual({ A1: 900, A2: 96, B: 480, C: 240 });
+    expect(result.counts).toEqual({ A1: 900, A2: 200, B: 480, C: 240 });
     expect(result.passageCount).toBe(120);
   });
 

@@ -1,0 +1,4035 @@
+{
+  "generatedAt": "2026-08-16",
+  "targetSequences": [
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      3,
+      1,
+      2,
+      3,
+      0,
+      1,
+      0,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      3,
+      3,
+      3,
+      2,
+      3,
+      0,
+      2,
+      1,
+      0,
+      3,
+      3,
+      1,
+      0,
+      2,
+      0,
+      2,
+      1,
+      0,
+      3
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      2,
+      2,
+      0,
+      1,
+      1,
+      1,
+      1,
+      3,
+      0,
+      3,
+      3,
+      1,
+      0,
+      2,
+      2,
+      0,
+      0,
+      2,
+      3,
+      2,
+      1,
+      3,
+      3,
+      2,
+      0,
+      3,
+      0,
+      0,
+      2,
+      3,
+      3,
+      3,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      2,
+      1,
+      3,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2,
+      3,
+      0,
+      0,
+      1,
+      3,
+      2,
+      3,
+      3,
+      2,
+      1,
+      0,
+      0,
+      2,
+      2,
+      3,
+      2,
+      2
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      3,
+      3,
+      1,
+      2,
+      2,
+      3,
+      0,
+      1,
+      0,
+      3,
+      1,
+      3,
+      0,
+      2,
+      1,
+      2,
+      3,
+      2,
+      0,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      3,
+      0,
+      3,
+      2,
+      0,
+      3,
+      1,
+      0,
+      1,
+      3,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      2,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      3,
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      2,
+      3,
+      0,
+      3,
+      0,
+      1,
+      2,
+      3,
+      3,
+      1
+    ]
+  ],
+  "totalQuestions": 200,
+  "changedQuestions": 159,
+  "changes": [
+    {
+      "id": "a2-olympic_asian_games-001",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Athens, Greece",
+          "Paris, France",
+          "London, United Kingdom",
+          "Rome, Italy"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Paris, France",
+          "Athens, Greece",
+          "London, United Kingdom",
+          "Rome, Italy"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-004",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "They are numbered by the four-year Olympiad in which they occur",
+          "They restart their numbering whenever a host continent changes",
+          "They use the same consecutive numbers as the Summer Games",
+          "They are numbered consecutively in the order in which they are held"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "They are numbered consecutively in the order in which they are held",
+          "They are numbered by the four-year Olympiad in which they occur",
+          "They restart their numbering whenever a host continent changes",
+          "They use the same consecutive numbers as the Summer Games"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-005",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Five sports in the first modern Games",
+          "Five founding IOC host cities",
+          "Five grades of Olympic medals",
+          "Union of continents and athlete meeting"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Union of continents and athlete meeting",
+          "Five sports in the first modern Games",
+          "Five founding IOC host cities",
+          "Five grades of Olympic medals"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-007",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Brisbane, Australia",
+          "Paris, France",
+          "Los Angeles, United States",
+          "Milano–Cortina, Italy"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Brisbane, Australia",
+          "Paris, France",
+          "Milano–Cortina, Italy",
+          "Los Angeles, United States"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-008",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "The International Olympic Committee",
+          "The organising committee of the host city",
+          "The United Nations General Assembly",
+          "The National Olympic Committee of Greece"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "The organising committee of the host city",
+          "The International Olympic Committee",
+          "The United Nations General Assembly",
+          "The National Olympic Committee of Greece"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-009",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "The second occasion, after 1924 only",
+          "The third occasion, after 1900 and 1924",
+          "The fourth occasion, after 1900, 1924 and 1968",
+          "The first occasion since the modern Games began"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "The second occasion, after 1924 only",
+          "The fourth occasion, after 1900, 1924 and 1968",
+          "The third occasion, after 1900 and 1924",
+          "The first occasion since the modern Games began"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-010",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Milano–Cortina",
+          "Stockholm–Åre",
+          "Sapporo–Hokkaido",
+          "Vancouver–Whistler"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Stockholm–Åre",
+          "Sapporo–Hokkaido",
+          "Vancouver–Whistler",
+          "Milano–Cortina"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-011",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Neeraj Chopra",
+          "Sushil Kumar",
+          "Rajyavardhan Singh Rathore",
+          "Abhinav Bindra"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Abhinav Bindra",
+          "Neeraj Chopra",
+          "Sushil Kumar",
+          "Rajyavardhan Singh Rathore"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-012",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Men's 50 m rifle three positions",
+          "Men's 25 m rapid-fire pistol",
+          "Men's 10 m air rifle",
+          "Men's double trap shooting"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Men's 50 m rifle three positions",
+          "Men's 10 m air rifle",
+          "Men's 25 m rapid-fire pistol",
+          "Men's double trap shooting"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-013",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Milkha Singh",
+          "Anju Bobby George",
+          "Neeraj Chopra",
+          "P. T. Usha"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Neeraj Chopra",
+          "Milkha Singh",
+          "Anju Bobby George",
+          "P. T. Usha"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-014",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Men's hammer throw",
+          "Men's long jump",
+          "Men's decathlon",
+          "Men's javelin throw"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Men's javelin throw",
+          "Men's hammer throw",
+          "Men's long jump",
+          "Men's decathlon"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-015",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Seven medals",
+          "Five medals",
+          "Nine medals",
+          "Six medals"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Five medals",
+          "Nine medals",
+          "Six medals",
+          "Seven medals"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-016",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Seven medals",
+          "Six medals",
+          "Eight medals",
+          "Five medals"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Seven medals",
+          "Eight medals",
+          "Six medals",
+          "Five medals"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-017",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "One silver and five bronze medals",
+          "One gold, two silver and three bronze medals",
+          "Two silver and four bronze medals",
+          "Two gold and four bronze medals"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "One gold, two silver and three bronze medals",
+          "Two silver and four bronze medals",
+          "One silver and five bronze medals",
+          "Two gold and four bronze medals"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-020",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Gold after beating Germany",
+          "Silver after losing to Netherlands",
+          "Fourth place with no medal",
+          "Bronze after beating Spain"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Gold after beating Germany",
+          "Silver after losing to Netherlands",
+          "Bronze after beating Spain",
+          "Fourth place with no medal"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-021",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Manila, Philippines",
+          "Tokyo, Japan",
+          "Jakarta, Indonesia",
+          "New Delhi, India"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Manila, Philippines",
+          "New Delhi, India",
+          "Tokyo, Japan",
+          "Jakarta, Indonesia"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-022",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "1949",
+          "1951",
+          "1954",
+          "1958"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "1949",
+          "1954",
+          "1958",
+          "1951"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-023",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Nine",
+          "Ten",
+          "Eleven",
+          "Twelve"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Nine",
+          "Ten",
+          "Twelve",
+          "Eleven"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-024",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "It was the second Asian Games hosted by Delhi",
+          "It was India's first Asian Games and the first under the OCA",
+          "It was the first Asian Games held outside Asia",
+          "It was the first edition to be held in two countries"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "It was India's first Asian Games and the first under the OCA",
+          "It was the first Asian Games held outside Asia",
+          "It was the first edition to be held in two countries",
+          "It was the second Asian Games hosted by Delhi"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-025",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Asian Games Federation",
+          "Olympic Council of Asia",
+          "International Olympic Committee",
+          "Asian Athletics Federation"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Asian Games Federation",
+          "International Olympic Committee",
+          "Olympic Council of Asia",
+          "Asian Athletics Federation"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-026",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Every four years",
+          "Every two years",
+          "Every three years",
+          "Every five years"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Every two years",
+          "Every three years",
+          "Every five years",
+          "Every four years"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-027",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Jakarta and Surabaya",
+          "Bandung and Jakarta",
+          "Bali and Palembang",
+          "Jakarta and Palembang"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Jakarta and Palembang",
+          "Jakarta and Surabaya",
+          "Bandung and Jakarta",
+          "Bali and Palembang"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-029",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Busan, South Korea",
+          "Guangzhou, China",
+          "Doha, Qatar",
+          "Bangkok, Thailand"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Busan, South Korea",
+          "Doha, Qatar",
+          "Guangzhou, China",
+          "Bangkok, Thailand"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-030",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Seoul, South Korea",
+          "Hiroshima, Japan",
+          "Bangkok, Thailand",
+          "Beijing, China"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Beijing, China",
+          "Seoul, South Korea",
+          "Hiroshima, Japan",
+          "Bangkok, Thailand"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-031",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "The event was postponed from 2022 to 2023",
+          "The host moved from Hangzhou to another city",
+          "The OCA renumbered the Games after closing",
+          "The Games were held twice, once in each year"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "The host moved from Hangzhou to another city",
+          "The OCA renumbered the Games after closing",
+          "The Games were held twice, once in each year",
+          "The event was postponed from 2022 to 2023"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-032",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "96 medals",
+          "107 medals",
+          "70 medals",
+          "111 medals"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "96 medals",
+          "70 medals",
+          "111 medals",
+          "107 medals"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-033",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "28 gold, 38 silver and 41 bronze",
+          "28 gold, 41 silver and 38 bronze",
+          "27 gold, 38 silver and 42 bronze",
+          "30 gold, 36 silver and 41 bronze"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "28 gold, 41 silver and 38 bronze",
+          "28 gold, 38 silver and 41 bronze",
+          "27 gold, 38 silver and 42 bronze",
+          "30 gold, 36 silver and 41 bronze"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-034",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Third",
+          "Fifth",
+          "Fourth",
+          "Second"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Fourth",
+          "Third",
+          "Fifth",
+          "Second"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-035",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "18th",
+          "20th",
+          "19th",
+          "21st"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "18th",
+          "19th",
+          "20th",
+          "21st"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-036",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "1 October to 16 October 2026",
+          "23 September to 8 October 2026",
+          "5 November to 20 November 2026",
+          "19 September to 4 October 2026"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "19 September to 4 October 2026",
+          "1 October to 16 October 2026",
+          "23 September to 8 October 2026",
+          "5 November to 20 November 2026"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-037",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "Aichi–Nagoya, Japan",
+          "Riyadh, Saudi Arabia",
+          "New Delhi, India",
+          "Doha, Qatar"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Aichi–Nagoya, Japan",
+          "Riyadh, Saudi Arabia",
+          "Doha, Qatar",
+          "New Delhi, India"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-039",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "India finished second with 70 medals, including 16 gold",
+          "India finished third with 111 medals, including 28 gold",
+          "India finished fourth with a record 107 medals, including 28 gold",
+          "India finished fifth with 96 medals, including 20 gold"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "India finished fourth with a record 107 medals, including 28 gold",
+          "India finished second with 70 medals, including 16 gold",
+          "India finished third with 111 medals, including 28 gold",
+          "India finished fifth with 96 medals, including 20 gold"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-olympic_asian_games-040",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "before": {
+        "options": [
+          "The OCA announced 11 e-sports titles for the Games",
+          "The OCA removed all e-sports from the programme",
+          "Only Olympic sports could enter the programme",
+          "India alone selected every team-sport entry"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "The OCA removed all e-sports from the programme",
+          "Only Olympic sports could enter the programme",
+          "India alone selected every team-sport entry",
+          "The OCA announced 11 e-sports titles for the Games"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-001",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "National Sports Science and Research Programme",
+          "Creation and Upgradation of Sports Infrastructure",
+          "National Anti-Doping Testing and Education Network",
+          "International Olympic Qualification Programme"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "National Sports Science and Research Programme",
+          "National Anti-Doping Testing and Education Network",
+          "Creation and Upgradation of Sports Infrastructure",
+          "International Olympic Qualification Programme"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-002",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Sports Competitions and Talent Development",
+          "Fit India Movement and School Fitness",
+          "Khelo India Centres and Sports Academies",
+          "Promotion of Inclusiveness through Sports"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Fit India Movement and School Fitness",
+          "Sports Competitions and Talent Development",
+          "Khelo India Centres and Sports Academies",
+          "Promotion of Inclusiveness through Sports"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-003",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Youth Games, National Games and Asian Games",
+          "University Games, National Games and Commonwealth Games",
+          "Winter Games, Para-Asian Games and Olympic Games",
+          "Youth Games, University Games and Winter Games"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Youth Games, National Games and Asian Games",
+          "Youth Games, University Games and Winter Games",
+          "University Games, National Games and Commonwealth Games",
+          "Winter Games, Para-Asian Games and Olympic Games"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-004",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Select athletes only from previously famous clubs",
+          "Use only coach reputation and informal recommendations",
+          "Use transparent performance evidence and scientific testing",
+          "Rank athletes only by their social-media following"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Use transparent performance evidence and scientific testing",
+          "Select athletes only from previously famous clubs",
+          "Use only coach reputation and informal recommendations",
+          "Rank athletes only by their social-media following"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-006",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "International Olympic Committee",
+          "Indian Olympic Association",
+          "National Anti-Doping Agency",
+          "Ministry of Youth Affairs and Sports"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "International Olympic Committee",
+          "Indian Olympic Association",
+          "Ministry of Youth Affairs and Sports",
+          "National Anti-Doping Agency"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-009",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Sports-infrastructure creation and upgrading",
+          "Promotion of Inclusiveness through Sports",
+          "Fit India Movement and School Fitness Activities",
+          "Sports Competitions and Talent Development"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Promotion of Inclusiveness through Sports",
+          "Sports-infrastructure creation and upgrading",
+          "Fit India Movement and School Fitness Activities",
+          "Sports Competitions and Talent Development"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-010",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Fit India Movement for School Fitness",
+          "Promotion of Inclusiveness through Sports",
+          "Khelo India Centres and Sports Academies",
+          "Creation and Upgradation of Sports Infrastructure"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Fit India Movement for School Fitness",
+          "Khelo India Centres and Sports Academies",
+          "Promotion of Inclusiveness through Sports",
+          "Creation and Upgradation of Sports Infrastructure"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-013",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Indian Olympic Association",
+          "National Anti-Doping Agency",
+          "Association of Indian Universities",
+          "Sports Authority of India"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Sports Authority of India",
+          "Indian Olympic Association",
+          "National Anti-Doping Agency",
+          "Association of Indian Universities"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-014",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "National Anti-Doping Agency",
+          "Mission Olympic Cell",
+          "Association of Indian Universities",
+          "School Games Federation of India"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "National Anti-Doping Agency",
+          "Association of Indian Universities",
+          "School Games Federation of India",
+          "Mission Olympic Cell"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-015",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Conducting the athlete's university examination",
+          "Issuing the athlete's passport for overseas training",
+          "Evaluating proposals and reviewing athlete progress",
+          "Replacing the athlete's federation in competition"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Conducting the athlete's university examination",
+          "Issuing the athlete's passport for overseas training",
+          "Replacing the athlete's federation in competition",
+          "Evaluating proposals and reviewing athlete progress"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-016",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "International standards and consistent performance",
+          "Popularity in domestic media coverage alone",
+          "Number of years in a state academy alone",
+          "Personal recommendation without performance evidence"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Popularity in domestic media coverage alone",
+          "International standards and consistent performance",
+          "Number of years in a state academy alone",
+          "Personal recommendation without performance evidence"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-017",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Khelo India University Fund",
+          "National Sports Development Fund",
+          "National Anti-Doping Education Fund",
+          "Indian Olympic Qualification Fund"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "National Sports Development Fund",
+          "Khelo India University Fund",
+          "National Anti-Doping Education Fund",
+          "Indian Olympic Qualification Fund"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-018",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Customized training, exposure and equipment support",
+          "Only a domestic participation certificate and medal",
+          "Only a rule change and transfer to another sport",
+          "Only a general physical-education textbook and lecture"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Only a domestic participation certificate and medal",
+          "Only a rule change and transfer to another sport",
+          "Customized training, exposure and equipment support",
+          "Only a general physical-education textbook and lecture"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-019",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Select automatically because past reputation is sufficient",
+          "Reject automatically because only current ranking matters",
+          "Select only after a public vote by national spectators",
+          "Review current form, consistency, fitness and benchmarks"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Select automatically because past reputation is sufficient",
+          "Reject automatically because only current ranking matters",
+          "Review current form, consistency, fitness and benchmarks",
+          "Select only after a public vote by national spectators"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-020",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Two groups separating event officials from spectators",
+          "Two groups classifying venues by construction cost",
+          "Support groups for medal prospects and developing athletes",
+          "Two groups applying only to anti-doping laboratory work"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Support groups for medal prospects and developing athletes",
+          "Two groups separating event officials from spectators",
+          "Two groups classifying venues by construction cost",
+          "Two groups applying only to anti-doping laboratory work"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-021",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "1982",
+          "1987",
+          "1984",
+          "1995"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "1984",
+          "1982",
+          "1987",
+          "1995"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-022",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Conducting examinations and licensing private gyms",
+          "Running professional sports leagues and ticket sales",
+          "Regulating international federations and Olympic rules",
+          "Promoting sports and achieving sporting excellence"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Conducting examinations and licensing private gyms",
+          "Running professional sports leagues and ticket sales",
+          "Promoting sports and achieving sporting excellence",
+          "Regulating international federations and Olympic rules"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-023",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "To provide specialized training to promising athletes",
+          "To replace all district sports associations",
+          "To provide only short-term recreational activities",
+          "To conduct only anti-doping adjudication hearings"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "To replace all district sports associations",
+          "To provide only short-term recreational activities",
+          "To conduct only anti-doping adjudication hearings",
+          "To provide specialized training to promising athletes"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-024",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Only stadium ticketing, advertising and event-broadcasting services",
+          "Sports-science backup, individualized diet and staff supervision",
+          "Only academic examinations and non-sport hostel administration",
+          "Only selection trials without coaching or medical support"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Only stadium ticketing, advertising and event-broadcasting services",
+          "Only academic examinations and non-sport hostel administration",
+          "Sports-science backup, individualized diet and staff supervision",
+          "Only selection trials without coaching or medical support"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-025",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "STC",
+          "NCOE",
+          "NSTC",
+          "NSRS"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "NCOE",
+          "STC",
+          "NSTC",
+          "NSRS"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-026",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Olympic cities, World Cups and Asian Games",
+          "NCOEs and TOPS Core/Development groups",
+          "Regular Schools, IGMA Schools and Akharas",
+          "National teams and professional franchises"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Olympic cities, World Cups and Asian Games",
+          "NCOEs and TOPS Core/Development groups",
+          "National teams and professional franchises",
+          "Regular Schools, IGMA Schools and Akharas"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-027",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "A public spectator gallery",
+          "A National Centre of Excellence",
+          "A general school physical-education class",
+          "A one-day community sports festival"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "A public spectator gallery",
+          "A general school physical-education class",
+          "A one-day community sports festival",
+          "A National Centre of Excellence"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-028",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Awarding international Olympic host rights",
+          "Writing the rules of every sport",
+          "Issuing passports to travelling athletes",
+          "Talent identification and development"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Awarding international Olympic host rights",
+          "Writing the rules of every sport",
+          "Talent identification and development",
+          "Issuing passports to travelling athletes"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-029",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Sports ticketing and venue marketing",
+          "International relations and protocol",
+          "Equipment procurement for spectators",
+          "Sports Medicine and Medical Support"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Sports Medicine and Medical Support",
+          "Sports ticketing and venue marketing",
+          "International relations and protocol",
+          "Equipment procurement for spectators"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-030",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "National Recovery and Rehabilitation Standard",
+          "National Sports Repository System",
+          "National Sports Ranking Schedule",
+          "National Selection Review Secretariat"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "National Recovery and Rehabilitation Standard",
+          "National Sports Ranking Schedule",
+          "National Selection Review Secretariat",
+          "National Sports Repository System"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-031",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Sports Authority of India",
+          "Ministry of Youth Affairs and Sports",
+          "Indian Olympic Association",
+          "National Anti-Doping Agency"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Indian Olympic Association",
+          "Sports Authority of India",
+          "Ministry of Youth Affairs and Sports",
+          "National Anti-Doping Agency"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-033",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "A commercial ticketing company alone",
+          "The concerned National Sports Federation",
+          "A foreign embassy without a sport body",
+          "The national anti-doping appellate panel"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "A commercial ticketing company alone",
+          "A foreign embassy without a sport body",
+          "The concerned National Sports Federation",
+          "The national anti-doping appellate panel"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-034",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Ministry of Youth Affairs and Sports",
+          "Ministry of Health and Family Welfare",
+          "Ministry of Education and Learning",
+          "Ministry of Home Affairs"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Ministry of Health and Family Welfare",
+          "Ministry of Education and Learning",
+          "Ministry of Home Affairs",
+          "Ministry of Youth Affairs and Sports"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-036",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "The national stadium booking office",
+          "The National Anti-Doping Agency",
+          "The relevant National Sports Federation",
+          "A university examination board"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The national stadium booking office",
+          "The National Anti-Doping Agency",
+          "A university examination board",
+          "The relevant National Sports Federation"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-037",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Only private fitness clubs and gyms",
+          "Only international anti-doping laboratories",
+          "IOA and National Sports Federations",
+          "Only state school examination boards"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "IOA and National Sports Federations",
+          "Only private fitness clubs and gyms",
+          "Only international anti-doping laboratories",
+          "Only state school examination boards"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-038",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "WADA, NADA, FIFA and ICC sports bodies",
+          "UNESCO, WHO, UNICEF and UNDP agencies",
+          "FIBA, World Athletics, ITF and UCI bodies",
+          "IOC, CGF, OCA and ANOC Olympic bodies"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "WADA, NADA, FIFA and ICC sports bodies",
+          "UNESCO, WHO, UNICEF and UNDP agencies",
+          "IOC, CGF, OCA and ANOC Olympic bodies",
+          "FIBA, World Athletics, ITF and UCI bodies"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-039",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "before": {
+        "options": [
+          "Indian Olympic Association for national representation",
+          "The federation of only the largest participating sport",
+          "The event's ticketing and hospitality contractor",
+          "A district sports association with no national role"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "The federation of only the largest participating sport",
+          "Indian Olympic Association for national representation",
+          "The event's ticketing and hospitality contractor",
+          "A district sports association with no national role"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-002",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "The identity of the athlete who provided the sample",
+          "The presence of a prohibited substance, metabolite or marker",
+          "Intent, fault, negligence or knowing use by the athlete",
+          "The validity of the laboratory’s analytical report"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The identity of the athlete who provided the sample",
+          "The presence of a prohibited substance, metabolite or marker",
+          "The validity of the laboratory’s analytical report",
+          "Intent, fault, negligence or knowing use by the athlete"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-003",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Failure to update a quarterly whereabouts filing on time",
+          "Use or attempted use of a prohibited substance or method",
+          "Possession of a prohibited substance by support staff",
+          "Association with an ineligible support person at work"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Use or attempted use of a prohibited substance or method",
+          "Failure to update a quarterly whereabouts filing on time",
+          "Possession of a prohibited substance by support staff",
+          "Association with an ineligible support person at work"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-004",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "A filing failure under the whereabouts requirements",
+          "A protected-person classification under the Code",
+          "An atypical finding requiring routine laboratory review",
+          "Tampering or attempted tampering with doping control"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Tampering or attempted tampering with doping control",
+          "A filing failure under the whereabouts requirements",
+          "A protected-person classification under the Code",
+          "An atypical finding requiring routine laboratory review"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-005",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "A professional clinical relationship for ordinary care",
+          "A social meeting with a retired athlete outside sport",
+          "A medical referral before entering a testing pool",
+          "A professional relationship with a person serving a ban"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "A professional clinical relationship for ordinary care",
+          "A professional relationship with a person serving a ban",
+          "A social meeting with a retired athlete outside sport",
+          "A medical referral before entering a testing pool"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-007",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "To replace the medical judgment of every team physician",
+          "To limit testing to athletes competing at Olympic Games",
+          "To harmonize anti-doping rules across sports and countries",
+          "To let each federation define prohibited substances independently"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "To harmonize anti-doping rules across sports and countries",
+          "To replace the medical judgment of every team physician",
+          "To limit testing to athletes competing at Olympic Games",
+          "To let each federation define prohibited substances independently"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-008",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Athletes, support personnel and anti-doping organizations",
+          "Only the laboratory that analyzes the sample",
+          "Only the national federation’s legal department",
+          "Only athletes who have already received a positive result"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Only the laboratory that analyzes the sample",
+          "Athletes, support personnel and anti-doping organizations",
+          "Only the national federation’s legal department",
+          "Only athletes who have already received a positive result"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-009",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Proof beyond any possible scientific doubt",
+          "Comfortable satisfaction of the hearing panel",
+          "A simple assertion by the treating clinician",
+          "A unanimous decision by every testing laboratory"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Proof beyond any possible scientific doubt",
+          "A simple assertion by the treating clinician",
+          "Comfortable satisfaction of the hearing panel",
+          "A unanimous decision by every testing laboratory"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-010",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Administration of a prohibited substance or method",
+          "Failure to declare a daily training location",
+          "Presence of a marker in a biological passport only",
+          "Prohibited association with a retired athlete"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Failure to declare a daily training location",
+          "Administration of a prohibited substance or method",
+          "Presence of a marker in a biological passport only",
+          "Prohibited association with a retired athlete"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-012",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "S3",
+          "S5",
+          "S1",
+          "S9"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "S3",
+          "S1",
+          "S5",
+          "S9"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-013",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "S6: Stimulants and related substances",
+          "M2: Chemical and physical manipulation",
+          "S2: Peptide hormones and growth factors",
+          "S8: Cannabinoids prohibited in competition"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "S6: Stimulants and related substances",
+          "S2: Peptide hormones and growth factors",
+          "M2: Chemical and physical manipulation",
+          "S8: Cannabinoids prohibited in competition"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-014",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "S2: peptide hormones and growth factors",
+          "S6: in-competition stimulants",
+          "P1: sport-specific beta-blockers",
+          "S5: diuretics and masking agents"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "S5: diuretics and masking agents",
+          "S2: peptide hormones and growth factors",
+          "S6: in-competition stimulants",
+          "P1: sport-specific beta-blockers"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-015",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "S9: glucocorticoids, specified in-competition routes",
+          "S3: beta-2 agonists, with route limits",
+          "S5: diuretics and masking agents, at all times",
+          "P1: beta-blockers in specified sports"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "S3: beta-2 agonists, with route limits",
+          "S5: diuretics and masking agents, at all times",
+          "S9: glucocorticoids, specified in-competition routes",
+          "P1: beta-blockers in specified sports"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-016",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "S1: Anabolic agents, prohibited at all times",
+          "P1: Beta-blockers in particular sports",
+          "S4: Hormone and metabolic modulators",
+          "M3: Gene doping, prohibited at all times"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "S1: Anabolic agents, prohibited at all times",
+          "S4: Hormone and metabolic modulators",
+          "M3: Gene doping, prohibited at all times",
+          "P1: Beta-blockers in particular sports"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-018",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "The treatment must improve performance beyond normal health in competition",
+          "A permitted alternative can always be ignored by the TUE committee",
+          "The treatment should add no performance enhancement beyond normal health",
+          "A prescription automatically approves medication for competition"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The treatment must improve performance beyond normal health in competition",
+          "The treatment should add no performance enhancement beyond normal health",
+          "A permitted alternative can always be ignored by the TUE committee",
+          "A prescription automatically approves medication for competition"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-019",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "The athlete’s sponsor must approve the treatment first",
+          "There must be no reasonable permitted therapeutic alternative",
+          "The treatment must be the most expensive available option",
+          "The athlete must have used the substance before entering sport"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "The athlete’s sponsor must approve the treatment first",
+          "The treatment must be the most expensive available option",
+          "The athlete must have used the substance before entering sport",
+          "There must be no reasonable permitted therapeutic alternative"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-020",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Assume emergency care automatically removes a violation",
+          "Remove the medicine from the medical record",
+          "Ask the coach to replace the TUE application",
+          "Apply for a retroactive TUE after emergency treatment"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Assume emergency care automatically removes a violation",
+          "Remove the medicine from the medical record",
+          "Apply for a retroactive TUE after emergency treatment",
+          "Ask the coach to replace the TUE application"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-021",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "A coach confirms the collection was correct and complete",
+          "Both samples are destroyed after the laboratory report",
+          "A third athlete provides a matching sample that day",
+          "The athlete waives B analysis and A meets Code rules"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "A coach confirms the collection was correct and complete",
+          "The athlete waives B analysis and A meets Code rules",
+          "Both samples are destroyed after the laboratory report",
+          "A third athlete provides a matching sample that day"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-022",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "To decide the athlete’s sanction at the competition venue",
+          "To supervise secure collection and protect athlete rights",
+          "To prescribe treatment for declared medication",
+          "To ratify the athlete’s performance result"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "To decide the athlete’s sanction at the competition venue",
+          "To prescribe treatment for declared medication",
+          "To ratify the athlete’s performance result",
+          "To supervise secure collection and protect athlete rights"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-024",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "05:00 to 23:00",
+          "00:00 to 04:00",
+          "08:00 to 12:00 only",
+          "13:00 to 17:00 only"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "00:00 to 04:00",
+          "08:00 to 12:00 only",
+          "13:00 to 17:00 only",
+          "05:00 to 23:00"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-025",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "It is automatically ignored if the athlete later wins a medal",
+          "The combination may constitute a whereabouts violation under Article 2.4",
+          "It is treated only as a laboratory quality-control problem",
+          "It becomes a TUE application because no prohibited substance was detected"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "The combination may constitute a whereabouts violation under Article 2.4",
+          "It is automatically ignored if the athlete later wins a medal",
+          "It is treated only as a laboratory quality-control problem",
+          "It becomes a TUE application because no prohibited substance was detected"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-027",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "To score technical performance during a competition",
+          "To replace laboratory analysis with coach observations",
+          "To issue medals and maintain official event results",
+          "To securely manage whereabouts, testing and records"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "To score technical performance during a competition",
+          "To securely manage whereabouts, testing and records",
+          "To replace laboratory analysis with coach observations",
+          "To issue medals and maintain official event results"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-028",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "The athlete fails to reach a prescribed training intensity",
+          "A coach submits an incomplete competition travel itinerary",
+          "A WADA-accredited lab reports a prohibited marker",
+          "A TUE committee approves a documented medical treatment"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The athlete fails to reach a prescribed training intensity",
+          "A coach submits an incomplete competition travel itinerary",
+          "A TUE committee approves a documented medical treatment",
+          "A WADA-accredited lab reports a prohibited marker"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-031",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Monitor biological variables over time for doping patterns",
+          "Replace all urine and blood tests during a season",
+          "Certify supplements as free of prohibited substances",
+          "Rank athletes by comparing competition results"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Replace all urine and blood tests during a season",
+          "Certify supplements as free of prohibited substances",
+          "Rank athletes by comparing competition results",
+          "Monitor biological variables over time for doping patterns"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-032",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "It is used only when no biological sample can be collected",
+          "It complements traditional testing without replacing all analysis",
+          "It makes the Prohibited List unnecessary for all sports",
+          "It is a medical treatment record that cannot support investigations"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "It is used only when no biological sample can be collected",
+          "It makes the Prohibited List unnecessary for all sports",
+          "It complements traditional testing without replacing all analysis",
+          "It is a medical treatment record that cannot support investigations"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-033",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Blood variables linked to oxygen transport",
+          "Match statistics and tactical decisions",
+          "Ticket sales and event attendance",
+          "Musculoskeletal ultrasound from rehabilitation"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Match statistics and tactical decisions",
+          "Blood variables linked to oxygen transport",
+          "Ticket sales and event attendance",
+          "Musculoskeletal ultrasound from rehabilitation"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-034",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Daily step counts from a wearable device",
+          "Self-rated motivation before competition",
+          "Steroid-related variables in repeated samples",
+          "Monthly count of physiotherapy sessions"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Steroid-related variables in repeated samples",
+          "Daily step counts from a wearable device",
+          "Self-rated motivation before competition",
+          "Monthly count of physiotherapy sessions"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-035",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "A public database of every athlete’s medical record",
+          "A secure system for anti-doping data and reports",
+          "A coach-controlled spreadsheet for tactics",
+          "A replacement for expert review of a profile"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "A secure system for anti-doping data and reports",
+          "A public database of every athlete’s medical record",
+          "A coach-controlled spreadsheet for tactics",
+          "A replacement for expert review of a profile"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-036",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Wait for notification before seeking information",
+          "Rely on a supplement company's safety statement",
+          "Ask a coach to decide medication status alone",
+          "Learn anti-doping rights, List, TUEs and testing"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Wait for notification before seeking information",
+          "Rely on a supplement company's safety statement",
+          "Learn anti-doping rights, List, TUEs and testing",
+          "Ask a coach to decide medication status alone"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-037",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "A club’s retail channel establishes that a supplement is permitted",
+          "The word natural makes a supplement safe for every athlete",
+          "Checking is needed only after an adverse analytical finding",
+          "Assess the supplement’s quality and contamination risk first"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "A club’s retail channel establishes that a supplement is permitted",
+          "The word natural makes a supplement safe for every athlete",
+          "Assess the supplement’s quality and contamination risk first",
+          "Checking is needed only after an adverse analytical finding"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-038",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "It proves suitability for every athlete and medical condition",
+          "It can reduce contamination risk but cannot guarantee safety",
+          "It gives a manufacturer authority to issue a TUE",
+          "It removes the athlete’s personal responsibility"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "It proves suitability for every athlete and medical condition",
+          "It gives a manufacturer authority to issue a TUE",
+          "It removes the athlete’s personal responsibility",
+          "It can reduce contamination risk but cannot guarantee safety"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-anti_doping_awareness-040",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "before": {
+        "options": [
+          "Complicity or attempted complicity in an anti-doping violation",
+          "A routine whereabouts filing update with no misconduct",
+          "A permitted therapeutic intervention without required documentation",
+          "An atypical laboratory finding without a conduct violation"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "A routine whereabouts filing update with no misconduct",
+          "A permitted therapeutic intervention without required documentation",
+          "Complicity or attempted complicity in an anti-doping violation",
+          "An atypical laboratory finding without a conduct violation"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-003",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Gold Coast, Australia",
+          "Glasgow, Scotland",
+          "Delhi, India",
+          "Birmingham, England"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Birmingham, England",
+          "Gold Coast, Australia",
+          "Glasgow, Scotland",
+          "Delhi, India"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-004",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Victoria, Australia",
+          "Birmingham, England",
+          "Glasgow, Scotland",
+          "Amdavad, India"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Victoria, Australia",
+          "Glasgow, Scotland",
+          "Birmingham, England",
+          "Amdavad, India"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-005",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Edinburgh, Scotland",
+          "Kuala Lumpur, Malaysia",
+          "Amdavad, India",
+          "Cape Town, South Africa"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Edinburgh, Scotland",
+          "Kuala Lumpur, Malaysia",
+          "Cape Town, South Africa",
+          "Amdavad, India"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-007",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Ten sports",
+          "Eight sports",
+          "Nine sports",
+          "Twelve sports"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Eight sports",
+          "Ten sports",
+          "Nine sports",
+          "Twelve sports"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-008",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "British Commonwealth Games",
+          "British Empire Games",
+          "Commonwealth Nations Games",
+          "Empire and Dominion Games"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "British Commonwealth Games",
+          "Commonwealth Nations Games",
+          "British Empire Games",
+          "Empire and Dominion Games"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-009",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "28 July–8 August 2022",
+          "23 July–2 August 2022",
+          "4–15 April 2018",
+          "3–14 October 2010"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "23 July–2 August 2022",
+          "4–15 April 2018",
+          "28 July–8 August 2022",
+          "3–14 October 2010"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-010",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "64 nations and territories",
+          "84 nations and territories",
+          "74 nations and territories",
+          "94 nations and territories"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "64 nations and territories",
+          "84 nations and territories",
+          "94 nations and territories",
+          "74 nations and territories"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-011",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Italy",
+          "Uruguay",
+          "Brazil",
+          "France"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Uruguay",
+          "Italy",
+          "Brazil",
+          "France"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-012",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Argentina",
+          "Uruguay",
+          "Italy",
+          "Brazil"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Argentina",
+          "Brazil",
+          "Uruguay",
+          "Italy"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-013",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "France",
+          "Croatia",
+          "Morocco",
+          "Argentina"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Argentina",
+          "France",
+          "Croatia",
+          "Morocco"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-014",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Kylian Mbappé",
+          "Lionel Messi",
+          "Emiliano Martínez",
+          "Enzo Fernández"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Kylian Mbappé",
+          "Emiliano Martínez",
+          "Enzo Fernández",
+          "Lionel Messi"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-015",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "First Asian team to reach the World Cup final",
+          "First Arab team to win the World Cup title",
+          "First African team to reach a World Cup semi-final",
+          "First African team to finish as World Cup runner-up"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "First Asian team to reach the World Cup final",
+          "First African team to reach a World Cup semi-final",
+          "First Arab team to win the World Cup title",
+          "First African team to finish as World Cup runner-up"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-016",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Canada, Mexico and United States",
+          "Mexico, Brazil and Argentina",
+          "Canada, Spain and United States",
+          "Mexico, Portugal and Morocco"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Mexico, Brazil and Argentina",
+          "Canada, Spain and United States",
+          "Mexico, Portugal and Morocco",
+          "Canada, Mexico and United States"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-017",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "40 teams",
+          "48 teams",
+          "36 teams",
+          "32 teams"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "48 teams",
+          "40 teams",
+          "36 teams",
+          "32 teams"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-018",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Spain, Morocco and Portugal",
+          "Argentina, Uruguay and Paraguay",
+          "Brazil, Chile and Uruguay",
+          "Portugal, Argentina and France"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Argentina, Uruguay and Paraguay",
+          "Brazil, Chile and Uruguay",
+          "Spain, Morocco and Portugal",
+          "Portugal, Argentina and France"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-019",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Argentina, Paraguay and Bolivia",
+          "Argentina, Chile and Uruguay",
+          "Brazil, Paraguay and Uruguay",
+          "Argentina, Paraguay and Uruguay"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Argentina, Paraguay and Bolivia",
+          "Argentina, Paraguay and Uruguay",
+          "Argentina, Chile and Uruguay",
+          "Brazil, Paraguay and Uruguay"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-021",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Rome, Italy",
+          "Tokyo, Japan",
+          "Helsinki, Finland",
+          "Stuttgart, Germany"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Rome, Italy",
+          "Tokyo, Japan",
+          "Stuttgart, Germany",
+          "Helsinki, Finland"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-022",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "International Olympic Committee",
+          "International Sports Union",
+          "World Track and Field Council",
+          "World Athletics federation"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "International Olympic Committee",
+          "International Sports Union",
+          "World Athletics federation",
+          "World Track and Field Council"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-024",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "18th edition",
+          "20th edition",
+          "19th edition",
+          "21st edition"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "18th edition",
+          "19th edition",
+          "20th edition",
+          "21st edition"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-025",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "13–21 September 2025",
+          "19–27 August 2023",
+          "15–24 July 2022",
+          "27 September–6 October 2019"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "19–27 August 2023",
+          "15–24 July 2022",
+          "13–21 September 2025",
+          "27 September–6 October 2019"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-026",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Carl Lewis",
+          "Jonathan Edwards",
+          "Mike Powell",
+          "Sergey Bubka"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Carl Lewis",
+          "Mike Powell",
+          "Jonathan Edwards",
+          "Sergey Bubka"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-028",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Men's heptathlon and women's decathlon",
+          "Men's pentathlon and women's heptathlon",
+          "Men's decathlon and women's pentathlon",
+          "Men's decathlon and women's heptathlon"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Men's heptathlon and women's decathlon",
+          "Men's pentathlon and women's heptathlon",
+          "Men's decathlon and women's heptathlon",
+          "Men's decathlon and women's pentathlon"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-029",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Mondo Duplantis",
+          "Jakob Ingebrigtsen",
+          "Fred Kerley",
+          "Noah Lyles"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Mondo Duplantis",
+          "Jakob Ingebrigtsen",
+          "Noah Lyles",
+          "Fred Kerley"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-030",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "A host-city construction delay",
+          "The Tokyo Olympic Games were postponed",
+          "A change in the athletics qualification rules",
+          "A cancellation of the World Athletics season"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "A host-city construction delay",
+          "A change in the athletics qualification rules",
+          "A cancellation of the World Athletics season",
+          "The Tokyo Olympic Games were postponed"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-031",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Cali, Colombia",
+          "Perth, Australia",
+          "Belgrade, Yugoslavia",
+          "Barcelona, Spain"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Belgrade, Yugoslavia",
+          "Cali, Colombia",
+          "Perth, Australia",
+          "Barcelona, Spain"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-032",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "High diving events",
+          "Canoe sprint events",
+          "Rowing regattas",
+          "Sailing races"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Canoe sprint events",
+          "Rowing regattas",
+          "Sailing races",
+          "High diving events"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-033",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "1998",
+          "2001",
+          "2005",
+          "2013"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "1998",
+          "2005",
+          "2001",
+          "2013"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-036",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Brazil",
+          "United States",
+          "Argentina",
+          "Spain"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Brazil",
+          "Argentina",
+          "United States",
+          "Spain"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-037",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Serbia",
+          "Canada",
+          "Germany",
+          "Spain"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Germany",
+          "Serbia",
+          "Canada",
+          "Spain"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-038",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Manila, Philippines",
+          "Madrid, Spain",
+          "Jakarta, Indonesia",
+          "Doha, Qatar"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Manila, Philippines",
+          "Doha, Qatar",
+          "Madrid, Spain",
+          "Jakarta, Indonesia"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-039",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "32 teams",
+          "24 teams",
+          "28 teams",
+          "36 teams"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "24 teams",
+          "28 teams",
+          "36 teams",
+          "32 teams"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-major_international_events-040",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "before": {
+        "options": [
+          "Five teams",
+          "Seven teams",
+          "Six teams",
+          "Eight teams"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Seven teams",
+          "Five teams",
+          "Six teams",
+          "Eight teams"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-001",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "An environment free from harassment, abuse and discrimination",
+          "An environment focused only on winning and selection",
+          "An environment where athletes manage concerns without support",
+          "An environment where coaches decide all welfare matters privately"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "An environment focused only on winning and selection",
+          "An environment where athletes manage concerns without support",
+          "An environment where coaches decide all welfare matters privately",
+          "An environment free from harassment, abuse and discrimination"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-002",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "A list of preferred competition venues",
+          "A ranking system for national-team selection",
+          "A named policy owner responsible for implementation",
+          "A schedule for routine strength-training sessions"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "A list of preferred competition venues",
+          "A named policy owner responsible for implementation",
+          "A ranking system for national-team selection",
+          "A schedule for routine strength-training sessions"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-003",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Wait for the athlete to make a formal complaint",
+          "Report the concern through the sport welfare officer",
+          "Discuss the matter publicly so teammates can investigate",
+          "Ignore the pattern unless performance also declines"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Report the concern through the sport welfare officer",
+          "Wait for the athlete to make a formal complaint",
+          "Discuss the matter publicly so teammates can investigate",
+          "Ignore the pattern unless performance also declines"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-004",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Keep the policy confidential so it cannot be challenged",
+          "Apply it only to athletes who are minors",
+          "Review it only after a serious incident has occurred",
+          "Consult athletes and review the policy regularly"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Consult athletes and review the policy regularly",
+          "Keep the policy confidential so it cannot be challenged",
+          "Apply it only to athletes who are minors",
+          "Review it only after a serious incident has occurred"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-005",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Replacing welfare support with performance targets",
+          "Restricting welfare services to medal-winning athletes",
+          "Treating welfare concerns as outside sport administration",
+          "Protecting athlete safety, health and well-being in sport"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Protecting athlete safety, health and well-being in sport",
+          "Replacing welfare support with performance targets",
+          "Restricting welfare services to medal-winning athletes",
+          "Treating welfare concerns as outside sport administration"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-006",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "A promise that the athlete will follow every recommendation",
+          "Voluntary informed consent after relevant information",
+          "Written approval from every member of the coaching staff",
+          "A guarantee that the examination will improve performance"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Voluntary informed consent after relevant information",
+          "A promise that the athlete will follow every recommendation",
+          "Written approval from every member of the coaching staff",
+          "A guarantee that the examination will improve performance"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-007",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Accept because the volunteer is part of the team",
+          "Keep silent unless physical contact occurs",
+          "Raise the concern with a welfare or safeguarding officer",
+          "Ask teammates to decide if the conduct is acceptable"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Raise the concern with a welfare or safeguarding officer",
+          "Accept because the volunteer is part of the team",
+          "Keep silent unless physical contact occurs",
+          "Ask teammates to decide if the conduct is acceptable"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-010",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Respect for dignity, autonomy, confidentiality and welfare",
+          "Priority to the coach’s convenience over the athlete’s account",
+          "Disclosure of the account to the whole training group",
+          "Continuation of treatment without explaining available choices"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Priority to the coach’s convenience over the athlete’s account",
+          "Disclosure of the account to the whole training group",
+          "Respect for dignity, autonomy, confidentiality and welfare",
+          "Continuation of treatment without explaining available choices"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-013",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "The most senior male coach in the organisation",
+          "An external lawyer chosen by the respondent",
+          "A senior woman employee of the organisation",
+          "The district officer responsible for local committees"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The most senior male coach in the organisation",
+          "An external lawyer chosen by the respondent",
+          "The district officer responsible for local committees",
+          "A senior woman employee of the organisation"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-014",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Thirty calendar days from the alleged workplace incident",
+          "Six calendar months after the sports season ends",
+          "One year from the incident, regardless of series",
+          "Three months from the incident or last incident in a series"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Thirty calendar days from the alleged workplace incident",
+          "Six calendar months after the sports season ends",
+          "Three months from the incident or last incident in a series",
+          "One year from the incident, regardless of series"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-015",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "A monetary settlement as the basis of conciliation",
+          "A written record of the agreed non-monetary measures",
+          "A request that the parties receive information about the process",
+          "A voluntary request for conciliation made by the aggrieved woman"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "A written record of the agreed non-monetary measures",
+          "A monetary settlement as the basis of conciliation",
+          "A request that the parties receive information about the process",
+          "A voluntary request for conciliation made by the aggrieved woman"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-017",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Within ten days of completing the inquiry",
+          "Within thirty days of receiving the complaint",
+          "Within sixty days of constituting the committee",
+          "Within ninety days of the first hearing"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Within thirty days of receiving the complaint",
+          "Within sixty days of constituting the committee",
+          "Within ten days of completing the inquiry",
+          "Within ninety days of the first hearing"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-018",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "The rule requiring conciliation before every inquiry",
+          "The requirement to transfer every respondent",
+          "Confidentiality for complaint and inquiry details",
+          "The rule that only athletes may submit complaints"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "The rule requiring conciliation before every inquiry",
+          "The requirement to transfer every respondent",
+          "The rule that only athletes may submit complaints",
+          "Confidentiality for complaint and inquiry details"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-019",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Automatic dismissal of the respondent",
+          "Transfer or up to three months' leave for her",
+          "Permanent cancellation of the professional licence",
+          "Publication of allegations on the public website"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Automatic dismissal of the respondent",
+          "Permanent cancellation of the professional licence",
+          "Transfer or up to three months' leave for her",
+          "Publication of allegations on the public website"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-021",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Proceed without disclosure because clinical tests are objective",
+          "Ask the relative to approve the assessment after it is completed",
+          "Change the results so the conflict cannot be detected",
+          "Disclose the conflict and request an impartial assessor"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Proceed without disclosure because clinical tests are objective",
+          "Disclose the conflict and request an impartial assessor",
+          "Ask the relative to approve the assessment after it is completed",
+          "Change the results so the conflict cannot be detected"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-022",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Consent is implied by entering a training centre",
+          "Voluntary choice after relevant information",
+          "A coach can consent for every adult athlete",
+          "Consent is unnecessary for performance treatment"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "Consent is implied by entering a training centre",
+          "A coach can consent for every adult athlete",
+          "Voluntary choice after relevant information",
+          "Consent is unnecessary for performance treatment"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-023",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Anyone who follows the athlete or attends competitions",
+          "All spectators who ask about an absence",
+          "Only authorised people with a legitimate need to know",
+          "Every athlete in the same training squad"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Anyone who follows the athlete or attends competitions",
+          "Only authorised people with a legitimate need to know",
+          "All spectators who ask about an absence",
+          "Every athlete in the same training squad"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-024",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Combining evidence, expertise and athlete preferences",
+          "Using a popular intervention for every athlete regardless of need",
+          "Selecting treatment solely because a sponsor promotes it",
+          "Withholding uncertainty so the athlete cannot question a plan"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Using a popular intervention for every athlete regardless of need",
+          "Selecting treatment solely because a sponsor promotes it",
+          "Withholding uncertainty so the athlete cannot question a plan",
+          "Combining evidence, expertise and athlete preferences"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-026",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Apply transparent, relevant criteria without discrimination",
+          "Use an undisclosed personal preference as the only criterion",
+          "Give preference to athletes who provide private benefits to staff",
+          "Exclude an athlete after rumours without an opportunity to respond"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Use an undisclosed personal preference as the only criterion",
+          "Apply transparent, relevant criteria without discrimination",
+          "Give preference to athletes who provide private benefits to staff",
+          "Exclude an athlete after rumours without an opportunity to respond"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-027",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Remove it if the athlete wants to compete without review",
+          "Replace it with a less serious diagnosis without retesting",
+          "Delete it and rely on an undocumented verbal handover",
+          "Keep the accurate record and escalate improper pressure"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Remove it if the athlete wants to compete without review",
+          "Replace it with a less serious diagnosis without retesting",
+          "Keep the accurate record and escalate improper pressure",
+          "Delete it and rely on an undocumented verbal handover"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-029",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "A harmless arrangement because selection is always subjective",
+          "A normal performance incentive that requires no disclosure",
+          "Abuse of power and a breach of professional boundaries",
+          "A scheduling issue that should be handled only by the coach"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Abuse of power and a breach of professional boundaries",
+          "A harmless arrangement because selection is always subjective",
+          "A normal performance incentive that requires no disclosure",
+          "A scheduling issue that should be handled only by the coach"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-030",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Winning permits bending a rule when officials do not notice",
+          "Following rules only during televised competitions",
+          "Allowing the strongest team to decide which rules apply",
+          "Respecting rules, opponents, officials and fair competition"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Respecting rules, opponents, officials and fair competition",
+          "Winning permits bending a rule when officials do not notice",
+          "Following rules only during televised competitions",
+          "Allowing the strongest team to decide which rules apply"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-031",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "National Sports Governance Act, 2025",
+          "National Sports Administration Act, 2024",
+          "Indian Olympic Institutions Act, 2025",
+          "Sports Integrity and Competition Act, 2026"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "National Sports Administration Act, 2024",
+          "Indian Olympic Institutions Act, 2025",
+          "National Sports Governance Act, 2025",
+          "Sports Integrity and Competition Act, 2026"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-032",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "NOC and Ministry of Youth Affairs and Sports only",
+          "NOC, NPC, National and Regional Sports Federations",
+          "National Sports Federations and State Sports Departments only",
+          "NOC, National Sports Federations and private leagues"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "NOC and Ministry of Youth Affairs and Sports only",
+          "National Sports Federations and State Sports Departments only",
+          "NOC, National Sports Federations and private leagues",
+          "NOC, NPC, National and Regional Sports Federations"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-034",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Has won an Olympic or Asian Games medal in any discipline",
+          "Has served five years as a sports journalist in a recognised federation",
+          "Exercises authority or influence over another person or dependent",
+          "Holds a paid role in any recognised private fitness organisation"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Has won an Olympic or Asian Games medal in any discipline",
+          "Has served five years as a sports journalist in a recognised federation",
+          "Holds a paid role in any recognised private fitness organisation",
+          "Exercises authority or influence over another person or dependent"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-035",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Only the final competition, medal ceremony and official media activities",
+          "All National Sports Body activities, events and proceedings",
+          "Only activities involving women athletes at the event and camp",
+          "Only activities conducted outside India during official tours"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "All National Sports Body activities, events and proceedings",
+          "Only the final competition, medal ceremony and official media activities",
+          "Only activities involving women athletes at the event and camp",
+          "Only activities conducted outside India during official tours"
+        ],
+        "correct": 0
+      },
+      "target": 0,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-036",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "It should be confidential but need not give reasons",
+          "It should be controlled only by the accused person",
+          "It should decide matters only after the next election",
+          "It should address grievances fairly, promptly and transparently"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "It should be confidential but need not give reasons",
+          "It should address grievances fairly, promptly and transparently",
+          "It should be controlled only by the accused person",
+          "It should decide matters only after the next election"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-037",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Any informal group claiming to promote a sport",
+          "Only a commercial league with private investors",
+          "Only an organisation that has hosted an Olympic Games",
+          "A sports organisation recognised under the Act"
+        ],
+        "correct": 3
+      },
+      "after": {
+        "options": [
+          "Any informal group claiming to promote a sport",
+          "Only a commercial league with private investors",
+          "A sports organisation recognised under the Act",
+          "Only an organisation that has hosted an Olympic Games"
+        ],
+        "correct": 2
+      },
+      "target": 2,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-038",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "For every private contract by athletes and staff",
+          "For use of the government grant or other assistance",
+          "Only for determining a competition result",
+          "Only for regulating international sport rules"
+        ],
+        "correct": 1
+      },
+      "after": {
+        "options": [
+          "For every private contract by athletes and staff",
+          "Only for determining a competition result",
+          "Only for regulating international sport rules",
+          "For use of the government grant or other assistance"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-039",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Former international athlete with five years' service",
+          "Serving secretary of a recognised National Sports Federation",
+          "Present or former Supreme Court Judge or High Court Chief Justice",
+          "Retired coach nominated by the National Olympic Committee"
+        ],
+        "correct": 2
+      },
+      "after": {
+        "options": [
+          "Former international athlete with five years' service",
+          "Serving secretary of a recognised National Sports Federation",
+          "Retired coach nominated by the National Olympic Committee",
+          "Present or former Supreme Court Judge or High Court Chief Justice"
+        ],
+        "correct": 3
+      },
+      "target": 3,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    },
+    {
+      "id": "a2-sports_governance_ethics-040",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "before": {
+        "options": [
+          "Retired election officials with relevant experience",
+          "Serving coaches selected by the National Olympic Committee",
+          "Athletes elected by each National Sports Federation",
+          "Representatives of sponsors who fund national teams"
+        ],
+        "correct": 0
+      },
+      "after": {
+        "options": [
+          "Serving coaches selected by the National Olympic Committee",
+          "Retired election officials with relevant experience",
+          "Athletes elected by each National Sports Federation",
+          "Representatives of sponsors who fund national teams"
+        ],
+        "correct": 1
+      },
+      "target": 1,
+      "reason": "Central option permutation to remove mechanical answer-position cycles while preserving the answer text."
+    }
+  ]
+}

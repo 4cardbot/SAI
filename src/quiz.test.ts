@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { QUESTION_BANK } from "./data/questionBank";
 import { completedCount, createAttempt, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
-import { A1_FULL_COUNT, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
+import { A1_FULL_COUNT, A2_PRACTICE_DURATION_MS, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 
 const byId = new Map(QUESTION_BANK.map((question) => [question.id, question]));
 
@@ -36,6 +36,9 @@ describe("quiz engine", () => {
     const savedAttempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "B");
     expect(savedAttempt.mode).toBe("B");
     expect(savedAttempt.questions).toHaveLength(SECTION_COUNTS.B);
+    const a2Attempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "A2");
+    expect(a2Attempt.questions).toHaveLength(SECTION_COUNTS.A2);
+    expect(a2Attempt.remainingMs).toBe(A2_PRACTICE_DURATION_MS);
   });
 
   it("builds a 100-question test from A1 only", () => {

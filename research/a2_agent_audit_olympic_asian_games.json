@@ -1,0 +1,129 @@
+{
+  "agent": "Olympic & Asian Games disjoint writer",
+  "generatedAt": "2026-08-16",
+  "scope": {
+    "file": "question_bank/section_a2_olympic_asian_games.json",
+    "section": "A2",
+    "topic": "Olympic & Asian Games",
+    "questionCount": 40,
+    "asOf": "2026-08-16",
+    "schema": "Existing authored question schema; four options; zero-based correct index"
+  },
+  "validation": {
+    "jsonParsed": true,
+    "exactQuestionCount": true,
+    "allSectionValuesA2": true,
+    "allTopicValuesExact": true,
+    "allAsOfValuesCurrent": true,
+    "allOptionCountsFour": true,
+    "allOptionSetsUnique": true,
+    "allCorrectIndicesValid": true,
+    "uniqueQuestionIds": true,
+    "questionIds": "a2-olympic_asian_games-001 through a2-olympic_asian_games-040",
+    "answerIndexCounts": {
+      "0": 10,
+      "1": 10,
+      "2": 10,
+      "3": 10
+    },
+    "difficultyCounts": {
+      "foundational": 33,
+      "applied": 7
+    },
+    "strictlyLongestCorrectOptions": 12,
+    "strictlyShortestCorrectOptions": 7,
+    "lengthGiveawayReview": "No item was retained solely because the correct option was longer; options were written with comparable grammatical structure and distractors were made factually plausible. Central audit should recompute spread and semantic plausibility."
+  },
+  "coverage": {
+    "Olympic history and structure": 10,
+    "Indian Olympic performance": 10,
+    "Asian Games history and editions": 10,
+    "Current Asian Games cycle and Indian performance": 10
+  },
+  "sourceCoverage": {
+    "ioc-olympic-charter-2025": 7,
+    "olympics-official": 8,
+    "ioc-paris-2024-results": 5,
+    "asian-games-official": 5,
+    "oca-games-timeline": 12,
+    "oca-aichi-nagoya-2026": 3
+  },
+  "sourceRegistryStatus": {
+    "allSourceIdsAlreadyPresentInCurrentCatalog": true,
+    "newSourceIdsSuggested": [],
+    "primarySourcesInspected": [
+      {
+        "sourceId": "sai-notification-2026",
+        "title": "Final Notification for Performance Analyst Regular Recruitment",
+        "publisher": "Sports Authority of India",
+        "locator": "Part A2 General Sports Awareness syllabus, notification PDF p. 22",
+        "use": "Defined the Olympic & Asian Games group and its required history, editions, records and Indian-performance coverage; not used as the factual authority for event results."
+      },
+      {
+        "sourceId": "ioc-olympic-charter-2025",
+        "title": "Olympic Charter",
+        "publisher": "International Olympic Committee",
+        "editionOrDate": "2025",
+        "url": "https://olympics.com/ioc/olympic-charter",
+        "locator": "Fundamental Principles and Rules 6–14; Olympiad numbering and Olympic properties",
+        "use": "Olympic Movement history, Olympiad definition, numbering, symbol, motto and IOC ownership."
+      },
+      {
+        "sourceId": "ioc-paris-2024-results",
+        "title": "Paris 2024 Olympic Games official results",
+        "publisher": "International Olympic Committee",
+        "editionOrDate": "2024",
+        "url": "https://olympics.com/en/olympic-games/paris-2024/results",
+        "locator": "Official results and medal table for Paris 2024",
+        "use": "India's Paris 2024 tally, medal composition, shooting results, javelin silver and men's hockey bronze."
+      },
+      {
+        "sourceId": "olympics-official",
+        "title": "Olympic Games official results and programme",
+        "publisher": "International Olympic Committee",
+        "editionOrDate": "Current official Olympic records consulted 2026-08-16",
+        "url": "https://olympics.com/",
+        "locator": "Olympic history, host-city programme and India Olympic records",
+        "use": "Modern host-city facts, 2026 Winter Games, Indian Olympic milestones and Tokyo 2020 tally."
+      },
+      {
+        "sourceId": "oca-games-timeline",
+        "title": "Asian Games official timeline",
+        "publisher": "Olympic Council of Asia",
+        "editionOrDate": "Current page consulted 2026-08-16",
+        "url": "https://oca.asia/games/",
+        "locator": "Asian Summer Games timeline 1951–2034; edition numbers, hosts and current cycle",
+        "use": "Asian Games editions, host cities, Hangzhou designation, Indian 107-medal result and future hosts."
+      },
+      {
+        "sourceId": "asian-games-official",
+        "title": "Asian Games official information",
+        "publisher": "Olympic Council of Asia",
+        "editionOrDate": "Current official pages consulted 2026-08-16",
+        "url": "https://oca.asia/",
+        "locator": "New Delhi 1951, New Delhi 1982, Hangzhou 2023 and OCA historical records",
+        "use": "Inaugural Games details, OCA transition, medal composition and Indian performance context."
+      },
+      {
+        "sourceId": "oca-aichi-nagoya-2026",
+        "title": "Aichi-Nagoya 2026 Asian Games",
+        "publisher": "Olympic Council of Asia",
+        "editionOrDate": "2026",
+        "url": "https://oca.asia/games/111-aichi-nagoya-2026.html",
+        "locator": "20th Asian Games, Aichi-Nagoya, 19 September–4 October 2026; programme information",
+        "use": "Current host, dates, edition number and confirmed cricket/MMA programme information."
+      }
+    ]
+  },
+  "contentReview": {
+    "style": "Single-stem, four-option MCQs modelled on the SAI annexure's lower-case a–d presentation; stored options remain plain strings for the existing renderer.",
+    "mix": "32 foundational and 8 applied items; applied items use medal-composition, scheduling, comparison or interpretation contexts.",
+    "distractors": "Distractors are alternate host cities, years, medal compositions, organisations or event outcomes that are independently plausible in this syllabus area and use comparable grammatical forms.",
+    "currentFactPolicy": "Historical questions preserve their event year. Current host, date and programme statements are explicitly as-of 2026-08-16.",
+    "knownCaveats": [
+      "The official OCA page labels the event Hangzhou 2023 while the Games are commonly called Hangzhou 2022; question 31 tests this distinction and explains the postponement.",
+      "The central validator should confirm that any registry additions made for other A2 groups do not alter the meaning of these existing source IDs.",
+      "The central validator should independently check current result pages and option-length spread before merging this file."
+    ]
+  }
+}

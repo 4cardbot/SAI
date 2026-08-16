@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-16",
+  "changedQuestions": 1,
+  "changes": [
+    {
+      "id": "a2-major_international_events-022",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "reason": "Used the organisation's formal short name in the correct option.",
+      "before": {
+        "text": "Which organisation conducts the World Athletics Championships?",
+        "options": [
+          "International Olympic Committee",
+          "International Sports Union",
+          "World Athletics",
+          "World Track and Field Council"
+        ],
+        "correct": 2,
+        "explanation": "World Athletics, the international governing body for athletics, organises the World Athletics Championships.",
+        "sourceId": "world-athletics-championships-history"
+      },
+      "after": {
+        "text": "Which organisation conducts the World Athletics Championships?",
+        "options": [
+          "International Olympic Committee",
+          "International Sports Union",
+          "World Athletics governing body",
+          "World Track and Field Council"
+        ],
+        "correct": 2,
+        "explanation": "World Athletics, the international governing body for athletics, organises the World Athletics Championships.",
+        "sourceId": "world-athletics-championships-history"
+      }
+    }
+  ]
+}

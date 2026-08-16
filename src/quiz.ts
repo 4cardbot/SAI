@@ -1,4 +1,4 @@
-import { A1_FULL_COUNT, NEGATIVE_MARK, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
+import { A1_FULL_COUNT, durationForMode, EXAM_SECTION_COUNTS, NEGATIVE_MARK, SECTION_COUNTS } from "./constants";
 import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
 
@@ -20,7 +20,7 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
   });
   const passages = shuffle([...byPassage.keys()], hashSeed(`${seed}:C:passages`));
   const selected: Question[] = [];
-  const target = SECTION_COUNTS.C;
+  const target = EXAM_SECTION_COUNTS.C;
   const start = hashSeed(`${seed}:C:start`) % passages.length;
   const orderedPassages = rotatedSlice(passages, passages.length, start);
 
@@ -37,12 +37,16 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
 export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), mode: AttemptMode = "full"): AttemptQuestion[] {
   const selected: Question[] = [];
   const sections: Section[] = mode === "full" ? SECTION_ORDER : [mode === "A1_FULL" ? "A1" : mode];
-  const selectedCount = mode === "A1_FULL" ? A1_FULL_COUNT : undefined;
   sections.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
+    const selectedCount = mode === "A1_FULL"
+      ? A1_FULL_COUNT
+      : mode === "full"
+        ? EXAM_SECTION_COUNTS[section]
+        : SECTION_COUNTS[section];
     const sectionQuestions = section === "C"
       ? chooseCaseQuestions(pool, seed)
-      : chooseQuestions(pool, selectedCount ?? SECTION_COUNTS[section], seed, section);
+      : chooseQuestions(pool, selectedCount, seed, section);
     selected.push(...sectionQuestions);
   });
   return selected.map((question) => ({
@@ -63,7 +67,7 @@ export function createAttempt(bank: Question[], now = new Date(), seed = randomS
     createdAt: now.toISOString(),
     updatedAt: now.toISOString(),
     status: "paused",
-    remainingMs: TEST_DURATION_MS,
+    remainingMs: durationForMode(mode),
     currentIndex: 0,
     questions,
     responses,
@@ -169,7 +173,7 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
   return {
     version: 3,
     submittedAt: submittedAt.toISOString(),
-    durationMs: TEST_DURATION_MS - attempt.remainingMs,
+    durationMs: Math.max(0, durationForMode(attempt.mode ?? "full") - attempt.remainingMs),
     total: attempt.questions.length,
     correctCount,
     wrongCount,

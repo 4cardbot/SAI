@@ -1,0 +1,1184 @@
+{
+  "auditType": "independent_structural_statistical_audit",
+  "auditVersion": "1.0.0",
+  "auditedAt": "2026-08-16T09:21:09.253Z",
+  "asOf": "2026-08-16",
+  "scope": {
+    "durableSourceFiles": [
+      "question_bank/section_a2_olympic_asian_games.json",
+      "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "question_bank/section_a2_anti_doping_awareness.json",
+      "question_bank/section_a2_major_international_events.json",
+      "question_bank/section_a2_sports_governance_ethics.json"
+    ],
+    "mergedFile": "question_bank/section_a2.json",
+    "expectedCounts": {
+      "eachDurableFile": 40,
+      "merged": 200
+    },
+    "canonicalTopics": [
+      "Olympic & Asian Games",
+      "Indian sports ecosystem and schemes",
+      "Anti-doping awareness",
+      "Major international sporting events",
+      "Sports governance and ethics"
+    ],
+    "checks": [
+      "JSON parse and exact question schema",
+      "exact counts and A2/asOf values",
+      "unique IDs, normalized stems, and per-question options",
+      "topic/subtopic coverage",
+      "difficulty mix",
+      "answer-index balance",
+      "option-length bias",
+      "mechanical answer-index patterns",
+      "exact durable-to-merged equality"
+    ]
+  },
+  "result": {
+    "status": "PASS_WITH_REVIEW_FLAGS",
+    "failureCount": 0,
+    "reviewFlagCount": 5
+  },
+  "schema": {
+    "expectedKeys": [
+      "id",
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "text",
+      "options",
+      "correct",
+      "explanation",
+      "sourceId",
+      "asOf"
+    ],
+    "allRecordsValid": true
+  },
+  "files": [
+    {
+      "path": "question_bank/section_a2_olympic_asian_games.json",
+      "expectedTopic": "Olympic & Asian Games",
+      "parse": "ok",
+      "count": 40,
+      "sha256": "4b8ce1c21795a777a8b29192128eb697d6cce03dbe84afacd26d04a68a86f593",
+      "coverage": {
+        "Olympic & Asian Games": {
+          "count": 40,
+          "subtopics": {
+            "Olympic history and structure": 10,
+            "Indian Olympic performance": 10,
+            "Asian Games history and editions": 10,
+            "Current Asian Games cycle and Indian performance": 10
+          }
+        }
+      },
+      "difficulty": {
+        "counts": {
+          "foundational": 33,
+          "applied": 7
+        },
+        "percentages": {
+          "foundational": 82.5,
+          "applied": 17.5
+        }
+      },
+      "answerIndex": {
+        "counts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "percentages": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "targetPerIndex": 10,
+        "maxDeviationFromTarget": 0
+      },
+      "optionLength": {
+        "questionCount": 40,
+        "counts": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 18,
+          "correctTiedShortest": 14,
+          "correctOverMedianDistractorByMoreThan8": 2,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "percentages": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 45,
+          "correctTiedShortest": 35,
+          "correctOverMedianDistractorByMoreThan8": 5,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "meanOptionLength": 23.34,
+        "meanCorrectMinusMedianDistractor": -0.07,
+        "maxCorrectMinusMedianDistractor": 10,
+        "maxOptionLengthSpread": 15,
+        "flaggedQuestionIds": {
+          "correctMoreThan8AboveMedian": [
+            "a2-olympic_asian_games-005",
+            "a2-olympic_asian_games-039"
+          ],
+          "correctMoreThan10AboveMedian": [],
+          "spreadOver15": []
+        }
+      },
+      "sourceIds": {
+        "uniqueCount": 6,
+        "counts": {
+          "ioc-olympic-charter-2025": 7,
+          "olympics-official": 8,
+          "ioc-paris-2024-results": 5,
+          "asian-games-official": 5,
+          "oca-games-timeline": 12,
+          "oca-aichi-nagoya-2026": 3
+        }
+      },
+      "uniqueness": {
+        "count": 40,
+        "uniqueIds": 40,
+        "uniqueNormalizedStems": 40,
+        "questionsWithDuplicateOptions": [],
+        "duplicateIds": [],
+        "duplicateStems": []
+      },
+      "mechanicalPatterns": {
+        "sequenceLength": 40,
+        "sequence": "0213312010322301021331201032230102133120",
+        "maxConsecutiveSameIndex": 2,
+        "adjacentDifferentRate": 87.18,
+        "transitionMatrix": [
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            0,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            2,
+            2
+          ],
+          [
+            2,
+            3,
+            2,
+            3
+          ]
+        ],
+        "exactRepeatingPeriods": [
+          16
+        ],
+        "periodsAtOrAbove90Percent": [
+          {
+            "period": 16,
+            "matchingPositions": 40,
+            "matchRate": 100
+          }
+        ]
+      }
+    },
+    {
+      "path": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "expectedTopic": "Indian sports ecosystem and schemes",
+      "parse": "ok",
+      "count": 40,
+      "sha256": "6cfb4ed7bae4fdc63063acb091e24375066bb8df48f432de00a8e649073d27d3",
+      "coverage": {
+        "Indian sports ecosystem and schemes": {
+          "count": 40,
+          "subtopics": {
+            "Khelo India architecture and implementation": 10,
+            "TOPS and National Sports Development Fund": 10,
+            "SAI institutions and athlete development": 10,
+            "MYAS, NSFs and IOA roles": 10
+          }
+        }
+      },
+      "difficulty": {
+        "counts": {
+          "foundational": 28,
+          "applied": 12
+        },
+        "percentages": {
+          "foundational": 70,
+          "applied": 30
+        }
+      },
+      "answerIndex": {
+        "counts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "percentages": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "targetPerIndex": 10,
+        "maxDeviationFromTarget": 0
+      },
+      "optionLength": {
+        "questionCount": 40,
+        "counts": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 13,
+          "correctTiedShortest": 12,
+          "correctOverMedianDistractorByMoreThan8": 2,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "percentages": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 32.5,
+          "correctTiedShortest": 30,
+          "correctOverMedianDistractorByMoreThan8": 5,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "meanOptionLength": 38.88,
+        "meanCorrectMinusMedianDistractor": 0.53,
+        "maxCorrectMinusMedianDistractor": 9,
+        "maxOptionLengthSpread": 15,
+        "flaggedQuestionIds": {
+          "correctMoreThan8AboveMedian": [
+            "a2-indian_sports_ecosystem_schemes-004",
+            "a2-indian_sports_ecosystem_schemes-006"
+          ],
+          "correctMoreThan10AboveMedian": [],
+          "spreadOver15": []
+        }
+      },
+      "sourceIds": {
+        "uniqueCount": 1,
+        "counts": {
+          "sports-governance-official": 40
+        }
+      },
+      "uniqueness": {
+        "count": 40,
+        "uniqueIds": 40,
+        "uniqueNormalizedStems": 40,
+        "questionsWithDuplicateOptions": [],
+        "duplicateIds": [],
+        "duplicateStems": []
+      },
+      "mechanicalPatterns": {
+        "sequenceLength": 40,
+        "sequence": "1032230102133120103223010213312010322301",
+        "maxConsecutiveSameIndex": 2,
+        "adjacentDifferentRate": 87.18,
+        "transitionMatrix": [
+          [
+            0,
+            5,
+            2,
+            3
+          ],
+          [
+            5,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3,
+            2
+          ]
+        ],
+        "exactRepeatingPeriods": [
+          16
+        ],
+        "periodsAtOrAbove90Percent": [
+          {
+            "period": 16,
+            "matchingPositions": 40,
+            "matchRate": 100
+          }
+        ]
+      }
+    },
+    {
+      "path": "question_bank/section_a2_anti_doping_awareness.json",
+      "expectedTopic": "Anti-doping awareness",
+      "parse": "ok",
+      "count": 40,
+      "sha256": "d7950b1fd31f694c900cb54354096447f49300e93988c4feb5b6a8e3a46c0885",
+      "coverage": {
+        "Anti-doping awareness": {
+          "count": 40,
+          "subtopics": {
+            "WADA Code and clean-sport principles": 10,
+            "Prohibited List and therapeutic use exemptions": 10,
+            "Testing, sample collection and whereabouts": 10,
+            "Athlete Biological Passport, supplements and education": 10
+          }
+        }
+      },
+      "difficulty": {
+        "counts": {
+          "foundational": 28,
+          "applied": 12
+        },
+        "percentages": {
+          "foundational": 70,
+          "applied": 30
+        }
+      },
+      "answerIndex": {
+        "counts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "percentages": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "targetPerIndex": 10,
+        "maxDeviationFromTarget": 0
+      },
+      "optionLength": {
+        "questionCount": 40,
+        "counts": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 15,
+          "correctTiedShortest": 4,
+          "correctOverMedianDistractorByMoreThan8": 10,
+          "correctOverMedianDistractorByMoreThan10": 7,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "percentages": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 37.5,
+          "correctTiedShortest": 10,
+          "correctOverMedianDistractorByMoreThan8": 25,
+          "correctOverMedianDistractorByMoreThan10": 17.5,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "meanOptionLength": 48.81,
+        "meanCorrectMinusMedianDistractor": 3.95,
+        "maxCorrectMinusMedianDistractor": 14,
+        "maxOptionLengthSpread": 15,
+        "flaggedQuestionIds": {
+          "correctMoreThan8AboveMedian": [
+            "a2-anti_doping_awareness-008",
+            "a2-anti_doping_awareness-015",
+            "a2-anti_doping_awareness-017",
+            "a2-anti_doping_awareness-020",
+            "a2-anti_doping_awareness-022",
+            "a2-anti_doping_awareness-023",
+            "a2-anti_doping_awareness-025",
+            "a2-anti_doping_awareness-029",
+            "a2-anti_doping_awareness-031",
+            "a2-anti_doping_awareness-038"
+          ],
+          "correctMoreThan10AboveMedian": [
+            "a2-anti_doping_awareness-015",
+            "a2-anti_doping_awareness-017",
+            "a2-anti_doping_awareness-022",
+            "a2-anti_doping_awareness-023",
+            "a2-anti_doping_awareness-025",
+            "a2-anti_doping_awareness-029",
+            "a2-anti_doping_awareness-038"
+          ],
+          "spreadOver15": []
+        }
+      },
+      "sourceIds": {
+        "uniqueCount": 8,
+        "counts": {
+          "wada-code-2021": 12,
+          "wada-prohibited-list-2026": 6,
+          "wada-istue-2023": 3,
+          "nada-india-tue-2026": 1,
+          "nada-india-rules-2021": 7,
+          "nada-india-official-2026": 3,
+          "nada-india-abp-2026": 5,
+          "ais-supplements-position-2022": 3
+        }
+      },
+      "uniqueness": {
+        "count": 40,
+        "uniqueIds": 40,
+        "uniqueNormalizedStems": 40,
+        "questionsWithDuplicateOptions": [],
+        "duplicateIds": [],
+        "duplicateStems": []
+      },
+      "mechanicalPatterns": {
+        "sequenceLength": 40,
+        "sequence": "0213312010322301021331201032230102133120",
+        "maxConsecutiveSameIndex": 2,
+        "adjacentDifferentRate": 87.18,
+        "transitionMatrix": [
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            0,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            2,
+            2
+          ],
+          [
+            2,
+            3,
+            2,
+            3
+          ]
+        ],
+        "exactRepeatingPeriods": [
+          16
+        ],
+        "periodsAtOrAbove90Percent": [
+          {
+            "period": 16,
+            "matchingPositions": 40,
+            "matchRate": 100
+          }
+        ]
+      }
+    },
+    {
+      "path": "question_bank/section_a2_major_international_events.json",
+      "expectedTopic": "Major international sporting events",
+      "parse": "ok",
+      "count": 40,
+      "sha256": "ed844790a3df237dbd19b5cd66ef8ef5eac292da9c9d0ffaaa0b795f6df4f417",
+      "coverage": {
+        "Major international sporting events": {
+          "count": 40,
+          "subtopics": {
+            "Commonwealth Games history, editions and Indian performance": 10,
+            "FIFA World Cup history and current editions": 10,
+            "World Athletics Championships": 10,
+            "Other major World Cups and World Championships": 10
+          }
+        }
+      },
+      "difficulty": {
+        "counts": {
+          "foundational": 28,
+          "applied": 12
+        },
+        "percentages": {
+          "foundational": 70,
+          "applied": 30
+        }
+      },
+      "answerIndex": {
+        "counts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "percentages": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "targetPerIndex": 10,
+        "maxDeviationFromTarget": 0
+      },
+      "optionLength": {
+        "questionCount": 40,
+        "counts": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 15,
+          "correctTiedShortest": 14,
+          "correctOverMedianDistractorByMoreThan8": 0,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "percentages": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 37.5,
+          "correctTiedShortest": 35,
+          "correctOverMedianDistractorByMoreThan8": 0,
+          "correctOverMedianDistractorByMoreThan10": 0,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "meanOptionLength": 17.46,
+        "meanCorrectMinusMedianDistractor": 0.15,
+        "maxCorrectMinusMedianDistractor": 5,
+        "maxOptionLengthSpread": 15,
+        "flaggedQuestionIds": {
+          "correctMoreThan8AboveMedian": [],
+          "correctMoreThan10AboveMedian": [],
+          "spreadOver15": []
+        }
+      },
+      "sourceIds": {
+        "uniqueCount": 16,
+        "counts": {
+          "commonwealth-sport-games": 3,
+          "commonwealth-sport-birmingham-2022": 2,
+          "commonwealth-sport-glasgow-2026": 3,
+          "commonwealth-sport-amdavad-2030": 2,
+          "fifa-world-cup-history": 2,
+          "fifa-world-cup-qatar-2022": 3,
+          "fifa-world-cup-2026": 3,
+          "fifa-world-cup-2030": 2,
+          "world-athletics-championships-history": 7,
+          "world-athletics-tokyo-2025": 3,
+          "world-aquatics-championships-history": 3,
+          "world-aquatics-singapore-2025": 1,
+          "world-aquatics-budapest-2027": 1,
+          "fiba-basketball-world-cup-history": 2,
+          "fiba-basketball-world-cup-2027": 2,
+          "fiba-national-team-competition-system-2027": 1
+        }
+      },
+      "uniqueness": {
+        "count": 40,
+        "uniqueIds": 40,
+        "uniqueNormalizedStems": 40,
+        "questionsWithDuplicateOptions": [],
+        "duplicateIds": [],
+        "duplicateStems": []
+      },
+      "mechanicalPatterns": {
+        "sequenceLength": 40,
+        "sequence": "1032230102133120103223010213312010322301",
+        "maxConsecutiveSameIndex": 2,
+        "adjacentDifferentRate": 87.18,
+        "transitionMatrix": [
+          [
+            0,
+            5,
+            2,
+            3
+          ],
+          [
+            5,
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3,
+            2
+          ]
+        ],
+        "exactRepeatingPeriods": [
+          16
+        ],
+        "periodsAtOrAbove90Percent": [
+          {
+            "period": 16,
+            "matchingPositions": 40,
+            "matchRate": 100
+          }
+        ]
+      }
+    },
+    {
+      "path": "question_bank/section_a2_sports_governance_ethics.json",
+      "expectedTopic": "Sports governance and ethics",
+      "parse": "ok",
+      "count": 40,
+      "sha256": "a40ae4e08c342c086648c43e14071399a75029c7edebc244eeaf196a1eb61e73",
+      "coverage": {
+        "Sports governance and ethics": {
+          "count": 40,
+          "subtopics": {
+            "Athlete welfare and safeguarding": 10,
+            "POSH and workplace redressal": 10,
+            "Ethical conduct and fair play": 10,
+            "Sports governance and accountability": 10
+          }
+        }
+      },
+      "difficulty": {
+        "counts": {
+          "foundational": 28,
+          "applied": 12
+        },
+        "percentages": {
+          "foundational": 70,
+          "applied": 30
+        }
+      },
+      "answerIndex": {
+        "counts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "percentages": [
+          25,
+          25,
+          25,
+          25
+        ],
+        "targetPerIndex": 10,
+        "maxDeviationFromTarget": 0
+      },
+      "optionLength": {
+        "questionCount": 40,
+        "counts": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 12,
+          "correctTiedShortest": 12,
+          "correctOverMedianDistractorByMoreThan8": 4,
+          "correctOverMedianDistractorByMoreThan10": 3,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "percentages": {
+          "strictLongest": 0,
+          "strictShortest": 0,
+          "correctTiedLongest": 30,
+          "correctTiedShortest": 30,
+          "correctOverMedianDistractorByMoreThan8": 10,
+          "correctOverMedianDistractorByMoreThan10": 7.5,
+          "spreadOver15": 0,
+          "spreadOver20": 0
+        },
+        "meanOptionLength": 51.94,
+        "meanCorrectMinusMedianDistractor": 0.63,
+        "maxCorrectMinusMedianDistractor": 13,
+        "maxOptionLengthSpread": 15,
+        "flaggedQuestionIds": {
+          "correctMoreThan8AboveMedian": [
+            "a2-sports_governance_ethics-014",
+            "a2-sports_governance_ethics-020",
+            "a2-sports_governance_ethics-023",
+            "a2-sports_governance_ethics-036"
+          ],
+          "correctMoreThan10AboveMedian": [
+            "a2-sports_governance_ethics-014",
+            "a2-sports_governance_ethics-023",
+            "a2-sports_governance_ethics-036"
+          ],
+          "spreadOver15": []
+        }
+      },
+      "sourceIds": {
+        "uniqueCount": 10,
+        "counts": {
+          "a2-ioc-safe-sport-2025": 4,
+          "a2-ioc-safeguarding-toolkit-2017": 3,
+          "a2-draw-the-line-ioc": 2,
+          "a2-sai-athlete-wellbeing-2026": 1,
+          "world-physiotherapy-consent-2023": 2,
+          "world-physiotherapy-ethics-2023": 4,
+          "a2-india-posh-act-2013": 10,
+          "world-physiotherapy-ebp-2023": 1,
+          "a2-national-sports-governance-act-2025": 12,
+          "ais-athlete-data-governance": 1
+        }
+      },
+      "uniqueness": {
+        "count": 40,
+        "uniqueIds": 40,
+        "uniqueNormalizedStems": 40,
+        "questionsWithDuplicateOptions": [],
+        "duplicateIds": [],
+        "duplicateStems": []
+      },
+      "mechanicalPatterns": {
+        "sequenceLength": 40,
+        "sequence": "0213312010322301021331201032230102133120",
+        "maxConsecutiveSameIndex": 2,
+        "adjacentDifferentRate": 87.18,
+        "transitionMatrix": [
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            4,
+            0,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            2,
+            2
+          ],
+          [
+            2,
+            3,
+            2,
+            3
+          ]
+        ],
+        "exactRepeatingPeriods": [
+          16
+        ],
+        "periodsAtOrAbove90Percent": [
+          {
+            "period": 16,
+            "matchingPositions": 40,
+            "matchRate": 100
+          }
+        ]
+      }
+    }
+  ],
+  "merged": {
+    "path": "question_bank/section_a2.json",
+    "parse": "ok",
+    "count": 200,
+    "sha256": "e57afded87aec87b333fa6176bae63f83dba57a045616f343968a6192c22bd88",
+    "uniqueness": {
+      "count": 200,
+      "uniqueIds": 200,
+      "uniqueNormalizedStems": 200,
+      "questionsWithDuplicateOptions": [],
+      "duplicateIds": [],
+      "duplicateStems": []
+    }
+  },
+  "mergeEquality": {
+    "exactConcatenation": true,
+    "sourceCombinedCount": 200,
+    "mergedCount": 200,
+    "sourceCombinedSha256": "e57afded87aec87b333fa6176bae63f83dba57a045616f343968a6192c22bd88",
+    "mergedSha256": "e57afded87aec87b333fa6176bae63f83dba57a045616f343968a6192c22bd88",
+    "ordering": [
+      "Olympic & Asian Games",
+      "Indian sports ecosystem and schemes",
+      "Anti-doping awareness",
+      "Major international sporting events",
+      "Sports governance and ethics"
+    ],
+    "firstDifferenceIndex": -1
+  },
+  "global": {
+    "count": 200,
+    "coverage": {
+      "Olympic & Asian Games": {
+        "count": 40,
+        "subtopics": {
+          "Olympic history and structure": 10,
+          "Indian Olympic performance": 10,
+          "Asian Games history and editions": 10,
+          "Current Asian Games cycle and Indian performance": 10
+        }
+      },
+      "Indian sports ecosystem and schemes": {
+        "count": 40,
+        "subtopics": {
+          "Khelo India architecture and implementation": 10,
+          "TOPS and National Sports Development Fund": 10,
+          "SAI institutions and athlete development": 10,
+          "MYAS, NSFs and IOA roles": 10
+        }
+      },
+      "Anti-doping awareness": {
+        "count": 40,
+        "subtopics": {
+          "WADA Code and clean-sport principles": 10,
+          "Prohibited List and therapeutic use exemptions": 10,
+          "Testing, sample collection and whereabouts": 10,
+          "Athlete Biological Passport, supplements and education": 10
+        }
+      },
+      "Major international sporting events": {
+        "count": 40,
+        "subtopics": {
+          "Commonwealth Games history, editions and Indian performance": 10,
+          "FIFA World Cup history and current editions": 10,
+          "World Athletics Championships": 10,
+          "Other major World Cups and World Championships": 10
+        }
+      },
+      "Sports governance and ethics": {
+        "count": 40,
+        "subtopics": {
+          "Athlete welfare and safeguarding": 10,
+          "POSH and workplace redressal": 10,
+          "Ethical conduct and fair play": 10,
+          "Sports governance and accountability": 10
+        }
+      }
+    },
+    "difficulty": {
+      "counts": {
+        "foundational": 145,
+        "applied": 55
+      },
+      "percentages": {
+        "foundational": 72.5,
+        "applied": 27.5
+      }
+    },
+    "answerIndex": {
+      "counts": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "percentages": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "targetPerIndex": 50,
+      "maxDeviationFromTarget": 0
+    },
+    "optionLength": {
+      "questionCount": 200,
+      "counts": {
+        "strictLongest": 0,
+        "strictShortest": 0,
+        "correctTiedLongest": 73,
+        "correctTiedShortest": 56,
+        "correctOverMedianDistractorByMoreThan8": 18,
+        "correctOverMedianDistractorByMoreThan10": 10,
+        "spreadOver15": 0,
+        "spreadOver20": 0
+      },
+      "percentages": {
+        "strictLongest": 0,
+        "strictShortest": 0,
+        "correctTiedLongest": 36.5,
+        "correctTiedShortest": 28,
+        "correctOverMedianDistractorByMoreThan8": 9,
+        "correctOverMedianDistractorByMoreThan10": 5,
+        "spreadOver15": 0,
+        "spreadOver20": 0
+      },
+      "meanOptionLength": 36.08,
+      "meanCorrectMinusMedianDistractor": 1.03,
+      "maxCorrectMinusMedianDistractor": 14,
+      "maxOptionLengthSpread": 15,
+      "flaggedQuestionIds": {
+        "correctMoreThan8AboveMedian": [
+          "a2-olympic_asian_games-005",
+          "a2-olympic_asian_games-039",
+          "a2-indian_sports_ecosystem_schemes-004",
+          "a2-indian_sports_ecosystem_schemes-006",
+          "a2-anti_doping_awareness-008",
+          "a2-anti_doping_awareness-015",
+          "a2-anti_doping_awareness-017",
+          "a2-anti_doping_awareness-020",
+          "a2-anti_doping_awareness-022",
+          "a2-anti_doping_awareness-023",
+          "a2-anti_doping_awareness-025",
+          "a2-anti_doping_awareness-029",
+          "a2-anti_doping_awareness-031",
+          "a2-anti_doping_awareness-038",
+          "a2-sports_governance_ethics-014",
+          "a2-sports_governance_ethics-020",
+          "a2-sports_governance_ethics-023",
+          "a2-sports_governance_ethics-036"
+        ],
+        "correctMoreThan10AboveMedian": [
+          "a2-anti_doping_awareness-015",
+          "a2-anti_doping_awareness-017",
+          "a2-anti_doping_awareness-022",
+          "a2-anti_doping_awareness-023",
+          "a2-anti_doping_awareness-025",
+          "a2-anti_doping_awareness-029",
+          "a2-anti_doping_awareness-038",
+          "a2-sports_governance_ethics-014",
+          "a2-sports_governance_ethics-023",
+          "a2-sports_governance_ethics-036"
+        ],
+        "spreadOver15": []
+      }
+    },
+    "sourceIds": {
+      "uniqueCount": 41,
+      "counts": {
+        "ioc-olympic-charter-2025": 7,
+        "olympics-official": 8,
+        "ioc-paris-2024-results": 5,
+        "asian-games-official": 5,
+        "oca-games-timeline": 12,
+        "oca-aichi-nagoya-2026": 3,
+        "sports-governance-official": 40,
+        "wada-code-2021": 12,
+        "wada-prohibited-list-2026": 6,
+        "wada-istue-2023": 3,
+        "nada-india-tue-2026": 1,
+        "nada-india-rules-2021": 7,
+        "nada-india-official-2026": 3,
+        "nada-india-abp-2026": 5,
+        "ais-supplements-position-2022": 3,
+        "commonwealth-sport-games": 3,
+        "commonwealth-sport-birmingham-2022": 2,
+        "commonwealth-sport-glasgow-2026": 3,
+        "commonwealth-sport-amdavad-2030": 2,
+        "fifa-world-cup-history": 2,
+        "fifa-world-cup-qatar-2022": 3,
+        "fifa-world-cup-2026": 3,
+        "fifa-world-cup-2030": 2,
+        "world-athletics-championships-history": 7,
+        "world-athletics-tokyo-2025": 3,
+        "world-aquatics-championships-history": 3,
+        "world-aquatics-singapore-2025": 1,
+        "world-aquatics-budapest-2027": 1,
+        "fiba-basketball-world-cup-history": 2,
+        "fiba-basketball-world-cup-2027": 2,
+        "fiba-national-team-competition-system-2027": 1,
+        "a2-ioc-safe-sport-2025": 4,
+        "a2-ioc-safeguarding-toolkit-2017": 3,
+        "a2-draw-the-line-ioc": 2,
+        "a2-sai-athlete-wellbeing-2026": 1,
+        "world-physiotherapy-consent-2023": 2,
+        "world-physiotherapy-ethics-2023": 4,
+        "a2-india-posh-act-2013": 10,
+        "world-physiotherapy-ebp-2023": 1,
+        "a2-national-sports-governance-act-2025": 12,
+        "ais-athlete-data-governance": 1
+      }
+    },
+    "uniqueness": {
+      "count": 200,
+      "uniqueIds": 200,
+      "uniqueNormalizedStems": 200,
+      "questionsWithDuplicateOptions": [],
+      "duplicateIds": [],
+      "duplicateStems": []
+    },
+    "mechanicalPatterns": {
+      "sequenceLength": 200,
+      "sequence": "02133120103223010213312010322301021331201032230102133120103223010213312010322301021331201032230102133120103223010213312010322301021331201032230102133120103223010213312010322301021331201032230102133120",
+      "maxConsecutiveSameIndex": 2,
+      "adjacentDifferentRate": 87.44,
+      "transitionMatrix": [
+        [
+          0,
+          24,
+          13,
+          12
+        ],
+        [
+          24,
+          0,
+          13,
+          13
+        ],
+        [
+          13,
+          13,
+          12,
+          12
+        ],
+        [
+          12,
+          13,
+          12,
+          13
+        ]
+      ],
+      "exactRepeatingPeriods": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96
+      ],
+      "periodsAtOrAbove90Percent": [
+        {
+          "period": 16,
+          "matchingPositions": 200,
+          "matchRate": 100
+        },
+        {
+          "period": 32,
+          "matchingPositions": 200,
+          "matchRate": 100
+        },
+        {
+          "period": 48,
+          "matchingPositions": 200,
+          "matchRate": 100
+        },
+        {
+          "period": 64,
+          "matchingPositions": 200,
+          "matchRate": 100
+        },
+        {
+          "period": 80,
+          "matchingPositions": 200,
+          "matchRate": 100
+        },
+        {
+          "period": 96,
+          "matchingPositions": 200,
+          "matchRate": 100
+        }
+      ]
+    }
+  },
+  "crossFileUniqueness": {
+    "durableQuestionCount": 200,
+    "durableUniqueIds": 200,
+    "durableUniqueNormalizedStems": 200,
+    "mergedUniqueIds": 200,
+    "mergedUniqueNormalizedStems": 200
+  },
+  "failures": [],
+  "reviewFlags": [
+    {
+      "code": "priority_correct_option_length_bias",
+      "threshold": "correct length > median distractor length + 10",
+      "count": 10,
+      "questionIds": [
+        "a2-anti_doping_awareness-015",
+        "a2-anti_doping_awareness-017",
+        "a2-anti_doping_awareness-022",
+        "a2-anti_doping_awareness-023",
+        "a2-anti_doping_awareness-025",
+        "a2-anti_doping_awareness-029",
+        "a2-anti_doping_awareness-038",
+        "a2-sports_governance_ethics-014",
+        "a2-sports_governance_ethics-023",
+        "a2-sports_governance_ethics-036"
+      ]
+    },
+    {
+      "code": "correct_option_length_review",
+      "threshold": "correct length > median distractor length + 8",
+      "count": 18,
+      "questionIds": [
+        "a2-olympic_asian_games-005",
+        "a2-olympic_asian_games-039",
+        "a2-indian_sports_ecosystem_schemes-004",
+        "a2-indian_sports_ecosystem_schemes-006",
+        "a2-anti_doping_awareness-008",
+        "a2-anti_doping_awareness-015",
+        "a2-anti_doping_awareness-017",
+        "a2-anti_doping_awareness-020",
+        "a2-anti_doping_awareness-022",
+        "a2-anti_doping_awareness-023",
+        "a2-anti_doping_awareness-025",
+        "a2-anti_doping_awareness-029",
+        "a2-anti_doping_awareness-031",
+        "a2-anti_doping_awareness-038",
+        "a2-sports_governance_ethics-014",
+        "a2-sports_governance_ethics-020",
+        "a2-sports_governance_ethics-023",
+        "a2-sports_governance_ethics-036"
+      ]
+    },
+    {
+      "code": "global_answer_index_exact_period",
+      "periods": [
+        16
+      ],
+      "basePattern": "0213312010322301",
+      "sequenceLength": 200
+    },
+    {
+      "code": "cross_group_answer_index_repetition",
+      "pairs": [
+        {
+          "first": "Olympic & Asian Games",
+          "second": "Anti-doping awareness",
+          "matchingPositions": 40,
+          "questionCount": 40,
+          "matchRate": 100
+        },
+        {
+          "first": "Olympic & Asian Games",
+          "second": "Sports governance and ethics",
+          "matchingPositions": 40,
+          "questionCount": 40,
+          "matchRate": 100
+        },
+        {
+          "first": "Indian sports ecosystem and schemes",
+          "second": "Major international sporting events",
+          "matchingPositions": 40,
+          "questionCount": 40,
+          "matchRate": 100
+        },
+        {
+          "first": "Anti-doping awareness",
+          "second": "Sports governance and ethics",
+          "matchingPositions": 40,
+          "questionCount": 40,
+          "matchRate": 100
+        }
+      ]
+    },
+    {
+      "code": "group_difficulty_mix_review",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "topic": "Olympic & Asian Games",
+      "foundationalPercent": 82.5,
+      "appliedPercent": 17.5
+    }
+  ]
+}

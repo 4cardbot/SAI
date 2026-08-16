@@ -1,0 +1,116 @@
+{
+  "group": "Indian sports ecosystem and schemes",
+  "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+  "count": 40,
+  "asOf": "2026-08-16",
+  "subtopicCounts": {
+    "Khelo India architecture and implementation": 10,
+    "TOPS and National Sports Development Fund": 10,
+    "SAI institutions and athlete development": 10,
+    "MYAS, NSFs and IOA roles": 10
+  },
+  "difficultyCounts": {
+    "foundational": 28,
+    "applied": 12
+  },
+  "answerIndexCounts": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "sourceIdsUsed": [
+    "sports-governance-official"
+  ],
+  "sourcesInspected": [
+    {
+      "sourceId": "sports-governance-official",
+      "title": "SAI and Ministry of Youth Affairs and Sports official information",
+      "organization": "Sports Authority of India and Government of India Ministry of Youth Affairs and Sports",
+      "urls": [
+        "https://sportsauthorityofindia.nic.in/sai_new/",
+        "https://sportsauthorityofindia.nic.in/sai_new/about-us",
+        "https://sportsauthorityofindia.nic.in/sai_new/ncoe",
+        "https://sportsauthorityofindia.nic.in/sai_new/public/target-olympic-podium",
+        "https://sportsauthorityofindia.nic.in/sai_new/public/organisational-information",
+        "https://yas.nic.in/sports/khelo-india-national-programme-development-sports-0",
+        "https://yas.nic.in/sites/default/files/Operational-Guidelines-of-Revised-Khelo-India-Scheme-2021-22-to-2025-26.pdf",
+        "https://yas.nic.in/sports/national-sports-development-fund-0",
+        "https://yas.nic.in/sports/national-sports-development-code-india-2011",
+        "https://yas.nic.in/sports/list-of-recognised-national-sports-federations-for-the-year-2025",
+        "https://olympic.ind.in/organisation/",
+        "https://olympic.ind.in/history/"
+      ],
+      "locators": [
+        "SAI home: About SAI, key functions, Khelo India competitions and SAI promotional schemes",
+        "SAI About Us: establishment in 1984, legacy of the 1982 Asian Games and objectives",
+        "SAI NCOE page: objective, specialized training, sports-science backup, individualized diet and support staff",
+        "SAI TOPS page: TOPS objective, SAI handling, Mission Olympic Cell functions and Core/Development groups",
+        "SAI Organisational Information: sports medicine and medical support, NSRS and scheme implementation functions",
+        "MYAS Khelo India page: revised five-component structure and scheme scope",
+        "Revised Khelo India Operational Guidelines 2021–22 to 2025–26, Chapter 3: national competitions, talent identification, scientific test batteries and NSF association",
+        "MYAS NSDF page: TOPS origin, SAI handling and NSDF grants for training, travel and equipment",
+        "MYAS National Sports Development Code landing page and related official governance material",
+        "MYAS recognised NSF list for 2025",
+        "IOA Organisation page: governing-body role, affiliations and representation at multi-sport events",
+        "IOA History page: distinction between IOA multi-sport representation and sport-specific NSF selection/training"
+      ]
+    }
+  ],
+  "sourcesNeedingCentralRegistryAdditions": [
+    {
+      "suggestedId": "myas-khelo-india-revised-guidelines-2025",
+      "title": "Revised Operational Guidelines for Khelo India Scheme 2021–22 to 2025–26",
+      "organization": "Ministry of Youth Affairs and Sports, Government of India",
+      "dateOrEdition": "2021–22 to 2025–26 operational period",
+      "url": "https://yas.nic.in/sites/default/files/Operational-Guidelines-of-Revised-Khelo-India-Scheme-2021-22-to-2025-26.pdf",
+      "scopeOrLocator": "Chapter 3: sports competitions, talent identification and development, community coaching, NSF association and scientific test batteries",
+      "reason": "The existing sports-governance-official entry is usable but broad; a granular Khelo India entry would make these scheme-level citations more precise."
+    },
+    {
+      "suggestedId": "sai-tops-official-2026",
+      "title": "Target Olympic Podium Scheme",
+      "organization": "Sports Authority of India",
+      "dateOrEdition": "Official page inspected as available on 2026-08-16",
+      "url": "https://sportsauthorityofindia.nic.in/sai_new/public/target-olympic-podium",
+      "scopeOrLocator": "TOPS objective, SAI administration, Mission Olympic Cell, athlete selection and Core/Development groups",
+      "reason": "A granular TOPS entry would distinguish current SAI scheme information from the broad sports-governance source."
+    },
+    {
+      "suggestedId": "ioa-organisation-official",
+      "title": "Organisation – Indian Olympic Association",
+      "organization": "Indian Olympic Association",
+      "dateOrEdition": "Official page inspected as available on 2026-08-16",
+      "url": "https://olympic.ind.in/organisation/",
+      "scopeOrLocator": "IOA governing-body role, international affiliations, athlete welfare and representation at multi-sport competitions",
+      "reason": "The IOA source is official and was inspected, but no separate IOA entry currently exists in the central catalog."
+    }
+  ],
+  "knownAmbiguitiesOrLimitations": [
+    "The SAI notification names Indian sports ecosystem and schemes as one A2 group but does not provide a separate A2 sample paper; the Annexure B four-option MCQ structure was used.",
+    "Khelo India operational guidelines describe the 2021–22 to 2025–26 revised period, while SAI's current portal also lists Khelo India Para Games. Questions distinguish the dated revised structure from current portal listings rather than treating them as identical lists.",
+    "The central source catalog has one broad sports-governance-official entry covering SAI and MYAS information. Granular source suggestions are included above; no shared catalog file was edited by this agent.",
+    "No volatile officeholder, athlete-count or award-amount question was included. This reduces the risk of stale current-affairs facts as of 2026-08-16."
+  ],
+  "questionsRecommendedForCentralReview": [
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-008",
+      "reason": "Current SAI portal wording lists Khelo India Para Games alongside other national-level competitions; central review should retain the current portal interpretation if the application prefers the notification's narrower dated scheme wording."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-020",
+      "reason": "Core and Development group descriptions can change with scheme administration; verify the wording against the latest SAI TOPS athlete documents before release."
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-035",
+      "reason": "Recognition lists are year-specific; the question intentionally asks about the publishing authority rather than a volatile federation membership fact, but the central reviewer should confirm the 2025 list remains the latest inspected list."
+    }
+  ],
+  "reviewNotes": [
+    "All 40 objects use exactly four options, a zero-based correct index, the exact canonical topic, A2 section, and asOf 2026-08-16.",
+    "Correct answer positions are intentionally balanced at 10 per index. Options were written with parallel grammatical structure and without meaningless padding.",
+    "The bank uses 28 foundational and 12 applied questions, approximating the requested 70/30 foundational-to-applied mix.",
+    "Every explanation identifies the relevant scheme role, component or institutional function and is tied to the inspected official material listed above.",
+    "Option-length audit: 13 of 40 correct options are strictly longest (32.5%); maximum within-question option-length spread is 15 characters."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "group": "Anti-doping awareness",
+  "file": "question_bank/section_a2_anti_doping_awareness.json",
+  "count": 40,
+  "asOf": "2026-08-16",
+  "subtopicCounts": {
+    "WADA Code and clean-sport principles": 10,
+    "Prohibited List and therapeutic use exemptions": 10,
+    "Testing, sample collection and whereabouts": 10,
+    "Athlete Biological Passport, supplements and education": 10
+  },
+  "difficultyCounts": {
+    "foundational": 28,
+    "applied": 12
+  },
+  "answerIndexCounts": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "sourceIdsUsed": {
+    "wada-code-2021": 12,
+    "wada-prohibited-list-2026": 6,
+    "wada-istue-2023": 3,
+    "nada-india-tue-2026": 1,
+    "nada-india-rules-2021": 7,
+    "nada-india-official-2026": 3,
+    "nada-india-abp-2026": 5,
+    "ais-supplements-position-2022": 3
+  },
+  "sourcesInspected": [
+    {
+      "sourceId": "wada-code-2021",
+      "title": "World Anti-Doping Code 2021",
+      "organization": "World Anti-Doping Agency",
+      "url": "https://www.wada-ama.org/sites/default/files/resources/files/2021_code.pdf",
+      "locator": "Articles 2.1–2.11 on anti-doping rule violations; Article 3.1 on proof; Article 18 on education; related athlete and support-personnel responsibilities"
+    },
+    {
+      "sourceId": "wada-prohibited-list-2026",
+      "title": "2026 Prohibited List and Summary of Major Modifications",
+      "organization": "World Anti-Doping Agency",
+      "url": "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list",
+      "locator": "2026 List effective 1 January 2026; S1, S2, S5, S9 and P1 categories; related 2026 explanatory note at https://www.wada-ama.org/sites/default/files/2025-09/2026_list_explanatory_note_en_final_september_2025.pdf"
+    },
+    {
+      "sourceId": "wada-istue-2023",
+      "title": "International Standard for Therapeutic Use Exemptions",
+      "organization": "World Anti-Doping Agency",
+      "url": "https://www.wada-ama.org/sites/default/files/2022-09/international_standard_for_therapeutic_use_exemptions_istue_2023.pdf",
+      "locator": "ISTUE January 2023, Article 4.2 TUE criteria and Article 4.3 retroactive approval; WADA’s 2023 ISTUE guidelines were also reviewed at https://www.wada-ama.org/sites/default/files/2022-12/istue_guidelines_2023_en.pdf"
+    },
+    {
+      "sourceId": "ais-supplements-position-2022",
+      "title": "AIS Position Statement: Supplements and Sports Foods in High Performance Sport",
+      "organization": "Australian Institute of Sport",
+      "url": "https://www.ais.gov.au/__data/assets/pdf_file/0014/1000841/Position-Statement-Supplements-and-Sports-Foods.pdf",
+      "locator": "August 2022 position statement; supplement risk–reward assessment, contamination, batch testing, product quality and professional advice sections"
+    },
+    {
+      "sourceId": "nada-india-rules-2021",
+      "title": "National Anti-Doping Rules 2021",
+      "organization": "National Anti-Doping Agency, India",
+      "dateOrEdition": "2021 rules",
+      "url": "https://nadaindia.yas.gov.in/wp-content/uploads/NADA_Anti-doping_Rules_20211.pdf",
+      "locator": "Articles 2.1, 2.4, 3.1, 5–8 and 10; A/B sample, whereabouts, AAF and results-management provisions"
+    },
+    {
+      "sourceId": "nada-india-official-2026",
+      "title": "NADA India athlete toolkit and updated resources",
+      "organization": "National Anti-Doping Agency, India / Ministry of Youth Affairs and Sports",
+      "dateOrEdition": "Current official resources inspected 16 August 2026",
+      "url": "https://nadaindia.yas.gov.in/",
+      "locator": "NADA India functions, athlete rights, testing and clean-sport resource pages"
+    },
+    {
+      "sourceId": "nada-india-tue-2026",
+      "title": "Therapeutic Use Exemption process",
+      "organization": "National Anti-Doping Agency, India",
+      "dateOrEdition": "Current official page inspected 16 August 2026",
+      "url": "https://nadaindia.yas.gov.in/tue-process-2/",
+      "locator": "TUE procedure, medical evidence, application and retroactive TUE guidance"
+    },
+    {
+      "sourceId": "nada-india-abp-2026",
+      "title": "Athlete Biological Passport and testing resources",
+      "organization": "National Anti-Doping Agency, India",
+      "dateOrEdition": "Current official page inspected 16 August 2026",
+      "url": "https://nadaindia.yas.gov.in/secondary-testing-pool/",
+      "locator": "Athlete Biological Passport, blood collection, ADAMS, testing and whereabouts sections"
+    },
+    {
+      "sourceId": "sai-notification-2026",
+      "title": "Final Notification for Performance Analyst Regular Recruitment",
+      "organization": "Sports Authority of India",
+      "localPath": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+      "url": "https://www.sportsauthorityofindia.nic.in/sai_new/public/assets/uploads/jobs/67735ca5-a732-4deb-9828-9c0119411192.pdf",
+      "locator": "English syllabus p. 22: Anti-Doping Regulations and Clean Sport; Annexure B MCQ structure"
+    }
+  ],
+  "sourcesNeedingCentralRegistryAdditions": [],
+  "knownAmbiguitiesOrLimitations": [
+    "The notification gives the A2 anti-doping syllabus but no dedicated A2 sample questions; MCQ structure was therefore matched to Annexure B’s four-option format.",
+    "Operational testing, DCO, whereabouts and ABP statements use the current NADA India catalog entries and should be rechecked if NADA or WADA updates the live procedure pages.",
+    "The WADA Prohibited List is updated annually. Current list questions are explicitly dated 2026 and should be rechecked if the application’s coverage date changes.",
+    "A TUE is not automatic after emergency treatment; retroactive eligibility and the substantive criteria still need to be evaluated by the competent anti-doping organization.",
+    "Question 005 uses the Code’s prohibited-association concept and intentionally distinguishes a professional or sport-related relationship from casual contact; the precise procedural requirements should be read with Article 2.10’s notice and opportunity-to-explain provisions."
+  ],
+  "centralReviewRecommendations": [
+    {
+      "questionIds": ["a2-anti_doping_awareness-021", "a2-anti_doping_awareness-022", "a2-anti_doping_awareness-023", "a2-anti_doping_awareness-024", "a2-anti_doping_awareness-025", "a2-anti_doping_awareness-026", "a2-anti_doping_awareness-027", "a2-anti_doping_awareness-028", "a2-anti_doping_awareness-029", "a2-anti_doping_awareness-030"],
+      "reason": "Confirm the operational testing and whereabouts claims against the current NADA India and WADA procedures before release."
+    },
+    {
+      "questionIds": ["a2-anti_doping_awareness-031", "a2-anti_doping_awareness-032", "a2-anti_doping_awareness-033", "a2-anti_doping_awareness-034", "a2-anti_doping_awareness-035"],
+      "reason": "Confirm ABP module terminology and the current operating-guideline version as of 2026-08-16."
+    },
+    {
+      "questionIds": ["a2-anti_doping_awareness-036"],
+      "reason": "Confirm that the clean-sport preparation wording remains supported by the current WADA education resources."
+    },
+    {
+      "questionIds": ["a2-anti_doping_awareness-005", "a2-anti_doping_awareness-040"],
+      "reason": "Independently verify Article 2.9 and 2.10 wording, including support-personnel scope and prohibited-association safeguards, during central content audit."
+    }
+  ],
+  "optionQualityChecks": {
+    "exactlyFourOptions": true,
+    "duplicateOptions": false,
+    "correctIndexZeroBased": true,
+    "answerPatternIntent": "Non-cyclic ordering with exactly ten correct answers at each index",
+    "lengthGiveawayReview": "Options were drafted with parallel grammatical structure and without padding; central validator should run length-spread and strictly-longest flags before merge."
+  }
+}

@@ -1,0 +1,1631 @@
+{
+  "generatedAt": "2026-08-16",
+  "section": "A2",
+  "total": 200,
+  "groups": [
+    {
+      "topic": "Olympic & Asian Games",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "count": 40,
+      "subtopics": {
+        "Olympic history and structure": 10,
+        "Indian Olympic performance": 10,
+        "Asian Games history and editions": 10,
+        "Current Asian Games cycle and Indian performance": 10
+      },
+      "difficulty": {
+        "foundational": 33,
+        "applied": 7,
+        "analytical": 0
+      },
+      "answerIndices": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10
+      },
+      "sourceIds": [
+        "ioc-olympic-charter-2025",
+        "olympics-official",
+        "ioc-paris-2024-results",
+        "asian-games-official",
+        "oca-games-timeline",
+        "oca-aichi-nagoya-esports-2026",
+        "oca-aichi-nagoya-2026"
+      ]
+    },
+    {
+      "topic": "Indian sports ecosystem and schemes",
+      "file": "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "count": 40,
+      "subtopics": {
+        "Khelo India architecture and implementation": 10,
+        "TOPS and National Sports Development Fund": 10,
+        "SAI institutions and athlete development": 10,
+        "MYAS, NSFs and IOA roles": 10
+      },
+      "difficulty": {
+        "foundational": 28,
+        "applied": 12,
+        "analytical": 0
+      },
+      "answerIndices": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10
+      },
+      "sourceIds": [
+        "myas-khelo-india-revised-guidelines-2025",
+        "sai-tops-official-2026",
+        "myas-nsdf-official-2026",
+        "sai-about-official-2026",
+        "sai-ncoe-official-2026",
+        "sai-organisational-information-2026",
+        "ioa-organisation-official",
+        "myas-recognised-nsf-2025",
+        "myas-national-sports-code-2011"
+      ]
+    },
+    {
+      "topic": "Anti-doping awareness",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "count": 40,
+      "subtopics": {
+        "WADA Code and clean-sport principles": 10,
+        "Prohibited List and therapeutic use exemptions": 10,
+        "Testing, sample collection and whereabouts": 10,
+        "Athlete Biological Passport, supplements and education": 10
+      },
+      "difficulty": {
+        "foundational": 28,
+        "applied": 12,
+        "analytical": 0
+      },
+      "answerIndices": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10
+      },
+      "sourceIds": [
+        "wada-code-2021",
+        "wada-prohibited-list-2026",
+        "wada-istue-2023",
+        "nada-india-tue-2026",
+        "nada-india-rules-2021",
+        "nada-india-official-2026",
+        "nada-india-abp-2026",
+        "ais-supplements-position-2022"
+      ]
+    },
+    {
+      "topic": "Major international sporting events",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "count": 40,
+      "subtopics": {
+        "Commonwealth Games history, editions and Indian performance": 10,
+        "FIFA World Cup history and current editions": 10,
+        "World Athletics Championships": 10,
+        "Other major World Cups and World Championships": 10
+      },
+      "difficulty": {
+        "foundational": 28,
+        "applied": 12,
+        "analytical": 0
+      },
+      "answerIndices": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10
+      },
+      "sourceIds": [
+        "commonwealth-sport-games",
+        "commonwealth-sport-birmingham-2022",
+        "commonwealth-sport-glasgow-2026",
+        "commonwealth-sport-amdavad-2030",
+        "fifa-world-cup-history",
+        "fifa-world-cup-qatar-2022",
+        "fifa-world-cup-2026",
+        "fifa-world-cup-2030",
+        "world-athletics-championships-history",
+        "world-athletics-tokyo-2025",
+        "world-aquatics-championships-history",
+        "world-aquatics-singapore-2025",
+        "world-aquatics-budapest-2027",
+        "fiba-basketball-world-cup-history",
+        "fiba-basketball-world-cup-2027",
+        "fiba-national-team-competition-system-2027"
+      ]
+    },
+    {
+      "topic": "Sports governance and ethics",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "count": 40,
+      "subtopics": {
+        "Athlete welfare and safeguarding": 10,
+        "POSH and workplace redressal": 10,
+        "Ethical conduct and fair play": 10,
+        "Sports governance and accountability": 10
+      },
+      "difficulty": {
+        "foundational": 28,
+        "applied": 12,
+        "analytical": 0
+      },
+      "answerIndices": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10
+      },
+      "sourceIds": [
+        "a2-ioc-safe-sport-2025",
+        "a2-ioc-safeguarding-toolkit-2017",
+        "a2-draw-the-line-ioc",
+        "a2-sai-athlete-wellbeing-2026",
+        "world-physiotherapy-consent-2023",
+        "world-physiotherapy-ethics-2023",
+        "a2-india-posh-act-2013",
+        "world-physiotherapy-ebp-2023",
+        "a2-national-sports-governance-act-2025",
+        "ais-athlete-data-governance"
+      ]
+    }
+  ],
+  "sources": {
+    "ioc-olympic-charter-2025": 7,
+    "olympics-official": 8,
+    "ioc-paris-2024-results": 5,
+    "asian-games-official": 5,
+    "oca-games-timeline": 12,
+    "oca-aichi-nagoya-esports-2026": 1,
+    "oca-aichi-nagoya-2026": 2,
+    "myas-khelo-india-revised-guidelines-2025": 13,
+    "sai-tops-official-2026": 9,
+    "myas-nsdf-official-2026": 1,
+    "sai-about-official-2026": 4,
+    "sai-ncoe-official-2026": 3,
+    "sai-organisational-information-2026": 3,
+    "ioa-organisation-official": 4,
+    "myas-recognised-nsf-2025": 2,
+    "myas-national-sports-code-2011": 1,
+    "wada-code-2021": 12,
+    "wada-prohibited-list-2026": 6,
+    "wada-istue-2023": 3,
+    "nada-india-tue-2026": 1,
+    "nada-india-rules-2021": 7,
+    "nada-india-official-2026": 3,
+    "nada-india-abp-2026": 5,
+    "ais-supplements-position-2022": 3,
+    "commonwealth-sport-games": 3,
+    "commonwealth-sport-birmingham-2022": 3,
+    "commonwealth-sport-glasgow-2026": 3,
+    "commonwealth-sport-amdavad-2030": 1,
+    "fifa-world-cup-history": 2,
+    "fifa-world-cup-qatar-2022": 3,
+    "fifa-world-cup-2026": 3,
+    "fifa-world-cup-2030": 2,
+    "world-athletics-championships-history": 7,
+    "world-athletics-tokyo-2025": 3,
+    "world-aquatics-championships-history": 3,
+    "world-aquatics-singapore-2025": 1,
+    "world-aquatics-budapest-2027": 1,
+    "fiba-basketball-world-cup-history": 2,
+    "fiba-basketball-world-cup-2027": 2,
+    "fiba-national-team-competition-system-2027": 1,
+    "a2-ioc-safe-sport-2025": 4,
+    "a2-ioc-safeguarding-toolkit-2017": 3,
+    "a2-draw-the-line-ioc": 2,
+    "a2-sai-athlete-wellbeing-2026": 1,
+    "world-physiotherapy-consent-2023": 2,
+    "world-physiotherapy-ethics-2023": 4,
+    "a2-india-posh-act-2013": 10,
+    "world-physiotherapy-ebp-2023": 1,
+    "a2-national-sports-governance-act-2025": 12,
+    "ais-athlete-data-governance": 1
+  },
+  "questionMappings": [
+    {
+      "id": "a2-olympic_asian_games-001",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-002",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-003",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-004",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-005",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-006",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-007",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-008",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "ioc-olympic-charter-2025"
+    },
+    {
+      "id": "a2-olympic_asian_games-009",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-010",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Olympic history and structure",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-011",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-012",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-013",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-014",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-015",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "olympics-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-016",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "ioc-paris-2024-results"
+    },
+    {
+      "id": "a2-olympic_asian_games-017",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "ioc-paris-2024-results"
+    },
+    {
+      "id": "a2-olympic_asian_games-018",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "ioc-paris-2024-results"
+    },
+    {
+      "id": "a2-olympic_asian_games-019",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "ioc-paris-2024-results"
+    },
+    {
+      "id": "a2-olympic_asian_games-020",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Indian Olympic performance",
+      "sourceId": "ioc-paris-2024-results"
+    },
+    {
+      "id": "a2-olympic_asian_games-021",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "asian-games-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-022",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-023",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "asian-games-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-024",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-025",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "asian-games-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-026",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "asian-games-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-027",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-028",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-029",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-030",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Asian Games history and editions",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-031",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-032",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-033",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-034",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-035",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-aichi-nagoya-esports-2026"
+    },
+    {
+      "id": "a2-olympic_asian_games-036",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-aichi-nagoya-2026"
+    },
+    {
+      "id": "a2-olympic_asian_games-037",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-038",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-games-timeline"
+    },
+    {
+      "id": "a2-olympic_asian_games-039",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "asian-games-official"
+    },
+    {
+      "id": "a2-olympic_asian_games-040",
+      "repositoryGroup": "Olympic & Asian Games",
+      "officialSyllabusArea": "Olympic & Asian Games",
+      "subtopic": "Current Asian Games cycle and Indian performance",
+      "sourceId": "oca-aichi-nagoya-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-001",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-002",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-003",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-004",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-005",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-006",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-007",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-008",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-009",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-010",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "Khelo India architecture and implementation",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-011",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-012",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-013",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-014",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-015",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-016",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-017",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "myas-nsdf-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-018",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-019",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-020",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "TOPS and National Sports Development Fund",
+      "sourceId": "sai-tops-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-021",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-about-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-022",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-about-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-023",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-ncoe-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-024",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-ncoe-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-025",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-about-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-026",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-about-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-027",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-ncoe-official-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-028",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-organisational-information-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-029",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-organisational-information-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-030",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "SAI institutions and athlete development",
+      "sourceId": "sai-organisational-information-2026"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-031",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "ioa-organisation-official"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-032",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "ioa-organisation-official"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-033",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-034",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-035",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-recognised-nsf-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-036",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-recognised-nsf-2025"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-037",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-national-sports-code-2011"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-038",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "ioa-organisation-official"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-039",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "ioa-organisation-official"
+    },
+    {
+      "id": "a2-indian_sports_ecosystem_schemes-040",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "officialSyllabusArea": "Indian sports ecosystem and schemes",
+      "subtopic": "MYAS, NSFs and IOA roles",
+      "sourceId": "myas-khelo-india-revised-guidelines-2025"
+    },
+    {
+      "id": "a2-anti_doping_awareness-001",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-002",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-003",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-004",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-005",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-006",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-007",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-008",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-009",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-010",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "WADA Code and clean-sport principles",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-011",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-012",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-013",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-014",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-015",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-016",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-prohibited-list-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-017",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-istue-2023"
+    },
+    {
+      "id": "a2-anti_doping_awareness-018",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-istue-2023"
+    },
+    {
+      "id": "a2-anti_doping_awareness-019",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "wada-istue-2023"
+    },
+    {
+      "id": "a2-anti_doping_awareness-020",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Prohibited List and therapeutic use exemptions",
+      "sourceId": "nada-india-tue-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-021",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-022",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-official-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-023",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-official-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-024",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-025",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-026",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-027",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-official-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-028",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-029",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-030",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Testing, sample collection and whereabouts",
+      "sourceId": "nada-india-rules-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-031",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "nada-india-abp-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-032",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "nada-india-abp-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-033",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "nada-india-abp-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-034",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "nada-india-abp-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-035",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "nada-india-abp-2026"
+    },
+    {
+      "id": "a2-anti_doping_awareness-036",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-anti_doping_awareness-037",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "ais-supplements-position-2022"
+    },
+    {
+      "id": "a2-anti_doping_awareness-038",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "ais-supplements-position-2022"
+    },
+    {
+      "id": "a2-anti_doping_awareness-039",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "ais-supplements-position-2022"
+    },
+    {
+      "id": "a2-anti_doping_awareness-040",
+      "repositoryGroup": "Anti-doping awareness",
+      "officialSyllabusArea": "Anti-doping awareness",
+      "subtopic": "Athlete Biological Passport, supplements and education",
+      "sourceId": "wada-code-2021"
+    },
+    {
+      "id": "a2-major_international_events-001",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-games"
+    },
+    {
+      "id": "a2-major_international_events-002",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-games"
+    },
+    {
+      "id": "a2-major_international_events-003",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-birmingham-2022"
+    },
+    {
+      "id": "a2-major_international_events-004",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-glasgow-2026"
+    },
+    {
+      "id": "a2-major_international_events-005",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-amdavad-2030"
+    },
+    {
+      "id": "a2-major_international_events-006",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-birmingham-2022"
+    },
+    {
+      "id": "a2-major_international_events-007",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-glasgow-2026"
+    },
+    {
+      "id": "a2-major_international_events-008",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-games"
+    },
+    {
+      "id": "a2-major_international_events-009",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-birmingham-2022"
+    },
+    {
+      "id": "a2-major_international_events-010",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Commonwealth Games history, editions and Indian performance",
+      "sourceId": "commonwealth-sport-glasgow-2026"
+    },
+    {
+      "id": "a2-major_international_events-011",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-history"
+    },
+    {
+      "id": "a2-major_international_events-012",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-history"
+    },
+    {
+      "id": "a2-major_international_events-013",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-qatar-2022"
+    },
+    {
+      "id": "a2-major_international_events-014",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-qatar-2022"
+    },
+    {
+      "id": "a2-major_international_events-015",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-qatar-2022"
+    },
+    {
+      "id": "a2-major_international_events-016",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-2026"
+    },
+    {
+      "id": "a2-major_international_events-017",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-2026"
+    },
+    {
+      "id": "a2-major_international_events-018",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-2030"
+    },
+    {
+      "id": "a2-major_international_events-019",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-2030"
+    },
+    {
+      "id": "a2-major_international_events-020",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "FIFA World Cup history and current editions",
+      "sourceId": "fifa-world-cup-2026"
+    },
+    {
+      "id": "a2-major_international_events-021",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-022",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-023",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-024",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-tokyo-2025"
+    },
+    {
+      "id": "a2-major_international_events-025",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-tokyo-2025"
+    },
+    {
+      "id": "a2-major_international_events-026",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-027",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-028",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-tokyo-2025"
+    },
+    {
+      "id": "a2-major_international_events-029",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-030",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "World Athletics Championships",
+      "sourceId": "world-athletics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-031",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "world-aquatics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-032",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "world-aquatics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-033",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "world-aquatics-championships-history"
+    },
+    {
+      "id": "a2-major_international_events-034",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "world-aquatics-singapore-2025"
+    },
+    {
+      "id": "a2-major_international_events-035",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "world-aquatics-budapest-2027"
+    },
+    {
+      "id": "a2-major_international_events-036",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "fiba-basketball-world-cup-history"
+    },
+    {
+      "id": "a2-major_international_events-037",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "fiba-basketball-world-cup-history"
+    },
+    {
+      "id": "a2-major_international_events-038",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "fiba-basketball-world-cup-2027"
+    },
+    {
+      "id": "a2-major_international_events-039",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "fiba-basketball-world-cup-2027"
+    },
+    {
+      "id": "a2-major_international_events-040",
+      "repositoryGroup": "Major international sporting events",
+      "officialSyllabusArea": "Major international sporting events",
+      "subtopic": "Other major World Cups and World Championships",
+      "sourceId": "fiba-national-team-competition-system-2027"
+    },
+    {
+      "id": "a2-sports_governance_ethics-001",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-ioc-safe-sport-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-002",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-ioc-safeguarding-toolkit-2017"
+    },
+    {
+      "id": "a2-sports_governance_ethics-003",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-draw-the-line-ioc"
+    },
+    {
+      "id": "a2-sports_governance_ethics-004",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-ioc-safeguarding-toolkit-2017"
+    },
+    {
+      "id": "a2-sports_governance_ethics-005",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-sai-athlete-wellbeing-2026"
+    },
+    {
+      "id": "a2-sports_governance_ethics-006",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "world-physiotherapy-consent-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-007",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-draw-the-line-ioc"
+    },
+    {
+      "id": "a2-sports_governance_ethics-008",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-ioc-safeguarding-toolkit-2017"
+    },
+    {
+      "id": "a2-sports_governance_ethics-009",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "a2-ioc-safe-sport-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-010",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Athlete welfare and safeguarding",
+      "sourceId": "world-physiotherapy-ethics-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-011",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-012",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-013",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-014",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-015",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-016",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-017",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-018",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-019",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-020",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "POSH and workplace redressal",
+      "sourceId": "a2-india-posh-act-2013"
+    },
+    {
+      "id": "a2-sports_governance_ethics-021",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "world-physiotherapy-ethics-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-022",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "world-physiotherapy-consent-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-023",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "world-physiotherapy-ethics-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-024",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "world-physiotherapy-ebp-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-025",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-026",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-027",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "world-physiotherapy-ethics-2023"
+    },
+    {
+      "id": "a2-sports_governance_ethics-028",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "ais-athlete-data-governance"
+    },
+    {
+      "id": "a2-sports_governance_ethics-029",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "a2-ioc-safe-sport-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-030",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Ethical conduct and fair play",
+      "sourceId": "a2-ioc-safe-sport-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-031",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-032",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-033",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-034",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-035",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-036",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-037",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-038",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-039",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    },
+    {
+      "id": "a2-sports_governance_ethics-040",
+      "repositoryGroup": "Sports governance and ethics",
+      "officialSyllabusArea": "Sports governance and ethics",
+      "subtopic": "Sports governance and accountability",
+      "sourceId": "a2-national-sports-governance-act-2025"
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "auditType": "independent-factual-and-provenance-audit",
+  "generatedAt": "2026-08-16",
+  "coverageDate": "2026-08-16",
+  "status": "findings-require-repair-before-release",
+  "scope": {
+    "questionFiles": [
+      "question_bank/section_a2_olympic_asian_games.json",
+      "question_bank/section_a2_indian_sports_ecosystem_schemes.json",
+      "question_bank/section_a2_anti_doping_awareness.json",
+      "question_bank/section_a2_major_international_events.json",
+      "question_bank/section_a2_sports_governance_ethics.json"
+    ],
+    "coverageManifest": "research/a2_coverage_manifest.json",
+    "localSyllabus": "sectionA_guidelines.md",
+    "notification": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "mergedBankReadForCrossCheck": "question_bank/section_a2.json"
+  },
+  "method": [
+    "Read every question, option array, correct index, explanation, sourceId and asOf value in all five durable files.",
+    "Cross-checked all 200 manifest mappings against the durable files, including topic, subtopic and sourceId.",
+    "Checked the local notification's A2 group names and the Annexure B four-option MCQ format, and checked the guideline's A2 expansion.",
+    "Resolved every used sourceId against SOURCE_CATALOG_BY_ID and compared source scope/locator with the individual claim.",
+    "Independently checked historical and current claims against official IOC, OCA, WADA, NADA India, Commonwealth Sport, FIFA, World Athletics, World Aquatics, FIBA, SAI, India Code and MYAS material available as of the coverage date.",
+    "Treatments of future hosts and scheduled events were assessed as claims current on 2026-08-16; historical event years were not rewritten."
+  ],
+  "structuralResults": {
+    "durableFileCount": 5,
+    "questionsPerDurableFile": 40,
+    "durableQuestionCount": 200,
+    "manifestQuestionMappingCount": 200,
+    "manifestTotal": 200,
+    "manifestMatchesDurableFiles": true,
+    "allObjectsHaveExistingSchemaKeys": true,
+    "allQuestionsSectionA2": true,
+    "allTopicsMatchFiveCanonicalGroups": true,
+    "allSubtopicCountsMeetTenQuestionFloor": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesAreValidZeroBasedIndices": true,
+    "allAsOfValuesEqualCoverageDate": true,
+    "allUsedSourceIdsResolveInCatalog": true,
+    "answerIndexCountsByGroup": {
+      "Olympic & Asian Games": [10, 10, 10, 10],
+      "Indian sports ecosystem and schemes": [10, 10, 10, 10],
+      "Anti-doping awareness": [10, 10, 10, 10],
+      "Major international sporting events": [10, 10, 10, 10],
+      "Sports governance and ethics": [10, 10, 10, 10]
+    },
+    "structuralConclusion": "The bank is structurally complete and internally consistent; the findings below concern factual content, temporal phrasing, or provenance precision."
+  },
+  "findings": [
+    {
+      "findingId": "A2-F001",
+      "severity": "critical",
+      "category": "answer-key-and-explanation-error",
+      "questionIds": ["a2-major_international_events-012"],
+      "claim": "The question asks which nation won the inaugural FIFA World Cup in 1930.",
+      "observed": {
+        "options": ["Argentina", "Uruguay", "Italy", "Brazil"],
+        "correctIndex": 3,
+        "markedAnswer": "Brazil",
+        "explanation": "Host nation Uruguay defeated Argentina 4–2 in the 1930 final and became the first FIFA World Cup champion."
+      },
+      "assessment": "The explanation states the correct fact, but the stored correct index points to Brazil. FIFA's official history identifies Uruguay as the 1930 champion; Brazil's first title was in 1958.",
+      "evidence": [
+        {
+          "sourceId": "fifa-world-cup-history",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
+          "locator": "1930 FIFA World Cup section: Uruguay champions; final Uruguay 4–2 Argentina"
+        }
+      ],
+      "recommendedFix": "Set correct to 1 so it points to Uruguay. Retain the explanation and sourceId, then re-run answer-position and option-balance audits.",
+      "releaseGate": "must-fix"
+    },
+    {
+      "findingId": "A2-F002",
+      "severity": "high",
+      "category": "provenance-insufficient-for-question-level-traceability",
+      "questionIds": [
+        "a2-indian_sports_ecosystem_schemes-001",
+        "a2-indian_sports_ecosystem_schemes-002",
+        "a2-indian_sports_ecosystem_schemes-003",
+        "a2-indian_sports_ecosystem_schemes-004",
+        "a2-indian_sports_ecosystem_schemes-005",
+        "a2-indian_sports_ecosystem_schemes-006",
+        "a2-indian_sports_ecosystem_schemes-007",
+        "a2-indian_sports_ecosystem_schemes-008",
+        "a2-indian_sports_ecosystem_schemes-009",
+        "a2-indian_sports_ecosystem_schemes-010",
+        "a2-indian_sports_ecosystem_schemes-011",
+        "a2-indian_sports_ecosystem_schemes-012",
+        "a2-indian_sports_ecosystem_schemes-013",
+        "a2-indian_sports_ecosystem_schemes-014",
+        "a2-indian_sports_ecosystem_schemes-015",
+        "a2-indian_sports_ecosystem_schemes-016",
+        "a2-indian_sports_ecosystem_schemes-017",
+        "a2-indian_sports_ecosystem_schemes-018",
+        "a2-indian_sports_ecosystem_schemes-019",
+        "a2-indian_sports_ecosystem_schemes-020",
+        "a2-indian_sports_ecosystem_schemes-021",
+        "a2-indian_sports_ecosystem_schemes-022",
+        "a2-indian_sports_ecosystem_schemes-023",
+        "a2-indian_sports_ecosystem_schemes-024",
+        "a2-indian_sports_ecosystem_schemes-025",
+        "a2-indian_sports_ecosystem_schemes-026",
+        "a2-indian_sports_ecosystem_schemes-027",
+        "a2-indian_sports_ecosystem_schemes-028",
+        "a2-indian_sports_ecosystem_schemes-029",
+        "a2-indian_sports_ecosystem_schemes-030",
+        "a2-indian_sports_ecosystem_schemes-031",
+        "a2-indian_sports_ecosystem_schemes-032",
+        "a2-indian_sports_ecosystem_schemes-033",
+        "a2-indian_sports_ecosystem_schemes-034",
+        "a2-indian_sports_ecosystem_schemes-035",
+        "a2-indian_sports_ecosystem_schemes-036",
+        "a2-indian_sports_ecosystem_schemes-037",
+        "a2-indian_sports_ecosystem_schemes-038",
+        "a2-indian_sports_ecosystem_schemes-039",
+        "a2-indian_sports_ecosystem_schemes-040"
+      ],
+      "observed": {
+        "sourceId": "sports-governance-official",
+        "catalogEntry": "SAI and Ministry of Youth Affairs and Sports official information",
+        "catalogUrl": "https://sportsauthorityofindia.nic.in/",
+        "catalogLocator": "Indian sports institutions, schemes and governance"
+      },
+      "assessment": "All 40 questions cite one broad entry whose single URL and scope do not identify the MYAS Khelo India guideline, TOPS page, NSDF page, SAI organisational-information page, IOA page, NSF recognition list, or National Sports Development Code used for the individual claims. The agent audit records those inspected URLs, but they are not represented as question-level catalog entries.",
+      "evidenceSourceIds": ["sports-governance-official"],
+      "recommendedFix": "Retain the questions only after adding granular catalog entries and assigning the primary source per claim. Suggested splits: Khelo India questions 001–010 to the revised MYAS operational guidelines; TOPS/NSDF questions 011–020 to the SAI TOPS and MYAS NSDF pages; SAI questions 021–030 to SAI About/NCOE/organisational-information pages; IOA/NSF/code questions 031–040 to an IOA organisation entry, MYAS recognised-NSF list and National Sports Development Code entry.",
+      "suggestedCatalogEntries": [
+        {
+          "id": "myas-khelo-india-revised-guidelines-2025",
+          "title": "Revised Operational Guidelines for Khelo India Scheme 2021–22 to 2025–26",
+          "publisher": "Ministry of Youth Affairs and Sports, Government of India",
+          "url": "https://yas.nic.in/sites/default/files/Operational-Guidelines-of-Revised-Khelo-India-Scheme-2021-22-to-2025-26.pdf",
+          "locator": "Chapter 3: components, national competitions, talent identification, scientific test batteries and NSF association"
+        },
+        {
+          "id": "sai-tops-official-2026",
+          "title": "Target Olympic Podium Scheme",
+          "publisher": "Sports Authority of India",
+          "url": "https://sportsauthorityofindia.nic.in/sai_new/public/target-olympic-podium",
+          "locator": "TOPS administration, Mission Olympic Cell, selection, Core and Development groups"
+        },
+        {
+          "id": "ioa-organisation-official",
+          "title": "Organisation – Indian Olympic Association",
+          "publisher": "Indian Olympic Association",
+          "url": "https://olympic.ind.in/organisation/",
+          "locator": "Governing-body role, affiliations and multi-sport representation"
+        }
+      ],
+      "releaseGate": "provenance-fix-required"
+    },
+    {
+      "findingId": "A2-F003",
+      "severity": "medium",
+      "category": "statutory-title-wording",
+      "questionIds": ["a2-sports_governance_ethics-011"],
+      "claim": "The question asks for the formal name of the Indian POSH law.",
+      "observedAnswer": "The Sexual Harassment of Women at Workplace Act, 2013",
+      "assessment": "The stored answer is a common short form, not the Act's full formal title. The cited catalog entry itself is titled ‘Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013’.",
+      "evidence": [
+        {
+          "sourceId": "a2-india-posh-act-2013",
+          "url": "https://www.indiacode.nic.in/handle/123456789/2104?locale=en",
+          "locator": "Act title and short title"
+        }
+      ],
+      "recommendedFix": "Use the complete statutory title in the correct option, revise the distractors to the same naming convention, and keep the answer index aligned after any option reorder.",
+      "releaseGate": "review-and-fix"
+    },
+    {
+      "findingId": "A2-F004",
+      "severity": "medium",
+      "category": "source-locator-incomplete",
+      "questionIds": ["a2-sports_governance_ethics-005"],
+      "claim": "SAI's 2026 Athlete Wellbeing Policy prioritises athlete safety, health and well-being.",
+      "observed": {
+        "sourceId": "a2-sai-athlete-wellbeing-2026",
+        "catalogUrl": "https://www.sportsauthorityofindia.nic.in/",
+        "catalogLocator": "SAI current-news entry dated 24 June 2026; direct policy attachment to be retained with release notes"
+      },
+      "assessment": "The current SAI site and the direct policy PDF support the claim, but the catalog entry points only to the homepage and explicitly lacks the attached policy's direct URL and section locator. The question is not independently reproducible from the catalog alone.",
+      "evidence": [
+        {
+          "sourceId": "a2-sai-athlete-wellbeing-2026",
+          "url": "https://www.sportsauthorityofindia.nic.in/sai_new/public/assets/uploads/news/a859afd1-1cb1-4211-8fda-13b6c44c3512.pdf",
+          "locator": "Athlete Wellbeing Policy, vision and support framework; generated 18 June 2026"
+        }
+      ],
+      "recommendedFix": "Update the central catalog entry to the direct PDF URL and exact section/page locator. Reconfirm the explanation remains limited to what the policy states.",
+      "releaseGate": "provenance-fix-required"
+    },
+    {
+      "findingId": "A2-F005",
+      "severity": "medium",
+      "category": "source-to-claim-mismatch",
+      "questionIds": ["a2-major_international_events-006"],
+      "claim": "Australia topped the Birmingham 2022 Commonwealth Games medal table with 67 gold medals.",
+      "observed": {
+        "sourceId": "commonwealth-sport-amdavad-2030",
+        "catalogScope": "2030 host confirmation, centenary-edition context and Commonwealth Games history"
+      },
+      "assessment": "The answer is factually correct, but the cited 2030-host source is not described in the catalog as a medal-table source. The direct Birmingham 2022 event/medal source is the defensible primary source for this claim.",
+      "evidence": [
+        {
+          "sourceId": "commonwealth-sport-birmingham-2022",
+          "url": "https://www.commonwealthsport.com/commonwealth-games/birmingham-2022",
+          "locator": "Birmingham 2022 official event and medal information"
+        },
+        {
+          "sourceId": "commonwealth-sport-amdavad-2030",
+          "url": "https://www.commonwealthsport.com/news/4408937/commonwealth-sport-confirms-amdavad-india-as-host-of-the-2030-centenary-games",
+          "locator": "Current catalog scope does not explicitly cover the Birmingham medal-table claim"
+        }
+      ],
+      "recommendedFix": "Change the primary sourceId to the Birmingham 2022 source if it directly records the medal table, or add a dedicated official medal-table entry. Do not rely on a keyword fallback.",
+      "releaseGate": "provenance-fix-required"
+    },
+    {
+      "findingId": "A2-F006",
+      "severity": "medium",
+      "category": "current-date-wording-and-locator",
+      "questionIds": [
+        "a2-major_international_events-004",
+        "a2-major_international_events-007",
+        "a2-major_international_events-010"
+      ],
+      "claim": "Glasgow hosted the 2026 Commonwealth Games, which used a ten-sport programme and involved 74 nations and territories.",
+      "assessment": "The facts are supported as of 2026-08-16 by the official Glasgow 2026 event page, which records the 23 July–2 August dates, Glasgow as host, 74 countries and the ten-sport programme. The catalog's current URL is the earlier host-announcement page, not the direct event page. Question 010 says ‘scheduled to compete’ even though the Games had concluded by the coverage date.",
+      "evidence": [
+        {
+          "sourceId": "commonwealth-sport-glasgow-2026",
+          "url": "https://www.commonwealthsport.com/commonwealth-games/glasgow-2026",
+          "locator": "Host, dates, countries and sports fields on the current official event page"
+        }
+      ],
+      "recommendedFix": "Update the catalog to the direct Glasgow 2026 event URL and use ‘competed’ or ‘took part’ in question 010 for a post-event coverage date. Question 004 can retain ‘hosted’ once the direct event page is the cited locator.",
+      "releaseGate": "review-and-fix"
+    },
+    {
+      "findingId": "A2-F007",
+      "severity": "medium",
+      "category": "provisional-current-framework-not-reflected",
+      "questionIds": ["a2-major_international_events-040"],
+      "claim": "Seven teams will qualify directly from the 2027 FIBA Basketball World Cup to the 2028 Olympic tournament.",
+      "assessment": "FIBA's current qualification page states seven direct qualifiers in addition to the USA host, but marks the host qualification arrangement as subject to FIBA Central Board decision. The question and explanation present seven as unconditional and the catalog URL is less precise than the current Olympic qualification page.",
+      "evidence": [
+        {
+          "sourceId": "fiba-national-team-competition-system-2027",
+          "url": "https://about.fiba.basketball/en/our-sport/basketball/national-team-competition-systems/olympic-mens-basketball-tournaments",
+          "locator": "LA 2028 qualification: seven direct teams; footnote says subject to FIBA Central Board decision"
+        }
+      ],
+      "recommendedFix": "Add ‘under the current FIBA qualification framework’ to the stem or explanation and preserve the subject-to-decision caveat. Update the catalog to the direct current URL and locator.",
+      "releaseGate": "review-and-fix"
+    },
+    {
+      "findingId": "A2-F008",
+      "severity": "medium",
+      "category": "source-locator-too-broad",
+      "questionIds": [
+        "a2-anti_doping_awareness-031",
+        "a2-anti_doping_awareness-032",
+        "a2-anti_doping_awareness-033",
+        "a2-anti_doping_awareness-034",
+        "a2-anti_doping_awareness-035"
+      ],
+      "claim": "The questions identify the purpose and modules of the Athlete Biological Passport and ADAMS.",
+      "observed": {
+        "sourceId": "nada-india-abp-2026",
+        "catalogUrl": "https://nadaindia.yas.nic.in/",
+        "catalogLocator": "Athlete Toolkit: ABP, whereabouts and doping-control process"
+      },
+      "assessment": "The claims are consistent with current WADA/NADA materials, but the catalog entry points to the NADA home page while the inspected ABP material is a more specific secondary-testing/ABP resource. This is a reproducibility defect, not a detected answer-key error.",
+      "evidenceSourceIds": ["nada-india-abp-2026", "nada-india-official-2026"],
+      "recommendedFix": "Replace the broad URL with the direct current ABP/secondary-testing resource and record the exact hematological, steroidal and ADAMS locators in the central catalog.",
+      "releaseGate": "provenance-fix-required"
+    },
+    {
+      "findingId": "A2-F009",
+      "severity": "low",
+      "category": "source-locator-too-broad",
+      "questionIds": [
+        "a2-olympic_asian_games-007",
+        "a2-olympic_asian_games-010",
+        "a2-olympic_asian_games-011",
+        "a2-olympic_asian_games-012",
+        "a2-olympic_asian_games-013",
+        "a2-olympic_asian_games-014",
+        "a2-olympic_asian_games-015",
+        "a2-olympic_asian_games-021",
+        "a2-olympic_asian_games-023",
+        "a2-olympic_asian_games-025",
+        "a2-olympic_asian_games-039"
+      ],
+      "assessment": "The historical and current claims reviewed here are factually consistent with official Olympic/OCA records, but the catalog entries ‘olympics-official’ and ‘asian-games-official’ use broad home-page URLs without an edition, results page or page-level locator. This makes the provenance weaker than the more granular Charter, Paris-results, OCA-timeline and Aichi-Nagoya entries.",
+      "evidenceSourceIds": ["olympics-official", "asian-games-official"],
+      "recommendedFix": "Add edition-specific official result/history entries or add precise locators to the existing catalog entries. No answer-key change is indicated by this finding.",
+      "releaseGate": "provenance-improvement"
+    },
+    {
+      "findingId": "A2-F010",
+      "severity": "low",
+      "category": "answer-wording-precision",
+      "questionIds": ["a2-major_international_events-022"],
+      "claim": "The organisation conducting the World Athletics Championships.",
+      "observedAnswer": "World Athletics federation",
+      "assessment": "The intended answer is World Athletics. ‘World Athletics federation’ is understandable but is not the organisation's formal short name and is less precise than the source title.",
+      "evidence": [
+        {
+          "sourceId": "world-athletics-championships-history",
+          "url": "https://worldathletics.org/en/competitions/world-athletics-championships/world-athletics-championships-tokyo-2025-7190593/event-info/world-athletics-history",
+          "locator": "Official World Athletics history and organisation context"
+        }
+      ],
+      "recommendedFix": "Use ‘World Athletics’ as the correct option and rebalance/rewrite the distractors if needed; keep the answer index aligned.",
+      "releaseGate": "optional-wording-fix"
+    },
+    {
+      "findingId": "A2-F011",
+      "severity": "low",
+      "category": "contextual-qualification",
+      "questionIds": [
+        "a2-sports_governance_ethics-033",
+        "a2-sports_governance_ethics-035",
+        "a2-sports_governance_ethics-036"
+      ],
+      "assessment": "The answers correctly reflect Sections 12–13 of the National Sports Governance Act, 2025. The Act has phased commencement, and official current material identifies that not every provision in Sections 12–13 was necessarily commenced with the 1 January 2026 notification. The questions are acceptable as questions about the statutory text, but wording could be misconstrued as claiming that every mechanism was already operational on the coverage date.",
+      "evidence": [
+        {
+          "sourceId": "a2-national-sports-governance-act-2025",
+          "url": "https://www.indiacode.nic.in/handle/123456789/22045?view_type=browse",
+          "locator": "Act title, Sections 12–13 and commencement information"
+        }
+      ],
+      "recommendedFix": "Keep the statutory framing explicit by using wording such as ‘According to the text of Section 13’ or add a short explanation that the item tests the statutory provision rather than current implementation status.",
+      "releaseGate": "context-review"
+    }
+  ],
+  "verifiedNoCorrectionRequired": {
+    "antiDoping": {
+      "questionIds": [
+        "a2-anti_doping_awareness-001",
+        "a2-anti_doping_awareness-002",
+        "a2-anti_doping_awareness-003",
+        "a2-anti_doping_awareness-004",
+        "a2-anti_doping_awareness-005",
+        "a2-anti_doping_awareness-006",
+        "a2-anti_doping_awareness-007",
+        "a2-anti_doping_awareness-008",
+        "a2-anti_doping_awareness-009",
+        "a2-anti_doping_awareness-010",
+        "a2-anti_doping_awareness-011",
+        "a2-anti_doping_awareness-012",
+        "a2-anti_doping_awareness-013",
+        "a2-anti_doping_awareness-014",
+        "a2-anti_doping_awareness-015",
+        "a2-anti_doping_awareness-016",
+        "a2-anti_doping_awareness-017",
+        "a2-anti_doping_awareness-018",
+        "a2-anti_doping_awareness-019",
+        "a2-anti_doping_awareness-020",
+        "a2-anti_doping_awareness-021",
+        "a2-anti_doping_awareness-022",
+        "a2-anti_doping_awareness-023",
+        "a2-anti_doping_awareness-024",
+        "a2-anti_doping_awareness-025",
+        "a2-anti_doping_awareness-026",
+        "a2-anti_doping_awareness-027",
+        "a2-anti_doping_awareness-028",
+        "a2-anti_doping_awareness-029",
+        "a2-anti_doping_awareness-030",
+        "a2-anti_doping_awareness-031",
+        "a2-anti_doping_awareness-032",
+        "a2-anti_doping_awareness-033",
+        "a2-anti_doping_awareness-034",
+        "a2-anti_doping_awareness-035",
+        "a2-anti_doping_awareness-036",
+        "a2-anti_doping_awareness-037",
+        "a2-anti_doping_awareness-038",
+        "a2-anti_doping_awareness-039",
+        "a2-anti_doping_awareness-040"
+      ],
+      "conclusion": "No definite answer-key or explanation error was found. The WADA 2026 List effective date, categories, TUE criteria, sample rules, whereabouts, ABP, ADAMS and supplement-risk answers are consistent with the cited material. Question 005 appropriately says ‘may’ and the explanation acknowledges Article 2.10 procedural safeguards."
+    },
+    "olympicAsianGames": {
+      "conclusion": "No definite answer-key or explanation error was found in the 40 Olympic & Asian Games items. The 2026 current claims reviewed (Milano–Cortina, Aichi–Nagoya dates and edition, Doha 2030, Riyadh 2034 and 11 esports titles) agree with current official records."
+    },
+    "otherMajorEvents": {
+      "conclusion": "Apart from A2-F001, the Commonwealth, World Athletics, World Aquatics and FIBA answers reviewed were factually consistent with the cited official material."
+    },
+    "governance": {
+      "conclusion": "Apart from the POSH title precision issue and provenance/context findings above, the safeguarding, POSH deadlines, ethical-practice and National Sports Governance Act answers reviewed were consistent with the cited sources."
+    }
+  },
+  "releaseDisposition": {
+    "mustFixQuestionIds": [
+      "a2-major_international_events-012",
+      "a2-sports_governance_ethics-011"
+    ],
+    "mustFixProvenanceGroups": [
+      "a2-indian_sports_ecosystem_schemes-001 through a2-indian_sports_ecosystem_schemes-040",
+      "a2-sports_governance_ethics-005",
+      "a2-major_international_events-006",
+      "a2-major_international_events-004",
+      "a2-anti_doping_awareness-031 through a2-anti_doping_awareness-035"
+    ],
+    "recommendedBeforeRelease": [
+      "a2-major_international_events-040",
+      "a2-major_international_events-010",
+      "a2-major_international_events-022",
+      "a2-sports_governance_ethics-033",
+      "a2-sports_governance_ethics-035",
+      "a2-sports_governance_ethics-036",
+      "the Olympic/OCA questions listed in A2-F009"
+    ],
+    "overallConclusion": "The 200-question bank passes structural and source-ID resolution checks, but it should not be treated as factually/provenance complete until the FIFA answer key is corrected, the POSH formal-title item is repaired, and the broad or incomplete source-catalog entries are replaced or made granular."
+  },
+  "nonDestructiveAuditNote": "No question file, merged bank, source catalog, application code or script was edited by this audit."
+}

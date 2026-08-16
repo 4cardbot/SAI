@@ -29,10 +29,10 @@ const coverage: Record<Section, Array<[string, RegExp]>> = {
     ["interdisciplinary coordination", /interdisciplinary/],
   ],
   A2: [
-    ["Olympic, Asian and Paralympic awareness", /olympic|asian games|paralympic/],
-    ["Indian sports schemes", /indian sports schemes|khelo india|tops|fit india|sports authority/],
+    ["Olympic and Asian Games", /olympic|asian games/],
+    ["Indian sports ecosystem and schemes", /indian sports ecosystem|khelo india|tops|fit india|sports authority|national sports federation/],
     ["anti-doping awareness", /anti-doping/],
-    ["major competitions", /major competitions|cricket|football|hockey|world cup|commonwealth/],
+    ["major international sporting events", /major international sporting events|cricket|football|hockey|world cup|commonwealth|world championship/],
     ["sports governance and ethics", /governance|ethics|safeguard|integrity/],
   ],
   B: [
@@ -80,7 +80,7 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });
 
-  const expected = { A1: 900, A2: 96, B: 480, C: 240 };
+  const expected = { A1: 900, A2: 200, B: 480, C: 240 };
   sections.forEach((section) => {
     if (counts[section] !== expected[section]) errors.push(`${section} has ${counts[section]} questions; expected ${expected[section]}`);
   });

@@ -1,0 +1,1108 @@
+{
+  "generatedAt": "2026-08-16",
+  "count": 38,
+  "changes": [
+    {
+      "id": "a2-olympic_asian_games-005",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "reason": "Shortened the correct option and kept all four interpretations parallel.",
+      "before": {
+        "text": "In the Olympic symbol, the five interlaced rings primarily represent which idea?",
+        "options": [
+          "Five sports in the first modern Games",
+          "Five founding IOC host cities",
+          "Union of continents and athlete meeting",
+          "Five grades of Olympic medals"
+        ],
+        "correct": 2,
+        "explanation": "The Olympic symbol expresses the union of the five continents and the meeting of athletes from throughout the world.",
+        "sourceId": "ioc-olympic-charter-2025"
+      },
+      "after": {
+        "text": "In the Olympic symbol, the five interlaced rings primarily represent which idea?",
+        "options": [
+          "Five sports in the first modern Games",
+          "Five founding IOC host cities",
+          "Union of continents and athlete meeting",
+          "Five grades of Olympic medals"
+        ],
+        "correct": 2,
+        "explanation": "The Olympic symbol expresses the union of the five continents and the meeting of athletes from throughout the world.",
+        "sourceId": "ioc-olympic-charter-2025"
+      }
+    },
+    {
+      "id": "a2-olympic_asian_games-019",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "reason": "Shortened the correct wording and preserved the Paris 2024 achievement in the stem context.",
+      "before": {
+        "text": "What notable Paris 2024 achievement did Manu Bhaker record for India?",
+        "options": [
+          "India's only Paris 2024 gold medal",
+          "First Indian woman with two Olympic medals",
+          "Three individual shooting medals",
+          "India's first Olympic archery medal"
+        ],
+        "correct": 1,
+        "explanation": "Manu Bhaker won two bronze medals at Paris 2024: in the women's 10 m air pistol and the mixed 10 m air pistol team event.",
+        "sourceId": "ioc-paris-2024-results"
+      },
+      "after": {
+        "text": "What notable Paris 2024 achievement did Manu Bhaker record for India?",
+        "options": [
+          "India's only Paris 2024 gold medal",
+          "First Indian woman with two Olympic medals",
+          "Three individual shooting medals",
+          "India's first Olympic archery medal"
+        ],
+        "correct": 1,
+        "explanation": "Manu Bhaker won two bronze medals at Paris 2024: in the women's 10 m air pistol and the mixed 10 m air pistol team event.",
+        "sourceId": "ioc-paris-2024-results"
+      }
+    },
+    {
+      "id": "a2-olympic_asian_games-020",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "reason": "Used compact, parallel result descriptions.",
+      "before": {
+        "text": "Which result did the Indian men's hockey team achieve at Paris 2024?",
+        "options": [
+          "Gold after beating Germany",
+          "Silver after losing to Netherlands",
+          "Fourth place with no medal",
+          "Bronze after beating Spain"
+        ],
+        "correct": 3,
+        "explanation": "India won the men's hockey bronze medal at Paris 2024 by defeating Spain, successfully defending the bronze won at Tokyo 2020.",
+        "sourceId": "ioc-paris-2024-results"
+      },
+      "after": {
+        "text": "Which result did the Indian men's hockey team achieve at Paris 2024?",
+        "options": [
+          "Gold after beating Germany",
+          "Silver after losing to Netherlands",
+          "Fourth place with no medal",
+          "Bronze after beating Spain"
+        ],
+        "correct": 3,
+        "explanation": "India won the men's hockey bronze medal at Paris 2024 by defeating Spain, successfully defending the bronze won at Tokyo 2020.",
+        "sourceId": "ioc-paris-2024-results"
+      }
+    },
+    {
+      "id": "a2-olympic_asian_games-031",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "reason": "Rebalanced the historical explanation and distractors; the explanation retains the pandemic context.",
+      "before": {
+        "text": "Why may the most recent Asian Games be described as Hangzhou 2022 even though its competitions took place in 2023?",
+        "options": [
+          "The host moved from Hangzhou to another city",
+          "The OCA renumbered the Games after closing",
+          "The Games were held twice, once in each year",
+          "The event was postponed from 2022 to 2023"
+        ],
+        "correct": 3,
+        "explanation": "The event retained the Hangzhou 2022 designation but was held from 23 September to 8 October 2023 after postponement. It was the 19th Asian Games.",
+        "sourceId": "oca-games-timeline"
+      },
+      "after": {
+        "text": "Why may the most recent Asian Games be described as Hangzhou 2022 even though its competitions took place in 2023?",
+        "options": [
+          "The host moved from Hangzhou to another city",
+          "The OCA renumbered the Games after closing",
+          "The Games were held twice, once in each year",
+          "The event was postponed from 2022 to 2023"
+        ],
+        "correct": 3,
+        "explanation": "The event retained the Hangzhou 2022 designation but was held from 23 September to 8 October 2023 after postponement. It was the 19th Asian Games.",
+        "sourceId": "oca-games-timeline"
+      }
+    },
+    {
+      "id": "a2-olympic_asian_games-040",
+      "file": "question_bank/section_a2_olympic_asian_games.json",
+      "reason": "Corrected an unsupported sports-programme claim using the OCA's confirmed e-sports announcement.",
+      "before": {
+        "text": "Which e-sports statement was confirmed by the OCA for Aichi–Nagoya 2026?",
+        "options": [
+          "The OCA removed all e-sports from the programme",
+          "The OCA announced 11 e-sports titles for the Games",
+          "Only Olympic sports could enter the programme",
+          "India alone selected every team-sport entry"
+        ],
+        "correct": 1,
+        "explanation": "The OCA announced 11 e-sports titles for the 2026 Asian Games; the event itself was scheduled for September–October 2026 as of the coverage date.",
+        "sourceId": "oca-aichi-nagoya-2026"
+      },
+      "after": {
+        "text": "Which e-sports statement was confirmed by the OCA for Aichi–Nagoya 2026?",
+        "options": [
+          "The OCA removed all e-sports from the programme",
+          "The OCA announced 11 e-sports titles for the Games",
+          "Only Olympic sports could enter the programme",
+          "India alone selected every team-sport entry"
+        ],
+        "correct": 1,
+        "explanation": "The OCA announced 11 e-sports titles for the 2026 Asian Games; the event itself was scheduled for September–October 2026 as of the coverage date.",
+        "sourceId": "oca-aichi-nagoya-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-005",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Shortened long relationship descriptions while retaining the Article 2.10 distinction.",
+      "before": {
+        "text": "Under Article 2.10, which relationship may constitute a prohibited-association violation?",
+        "options": [
+          "A professional clinical relationship for ordinary care",
+          "A professional relationship with a person serving a ban",
+          "A social meeting with a retired athlete outside sport",
+          "A medical referral before entering a testing pool"
+        ],
+        "correct": 1,
+        "explanation": "Article 2.10 concerns certain prohibited association with an athlete-support person who is serving ineligibility or has been convicted or professionally sanctioned for conduct equivalent to a Code violation. A normal consultation or casual contact alone is not the rule’s target.",
+        "sourceId": "wada-code-2021"
+      },
+      "after": {
+        "text": "Under Article 2.10, which relationship may constitute a prohibited-association violation?",
+        "options": [
+          "A professional clinical relationship for ordinary care",
+          "A professional relationship with a person serving a ban",
+          "A social meeting with a retired athlete outside sport",
+          "A medical referral before entering a testing pool"
+        ],
+        "correct": 1,
+        "explanation": "Article 2.10 concerns certain prohibited association with an athlete-support person who is serving ineligibility or has been convicted or professionally sanctioned for conduct equivalent to a Code violation. A normal consultation or casual contact alone is not the rule’s target.",
+        "sourceId": "wada-code-2021"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-007",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Balanced the purpose statement and distractors with meaningful qualifiers.",
+      "before": {
+        "text": "What is a central purpose of the World Anti-Doping Code?",
+        "options": [
+          "To harmonize anti-doping rules across sports and countries",
+          "To replace the medical judgment of every team physician",
+          "To limit testing to athletes competing at Olympic Games",
+          "To let each federation define prohibited substances independently"
+        ],
+        "correct": 0,
+        "explanation": "The Code provides a common framework intended to harmonize anti-doping rules, responsibilities and procedures across sports and jurisdictions.",
+        "sourceId": "wada-code-2021"
+      },
+      "after": {
+        "text": "What is a central purpose of the World Anti-Doping Code?",
+        "options": [
+          "To harmonize anti-doping rules across sports and countries",
+          "To replace the medical judgment of every team physician",
+          "To limit testing to athletes competing at Olympic Games",
+          "To let each federation define prohibited substances independently"
+        ],
+        "correct": 0,
+        "explanation": "The Code provides a common framework intended to harmonize anti-doping rules, responsibilities and procedures across sports and jurisdictions.",
+        "sourceId": "wada-code-2021"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-009",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Shortened procedural distractors without changing the Article 3.1 answer.",
+      "before": {
+        "text": "In a doping hearing, which standard must the anti-doping organization generally satisfy under Article 3.1?",
+        "options": [
+          "Proof beyond any possible scientific doubt",
+          "A simple assertion by the treating clinician",
+          "Comfortable satisfaction of the hearing panel",
+          "A unanimous decision by every testing laboratory"
+        ],
+        "correct": 2,
+        "explanation": "Article 3.1 uses the hearing panel’s comfortable satisfaction, a standard greater than a mere balance of probability but less than proof beyond reasonable doubt.",
+        "sourceId": "wada-code-2021"
+      },
+      "after": {
+        "text": "In a doping hearing, which standard must the anti-doping organization generally satisfy under Article 3.1?",
+        "options": [
+          "Proof beyond any possible scientific doubt",
+          "A simple assertion by the treating clinician",
+          "Comfortable satisfaction of the hearing panel",
+          "A unanimous decision by every testing laboratory"
+        ],
+        "correct": 2,
+        "explanation": "Article 3.1 uses the hearing panel’s comfortable satisfaction, a standard greater than a mere balance of probability but less than proof beyond reasonable doubt.",
+        "sourceId": "wada-code-2021"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-014",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Used a consistent category-and-description format.",
+      "before": {
+        "text": "Hydrochlorothiazide and furosemide are examples associated with which 2026 Prohibited List category?",
+        "options": [
+          "S5: diuretics and masking agents",
+          "S2: peptide hormones and growth factors",
+          "S6: in-competition stimulants",
+          "P1: sport-specific beta-blockers"
+        ],
+        "correct": 0,
+        "explanation": "Hydrochlorothiazide and furosemide are diuretics and are listed under S5, diuretics and masking agents, which is prohibited at all times unless an applicable authorization exists.",
+        "sourceId": "wada-prohibited-list-2026"
+      },
+      "after": {
+        "text": "Hydrochlorothiazide and furosemide are examples associated with which 2026 Prohibited List category?",
+        "options": [
+          "S5: diuretics and masking agents",
+          "S2: peptide hormones and growth factors",
+          "S6: in-competition stimulants",
+          "P1: sport-specific beta-blockers"
+        ],
+        "correct": 0,
+        "explanation": "Hydrochlorothiazide and furosemide are diuretics and are listed under S5, diuretics and masking agents, which is prohibited at all times unless an applicable authorization exists.",
+        "sourceId": "wada-prohibited-list-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-015",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Shortened the S9 option and aligned category labels.",
+      "before": {
+        "text": "Under the 2026 WADA List, systemic injectable, oral or rectal glucocorticoids are classified in which way?",
+        "options": [
+          "S3: beta-2 agonists, with route limits",
+          "S5: diuretics and masking agents, at all times",
+          "S9: glucocorticoids, specified in-competition routes",
+          "P1: beta-blockers in specified sports"
+        ],
+        "correct": 2,
+        "explanation": "S9 covers glucocorticoids. The 2026 List prohibits them in-competition when administered by injectable, oral including oromucosal, or rectal routes; route and timing matter.",
+        "sourceId": "wada-prohibited-list-2026"
+      },
+      "after": {
+        "text": "Under the 2026 WADA List, systemic injectable, oral or rectal glucocorticoids are classified in which way?",
+        "options": [
+          "S3: beta-2 agonists, with route limits",
+          "S5: diuretics and masking agents, at all times",
+          "S9: glucocorticoids, specified in-competition routes",
+          "P1: beta-blockers in specified sports"
+        ],
+        "correct": 2,
+        "explanation": "S9 covers glucocorticoids. The 2026 List prohibits them in-competition when administered by injectable, oral including oromucosal, or rectal routes; route and timing matter.",
+        "sourceId": "wada-prohibited-list-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-020",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Made the emergency-treatment alternatives comparable in length and preserved the qualified answer.",
+      "before": {
+        "text": "An athlete receives urgent emergency treatment with a prohibited medicine before a prospective TUE can be obtained. What is the appropriate next step?",
+        "options": [
+          "Apply for a retroactive TUE after emergency treatment",
+          "Assume emergency care automatically removes a violation",
+          "Remove the medicine from the medical record",
+          "Ask the coach to replace the TUE application"
+        ],
+        "correct": 0,
+        "explanation": "The ISTUE allows defined retroactive applications, including certain emergency circumstances, but approval is not automatic. The athlete and physician must document the treatment and satisfy the applicable criteria.",
+        "sourceId": "nada-india-tue-2026"
+      },
+      "after": {
+        "text": "An athlete receives urgent emergency treatment with a prohibited medicine before a prospective TUE can be obtained. What is the appropriate next step?",
+        "options": [
+          "Apply for a retroactive TUE after emergency treatment",
+          "Assume emergency care automatically removes a violation",
+          "Remove the medicine from the medical record",
+          "Ask the coach to replace the TUE application"
+        ],
+        "correct": 0,
+        "explanation": "The ISTUE allows defined retroactive applications, including certain emergency circumstances, but approval is not automatic. The athlete and physician must document the treatment and satisfy the applicable criteria.",
+        "sourceId": "nada-india-tue-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-029",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Shortened procedural options while retaining the required investigation step.",
+      "before": {
+        "text": "A laboratory reports an atypical result that is not yet an Adverse Analytical Finding. What should happen next?",
+        "options": [
+          "Declare guilt without further review",
+          "Discard it as irrelevant",
+          "Investigate it under applicable rules",
+          "Issue an automatic TUE"
+        ],
+        "correct": 2,
+        "explanation": "An atypical finding signals that further investigation may be needed; it is not by itself an ADRV. The responsible anti-doping organization follows the applicable laboratory and results-management procedures.",
+        "sourceId": "nada-india-rules-2021"
+      },
+      "after": {
+        "text": "A laboratory reports an atypical result that is not yet an Adverse Analytical Finding. What should happen next?",
+        "options": [
+          "Declare guilt without further review",
+          "Discard it as irrelevant",
+          "Investigate it under applicable rules",
+          "Issue an automatic TUE"
+        ],
+        "correct": 2,
+        "explanation": "An atypical finding signals that further investigation may be needed; it is not by itself an ADRV. The responsible anti-doping organization follows the applicable laboratory and results-management procedures.",
+        "sourceId": "nada-india-rules-2021"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-031",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Balanced all four ABP descriptions around the same grammatical structure.",
+      "before": {
+        "text": "What is the primary purpose of the Athlete Biological Passport (ABP)?",
+        "options": [
+          "Replace all urine and blood tests during a season",
+          "Certify supplements as free of prohibited substances",
+          "Rank athletes by comparing competition results",
+          "Monitor biological variables over time for doping patterns"
+        ],
+        "correct": 3,
+        "explanation": "The ABP uses longitudinal biological profiles to identify patterns that may indicate manipulation of physiological variables. It supports anti-doping investigations rather than ranking athletes or replacing all testing.",
+        "sourceId": "nada-india-abp-2026"
+      },
+      "after": {
+        "text": "What is the primary purpose of the Athlete Biological Passport (ABP)?",
+        "options": [
+          "Replace all urine and blood tests during a season",
+          "Certify supplements as free of prohibited substances",
+          "Rank athletes by comparing competition results",
+          "Monitor biological variables over time for doping patterns"
+        ],
+        "correct": 3,
+        "explanation": "The ABP uses longitudinal biological profiles to identify patterns that may indicate manipulation of physiological variables. It supports anti-doping investigations rather than ranking athletes or replacing all testing.",
+        "sourceId": "nada-india-abp-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-034",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Shortened unrelated monitoring examples and retained the steroidal-module answer.",
+      "before": {
+        "text": "The steroidal module of the ABP primarily uses longitudinal information about which profile?",
+        "options": [
+          "Daily step counts from a wearable device",
+          "Steroid-related variables in repeated samples",
+          "Self-rated motivation before competition",
+          "Monthly count of physiotherapy sessions"
+        ],
+        "correct": 1,
+        "explanation": "The steroidal module tracks steroid-related variables longitudinally, commonly using repeated urine profiles, to help identify patterns requiring anti-doping follow-up.",
+        "sourceId": "nada-india-abp-2026"
+      },
+      "after": {
+        "text": "The steroidal module of the ABP primarily uses longitudinal information about which profile?",
+        "options": [
+          "Daily step counts from a wearable device",
+          "Steroid-related variables in repeated samples",
+          "Self-rated motivation before competition",
+          "Monthly count of physiotherapy sessions"
+        ],
+        "correct": 1,
+        "explanation": "The steroidal module tracks steroid-related variables longitudinally, commonly using repeated urine profiles, to help identify patterns requiring anti-doping follow-up.",
+        "sourceId": "nada-india-abp-2026"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-036",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Expanded the short correct option with a meaningful anti-doping qualifier.",
+      "before": {
+        "text": "Before an international-level athlete competes, which anti-doping preparation is most appropriate?",
+        "options": [
+          "Learn anti-doping rights, List, TUEs and testing",
+          "Wait for notification before seeking information",
+          "Rely on a supplement company's safety statement",
+          "Ask a coach to decide medication status alone"
+        ],
+        "correct": 0,
+        "explanation": "WADA’s education material emphasizes advance knowledge of rights and responsibilities, the Prohibited List, TUEs and the doping-control process. Preparation should not begin only after a test notification.",
+        "sourceId": "wada-code-2021"
+      },
+      "after": {
+        "text": "Before an international-level athlete competes, which anti-doping preparation is most appropriate?",
+        "options": [
+          "Learn anti-doping rights, List, TUEs and testing",
+          "Wait for notification before seeking information",
+          "Rely on a supplement company's safety statement",
+          "Ask a coach to decide medication status alone"
+        ],
+        "correct": 0,
+        "explanation": "WADA’s education material emphasizes advance knowledge of rights and responsibilities, the Prohibited List, TUEs and the doping-control process. Preparation should not begin only after a test notification.",
+        "sourceId": "wada-code-2021"
+      }
+    },
+    {
+      "id": "a2-anti_doping_awareness-039",
+      "file": "question_bank/section_a2_anti_doping_awareness.json",
+      "reason": "Added meaningful risk qualifiers to distractors instead of padding.",
+      "before": {
+        "text": "A product marketed to an athlete contains a proprietary blend and gives no clear assurance about prohibited ingredients. What is the best next step?",
+        "options": [
+          "Use it because proprietary blends are exempt under the rules",
+          "Ask a teammate to approve it after one serving and review",
+          "Check ingredients and contamination risk with qualified advice",
+          "Hide it from the medical team to avoid any record"
+        ],
+        "correct": 2,
+        "explanation": "An unclear proprietary blend increases uncertainty about composition and contamination. The athlete should obtain qualified advice, verify ingredients and assess whether the potential benefit justifies the anti-doping and health risk.",
+        "sourceId": "ais-supplements-position-2022"
+      },
+      "after": {
+        "text": "A product marketed to an athlete contains a proprietary blend and gives no clear assurance about prohibited ingredients. What is the best next step?",
+        "options": [
+          "Use it because proprietary blends are exempt under the rules",
+          "Ask a teammate to approve it after one serving and review",
+          "Check ingredients and contamination risk with qualified advice",
+          "Hide it from the medical team to avoid any record"
+        ],
+        "correct": 2,
+        "explanation": "An unclear proprietary blend increases uncertainty about composition and contamination. The athlete should obtain qualified advice, verify ingredients and assess whether the potential benefit justifies the anti-doping and health risk.",
+        "sourceId": "ais-supplements-position-2022"
+      }
+    },
+    {
+      "id": "a2-major_international_events-002",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "reason": "Added a concise organisation qualifier to the correct option.",
+      "before": {
+        "text": "Which organisation directs the Commonwealth Games movement?",
+        "options": [
+          "International Commonwealth Council",
+          "Commonwealth Sport organisation",
+          "Commonwealth Olympic Board",
+          "British Empire Sports Union"
+        ],
+        "correct": 1,
+        "explanation": "Commonwealth Sport is the organisation responsible for the direction and delivery of the Commonwealth Games movement; it was formerly known as the Commonwealth Games Federation.",
+        "sourceId": "commonwealth-sport-games"
+      },
+      "after": {
+        "text": "Which organisation directs the Commonwealth Games movement?",
+        "options": [
+          "International Commonwealth Council",
+          "Commonwealth Sport organisation",
+          "Commonwealth Olympic Board",
+          "British Empire Sports Union"
+        ],
+        "correct": 1,
+        "explanation": "Commonwealth Sport is the organisation responsible for the direction and delivery of the Commonwealth Games movement; it was formerly known as the Commonwealth Games Federation.",
+        "sourceId": "commonwealth-sport-games"
+      }
+    },
+    {
+      "id": "a2-major_international_events-022",
+      "file": "question_bank/section_a2_major_international_events.json",
+      "reason": "Added a concise federation qualifier to the correct option.",
+      "before": {
+        "text": "Which organisation conducts the World Athletics Championships?",
+        "options": [
+          "International Olympic Committee",
+          "World Athletics federation",
+          "International Sports Union",
+          "World Track and Field Council"
+        ],
+        "correct": 1,
+        "explanation": "World Athletics, the international governing body for athletics, organises the World Athletics Championships.",
+        "sourceId": "world-athletics-championships-history"
+      },
+      "after": {
+        "text": "Which organisation conducts the World Athletics Championships?",
+        "options": [
+          "International Olympic Committee",
+          "World Athletics federation",
+          "International Sports Union",
+          "World Track and Field Council"
+        ],
+        "correct": 1,
+        "explanation": "World Athletics, the international governing body for athletics, organises the World Athletics Championships.",
+        "sourceId": "world-athletics-championships-history"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-002",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Balanced the accountability examples with parallel noun phrases.",
+      "before": {
+        "text": "In an athlete-safeguarding policy, which element most directly establishes accountability?",
+        "options": [
+          "A list of preferred competition venues",
+          "A named policy owner responsible for implementation",
+          "A ranking system for national-team selection",
+          "A schedule for routine strength-training sessions"
+        ],
+        "correct": 1,
+        "explanation": "The IOC safeguarding toolkit recommends identifying who is responsible for implementing and upholding the safeguarding policy.",
+        "sourceId": "a2-ioc-safeguarding-toolkit-2017"
+      },
+      "after": {
+        "text": "In an athlete-safeguarding policy, which element most directly establishes accountability?",
+        "options": [
+          "A list of preferred competition venues",
+          "A named policy owner responsible for implementation",
+          "A ranking system for national-team selection",
+          "A schedule for routine strength-training sessions"
+        ],
+        "correct": 1,
+        "explanation": "The IOC safeguarding toolkit recommends identifying who is responsible for implementing and upholding the safeguarding policy.",
+        "sourceId": "a2-ioc-safeguarding-toolkit-2017"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-005",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened the correct policy summary and kept the alternatives meaningful.",
+      "before": {
+        "text": "A high-performance centre is revising its athlete-welfare arrangements. Which priority is most consistent with SAI’s Athlete Wellbeing Policy published in 2026?",
+        "options": [
+          "Protecting athlete safety, health and well-being in sport",
+          "Replacing welfare support with performance targets",
+          "Restricting welfare services to medal-winning athletes",
+          "Treating welfare concerns as outside sport administration"
+        ],
+        "correct": 0,
+        "explanation": "SAI’s Athlete Wellbeing Policy is an athlete-centred welfare measure; its purpose is to support safety, health and well-being in the sporting environment, not only competitive outcomes.",
+        "sourceId": "a2-sai-athlete-wellbeing-2026"
+      },
+      "after": {
+        "text": "A high-performance centre is revising its athlete-welfare arrangements. Which priority is most consistent with SAI’s Athlete Wellbeing Policy published in 2026?",
+        "options": [
+          "Protecting athlete safety, health and well-being in sport",
+          "Replacing welfare support with performance targets",
+          "Restricting welfare services to medal-winning athletes",
+          "Treating welfare concerns as outside sport administration"
+        ],
+        "correct": 0,
+        "explanation": "SAI’s Athlete Wellbeing Policy is an athlete-centred welfare measure; its purpose is to support safety, health and well-being in the sporting environment, not only competitive outcomes.",
+        "sourceId": "a2-sai-athlete-wellbeing-2026"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-007",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Balanced the safeguarding scenario options without weakening the safety response.",
+      "before": {
+        "text": "A volunteer repeatedly asks an athlete to meet alone in a hotel room and tells the athlete not to mention it. What is the safest response?",
+        "options": [
+          "Accept because the volunteer is part of the team",
+          "Keep silent unless physical contact occurs",
+          "Raise the concern with a welfare or safeguarding officer",
+          "Ask teammates to decide if the conduct is acceptable"
+        ],
+        "correct": 2,
+        "explanation": "The IOC’s safeguarding scenarios identify secretive one-to-one approaches that make an athlete uncomfortable as concerns to raise with a welfare or safeguarding officer.",
+        "sourceId": "a2-draw-the-line-ioc"
+      },
+      "after": {
+        "text": "A volunteer repeatedly asks an athlete to meet alone in a hotel room and tells the athlete not to mention it. What is the safest response?",
+        "options": [
+          "Accept because the volunteer is part of the team",
+          "Keep silent unless physical contact occurs",
+          "Raise the concern with a welfare or safeguarding officer",
+          "Ask teammates to decide if the conduct is acceptable"
+        ],
+        "correct": 2,
+        "explanation": "The IOC’s safeguarding scenarios identify secretive one-to-one approaches that make an athlete uncomfortable as concerns to raise with a welfare or safeguarding officer.",
+        "sourceId": "a2-draw-the-line-ioc"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-012",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Used comparable employment-status qualifiers while retaining the statutory scope.",
+      "before": {
+        "text": "Under the POSH Act, which person can fall within the definition of an aggrieved woman at a workplace?",
+        "options": [
+          "Only a permanent employee with a written contract",
+          "Only a woman employed for one complete year",
+          "Only a woman selected for a national sports team",
+          "A woman of any age, employed or not, alleging harassment"
+        ],
+        "correct": 3,
+        "explanation": "Section 2 of the POSH Act defines an aggrieved woman at a workplace as a woman of any age, whether employed or not, who alleges sexual harassment.",
+        "sourceId": "a2-india-posh-act-2013"
+      },
+      "after": {
+        "text": "Under the POSH Act, which person can fall within the definition of an aggrieved woman at a workplace?",
+        "options": [
+          "Only a permanent employee with a written contract",
+          "Only a woman employed for one complete year",
+          "Only a woman selected for a national sports team",
+          "A woman of any age, employed or not, alleging harassment"
+        ],
+        "correct": 3,
+        "explanation": "Section 2 of the POSH Act defines an aggrieved woman at a workplace as a woman of any age, whether employed or not, who alleges sexual harassment.",
+        "sourceId": "a2-india-posh-act-2013"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-014",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Balanced statutory time-limit alternatives and retained the three-month rule.",
+      "before": {
+        "text": "What is the usual time limit for submitting a written complaint under Section 9 of the POSH Act?",
+        "options": [
+          "Thirty calendar days from the alleged workplace incident",
+          "Three months from the incident or last incident in a series",
+          "Six calendar months after the sports season ends",
+          "One year from the incident, regardless of series"
+        ],
+        "correct": 1,
+        "explanation": "Section 9 generally allows a written complaint within three months of the incident, or the last incident in a series; the committee may extend this by up to a further three months for recorded reasons.",
+        "sourceId": "a2-india-posh-act-2013"
+      },
+      "after": {
+        "text": "What is the usual time limit for submitting a written complaint under Section 9 of the POSH Act?",
+        "options": [
+          "Thirty calendar days from the alleged workplace incident",
+          "Three months from the incident or last incident in a series",
+          "Six calendar months after the sports season ends",
+          "One year from the incident, regardless of series"
+        ],
+        "correct": 1,
+        "explanation": "Section 9 generally allows a written complaint within three months of the incident, or the last incident in a series; the committee may extend this by up to a further three months for recorded reasons.",
+        "sourceId": "a2-india-posh-act-2013"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-018",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened the correct confidentiality option and kept the legal alternatives distinct.",
+      "before": {
+        "text": "A staff member shares the names and allegations from a POSH inquiry in a team messaging group. Which principle has most clearly been breached?",
+        "options": [
+          "The rule requiring conciliation before every inquiry",
+          "Confidentiality for complaint and inquiry details",
+          "The requirement to transfer every respondent",
+          "The rule that only athletes may submit complaints"
+        ],
+        "correct": 1,
+        "explanation": "Section 16 prohibits publication or making known the contents of a complaint, the identities of the parties and witnesses, and related conciliation or inquiry information.",
+        "sourceId": "a2-india-posh-act-2013"
+      },
+      "after": {
+        "text": "A staff member shares the names and allegations from a POSH inquiry in a team messaging group. Which principle has most clearly been breached?",
+        "options": [
+          "The rule requiring conciliation before every inquiry",
+          "Confidentiality for complaint and inquiry details",
+          "The requirement to transfer every respondent",
+          "The rule that only athletes may submit complaints"
+        ],
+        "correct": 1,
+        "explanation": "Section 16 prohibits publication or making known the contents of a complaint, the identities of the parties and witnesses, and related conciliation or inquiry information.",
+        "sourceId": "a2-india-posh-act-2013"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-019",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Used concise, parallel interim-relief descriptions.",
+      "before": {
+        "text": "While a POSH inquiry is pending, what temporary relief may be recommended on a written request from the aggrieved woman?",
+        "options": [
+          "Automatic dismissal of the respondent",
+          "Permanent cancellation of the professional licence",
+          "Transfer or up to three months' leave for her",
+          "Publication of allegations on the public website"
+        ],
+        "correct": 2,
+        "explanation": "Section 12 permits recommendations such as transfer or leave for the aggrieved woman; the leave may be up to three months in addition to ordinary leave.",
+        "sourceId": "a2-india-posh-act-2013"
+      },
+      "after": {
+        "text": "While a POSH inquiry is pending, what temporary relief may be recommended on a written request from the aggrieved woman?",
+        "options": [
+          "Automatic dismissal of the respondent",
+          "Permanent cancellation of the professional licence",
+          "Transfer or up to three months' leave for her",
+          "Publication of allegations on the public website"
+        ],
+        "correct": 2,
+        "explanation": "Section 12 permits recommendations such as transfer or leave for the aggrieved woman; the leave may be up to three months in addition to ordinary leave.",
+        "sourceId": "a2-india-posh-act-2013"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-020",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened employer-duty alternatives while retaining the statutory duty.",
+      "before": {
+        "text": "Which action is a duty of an employer under the POSH Act?",
+        "options": [
+          "Decide every complaint without a committee",
+          "Require withdrawal before team selection",
+          "Publish identities to deter future complaints",
+          "Provide awareness measures and display consequences"
+        ],
+        "correct": 3,
+        "explanation": "Section 19 includes prevention duties such as providing a safe working environment, displaying penal consequences, and organising awareness and sensitisation programmes.",
+        "sourceId": "a2-india-posh-act-2013"
+      },
+      "after": {
+        "text": "Which action is a duty of an employer under the POSH Act?",
+        "options": [
+          "Decide every complaint without a committee",
+          "Require withdrawal before team selection",
+          "Publish identities to deter future complaints",
+          "Provide awareness measures and display consequences"
+        ],
+        "correct": 3,
+        "explanation": "Section 19 includes prevention duties such as providing a safe working environment, displaying penal consequences, and organising awareness and sensitisation programmes.",
+        "sourceId": "a2-india-posh-act-2013"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-022",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Made the consent principles concise and parallel.",
+      "before": {
+        "text": "Which statement best reflects informed consent in sports physiotherapy?",
+        "options": [
+          "Consent is implied by entering a training centre",
+          "Voluntary choice after relevant information",
+          "A coach can consent for every adult athlete",
+          "Consent is unnecessary for performance treatment"
+        ],
+        "correct": 1,
+        "explanation": "World Physiotherapy describes informed consent as a voluntary choice made after relevant information is communicated in a way the person can understand.",
+        "sourceId": "world-physiotherapy-consent-2023"
+      },
+      "after": {
+        "text": "Which statement best reflects informed consent in sports physiotherapy?",
+        "options": [
+          "Consent is implied by entering a training centre",
+          "Voluntary choice after relevant information",
+          "A coach can consent for every adult athlete",
+          "Consent is unnecessary for performance treatment"
+        ],
+        "correct": 1,
+        "explanation": "World Physiotherapy describes informed consent as a voluntary choice made after relevant information is communicated in a way the person can understand.",
+        "sourceId": "world-physiotherapy-consent-2023"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-023",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Balanced privacy options with meaningful audience qualifiers.",
+      "before": {
+        "text": "An athlete’s medical information should ordinarily be shared with which group?",
+        "options": [
+          "Anyone who follows the athlete or attends competitions",
+          "All spectators who ask about an absence",
+          "Only authorised people with a legitimate need to know",
+          "Every athlete in the same training squad"
+        ],
+        "correct": 2,
+        "explanation": "Confidentiality and privacy require limiting disclosure to authorised people with a legitimate role and need to know, subject to consent and applicable law.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      },
+      "after": {
+        "text": "An athlete’s medical information should ordinarily be shared with which group?",
+        "options": [
+          "Anyone who follows the athlete or attends competitions",
+          "All spectators who ask about an absence",
+          "Only authorised people with a legitimate need to know",
+          "Every athlete in the same training squad"
+        ],
+        "correct": 2,
+        "explanation": "Confidentiality and privacy require limiting disclosure to authorised people with a legitimate role and need to know, subject to consent and applicable law.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-025",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Aligned fair-play alternatives in concise action phrases.",
+      "before": {
+        "text": "A coach asks a performance analyst to conceal a rule violation by an opponent. Which response best represents fair play?",
+        "options": [
+          "Refuse concealment and use the proper reporting route",
+          "Conceal it if the team is unlikely to be caught",
+          "Post an allegation online before checking facts",
+          "Ignore it because staff cannot affect fair play"
+        ],
+        "correct": 0,
+        "explanation": "Fair play requires respect for rules and honest conduct by everyone involved in sport; concerns should be handled through an appropriate process.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "A coach asks a performance analyst to conceal a rule violation by an opponent. Which response best represents fair play?",
+        "options": [
+          "Refuse concealment and use the proper reporting route",
+          "Conceal it if the team is unlikely to be caught",
+          "Post an allegation online before checking facts",
+          "Ignore it because staff cannot affect fair play"
+        ],
+        "correct": 0,
+        "explanation": "Fair play requires respect for rules and honest conduct by everyone involved in sport; concerns should be handled through an appropriate process.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-027",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Added meaningful review and documentation qualifiers to short distractors.",
+      "before": {
+        "text": "A staff member pressures a physiotherapist to remove an unfavourable finding from an injury report. What should the physiotherapist do?",
+        "options": [
+          "Remove it if the athlete wants to compete without review",
+          "Replace it with a less serious diagnosis without retesting",
+          "Keep the accurate record and escalate improper pressure",
+          "Delete it and rely on an undocumented verbal handover"
+        ],
+        "correct": 2,
+        "explanation": "Accurate documentation and professional integrity take priority over selection pressure. An attempt to alter a clinical record should be documented and reported through an appropriate channel.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      },
+      "after": {
+        "text": "A staff member pressures a physiotherapist to remove an unfavourable finding from an injury report. What should the physiotherapist do?",
+        "options": [
+          "Remove it if the athlete wants to compete without review",
+          "Replace it with a less serious diagnosis without retesting",
+          "Keep the accurate record and escalate improper pressure",
+          "Delete it and rely on an undocumented verbal handover"
+        ],
+        "correct": 2,
+        "explanation": "Accurate documentation and professional integrity take priority over selection pressure. An attempt to alter a clinical record should be documented and reported through an appropriate channel.",
+        "sourceId": "world-physiotherapy-ethics-2023"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-031",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Balanced statute-title options without changing the identified Act.",
+      "before": {
+        "text": "Which title identifies the Indian statute enacted in 2025 to address sports governance, welfare and ethical practices?",
+        "options": [
+          "National Sports Administration Act, 2024",
+          "Indian Olympic Institutions Act, 2025",
+          "National Sports Governance Act, 2025",
+          "Sports Integrity and Competition Act, 2026"
+        ],
+        "correct": 2,
+        "explanation": "The official Gazette text published in 2025 is titled the National Sports Governance Act, 2025. Its commencement is by notification under Section 1(2).",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "Which title identifies the Indian statute enacted in 2025 to address sports governance, welfare and ethical practices?",
+        "options": [
+          "National Sports Administration Act, 2024",
+          "Indian Olympic Institutions Act, 2025",
+          "National Sports Governance Act, 2025",
+          "Sports Integrity and Competition Act, 2026"
+        ],
+        "correct": 2,
+        "explanation": "The official Gazette text published in 2025 is titled the National Sports Governance Act, 2025. Its commencement is by notification under Section 1(2).",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-033",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened the broad statutory coverage option and added comparable qualifiers to distractors.",
+      "before": {
+        "text": "Who is covered by the Code of Ethics required of every National Sports Body under Section 12 of the 2025 Act?",
+        "options": [
+          "Committees, staff, sponsors, coaches, athletes, officials and others",
+          "Only the president and secretary of the National Sports Body",
+          "Only athletes registered internationally and accredited team staff",
+          "Only government employees assigned to sports administration"
+        ],
+        "correct": 0,
+        "explanation": "Section 12 applies the Code of Ethics to executive and other committees, employees, staff, sponsors, coaches, athletes, officials, members, affiliates and other relevant persons.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "Who is covered by the Code of Ethics required of every National Sports Body under Section 12 of the 2025 Act?",
+        "options": [
+          "Committees, staff, sponsors, coaches, athletes, officials and others",
+          "Only the president and secretary of the National Sports Body",
+          "Only athletes registered internationally and accredited team staff",
+          "Only government employees assigned to sports administration"
+        ],
+        "correct": 0,
+        "explanation": "Section 12 applies the Code of Ethics to executive and other committees, employees, staff, sponsors, coaches, athletes, officials, members, affiliates and other relevant persons.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-034",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Aligned the statutory position-of-trust alternatives while retaining the authority/influence test.",
+      "before": {
+        "text": "Under Section 12 of the National Sports Governance Act, which person is in a position of trust?",
+        "options": [
+          "Has won an Olympic or Asian Games medal in any discipline",
+          "Exercises authority or influence over another person or dependent",
+          "Has served five years as a sports journalist in a recognised federation",
+          "Holds a paid role in any recognised private fitness organisation"
+        ],
+        "correct": 1,
+        "explanation": "The Act defines a person in a position of trust by authority, control or influence over another person, or by the other person’s dependence on them in connection with the sports body.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "Under Section 12 of the National Sports Governance Act, which person is in a position of trust?",
+        "options": [
+          "Has won an Olympic or Asian Games medal in any discipline",
+          "Exercises authority or influence over another person or dependent",
+          "Has served five years as a sports journalist in a recognised federation",
+          "Holds a paid role in any recognised private fitness organisation"
+        ],
+        "correct": 1,
+        "explanation": "The Act defines a person in a position of trust by authority, control or influence over another person, or by the other person’s dependence on them in connection with the sports body.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-035",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Added meaningful scope qualifiers to the narrow alternatives.",
+      "before": {
+        "text": "A National Sports Body is planning an event, training camp and disciplinary hearing. Under the 2025 Act’s Safe Sports Policy provision, which activities should be covered?",
+        "options": [
+          "Only the final competition, medal ceremony and official media activities",
+          "Only activities involving women athletes at the event and camp",
+          "All National Sports Body activities, events and proceedings",
+          "Only activities conducted outside India during official tours"
+        ],
+        "correct": 2,
+        "explanation": "Section 13 requires a comprehensive Safe Sports Policy applicable to all activities, events, operations and proceedings conducted by National Sports Bodies.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "A National Sports Body is planning an event, training camp and disciplinary hearing. Under the 2025 Act’s Safe Sports Policy provision, which activities should be covered?",
+        "options": [
+          "Only the final competition, medal ceremony and official media activities",
+          "Only activities involving women athletes at the event and camp",
+          "All National Sports Body activities, events and proceedings",
+          "Only activities conducted outside India during official tours"
+        ],
+        "correct": 2,
+        "explanation": "Section 13 requires a comprehensive Safe Sports Policy applicable to all activities, events, operations and proceedings conducted by National Sports Bodies.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-036",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened the statutory standard and kept process alternatives comparable.",
+      "before": {
+        "text": "What standard should an internal grievance-redressal mechanism of a National Sports Body meet under Section 13?",
+        "options": [
+          "It should be confidential but need not give reasons",
+          "It should be controlled only by the accused person",
+          "It should decide matters only after the next election",
+          "It should address grievances fairly, promptly and transparently"
+        ],
+        "correct": 3,
+        "explanation": "Section 13 requires an internal grievance-redressal mechanism for athletes, coaches and others associated with the body, operating in a fair, timely and transparent manner.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "What standard should an internal grievance-redressal mechanism of a National Sports Body meet under Section 13?",
+        "options": [
+          "It should be confidential but need not give reasons",
+          "It should be controlled only by the accused person",
+          "It should decide matters only after the next election",
+          "It should address grievances fairly, promptly and transparently"
+        ],
+        "correct": 3,
+        "explanation": "Section 13 requires an internal grievance-redressal mechanism for athletes, coaches and others associated with the body, operating in a fair, timely and transparent manner.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-037",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Added the governing-recognition qualifier to the correct option.",
+      "before": {
+        "text": "Under Section 14 of the National Sports Governance Act, which organisation is eligible to receive grants or other financial assistance from the Central Government?",
+        "options": [
+          "A sports organisation recognised under the Act",
+          "Any informal group claiming to promote a sport",
+          "Only a commercial league with private investors",
+          "Only an organisation that has hosted an Olympic Games"
+        ],
+        "correct": 0,
+        "explanation": "Section 14(1) states that only a recognised sports organisation is eligible to receive grants or other financial assistance from the Central Government.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "Under Section 14 of the National Sports Governance Act, which organisation is eligible to receive grants or other financial assistance from the Central Government?",
+        "options": [
+          "A sports organisation recognised under the Act",
+          "Any informal group claiming to promote a sport",
+          "Only a commercial league with private investors",
+          "Only an organisation that has hosted an Olympic Games"
+        ],
+        "correct": 0,
+        "explanation": "Section 14(1) states that only a recognised sports organisation is eligible to receive grants or other financial assistance from the Central Government.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-038",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Shortened the public-authority purpose statement and aligned the alternatives.",
+      "before": {
+        "text": "A recognised sports organisation receives a government grant. For what purpose does it have public-authority status under Section 14(2)?",
+        "options": [
+          "For every private contract by athletes and staff",
+          "For use of the government grant or other assistance",
+          "Only for determining a competition result",
+          "Only for regulating international sport rules"
+        ],
+        "correct": 1,
+        "explanation": "Section 14(2) treats a recognised sports organisation receiving government financial assistance as a public authority under the Right to Information Act with respect to utilisation of that assistance.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "A recognised sports organisation receives a government grant. For what purpose does it have public-authority status under Section 14(2)?",
+        "options": [
+          "For every private contract by athletes and staff",
+          "For use of the government grant or other assistance",
+          "Only for determining a competition result",
+          "Only for regulating international sport rules"
+        ],
+        "correct": 1,
+        "explanation": "Section 14(2) treats a recognised sports organisation receiving government financial assistance as a public authority under the Right to Information Act with respect to utilisation of that assistance.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    },
+    {
+      "id": "a2-sports_governance_ethics-039",
+      "file": "question_bank/section_a2_sports_governance_ethics.json",
+      "reason": "Added a meaningful recognition qualifier to remove the final length outlier while retaining the statutory tribunal qualification.",
+      "before": {
+        "text": "Under Section 17 of the National Sports Governance Act, which qualification is specified for the Chairperson of the National Sports Tribunal?",
+        "options": [
+          "Former international athlete with five years' service",
+          "Serving secretary of a National Sports Federation",
+          "Present or former Supreme Court Judge or High Court Chief Justice",
+          "Retired coach nominated by the National Olympic Committee"
+        ],
+        "correct": 2,
+        "explanation": "Section 17(2) specifies that the Tribunal Chairperson shall be a person who is or has been a Judge of the Supreme Court or the Chief Justice of a High Court.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      },
+      "after": {
+        "text": "Under Section 17 of the National Sports Governance Act, which qualification is specified for the Chairperson of the National Sports Tribunal?",
+        "options": [
+          "Former international athlete with five years' service",
+          "Serving secretary of a recognised National Sports Federation",
+          "Present or former Supreme Court Judge or High Court Chief Justice",
+          "Retired coach nominated by the National Olympic Committee"
+        ],
+        "correct": 2,
+        "explanation": "Section 17(2) specifies that the Tribunal Chairperson shall be a person who is or has been a Judge of the Supreme Court or the Chief Justice of a High Court.",
+        "sourceId": "a2-national-sports-governance-act-2025"
+      }
+    }
+  ]
+}

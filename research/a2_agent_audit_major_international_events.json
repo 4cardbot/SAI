@@ -1,0 +1,222 @@
+{
+  "group": "Major international sporting events",
+  "count": 40,
+  "subtopicCounts": {
+    "Commonwealth Games history, editions and Indian performance": 10,
+    "FIFA World Cup history and current editions": 10,
+    "World Athletics Championships": 10,
+    "Other major World Cups and World Championships": 10
+  },
+  "difficultyCounts": {
+    "foundational": 28,
+    "applied": 12
+  },
+  "answerIndexCounts": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "sourceIdsUsed": [
+    "commonwealth-sport-games",
+    "commonwealth-sport-birmingham-2022",
+    "commonwealth-sport-glasgow-2026",
+    "commonwealth-sport-amdavad-2030",
+    "fifa-world-cup-history",
+    "fifa-world-cup-qatar-2022",
+    "fifa-world-cup-2026",
+    "fifa-world-cup-2030",
+    "world-athletics-championships-history",
+    "world-athletics-tokyo-2025",
+    "world-aquatics-championships-history",
+    "world-aquatics-singapore-2025",
+    "world-aquatics-budapest-2027",
+    "fiba-basketball-world-cup-history",
+    "fiba-basketball-world-cup-2027",
+    "fiba-national-team-competition-system-2027"
+  ],
+  "localMaterialInspected": [
+    {
+      "path": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+      "locator": "p. 22: Section A2 groups; p. 106: Annexure B illustrative four-option MCQ structure"
+    },
+    {
+      "path": "sectionA_guidelines.md",
+      "locator": "lines 80 and 104–110: major international championships and recommended A2 study material"
+    },
+    {
+      "path": "src/data/sourceCatalog.ts",
+      "locator": "Existing source IDs and central-registry format; event-specific IDs were absent and are proposed below"
+    }
+  ],
+  "sourcesNeedingCentralRegistryAdditions": [
+    {
+      "id": "commonwealth-sport-games",
+      "title": "Commonwealth Games",
+      "organization": "Commonwealth Sport",
+      "dateOrEdition": "Current official history page inspected 2026-08-16",
+      "url": "https://www.commonwealthsport.com/commonwealth-games",
+      "scopeLocator": "Commonwealth Games history, former names, editions and host information"
+    },
+    {
+      "id": "commonwealth-sport-birmingham-2022",
+      "title": "Birmingham 2022 Commonwealth Games",
+      "organization": "Commonwealth Sport",
+      "dateOrEdition": "2022 edition; official event history and medal-context pages inspected 2026-08-16",
+      "url": "https://www.commonwealthsport.com/commonwealth-games/birmingham-2022",
+      "scopeLocator": "Birmingham 2022 dates, host and official event information"
+    },
+    {
+      "id": "commonwealth-sport-glasgow-2026",
+      "title": "Glasgow 2026 Commonwealth Games",
+      "organization": "Commonwealth Sport",
+      "dateOrEdition": "2026 edition, current as of 2026-08-16",
+      "url": "https://www.commonwealthsport.com/commonwealth-games/glasgow-2026",
+      "scopeLocator": "Host, dates, 10-sport programme and 74 nations and territories"
+    },
+    {
+      "id": "commonwealth-sport-amdavad-2030",
+      "title": "Amdavad, India confirmed as host of the 2030 Centenary Games",
+      "organization": "Commonwealth Sport",
+      "dateOrEdition": "Published 2025; inspected 2026-08-16",
+      "url": "https://www.commonwealthsport.com/news/4408937/commonwealth-sport-confirms-amdavad-india-as-host-of-the-2030-centenary-games",
+      "scopeLocator": "2030 host confirmation, centenary-edition context and Birmingham 2022 medal-table context"
+    },
+    {
+      "id": "fifa-world-cup-history",
+      "title": "FIFA World Cup history and winners",
+      "organization": "Fédération Internationale de Football Association",
+      "dateOrEdition": "Official historical pages inspected 2026-08-16",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
+      "scopeLocator": "1930 inaugural tournament, Montevideo host and Uruguay champion"
+    },
+    {
+      "id": "fifa-world-cup-qatar-2022",
+      "title": "FIFA World Cup Qatar 2022",
+      "organization": "Fédération Internationale de Football Association",
+      "dateOrEdition": "2022 edition; official tournament page inspected 2026-08-16",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022",
+      "scopeLocator": "Final, champion, Golden Ball and Morocco's semi-final achievement"
+    },
+    {
+      "id": "fifa-world-cup-2026",
+      "title": "FIFA World Cup 2026 host, format and schedule",
+      "organization": "Fédération Internationale de Football Association",
+      "dateOrEdition": "2026 edition, current as of 2026-08-16",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-world-cup-2026-hosts-cities-dates-usa-mexico-canada",
+      "scopeLocator": "Three host countries, 48-team field, 16 host cities and final venue"
+    },
+    {
+      "id": "fifa-world-cup-2030",
+      "title": "FIFA World Cup 2030: hosts and centenary matches",
+      "organization": "Fédération Internationale de Football Association",
+      "dateOrEdition": "2030 edition; official information published 2026 and inspected 2026-08-16",
+      "url": "https://www.fifa.com/en/en/mens/worldcup/articles/world-cup-2030-hosts-qualified-bidding-spain-argentina-morocco-uruguay-portugal-paraguay",
+      "scopeLocator": "Principal hosts Spain, Morocco and Portugal; centenary matches in Argentina, Paraguay and Uruguay"
+    },
+    {
+      "id": "world-athletics-championships-history",
+      "title": "History of the World Athletics Championships",
+      "organization": "World Athletics",
+      "dateOrEdition": "Official history page for Tokyo 2025, inspected 2026-08-16",
+      "url": "https://worldathletics.org/en/competitions/world-athletics-championships/world-athletics-championships-tokyo-2025-7190593/event-info/world-athletics-history",
+      "scopeLocator": "1983 Helsinki, biennial cycle, Tokyo 1991, Berlin 2009 and Budapest 2023"
+    },
+    {
+      "id": "world-athletics-tokyo-2025",
+      "title": "World Athletics Championships Tokyo 25 event information",
+      "organization": "World Athletics",
+      "dateOrEdition": "2025 edition; official event page inspected 2026-08-16",
+      "url": "https://worldathletics.org/competitions/world-athletics-championships/tokyo25/event-info",
+      "scopeLocator": "20th edition, 13–21 September 2025, programme and combined events"
+    },
+    {
+      "id": "world-aquatics-championships-history",
+      "title": "50 Years of World Aquatics Championships / official history",
+      "organization": "World Aquatics",
+      "dateOrEdition": "Official history pages inspected 2026-08-16",
+      "url": "https://www.worldaquatics.com/news/3614955/50-years-of-world-aquatics-championships",
+      "scopeLocator": "1973 Belgrade inaugural edition, discipline history and event evolution"
+    },
+    {
+      "id": "world-aquatics-singapore-2025",
+      "title": "World Aquatics Championships Singapore 2025",
+      "organization": "World Aquatics",
+      "dateOrEdition": "2025 edition; official competition results page inspected 2026-08-16",
+      "url": "https://www.worldaquatics.com/competitions/4725/world-aquatics-championships-singapore-2025/medals",
+      "scopeLocator": "Singapore 2025 edition and official competition identity"
+    },
+    {
+      "id": "world-aquatics-budapest-2027",
+      "title": "World Aquatics Championships Budapest 2027",
+      "organization": "World Aquatics",
+      "dateOrEdition": "2027 edition, current as of 2026-08-16",
+      "url": "https://www.worldaquatics.com/competitions/5546/world-aquatics-championships-budapest-2027/",
+      "scopeLocator": "Budapest host confirmation and 2027 event information"
+    },
+    {
+      "id": "fiba-basketball-world-cup-history",
+      "title": "FIBA Basketball World Cup editions and medal table",
+      "organization": "International Basketball Federation",
+      "dateOrEdition": "Official history page inspected 2026-08-16",
+      "url": "https://www.fiba.basketball/en/history/201-fiba-basketball-world-cup",
+      "scopeLocator": "1950 inaugural edition in Argentina and 2023 medal table"
+    },
+    {
+      "id": "fiba-basketball-world-cup-2027",
+      "title": "FIBA Basketball World Cup 2027 in Qatar",
+      "organization": "International Basketball Federation",
+      "dateOrEdition": "2027 edition, current as of 2026-08-16",
+      "url": "https://www.fiba.basketball/en/events/fiba-basketball-world-cup-2027",
+      "scopeLocator": "Doha host, 32 teams and competition context"
+    },
+    {
+      "id": "fiba-national-team-competition-system-2027",
+      "title": "National Team Basketball Competition System",
+      "organization": "International Basketball Federation",
+      "dateOrEdition": "Current 2027–2028 competition system page inspected 2026-08-16",
+      "url": "https://about.fiba.basketball/en/our-sport/basketball/national-team-competition-system",
+      "scopeLocator": "2027 World Cup format and seven direct men's Olympic qualification places"
+    }
+  ],
+  "knownAmbiguitiesOrLimitations": [
+    "The notification names Commonwealth Games, World Cups and World Championships but does not prescribe an internal weighting. This file uses four balanced subtopics with 10 questions each.",
+    "The current date is after Glasgow 2026. Questions about Glasgow use completed-event wording and the official 2026 event page; historical questions retain their event year.",
+    "FIFA's 2026 final location is styled by FIFA as New York New Jersey; the option preserves that official naming rather than choosing one municipality.",
+    "The source catalog currently lacks these granular event sources. The source suggestions above are limited to pages actually inspected and should be added centrally before the merged-bank validation.",
+    "The question bank uses original concise MCQ wording rather than reproducing a specific copyrighted question-bank item verbatim."
+  ],
+  "questionsRecommendedForCentralReview": [
+    {
+      "id": "a2-major_international_events-006",
+      "reason": "Medal-table claim is supported by the official Australian Commonwealth Games team record; central validation should cross-check the Commonwealth Sport results archive before registry acceptance."
+    },
+    {
+      "id": "a2-major_international_events-020",
+      "reason": "The official FIFA location label is New York New Jersey; central review should preserve that event branding in the source entry."
+    },
+    {
+      "id": "a2-major_international_events-040",
+      "reason": "The seven direct Olympic qualification places are stated in FIBA's competition-system material and should be checked against the final 2027 qualification regulations if those change."
+    }
+  ],
+  "webInspectedSources": [
+    "https://www.commonwealthsport.com/commonwealth-games",
+    "https://www.commonwealthsport.com/commonwealth-games/birmingham-2022",
+    "https://www.commonwealthsport.com/commonwealth-games/glasgow-2026",
+    "https://www.commonwealthsport.com/news/4408937/commonwealth-sport-confirms-amdavad-india-as-host-of-the-2030-centenary-games",
+    "https://commonwealthgames.com.au/games/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/fifa-world-cup-2026-hosts-cities-dates-usa-mexico-canada",
+    "https://www.fifa.com/en/en/mens/worldcup/articles/world-cup-2030-hosts-qualified-bidding-spain-argentina-morocco-uruguay-portugal-paraguay",
+    "https://worldathletics.org/en/competitions/world-athletics-championships/world-athletics-championships-tokyo-2025-7190593/event-info/world-athletics-history",
+    "https://worldathletics.org/competitions/world-athletics-championships/tokyo25/event-info",
+    "https://www.worldaquatics.com/news/3614955/50-years-of-world-aquatics-championships",
+    "https://www.worldaquatics.com/competitions/4725/world-aquatics-championships-singapore-2025/medals",
+    "https://www.worldaquatics.com/competitions/5546/world-aquatics-championships-budapest-2027/",
+    "https://www.fiba.basketball/en/history/201-fiba-basketball-world-cup",
+    "https://www.fiba.basketball/en/events/fiba-basketball-world-cup-2027",
+    "https://about.fiba.basketball/en/our-sport/basketball/national-team-competition-system"
+  ]
+}
