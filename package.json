@@ -12,6 +12,8 @@
     "validate:bank": "tsx scripts/validate-bank.ts",
     "generate:a2": "tsx scripts/generate-a2.ts",
     "audit:a2": "tsx scripts/audit-a2.ts",
+    "generate:b": "tsx scripts/generate-section-b.ts",
+    "audit:b": "tsx scripts/audit-section-b.ts",
     "audit:a1": "tsx scripts/audit-a1.ts",
     "audit:a1:remediation": "tsx scripts/validate-a1-remediation.ts",
     "audit:a1:content": "tsx scripts/validate-a1-final-remediation.ts"

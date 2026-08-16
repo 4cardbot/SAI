@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only release audit",
+  "releaseStatus": "hold_for_correction",
+  "currentDateUsed": "2026-08-17",
+  "scope": {
+    "section": "B",
+    "durableGroupFiles": 9,
+    "questionsReviewedStructurally": 1350,
+    "replacementRecordsReviewed": 85,
+    "mergedFile": "question_bank/section_b.json",
+    "inspectedNotification": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+    "notificationLocators": "Physiotherapy syllabus pp. 97–99; illustrative sample begins Annexure B p. 106",
+    "inspectedSourceCatalog": "src/data/sourceCatalog.ts",
+    "inspectedRemediationLogs": [
+      "research/section_b_factual_remediation_log.json",
+      "research/section_b_coverage_remediation_physiology_exercise_sportsphysio.json",
+      "research/section_b_answer_pattern_assessment_coverage_remediation.json",
+      "research/section_b_answer_pattern_remediation_anatomy_electro.json",
+      "research/section_b_release_independent_audit.json"
+    ],
+    "questionBanksModified": false,
+    "sourceCatalogModified": false,
+    "appOrScriptsModified": false,
+    "onlyReportWrittenByThisAudit": "research/section_b_release_final_independent_audit.json"
+  },
+  "method": [
+    "Loaded all nine durable group files and the merged file, then checked the unchanged ten-field schema, canonical topic values, Section B values, valid difficulty values, four unique options, zero-based keys, source IDs, duplicate IDs and full-row merge equality.",
+    "Read the SAI Physiotherapy syllabus on PDF pages 97–99 and compared every official heading and named component with the current topic/subtopic records, including the recently remediated GI, reproductive, special-senses, yoga, cardiovascular-assessment, pulmonary-assessment and body-composition records.",
+    "Re-read all 85 unique records named by the latest coverage and factual remediation logs for key correctness, option uniqueness, single-best-answer plausibility and explanation consistency.",
+    "Checked exact normalized stems, high-overlap substantive stems, answer-index balance, exact answer-position periods, repeated adjacent answer blocks and four-position window repetition in every group and globally.",
+    "Resolved every used source ID against sourceCatalog and checked title, publisher/authors, URL or localPath, scope, locator and local-path existence where applicable. Relevant official and textbook source pages/chapters were checked for the targeted remediations."
+  ],
+  "structuralChecks": {
+    "durableGroupCount": 9,
+    "durableGroupCounts": {
+      "Human Anatomy": 150,
+      "Human and Exercise Physiology": 150,
+      "Electrotherapy and Electrodiagnosis": 150,
+      "Exercise Therapy and Rehabilitation": 150,
+      "Biomechanics and Movement Analysis": 150,
+      "Psychology and Human Development": 150,
+      "Assessment, Diagnosis and Clinical Reasoning": 150,
+      "Sports Physiotherapy, Emergencies and Travel": 150,
+      "Sports Medicine, Nutrition and Research": 150
+    },
+    "durableTotal": 1350,
+    "mergedTotal": 1350,
+    "allNineCanonicalTopicsPresent": true,
+    "mergedMatchesDurableConcatenationFullRows": true,
+    "mergedFirstId": "b-anatomy-001",
+    "mergedLastId": "b-sportsmed-150",
+    "schemaErrors": 0,
+    "allQuestionsSectionB": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesValidZeroBased": true,
+    "allDifficultiesValid": true,
+    "duplicateIds": 0,
+    "exactDuplicateStemsAfterNormalization": 0
+  },
+  "syllabusCoverage": {
+    "status": "pass",
+    "requiredNamedComponentCounts": {
+      "Gastrointestinal physiology": 10,
+      "Reproductive physiology": 10,
+      "Special-senses physiology": 10,
+      "Yoga basics": 10,
+      "Cardiovascular dysfunction assessment": 5,
+      "Pulmonary dysfunction assessment": 5,
+      "Body-composition assessment and anthropometry": 10
+    },
+    "requiredComponentEvidence": [
+      {
+        "area": "Human and Exercise Physiology — gastrointestinal system",
+        "status": "pass",
+        "evidence": "Ten dedicated Gastrointestinal physiology records cover digestion, absorption, bile, pancreatic bicarbonate, GI hormones, villi, peristalsis and exercise-related splanchnic redistribution.",
+        "questionIds": ["b-physiology-013", "b-physiology-014", "b-physiology-015", "b-physiology-028", "b-physiology-029", "b-physiology-030", "b-physiology-043", "b-physiology-044", "b-physiology-045", "b-physiology-058"]
+      },
+      {
+        "area": "Human and Exercise Physiology — endocrine and reproductive systems",
+        "status": "pass",
+        "evidence": "Ten dedicated Reproductive physiology records cover GnRH, LH/FSH, Leydig and Sertoli cells, ovulation, corpus luteum, progesterone, inhibin, oestrogen and low-energy-availability effects.",
+        "questionIds": ["b-physiology-059", "b-physiology-060", "b-physiology-073", "b-physiology-074", "b-physiology-075", "b-physiology-088", "b-physiology-089", "b-physiology-090", "b-physiology-103", "b-physiology-104"]
+      },
+      {
+        "area": "Human and Exercise Physiology — thermoregulation and special senses",
+        "status": "pass",
+        "evidence": "Ten dedicated Special-senses physiology records cover rods, semicircular canals, organ of Corti, fovea, vestibulo-ocular reflex, accommodation, optic-chiasm fibres, phototransduction, otolith organs and ossicles.",
+        "questionIds": ["b-physiology-105", "b-physiology-118", "b-physiology-119", "b-physiology-120", "b-physiology-133", "b-physiology-134", "b-physiology-135", "b-physiology-148", "b-physiology-149", "b-physiology-150"]
+      },
+      {
+        "area": "Exercise Therapy and Rehabilitation — massage therapy and yoga basics",
+        "status": "pass_with_blockers_in_item_quality",
+        "evidence": "Ten dedicated Yoga basics records are present. The area is covered, but b-exercise-038 and b-exercise-100 have answer-quality defects classified below.",
+        "questionIds": ["b-exercise-012", "b-exercise-025", "b-exercise-038", "b-exercise-051", "b-exercise-064", "b-exercise-076", "b-exercise-088", "b-exercise-100", "b-exercise-113", "b-exercise-126"]
+      },
+      {
+        "area": "Assessment, Diagnosis and Clinical Reasoning — cardiovascular and pulmonary dysfunction",
+        "status": "pass",
+        "evidence": "Five cardiovascular-assessment and five pulmonary-assessment records cover pre-test red flags, blood-pressure technique, abnormal exercise responses, ECG/arrhythmia, spirometry, oximetry, pursed-lip breathing, six-minute walk testing and desaturation response.",
+        "questionIds": ["b-assessment-138", "b-assessment-139", "b-assessment-140", "b-assessment-141", "b-assessment-142", "b-assessment-143", "b-assessment-144", "b-assessment-145", "b-assessment-146", "b-assessment-147"]
+      },
+      {
+        "area": "Sports Physiotherapy — body composition assessment",
+        "status": "pass_with_blocker_in_item_quality",
+        "evidence": "Ten dedicated Body-composition assessment and anthropometry records cover BMI, BMI calculation, skinfolds, circumferences, hydration, measurement error and contextual interpretation. b-sportsphysio-101 has two substantively valid answer choices and is classified below.",
+        "questionIds": ["b-sportsphysio-012", "b-sportsphysio-025", "b-sportsphysio-038", "b-sportsphysio-051", "b-sportsphysio-063", "b-sportsphysio-076", "b-sportsphysio-089", "b-sportsphysio-101", "b-sportsphysio-113", "b-sportsphysio-126"]
+      }
+    ],
+    "officialHeadingChecks": [
+      {"heading": "Human Anatomy", "status": "pass", "evidence": "General terminology, musculoskeletal anatomy, neuroanatomy and systemic anatomy are represented by dedicated subtopics."},
+      {"heading": "Human and Exercise Physiology", "status": "pass", "evidence": "Homeostasis, blood/immune physiology, nerve/muscle, renal/excretory content, cardiovascular/respiratory/GI content, endocrine/reproductive, thermoregulation and special senses are represented; central/autonomic evidence includes b-anatomy-146, b-physiology-092 and b-physiology-121."},
+      {"heading": "Electrotherapy and Electrodiagnosis", "status": "pass", "evidence": "Electrical principles, current classes, AC/DC, named modalities, biofeedback/electrodiagnosis and safety are represented."},
+      {"heading": "Exercise Therapy and Rehabilitation", "status": "pass_with_item_blockers", "evidence": "Exercise prescription, stretching, strengthening, mobilisation, hydrotherapy, PNF, fitness/loading, massage, yoga and functional retraining are represented."},
+      {"heading": "Biomechanics and Movement Analysis", "status": "pass", "evidence": "Biophysics, posture/gait, balance, joints/spine, kinetics/kinematics and sport-specific skills are represented."},
+      {"heading": "Psychology and Human Development", "status": "pass", "evidence": "Human psychology, sport-performance psychology, growth/development/maturation and safeguarding are represented."},
+      {"heading": "Assessment, Diagnosis and Clinical Reasoning", "status": "pass", "evidence": "Evaluation, physical diagnosis, manipulative/manual therapy, neurodynamic reasoning, movement/cardiovascular/pulmonary/MSK dysfunction, pain and documentation are represented."},
+      {"heading": "Sports Physiotherapy", "status": "pass_with_item_blocker", "evidence": "Principles, body composition, injury biomechanics, prevention/management/rehabilitation, emergencies, screening, non-traumatic conditions and team travel are represented."},
+      {"heading": "Sports Medicine, Nutrition and Research", "status": "pass", "evidence": "Sports medicine, doping, nutrition, research methodology, biostatistics, ethics and data governance are represented."}
+    ]
+  },
+  "replacementRecordReview": {
+    "uniqueRecordsReviewed": 85,
+    "recordsWithoutFinding": 81,
+    "blockingFindings": [
+      {
+        "id": "b-physiology-028",
+        "type": "duplicate_correct_options",
+        "severity": "blocking",
+        "evidence": "Option 1, 'Gallbladder contraction with enzyme release', and keyed option 3, 'Gallbladder contraction and enzyme secretion', express the same correct CCK response. The question does not have one unambiguous correct option.",
+        "sourceId": "openstax-anatomy-physiology-2e",
+        "requiredDisposition": "Replace or rewrite one option so only one choice describes the cited CCK response."
+      },
+      {
+        "id": "b-exercise-038",
+        "type": "multiple_plausible_correct_options",
+        "severity": "blocking",
+        "evidence": "For the stem asking for safe introductory yoga instruction, both option 1, 'Use qualified instruction and avoid pain', and keyed option 3, 'Progress gradually without painful forcing', are source-consistent safe instructions.",
+        "sourceId": "nccih-yoga-safety",
+        "requiredDisposition": "Rewrite the stem or one option to create a single best answer."
+      },
+      {
+        "id": "b-exercise-100",
+        "type": "wrong_answer_key",
+        "severity": "blocking",
+        "evidence": "The scenario describes a tolerated dose with no next-day worsening. Option 0, 'The dose may be tolerated; keep monitoring', matches the explanation. Keyed option 3, 'No further assessment is needed', contradicts the explanation's requirement for graded monitoring.",
+        "sourceId": "nccih-yoga-safety",
+        "requiredDisposition": "Set the key to option 0 or rewrite the option set and explanation."
+      },
+      {
+        "id": "b-sportsphysio-101",
+        "type": "multiple_plausible_correct_options",
+        "severity": "blocking",
+        "evidence": "For a dehydrated athlete with lower body mass, option 0, 'Hydration can alter body mass', is already a valid reason for caution, while keyed option 3 adds the same reason plus estimates. The answer is not unambiguous.",
+        "sourceId": "acsm-getp-12",
+        "requiredDisposition": "Make the shorter option clearly incomplete or replace it with a distinct false distractor."
+      }
+    ],
+    "verifiedRecentRepairs": [
+      "b-physiology-019",
+      "b-physiology-043",
+      "b-sportsphysio-064",
+      "b-sportsphysio-065",
+      "b-sportsphysio-071",
+      "b-sportsphysio-072",
+      "b-sportsphysio-073",
+      "b-sportsphysio-074",
+      "b-sportsmed-021",
+      "b-sportsmed-024",
+      "b-sportsmed-026",
+      "b-sportsmed-027",
+      "b-sportsmed-028",
+      "b-sportsmed-029",
+      "b-sportsmed-039",
+      "b-sportsmed-040",
+      "b-sportsmed-043",
+      "b-sportsmed-044",
+      "b-sportsmed-046",
+      "b-sportsmed-050",
+      "b-anatomy-049",
+      "b-anatomy-079",
+      "b-electro-122",
+      "b-biomechanics-047",
+      "b-biomechanics-121",
+      "b-biomechanics-131"
+    ],
+    "reviewConclusion": "No additional key contradiction or unsafe treatment instruction was found in the other reviewed remediation records. Release remains blocked only by the four listed item-quality defects."
+  },
+  "duplicateReview": {
+    "exactDuplicateStems": 0,
+    "substantiveDuplicateOrHighOverlapPairs": [
+      {"questionIds": ["b-physiology-098", "b-psychology-086"], "classification": "non_blocking_editorial", "evidence": "Both address increased training load with inadequate recovery increasing illness/injury or maladaptation risk."},
+      {"questionIds": ["b-assessment-085", "b-sportsphysio-070"], "classification": "non_blocking_editorial", "evidence": "Both use fifth-metatarsal tenderness after inversion injury to ask for fracture assessment rather than assuming a sprain."},
+      {"questionIds": ["b-psychology-136", "b-sportsmed-131"], "classification": "non_blocking_editorial", "evidence": "Both test informed consent as relevant information plus a voluntary informed decision."},
+      {"questionIds": ["b-assessment-024", "b-sportsphysio-046"], "classification": "non_blocking_editorial", "evidence": "Both test that a painful shoulder arc is one finding requiring integration rather than a standalone diagnosis."},
+      {"questionIds": ["b-biomechanics-020", "b-sportsphysio-040"], "classification": "non_blocking_editorial", "evidence": "Both test the rotator cuff's contribution to humeral-head control and shoulder stability, although the keyed wording differs."}
+    ],
+    "pairedConceptsNotClassifiedAsDuplicates": [
+      {"questionIds": ["b-assessment-057", "b-assessment-058"], "reason": "Valgus and varus stress tests target different collateral ligaments and are complementary, not duplicate stems."},
+      {"questionIds": ["b-sportsmed-115", "b-sportsmed-116", "b-sportsmed-117"], "reason": "Positive/negative likelihood-ratio definition and formula items test distinct relationships."}
+    ]
+  },
+  "answerPatternAndBalanceReview": {
+    "globalAnswerIndexCountsZeroBased": [338, 337, 340, 335],
+    "globalAnswerIndexPercentages": [25.04, 24.96, 25.19, 24.81],
+    "groupAnswerBalanceRangePercent": {"minimum": 20.0, "maximum": 30.0},
+    "nonPeriodicStatus": "pass",
+    "exactPeriodsChecked": "All periods from 1 through floor(n/2) in each 150-record group and globally; no meaningful exact period detected.",
+    "repeatedAdjacentAnswerBlocks": "None detected in any group or globally.",
+    "fourPositionWindowReview": "Every group has more than 100 distinct four-position windows; no short repeating cycle was detected. Global sequence has 254 distinct four-position windows and maximum frequency 13.",
+    "answerPatternBlockers": 0
+  },
+  "optionLengthReview": {
+    "strictlyLongestCorrect": 265,
+    "strictlyLongestCorrectPercent": 19.63,
+    "strictlyShortestCorrect": 269,
+    "strictlyShortestCorrectPercent": 19.93,
+    "correctAtLeast10CharactersLongerThanDistractorMedian": 26,
+    "optionSpreadsOver15Characters": 120,
+    "optionSpreadsOver15CharactersPercent": 8.89,
+    "maximumOptionSpread": 41,
+    "maximumOptionSpreadQuestionId": "b-assessment-144",
+    "namedFlags": [
+      {"questionId": "b-exercise-093", "spread": 14, "status": "non_blocking_editorial", "evidence": "The fourth distractor is overqualified, but the keyed option is not strictly longest and the spread is below the >15-character review threshold."},
+      {"questionId": "b-biomechanics-088", "spread": 19, "status": "non_blocking_editorial", "evidence": "The keyed option is strictly longest because it states the complete swing-foot-clearance purpose; its current grammar is complete. Review for parallel distractor wording, but no answer-key defect was found."}
+    ],
+    "status": "non_blocking_editorial_flags_only",
+    "interpretation": "Correct-option longest and shortest rates are both below 35%, and correct-option length is not a systematic giveaway. Wide spreads remain editorial review candidates, not release blockers by themselves."
+  },
+  "provenanceReview": {
+    "usedSourceIdCount": 42,
+    "allUsedSourceIdsResolve": true,
+    "allUsedEntriesHaveTitle": true,
+    "allUsedEntriesHavePublisherOrAuthors": true,
+    "allUsedEntriesHaveUrlOrLocalPath": true,
+    "allUsedEntriesHaveScope": true,
+    "allUsedEntriesHaveLocator": true,
+    "localPathsCheckedAndExisting": true,
+    "inspectedSourceIds": [
+      "acsm-getp-12",
+      "ais-supplements-position-2022",
+      "apta-lateral-ankle-cpg-2021",
+      "aspetar-acl-cpg-2023",
+      "basic-biomechanics-hall",
+      "brukner-khan-clinical-sports-medicine",
+      "brukner-khan-clinical-sports-medicine-vol2",
+      "claytons-electrotherapy",
+      "clinical-sports-nutrition-burke",
+      "doha-groin-consensus-2015",
+      "foundations-sport-exercise-psychology",
+      "ioc-concussion-amsterdam-2022",
+      "ioc-load-illness-2016",
+      "ioc-manual-sports-injuries",
+      "ioc-reds-2023",
+      "ioc-sports-nutrition-consensus",
+      "kisner-therapeutic-exercise",
+      "konin-special-tests-orthopedic-examination",
+      "london-hamstring-consensus-2023",
+      "magee-orthopaedic-assessment",
+      "maitland-peripheral-manipulation",
+      "nada-india-official-2026",
+      "nada-india-rules-2021",
+      "nccih-yoga-safety",
+      "neumann-kinesiology",
+      "nist-sematech-statistics",
+      "nsca-essentials-5",
+      "openstax-anatomy-physiology-2e",
+      "osullivan-rehabilitation",
+      "perry-burnfield-gait-analysis",
+      "physiology-sport-exercise-kenney",
+      "shacklock-clinical-neurodynamics",
+      "sports-injury-prevention-rehabilitation-joyce-lewindon",
+      "wada-code-2021",
+      "wada-istue-2023",
+      "wada-prohibited-list-2026",
+      "watson-electrotherapy",
+      "who-medication-without-harm-2022",
+      "world-physiotherapy-consent-2023",
+      "world-physiotherapy-ebp-2023",
+      "world-physiotherapy-ethics-2023",
+      "yoga-athletes-review-2025"
+    ],
+    "targetedSourceEvidence": [
+      {"sourceId": "openstax-anatomy-physiology-2e", "evidence": "Official OpenStax chapters 23, 27 and 17 support the GI, reproductive and special-senses replacement concepts."},
+      {"sourceId": "nccih-yoga-safety", "evidence": "NCCIH identifies asana, pranayama, qualified instruction and avoidance of forceful/extreme practice; it also supports symptom-aware safety review."},
+      {"sourceId": "yoga-athletes-review-2025", "evidence": "The cited systematic review supports cautious adjunctive interpretation of yoga-related balance and performance outcomes."},
+      {"sourceId": "acsm-getp-12", "evidence": "ACSM's official 12th-edition description covers exercise testing, prescription, safety and applied assessment; the catalog maps the replacement records to body-composition and testing chapters."},
+      {"sourceId": "physiology-sport-exercise-kenney", "evidence": "The supplied textbook is cited for exercise blood-flow redistribution, GI symptoms and Bohr-effect/exercise physiology concepts."},
+      {"sourceId": "wada-code-2021", "evidence": "The catalog locator includes Articles 2.1, 2.2, 18 and 21.1.4, supporting the current anti-doping responsibility item."},
+      {"sourceId": "who-medication-without-harm-2022", "evidence": "WHO key messages support medication review, shared decision-making, complete medication lists and health-worker coordination for the current medication-safety items."},
+      {"sourceId": "perry-burnfield-gait-analysis", "evidence": "The catalog maps the vaulting and pathological-gait item to supplied gait-analysis chapters."},
+      {"sourceId": "kisner-therapeutic-exercise", "evidence": "The catalog maps resistance prescription and rest-interval concepts to the therapeutic-exercise text."}
+    ],
+    "provenanceFlags": [
+      {"status": "non_blocking_editorial", "evidence": "Some catalog locators, especially ACSM's online/publisher entry and broad supplied-ebook entries, identify chapters or sections rather than a page number; source identity, scope and locator remain sufficient for audit traceability."}
+    ]
+  },
+  "classifiedFindings": {
+    "blockingDefects": [
+      "b-physiology-028 has two substantively identical correct options.",
+      "b-exercise-038 has two source-consistent safe yoga instructions.",
+      "b-exercise-100 keys an unsafe/incomplete interpretation instead of the option matching its explanation.",
+      "b-sportsphysio-101 has two substantively valid hydration/body-mass explanations."
+    ],
+    "nonBlockingEditorialFlags": [
+      "Five substantive near-duplicate pairs should be differentiated in a later editorial pass.",
+      "b-exercise-093 and b-biomechanics-088 need option-parallelism review; option-length metrics do not create a systematic answer giveaway.",
+      "Some source locators could be made more granular where exact chapter/page information is readily available."
+    ],
+    "passes": [
+      "Nine groups exactly 150 and merged bank exactly 1,350.",
+      "Merged bank equals the durable-group concatenation row-for-row.",
+      "All official Physiotherapy headings and the named recently remediated components have substantive coverage.",
+      "Schema, four-option uniqueness, zero-based keys, IDs and exact duplicate stems pass.",
+      "All used provenance IDs resolve with complete catalog metadata.",
+      "Global answer indices are balanced at approximately 25% each and no nontrivial periodic answer-position pattern remains.",
+      "Correct-option longest/shortest rates are below the configured 35% targets."
+    ]
+  },
+  "recommendedDisposition": [
+    "Correct the four blocking records, regenerate section_b.json from the durable files, and rerun this independent audit.",
+    "After release blockers are corrected, optionally deduplicate or differentiate the five editorial near-duplicate pairs and tighten the named option-length flags."
+  ]
+}

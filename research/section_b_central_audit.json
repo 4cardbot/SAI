@@ -1,0 +1,2057 @@
+{
+  "generatedAt": "2026-08-17",
+  "status": "pass-with-review-flags",
+  "errors": [],
+  "warnings": [
+    "Human and Exercise Physiology has 26 option-length outliers over 15 characters",
+    "Electrotherapy and Electrodiagnosis has 7 option-length outliers over 15 characters",
+    "Exercise Therapy and Rehabilitation has 37 option-length outliers over 15 characters",
+    "Biomechanics and Movement Analysis has 37 option-length outliers over 15 characters",
+    "Assessment, Diagnosis and Clinical Reasoning has 10 option-length outliers over 15 characters",
+    "Sports Physiotherapy, Emergencies and Travel has 4 option-length outliers over 15 characters",
+    "Merged bank has 121 option-length outliers over 15 characters"
+  ],
+  "total": 1350,
+  "answerIndices": [
+    339,
+    337,
+    340,
+    334
+  ],
+  "lengthAudit": {
+    "strictLongest": 266,
+    "strictShortest": 269,
+    "outliers": 121,
+    "flags": [
+      {
+        "id": "b-anatomy-029",
+        "spread": 12,
+        "correct": 63,
+        "medianDistractor": 53
+      },
+      {
+        "id": "b-anatomy-085",
+        "spread": 15,
+        "correct": 28,
+        "medianDistractor": 16.5
+      },
+      {
+        "id": "b-anatomy-088",
+        "spread": 13,
+        "correct": 28,
+        "medianDistractor": 17.5
+      },
+      {
+        "id": "b-physiology-001",
+        "spread": 24,
+        "correct": 27,
+        "medianDistractor": 46.5
+      },
+      {
+        "id": "b-physiology-003",
+        "spread": 28,
+        "correct": 26,
+        "medianDistractor": 48.5
+      },
+      {
+        "id": "b-physiology-005",
+        "spread": 20,
+        "correct": 41,
+        "medianDistractor": 56.5
+      },
+      {
+        "id": "b-physiology-006",
+        "spread": 16,
+        "correct": 37,
+        "medianDistractor": 51
+      },
+      {
+        "id": "b-physiology-010",
+        "spread": 18,
+        "correct": 39,
+        "medianDistractor": 54.5
+      },
+      {
+        "id": "b-physiology-011",
+        "spread": 20,
+        "correct": 43,
+        "medianDistractor": 44
+      },
+      {
+        "id": "b-physiology-018",
+        "spread": 17,
+        "correct": 40,
+        "medianDistractor": 26
+      },
+      {
+        "id": "b-physiology-028",
+        "spread": 25,
+        "correct": 44,
+        "medianDistractor": 38.5
+      },
+      {
+        "id": "b-physiology-032",
+        "spread": 12,
+        "correct": 29,
+        "medianDistractor": 18
+      },
+      {
+        "id": "b-physiology-034",
+        "spread": 16,
+        "correct": 44,
+        "medianDistractor": 46
+      },
+      {
+        "id": "b-physiology-037",
+        "spread": 18,
+        "correct": 22,
+        "medianDistractor": 31.5
+      },
+      {
+        "id": "b-physiology-053",
+        "spread": 19,
+        "correct": 43,
+        "medianDistractor": 41
+      },
+      {
+        "id": "b-physiology-054",
+        "spread": 20,
+        "correct": 28,
+        "medianDistractor": 42
+      },
+      {
+        "id": "b-physiology-062",
+        "spread": 17,
+        "correct": 29,
+        "medianDistractor": 40.5
+      },
+      {
+        "id": "b-physiology-071",
+        "spread": 19,
+        "correct": 17,
+        "medianDistractor": 17.5
+      },
+      {
+        "id": "b-physiology-072",
+        "spread": 17,
+        "correct": 37,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-physiology-083",
+        "spread": 19,
+        "correct": 34,
+        "medianDistractor": 51
+      },
+      {
+        "id": "b-physiology-086",
+        "spread": 21,
+        "correct": 26,
+        "medianDistractor": 43
+      },
+      {
+        "id": "b-physiology-095",
+        "spread": 16,
+        "correct": 55,
+        "medianDistractor": 50
+      },
+      {
+        "id": "b-physiology-099",
+        "spread": 14,
+        "correct": 33,
+        "medianDistractor": 23
+      },
+      {
+        "id": "b-physiology-100",
+        "spread": 16,
+        "correct": 37,
+        "medianDistractor": 45
+      },
+      {
+        "id": "b-physiology-110",
+        "spread": 27,
+        "correct": 34,
+        "medianDistractor": 56.5
+      },
+      {
+        "id": "b-physiology-111",
+        "spread": 19,
+        "correct": 29,
+        "medianDistractor": 39
+      },
+      {
+        "id": "b-physiology-115",
+        "spread": 20,
+        "correct": 44,
+        "medianDistractor": 49
+      },
+      {
+        "id": "b-physiology-121",
+        "spread": 18,
+        "correct": 12,
+        "medianDistractor": 15
+      },
+      {
+        "id": "b-physiology-132",
+        "spread": 17,
+        "correct": 30,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-physiology-137",
+        "spread": 19,
+        "correct": 31,
+        "medianDistractor": 44.5
+      },
+      {
+        "id": "b-physiology-141",
+        "spread": 18,
+        "correct": 41,
+        "medianDistractor": 47.5
+      },
+      {
+        "id": "b-electro-063",
+        "spread": 17,
+        "correct": 10,
+        "medianDistractor": 17.5
+      },
+      {
+        "id": "b-electro-071",
+        "spread": 16,
+        "correct": 37,
+        "medianDistractor": 48
+      },
+      {
+        "id": "b-electro-074",
+        "spread": 17,
+        "correct": 19,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-electro-098",
+        "spread": 19,
+        "correct": 29,
+        "medianDistractor": 34
+      },
+      {
+        "id": "b-electro-107",
+        "spread": 18,
+        "correct": 53,
+        "medianDistractor": 51
+      },
+      {
+        "id": "b-electro-115",
+        "spread": 18,
+        "correct": 48,
+        "medianDistractor": 55.5
+      },
+      {
+        "id": "b-electro-118",
+        "spread": 17,
+        "correct": 38,
+        "medianDistractor": 43.5
+      },
+      {
+        "id": "b-exercise-005",
+        "spread": 22,
+        "correct": 31,
+        "medianDistractor": 16.5
+      },
+      {
+        "id": "b-exercise-020",
+        "spread": 13,
+        "correct": 41,
+        "medianDistractor": 29.5
+      },
+      {
+        "id": "b-exercise-024",
+        "spread": 16,
+        "correct": 29,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-exercise-033",
+        "spread": 19,
+        "correct": 31,
+        "medianDistractor": 22
+      },
+      {
+        "id": "b-exercise-035",
+        "spread": 27,
+        "correct": 23,
+        "medianDistractor": 25.5
+      },
+      {
+        "id": "b-exercise-037",
+        "spread": 17,
+        "correct": 28,
+        "medianDistractor": 28.5
+      },
+      {
+        "id": "b-exercise-039",
+        "spread": 23,
+        "correct": 34,
+        "medianDistractor": 37
+      },
+      {
+        "id": "b-exercise-040",
+        "spread": 24,
+        "correct": 32,
+        "medianDistractor": 32
+      },
+      {
+        "id": "b-exercise-044",
+        "spread": 17,
+        "correct": 34,
+        "medianDistractor": 40.5
+      },
+      {
+        "id": "b-exercise-049",
+        "spread": 16,
+        "correct": 37,
+        "medianDistractor": 38
+      },
+      {
+        "id": "b-exercise-052",
+        "spread": 17,
+        "correct": 31,
+        "medianDistractor": 36.5
+      },
+      {
+        "id": "b-exercise-055",
+        "spread": 25,
+        "correct": 8,
+        "medianDistractor": 7.5
+      },
+      {
+        "id": "b-exercise-058",
+        "spread": 21,
+        "correct": 32,
+        "medianDistractor": 29
+      },
+      {
+        "id": "b-exercise-067",
+        "spread": 16,
+        "correct": 27,
+        "medianDistractor": 27
+      },
+      {
+        "id": "b-exercise-069",
+        "spread": 26,
+        "correct": 28,
+        "medianDistractor": 29
+      },
+      {
+        "id": "b-exercise-071",
+        "spread": 18,
+        "correct": 22,
+        "medianDistractor": 25
+      },
+      {
+        "id": "b-exercise-077",
+        "spread": 13,
+        "correct": 26,
+        "medianDistractor": 15.5
+      },
+      {
+        "id": "b-exercise-078",
+        "spread": 23,
+        "correct": 27,
+        "medianDistractor": 31.5
+      },
+      {
+        "id": "b-exercise-085",
+        "spread": 18,
+        "correct": 39,
+        "medianDistractor": 38
+      },
+      {
+        "id": "b-exercise-089",
+        "spread": 29,
+        "correct": 31,
+        "medianDistractor": 35
+      },
+      {
+        "id": "b-exercise-090",
+        "spread": 17,
+        "correct": 26,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-exercise-096",
+        "spread": 19,
+        "correct": 42,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-exercise-105",
+        "spread": 20,
+        "correct": 37,
+        "medianDistractor": 40
+      },
+      {
+        "id": "b-exercise-108",
+        "spread": 17,
+        "correct": 34,
+        "medianDistractor": 36
+      },
+      {
+        "id": "b-exercise-109",
+        "spread": 24,
+        "correct": 28,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-exercise-112",
+        "spread": 24,
+        "correct": 35,
+        "medianDistractor": 39
+      },
+      {
+        "id": "b-exercise-119",
+        "spread": 18,
+        "correct": 34,
+        "medianDistractor": 35.5
+      },
+      {
+        "id": "b-exercise-121",
+        "spread": 22,
+        "correct": 30,
+        "medianDistractor": 31.5
+      },
+      {
+        "id": "b-exercise-123",
+        "spread": 19,
+        "correct": 29,
+        "medianDistractor": 30
+      },
+      {
+        "id": "b-exercise-127",
+        "spread": 25,
+        "correct": 29,
+        "medianDistractor": 42.5
+      },
+      {
+        "id": "b-exercise-128",
+        "spread": 18,
+        "correct": 32,
+        "medianDistractor": 35
+      },
+      {
+        "id": "b-exercise-131",
+        "spread": 17,
+        "correct": 26,
+        "medianDistractor": 22
+      },
+      {
+        "id": "b-exercise-132",
+        "spread": 22,
+        "correct": 30,
+        "medianDistractor": 33.5
+      },
+      {
+        "id": "b-exercise-136",
+        "spread": 26,
+        "correct": 31,
+        "medianDistractor": 31.5
+      },
+      {
+        "id": "b-exercise-137",
+        "spread": 27,
+        "correct": 26,
+        "medianDistractor": 43
+      },
+      {
+        "id": "b-exercise-141",
+        "spread": 23,
+        "correct": 38,
+        "medianDistractor": 47
+      },
+      {
+        "id": "b-exercise-143",
+        "spread": 26,
+        "correct": 26,
+        "medianDistractor": 42
+      },
+      {
+        "id": "b-exercise-144",
+        "spread": 16,
+        "correct": 28,
+        "medianDistractor": 32
+      },
+      {
+        "id": "b-exercise-150",
+        "spread": 19,
+        "correct": 27,
+        "medianDistractor": 33
+      },
+      {
+        "id": "b-biomechanics-005",
+        "spread": 21,
+        "correct": 45,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-biomechanics-011",
+        "spread": 16,
+        "correct": 36,
+        "medianDistractor": 36.5
+      },
+      {
+        "id": "b-biomechanics-023",
+        "spread": 17,
+        "correct": 43,
+        "medianDistractor": 45
+      },
+      {
+        "id": "b-biomechanics-032",
+        "spread": 19,
+        "correct": 32,
+        "medianDistractor": 28.5
+      },
+      {
+        "id": "b-biomechanics-034",
+        "spread": 20,
+        "correct": 39,
+        "medianDistractor": 29.5
+      },
+      {
+        "id": "b-biomechanics-035",
+        "spread": 24,
+        "correct": 32,
+        "medianDistractor": 33.5
+      },
+      {
+        "id": "b-biomechanics-046",
+        "spread": 21,
+        "correct": 40,
+        "medianDistractor": 39
+      },
+      {
+        "id": "b-biomechanics-047",
+        "spread": 17,
+        "correct": 34,
+        "medianDistractor": 45.5
+      },
+      {
+        "id": "b-biomechanics-048",
+        "spread": 17,
+        "correct": 48,
+        "medianDistractor": 36.5
+      },
+      {
+        "id": "b-biomechanics-050",
+        "spread": 25,
+        "correct": 23,
+        "medianDistractor": 23.5
+      },
+      {
+        "id": "b-biomechanics-053",
+        "spread": 19,
+        "correct": 28,
+        "medianDistractor": 25.5
+      },
+      {
+        "id": "b-biomechanics-054",
+        "spread": 20,
+        "correct": 20,
+        "medianDistractor": 28
+      },
+      {
+        "id": "b-biomechanics-056",
+        "spread": 19,
+        "correct": 36,
+        "medianDistractor": 33
+      },
+      {
+        "id": "b-biomechanics-057",
+        "spread": 16,
+        "correct": 32,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-biomechanics-058",
+        "spread": 25,
+        "correct": 24,
+        "medianDistractor": 28.5
+      },
+      {
+        "id": "b-biomechanics-059",
+        "spread": 19,
+        "correct": 12,
+        "medianDistractor": 24.5
+      },
+      {
+        "id": "b-biomechanics-061",
+        "spread": 19,
+        "correct": 28,
+        "medianDistractor": 36
+      },
+      {
+        "id": "b-biomechanics-068",
+        "spread": 18,
+        "correct": 13,
+        "medianDistractor": 22
+      },
+      {
+        "id": "b-biomechanics-072",
+        "spread": 20,
+        "correct": 9,
+        "medianDistractor": 9
+      },
+      {
+        "id": "b-biomechanics-082",
+        "spread": 17,
+        "correct": 32,
+        "medianDistractor": 32.5
+      },
+      {
+        "id": "b-biomechanics-084",
+        "spread": 21,
+        "correct": 29,
+        "medianDistractor": 29.5
+      },
+      {
+        "id": "b-biomechanics-088",
+        "spread": 19,
+        "correct": 46,
+        "medianDistractor": 38.5
+      },
+      {
+        "id": "b-biomechanics-089",
+        "spread": 19,
+        "correct": 38,
+        "medianDistractor": 37
+      },
+      {
+        "id": "b-biomechanics-094",
+        "spread": 20,
+        "correct": 38,
+        "medianDistractor": 34.5
+      },
+      {
+        "id": "b-biomechanics-096",
+        "spread": 24,
+        "correct": 15,
+        "medianDistractor": 16
+      },
+      {
+        "id": "b-biomechanics-097",
+        "spread": 16,
+        "correct": 24,
+        "medianDistractor": 22.5
+      },
+      {
+        "id": "b-biomechanics-101",
+        "spread": 20,
+        "correct": 13,
+        "medianDistractor": 19.5
+      },
+      {
+        "id": "b-biomechanics-103",
+        "spread": 21,
+        "correct": 34,
+        "medianDistractor": 36.5
+      },
+      {
+        "id": "b-biomechanics-111",
+        "spread": 23,
+        "correct": 9,
+        "medianDistractor": 23.5
+      },
+      {
+        "id": "b-biomechanics-112",
+        "spread": 19,
+        "correct": 22,
+        "medianDistractor": 19.5
+      },
+      {
+        "id": "b-biomechanics-113",
+        "spread": 17,
+        "correct": 31,
+        "medianDistractor": 32
+      },
+      {
+        "id": "b-biomechanics-115",
+        "spread": 20,
+        "correct": 44,
+        "medianDistractor": 41
+      },
+      {
+        "id": "b-biomechanics-116",
+        "spread": 25,
+        "correct": 14,
+        "medianDistractor": 18
+      },
+      {
+        "id": "b-biomechanics-121",
+        "spread": 21,
+        "correct": 46,
+        "medianDistractor": 36
+      },
+      {
+        "id": "b-biomechanics-130",
+        "spread": 16,
+        "correct": 28,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-biomechanics-132",
+        "spread": 18,
+        "correct": 32,
+        "medianDistractor": 26.5
+      },
+      {
+        "id": "b-biomechanics-147",
+        "spread": 20,
+        "correct": 24,
+        "medianDistractor": 26
+      },
+      {
+        "id": "b-assessment-038",
+        "spread": 12,
+        "correct": 67,
+        "medianDistractor": 56.5
+      },
+      {
+        "id": "b-assessment-138",
+        "spread": 20,
+        "correct": 48,
+        "medianDistractor": 46.5
+      },
+      {
+        "id": "b-assessment-139",
+        "spread": 30,
+        "correct": 92,
+        "medianDistractor": 66
+      },
+      {
+        "id": "b-assessment-140",
+        "spread": 28,
+        "correct": 66,
+        "medianDistractor": 49.5
+      },
+      {
+        "id": "b-assessment-141",
+        "spread": 24,
+        "correct": 80,
+        "medianDistractor": 66
+      },
+      {
+        "id": "b-assessment-142",
+        "spread": 24,
+        "correct": 73,
+        "medianDistractor": 55.5
+      },
+      {
+        "id": "b-assessment-143",
+        "spread": 24,
+        "correct": 22,
+        "medianDistractor": 37.5
+      },
+      {
+        "id": "b-assessment-144",
+        "spread": 41,
+        "correct": 86,
+        "medianDistractor": 56.5
+      },
+      {
+        "id": "b-assessment-145",
+        "spread": 19,
+        "correct": 58,
+        "medianDistractor": 47.5
+      },
+      {
+        "id": "b-assessment-146",
+        "spread": 19,
+        "correct": 64,
+        "medianDistractor": 55
+      },
+      {
+        "id": "b-assessment-147",
+        "spread": 31,
+        "correct": 80,
+        "medianDistractor": 58
+      },
+      {
+        "id": "b-sportsphysio-033",
+        "spread": 17,
+        "correct": 31,
+        "medianDistractor": 30.5
+      },
+      {
+        "id": "b-sportsphysio-044",
+        "spread": 18,
+        "correct": 48,
+        "medianDistractor": 48
+      },
+      {
+        "id": "b-sportsphysio-045",
+        "spread": 20,
+        "correct": 40,
+        "medianDistractor": 45
+      },
+      {
+        "id": "b-sportsphysio-058",
+        "spread": 16,
+        "correct": 20,
+        "medianDistractor": 22
+      },
+      {
+        "id": "b-sportsmed-032",
+        "spread": 13,
+        "correct": 32,
+        "medianDistractor": 21.5
+      },
+      {
+        "id": "b-sportsmed-035",
+        "spread": 13,
+        "correct": 33,
+        "medianDistractor": 21.5
+      },
+      {
+        "id": "b-sportsmed-039",
+        "spread": 12,
+        "correct": 35,
+        "medianDistractor": 23
+      },
+      {
+        "id": "b-sportsmed-052",
+        "spread": 12,
+        "correct": 28,
+        "medianDistractor": 18
+      },
+      {
+        "id": "b-sportsmed-097",
+        "spread": 12,
+        "correct": 31,
+        "medianDistractor": 21
+      }
+    ]
+  },
+  "groups": [
+    {
+      "topic": "Human Anatomy",
+      "count": 150,
+      "subtopics": {
+        "anatomical terminology": 15,
+        "planes and axes": 15,
+        "osteology and arthrology": 15,
+        "upper-limb anatomy": 15,
+        "lower-limb anatomy": 15,
+        "pelvis and spine": 15,
+        "muscle origins/insertions/actions": 17,
+        "peripheral nerves and plexuses": 13,
+        "dermatomes/myotomes/reflexes": 15,
+        "systemic anatomy relevant to athletes": 15
+      },
+      "difficulty": {
+        "foundational": 105,
+        "applied": 37,
+        "analytical": 8
+      },
+      "answerIndices": [
+        41,
+        45,
+        34,
+        30
+      ],
+      "sources": {
+        "openstax-anatomy-physiology-2e": 25,
+        "neumann-kinesiology": 76,
+        "magee-orthopaedic-assessment": 37,
+        "ioc-manual-sports-injuries": 7,
+        "brukner-khan-clinical-sports-medicine": 5
+      },
+      "lengthAudit": {
+        "strictLongest": 36,
+        "strictShortest": 15,
+        "outliers": 0,
+        "flags": [
+          {
+            "id": "b-anatomy-029",
+            "spread": 12,
+            "correct": 63,
+            "medianDistractor": 53
+          },
+          {
+            "id": "b-anatomy-085",
+            "spread": 15,
+            "correct": 28,
+            "medianDistractor": 16.5
+          },
+          {
+            "id": "b-anatomy-088",
+            "spread": 13,
+            "correct": 28,
+            "medianDistractor": 17.5
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Human and Exercise Physiology",
+      "count": 150,
+      "subtopics": {
+        "Homeostasis and fluid balance": 12,
+        "Gastrointestinal physiology": 10,
+        "Acid-base and blood physiology": 12,
+        "Nerve and muscle physiology": 12,
+        "Motor units and excitation-contraction coupling": 12,
+        "Reproductive physiology": 10,
+        "Cardiorespiratory responses": 12,
+        "VO2max and thresholds": 12,
+        "Fatigue and recovery": 12,
+        "Special-senses physiology": 10,
+        "Endocrine and metabolic responses": 12,
+        "Thermoregulation and heat illness physiology": 12,
+        "Altitude, cold and environmental adaptation": 12
+      },
+      "difficulty": {
+        "foundational": 111,
+        "applied": 33,
+        "analytical": 6
+      },
+      "answerIndices": [
+        40,
+        35,
+        38,
+        37
+      ],
+      "sources": {
+        "physiology-sport-exercise-kenney": 87,
+        "acsm-getp-12": 19,
+        "openstax-anatomy-physiology-2e": 28,
+        "nsca-essentials-5": 3,
+        "brukner-khan-clinical-sports-medicine": 6,
+        "ioc-sports-nutrition-consensus": 3,
+        "ioc-load-illness-2016": 2,
+        "ioc-reds-2023": 2
+      },
+      "lengthAudit": {
+        "strictLongest": 26,
+        "strictShortest": 40,
+        "outliers": 26,
+        "flags": [
+          {
+            "id": "b-physiology-001",
+            "spread": 24,
+            "correct": 27,
+            "medianDistractor": 46.5
+          },
+          {
+            "id": "b-physiology-003",
+            "spread": 28,
+            "correct": 26,
+            "medianDistractor": 48.5
+          },
+          {
+            "id": "b-physiology-005",
+            "spread": 20,
+            "correct": 41,
+            "medianDistractor": 56.5
+          },
+          {
+            "id": "b-physiology-006",
+            "spread": 16,
+            "correct": 37,
+            "medianDistractor": 51
+          },
+          {
+            "id": "b-physiology-010",
+            "spread": 18,
+            "correct": 39,
+            "medianDistractor": 54.5
+          },
+          {
+            "id": "b-physiology-011",
+            "spread": 20,
+            "correct": 43,
+            "medianDistractor": 44
+          },
+          {
+            "id": "b-physiology-018",
+            "spread": 17,
+            "correct": 40,
+            "medianDistractor": 26
+          },
+          {
+            "id": "b-physiology-028",
+            "spread": 25,
+            "correct": 44,
+            "medianDistractor": 38.5
+          },
+          {
+            "id": "b-physiology-032",
+            "spread": 12,
+            "correct": 29,
+            "medianDistractor": 18
+          },
+          {
+            "id": "b-physiology-034",
+            "spread": 16,
+            "correct": 44,
+            "medianDistractor": 46
+          },
+          {
+            "id": "b-physiology-037",
+            "spread": 18,
+            "correct": 22,
+            "medianDistractor": 31.5
+          },
+          {
+            "id": "b-physiology-053",
+            "spread": 19,
+            "correct": 43,
+            "medianDistractor": 41
+          },
+          {
+            "id": "b-physiology-054",
+            "spread": 20,
+            "correct": 28,
+            "medianDistractor": 42
+          },
+          {
+            "id": "b-physiology-062",
+            "spread": 17,
+            "correct": 29,
+            "medianDistractor": 40.5
+          },
+          {
+            "id": "b-physiology-071",
+            "spread": 19,
+            "correct": 17,
+            "medianDistractor": 17.5
+          },
+          {
+            "id": "b-physiology-072",
+            "spread": 17,
+            "correct": 37,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-physiology-083",
+            "spread": 19,
+            "correct": 34,
+            "medianDistractor": 51
+          },
+          {
+            "id": "b-physiology-086",
+            "spread": 21,
+            "correct": 26,
+            "medianDistractor": 43
+          },
+          {
+            "id": "b-physiology-095",
+            "spread": 16,
+            "correct": 55,
+            "medianDistractor": 50
+          },
+          {
+            "id": "b-physiology-099",
+            "spread": 14,
+            "correct": 33,
+            "medianDistractor": 23
+          },
+          {
+            "id": "b-physiology-100",
+            "spread": 16,
+            "correct": 37,
+            "medianDistractor": 45
+          },
+          {
+            "id": "b-physiology-110",
+            "spread": 27,
+            "correct": 34,
+            "medianDistractor": 56.5
+          },
+          {
+            "id": "b-physiology-111",
+            "spread": 19,
+            "correct": 29,
+            "medianDistractor": 39
+          },
+          {
+            "id": "b-physiology-115",
+            "spread": 20,
+            "correct": 44,
+            "medianDistractor": 49
+          },
+          {
+            "id": "b-physiology-121",
+            "spread": 18,
+            "correct": 12,
+            "medianDistractor": 15
+          },
+          {
+            "id": "b-physiology-132",
+            "spread": 17,
+            "correct": 30,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-physiology-137",
+            "spread": 19,
+            "correct": 31,
+            "medianDistractor": 44.5
+          },
+          {
+            "id": "b-physiology-141",
+            "spread": 18,
+            "correct": 41,
+            "medianDistractor": 47.5
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Electrotherapy and Electrodiagnosis",
+      "count": 150,
+      "subtopics": {
+        "electrical principles and tissue effects": 14,
+        "TENS modes and pain mechanisms": 14,
+        "interferential and medium-frequency currents": 13,
+        "NMES, Russian, Faradic, Galvanic and HVPC": 14,
+        "therapeutic ultrasound": 14,
+        "shortwave diathermy": 13,
+        "infrared, ultraviolet and photobiomodulation": 13,
+        "shockwave and cryotherapy": 13,
+        "biofeedback and EMG": 13,
+        "strength-duration curves, chronaxie and rheobase": 13,
+        "indications, contraindications and safety": 16
+      },
+      "difficulty": {
+        "foundational": 107,
+        "applied": 26,
+        "analytical": 17
+      },
+      "answerIndices": [
+        31,
+        32,
+        45,
+        42
+      ],
+      "sources": {
+        "claytons-electrotherapy": 63,
+        "watson-electrotherapy": 75,
+        "brukner-khan-clinical-sports-medicine": 8,
+        "ioc-manual-sports-injuries": 4
+      },
+      "lengthAudit": {
+        "strictLongest": 24,
+        "strictShortest": 59,
+        "outliers": 7,
+        "flags": [
+          {
+            "id": "b-electro-063",
+            "spread": 17,
+            "correct": 10,
+            "medianDistractor": 17.5
+          },
+          {
+            "id": "b-electro-071",
+            "spread": 16,
+            "correct": 37,
+            "medianDistractor": 48
+          },
+          {
+            "id": "b-electro-074",
+            "spread": 17,
+            "correct": 19,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-electro-098",
+            "spread": 19,
+            "correct": 29,
+            "medianDistractor": 34
+          },
+          {
+            "id": "b-electro-107",
+            "spread": 18,
+            "correct": 53,
+            "medianDistractor": 51
+          },
+          {
+            "id": "b-electro-115",
+            "spread": 18,
+            "correct": 48,
+            "medianDistractor": 55.5
+          },
+          {
+            "id": "b-electro-118",
+            "spread": 17,
+            "correct": 38,
+            "medianDistractor": 43.5
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Exercise Therapy and Rehabilitation",
+      "count": 150,
+      "subtopics": {
+        "exercise-therapy principles and prescription": 12,
+        "Yoga basics": 10,
+        "overload/progression/specificity": 12,
+        "open and closed kinetic chain": 13,
+        "flexibility and stretching": 12,
+        "PNF techniques": 11,
+        "isometric/concentric/eccentric loading": 11,
+        "tendinopathy loading protocols": 11,
+        "progressive resistance and dosage": 11,
+        "manual therapy and mobilisation grades": 11,
+        "proprioception/perturbation/plyometrics": 11,
+        "hydrotherapy/massage/functional retraining": 12,
+        "rehabilitation monitoring and progression": 13
+      },
+      "difficulty": {
+        "foundational": 103,
+        "applied": 32,
+        "analytical": 15
+      },
+      "answerIndices": [
+        39,
+        37,
+        38,
+        36
+      ],
+      "sources": {
+        "kisner-therapeutic-exercise": 45,
+        "sports-injury-prevention-rehabilitation-joyce-lewindon": 44,
+        "nccih-yoga-safety": 8,
+        "osullivan-rehabilitation": 24,
+        "aspetar-acl-cpg-2023": 3,
+        "shacklock-clinical-neurodynamics": 4,
+        "brukner-khan-clinical-sports-medicine": 9,
+        "yoga-athletes-review-2025": 2,
+        "nsca-essentials-5": 3,
+        "maitland-peripheral-manipulation": 8
+      },
+      "lengthAudit": {
+        "strictLongest": 18,
+        "strictShortest": 23,
+        "outliers": 37,
+        "flags": [
+          {
+            "id": "b-exercise-005",
+            "spread": 22,
+            "correct": 31,
+            "medianDistractor": 16.5
+          },
+          {
+            "id": "b-exercise-020",
+            "spread": 13,
+            "correct": 41,
+            "medianDistractor": 29.5
+          },
+          {
+            "id": "b-exercise-024",
+            "spread": 16,
+            "correct": 29,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-exercise-033",
+            "spread": 19,
+            "correct": 31,
+            "medianDistractor": 22
+          },
+          {
+            "id": "b-exercise-035",
+            "spread": 27,
+            "correct": 23,
+            "medianDistractor": 25.5
+          },
+          {
+            "id": "b-exercise-037",
+            "spread": 17,
+            "correct": 28,
+            "medianDistractor": 28.5
+          },
+          {
+            "id": "b-exercise-039",
+            "spread": 23,
+            "correct": 34,
+            "medianDistractor": 37
+          },
+          {
+            "id": "b-exercise-040",
+            "spread": 24,
+            "correct": 32,
+            "medianDistractor": 32
+          },
+          {
+            "id": "b-exercise-044",
+            "spread": 17,
+            "correct": 34,
+            "medianDistractor": 40.5
+          },
+          {
+            "id": "b-exercise-049",
+            "spread": 16,
+            "correct": 37,
+            "medianDistractor": 38
+          },
+          {
+            "id": "b-exercise-052",
+            "spread": 17,
+            "correct": 31,
+            "medianDistractor": 36.5
+          },
+          {
+            "id": "b-exercise-055",
+            "spread": 25,
+            "correct": 8,
+            "medianDistractor": 7.5
+          },
+          {
+            "id": "b-exercise-058",
+            "spread": 21,
+            "correct": 32,
+            "medianDistractor": 29
+          },
+          {
+            "id": "b-exercise-067",
+            "spread": 16,
+            "correct": 27,
+            "medianDistractor": 27
+          },
+          {
+            "id": "b-exercise-069",
+            "spread": 26,
+            "correct": 28,
+            "medianDistractor": 29
+          },
+          {
+            "id": "b-exercise-071",
+            "spread": 18,
+            "correct": 22,
+            "medianDistractor": 25
+          },
+          {
+            "id": "b-exercise-077",
+            "spread": 13,
+            "correct": 26,
+            "medianDistractor": 15.5
+          },
+          {
+            "id": "b-exercise-078",
+            "spread": 23,
+            "correct": 27,
+            "medianDistractor": 31.5
+          },
+          {
+            "id": "b-exercise-085",
+            "spread": 18,
+            "correct": 39,
+            "medianDistractor": 38
+          },
+          {
+            "id": "b-exercise-089",
+            "spread": 29,
+            "correct": 31,
+            "medianDistractor": 35
+          },
+          {
+            "id": "b-exercise-090",
+            "spread": 17,
+            "correct": 26,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-exercise-096",
+            "spread": 19,
+            "correct": 42,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-exercise-105",
+            "spread": 20,
+            "correct": 37,
+            "medianDistractor": 40
+          },
+          {
+            "id": "b-exercise-108",
+            "spread": 17,
+            "correct": 34,
+            "medianDistractor": 36
+          },
+          {
+            "id": "b-exercise-109",
+            "spread": 24,
+            "correct": 28,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-exercise-112",
+            "spread": 24,
+            "correct": 35,
+            "medianDistractor": 39
+          },
+          {
+            "id": "b-exercise-119",
+            "spread": 18,
+            "correct": 34,
+            "medianDistractor": 35.5
+          },
+          {
+            "id": "b-exercise-121",
+            "spread": 22,
+            "correct": 30,
+            "medianDistractor": 31.5
+          },
+          {
+            "id": "b-exercise-123",
+            "spread": 19,
+            "correct": 29,
+            "medianDistractor": 30
+          },
+          {
+            "id": "b-exercise-127",
+            "spread": 25,
+            "correct": 29,
+            "medianDistractor": 42.5
+          },
+          {
+            "id": "b-exercise-128",
+            "spread": 18,
+            "correct": 32,
+            "medianDistractor": 35
+          },
+          {
+            "id": "b-exercise-131",
+            "spread": 17,
+            "correct": 26,
+            "medianDistractor": 22
+          },
+          {
+            "id": "b-exercise-132",
+            "spread": 22,
+            "correct": 30,
+            "medianDistractor": 33.5
+          },
+          {
+            "id": "b-exercise-136",
+            "spread": 26,
+            "correct": 31,
+            "medianDistractor": 31.5
+          },
+          {
+            "id": "b-exercise-137",
+            "spread": 27,
+            "correct": 26,
+            "medianDistractor": 43
+          },
+          {
+            "id": "b-exercise-141",
+            "spread": 23,
+            "correct": 38,
+            "medianDistractor": 47
+          },
+          {
+            "id": "b-exercise-143",
+            "spread": 26,
+            "correct": 26,
+            "medianDistractor": 42
+          },
+          {
+            "id": "b-exercise-144",
+            "spread": 16,
+            "correct": 28,
+            "medianDistractor": 32
+          },
+          {
+            "id": "b-exercise-150",
+            "spread": 19,
+            "correct": 27,
+            "medianDistractor": 33
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Biomechanics and Movement Analysis",
+      "count": 150,
+      "subtopics": {
+        "knee/patellofemoral/screw-home mechanics": 13,
+        "shoulder/scapulohumeral mechanics": 13,
+        "normal gait phases": 13,
+        "running/jumping/landing mechanics": 13,
+        "vectors/force/torque/moment arms": 13,
+        "foot/ankle/subtalar/windlass mechanics": 13,
+        "pathological gait and observational analysis": 12,
+        "ground reaction forces": 12,
+        "levers and mechanical advantage": 12,
+        "spine/pelvis/lumbopelvic rhythm": 12,
+        "centre of gravity/base of support": 12,
+        "throwing and sport-skill biomechanics": 12
+      },
+      "difficulty": {
+        "foundational": 105,
+        "applied": 30,
+        "analytical": 15
+      },
+      "answerIndices": [
+        38,
+        37,
+        38,
+        37
+      ],
+      "sources": {
+        "neumann-kinesiology": 63,
+        "perry-burnfield-gait-analysis": 25,
+        "brukner-khan-clinical-sports-medicine": 13,
+        "basic-biomechanics-hall": 49
+      },
+      "lengthAudit": {
+        "strictLongest": 34,
+        "strictShortest": 24,
+        "outliers": 37,
+        "flags": [
+          {
+            "id": "b-biomechanics-005",
+            "spread": 21,
+            "correct": 45,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-biomechanics-011",
+            "spread": 16,
+            "correct": 36,
+            "medianDistractor": 36.5
+          },
+          {
+            "id": "b-biomechanics-023",
+            "spread": 17,
+            "correct": 43,
+            "medianDistractor": 45
+          },
+          {
+            "id": "b-biomechanics-032",
+            "spread": 19,
+            "correct": 32,
+            "medianDistractor": 28.5
+          },
+          {
+            "id": "b-biomechanics-034",
+            "spread": 20,
+            "correct": 39,
+            "medianDistractor": 29.5
+          },
+          {
+            "id": "b-biomechanics-035",
+            "spread": 24,
+            "correct": 32,
+            "medianDistractor": 33.5
+          },
+          {
+            "id": "b-biomechanics-046",
+            "spread": 21,
+            "correct": 40,
+            "medianDistractor": 39
+          },
+          {
+            "id": "b-biomechanics-047",
+            "spread": 17,
+            "correct": 34,
+            "medianDistractor": 45.5
+          },
+          {
+            "id": "b-biomechanics-048",
+            "spread": 17,
+            "correct": 48,
+            "medianDistractor": 36.5
+          },
+          {
+            "id": "b-biomechanics-050",
+            "spread": 25,
+            "correct": 23,
+            "medianDistractor": 23.5
+          },
+          {
+            "id": "b-biomechanics-053",
+            "spread": 19,
+            "correct": 28,
+            "medianDistractor": 25.5
+          },
+          {
+            "id": "b-biomechanics-054",
+            "spread": 20,
+            "correct": 20,
+            "medianDistractor": 28
+          },
+          {
+            "id": "b-biomechanics-056",
+            "spread": 19,
+            "correct": 36,
+            "medianDistractor": 33
+          },
+          {
+            "id": "b-biomechanics-057",
+            "spread": 16,
+            "correct": 32,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-biomechanics-058",
+            "spread": 25,
+            "correct": 24,
+            "medianDistractor": 28.5
+          },
+          {
+            "id": "b-biomechanics-059",
+            "spread": 19,
+            "correct": 12,
+            "medianDistractor": 24.5
+          },
+          {
+            "id": "b-biomechanics-061",
+            "spread": 19,
+            "correct": 28,
+            "medianDistractor": 36
+          },
+          {
+            "id": "b-biomechanics-068",
+            "spread": 18,
+            "correct": 13,
+            "medianDistractor": 22
+          },
+          {
+            "id": "b-biomechanics-072",
+            "spread": 20,
+            "correct": 9,
+            "medianDistractor": 9
+          },
+          {
+            "id": "b-biomechanics-082",
+            "spread": 17,
+            "correct": 32,
+            "medianDistractor": 32.5
+          },
+          {
+            "id": "b-biomechanics-084",
+            "spread": 21,
+            "correct": 29,
+            "medianDistractor": 29.5
+          },
+          {
+            "id": "b-biomechanics-088",
+            "spread": 19,
+            "correct": 46,
+            "medianDistractor": 38.5
+          },
+          {
+            "id": "b-biomechanics-089",
+            "spread": 19,
+            "correct": 38,
+            "medianDistractor": 37
+          },
+          {
+            "id": "b-biomechanics-094",
+            "spread": 20,
+            "correct": 38,
+            "medianDistractor": 34.5
+          },
+          {
+            "id": "b-biomechanics-096",
+            "spread": 24,
+            "correct": 15,
+            "medianDistractor": 16
+          },
+          {
+            "id": "b-biomechanics-097",
+            "spread": 16,
+            "correct": 24,
+            "medianDistractor": 22.5
+          },
+          {
+            "id": "b-biomechanics-101",
+            "spread": 20,
+            "correct": 13,
+            "medianDistractor": 19.5
+          },
+          {
+            "id": "b-biomechanics-103",
+            "spread": 21,
+            "correct": 34,
+            "medianDistractor": 36.5
+          },
+          {
+            "id": "b-biomechanics-111",
+            "spread": 23,
+            "correct": 9,
+            "medianDistractor": 23.5
+          },
+          {
+            "id": "b-biomechanics-112",
+            "spread": 19,
+            "correct": 22,
+            "medianDistractor": 19.5
+          },
+          {
+            "id": "b-biomechanics-113",
+            "spread": 17,
+            "correct": 31,
+            "medianDistractor": 32
+          },
+          {
+            "id": "b-biomechanics-115",
+            "spread": 20,
+            "correct": 44,
+            "medianDistractor": 41
+          },
+          {
+            "id": "b-biomechanics-116",
+            "spread": 25,
+            "correct": 14,
+            "medianDistractor": 18
+          },
+          {
+            "id": "b-biomechanics-121",
+            "spread": 21,
+            "correct": 46,
+            "medianDistractor": 36
+          },
+          {
+            "id": "b-biomechanics-130",
+            "spread": 16,
+            "correct": 28,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-biomechanics-132",
+            "spread": 18,
+            "correct": 32,
+            "medianDistractor": 26.5
+          },
+          {
+            "id": "b-biomechanics-147",
+            "spread": 20,
+            "correct": 24,
+            "medianDistractor": 26
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Psychology and Human Development",
+      "count": 150,
+      "subtopics": {
+        "Motivation and goal setting": 15,
+        "Self-efficacy and confidence": 15,
+        "Anxiety, arousal and stress": 15,
+        "Attention and concentration": 15,
+        "Imagery, self-talk and mental skills": 15,
+        "Burnout, overtraining and mental recovery": 15,
+        "Team cohesion and communication": 15,
+        "Athlete adherence and behaviour change": 15,
+        "Youth development and maturation": 15,
+        "Safeguarding, ethics and referral boundaries": 15
+      },
+      "difficulty": {
+        "foundational": 105,
+        "applied": 32,
+        "analytical": 13
+      },
+      "answerIndices": [
+        38,
+        38,
+        36,
+        38
+      ],
+      "sources": {
+        "foundations-sport-exercise-psychology": 111,
+        "sports-injury-prevention-rehabilitation-joyce-lewindon": 7,
+        "ioc-load-illness-2016": 10,
+        "world-physiotherapy-ethics-2023": 15,
+        "world-physiotherapy-consent-2023": 7
+      },
+      "lengthAudit": {
+        "strictLongest": 51,
+        "strictShortest": 27,
+        "outliers": 0,
+        "flags": []
+      }
+    },
+    {
+      "topic": "Assessment, Diagnosis and Clinical Reasoning",
+      "count": 150,
+      "subtopics": {
+        "Subjective, objective examination and SOAP": 12,
+        "Observation, palpation, ROM and end-feel": 12,
+        "Manual muscle testing": 12,
+        "Diagnostic reasoning and red flags": 13,
+        "Knee special tests": 13,
+        "Shoulder special tests": 13,
+        "Ankle and foot special tests": 13,
+        "Spine and pelvis special tests": 12,
+        "Elbow, wrist and hand special tests": 12,
+        "Neurodynamic tests, sliders and tensioners": 13,
+        "Validated outcome measures": 12,
+        "Cardiovascular dysfunction assessment": 5,
+        "Pulmonary dysfunction assessment": 5,
+        "Sensitivity, specificity, reliability and clinical interpretation": 2,
+        "Manual therapy principles and applications": 1
+      },
+      "difficulty": {
+        "foundational": 100,
+        "applied": 42,
+        "analytical": 8
+      },
+      "answerIndices": [
+        37,
+        37,
+        36,
+        40
+      ],
+      "sources": {
+        "magee-orthopaedic-assessment": 73,
+        "world-physiotherapy-ebp-2023": 17,
+        "brukner-khan-clinical-sports-medicine": 13,
+        "ioc-manual-sports-injuries": 1,
+        "shacklock-clinical-neurodynamics": 17,
+        "world-physiotherapy-consent-2023": 1,
+        "konin-special-tests-orthopedic-examination": 10,
+        "apta-lateral-ankle-cpg-2021": 7,
+        "acsm-getp-12": 10,
+        "maitland-peripheral-manipulation": 1
+      },
+      "lengthAudit": {
+        "strictLongest": 27,
+        "strictShortest": 40,
+        "outliers": 10,
+        "flags": [
+          {
+            "id": "b-assessment-038",
+            "spread": 12,
+            "correct": 67,
+            "medianDistractor": 56.5
+          },
+          {
+            "id": "b-assessment-138",
+            "spread": 20,
+            "correct": 48,
+            "medianDistractor": 46.5
+          },
+          {
+            "id": "b-assessment-139",
+            "spread": 30,
+            "correct": 92,
+            "medianDistractor": 66
+          },
+          {
+            "id": "b-assessment-140",
+            "spread": 28,
+            "correct": 66,
+            "medianDistractor": 49.5
+          },
+          {
+            "id": "b-assessment-141",
+            "spread": 24,
+            "correct": 80,
+            "medianDistractor": 66
+          },
+          {
+            "id": "b-assessment-142",
+            "spread": 24,
+            "correct": 73,
+            "medianDistractor": 55.5
+          },
+          {
+            "id": "b-assessment-143",
+            "spread": 24,
+            "correct": 22,
+            "medianDistractor": 37.5
+          },
+          {
+            "id": "b-assessment-144",
+            "spread": 41,
+            "correct": 86,
+            "medianDistractor": 56.5
+          },
+          {
+            "id": "b-assessment-145",
+            "spread": 19,
+            "correct": 58,
+            "medianDistractor": 47.5
+          },
+          {
+            "id": "b-assessment-146",
+            "spread": 19,
+            "correct": 64,
+            "medianDistractor": 55
+          },
+          {
+            "id": "b-assessment-147",
+            "spread": 31,
+            "correct": 80,
+            "medianDistractor": 58
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Sports Physiotherapy, Emergencies and Travel",
+      "count": 150,
+      "subtopics": {
+        "Acute soft-tissue protocols and optimal loading": 12,
+        "Body-composition assessment and anthropometry": 10,
+        "Hamstring injuries": 12,
+        "ACL reconstruction rehabilitation": 12,
+        "Shoulder and rotator-cuff conditions": 11,
+        "Stress injuries and exertional compartment syndrome": 11,
+        "Ankle, syndesmotic and groin injuries": 12,
+        "Return to sport and psychological readiness": 12,
+        "Injury prevention programmes and screening": 11,
+        "Emergency action plans and primary survey": 11,
+        "Concussion, SCAT6 and spinal trauma": 12,
+        "Heat, cold and altitude emergencies": 11,
+        "Team travel, jet lag and medical kits": 13
+      },
+      "difficulty": {
+        "foundational": 103,
+        "applied": 38,
+        "analytical": 9
+      },
+      "answerIndices": [
+        37,
+        39,
+        37,
+        37
+      ],
+      "sources": {
+        "brukner-khan-clinical-sports-medicine": 23,
+        "acsm-getp-12": 10,
+        "london-hamstring-consensus-2023": 24,
+        "aspetar-acl-cpg-2023": 12,
+        "brukner-khan-clinical-sports-medicine-vol2": 11,
+        "apta-lateral-ankle-cpg-2021": 8,
+        "doha-groin-consensus-2015": 4,
+        "sports-injury-prevention-rehabilitation-joyce-lewindon": 11,
+        "ioc-manual-sports-injuries": 11,
+        "ioc-concussion-amsterdam-2022": 12,
+        "ioc-load-illness-2016": 24
+      },
+      "lengthAudit": {
+        "strictLongest": 9,
+        "strictShortest": 29,
+        "outliers": 4,
+        "flags": [
+          {
+            "id": "b-sportsphysio-033",
+            "spread": 17,
+            "correct": 31,
+            "medianDistractor": 30.5
+          },
+          {
+            "id": "b-sportsphysio-044",
+            "spread": 18,
+            "correct": 48,
+            "medianDistractor": 48
+          },
+          {
+            "id": "b-sportsphysio-045",
+            "spread": 20,
+            "correct": 40,
+            "medianDistractor": 45
+          },
+          {
+            "id": "b-sportsphysio-058",
+            "spread": 16,
+            "correct": 20,
+            "medianDistractor": 22
+          }
+        ]
+      }
+    },
+    {
+      "topic": "Sports Medicine, Nutrition and Research",
+      "count": 150,
+      "subtopics": {
+        "Sports medicine team roles": 10,
+        "Injury prevention": 10,
+        "Anti-doping and WADA": 10,
+        "TUE and NADA procedures": 10,
+        "Supplement contamination and medication safety": 10,
+        "Rehabilitation nutrition and energy availability": 10,
+        "Carbohydrate and protein": 5,
+        "Hydration": 5,
+        "Vitamin D creatine and collagen": 10,
+        "Illness and recovery monitoring": 10,
+        "Research designs and evidence hierarchy": 10,
+        "Measurement reliability and validity": 10,
+        "Sensitivity specificity and likelihood ratios": 10,
+        "Basic statistics and inference": 10,
+        "Ethics consent and professional responsibilities": 10,
+        "Clinical applicability and data governance": 10
+      },
+      "difficulty": {
+        "foundational": 105,
+        "applied": 30,
+        "analytical": 15
+      },
+      "answerIndices": [
+        38,
+        37,
+        38,
+        37
+      ],
+      "sources": {
+        "brukner-khan-clinical-sports-medicine": 10,
+        "sports-injury-prevention-rehabilitation-joyce-lewindon": 10,
+        "wada-code-2021": 3,
+        "wada-prohibited-list-2026": 4,
+        "nada-india-rules-2021": 3,
+        "wada-istue-2023": 8,
+        "nada-india-official-2026": 2,
+        "ais-supplements-position-2022": 7,
+        "who-medication-without-harm-2022": 3,
+        "ioc-reds-2023": 10,
+        "clinical-sports-nutrition-burke": 15,
+        "ioc-sports-nutrition-consensus": 5,
+        "ioc-load-illness-2016": 10,
+        "world-physiotherapy-ebp-2023": 20,
+        "nist-sematech-statistics": 30,
+        "world-physiotherapy-ethics-2023": 10
+      },
+      "lengthAudit": {
+        "strictLongest": 41,
+        "strictShortest": 12,
+        "outliers": 0,
+        "flags": [
+          {
+            "id": "b-sportsmed-032",
+            "spread": 13,
+            "correct": 32,
+            "medianDistractor": 21.5
+          },
+          {
+            "id": "b-sportsmed-035",
+            "spread": 13,
+            "correct": 33,
+            "medianDistractor": 21.5
+          },
+          {
+            "id": "b-sportsmed-039",
+            "spread": 12,
+            "correct": 35,
+            "medianDistractor": 23
+          },
+          {
+            "id": "b-sportsmed-052",
+            "spread": 12,
+            "correct": 28,
+            "medianDistractor": 18
+          },
+          {
+            "id": "b-sportsmed-097",
+            "spread": 12,
+            "correct": 31,
+            "medianDistractor": 21
+          }
+        ]
+      }
+    }
+  ]
+}

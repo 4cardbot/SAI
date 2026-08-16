@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-08-17",
+  "applied": [
+    "b-physiology-019",
+    "b-physiology-043",
+    "b-sportsphysio-064",
+    "b-sportsphysio-065",
+    "b-sportsphysio-071",
+    "b-sportsphysio-072",
+    "b-sportsphysio-073",
+    "b-sportsphysio-074",
+    "b-sportsmed-021",
+    "b-sportsmed-024",
+    "b-sportsmed-026",
+    "b-sportsmed-027",
+    "b-sportsmed-028",
+    "b-sportsmed-029",
+    "b-sportsmed-039",
+    "b-sportsmed-040",
+    "b-sportsmed-043",
+    "b-sportsmed-044",
+    "b-sportsmed-046",
+    "b-sportsmed-050",
+    "b-anatomy-049",
+    "b-anatomy-079",
+    "b-electro-122",
+    "b-biomechanics-047",
+    "b-biomechanics-121",
+    "b-biomechanics-131"
+  ],
+  "updateCount": 26,
+  "source": "independent factual audit and central content review",
+  "followUpApplied": [
+    {
+      "id": "b-sportsmed-043",
+      "file": "question_bank/section_b_sports_medicine_nutrition_research.json",
+      "change": "Revised the correct option and explanation to stay within the cited WHO medication-safety source scope."
+    },
+    {
+      "id": "b-sportsmed-044",
+      "file": "question_bank/section_b_sports_medicine_nutrition_research.json",
+      "change": "Removed the unsupported anti-doping clause from the explanation while retaining the medication-record concept."
+    },
+    {
+      "id": "b-sportsmed-050",
+      "file": "question_bank/section_b_sports_medicine_nutrition_research.json",
+      "change": "Revised the explanation to state individualized medication safety without the unsupported anti-doping claim."
+    },
+    {
+      "id": "b-sportsphysio-067",
+      "file": "question_bank/section_b_sports_physiotherapy_emergencies_travel.json",
+      "change": "Replaced the duplicate ankle anterior-drawer item with a talar-tilt/calcaneofibular-ligament item."
+    },
+    {
+      "id": "b-biomechanics-088",
+      "file": "question_bank/section_b_biomechanics_movement_analysis.json",
+      "change": "Repaired the grammatically incomplete keyed option and balanced the related distractor wording."
+    },
+    {
+      "id": "b-exercise-093",
+      "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "change": "Shortened an overqualified distractor set without changing the keyed concept."
+    },
+    {
+      "id": "wada-code-2021",
+      "file": "src/data/sourceCatalog.ts",
+      "change": "Added WADA Code Article 21.1.4 to the source locator for b-sportsmed-026 provenance."
+    }
+  ],
+  "followUpCount": 7,
+  "releaseAuditFollowUpApplied": [
+    {
+      "id": "b-physiology-028",
+      "file": "question_bank/section_b_human_exercise_physiology.json",
+      "change": "Replaced the duplicate CCK distractor with a secretin-like bicarbonate distractor."
+    },
+    {
+      "id": "b-exercise-038",
+      "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "change": "Removed the second safe yoga answer by making the distractor explicitly ignore pain."
+    },
+    {
+      "id": "b-exercise-100",
+      "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "change": "Corrected the zero-based key to the monitored, tolerated-dose interpretation supported by the explanation."
+    },
+    {
+      "id": "b-sportsphysio-101",
+      "file": "question_bank/section_b_sports_physiotherapy_emergencies_travel.json",
+      "change": "Replaced the second valid hydration explanation with a clearly incorrect fat-loss inference."
+    }
+  ],
+  "releaseAuditFollowUpCount": 4,
+  "certificationAuditFollowUpApplied": [
+    {
+      "id": "b-assessment-150",
+      "file": "question_bank/section_b_assessment_diagnosis_clinical_reasoning.json",
+      "change": "Replaced a generic diagnostic-test-role item with an explicitly sourced manual-therapy principle/application item."
+    }
+  ],
+  "certificationAuditFollowUpCount": 1
+}

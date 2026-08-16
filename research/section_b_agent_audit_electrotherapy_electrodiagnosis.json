@@ -1,0 +1,52 @@
+{
+  "group": "Electrotherapy and Electrodiagnosis",
+  "file": "question_bank/section_b_electrotherapy_electrodiagnosis.json",
+  "idPrefix": "b-electro-",
+  "generatedAt": "2026-08-17",
+  "status": "pass",
+  "count": 150,
+  "errors": [],
+  "subtopics": {
+    "electrical principles and tissue effects": 14,
+    "TENS modes and pain mechanisms": 14,
+    "interferential and medium-frequency currents": 13,
+    "NMES, Russian, Faradic, Galvanic and HVPC": 14,
+    "therapeutic ultrasound": 14,
+    "shortwave diathermy": 13,
+    "infrared, ultraviolet and photobiomodulation": 13,
+    "shockwave and cryotherapy": 13,
+    "biofeedback and EMG": 13,
+    "strength-duration curves, chronaxie and rheobase": 13,
+    "indications, contraindications and safety": 16
+  },
+  "difficultyCounts": {
+    "foundational": 107,
+    "applied": 26,
+    "analytical": 17
+  },
+  "answerIndexCounts": {
+    "0": 38,
+    "1": 37,
+    "2": 38,
+    "3": 37
+  },
+  "sourceIds": {
+    "claytons-electrotherapy": 63,
+    "watson-electrotherapy": 75,
+    "brukner-khan-clinical-sports-medicine": 8,
+    "ioc-manual-sports-injuries": 4
+  },
+  "optionLengthAudit": {
+    "strictLongestCorrect": 24,
+    "strictLongestByMoreThan8Characters": 2,
+    "correctOverMedianDistractorByMoreThan10": 0,
+    "maxSpread": 19,
+    "spreadOver15": 7,
+    "spreadOver20": 0
+  },
+  "contentCaveats": [
+    "Questions use the assigned syllabus and existing catalog references, with Watson and Clayton as primary modality sources and sports-medicine sources for clinical application and safety.",
+    "Safety items are educational screening and clinical-reasoning prompts; device-specific manufacturer and medical-device guidance remains necessary in practice.",
+    "Option revisions shortened verbose correct choices and added concise treatment-context qualifiers to short distractors; all four options remain distinct and semantically tied to the stem."
+  ]
+}

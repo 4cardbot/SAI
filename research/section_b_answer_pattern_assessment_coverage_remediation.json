@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "targeted Section B answer-pattern and assessment-coverage remediation",
+  "scope": {
+    "modifiedFiles": [
+      "question_bank/section_b_psychology_human_development.json",
+      "question_bank/section_b_assessment_diagnosis_clinical_reasoning.json",
+      "research/section_b_answer_pattern_assessment_coverage_remediation.json"
+    ],
+    "otherRepositoryFilesModified": false,
+    "sourceCatalogModified": false,
+    "mergedFileModified": false
+  },
+  "seed": "sai-section-b-option-permutation-20260817-v1909",
+  "permutation": {
+    "algorithm": "For each question ID, SHA-256(seed + \"|\" + questionId) supplies three Fisher–Yates draws over [0,1,2,3]. The resulting order is applied to the option array and the correct index is remapped by the same order.",
+    "recordsReordered": 300,
+    "allFourOptionSetsReordered": true
+  },
+  "replacementIds": [
+    "b-assessment-138",
+    "b-assessment-139",
+    "b-assessment-140",
+    "b-assessment-141",
+    "b-assessment-142",
+    "b-assessment-143",
+    "b-assessment-144",
+    "b-assessment-145",
+    "b-assessment-146",
+    "b-assessment-147"
+  ],
+  "replacements": [
+    {
+      "id": "b-assessment-138",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Cardiovascular dysfunction assessment",
+      "difficulty": "foundational",
+      "area": "cardiovascular dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "Unexplained chest pain or syncope is a potentially serious cardiovascular symptom; exercise testing should be deferred pending medical evaluation."
+    },
+    {
+      "id": "b-assessment-139",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Cardiovascular dysfunction assessment",
+      "difficulty": "foundational",
+      "area": "cardiovascular dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "A quiet seated rest, an appropriate cuff and a supported arm improve the validity of a resting blood-pressure measurement."
+    },
+    {
+      "id": "b-assessment-140",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Cardiovascular dysfunction assessment",
+      "difficulty": "applied",
+      "area": "cardiovascular dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "A fall in systolic pressure as workload rises is an abnormal response that warrants stopping or modifying the test and medical evaluation."
+    },
+    {
+      "id": "b-assessment-141",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Cardiovascular dysfunction assessment",
+      "difficulty": "applied",
+      "area": "cardiovascular dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "Cardiovascular assessment should integrate symptoms with heart rate, blood-pressure and, when indicated, rhythm responses rather than unrelated musculoskeletal measures."
+    },
+    {
+      "id": "b-assessment-142",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Cardiovascular dysfunction assessment",
+      "difficulty": "applied",
+      "area": "cardiovascular dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "A new arrhythmia during exertion is a potentially significant cardiovascular finding; the test should be stopped and the athlete medically evaluated."
+    },
+    {
+      "id": "b-assessment-143",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Pulmonary dysfunction assessment",
+      "difficulty": "foundational",
+      "area": "pulmonary dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "A reduced FEV1/FVC ratio is the characteristic spirometric pattern used to identify airflow obstruction."
+    },
+    {
+      "id": "b-assessment-144",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Pulmonary dysfunction assessment",
+      "difficulty": "applied",
+      "area": "pulmonary dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "Pulse oximetry can be affected by probe placement, signal quality and perfusion; these should be checked before interpreting a low reading."
+    },
+    {
+      "id": "b-assessment-145",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Pulmonary dysfunction assessment",
+      "difficulty": "foundational",
+      "area": "pulmonary dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "Pursed-lip breathing prolongs expiration and can help reduce dynamic airway collapse in obstructive breathing patterns."
+    },
+    {
+      "id": "b-assessment-146",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Pulmonary dysfunction assessment",
+      "difficulty": "applied",
+      "area": "pulmonary dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "The six-minute walk test primarily records standardized walking distance while symptoms and physiological responses are monitored."
+    },
+    {
+      "id": "b-assessment-147",
+      "sourceId": "acsm-getp-12",
+      "subtopic": "Pulmonary dysfunction assessment",
+      "difficulty": "analytical",
+      "area": "pulmonary dysfunction assessment",
+      "rationale": "Replaced a generic/redundant diagnostic-definition item; the release audit specifically identified the final diagnostic-definition block as the appropriate low-yield area to exchange for the missing official syllabus coverage.",
+      "coverageEvidence": "Disproportionate dyspnea with desaturation requires stopping or modifying exertion and clinical evaluation before progression."
+    }
+  ],
+  "sourceIds": {
+    "newSourceIds": [],
+    "existingSourceIdsUsed": [
+      "acsm-getp-12"
+    ]
+  },
+  "answerIndexCounts": {
+    "psychology": [
+      38,
+      38,
+      36,
+      38
+    ],
+    "assessment": [
+      37,
+      37,
+      36,
+      40
+    ],
+    "combined": [
+      75,
+      75,
+      72,
+      78
+    ]
+  },
+  "nonperiodicAnalysis": {
+    "psychology": {
+      "distinctPermutations": 24,
+      "maxIdenticalPermutationRun": 2,
+      "maxPermutationFrequency": 12,
+      "exactPeriodsThrough75": []
+    },
+    "assessment": {
+      "distinctPermutations": 24,
+      "maxIdenticalPermutationRun": 2,
+      "maxPermutationFrequency": 12,
+      "exactPeriodsThrough75": []
+    },
+    "interpretation": "Both files use all 24 possible four-item permutations, have no exact permutation period from 1 through 75, and have no identical-permutation run longer than two records."
+  },
+  "coverageEvidence": {
+    "cardiovascularDysfunctionAssessment": {
+      "questionCount": 5,
+      "questionIds": [
+        "b-assessment-138",
+        "b-assessment-139",
+        "b-assessment-140",
+        "b-assessment-141",
+        "b-assessment-142"
+      ],
+      "sourceId": "acsm-getp-12"
+    },
+    "pulmonaryDysfunctionAssessment": {
+      "questionCount": 5,
+      "questionIds": [
+        "b-assessment-143",
+        "b-assessment-144",
+        "b-assessment-145",
+        "b-assessment-146",
+        "b-assessment-147"
+      ],
+      "sourceId": "acsm-getp-12"
+    }
+  },
+  "invariants": {
+    "psychologyRecordCount": 150,
+    "assessmentRecordCount": 150,
+    "allQuestionIdsPreserved": true,
+    "nonReplacementTextExplanationSourceTopicSubtopicDifficultyPreserved": true,
+    "nonReplacementCorrectMeaningPreserved": true,
+    "replacementOptionSetsHaveFourUniqueOptions": true,
+    "correctIndicesAllZeroBased": true
+  }
+}

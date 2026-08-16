@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "independent read-only factual and content audit",
+  "scope": {
+    "section": "B",
+    "durableGroupFiles": 9,
+    "questionsReviewed": 1350,
+    "mergedFile": "question_bank/section_b.json",
+    "questionFilesModified": false,
+    "sourceFilesModified": false,
+    "method": "Independent structural enumeration of all records; full biomechanics and high-risk/option-length priority review; broad spot checks across every group; comparison with the SAI syllabus, source catalog, local-book provenance, and current authoritative clinical or professional sources."
+  },
+  "overallAssessment": {
+    "releaseStatus": "hold_for_correction",
+    "verifiedIssueCount": 9,
+    "highOrCriticalIssueCount": 6,
+    "reason": "The bank is structurally complete, but several answer keys/options are factually or semantically wrong. These defects can teach incorrect clinical facts or make the keyed answer impossible to select."
+  },
+  "structuralChecks": {
+    "durableGroups": "9 files present; 150 questions each",
+    "mergedCount": 1350,
+    "allQuestionsSectionB": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesValid": true,
+    "allSourceIdsResolve": true,
+    "duplicateIds": 0,
+    "duplicateStems": 0,
+    "answerIndices": [342, 333, 342, 333],
+    "difficultyValuesOutsideSchema": 0,
+    "note": "Structural checks pass; they do not establish answer-key correctness."
+  },
+  "verifiedIssues": [
+    {
+      "questionId": "b-biomechanics-056",
+      "severity": "critical",
+      "type": "answer_key_mismatch",
+      "source": { "sourceId": "perry-burnfield-gait-analysis", "locator": "Pathological gait section; local supplied PDF" },
+      "evidence": "The stem asks for gluteus-maximus extensor-lurch gait. The keyed option is high-steppage gait, while the explanation correctly describes backward trunk lean/lurch during loading.",
+      "recommendedCorrection": "Set correct to the backward-trunk-lean option (index 0), or rewrite the options so the explanation and key agree."
+    },
+    {
+      "questionId": "b-biomechanics-086",
+      "severity": "high",
+      "type": "answer_key_mismatch",
+      "source": { "sourceId": "neumann-kinesiology", "locator": "Foot/ankle biomechanics; local supplied PDF" },
+      "corroboratingSource": { "title": "Plantar Fasciitis and the Windlass Mechanism", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC385265/" },
+      "evidence": "The keyed option says subtalar eversion unlocks the midtarsal joints. The explanation, cited biomechanics, and corroborating literature define the windlass mechanism as hallux/MTP dorsiflexion tightening the plantar fascia and raising the medial arch.",
+      "recommendedCorrection": "Set correct to the hallux-dorsiflexion option (index 1), preserving the explanation."
+    },
+    {
+      "questionId": "b-physiology-019",
+      "severity": "high",
+      "type": "factually_wrong_correct_option",
+      "source": { "sourceId": "physiology-sport-exercise-kenney", "locator": "Oxygen-haemoglobin dissociation and exercise physiology chapters; local supplied PDF" },
+      "corroboratingSource": { "title": "Physiology, Bohr Effect", "url": "https://www.ncbi.nlm.nih.gov/books/NBK526028/" },
+      "evidence": "The selected option says lower pH, lower temperature and lower carbon dioxide. The Bohr effect is associated with decreased pH and increased carbon dioxide; increased temperature also reduces haemoglobin oxygen affinity during exercise.",
+      "recommendedCorrection": "Replace the selected option with: Lower pH, increased temperature and increased carbon dioxide. Keep the answer index aligned with that option."
+    },
+    {
+      "questionId": "b-sportsphysio-064",
+      "severity": "critical",
+      "type": "no_correct_option_and_wrong_key",
+      "source": { "sourceId": "apta-lateral-ankle-cpg-2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33789434/" },
+      "evidence": "The stem asks for the ligament most commonly injured in a typical lateral ankle sprain. The key selects 'Low energy availability'; the correct ATFL is absent from all four options.",
+      "recommendedCorrection": "Add anterior talofibular ligament as an option and key it, or replace the distractor currently at index 0 with that answer."
+    },
+    {
+      "questionId": "b-sportsphysio-065",
+      "severity": "critical",
+      "type": "no_correct_option_and_wrong_key",
+      "source": { "sourceId": "apta-lateral-ankle-cpg-2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33789434/" },
+      "evidence": "A syndesmotic ankle sprain is commonly called a high ankle sprain. None of the four options says high ankle sprain; the keyed ATFL option answers a different question.",
+      "recommendedCorrection": "Replace one distractor with 'High ankle sprain' and key that option. Do not use ATFL as the answer to this stem."
+    },
+    {
+      "questionId": "b-sportsmed-046",
+      "severity": "high",
+      "type": "answer_key_mismatch",
+      "source": { "sourceId": "ais-supplements-position-2022", "url": "https://www.ais.gov.au/__data/assets/pdf_file/0014/1000841/Position-Statement-Supplements-and-Sports-Foods.pdf" },
+      "evidence": "The key points to 'Ignore adverse effects', but the explanation says transparent risk-benefit discussion. The only defensible option is 'Discuss evidence uncertainty' at index 3.",
+      "recommendedCorrection": "Set correct to index 3; retain the explanation and AIS provenance."
+    },
+    {
+      "questionId": "b-anatomy-049",
+      "severity": "medium",
+      "type": "ambiguous_anatomical_stem",
+      "source": { "sourceId": "neumann-kinesiology", "locator": "Shoulder/axilla anatomy; local supplied PDF" },
+      "evidence": "Pectoralis major contributes to the anterior axillary wall, but scapular protraction is classically attributed to pectoralis minor and serratus anterior. The stem combines actions that do not uniquely identify the keyed pectoralis major.",
+      "recommendedCorrection": "Either remove 'assists in scapular protraction' and keep pectoralis major, or change the stem/options to test pectoralis minor or serratus anterior unambiguously."
+    },
+    {
+      "questionId": "b-anatomy-079",
+      "severity": "medium",
+      "type": "ambiguous_anatomical_stem",
+      "source": { "sourceId": "neumann-kinesiology", "locator": "Spinal curves; local supplied PDF" },
+      "evidence": "Both thoracic kyphosis and sacral kyphosis are primary curves present from birth. The singular stem makes the keyed thoracic answer non-unique because sacral lordosis is also listed as a distractor but the underlying concept is not distinguished precisely.",
+      "recommendedCorrection": "Ask for a primary curve of the vertebral column and include both thoracic and sacral kyphosis, or explicitly ask which thoracic-region curve is primary."
+    },
+    {
+      "questionId": "b-biomechanics-130",
+      "severity": "medium",
+      "type": "clinically_overbroad_claim",
+      "source": { "sourceId": "neumann-kinesiology", "locator": "Patellofemoral kinetics; local supplied PDF" },
+      "evidence": "The explanation says CKC exercise is 'safe to train from 0°–45°' and frames range as a general prescription. Patellofemoral load and exercise selection depend on symptoms, task, dose, stage and individual factors; a universal safe range is not defensible.",
+      "recommendedCorrection": "Remove the universal safety statement and phrase the item as a relative-load comparison with patient- and phase-specific progression."
+    }
+  ],
+  "reviewSuggestions": [
+    {
+      "type": "option_length_bias",
+      "severity": "review",
+      "source": { "sourceId": "in-memory independent length calculation", "basis": "all 1350 records" },
+      "metrics": { "flaggedBySpreadOrCorrectMedian": 240, "spreadOver15Characters": 152, "correctStrictlyLongest": 266, "correctStrictlyShortest": 261, "maximumSpreadCharacters": 40, "maximumSpreadQuestionId": "b-exercise-093" },
+      "questionIds": ["b-assessment-006","b-assessment-011","b-assessment-025","b-assessment-027","b-assessment-038","b-assessment-041","b-assessment-047","b-assessment-122","b-biomechanics-004","b-biomechanics-018","b-biomechanics-019","b-biomechanics-021","b-biomechanics-027","b-biomechanics-028","b-biomechanics-030","b-biomechanics-036","b-biomechanics-042","b-biomechanics-059","b-biomechanics-079","b-biomechanics-081","b-biomechanics-097","b-biomechanics-101","b-biomechanics-102","b-biomechanics-103","b-biomechanics-105","b-biomechanics-106","b-biomechanics-107","b-biomechanics-109","b-biomechanics-111","b-biomechanics-113","b-biomechanics-116","b-biomechanics-119","b-biomechanics-120","b-biomechanics-121","b-biomechanics-122","b-biomechanics-123","b-biomechanics-124","b-biomechanics-127","b-biomechanics-130","b-biomechanics-131","b-biomechanics-132","b-biomechanics-133","b-biomechanics-135","b-biomechanics-137","b-biomechanics-143","b-biomechanics-144","b-biomechanics-145","b-biomechanics-146","b-biomechanics-147","b-biomechanics-149","b-biomechanics-150","b-electro-012","b-electro-043","b-electro-063","b-electro-071","b-electro-074","b-electro-076","b-electro-085","b-electro-098","b-electro-107","b-electro-115","b-electro-118","b-electro-130","b-electro-137","b-exercise-005","b-exercise-020","b-exercise-024","b-exercise-033","b-exercise-035","b-exercise-037","b-exercise-039","b-exercise-040","b-exercise-044","b-exercise-049","b-exercise-052","b-exercise-055","b-exercise-058","b-exercise-067","b-exercise-069","b-exercise-071","b-exercise-076","b-exercise-077","b-exercise-078","b-exercise-085","b-exercise-089","b-exercise-090","b-exercise-093","b-exercise-096","b-exercise-105","b-exercise-108","b-exercise-109","b-exercise-112","b-exercise-119","b-exercise-121","b-exercise-123","b-exercise-127","b-exercise-128","b-exercise-131","b-exercise-132","b-exercise-136","b-exercise-137","b-exercise-141","b-exercise-143","b-exercise-144","b-exercise-150","b-anatomy-002","b-anatomy-029","b-anatomy-032","b-anatomy-040","b-anatomy-051","b-anatomy-085","b-anatomy-088","b-anatomy-109","b-anatomy-111","b-anatomy-115","b-anatomy-134","b-anatomy-148","b-physiology-001","b-physiology-003","b-physiology-005","b-physiology-006","b-physiology-010","b-physiology-011","b-physiology-018","b-physiology-019","b-physiology-022","b-physiology-032","b-physiology-034","b-physiology-037","b-physiology-053","b-physiology-054","b-physiology-062","b-physiology-071","b-physiology-072","b-physiology-080","b-physiology-083","b-physiology-086","b-physiology-088","b-physiology-095","b-physiology-099","b-physiology-100","b-physiology-108","b-physiology-110","b-physiology-111","b-physiology-115","b-physiology-119","b-physiology-121","b-physiology-132","b-physiology-133","b-physiology-137","b-physiology-141","b-physiology-143","b-physiology-147","b-psychology-007","b-psychology-009","b-psychology-014","b-psychology-015","b-psychology-020","b-psychology-022","b-psychology-023","b-psychology-025","b-psychology-026","b-psychology-029","b-psychology-030","b-psychology-035","b-psychology-036","b-psychology-039","b-psychology-040","b-psychology-047","b-psychology-052","b-psychology-053","b-psychology-055","b-psychology-059","b-psychology-060","b-psychology-062","b-psychology-064","b-psychology-065","b-psychology-068","b-psychology-075","b-psychology-076","b-psychology-080","b-psychology-082","b-psychology-084","b-psychology-085","b-psychology-087","b-psychology-089","b-psychology-095","b-psychology-096","b-psychology-099","b-psychology-100","b-psychology-102","b-psychology-103","b-psychology-104","b-psychology-105","b-psychology-111","b-psychology-113","b-psychology-114","b-psychology-116","b-psychology-122","b-psychology-128","b-psychology-131","b-psychology-133","b-psychology-135","b-psychology-137","b-psychology-140","b-psychology-145","b-psychology-146","b-psychology-147","b-psychology-148","b-sportsmed-008","b-sportsmed-012","b-sportsmed-019","b-sportsmed-024","b-sportsmed-029","b-sportsmed-032","b-sportsmed-035","b-sportsmed-038","b-sportsmed-039","b-sportsmed-043","b-sportsmed-044","b-sportsmed-045","b-sportsmed-052","b-sportsmed-055","b-sportsmed-059","b-sportsmed-060","b-sportsmed-068","b-sportsmed-074","b-sportsmed-078","b-sportsmed-086","b-sportsmed-097","b-sportsmed-098","b-sportsmed-130","b-sportsmed-132","b-sportsmed-133","b-sportsmed-140","b-sportsmed-149","b-sportsphysio-033","b-sportsphysio-044","b-sportsphysio-045","b-sportsphysio-058"],
+      "recommendation": "Review all listed options for comparable length and grammatical form. Prioritize b-exercise-093 and any question where the correct choice is strictly longest; preserve content meaning and never add meaningless padding."
+    },
+    {
+      "type": "near_duplicate_concepts",
+      "severity": "review",
+      "source": { "sourceId": "in-memory independent text-similarity calculation", "basis": "normalized stem token overlap" },
+      "questionPairs": [["b-biomechanics-098","b-biomechanics-131"],["b-biomechanics-098","b-biomechanics-114"],["b-biomechanics-114","b-biomechanics-131"],["b-biomechanics-124","b-biomechanics-142"],["b-assessment-076","b-sportsphysio-067"],["b-assessment-138","b-sportsmed-111"],["b-assessment-139","b-sportsmed-112"],["b-assessment-085","b-sportsphysio-070"]],
+      "recommendation": "Retain deliberate repetition only when the different group context adds preparation value; otherwise rewrite or consolidate to reduce concept duplication."
+    },
+    {
+      "type": "biomechanics_subtopic_imbalance",
+      "severity": "review",
+      "source": { "sourceId": "section_b_coverage_manifest.json" },
+      "counts": { "normal gait phases": 33, "vectors/force/torque/moment arms": 36, "knee/patellofemoral/screw-home mechanics": 20, "shoulder/scapulohumeral mechanics": 19, "pathological gait and observational analysis": 12, "foot/ankle/subtalar/windlass mechanics": 8, "running/jumping/landing mechanics": 6, "ground reaction forces": 5, "spine/pelvis/lumbopelvic rhythm": 5, "levers and mechanical advantage": 3, "throwing and sport-skill biomechanics": 2, "centre of gravity/base of support": 1 },
+      "recommendation": "Rebalance future biomechanics regeneration so every syllabus subtopic has a meaningful minimum, especially centre of gravity/base of support, throwing, levers, GRF, lumbopelvic mechanics and running/landing."
+    },
+    {
+      "type": "source_scope_mismatch",
+      "severity": "medium",
+      "source": { "sourceId": "sai-notification-2026", "catalogScope": "Exam structure, syllabus, SAI schemes and governance context" },
+      "questionIds": ["b-anatomy-001","b-anatomy-002","b-anatomy-003","b-anatomy-004","b-anatomy-009","b-anatomy-010","b-anatomy-011","b-anatomy-016","b-anatomy-017","b-anatomy-018","b-anatomy-026","b-anatomy-036","b-anatomy-076","b-anatomy-136","b-anatomy-137","b-anatomy-138","b-anatomy-139","b-anatomy-140","b-anatomy-141","b-anatomy-142","b-anatomy-143","b-anatomy-144","b-anatomy-145","b-anatomy-146","b-anatomy-147"],
+      "evidence": "The notification establishes the exam syllabus but does not establish the anatomical answers for these items.",
+      "recommendation": "Retain the notification as a syllabus-mapping source only; use the relevant anatomy textbook as the primary sourceId for factual answer content."
+    },
+    {
+      "type": "source_scope_mismatch",
+      "severity": "medium",
+      "source": { "sourceId": "basic-biomechanics-hall", "catalogScope": "Biomechanical principles, force, motion, levers and sport movement" },
+      "questionIds": ["b-biomechanics-019","b-biomechanics-020","b-biomechanics-021","b-biomechanics-022","b-biomechanics-023","b-biomechanics-025","b-biomechanics-028","b-biomechanics-031","b-biomechanics-042","b-biomechanics-043","b-biomechanics-044","b-biomechanics-045","b-biomechanics-090","b-biomechanics-091","b-biomechanics-092","b-biomechanics-093","b-biomechanics-108","b-biomechanics-109","b-biomechanics-110","b-biomechanics-113","b-biomechanics-122","b-biomechanics-123","b-biomechanics-124","b-biomechanics-125","b-biomechanics-126","b-biomechanics-132","b-biomechanics-141","b-biomechanics-142","b-biomechanics-145","b-biomechanics-146","b-biomechanics-147"],
+      "evidence": "These items concern neurorehabilitation, electrotherapy, special tests, manual therapy, PNF, clinical assessment or hydrotherapy rather than the catalogued scope of Hall's biomechanics text.",
+      "recommendation": "Remap to the corresponding rehabilitation, electrotherapy, assessment or neurodynamics source actually inspected, or mark the item as an original synthesis with a defensible supporting source."
+    },
+    {
+      "type": "source_scope_mismatch",
+      "severity": "medium",
+      "source": { "sourceId": "perry-burnfield-gait-analysis", "catalogScope": "Normal and pathological gait, observational analysis, kinematics, kinetics and gait deviations" },
+      "questionIds": ["b-biomechanics-003","b-biomechanics-006","b-biomechanics-026","b-biomechanics-027","b-biomechanics-078","b-biomechanics-096","b-biomechanics-097","b-biomechanics-112","b-biomechanics-140"],
+      "evidence": "These items address resistance-training protocols, Parkinson cueing, DAPRE or electrotherapy rather than gait-analysis content.",
+      "recommendation": "Use the relevant strength-and-conditioning, neurorehabilitation or electrotherapy source as the primary sourceId."
+    },
+    {
+      "type": "overgeneralized_or_outdated_clinical_wording",
+      "severity": "review",
+      "source": { "sourceIds": ["aspetar-acl-cpg-2023","ioc-load-illness-2016","neumann-kinesiology","basic-biomechanics-hall"] },
+      "questionIds": ["b-biomechanics-048","b-biomechanics-064","b-biomechanics-078","b-biomechanics-093","b-biomechanics-113","b-biomechanics-141","b-biomechanics-146"],
+      "evidence": "The set uses rigid range/safety or dosage claims: universal early OKC restriction after ACLR, approximately 50% cane unloading, 'bypass basal ganglia', 90% waking-hours CIMT without protocol qualification, a population-level 51% injury reduction, fixed immersion offloading percentages, and a universal >60°–90° hip-flexion restriction in proximal hamstring tendinopathy.",
+      "recommendation": "Qualify claims by protocol, patient, dose, stage and current guideline; avoid wording that can be read as universal clinical instruction."
+    }
+  ],
+  "verifiedPositiveChecks": [
+    { "area": "anti-doping", "result": "Spot-checked WADA/NADA-related items were generally cautious and did not promote unsafe medication or supplement practice." },
+    { "area": "emergency care", "result": "Heat-stroke, concussion, bleeding and primary-survey items reviewed were directionally consistent with current emergency guidance; cold-water immersion is supported for exertional heat stroke when available.", "source": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines" },
+    { "area": "clinical reasoning", "result": "Red flags, test interpretation, uncertainty, informed consent and return-to-sport items were generally framed conservatively." },
+    { "area": "option balance", "result": "Correct indices are balanced globally and no exact repeating answer-index cycle was found; length flags still require editorial review." }
+  ],
+  "recommendedDisposition": [
+    "Correct all critical/high verified issues before merging or releasing Section B.",
+    "Run a second answer-key audit after corrections, especially for options whose explanations contain the correct fact but whose key points elsewhere.",
+    "Repair provenance before claiming book-level traceability; the notification should map syllabus coverage, not serve as the factual source for anatomy answers.",
+    "Rebalance the biomechanics subtopics and review the 240 option-length flags without mechanically rewriting clinically necessary answer wording."
+  ]
+}

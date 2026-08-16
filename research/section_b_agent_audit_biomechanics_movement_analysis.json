@@ -1,0 +1,78 @@
+{
+  "group": "Biomechanics and Movement Analysis",
+  "file": "question_bank/section_b_biomechanics_movement_analysis.json",
+  "status": "pass",
+  "count": 150,
+  "schema": [
+    "id",
+    "section",
+    "topic",
+    "subtopic",
+    "difficulty",
+    "text",
+    "options",
+    "correct",
+    "explanation",
+    "sourceId"
+  ],
+  "idPrefix": "b-biomechanics-",
+  "topic": "Biomechanics and Movement Analysis",
+  "section": "B",
+  "subtopics": {
+    "knee/patellofemoral/screw-home mechanics": 13,
+    "shoulder/scapulohumeral mechanics": 13,
+    "normal gait phases": 13,
+    "running/jumping/landing mechanics": 13,
+    "vectors/force/torque/moment arms": 13,
+    "foot/ankle/subtalar/windlass mechanics": 13,
+    "pathological gait and observational analysis": 12,
+    "ground reaction forces": 12,
+    "levers and mechanical advantage": 12,
+    "spine/pelvis/lumbopelvic rhythm": 12,
+    "centre of gravity/base of support": 12,
+    "throwing and sport-skill biomechanics": 12
+  },
+  "expectedSubtopics": {
+    "knee/patellofemoral/screw-home mechanics": 13,
+    "shoulder/scapulohumeral mechanics": 13,
+    "normal gait phases": 13,
+    "running/jumping/landing mechanics": 13,
+    "vectors/force/torque/moment arms": 13,
+    "foot/ankle/subtalar/windlass mechanics": 13,
+    "pathological gait and observational analysis": 12,
+    "ground reaction forces": 12,
+    "levers and mechanical advantage": 12,
+    "spine/pelvis/lumbopelvic rhythm": 12,
+    "centre of gravity/base of support": 12,
+    "throwing and sport-skill biomechanics": 12
+  },
+  "difficultyCounts": {
+    "foundational": 105,
+    "applied": 30,
+    "analytical": 15
+  },
+  "answerIndexCounts": [
+    38,
+    37,
+    38,
+    37
+  ],
+  "sourceIds": {
+    "neumann-kinesiology": 63,
+    "perry-burnfield-gait-analysis": 25,
+    "brukner-khan-clinical-sports-medicine": 13,
+    "basic-biomechanics-hall": 49
+  },
+  "uniqueIds": 150,
+  "uniqueStems": 150,
+  "optionLengthMetrics": {
+    "minSpread": 0,
+    "maxSpread": 25,
+    "meanSpread": 10.89,
+    "strictLongestCorrect": 34,
+    "strictShortestCorrect": 23,
+    "spreadOver15": 37
+  },
+  "provenanceNote": "Primary sources are the supplied Neumann, Hall, Perry/Burnfield and Brukner & Khan reference books; source IDs are existing central-catalog entries. SAI notification is used for the Section B syllabus scope.",
+  "generatedAt": "2026-08-17"
+}

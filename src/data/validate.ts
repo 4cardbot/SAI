@@ -43,8 +43,8 @@ const coverage: Record<Section, Array<[string, RegExp]>> = {
     ["biomechanics and movement analysis", /biomechanics|gait|movement|force|moment|kinematic/],
     ["psychology and human development", /psycholog|fear|confidence|stress|motivation|growth|youth|development/],
     ["assessment and clinical reasoning", /assessment|diagnos|clinical reasoning|differential|red flag/],
-    ["sports physiotherapy and medicine", /sports physiotherapy|sports injury|return to sport|injury/],
-    ["nutrition and research", /nutrition|research|evidence|statistics/],
+    ["sports physiotherapy, emergencies and travel", /sports physiotherapy|sports injury|return to sport|concussion|emergency action|heat stroke|travel/],
+    ["sports medicine, nutrition and research", /sports medicine|nutrition|research|evidence|statistics|anti-doping/],
   ],
   C: [],
 };
@@ -80,7 +80,7 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });
 
-  const expected = { A1: 900, A2: 200, B: 480, C: 240 };
+  const expected = { A1: 900, A2: 200, B: 1350, C: 240 };
   sections.forEach((section) => {
     if (counts[section] !== expected[section]) errors.push(`${section} has ${counts[section]} questions; expected ${expected[section]}`);
   });

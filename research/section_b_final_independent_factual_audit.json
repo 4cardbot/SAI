@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only factual and content audit",
+  "scope": {
+    "section": "B",
+    "durableGroupFiles": 9,
+    "questionsReviewed": 1350,
+    "mergedFile": "question_bank/section_b.json",
+    "questionFilesModified": false,
+    "sourceCatalogModified": false,
+    "method": "Enumerated every durable-group and merged record; checked schema, answer indices, option uniqueness, duplicate IDs/stems, explanation/key consistency, semantic option overlap, source resolution and option-length flags. Performed deep content review of the replacement biomechanics group, all revised psychology options, the prior factual findings, current clinical claims, and high-risk option-length cases. Spot-checked cited claims against the supplied Hall, Neumann and Kenney PDFs and authoritative clinical or professional sources."
+  },
+  "overallAssessment": {
+    "releaseStatus": "hold_for_correction",
+    "verifiedContentDefectCount": 4,
+    "verifiedProvenanceDefectCount": 4,
+    "highOrCriticalContentDefectCount": 1,
+    "reason": "The bank is structurally complete and most prior answer-key defects are corrected, but four current items still have a wrong key or non-unique answer, and four source assignments do not faithfully identify the material supporting the item. These should be corrected before treating the bank as release quality."
+  },
+  "structuralChecks": {
+    "durableGroups": "9 files present; 150 questions each",
+    "mergedCount": 1350,
+    "mergedMatchesDurableConcatenation": true,
+    "allQuestionsSectionB": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesValid": true,
+    "allDifficultiesWithinSchema": true,
+    "duplicateIds": 0,
+    "duplicateStems": 0,
+    "resolvedSourceIds": 35,
+    "unresolvedSourceIds": 0,
+    "answerIndices": [342, 333, 342, 333],
+    "centralAuditStatus": "pass-with-review-flags",
+    "centralAuditErrors": 0
+  },
+  "verifiedDefects": [
+    {
+      "questionId": "b-biomechanics-131",
+      "severity": "high",
+      "type": "answer_key_and_explanation_contradict",
+      "sourceId": "basic-biomechanics-hall",
+      "evidence": "The keyed option is 'Raises tipping moment', but lowering the centre of mass generally increases tipping resistance/stability for a given base. The explanation states the opposite of the keyed option. The supplied Basic Biomechanics PDF discusses centre of gravity and equilibrium in Chapter 13, including the mechanical effect of centre-of-mass position.",
+      "recommendedCorrection": "Replace the keyed option with an unambiguous statement such as 'Increases tipping resistance' and keep the correct index aligned with that option. Do not retain the current key."
+    },
+    {
+      "questionId": "b-biomechanics-121",
+      "severity": "medium",
+      "type": "multiple_substantively_correct_options",
+      "sourceId": "neumann-kinesiology",
+      "evidence": "Both 'Pelvic rotation smooths the step' and 'Pelvic rotation smooths and lengthens the step' are true responses to the stem. The supplied Neumann PDF, Chapter 15, p. 674, supports pelvic rotation as functionally lengthening the lower extremity and reducing vertical centre-of-mass displacement; the explanation also explicitly says it helps smooth progression.",
+      "recommendedCorrection": "Replace the shorter option with a clearly false but parallel distractor, or rewrite the stem to ask specifically about functional lengthening/reduced vertical displacement. This item is also a correct-option length giveaway: spread 21 characters and correct option strictly longest."
+    },
+    {
+      "questionId": "b-biomechanics-047",
+      "severity": "medium",
+      "type": "multiple_substantively_correct_options",
+      "sourceId": "brukner-khan-clinical-sports-medicine",
+      "evidence": "The options 'More excursion absorbs energy' and 'More excursion absorbs more energy' are not mutually exclusive; the first is a true general statement and the second is the keyed elaboration. The explanation supports increased work-absorption distance but also correctly qualifies that the effect depends on timing and whole-body strategy.",
+      "recommendedCorrection": "Rewrite the first distractor so it is false or materially different, rather than a shorter true subset of the keyed answer. Preserve the qualified explanation."
+    },
+    {
+      "questionId": "b-sportsmed-040",
+      "severity": "medium",
+      "type": "multiple_plausible_correct_options",
+      "sourceId": "wada-istue-2023",
+      "evidence": "The keyed option 'Jurisdiction-specific NADA guidance' and the distractor 'Use current national resources with global rules' both answer why NADA India resources should be checked alongside general advice. The latter is a valid paraphrase of the explanation, so the answer is not unique.",
+      "recommendedCorrection": "Replace one of the two overlapping options with a clearly incorrect but plausible alternative, or narrow the stem to the specific purpose of NADA India guidance. The source ID should also be changed to a NADA India source."
+    },
+    {
+      "questionIds": [
+        "b-sportsmed-021",
+        "b-sportsmed-024",
+        "b-sportsmed-026",
+        "b-sportsmed-027",
+        "b-sportsmed-028",
+        "b-sportsmed-029"
+      ],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "wada-prohibited-list-2026",
+      "evidence": "The 2026 Prohibited List supports list categories and status, but these items additionally test strict liability, support-personnel education, prescription verification, doping-control notification, medication records and confidentiality. Those propositions are governed by the WADA Code, NADA India rules/resources or testing guidance, not by the Prohibited List itself.",
+      "recommendedCorrection": "Retain the answer content if independently verified, but assign primary sources granularly: WADA Code 2021 for responsibilities/education and relevant NADA India rules or testing resources for notification, records and confidentiality."
+    },
+    {
+      "questionIds": [
+        "b-sportsmed-039",
+        "b-sportsmed-040"
+      ],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "wada-istue-2023",
+      "evidence": "These items ask what NADA India does and why its national guidance should be checked. The cited International Standard for TUEs supports TUE criteria and processes, not the institutional role or current national-resource function of NADA India.",
+      "recommendedCorrection": "Use the existing `nada-india-official-2026` or another inspected NADA India source as the primary source. Keep `wada-istue-2023` for the TUE items themselves."
+    },
+    {
+      "questionIds": [
+        "b-sportsphysio-071",
+        "b-sportsphysio-072",
+        "b-sportsphysio-073",
+        "b-sportsphysio-074"
+      ],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "apta-lateral-ankle-cpg-2021",
+      "evidence": "These items test Doha groin-pain taxonomy, adductor/iliopsoas examination and Copenhagen adduction loading. The cited APTA/JOSPT guideline is for lateral ankle ligament sprains and does not establish these groin concepts. The answers themselves are consistent with the Doha agreement terminology, but that supporting source is not cited.",
+      "recommendedCorrection": "Use the inspected Doha agreement paper (Weir et al., BJSM 2015, https://bjsm.bmj.com/content/49/12/768) or a supplied sports-medicine text that directly covers these groin concepts. Retain the ankle CPG for the ankle items."
+    },
+    {
+      "questionIds": [
+        "b-sportsmed-043",
+        "b-sportsmed-044"
+      ],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "ais-supplements-position-2022",
+      "evidence": "The AIS statement supports supplement risk, evidence, contamination and product-quality counselling, but these items ask about starting prescription medicines and maintaining a travelling medication record. The cited supplement statement is not a direct source for prescribing authority, medication documentation or travel medicine governance.",
+      "recommendedCorrection": "Use an inspected medication-safety, anti-doping or team-travel source that directly supports these claims; retain the AIS source for supplement-specific items such as 041, 045–049."
+    }
+  ],
+  "resolvedPriorFindings": [
+    {
+      "questionId": "b-physiology-019",
+      "status": "resolved",
+      "verification": "Correct option now states lower pH, increased temperature and increased carbon dioxide; key and explanation agree."
+    },
+    {
+      "questionId": "b-sportsphysio-064",
+      "status": "resolved",
+      "verification": "Anterior talofibular ligament is present and keyed."
+    },
+    {
+      "questionId": "b-sportsphysio-065",
+      "status": "resolved",
+      "verification": "High ankle sprain is present and keyed."
+    },
+    {
+      "questionId": "b-sportsmed-046",
+      "status": "resolved",
+      "verification": "Discuss evidence uncertainty is keyed and agrees with the explanation."
+    },
+    {
+      "questionId": "b-anatomy-049",
+      "status": "resolved",
+      "verification": "The ambiguous scapular-protraction wording was removed; the item now tests pectoralis-major location and actions."
+    },
+    {
+      "questionId": "b-anatomy-079",
+      "status": "resolved",
+      "verification": "The stem explicitly asks for the thoracic-region primary curve, distinguishing thoracic kyphosis from sacral kyphosis."
+    },
+    {
+      "questionId": "b-electro-122",
+      "status": "resolved",
+      "verification": "The short invalid stem was replaced with a complete rheobase question; the key and explanation agree."
+    },
+    {
+      "questionIds": ["b-biomechanics-056", "b-biomechanics-086", "b-biomechanics-130"],
+      "status": "superseded_by_replacement_group",
+      "verification": "These IDs referred to the pre-replacement biomechanics bank. They are no longer the same records; the replacement group was reviewed separately."
+    }
+  ],
+  "currentClinicalSpotChecks": [
+    {
+      "questionIds": ["b-sportsphysio-064", "b-sportsphysio-065", "b-sportsphysio-067", "b-sportsphysio-069", "b-sportsphysio-070"],
+      "status": "verified",
+      "basis": "Ankle CPG and peer-reviewed ankle literature support ATFL as the common lateral ankle ligament injury, syndesmotic injury as a high ankle sprain, and Ottawa-rule imaging decisions.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33789434/"
+    },
+    {
+      "questionIds": ["b-sportsphysio-071", "b-sportsphysio-072", "b-sportsphysio-073", "b-sportsphysio-074"],
+      "status": "answer_content_verified_but_provenance_defect",
+      "basis": "The Doha agreement defines adductor-related and iliopsoas-related groin pain using palpation and resisted testing and supports active adductor rehabilitation concepts; the bank cites the wrong ankle source.",
+      "source": "https://bjsm.bmj.com/content/49/12/768"
+    },
+    {
+      "questionIds": ["b-sportsphysio-113", "b-sportsphysio-117", "b-sportsphysio-118", "b-sportsphysio-119", "b-sportsphysio-120", "b-sportsphysio-121"],
+      "status": "verified",
+      "basis": "The Amsterdam concussion consensus supports removal from play, symptom-limited progression, graduated return-to-sport and return-to-learn concepts.",
+      "source": "https://bjsm.bmj.com/content/57/11/695"
+    },
+    {
+      "questionIds": ["b-sportsmed-022", "b-sportsmed-023", "b-sportsmed-025", "b-sportsmed-030"],
+      "status": "verified",
+      "basis": "The current WADA Prohibited List is the appropriate source for prohibited-status categories and current-list checking; these items do not show an answer-key defect.",
+      "source": "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list"
+    },
+    {
+      "questionIds": ["b-biomechanics-001", "b-biomechanics-002", "b-biomechanics-068", "b-biomechanics-069", "b-biomechanics-090", "b-biomechanics-149", "b-biomechanics-150"],
+      "status": "verified",
+      "basis": "Open-chain/closed-chain screw-home mechanics, windlass mechanics, cadence and the numerical mechanics calculations agree with the supplied Neumann and Hall PDFs and their explanations."
+    },
+    {
+      "questionIds": ["b-psychology-001", "b-psychology-050", "b-psychology-076", "b-psychology-109", "b-psychology-136", "b-psychology-150"],
+      "status": "verified_spot_check",
+      "basis": "The revised psychology options preserve the intended keys and explanations in the sampled motivation, attention, burnout, behaviour-change, consent and conflict-of-interest items. The group audit reports zero correct-option median-length flags and maximum option spread of 15 characters."
+    }
+  ],
+  "optionLengthReview": {
+    "status": "review_suggestions_only",
+    "flaggedByCentralAudit": 128,
+    "spreadOver15Characters": 115,
+    "correctStrictlyLongest": 249,
+    "correctStrictlyShortest": 261,
+    "maximumSpreadCharacters": 40,
+    "highestSpreadCases": [
+      {"questionId": "b-exercise-093", "spread": 40, "note": "Correct answer is not longest, but the three distractors are much longer and semantically extreme; review for natural parallel options."},
+      {"questionId": "b-exercise-089", "spread": 29},
+      {"questionId": "b-physiology-003", "spread": 28},
+      {"questionId": "b-exercise-035", "spread": 27},
+      {"questionId": "b-exercise-137", "spread": 27},
+      {"questionId": "b-physiology-110", "spread": 27},
+      {"questionId": "b-exercise-069", "spread": 26},
+      {"questionId": "b-exercise-136", "spread": 26},
+      {"questionId": "b-exercise-143", "spread": 26},
+      {"questionId": "b-biomechanics-050", "spread": 25},
+      {"questionId": "b-biomechanics-058", "spread": 25},
+      {"questionId": "b-biomechanics-116", "spread": 25}
+    ],
+    "interpretation": "Length flags are not independently factual defects. The largest semantic concern is b-exercise-093 because its distractors are both much longer and obviously overqualified. The full machine-readable list remains in research/section_b_central_audit.json."
+  },
+  "reviewSuggestions": [
+    {
+      "severity": "review",
+      "questionId": "b-anatomy-015",
+      "type": "stem_alignment",
+      "finding": "The scenario mentions rectus-femoris stretch, but the options only test the proximal/distal relationship of hip and knee. The keyed anatomical relationship is true, yet the stem and answer target are weakly aligned.",
+      "recommendation": "Either ask directly which anatomical term describes the hip relative to the knee, or make the options test biarticular muscle lengthening."
+    },
+    {
+      "severity": "review",
+      "questionIds": ["b-physiology-126", "b-physiology-127", "b-physiology-128", "b-physiology-129", "b-physiology-130", "b-physiology-131", "b-physiology-132", "b-physiology-133", "b-physiology-134", "b-physiology-135", "b-physiology-136"],
+      "type": "source_locator_depth",
+      "finding": "The heat, cold and altitude emergency items are clinically plausible, but the broad IOC load/illness consensus source is not a granular source for every emergency-treatment detail.",
+      "recommendation": "Retain only after adding direct emergency-medicine/official heat-illness and altitude sources that were actually inspected, or narrow the explanations to the cited consensus scope."
+    },
+    {
+      "severity": "review",
+      "questionIds": ["b-sportsmed-044", "b-sportsphysio-143", "b-sportsphysio-144", "b-sportsphysio-148"],
+      "type": "generic_or_vague_option",
+      "finding": "The keyed concepts are defensible, but phrases such as 'Traceable medication record', 'Documented, legal and clinically supervised' and 'Storage, access, inventory and replenishment' are broad noun phrases rather than precise operational answers.",
+      "recommendation": "Tighten the stems and options so the question tests a concrete record element or procedure while preserving the cited facts."
+    }
+  ],
+  "auditArtifacts": {
+    "centralStructuralAudit": "research/section_b_central_audit.json",
+    "priorFactualAudit": "research/section_b_independent_factual_audit.json",
+    "factualRemediationLog": "research/section_b_factual_remediation_log.json",
+    "durableGroupAudits": "research/section_b_agent_audit_*.json"
+  }
+}

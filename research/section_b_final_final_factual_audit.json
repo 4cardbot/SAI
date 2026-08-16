@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only factual and content audit",
+  "scope": {
+    "section": "B",
+    "durableGroupFiles": 9,
+    "questionsReviewed": 1350,
+    "mergedFile": "question_bank/section_b.json",
+    "questionFilesModified": false,
+    "sourceCatalogModified": false,
+    "readOnlyScope": [
+      "question_bank/section_b_*.json",
+      "question_bank/section_b.json",
+      "src/data/sourceCatalog.ts",
+      "research/section_b_factual_remediation_log.json",
+      "research/section_b_final_independent_factual_audit.json",
+      "research/section_b_final_independent_structural_audit.json"
+    ],
+    "method": [
+      "Enumerated every durable-group record and the merged record; checked schema, section/topic values, answer indices, four-option uniqueness, duplicate IDs/stems, source resolution and merged ordering.",
+      "Compared every keyed option with its explanation using an exhaustive contradiction/overlap scan, then manually reviewed the flagged answer-key cases, all prior reported defects, all current anti-doping/NADA/Doha/medication remaps, numerical calculation items, and high-risk clinical/emergency wording.",
+      "Reviewed high option-length cases as editorial review suggestions rather than treating length alone as a factual defect.",
+      "Checked current external claims against the cited authoritative pages and papers where applicable; historical textbook claims were checked against the supplied local books and the catalogued locator."
+    ]
+  },
+  "overallAssessment": {
+    "releaseStatus": "hold_for_correction",
+    "verifiedContentDefectCount": 1,
+    "verifiedProvenanceDefectCount": 4,
+    "verifiedDefectCount": 5,
+    "highOrCriticalDefectCount": 1,
+    "reason": "The bank is structurally complete and the four defects from the preceding factual audit are corrected. One additional answer-key contradiction remains in b-physiology-043, and four current source assignments do not directly support the claims made by their items. These should be corrected before release-quality status is claimed."
+  },
+  "structuralChecks": {
+    "durableGroups": "9 files present; 150 questions each",
+    "durableTotal": 1350,
+    "mergedTotal": 1350,
+    "mergedMatchesConfiguredDurableConcatenation": true,
+    "allQuestionsSectionB": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesValid": true,
+    "allDifficultiesWithinSchema": true,
+    "duplicateIds": 0,
+    "duplicateStems": 0,
+    "resolvedSourceIds": 35,
+    "unresolvedSourceIds": 0,
+    "sourceEntriesUsedWithMissingMetadata": 0,
+    "answerIndices": [342, 333, 342, 333],
+    "exactRepeatingAnswerPeriodsThrough64": [],
+    "mergedFirstQuestion": "b-anatomy-001",
+    "mergedLastQuestion": "b-sportsmed-150"
+  },
+  "verifiedDefects": [
+    {
+      "questionId": "b-physiology-043",
+      "severity": "high",
+      "type": "wrong_answer_key_and_explanation_contradiction",
+      "sourceId": "physiology-sport-exercise-kenney",
+      "stem": "Why can a muscle generate greater force during a tetanic contraction than during a single twitch?",
+      "keyedOption": "Repeated stimuli eliminate ATP use",
+      "keyedIndex": 1,
+      "correctOptionSupportedByExplanation": "Repeated stimuli maintain cytosolic calcium",
+      "correctIndexThatMatchesTheExplanation": 0,
+      "evidence": "The explanation states that high-frequency stimulation maintains calcium availability and permits successive cross-bridge cycles to summate. Tetanic contraction does not eliminate ATP use; cross-bridge cycling continues to require ATP.",
+      "safetyImpact": "Material physiology error; it can teach an incorrect mechanism of muscle force production, although it is not a direct treatment instruction.",
+      "recommendedCorrection": "Set correct to 0 and retain or refine option 0/explanation, or rewrite the option set so the calcium-based mechanism is the sole correct answer."
+    },
+    {
+      "questionIds": ["b-sportsmed-026"],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "wada-prohibited-list-2026",
+      "evidence": "The current Prohibited List establishes prohibited substances, methods and conditions. It does not by itself establish the broader proposition that a prescription does not prove permission or provide the complete medication-ingredient verification process described in the explanation.",
+      "answerStatus": "Answer is defensible, but the primary source is incomplete for the full claim.",
+      "recommendedCorrection": "Use WADA Code 2021 and/or an inspected NADA India medication/resource source as the primary source; retain the Prohibited List as a supporting current-status source if desired."
+    },
+    {
+      "questionIds": ["b-sportsmed-043"],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "nada-india-rules-2021",
+      "evidence": "The National Anti-Doping Rules support anti-doping responsibilities and compliance, but the item asks what a physiotherapist should do when asked to start a prescription medicine and the explanation relies on prescriber coordination. The cited rulebook is not a direct scope-of-practice or prescribing-authority source.",
+      "answerStatus": "Answer is clinically safe and defensible.",
+      "recommendedCorrection": "Use an inspected professional-scope/medication-safety source that directly supports prescriber coordination, with NADA rules as a secondary anti-doping source."
+    },
+    {
+      "questionIds": ["b-sportsmed-044"],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "cdc-yellow-book-jet-lag-2026",
+      "evidence": "The cited CDC Jet Lag Disorder chapter supports travel medication cautions, timing, hypnotic risks and medication interactions. It does not directly establish maintaining a traceable medication record or checking that record for anti-doping status; the page contains no medication-record or anti-doping guidance.",
+      "answerStatus": "Answer is clinically safe and useful, but the source does not directly support the whole explanation.",
+      "recommendedCorrection": "Use a directly inspected team-travel medication-management or NADA medication-checking source. Keep the CDC source for jet-lag and travel-medication safety items."
+    },
+    {
+      "questionIds": ["b-sportsmed-050"],
+      "severity": "medium",
+      "type": "source_scope_mismatch",
+      "sourceId": "ais-supplements-position-2022",
+      "evidence": "The AIS position statement supports supplement evidence, contamination, product quality and professional advice. The item asks why athletes should not share prescribed medicines, which requires medication-safety and individualized-prescribing support not identified by the cited supplement statement.",
+      "answerStatus": "Answer is clinically safe and defensible.",
+      "recommendedCorrection": "Assign a direct medication-safety or prescribing source; retain the AIS statement for supplement-specific items."
+    }
+  ],
+  "targetedPriorFindings": [
+    {
+      "questionIds": ["b-biomechanics-131", "b-biomechanics-121", "b-biomechanics-047", "b-sportsmed-040"],
+      "status": "verified_resolved",
+      "verification": "The centre-of-mass key now states increased tipping resistance; the pelvic-rotation and landing items no longer contain a substantively true shorter distractor; and the NADA item has one clearly correct national-procedure answer."
+    },
+    {
+      "questionIds": ["b-physiology-019", "b-sportsphysio-064", "b-sportsphysio-065", "b-sportsmed-046", "b-anatomy-049", "b-anatomy-079", "b-electro-122"],
+      "status": "verified_resolved",
+      "verification": "Each current key agrees with its explanation and the revised stem/options are complete and unambiguous."
+    },
+    {
+      "questionIds": ["b-biomechanics-056", "b-biomechanics-086", "b-biomechanics-130"],
+      "status": "verified_current_records",
+      "verification": "The replacement biomechanics file contains valid current records for the moment-arm, equinus-gait and static-balance concepts; their keys and explanations agree."
+    }
+  ],
+  "provenanceRemapReview": {
+    "wadaAndNada": {
+      "status": "mostly_verified_with_one_remaining_scope_issue",
+      "verifiedMappings": [
+        "b-sportsmed-021 -> wada-code-2021 for strict liability",
+        "b-sportsmed-022, b-sportsmed-023, b-sportsmed-025, b-sportsmed-030 -> wada-prohibited-list-2026 for List categories and current status",
+        "b-sportsmed-024 -> wada-code-2021 for support-personnel education",
+        "b-sportsmed-027, b-sportsmed-028, b-sportsmed-029 -> nada-india-rules-2021 for testing, records and confidentiality responsibilities",
+        "b-sportsmed-031 through b-sportsmed-038 -> wada-istue-2023 for TUE criteria and process",
+        "b-sportsmed-039 and b-sportsmed-040 -> nada-india-official-2026 for NADA India functions and current national resources"
+      ],
+      "remainingIssue": "b-sportsmed-026 is still too broad for the Prohibited List alone; see verified defects."
+    },
+    "dohaGroin": {
+      "status": "verified",
+      "questionIds": ["b-sportsphysio-071", "b-sportsphysio-072", "b-sportsphysio-073", "b-sportsphysio-074"],
+      "sourceId": "doha-groin-consensus-2015",
+      "verification": "The source directly covers adductor-related and iliopsoas-related groin pain, examination and active adductor rehabilitation concepts used by these items."
+    },
+    "medicationAndTravel": {
+      "status": "answer_content_verified_but_provenance_incomplete",
+      "questionIds": ["b-sportsmed-043", "b-sportsmed-044", "b-sportsmed-050"],
+      "verification": "The answers discourage unsupervised prescribing, undocumented travel medication use and sharing prescriptions. The cited primary sources do not directly cover every medication-management proposition; see verified provenance defects."
+    }
+  },
+  "answerKeyAndUniqueness": {
+    "allKeysPointToAnExistingOption": true,
+    "allOptionSetsHaveDistinctText": true,
+    "verifiedSemanticDefectIds": ["b-physiology-043"],
+    "verifiedResolvedNonUniqueItems": ["b-biomechanics-121", "b-biomechanics-047", "b-sportsmed-040"],
+    "manualChecks": [
+      "All four newly repaired target items were re-read with their full option sets and explanations.",
+      "All prior answer-key repairs listed above were re-read against the current merged bank.",
+      "Numerical biomechanics, electrotherapy, likelihood-ratio and basic statistics items checked against their displayed calculations; no additional calculation/key defect was found.",
+      "The exhaustive machine scan is a screening aid; lexical agreement alone is not treated as proof of clinical correctness."
+    ]
+  },
+  "clinicalSafetyReview": {
+    "status": "one_material_content_defect_remains; no_additional_unsafe_treatment_instruction_found",
+    "verifiedUnsafeOrMisleadingIds": ["b-physiology-043"],
+    "positiveChecks": [
+      "Emergency and environmental items reviewed use conservative escalation, primary-survey, heat-illness, altitude and spinal-precaution wording.",
+      "Medication, supplement and anti-doping answers generally direct the athlete toward prescriber, NADA/WADA or formal review rather than self-prescribing or sharing medication.",
+      "Return-to-play items do not treat a single test or symmetry threshold as automatic clearance; the repaired hop-test and clinical-reasoning items preserve this caution.",
+      "Doha groin, ankle, concussion and safeguarding items use clinically appropriate source-linked framing in the reviewed records."
+    ]
+  },
+  "optionLengthReview": {
+    "status": "review_suggestions_only",
+    "spreadOver15Characters": 115,
+    "correctOptionAtLeast10CharactersLongerThanDistractorMedian": 61,
+    "correctStrictlyLongest": 248,
+    "correctStrictlyShortest": 262,
+    "correctStrictlyLongestPercent": 18.37,
+    "maximumSpreadCharacters": 40,
+    "highestSpreadCases": [
+      {"questionId": "b-exercise-093", "spread": 40, "note": "The correct option is not longest; the fourth distractor is unnecessarily verbose."},
+      {"questionId": "b-exercise-089", "spread": 29, "note": "Review for parallel concise distractors; no answer-key defect found."},
+      {"questionId": "b-physiology-003", "spread": 28, "note": "Correct option is shortest; review parallel option construction."},
+      {"questionId": "b-physiology-110", "spread": 27, "note": "Correct option is shortest; long distractors are semantically extreme."},
+      {"questionId": "b-exercise-035", "spread": 27, "note": "Review grammatical and length parallelism."},
+      {"questionId": "b-exercise-137", "spread": 27, "note": "Correct option is short; review distractor verbosity."},
+      {"questionId": "b-exercise-069", "spread": 26, "note": "Correct option is not longest; review parallel loading-mode wording."},
+      {"questionId": "b-exercise-136", "spread": 26, "note": "Review concise parallel progression choices."},
+      {"questionId": "b-exercise-143", "spread": 26, "note": "Correct option is short; review distractor length."},
+      {"questionId": "b-exercise-055", "spread": 25, "note": "Review concise parallel contract-relax choices."},
+      {"questionId": "b-biomechanics-050", "spread": 25, "note": "Review distractor length and grammatical parallelism."},
+      {"questionId": "b-biomechanics-058", "spread": 25, "note": "Review concise parallel moment-response choices."}
+    ],
+    "additionalWordingSuggestion": {
+      "questionId": "b-biomechanics-088",
+      "severity": "review",
+      "issue": "The keyed option 'Raises body for opposite foot clearance' is grammatically incomplete.",
+      "recommendation": "Revise to 'Raises the body to improve opposite-foot clearance' while preserving the same concept and key."
+    }
+  },
+  "externalVerification": [
+    {
+      "claimArea": "Bohr effect",
+      "result": "Verified for b-physiology-019; increased CO2/decreased pH reduce haemoglobin oxygen affinity and facilitate unloading.",
+      "source": "https://www.ncbi.nlm.nih.gov/books/NBK526028/"
+    },
+    {
+      "claimArea": "Doha groin taxonomy",
+      "result": "Verified for b-sportsphysio-071 through b-sportsphysio-074; current source mapping is appropriate.",
+      "source": "https://bjsm.bmj.com/content/49/12/768"
+    },
+    {
+      "claimArea": "Ankle injury concepts",
+      "result": "Verified for b-sportsphysio-064, b-sportsphysio-065 and related reviewed items.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33789434/"
+    },
+    {
+      "claimArea": "Travel medication safety",
+      "result": "The CDC source supports travel medication cautions and interactions, but not the full traceable-record/anti-doping explanation in b-sportsmed-044.",
+      "source": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html"
+    },
+    {
+      "claimArea": "Anti-doping current status",
+      "result": "The WADA List is appropriate for current prohibited categories/status; broader prescription, responsibility and national-procedure claims need Code/NADA sources as recorded above.",
+      "source": "https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list"
+    }
+  ],
+  "reviewSuggestions": [
+    {
+      "severity": "review",
+      "type": "source-locator-specificity",
+      "questionIds": ["b-sportsmed-021"],
+      "note": "The WADA Code source is appropriate in substance, but the catalog locator currently emphasizes Article 18 while strict liability is an Article 2.1 concept. Add a more specific locator when the source catalog is next edited."
+    },
+    {
+      "severity": "review",
+      "type": "option-length-bias",
+      "questionIds": ["b-exercise-093", "b-exercise-089", "b-physiology-003", "b-physiology-110", "b-exercise-035", "b-exercise-137", "b-exercise-069", "b-exercise-136", "b-exercise-143", "b-exercise-055", "b-biomechanics-050", "b-biomechanics-058"],
+      "note": "Revise only where concise, semantically meaningful options can be produced. The current global metrics do not show a correct-longest bias above the configured threshold."
+    },
+    {
+      "severity": "review",
+      "type": "biomechanics_subtopic_balance",
+      "questionIds": [],
+      "note": "The biomechanics group remains intentionally 150 questions but has uneven subtopic counts. This is a preparation-bank coverage issue, not a current answer-key or safety defect."
+    }
+  ],
+  "recommendedDisposition": [
+    "Correct b-physiology-043 before release.",
+    "Repair the four remaining provenance assignments, especially b-sportsmed-026, b-sportsmed-043, b-sportsmed-044 and b-sportsmed-050.",
+    "Optionally correct b-biomechanics-088 grammar and review the listed high-spread options in a separate editorial pass.",
+    "Rerun the central structural audit, bank tests and an independent factual audit after any content or source changes."
+  ]
+}

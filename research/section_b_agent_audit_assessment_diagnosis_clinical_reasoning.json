@@ -1,0 +1,75 @@
+{
+  "group": "Assessment, Diagnosis and Clinical Reasoning",
+  "file": "question_bank/section_b_assessment_diagnosis_clinical_reasoning.json",
+  "section": "B",
+  "count": 150,
+  "subtopics": {
+    "Subjective, objective examination and SOAP": 12,
+    "Observation, palpation, ROM and end-feel": 12,
+    "Manual muscle testing": 12,
+    "Diagnostic reasoning and red flags": 13,
+    "Knee special tests": 13,
+    "Shoulder special tests": 13,
+    "Ankle and foot special tests": 13,
+    "Spine and pelvis special tests": 12,
+    "Elbow, wrist and hand special tests": 12,
+    "Neurodynamic tests, sliders and tensioners": 13,
+    "Validated outcome measures": 12,
+    "Sensitivity, specificity, reliability and clinical interpretation": 13
+  },
+  "difficulty": {
+    "foundational": 105,
+    "applied": 37,
+    "analytical": 8
+  },
+  "answerIndices": {
+    "0": 38,
+    "1": 37,
+    "2": 38,
+    "3": 37
+  },
+  "sources": {
+    "magee-orthopaedic-assessment": 73,
+    "world-physiotherapy-ebp-2023": 28,
+    "brukner-khan-clinical-sports-medicine": 13,
+    "ioc-manual-sports-injuries": 1,
+    "shacklock-clinical-neurodynamics": 17,
+    "world-physiotherapy-consent-2023": 1,
+    "konin-special-tests-orthopedic-examination": 10,
+    "apta-lateral-ankle-cpg-2021": 7
+  },
+  "sourcesInspected": [
+    "SAI notification and Section B syllabus guidance",
+    "magee-orthopaedic-assessment: Orthopedic Physical Assessment, Magee and Manske, 7th ed.",
+    "konin-special-tests-orthopedic-examination: Special Tests for Orthopedic Examination",
+    "shacklock-clinical-neurodynamics: Clinical Neurodynamics",
+    "brukner-khan-clinical-sports-medicine: Brukner and Khan's Clinical Sports Medicine, 5th ed.",
+    "world-physiotherapy-ebp-2023: Evidence-based practice policy",
+    "world-physiotherapy-consent-2023: Informed consent policy",
+    "apta-lateral-ankle-cpg-2021: Lateral Ankle Ligament Sprains Clinical Practice Guideline",
+    "ioc-manual-sports-injuries: The IOC Manual of Sports Injuries"
+  ],
+  "qualityChecks": {
+    "uniqueIds": true,
+    "idPrefix": "b-assessment-",
+    "uniqueStems": true,
+    "fourUniqueOptionsEach": true,
+    "validZeroBasedAnswers": true,
+    "allowedDifficultiesOnly": true,
+    "allRequiredSubtopicsCovered": true,
+    "targetAnswerBalanceMet": true,
+    "optionLengthReviewRequired": false
+  },
+  "caveats": [
+    "Special tests are educational examination items; individual test accuracy varies by population, examiner and reference standard.",
+    "A positive or negative special test is not a standalone diagnosis and should be interpreted with history, examination and appropriate referral criteria.",
+    "The supplied assessment PDFs are scan-heavy; source attribution follows the named regional examination and test sections recorded in the central source catalog."
+  ],
+  "optionLength": {
+    "strictLongestCorrect": 26,
+    "strictShortestCorrect": 51,
+    "maxSpread": 15,
+    "maxSpreadFlagThreshold": 15,
+    "lengthOutliers": 0
+  }
+}

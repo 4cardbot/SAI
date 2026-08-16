@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only Section B release certification audit",
+  "releaseStatus": "hold_for_correction",
+  "summary": "The four previously blocking records are repaired and pass targeted answer-key, uniqueness, and explanation-consistency review. The bank passes structural, provenance, duplicate, answer-balance, exact-period, and option-length-target checks. Release remains blocked by one official syllabus component missing from the Assessment, Diagnosis and Clinical Reasoning group.",
+  "scope": {
+    "durableGroupFiles": 9,
+    "questionsPerGroup": 150,
+    "durableTotal": 1350,
+    "mergedFile": "question_bank/section_b.json",
+    "mergedTotal": 1350,
+    "notification": {
+      "file": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+      "relevantPagesInspected": [96, 97, 98, 99, 106, 107],
+      "syllabusLocator": "Physiotherapy syllabus pp. 96-99",
+      "sampleLocator": "Annexure B pp. 106-107"
+    },
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "remediationLogs": [
+      "research/section_b_factual_remediation_log.json",
+      "research/section_b_coverage_remediation_physiology_exercise_sportsphysio.json",
+      "research/section_b_answer_pattern_assessment_coverage_remediation.json",
+      "research/section_b_answer_pattern_remediation_anatomy_electro.json"
+    ],
+    "readOnlyConstraint": "No file was modified by this audit except this certification report."
+  },
+  "blockingFindings": [
+    {
+      "type": "official-syllabus-coverage",
+      "topic": "Assessment, Diagnosis and Clinical Reasoning",
+      "officialArea": "Manual therapy principles and applications",
+      "evidence": "The Assessment group has 150 records across 14 subtopics, but zero records whose subtopic, stem, or explanation covers manual therapy, mobilisation, or manipulative-therapy principles. Its separate Exercise Therapy group contains manual-therapy questions, but that does not satisfy the corresponding Assessment syllabus area.",
+      "requiredAction": "Add a defensible set of Assessment-group questions explicitly covering manual-therapy principles and applications, then regenerate the merged bank, manifest, and audits."
+    }
+  ],
+  "targetedPreviouslyBlockingRecords": {
+    "status": "pass",
+    "records": [
+      {
+        "id": "b-physiology-028",
+        "correct": 3,
+        "keyedOption": "Gallbladder contraction and enzyme secretion",
+        "finding": "The bicarbonate-without-gallbladder distractor is now distinct and not the best answer; the key agrees with the CCK explanation."
+      },
+      {
+        "id": "b-exercise-038",
+        "correct": 3,
+        "keyedOption": "Progress gradually without painful forcing",
+        "finding": "The ignore-pain distractor is unsafe, leaving one unambiguous safe-practice answer consistent with the explanation."
+      },
+      {
+        "id": "b-exercise-100",
+        "correct": 0,
+        "keyedOption": "The dose may be tolerated; keep monitoring",
+        "finding": "The key now matches the explanation; the alternatives are unsafe or overconfident interpretations."
+      },
+      {
+        "id": "b-sportsphysio-101",
+        "correct": 3,
+        "keyedOption": "Hydration can alter mass and estimates",
+        "finding": "The fat-loss, rapid-lean-tissue, and fluid-independent distractors are false; the hydration interpretation is uniquely correct."
+      }
+    ]
+  },
+  "structuralChecks": {
+    "allNineGroupsPresent": true,
+    "eachGroupExactly150": true,
+    "durableTotal": 1350,
+    "mergedTotal": 1350,
+    "mergedMatchesCanonicalDurableConcatenation": true,
+    "allRecordsSectionB": true,
+    "schemaErrors": 0,
+    "fourUniqueOptionsForEveryRecord": true,
+    "zeroBasedCorrectIndicesValid": true,
+    "validDifficultyValues": true,
+    "duplicateIds": 0,
+    "exactDuplicateStems": 0,
+    "sourceIdsResolve": true
+  },
+  "officialCoverage": {
+    "status": "one-component-gap",
+    "coveredHeadings": 8,
+    "totalHeadings": 9,
+    "namedComponentChecks": {
+      "Human Anatomy": "pass",
+      "Human and Exercise Physiology": "pass, including gastrointestinal, reproductive, renal, central/autonomic, thermoregulation, and special-senses content",
+      "Electrotherapy and Electrodiagnosis": "pass",
+      "Exercise Therapy and Rehabilitation": "pass, including yoga and manual therapy",
+      "Biomechanics and Movement Analysis": "pass",
+      "Psychology and Human Development": "pass",
+      "Assessment, Diagnosis and Clinical Reasoning": "partial; manual therapy principles and applications missing",
+      "Sports Physiotherapy, Emergencies and Travel": "pass, including body composition",
+      "Sports Medicine, Nutrition and Research": "pass"
+    },
+    "additionalCoverageEvidence": {
+      "gastrointestinalPhysiology": 10,
+      "reproductivePhysiology": 10,
+      "specialSensesPhysiology": 10,
+      "yogaBasics": 10,
+      "cardiovascularDysfunctionAssessment": 5,
+      "pulmonaryDysfunctionAssessment": 5,
+      "bodyCompositionAssessment": 10
+    }
+  },
+  "provenance": {
+    "usedSourceIds": 42,
+    "catalogEntriesInspected": 111,
+    "usedSourceIdsUnresolved": 0,
+    "usedEntriesMissingTitle": 0,
+    "usedEntriesMissingPublisherOrAuthors": 0,
+    "usedEntriesMissingUrlOrLocalPath": 0,
+    "usedEntriesMissingScope": 0,
+    "usedEntriesMissingLocator": 0,
+    "missingLocalPaths": 0,
+    "remediationLogQuestionIdsMissingFromBank": 0
+  },
+  "duplicates": {
+    "exactNormalizedStems": 0,
+    "substantiveNearDuplicatePairs": [
+      ["b-physiology-098", "b-psychology-086"],
+      ["b-assessment-085", "b-sportsphysio-070"],
+      ["b-psychology-136", "b-sportsmed-131"],
+      ["b-assessment-024", "b-sportsphysio-046"],
+      ["b-biomechanics-020", "b-sportsphysio-040"]
+    ],
+    "assessment": "Five semantically overlapping but non-identical concept pairs remain as non-blocking editorial deduplication candidates; no exact duplicate stem or duplicate answer record was found."
+  },
+  "answerBalanceAndPeriodicity": {
+    "mergedAnswerIndices": [339, 337, 340, 334],
+    "mergedPercentages": [25.11, 24.96, 25.19, 24.74],
+    "allGroupCountsWithin30To45ReviewBand": true,
+    "exactRepeatingPeriodsCheckedThrough": 100,
+    "mergedExactRepeatingPeriods": [],
+    "groupExactRepeatingPeriods": [],
+    "assessment": "Pass; no mechanical exact-period pattern remains. Repeated short windows occur incidentally and are not exact periodic cycles."
+  },
+  "optionLengthBias": {
+    "mergedQuestions": 1350,
+    "correctStrictlyLongest": 265,
+    "correctStrictlyLongestPercent": 19.63,
+    "correctStrictlyShortest": 269,
+    "correctStrictlyShortestPercent": 19.93,
+    "optionSetsWithSpreadOver15Characters": 121,
+    "maximumSpreadCharacters": 41,
+    "assessment": "Pass against the configured longest/shortest targets; the 121 wide-spread sets are non-blocking editorial review flags, not automatic answer-key defects."
+  },
+  "applicationAndRegressionChecks": {
+    "BTopicDropdownExposesNineGroups": true,
+    "eachBTopicFilteredAttemptReturns150Questions": true,
+    "fullCBTSeedsChecked": 20,
+    "fullCBTComposition": [32, 8, 40, 20],
+    "fullCBTFailures": 0,
+    "npmTest": "22 tests passed",
+    "bankValidation": "valid; A1 900, A2 200, B 1350, C 240"
+  },
+  "nonBlockingEditorialFlags": [
+    "121 option sets exceed a 15-character total spread; the correct option is not systematically longest.",
+    "b-exercise-093 has an overqualified distractor, and b-biomechanics-088 could use more parallel distractor wording; neither creates a confirmed answer-key defect.",
+    "Five semantically overlapping concept pairs are suitable for later deduplication, but each currently tests a defensible related distinction.",
+    "Some source locators are chapter/section-level rather than page-level, while all used entries have identifiable scope and locator metadata.",
+    "The prior release-audit reports remain historical remediation artifacts; this report reflects the current records and supersedes their four repaired-record findings."
+  ],
+  "disposition": "Do not certify release yet. Correct the single Assessment-group manual-therapy coverage gap, regenerate section_b.json and the coverage manifest, and rerun this independent audit."
+}

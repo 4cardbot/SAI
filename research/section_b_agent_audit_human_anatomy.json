@@ -1,0 +1,64 @@
+{
+  "group": "Human Anatomy",
+  "file": "question_bank/section_b_human_anatomy.json",
+  "idPrefix": "b-anatomy-",
+  "generatedAt": "2026-08-17",
+  "count": 150,
+  "section": "B",
+  "canonicalTopic": "Human Anatomy",
+  "schema": {
+    "valid": true,
+    "requiredFields": ["id", "section", "topic", "subtopic", "difficulty", "text", "options", "correct", "explanation", "sourceId"],
+    "optionsPerQuestion": 4,
+    "correctIndexBase": 0,
+    "allowedDifficulties": ["foundational", "applied", "analytical"]
+  },
+  "subtopics": {
+    "anatomical terminology": 15,
+    "planes and axes": 15,
+    "osteology and arthrology": 15,
+    "upper-limb anatomy": 15,
+    "lower-limb anatomy": 15,
+    "pelvis and spine": 15,
+    "muscle origins/insertions/actions": 17,
+    "peripheral nerves and plexuses": 13,
+    "dermatomes/myotomes/reflexes": 15,
+    "systemic anatomy relevant to athletes": 15
+  },
+  "difficultyCounts": {
+    "foundational": 105,
+    "applied": 37,
+    "analytical": 8
+  },
+  "answerIndexCounts": {
+    "0": 38,
+    "1": 37,
+    "2": 38,
+    "3": 37
+  },
+  "sourceIds": {
+    "neumann-kinesiology": 76,
+    "magee-orthopaedic-assessment": 37,
+    "sai-notification-2026": 25,
+    "ioc-manual-sports-injuries": 7,
+    "brukner-khan-clinical-sports-medicine": 5
+  },
+  "qualityChecks": {
+    "uniqueIds": true,
+    "uniqueStems": true,
+    "allSourcesResolveInCentralCatalog": true,
+    "allOptionsUniquePerQuestion": true,
+    "maxOptionLengthSpread": 15,
+    "questionsWithSpreadOver15": 0,
+    "correctStrictlyLongestCount": 44,
+    "correctStrictlyShortestCount": 33,
+    "answerPatternMechanicallyBalanced": false
+  },
+  "contentCaveats": [
+    "The official notification groups Human Anatomy under general, musculoskeletal, neuroanatomy and systemic anatomy; the repository subtopics provide finer audit mapping.",
+    "Questions are original or paraphrased study items grounded in the cited syllabus and supplied references; no central source-catalog entry was added by this agent.",
+    "A small number of standard reflex and dermatome labels have overlapping segmental contributions in clinical practice; explanations use the conventional dominant-root teaching convention.",
+    "Option wording was edited for comparable length and plausible grammatical structure without changing the keyed anatomical concept."
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only Section B release certification audit",
+  "releaseStatus": "certified_with_review_flags",
+  "readOnly": true,
+  "trueBlockers": [],
+  "nonBlockingReviewFlags": [
+    {
+      "type": "option-length-spread",
+      "count": 121,
+      "percentage": 8.96,
+      "maximumSpreadCharacters": 41,
+      "questionId": "b-assessment-144",
+      "disposition": "Review flag only; correct-option longest/shortest thresholds remain satisfied."
+    },
+    {
+      "type": "thin-manual-therapy-depth",
+      "count": 1,
+      "questionId": "b-assessment-150",
+      "disposition": "Explicit Assessment coverage is present; expand later if greater depth is desired."
+    }
+  ],
+  "structural": {
+    "durableFileCount": 9,
+    "questionsPerDurableFile": 150,
+    "durableTotal": 1350,
+    "mergedTotal": 1350,
+    "mergedIsExactFullRowConcatenation": true,
+    "groupCounts": {
+      "Human Anatomy": 150,
+      "Human and Exercise Physiology": 150,
+      "Electrotherapy and Electrodiagnosis": 150,
+      "Exercise Therapy and Rehabilitation": 150,
+      "Biomechanics and Movement Analysis": 150,
+      "Psychology and Human Development": 150,
+      "Assessment, Diagnosis and Clinical Reasoning": 150,
+      "Sports Physiotherapy, Emergencies and Travel": 150,
+      "Sports Medicine, Nutrition and Research": 150
+    },
+    "allRowsSectionB": true,
+    "schemaValid": true,
+    "fourUniqueOptions": true,
+    "correctIndicesZeroBasedAndValid": true,
+    "uniqueQuestionIds": 1350,
+    "exactNormalizedDuplicateStems": 0
+  },
+  "syllabusCoverage": {
+    "gastrointestinalPhysiology": 10,
+    "reproductivePhysiology": 10,
+    "specialSensesPhysiology": 10,
+    "yogaBasics": 10,
+    "assessmentManualTherapyPrinciplesAndApplications": {
+      "count": 1,
+      "questionIds": ["b-assessment-150"],
+      "explicit": true
+    },
+    "cardiovascularDysfunctionAssessment": 5,
+    "pulmonaryDysfunctionAssessment": 5,
+    "bodyCompositionAssessmentAndAnthropometry": 10,
+    "biomechanicsBlueprint": "pass",
+    "allNineCanonicalGroupsPresent": true
+  },
+  "previouslyBlockedQuestions": {
+    "b-physiology-028": "pass",
+    "b-exercise-038": "pass",
+    "b-exercise-100": "pass",
+    "b-sportsphysio-101": "pass"
+  },
+  "provenance": {
+    "usedSourceIdCount": 42,
+    "allUsedSourceIdsResolve": true,
+    "maitlandPeripheralManipulation": {
+      "present": true,
+      "title": "Maitland's Peripheral Manipulation",
+      "publisher": "Elsevier",
+      "authors": "Geoffrey D. Maitland et al.",
+      "localPath": "books/Maitland's Peripheral Manipulation.epub",
+      "localPathExists": true,
+      "scopePresent": true,
+      "locatorPresent": true,
+      "usedByQuestionCount": 9,
+      "usedBy": ["b-assessment-150"]
+    }
+  },
+  "answerBalanceAndNonPeriodicity": {
+    "mergedAnswerIndexCountsZeroBased": [339, 337, 340, 334],
+    "mergedAnswerIndexPercentages": [25.11, 24.96, 25.19, 24.74],
+    "groupAnswerCountsWithin30To45": true,
+    "mergedExactRepeatingPeriods": [],
+    "groupExactRepeatingPeriods": [],
+    "mergedFourPositionWindows": {
+      "distinct": 255,
+      "maximumFrequency": 12
+    }
+  },
+  "optionLength": {
+    "strictlyLongestCorrect": 266,
+    "strictlyLongestCorrectPercentage": 19.70,
+    "strictlyShortestCorrect": 269,
+    "strictlyShortestCorrectPercentage": 19.93,
+    "correctAtLeast10CharactersLongerThanDistractorMedian": 76,
+    "spreadOver15Characters": 121,
+    "maximumSpreadCharacters": 41,
+    "thresholds": {
+      "strictlyLongestBelow35Percent": true,
+      "strictlyShortestBelow35Percent": true,
+      "wideSpreadIsReviewOnly": true
+    }
+  },
+  "coverageManifest": {
+    "total": 1350,
+    "mappingCount": 1350,
+    "groupCount": 9,
+    "mappingMismatches": 0,
+    "sourceCountsMatch": true
+  },
+  "applicationRegression": {
+    "BTopicDropdownExposesNineGroups": true,
+    "eachBTopicFilteredAttemptReturns150": true,
+    "fullCbtSeedsChecked": 100,
+    "fullCbtFailures": 0,
+    "fullCbtComposition": [32, 8, 40, 20],
+    "practiceCounts": {"A1": 100, "A2": 40, "B": 100, "C": 100},
+    "officialExamCounts": {"A1": 32, "A2": 8, "B": 40, "C": 20},
+    "fullDurationMs": 7200000,
+    "filtered100DurationMs": 7200000,
+    "dropdownAndFullCbtWiring": "pass",
+    "standaloneA1FullControl": "not exposed"
+  },
+  "repositoryChecks": {
+    "npmTest": "6 test files, 22 tests passed",
+    "bankValidation": "passed; A1 900, A2 200, B 1350, C 240",
+    "gitDiffCheck": "passed"
+  },
+  "filesWrittenByThisAudit": [
+    "research/section_b_release_final_certification_audit.json"
+  ]
+}

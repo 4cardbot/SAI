@@ -1,0 +1,219 @@
+{
+  "group": "Exercise Therapy and Rehabilitation",
+  "canonicalTopic": "Exercise Therapy and Rehabilitation",
+  "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+  "generatedAt": "2026-08-17",
+  "count": 150,
+  "section": "B",
+  "idPrefix": "b-exercise-",
+  "schema": {
+    "valid": true,
+    "uniqueIds": true,
+    "uniqueStems": true,
+    "sourceIdsResolve": true
+  },
+  "subtopics": {
+    "exercise-therapy principles and prescription": 13,
+    "overload/progression/specificity": 13,
+    "open and closed kinetic chain": 14,
+    "flexibility and stretching": 13,
+    "PNF techniques": 12,
+    "isometric/concentric/eccentric loading": 12,
+    "tendinopathy loading protocols": 12,
+    "progressive resistance and dosage": 12,
+    "manual therapy and mobilisation grades": 12,
+    "proprioception/perturbation/plyometrics": 11,
+    "hydrotherapy/massage/functional retraining": 13,
+    "rehabilitation monitoring and progression": 13
+  },
+  "difficulty": {
+    "foundational": 105,
+    "applied": 29,
+    "analytical": 16
+  },
+  "answerIndexCounts": {
+    "0": 38,
+    "1": 37,
+    "2": 38,
+    "3": 37
+  },
+  "sourceIds": {
+    "kisner-therapeutic-exercise": 49,
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": 46,
+    "osullivan-rehabilitation": 27,
+    "aspetar-acl-cpg-2023": 3,
+    "shacklock-clinical-neurodynamics": 4,
+    "brukner-khan-clinical-sports-medicine": 9,
+    "nsca-essentials-5": 3,
+    "maitland-peripheral-manipulation": 9
+  },
+  "optionAudit": {
+    "strictLongestCorrect": 17,
+    "strictShortestCorrect": 22,
+    "maxOptionLengthSpread": 40,
+    "questionsWithSpreadOver15": [
+      {
+        "id": "b-exercise-005",
+        "spread": 22
+      },
+      {
+        "id": "b-exercise-024",
+        "spread": 16
+      },
+      {
+        "id": "b-exercise-033",
+        "spread": 19
+      },
+      {
+        "id": "b-exercise-035",
+        "spread": 27
+      },
+      {
+        "id": "b-exercise-037",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-039",
+        "spread": 23
+      },
+      {
+        "id": "b-exercise-040",
+        "spread": 24
+      },
+      {
+        "id": "b-exercise-044",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-049",
+        "spread": 16
+      },
+      {
+        "id": "b-exercise-052",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-055",
+        "spread": 25
+      },
+      {
+        "id": "b-exercise-058",
+        "spread": 21
+      },
+      {
+        "id": "b-exercise-067",
+        "spread": 16
+      },
+      {
+        "id": "b-exercise-069",
+        "spread": 26
+      },
+      {
+        "id": "b-exercise-071",
+        "spread": 18
+      },
+      {
+        "id": "b-exercise-076",
+        "spread": 16
+      },
+      {
+        "id": "b-exercise-078",
+        "spread": 23
+      },
+      {
+        "id": "b-exercise-085",
+        "spread": 18
+      },
+      {
+        "id": "b-exercise-089",
+        "spread": 29
+      },
+      {
+        "id": "b-exercise-090",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-093",
+        "spread": 40
+      },
+      {
+        "id": "b-exercise-096",
+        "spread": 19
+      },
+      {
+        "id": "b-exercise-105",
+        "spread": 20
+      },
+      {
+        "id": "b-exercise-108",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-109",
+        "spread": 24
+      },
+      {
+        "id": "b-exercise-112",
+        "spread": 24
+      },
+      {
+        "id": "b-exercise-119",
+        "spread": 18
+      },
+      {
+        "id": "b-exercise-121",
+        "spread": 22
+      },
+      {
+        "id": "b-exercise-123",
+        "spread": 19
+      },
+      {
+        "id": "b-exercise-127",
+        "spread": 25
+      },
+      {
+        "id": "b-exercise-128",
+        "spread": 18
+      },
+      {
+        "id": "b-exercise-131",
+        "spread": 17
+      },
+      {
+        "id": "b-exercise-132",
+        "spread": 22
+      },
+      {
+        "id": "b-exercise-136",
+        "spread": 26
+      },
+      {
+        "id": "b-exercise-137",
+        "spread": 27
+      },
+      {
+        "id": "b-exercise-141",
+        "spread": 23
+      },
+      {
+        "id": "b-exercise-143",
+        "spread": 26
+      },
+      {
+        "id": "b-exercise-144",
+        "spread": 16
+      },
+      {
+        "id": "b-exercise-150",
+        "spread": 19
+      }
+    ]
+  },
+  "contentCaveats": [
+    "Questions are authored or paraphrased to match the SAI sample style; no item is claimed to predict an actual exam question.",
+    "Manual-therapy grades and loading questions require patient-specific screening, consent, irritability assessment and scope-of-practice safeguards.",
+    "Tendinopathy and return-to-sport items use criteria-based progression; symptoms, capacity, movement quality and sport exposure should be interpreted together.",
+    "Sources are assigned as primary conceptual references; the central merger should independently recheck answer keys, duplicate concepts and cross-group provenance."
+  ]
+}

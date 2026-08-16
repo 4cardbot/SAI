@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-08-17",
+  "section": "B",
+  "topic": "Sports Medicine, Nutrition and Research",
+  "status": "pass",
+  "questionCount": 150,
+  "expectedQuestionCount": 150,
+  "schema": {
+    "fields": [
+      "id",
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "text",
+      "options",
+      "correct",
+      "explanation",
+      "sourceId"
+    ],
+    "optionsPerQuestion": 4,
+    "correctIndex": "zero-based"
+  },
+  "syllabusCoverage": {
+    "subtopics": {
+      "Sports medicine team roles": 10,
+      "Injury prevention": 10,
+      "Anti-doping and WADA": 10,
+      "TUE and NADA procedures": 10,
+      "Supplement contamination and medication safety": 10,
+      "Rehabilitation nutrition and energy availability": 10,
+      "Carbohydrate and protein": 5,
+      "Hydration": 5,
+      "Vitamin D creatine and collagen": 10,
+      "Illness and recovery monitoring": 10,
+      "Research designs and evidence hierarchy": 10,
+      "Measurement reliability and validity": 10,
+      "Sensitivity specificity and likelihood ratios": 10,
+      "Basic statistics and inference": 10,
+      "Ethics consent and professional responsibilities": 10,
+      "Clinical applicability and data governance": 10
+    },
+    "minimumQuestionsPerListedSubtopic": 5,
+    "notes": "The requested concepts are represented through 16 focused subtopic labels; carbohydrate/protein and hydration each have five items, while the higher-risk anti-doping, nutrition, research and ethics areas have ten each."
+  },
+  "difficulty": {
+    "foundational": 105,
+    "applied": 30,
+    "analytical": 15
+  },
+  "answerIndexCounts": [
+    38,
+    37,
+    38,
+    37
+  ],
+  "answerIndexTarget": [
+    38,
+    37,
+    38,
+    37
+  ],
+  "duplicateStems": 0,
+  "optionLengthAudit": {
+    "strictLongestCorrect": 48,
+    "strictShortestCorrect": 21,
+    "maxSpread": 15,
+    "outlierThreshold": 15,
+    "outliers": []
+  },
+  "sourceCoverage": {
+    "brukner-khan-clinical-sports-medicine": 10,
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": 10,
+    "wada-prohibited-list-2026": 10,
+    "wada-istue-2023": 10,
+    "ais-supplements-position-2022": 10,
+    "ioc-reds-2023": 10,
+    "clinical-sports-nutrition-burke": 15,
+    "ioc-sports-nutrition-consensus": 5,
+    "ioc-load-illness-2016": 10,
+    "world-physiotherapy-ebp-2023": 20,
+    "nist-sematech-statistics": 30,
+    "world-physiotherapy-ethics-2023": 10
+  },
+  "sourceIdsResolved": true,
+  "sourcePriorities": [
+    "sai-notification-2026",
+    "brukner-khan-clinical-sports-medicine",
+    "clinical-sports-nutrition-burke",
+    "wada-prohibited-list-2026",
+    "wada-istue-2023",
+    "ioc-reds-2023",
+    "ioc-sports-nutrition-consensus",
+    "ioc-load-illness-2016",
+    "world-physiotherapy-ebp-2023",
+    "world-physiotherapy-ethics-2023",
+    "nist-sematech-statistics",
+    "ais-supplements-position-2022"
+  ],
+  "caveats": [
+    "Questions are original or paraphrased applications of the inspected SAI syllabus, supplied reference-book topics and named official/research sources; sourceId records the primary conceptual basis rather than claiming verbatim reproduction.",
+    "Current anti-doping and nutrition claims are intended to be interpreted against the cited current or consensus source; medication decisions still require clinician and anti-doping verification.",
+    "Option-length checks are automated review indicators; final distractor quality remains a content-review responsibility."
+  ],
+  "errors": []
+}

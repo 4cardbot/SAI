@@ -1,0 +1,320 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "final independent read-only release audit",
+  "releaseStatus": "hold_for_correction",
+  "scope": {
+    "section": "B",
+    "durableGroupFiles": 9,
+    "questionsReviewedStructurally": 1350,
+    "mergedFile": "question_bank/section_b.json",
+    "questionBanksModified": false,
+    "sourceCatalogModified": false,
+    "appOrScriptsModified": false,
+    "reportIsTheOnlyFileWritten": true,
+    "inspectedNotification": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf",
+    "notificationLocators": "Physiotherapy syllabus pp. 97–99; illustrative sample begins Annexure B p. 106",
+    "inspectedSourceCatalog": "src/data/sourceCatalog.ts",
+    "currentDateUsed": "2026-08-17"
+  },
+  "method": [
+    "Loaded every record from all nine durable group files and the merged file; checked the unchanged ten-field question schema, section, canonical topic, difficulty, four unique options, correct-index range, non-empty text/explanation/sourceId, and full-row merge equality.",
+    "Compared the bank against the Physiotherapy headings and subheadings in the SAI notification, including explicit component coverage within combined headings such as cardiovascular/pulmonary/gastrointestinal and massage/yoga.",
+    "Calculated exact and near-duplicate stems, answer-index counts, contiguous/repeating answer-position sequences, option-length spreads, correct-option longest/shortest rates, and correct-option versus distractor-median length differences.",
+    "Resolved every used sourceId against the source catalog and checked title, organization or authors, location, scope and locator metadata.",
+    "Manually re-read the 26 central factual-remediation records, including b-physiology-043 and the named sports-medicine remaps, against the cited local book, official document or official web source where applicable. Automated text overlap was used only as a screening aid, not as factual proof."
+  ],
+  "structuralChecks": {
+    "durableGroupCount": 9,
+    "durableGroupCounts": {
+      "Human Anatomy": 150,
+      "Human and Exercise Physiology": 150,
+      "Electrotherapy and Electrodiagnosis": 150,
+      "Exercise Therapy and Rehabilitation": 150,
+      "Biomechanics and Movement Analysis": 150,
+      "Psychology and Human Development": 150,
+      "Assessment, Diagnosis and Clinical Reasoning": 150,
+      "Sports Physiotherapy, Emergencies and Travel": 150,
+      "Sports Medicine, Nutrition and Research": 150
+    },
+    "durableTotal": 1350,
+    "mergedTotal": 1350,
+    "allNineCanonicalTopicsPresent": true,
+    "mergedMatchesCanonicalDurableConcatenationFullRows": true,
+    "mergedFirstId": "b-anatomy-001",
+    "mergedLastId": "b-sportsmed-150",
+    "schemaErrors": 0,
+    "allQuestionsSectionB": true,
+    "allQuestionsHaveFourUniqueOptions": true,
+    "allCorrectIndicesValidZeroBased": true,
+    "allDifficultiesValid": true,
+    "duplicateIds": 0,
+    "exactDuplicateStemsAfterNormalization": 0,
+    "allUsedSourceIdsResolve": true
+  },
+  "syllabusCoverage": {
+    "internalRepositorySubtopics": {
+      "count": 105,
+      "nonEmpty": 105,
+      "minimumQuestionsInAnyInternalSubtopic": 5,
+      "note": "The internal group/subtopic allocation is populated, but this does not by itself prove coverage of every component named in the official syllabus."
+    },
+    "officialPhysiotherapyHeadings": [
+      {
+        "heading": "Human Anatomy",
+        "status": "pass",
+        "officialAreas": ["general anatomy and anatomical terminology", "musculoskeletal anatomy", "neuroanatomy", "systemic anatomy"],
+        "evidence": "The anatomy group contains dedicated terminology, osteology/arthrology, limb/pelvis/spine, peripheral-nerve/dermatome and systemic-anatomy subtopics."
+      },
+      {
+        "heading": "Human Physiology",
+        "status": "partial",
+        "officialAreas": ["general physiology and homeostasis", "blood and immune physiology", "nerve and muscle physiology", "central and autonomic nervous system", "respiratory, cardiovascular and gastrointestinal systems", "renal and excretory system", "endocrine and reproductive systems", "thermoregulation and special senses"],
+        "evidence": "Homeostasis/fluid, blood, nerve/muscle, cardiorespiratory, renal, endocrine and thermoregulation records are present. The group has no substantive gastrointestinal physiology item, no dedicated reproductive physiology item, and no special-senses physiology item; central/autonomic coverage is only indirect/thin."
+      },
+      {
+        "heading": "Exercise Physiology",
+        "status": "pass",
+        "officialAreas": ["physiological responses to exercise", "adaptations to training", "advanced cardiorespiratory exercise physiology"],
+        "evidence": "Cardiorespiratory responses, VO2/thresholds, fatigue/recovery, metabolic responses, environmental physiology and training adaptations are represented."
+      },
+      {
+        "heading": "Electrotherapy and Electrodiagnosis",
+        "status": "pass",
+        "officialAreas": ["fundamentals and therapeutic effects", "low/medium/high-frequency currents", "therapeutic AC and DC currents", "SWD, ultrasound, UVR, IRR, IFT, LASER, shockwave and cryotherapy", "biofeedback and electrodiagnosis", "indications and contraindications"],
+        "evidence": "All six official areas have dedicated internal subtopics and records, including the named modalities and strength-duration/rheobase content."
+      },
+      {
+        "heading": "Exercise Therapy and Rehabilitation",
+        "status": "partial",
+        "officialAreas": ["fundamentals", "stretching, strengthening, mobilization and hydrotherapy", "PNF", "general fitness training", "massage therapy and yoga basics", "kinesiotherapy"],
+        "evidence": "Exercise prescription, progression, kinetic-chain, stretching, PNF, strengthening, hydrotherapy, massage and functional retraining are represented. No yoga question or yoga concept was found in the Section B bank."
+      },
+      {
+        "heading": "Biomechanics and Movement Analysis",
+        "status": "pass",
+        "officialAreas": ["biophysics and biomechanics principles", "posture and gait analysis", "coordination and balance", "joints and spine", "kinetics and kinematics", "sports-specific skills"],
+        "evidence": "All six official areas have dedicated biomechanical subtopics and records."
+      },
+      {
+        "heading": "Psychology and Human Development",
+        "status": "pass",
+        "officialAreas": ["basics of human psychology", "psychological aspects of sports performance", "growth, development and maturation"],
+        "evidence": "Motivation, self-efficacy, anxiety/stress, attention, mental skills, adherence, safeguarding and youth development records cover the three official areas."
+      },
+      {
+        "heading": "Assessment, Diagnosis and Clinical Reasoning",
+        "status": "partial",
+        "officialAreas": ["basic evaluation and assessment", "physical diagnosis and manipulative skills", "manual therapy", "neurotherapeutic skills with clinical reasoning", "movement, cardiovascular, pulmonary and musculoskeletal dysfunction", "pain assessment, evaluation and documentation"],
+        "evidence": "Subjective/objective examination, ROM, manual testing, special tests, manual therapy, neurodynamics, movement/MSK assessment, pain and outcome measures are present. No substantive cardiovascular or pulmonary assessment record was found in this group."
+      },
+      {
+        "heading": "Sports Physiotherapy",
+        "status": "partial",
+        "officialAreas": ["principles", "body composition assessment", "biomechanics of sports injuries", "injury prevention, management and rehabilitation", "sports emergencies and first aid", "musculoskeletal screening and pre-participation examination", "non-traumatic medical conditions", "travelling with sports teams"],
+        "evidence": "Injury mechanisms, rehabilitation, emergencies, screening, non-traumatic/environmental conditions and team travel are represented. No body-composition, anthropometry, skinfold, BMI or body-composition-assessment question was found anywhere in Section B."
+      },
+      {
+        "heading": "Sports Medicine, Nutrition and Research",
+        "status": "pass",
+        "officialAreas": ["doping and introduction to sports medicine", "basic sports nutrition", "basic research methodology and biostatistics"],
+        "evidence": "The group includes sports-medicine roles/injury prevention, anti-doping/TUE/NADA, nutrition/hydration/supplements and research/statistics/ethics/data-governance records."
+      }
+    ]
+  },
+  "answerKeyReview": {
+    "allKeysPointToExistingOptions": true,
+    "allOptionSetsAreDistinct": true,
+    "b-physiology-043": {
+      "status": "pass",
+      "keyedIndex": 0,
+      "keyedOption": "Repeated stimuli maintain cytosolic calcium",
+      "reason": "The explanation correctly describes calcium-mediated force summation and explicitly preserves ATP use. The supplied Physiology of Sport and Exercise PDF discusses summation/tetanus and rate coding at PDF p. 69 and defines tetanus at PDF p. 612."
+    },
+    "remediationRecordsReviewed": 26,
+    "remediationAnswerKeyDefectsFound": 0,
+    "namedRecentRemediations": {
+      "b-sportsmed-026": "Answer is correct and supported in substance by WADA Code athlete responsibility for medical treatment, though the catalog locator should include Article 21.1.4.",
+      "b-sportsmed-043": "Answer is safe and unambiguous; source-scope limitation is recorded below.",
+      "b-sportsmed-044": "Answer is safe and unambiguous; source-scope limitation is recorded below.",
+      "b-sportsmed-050": "Answer is safe and unambiguous; source-scope limitation is recorded below."
+    },
+    "additionalVerifiedRemediations": [
+      "b-physiology-019",
+      "b-sportsphysio-064",
+      "b-sportsphysio-065",
+      "b-sportsphysio-071",
+      "b-sportsphysio-072",
+      "b-sportsphysio-073",
+      "b-sportsphysio-074",
+      "b-sportsmed-021",
+      "b-sportsmed-024",
+      "b-sportsmed-027",
+      "b-sportsmed-028",
+      "b-sportsmed-029",
+      "b-sportsmed-039",
+      "b-sportsmed-040",
+      "b-sportsmed-046",
+      "b-anatomy-049",
+      "b-anatomy-079",
+      "b-electro-122",
+      "b-biomechanics-047",
+      "b-biomechanics-121",
+      "b-biomechanics-131"
+    ]
+  },
+  "provenanceReview": {
+    "uniqueUsedSourceIds": 40,
+    "resolvedSourceIds": 40,
+    "usedEntriesWithMissingTitle": 0,
+    "usedEntriesWithMissingOrganizationOrAuthors": 0,
+    "usedEntriesWithMissingLocation": 0,
+    "usedEntriesWithMissingScope": 0,
+    "usedEntriesWithMissingLocator": 0,
+    "namedSportsMedicineItems": [
+      {
+        "questionId": "b-sportsmed-026",
+        "sourceId": "wada-code-2021",
+        "status": "pass_with_locator_review",
+        "evidence": "WADA Code Article 21.1.3–21.1.4 directly supports athlete responsibility for what is used and for ensuring medical treatment does not violate anti-doping rules.",
+        "reviewFlag": "The catalog locator lists Articles 2.1, 2.2 and 18 but should also identify Article 21.1.4."
+      },
+      {
+        "questionId": "b-sportsmed-043",
+        "sourceId": "who-medication-without-harm-2022",
+        "status": "non_blocking_scope_review",
+        "evidence": "WHO key messages support safe medication practice, shared decision-making and obtaining medication information from a health worker.",
+        "reviewFlag": "The option adds anti-doping review, which is not directly covered by the cited WHO medication-safety page."
+      },
+      {
+        "questionId": "b-sportsmed-044",
+        "sourceId": "who-medication-without-harm-2022",
+        "status": "non_blocking_scope_review",
+        "evidence": "WHO directly recommends keeping an up-to-date medication list and sharing it with treating health workers.",
+        "reviewFlag": "The explanation additionally claims anti-doping checking; that clause is not directly established by the WHO page."
+      },
+      {
+        "questionId": "b-sportsmed-050",
+        "sourceId": "who-medication-without-harm-2022",
+        "status": "non_blocking_scope_review",
+        "evidence": "The answer is consistent with safe, individualized medication use and health-worker oversight.",
+        "reviewFlag": "The explanation adds that a shared medicine may be prohibited for another athlete; that anti-doping proposition is not directly established by the cited WHO page."
+      }
+    ]
+  },
+  "duplicateReview": {
+    "exactDuplicateStems": 0,
+    "nearDuplicatePairs": [
+      {
+        "questionIds": ["b-assessment-076", "b-sportsphysio-067"],
+        "type": "substantive_duplicate",
+        "note": "Both ask which structure is assessed by the ankle anterior-drawer test and key the anterior talofibular ligament."
+      },
+      {
+        "questionIds": ["b-assessment-138", "b-sportsmed-111"],
+        "type": "substantive_duplicate",
+        "note": "Both define sensitivity as the positive-test proportion among people with the condition."
+      },
+      {
+        "questionIds": ["b-assessment-139", "b-sportsmed-112"],
+        "type": "substantive_duplicate",
+        "note": "Both define specificity as the negative-test proportion among people without the condition."
+      }
+    ]
+  },
+  "answerIndexAndOptionLengthReview": {
+    "answerIndexCountsZeroBased": [343, 332, 342, 333],
+    "answerIndexPercentages": [25.41, 24.59, 25.33, 24.67],
+    "balanceStatus": "pass",
+    "mechanicalPatternStatus": "blocking_defect",
+    "mechanicalPatterns": [
+      {
+        "file": "question_bank/section_b_human_anatomy.json",
+        "patternLength": 4,
+        "pattern": [0, 2, 1, 3],
+        "coverage": "all 150 records"
+      },
+      {
+        "file": "question_bank/section_b_electrotherapy_electrodiagnosis.json",
+        "patternLength": 4,
+        "pattern": [0, 2, 1, 3],
+        "coverage": "all 150 records"
+      },
+      {
+        "file": "question_bank/section_b_psychology_human_development.json",
+        "patternLength": 4,
+        "pattern": [0, 1, 2, 3],
+        "coverage": "first 149 of 150 records"
+      },
+      {
+        "file": "question_bank/section_b_assessment_diagnosis_clinical_reasoning.json",
+        "patternLength": 4,
+        "pattern": [0, 1, 2, 3],
+        "coverage": "first 149 of 150 records"
+      }
+    ],
+    "mergedFirst64Pattern": [0, 2, 1, 3],
+    "noPeriodUpTo100AcrossWholeMergedSequence": true,
+    "interpretation": "Global counts are balanced, but group/topic-filtered tests expose deterministic answer positions. This is a release-blocking answer-pattern giveaway and must be independently randomized while preserving keys."
+  },
+  "optionLengthReview": {
+    "strictlyLongestCorrect": 249,
+    "strictlyLongestCorrectPercent": 18.44,
+    "strictlyShortestCorrect": 262,
+    "strictlyShortestCorrectPercent": 19.41,
+    "correctAtLeast10CharactersLongerThanDistractorMedian": 19,
+    "optionSpreadsOver15Characters": 115,
+    "optionSpreadsOver15CharactersPercent": 8.52,
+    "maximumOptionSpread": 40,
+    "highestSpreadQuestion": "b-exercise-093",
+    "status": "non_blocking_review_flag",
+    "interpretation": "The correct option is not systematically longest: longest and shortest rates remain below 35%, and only 19 records have the correct option at least ten characters longer than the distractor median. The 115 wide-spread sets merit editorial review but are not, by themselves, release blockers."
+  },
+  "classifiedFindings": {
+    "blockingDefects": [
+      {
+        "id": "deterministic-answer-position-sequences",
+        "severity": "blocking",
+        "affectedRecords": 598,
+        "details": "Human Anatomy and Electrotherapy use an exact four-position sequence across all 150 records; Psychology and Assessment use an exact four-position sequence for their first 149 records. The pattern is predictable in topic-filtered practice and defeats the intended answer-position balancing review.",
+        "requiredDisposition": "Reorder options with a non-periodic, seeded distribution, then rerun key correctness and answer-balance audits."
+      },
+      {
+        "id": "incomplete-official-syllabus-component-coverage",
+        "severity": "blocking",
+        "details": "The bank does not substantively cover all components of the official Physiotherapy syllabus. Confirmed gaps are gastrointestinal physiology; reproductive physiology; special-senses physiology; yoga basics; cardiovascular/pulmonary dysfunction assessment; and body-composition assessment.",
+        "requiredDisposition": "Add or replace questions within the existing 150-question group limits so each named official component has defensible coverage, then rerun the independent coverage audit."
+      }
+    ],
+    "nonBlockingReviewFlags": [
+      {
+        "id": "source-scope-and-locator-specificity",
+        "affectedQuestionIds": ["b-sportsmed-026", "b-sportsmed-043", "b-sportsmed-044", "b-sportsmed-050"],
+        "details": "Answers are defensible, but the WADA locator should identify Article 21.1.4 and the WHO source does not directly support the anti-doping clauses added to three medication items."
+      },
+      {
+        "id": "substantive-near-duplicate-stems",
+        "affectedQuestionIds": ["b-assessment-076", "b-sportsphysio-067", "b-assessment-138", "b-sportsmed-111", "b-assessment-139", "b-sportsmed-112"],
+        "details": "Three cross-group concept pairs are substantively duplicated even though their literal normalized stems differ."
+      },
+      {
+        "id": "option-length-and-wording-editorial-review",
+        "affectedQuestionIds": ["b-exercise-093", "b-biomechanics-088"],
+        "details": "b-exercise-093 has a 40-character option spread caused by an overqualified distractor; b-biomechanics-088 has the grammatically incomplete keyed option 'Raises body for opposite foot clearance'. The wider 115-item spread set should be reviewed in the same editorial pass."
+      }
+    ],
+    "pass": [
+      "Exactly nine canonical durable groups and exactly 150 records per group.",
+      "Merged bank contains exactly 1,350 records and matches the canonical durable files row-for-row.",
+      "Schema, four-option uniqueness, valid zero-based keys, section values, difficulty values, duplicate IDs and exact duplicate stems pass.",
+      "All 40 used source IDs resolve and have catalog metadata sufficient to identify organization/authors, location, scope and locator.",
+      "b-physiology-043 has a corrected key and a source-supported calcium-summation explanation.",
+      "The manually reviewed factual remediations have no remaining answer-key contradiction or ambiguous key; remaining issues are provenance or editorial flags.",
+      "Overall answer-index counts are balanced and correct-option length metrics are below the configured longest-answer risk threshold."
+    ]
+  },
+  "recommendedDisposition": [
+    "Do not claim release-ready status until the deterministic answer-position sequences are removed.",
+    "Close the six confirmed official-syllabus component gaps within the nine existing group files without changing the 150-per-group contract.",
+    "Then resolve the source-scope/locator flags, remove or differentiate the three near-duplicate pairs, and rerun structural, factual, coverage, provenance and answer-pattern audits."
+  ]
+}

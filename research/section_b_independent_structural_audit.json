@@ -1,0 +1,302 @@
+{
+  "auditType": "independent-read-only-structural-provenance-audit",
+  "generatedAt": "2026-08-17",
+  "scope": "Section B replacement, durable group files, merged bank, generation/audit scripts, source catalog, agent audits, and dropdown/full-CBT selection architecture",
+  "writeScope": "Only this audit artifact was created; application and question-bank files were not modified.",
+  "inspectedFiles": {
+    "durableGroupFiles": 9,
+    "mergedBank": "question_bank/section_b.json",
+    "generationScript": "scripts/generate-section-b.ts",
+    "auditScript": "scripts/audit-section-b.ts",
+    "sourceCatalog": "src/data/sourceCatalog.ts",
+    "agentAuditFiles": 9,
+    "applicationFiles": [
+      "src/App.tsx",
+      "src/quiz.ts",
+      "src/constants.ts",
+      "src/data/authored/index.ts",
+      "src/data/validate.ts",
+      "src/quiz.test.ts",
+      "src/data/authored.test.ts"
+    ]
+  },
+  "status": "blocked-pending-repairs",
+  "releaseBlockers": [
+    {
+      "id": "SB-RB-001",
+      "severity": "release-blocker",
+      "area": "repository-test-suite",
+      "finding": "The complete Vitest suite fails because b-electro-122 has a 16-character stem, while src/data/authored.test.ts requires every question stem to be longer than 20 characters.",
+      "evidence": {
+        "questionId": "b-electro-122",
+        "file": "question_bank/section_b.json",
+        "text": "Rheobase is the:",
+        "length": 16,
+        "failingAssertion": "src/data/authored.test.ts:28"
+      },
+      "impact": "The bank validator and build pass, but the repository test command exits non-zero (1 failed, 21 passed)."
+    },
+    {
+      "id": "SB-RB-002",
+      "severity": "release-blocker",
+      "area": "source-provenance",
+      "finding": "Two source IDs resolve in the catalog but do not provide the stable locator metadata required for defensible provenance: no URL or localPath and no chapter/page/section locator.",
+      "sources": [
+        {
+          "sourceId": "watson-electrotherapy",
+          "usedByQuestions": 75,
+          "catalogEntry": "src/data/sourceCatalog.ts:34",
+          "missing": ["authors", "edition or year", "url or localPath", "locator"]
+        },
+        {
+          "sourceId": "osullivan-rehabilitation",
+          "usedByQuestions": 27,
+          "catalogEntry": "src/data/sourceCatalog.ts:35",
+          "missing": ["authors", "edition or year", "url or localPath", "locator"]
+        }
+      ],
+      "impact": "102 questions have source IDs that technically resolve but cannot currently be independently located from the catalog entry."
+    }
+  ],
+  "errors": [],
+  "structuralChecks": {
+    "canonicalTopics": [
+      "Human Anatomy",
+      "Human and Exercise Physiology",
+      "Electrotherapy and Electrodiagnosis",
+      "Exercise Therapy and Rehabilitation",
+      "Biomechanics and Movement Analysis",
+      "Psychology and Human Development",
+      "Assessment, Diagnosis and Clinical Reasoning",
+      "Sports Physiotherapy, Emergencies and Travel",
+      "Sports Medicine, Nutrition and Research"
+    ],
+    "groupCount": 9,
+    "eachGroupExactly150": true,
+    "mergedCount": 1350,
+    "mergedEqualsDurableConcatenation": true,
+    "mergedUniqueIds": 1350,
+    "mergedUniqueStems": 1350,
+    "allQuestionsSectionB": true,
+    "allTopicsCanonical": true,
+    "allRequiredSchemaFieldsPresent": true,
+    "allQuestionsHaveExactlyFourUniqueOptions": true,
+    "allCorrectIndicesAreZeroBasedAndValid": true,
+    "allDifficultiesAllowed": true,
+    "allowedDifficulties": ["foundational", "applied", "analytical"],
+    "allAgentAuditFilesPresent": true,
+    "agentAuditCount": 9,
+    "agentAuditCountsMatchFiles": true,
+    "agentAuditTopicsMatchFiles": true
+  },
+  "groupReports": [
+    {
+      "topic": "Human Anatomy",
+      "file": "question_bank/section_b_human_anatomy.json",
+      "count": 150,
+      "subtopicCount": 10,
+      "minimumSubtopicCount": 13,
+      "maximumSubtopicCount": 17,
+      "difficulty": {"foundational": 105, "applied": 37, "analytical": 8},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 5,
+      "optionLength": {"strictLongestCorrect": 36, "strictShortestCorrect": 15, "maximumSpread": 15, "spreadOver15": 0}
+    },
+    {
+      "topic": "Human and Exercise Physiology",
+      "file": "question_bank/section_b_human_exercise_physiology.json",
+      "count": 150,
+      "subtopicCount": 10,
+      "minimumSubtopicCount": 15,
+      "maximumSubtopicCount": 15,
+      "difficulty": {"foundational": 105, "applied": 30, "analytical": 15},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 7,
+      "optionLength": {"strictLongestCorrect": 21, "strictShortestCorrect": 36, "maximumSpread": 28, "spreadOver15": 28}
+    },
+    {
+      "topic": "Electrotherapy and Electrodiagnosis",
+      "file": "question_bank/section_b_electrotherapy_electrodiagnosis.json",
+      "count": 150,
+      "subtopicCount": 11,
+      "minimumSubtopicCount": 13,
+      "maximumSubtopicCount": 16,
+      "difficulty": {"foundational": 107, "applied": 26, "analytical": 17},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 4,
+      "optionLength": {"strictLongestCorrect": 24, "strictShortestCorrect": 59, "maximumSpread": 19, "spreadOver15": 7}
+    },
+    {
+      "topic": "Exercise Therapy and Rehabilitation",
+      "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "count": 150,
+      "subtopicCount": 12,
+      "minimumSubtopicCount": 11,
+      "maximumSubtopicCount": 14,
+      "difficulty": {"foundational": 105, "applied": 29, "analytical": 16},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 8,
+      "optionLength": {"strictLongestCorrect": 17, "strictShortestCorrect": 22, "maximumSpread": 40, "spreadOver15": 39}
+    },
+    {
+      "topic": "Biomechanics and Movement Analysis",
+      "file": "question_bank/section_b_biomechanics_movement_analysis.json",
+      "count": 150,
+      "subtopicCount": 12,
+      "minimumSubtopicCount": 1,
+      "maximumSubtopicCount": 36,
+      "difficulty": {"foundational": 105, "applied": 30, "analytical": 15},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 4,
+      "optionLength": {"strictLongestCorrect": 53, "strictShortestCorrect": 13, "maximumSpread": 28, "spreadOver15": 27}
+    },
+    {
+      "topic": "Psychology and Human Development",
+      "file": "question_bank/section_b_psychology_human_development.json",
+      "count": 150,
+      "subtopicCount": 10,
+      "minimumSubtopicCount": 15,
+      "maximumSubtopicCount": 15,
+      "difficulty": {"foundational": 105, "applied": 32, "analytical": 13},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 5,
+      "optionLength": {"strictLongestCorrect": 48, "strictShortestCorrect": 38, "maximumSpread": 32, "spreadOver15": 47}
+    },
+    {
+      "topic": "Assessment, Diagnosis and Clinical Reasoning",
+      "file": "question_bank/section_b_assessment_diagnosis_clinical_reasoning.json",
+      "count": 150,
+      "subtopicCount": 12,
+      "minimumSubtopicCount": 12,
+      "maximumSubtopicCount": 13,
+      "difficulty": {"foundational": 105, "applied": 37, "analytical": 8},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 8,
+      "optionLength": {"strictLongestCorrect": 20, "strictShortestCorrect": 39, "maximumSpread": 15, "spreadOver15": 0}
+    },
+    {
+      "topic": "Sports Physiotherapy, Emergencies and Travel",
+      "file": "question_bank/section_b_sports_physiotherapy_emergencies_travel.json",
+      "count": 150,
+      "subtopicCount": 12,
+      "minimumSubtopicCount": 12,
+      "maximumSubtopicCount": 13,
+      "difficulty": {"foundational": 105, "applied": 33, "analytical": 12},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 9,
+      "optionLength": {"strictLongestCorrect": 6, "strictShortestCorrect": 28, "maximumSpread": 20, "spreadOver15": 4}
+    },
+    {
+      "topic": "Sports Medicine, Nutrition and Research",
+      "file": "question_bank/section_b_sports_medicine_nutrition_research.json",
+      "count": 150,
+      "subtopicCount": 16,
+      "minimumSubtopicCount": 5,
+      "maximumSubtopicCount": 10,
+      "difficulty": {"foundational": 105, "applied": 30, "analytical": 15},
+      "answerIndices": [38, 37, 38, 37],
+      "sourceIds": 12,
+      "optionLength": {"strictLongestCorrect": 41, "strictShortestCorrect": 11, "maximumSpread": 15, "spreadOver15": 0}
+    }
+  ],
+  "mergedMetrics": {
+    "count": 1350,
+    "answerIndices": [342, 333, 342, 333],
+    "answerIndexPercentages": [25.3333, 24.6667, 25.3333, 24.6667],
+    "exactRepeatingAnswerPeriods": [],
+    "repeatedShortAnswerPeriodsAbove90PercentMatch": [],
+    "strictLongestCorrect": 266,
+    "strictLongestCorrectPercentage": 19.7037,
+    "strictShortestCorrect": 261,
+    "strictShortestCorrectPercentage": 19.3333,
+    "correctAtLeast10CharactersLongerThanDistractorMedian": 46,
+    "correctAtLeast10CharactersLongerThanDistractorMedianPercentage": 3.4074,
+    "optionSpreadOver15Characters": 152,
+    "optionSpreadOver15CharactersPercentage": 11.2593,
+    "maximumOptionLengthSpread": 40,
+    "interpretation": "Answer positions are balanced and no exact or high-rate short-period repetition was found. Option-length flags remain for content review; strict-longest and strict-shortest rates are below the 35% review target."
+  },
+  "provenanceChecks": {
+    "distinctUsedSourceIds": 35,
+    "allUsedSourceIdsResolve": true,
+    "allUsedSourcesHaveTitlePublisherScope": true,
+    "incompleteRetrievalOrLocatorMetadata": [
+      "watson-electrotherapy",
+      "osullivan-rehabilitation"
+    ],
+    "partialBibliographicMetadataWarnings": [
+      "brukner-khan-clinical-sports-medicine-vol2",
+      "claytons-electrotherapy",
+      "ioc-manual-sports-injuries",
+      "konin-special-tests-orthopedic-examination",
+      "maitland-peripheral-manipulation",
+      "shacklock-clinical-neurodynamics"
+    ],
+    "sourceIdPerQuestion": true,
+    "agentReportsClaimAllSourcesResolve": true
+  },
+  "warnings": [
+    {
+      "id": "SB-W-001",
+      "area": "syllabus-allocation",
+      "finding": "Biomechanics and Movement Analysis is materially uneven: centre of gravity/base of support has 1 item, throwing and sport-skill biomechanics 2, levers 3, while vectors/force/torque/moment arms has 36 and normal gait phases has 33.",
+      "recommendation": "Rebalance before content sign-off if every listed biomechanics subtopic is intended to receive comparable preparation depth."
+    },
+    {
+      "id": "SB-W-002",
+      "area": "option-length-bias",
+      "finding": "152 of 1350 questions have an option-length spread greater than 15 characters; the largest spread is 40 characters. Exercise Therapy contributes 39 and Psychology contributes 47.",
+      "recommendation": "Review flagged options semantically and revise genuine answer-length giveaways without padding distractors."
+    },
+    {
+      "id": "SB-W-003",
+      "area": "source-catalog",
+      "finding": "Six local textbook entries have a localPath and locator but no explicit edition/year or URL: Brukner & Khan Volume 2, Clayton's Electrotherapy, The IOC Manual of Sports Injuries, Konin, Maitland, and Shacklock.",
+      "recommendation": "Add edition/year where available; preserve the localPath and chapter locator."
+    },
+    {
+      "id": "SB-W-004",
+      "area": "audit-maintainability",
+      "finding": "The central audit script checks IDs, stems, counts, options, answer indices, difficulties, source-ID resolution, merge equality, and exact periods only through 64, but does not check source metadata completeness, ID prefixes, or subtopic balance.",
+      "recommendation": "Extend the central audit after this read-only review so future runs detect the two provenance gaps and biomechanics imbalance automatically."
+    },
+    {
+      "id": "SB-W-005",
+      "area": "agent-audit-artifacts",
+      "finding": "The Sports Medicine, Nutrition and Research agent audit reports 150 questions but does not include a file field; its topic and count still match the durable file by independent inspection.",
+      "recommendation": "Add an explicit file path to that agent report for traceability."
+    }
+  ],
+  "applicationArchitecture": {
+    "dropdownFilteredTests": {
+      "status": "pass",
+      "evidence": "src/App.tsx selects section/topic/subtopic and starts mode=filtered; src/quiz.ts filters by all three values and uses durationForQuestionCount.",
+      "runtimeCheck": {
+        "selectedSection": "B",
+        "selectedTopicQuestionCount": 150,
+        "filteredAttemptQuestionCount": 150,
+        "filteredDurationMs": 10800000
+      }
+    },
+    "fullCBT": {
+      "status": "pass",
+      "runtimeCheck": {
+        "total": 100,
+        "A1": 32,
+        "A2": 8,
+        "B": 40,
+        "C": 20
+      },
+      "implementation": "src/constants.ts EXAM_SECTION_COUNTS and src/quiz.ts full-mode selection remain 32/8/40/20."
+    },
+    "productionBankLoader": "src/data/authored/index.ts continues to load only the merged question_bank/section_b.json for Section B."
+  },
+  "verificationCommands": {
+    "npm run validate:bank": "pass; A1=900, A2=200, B=1350, C=240; 120 passages",
+    "npm run build": "pass; existing large JavaScript chunk warning only",
+    "npx vitest run src/quiz.test.ts": "pass; 10 tests",
+    "npm test": "fail; 1 failed and 21 passed because b-electro-122 stem length is 16",
+    "centralAudit": "pass-with-review-flags; 0 errors; 7 option-length warning groups; answer indices 342/333/342/333"
+  },
+  "conclusion": "The nine-bank structure, merged equality, schema, IDs, answer-key indices, source-ID resolution, dropdown filtering, and full CBT composition are structurally sound. Release remains blocked until b-electro-122 satisfies the repository test requirement and the Watson/O'Sullivan source records receive stable retrieval and locator metadata."
+}

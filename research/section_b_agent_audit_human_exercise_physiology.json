@@ -1,0 +1,56 @@
+{
+  "group": "Human and Exercise Physiology",
+  "file": "question_bank/section_b_human_exercise_physiology.json",
+  "count": 150,
+  "subtopics": {
+    "Homeostasis and fluid balance": 15,
+    "Acid-base and blood physiology": 15,
+    "Nerve and muscle physiology": 15,
+    "Motor units and excitation-contraction coupling": 15,
+    "Cardiorespiratory responses": 15,
+    "VO2max and thresholds": 15,
+    "Fatigue and recovery": 15,
+    "Endocrine and metabolic responses": 15,
+    "Thermoregulation and heat illness physiology": 15,
+    "Altitude, cold and environmental adaptation": 15
+  },
+  "difficultyCounts": {
+    "foundational": 105,
+    "applied": 30,
+    "analytical": 15
+  },
+  "answerIndexCounts": {
+    "0": 38,
+    "1": 37,
+    "2": 38,
+    "3": 37
+  },
+  "optionLengthAudit": {
+    "strictLongestCorrect": 21,
+    "strictShortestCorrect": 36,
+    "spreadOver15Characters": 28,
+    "note": "Reviewed option sets preserve meaning and use comparable grammar; the central audit should inspect the remaining spread flags before merging."
+  },
+  "structuralChecks": {
+    "uniqueIds": 150,
+    "uniqueStems": 150,
+    "allOptionsUnique": true,
+    "allSourceIdsFromCentralCatalog": true,
+    "sectionAndTopicConsistent": true
+  },
+  "sourceIds": {
+    "physiology-sport-exercise-kenney": 105,
+    "acsm-getp-12": 24,
+    "nsca-essentials-5": 5,
+    "brukner-khan-clinical-sports-medicine": 7,
+    "ioc-sports-nutrition-consensus": 4,
+    "ioc-load-illness-2016": 4,
+    "ioc-reds-2023": 1
+  },
+  "contentCaveats": [
+    "Physiology and exercise-prescription concepts are primarily framed from the named physiology textbook and ACSM guidance.",
+    "Heat stroke, altitude illness and hydration application items are clinically oriented; emergency management should follow current local protocols.",
+    "Historical textbook concepts are not date-sensitive; current date-sensitive claims were avoided or phrased as general physiology.",
+    "The source catalog contains the preferred source IDs; granular page locators should be refined centrally if the merged-bank provenance audit requires them."
+  ]
+}

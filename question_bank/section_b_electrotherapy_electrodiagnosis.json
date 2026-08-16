@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "b-electro-001",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "Conventional current is considered to flow from which terminal?",
+    "options": [
+      "Neutral to ground",
+      "Ground to positive",
+      "Negative to positive",
+      "Positive to negative"
+    ],
+    "correct": 3,
+    "explanation": "Conventional current is defined from the positive terminal toward the negative terminal.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-002",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "Which relationship is expressed by Ohm’s law?",
+    "options": [
+      "R = I × V",
+      "I = V × R",
+      "P = V ÷ I",
+      "V = I × R"
+    ],
+    "correct": 3,
+    "explanation": "Ohm’s law relates voltage, current and resistance as V = I × R.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-003",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "If voltage is held constant and tissue resistance increases, what happens to current?",
+    "options": [
+      "It decreases",
+      "It remains unchanged",
+      "It becomes alternating",
+      "It increases proportionally"
+    ],
+    "correct": 0,
+    "explanation": "From I = V/R, increasing resistance reduces current at constant voltage.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-004",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "Which tissue generally offers the greatest resistance to transcutaneous current?",
+    "options": [
+      "Subcutaneous fluid",
+      "Skeletal muscle",
+      "Blood",
+      "Dry, intact skin"
+    ],
+    "correct": 3,
+    "explanation": "Dry intact skin is the main barrier to transcutaneous current.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-005",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "applied",
+    "text": "A therapist moistens an electrode sponge before stimulation. What is the main intended effect?",
+    "options": [
+      "Convert current to direct current",
+      "Increase current density",
+      "Reduce skin–electrode resistance",
+      "Prevent all sensory stimulation"
+    ],
+    "correct": 2,
+    "explanation": "A moist interface improves contact and lowers skin–electrode impedance.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-006",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "What does pulse duration describe in a pulsed waveform?",
+    "options": [
+      "The amplitude difference",
+      "The interval between sessions",
+      "The number of pulses per second",
+      "The time occupied by one pulse"
+    ],
+    "correct": 3,
+    "explanation": "Pulse duration is the time for which an individual pulse is present.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-007",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "With amplitude fixed, which change increases charge delivered by a rectangular pulse?",
+    "options": [
+      "Changing lead colour",
+      "Decreasing treatment time",
+      "Increasing pulse duration",
+      "Increasing electrode spacing"
+    ],
+    "correct": 2,
+    "explanation": "At fixed amplitude, a longer pulse delivers more charge per pulse.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-008",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "In a monophasic waveform, what remains constant during each pulse?",
+    "options": [
+      "The polarity reversal rate",
+      "The zero-voltage interval",
+      "The absence of charge",
+      "The direction of current flow"
+    ],
+    "correct": 3,
+    "explanation": "A monophasic pulse has current in one direction during the pulse.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-009",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "Why can a smaller active electrode produce a stronger local sensation?",
+    "options": [
+      "It increases electrode distance",
+      "It concentrates current density",
+      "It eliminates resistance",
+      "It reverses polarity"
+    ],
+    "correct": 1,
+    "explanation": "The same current over a smaller area produces greater current density.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-010",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "analytical",
+    "text": "Two electrodes deliver the same current, but one has half the area. Where is density greater?",
+    "options": [
+      "Under the larger electrode",
+      "It is equal under both",
+      "Only at the cable",
+      "Under the smaller electrode"
+    ],
+    "correct": 3,
+    "explanation": "Current density is current divided by electrode area.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-011",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "What is the primary excitability event when a motor axon reaches threshold?",
+    "options": [
+      "Chemical neutralization",
+      "Permanent hyperpolarization",
+      "Depolarization of its membrane",
+      "Thermal coagulation"
+    ],
+    "correct": 2,
+    "explanation": "Threshold stimulation produces membrane depolarization and an action potential.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-012",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "applied",
+    "text": "Sudden sharp discomfort occurs at an electrode edge. Which factor is most likely?",
+    "options": [
+      "A uniform current field",
+      "A fully moist interface",
+      "A larger electrode",
+      "Poor or uneven electrode contact"
+    ],
+    "correct": 3,
+    "explanation": "Uneven contact can concentrate current at an electrode edge.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-013",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "foundational",
+    "text": "What happens when frequency is increased while pulse amplitude and duration remain constant?",
+    "options": [
+      "Electrode area becomes smaller for the selected waveform",
+      "Polarity becomes fixed at the electrode interface",
+      "The interval between pulses becomes shorter",
+      "Each pulse becomes longer at the electrode interface"
+    ],
+    "correct": 2,
+    "explanation": "Frequency is pulses per second, so higher frequency shortens the interval.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-014",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "electrical principles and tissue effects",
+    "difficulty": "applied",
+    "text": "Which change most directly increases local current density?",
+    "options": [
+      "Increasing room humidity at the electrode interface",
+      "Increasing electrode area for the selected waveform",
+      "Reducing pulse amplitude at the electrode interface",
+      "Using a smaller electrode at the same current"
+    ],
+    "correct": 3,
+    "explanation": "At the same current, reducing area increases current density.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-015",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Which settings are most associated with conventional sensory-level TENS?",
+    "options": [
+      "High frequency and short pulse duration",
+      "Low frequency and long duration",
+      "High frequency with maximal contraction",
+      "Direct current without pulses"
+    ],
+    "correct": 0,
+    "explanation": "Conventional TENS commonly uses relatively high frequency and short duration at a comfortable sensory level.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-016",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "The gate-control explanation for conventional TENS emphasizes which afferents?",
+    "options": [
+      "Motor efferents during the TENS train",
+      "Small unmyelinated C fibres only",
+      "Large-diameter non-nociceptive afferents",
+      "Postganglionic sympathetic fibres"
+    ],
+    "correct": 2,
+    "explanation": "The gate-control model emphasizes large-diameter cutaneous afferent input.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-017",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Low-frequency, motor-level TENS is associated with release of which mediators?",
+    "options": [
+      "Insulin and glucagon",
+      "Thyroxine and calcitonin",
+      "Endogenous opioids",
+      "Histamine and heparin"
+    ],
+    "correct": 2,
+    "explanation": "Low-frequency motor-level TENS is associated with endogenous opioid mechanisms.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-018",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "applied",
+    "text": "A patient accommodates to conventional TENS. What is the best first response?",
+    "options": [
+      "Increase until pain occurs during the TENS train",
+      "Adjust intensity or use comfortable modulation",
+      "Remove gel and continue for sensory-level TENS",
+      "Place electrodes on the anterior neck"
+    ],
+    "correct": 1,
+    "explanation": "Accommodation can be addressed by adjusting intensity or modulation within comfort.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-019",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "What distinguishes burst-mode TENS from a continuous train?",
+    "options": [
+      "Pulses are delivered in groups or bursts",
+      "It always causes denervation during the TENS train",
+      "It can only use direct current during the TENS train",
+      "It uses no electrical pulses for sensory-level TENS"
+    ],
+    "correct": 0,
+    "explanation": "Burst mode groups individual pulses into bursts.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-020",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Conventional TENS intensity is usually described as:",
+    "options": [
+      "Maximal tetanic contraction",
+      "Strong but comfortable tingling",
+      "Barely perceptible warmth",
+      "Painful burning during the TENS train"
+    ],
+    "correct": 1,
+    "explanation": "Conventional TENS is adjusted to strong, comfortable sensory tingling.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-021",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Where are TENS electrodes commonly positioned for localized musculoskeletal pain?",
+    "options": [
+      "Directly over both eyes",
+      "Across the carotid sinus",
+      "Around or near the painful region",
+      "Only on the opposite limb"
+    ],
+    "correct": 2,
+    "explanation": "Electrodes may be placed around or near pain while avoiding hazardous sites.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-022",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Which parameter describes how many TENS pulses are delivered each second?",
+    "options": [
+      "Polarity",
+      "Frequency",
+      "Electrode area",
+      "Ramp time"
+    ],
+    "correct": 1,
+    "explanation": "Frequency is the number of pulses per second.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-023",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Why should electrodes generally be avoided over the anterior neck?",
+    "options": [
+      "The skin has no sensory receptors during the TENS train",
+      "Neck tissue has no resistance for sensory-level TENS",
+      "Stimulation may affect carotid or laryngeal structures",
+      "No current can enter the neck for sensory-level TENS"
+    ],
+    "correct": 2,
+    "explanation": "The anterior neck contains structures where stimulation may pose avoidable risk.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-024",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "analytical",
+    "text": "A patient has complete loss of protective sensation at the treatment site. What is the main concern?",
+    "options": [
+      "Excessive stimulation or skin injury may go unnoticed",
+      "The current becomes medium frequency during the TENS train",
+      "TENS restores sensation immediately for sensory-level TENS",
+      "Analgesia is impossible for sensory-level TENS"
+    ],
+    "correct": 0,
+    "explanation": "Absent protective sensation reduces feedback about excessive stimulation or irritation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-025",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Which statement best describes the role of TENS?",
+    "options": [
+      "It replaces assessment and exercise during the TENS train",
+      "It immobilizes the painful joint for sensory-level TENS",
+      "It directly repairs torn tissue for sensory-level TENS",
+      "It modulates pain as an adjunct to rehabilitation"
+    ],
+    "correct": 3,
+    "explanation": "TENS is an adjunct for pain modulation, not tissue repair or a replacement for rehabilitation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-026",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Before increasing TENS intensity over intact skin, what should be checked?",
+    "options": [
+      "Only battery voltage",
+      "Bone density for sensory-level TENS",
+      "Cable length for sensory-level TENS",
+      "Skin condition and patient feedback"
+    ],
+    "correct": 3,
+    "explanation": "Skin inspection and patient feedback support safe adjustment.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-027",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "foundational",
+    "text": "Which parameter is most relevant to whether a TENS pulse is brief or prolonged?",
+    "options": [
+      "Electrode colour",
+      "Pulse duration",
+      "Treatment-room temperature",
+      "Cable length"
+    ],
+    "correct": 1,
+    "explanation": "Pulse duration defines how long each pulse lasts.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-028",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "TENS modes and pain mechanisms",
+    "difficulty": "analytical",
+    "text": "A runner has pain relief during TENS but no movement improvement. What is the best interpretation?",
+    "options": [
+      "Analgesia means healing is complete during the TENS train",
+      "TENS permanently corrected movement for sensory-level TENS",
+      "Pain modulation does not establish restored function",
+      "No contraction proves denervation for sensory-level TENS"
+    ],
+    "correct": 2,
+    "explanation": "Pain relief and functional recovery are separate outcomes.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-029",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "Interferential current is produced by interaction of currents with what relationship?",
+    "options": [
+      "Slightly different medium frequencies",
+      "A current and magnetic field only",
+      "Ultraviolet and infrared beams",
+      "Two identical direct currents"
+    ],
+    "correct": 0,
+    "explanation": "Interferential amplitude modulation results from crossing slightly different carrier frequencies.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-030",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "If carrier frequencies are 4000 Hz and 4100 Hz, what beat frequency is produced?",
+    "options": [
+      "100 Hz",
+      "4000 Hz",
+      "3900 Hz",
+      "8100 Hz"
+    ],
+    "correct": 0,
+    "explanation": "Beat frequency is the difference: 4100 − 4000 = 100 Hz.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-031",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "What is a proposed advantage of a medium-frequency carrier?",
+    "options": [
+      "No sensory stimulation",
+      "No electrode contact",
+      "Permanent denervation",
+      "Lower skin impedance"
+    ],
+    "correct": 3,
+    "explanation": "Medium-frequency current generally encounters less skin impedance.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-032",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "In a four-pole arrangement, where does the interference pattern occur?",
+    "options": [
+      "Only beneath the largest electrode",
+      "Inside the stimulator for the selected settings",
+      "At the opposite shoulder in the treatment field",
+      "In tissues where the currents cross"
+    ],
+    "correct": 3,
+    "explanation": "The circuits cross in tissue and produce the modulated pattern there.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-033",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "What is meant by beat frequency?",
+    "options": [
+      "Treatment duration",
+      "Carrier-frequency difference",
+      "The patient’s pulse rate",
+      "The sum of electrode areas"
+    ],
+    "correct": 1,
+    "explanation": "Beat frequency is the difference between the two carrier frequencies.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-034",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "applied",
+    "text": "In two-pole premodulated interferential current, where is modulation generated?",
+    "options": [
+      "By muscle contraction for the selected settings",
+      "Only at the spinal cord for the selected settings",
+      "Within the treatment unit before delivery",
+      "At a dry electrode edge in the treatment field"
+    ],
+    "correct": 2,
+    "explanation": "Premodulated current is mixed in the device and delivered through two electrodes.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-035",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "What is the purpose of vector or scan in some interferential devices?",
+    "options": [
+      "Convert current to ultrasound in the treatment field",
+      "Measure blood pressure for the selected settings",
+      "Vary the location of the modulated field",
+      "Prevent all current entry for the selected settings"
+    ],
+    "correct": 2,
+    "explanation": "Vector scanning varies the interference field over the treatment area.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-036",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "applied",
+    "text": "Discomfort is concentrated under one interferential electrode. What should be checked first?",
+    "options": [
+      "Electrode contact and current balance",
+      "Whether the patient has eaten",
+      "Whether ultrasound gel is present",
+      "Room lighting in the treatment field"
+    ],
+    "correct": 0,
+    "explanation": "Uneven contact or imbalanced channels can concentrate current.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-037",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "What directly determines the beat frequency?",
+    "options": [
+      "Carrier-frequency difference",
+      "Room size for the selected settings",
+      "Resting heart rate in the treatment field",
+      "Sponge thickness in the treatment field"
+    ],
+    "correct": 0,
+    "explanation": "Beat frequency depends on the difference between the carriers.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-038",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "analytical",
+    "text": "Both carrier frequencies rise by 500 Hz while their difference stays unchanged. What happens to beat frequency?",
+    "options": [
+      "It becomes zero",
+      "It becomes breathing rate",
+      "It rises by 1000 Hz",
+      "It remains unchanged"
+    ],
+    "correct": 3,
+    "explanation": "Adding the same amount to both carriers preserves their difference.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-039",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "Which goal is commonly associated with sensory-level interferential current?",
+    "options": [
+      "Chronaxie measurement",
+      "UV erythema",
+      "Pain modulation",
+      "Permanent denervation"
+    ],
+    "correct": 2,
+    "explanation": "Sensory-level interferential current may be used as an adjunct for pain modulation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-040",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "foundational",
+    "text": "Why is electrode placement important in four-pole treatment?",
+    "options": [
+      "It determines infrared wavelength for the selected settings",
+      "Crossing geometry affects the treatment field",
+      "It changes current into laser for the selected settings",
+      "It prevents all muscle activation in the treatment field"
+    ],
+    "correct": 1,
+    "explanation": "Channel geometry determines where the modulated field is produced.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-041",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "interferential and medium-frequency currents",
+    "difficulty": "analytical",
+    "text": "A patient with reduced sensation is considered for interferential therapy. What is appropriate?",
+    "options": [
+      "Assess risk and monitor closely or choose another modality",
+      "Place electrodes across the carotid sinus for the selected settings",
+      "Increase until pain is reported for the selected settings",
+      "Assume safety because frequency is medium in the treatment field"
+    ],
+    "correct": 0,
+    "explanation": "Reduced sensation limits feedback and increases risk.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-042",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "What is the main purpose of NMES in an innervated muscle?",
+    "options": [
+      "Create UV injury during muscle stimulation",
+      "Produce only cooling during muscle stimulation",
+      "Measure range without movement for the selected muscle",
+      "Evoke contraction for activation or strengthening"
+    ],
+    "correct": 3,
+    "explanation": "NMES evokes a contraction in an innervated muscle.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-043",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Functional electrical stimulation is used to:",
+    "options": [
+      "Replace all voluntary exercise",
+      "Diagnose bone density",
+      "Assist a functional movement or task",
+      "Produce only sensory analgesia"
+    ],
+    "correct": 2,
+    "explanation": "FES times stimulation to assist purposeful movement.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-044",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Why can electrically evoked recruitment differ from voluntary recruitment?",
+    "options": [
+      "Only slow units are recruited for the selected muscle",
+      "Voluntary contraction has no recruitment",
+      "Large peripheral axons may be recruited early",
+      "Electrical stimulation cannot activate motor axons"
+    ],
+    "correct": 2,
+    "explanation": "External stimulation can preferentially recruit larger superficial motor axons.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-045",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Russian current is commonly characterized by which carrier frequency?",
+    "options": [
+      "Approximately 2500 Hz",
+      "Approximately 25 Hz",
+      "Direct current without a carrier",
+      "Approximately 250 kHz"
+    ],
+    "correct": 0,
+    "explanation": "Russian stimulation classically uses a 2500-Hz carrier with burst modulation.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-046",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Faradic-type stimulation is traditionally intended for:",
+    "options": [
+      "A denervated muscle needing long pulses for the selected muscle",
+      "A skin lesion needing UV during muscle stimulation",
+      "A joint needing coupling during muscle stimulation",
+      "An innervated muscle needing brief interrupted stimulation"
+    ],
+    "correct": 3,
+    "explanation": "Faradic-type short-duration interrupted stimulation is traditionally used for innervated muscle.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-047",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Long-duration pulses are more relevant when stimulating:",
+    "options": [
+      "A joint with cryotherapy during muscle stimulation",
+      "A normal muscle at sensory level during muscle stimulation",
+      "A denervated muscle with reduced nerve excitability",
+      "A tendon with photobiomodulation for the selected muscle"
+    ],
+    "correct": 2,
+    "explanation": "Denervated muscle may require longer pulses for direct fibre excitation.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-048",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "What is a typical HVPC waveform description?",
+    "options": [
+      "Biphasic ultrasound pulses during muscle stimulation",
+      "Long continuous direct current for the selected muscle",
+      "Twin-peaked, short-duration monophasic pulses",
+      "Continuous sinusoidal UV waves during muscle stimulation"
+    ],
+    "correct": 2,
+    "explanation": "HVPC is commonly described as twin-peaked short-duration monophasic pulsed current.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-049",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "applied",
+    "text": "Which parameter reduces abrupt onset of an NMES contraction?",
+    "options": [
+      "Zero off-time for the selected muscle",
+      "Sudden maximal amplitude",
+      "A smaller motor-point electrode",
+      "A gradual ramp-up time"
+    ],
+    "correct": 3,
+    "explanation": "A ramp builds current and contraction gradually.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-050",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "Where is an active electrode commonly placed to facilitate an innervated muscle contraction?",
+    "options": [
+      "On the opposite limb",
+      "Over the carotid sinus",
+      "Over an open wound",
+      "Near the motor point"
+    ],
+    "correct": 3,
+    "explanation": "Motor-point placement can evoke contraction at lower intensity.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-051",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "applied",
+    "text": "A quadriceps fatigues rapidly during NMES. Which adjustment is appropriate?",
+    "options": [
+      "Increase rest time or reduce duty cycle",
+      "Increase frequency and remove rest",
+      "Shorten all off-time for the selected muscle",
+      "Use maximal continuous intensity"
+    ],
+    "correct": 0,
+    "explanation": "Electrical contractions can fatigue muscle; rest supports recovery.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-052",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "What does duty cycle express?",
+    "options": [
+      "Maximum voluntary force for the selected muscle",
+      "Electrode resistance only for the selected muscle",
+      "Number of channels during muscle stimulation",
+      "On-time divided by total cycle time"
+    ],
+    "correct": 3,
+    "explanation": "Duty cycle describes the ratio of stimulation on-time to the full cycle.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-053",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "analytical",
+    "text": "For strengthening an innervated muscle, which combination is most defensible?",
+    "options": [
+      "Sensory tingling without contraction during muscle stimulation",
+      "Effective contraction, rest and voluntary effort",
+      "Direct current over anaesthetic skin for the selected muscle",
+      "Continuous maximal stimulation during muscle stimulation"
+    ],
+    "correct": 1,
+    "explanation": "Strength-oriented NMES needs effective contraction, recovery and voluntary exercise.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-054",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "foundational",
+    "text": "What is the principal polarity-related concern with prolonged monophasic direct current?",
+    "options": [
+      "It has no tissue effect during muscle stimulation",
+      "It cannot produce sensation during muscle stimulation",
+      "It always becomes alternating for the selected muscle",
+      "Polarity-dependent chemical and skin effects"
+    ],
+    "correct": 3,
+    "explanation": "Prolonged direct current can cause polarity-dependent chemical and skin effects.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-055",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "NMES, Russian, Faradic, Galvanic and HVPC",
+    "difficulty": "applied",
+    "text": "Before using NMES over a recently operated limb, confirm:",
+    "options": [
+      "Electrode coverage of incision during muscle stimulation",
+      "Highest intensity tolerance during muscle stimulation",
+      "That sensation testing is unnecessary for the selected muscle",
+      "Surgical restrictions, wound status and clearance"
+    ],
+    "correct": 3,
+    "explanation": "Postoperative stimulation must respect wound status and surgical precautions.",
+    "sourceId": "ioc-manual-sports-injuries"
+  },
+  {
+    "id": "b-electro-056",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Which ultrasound frequency is generally selected for a deeper target?",
+    "options": [
+      "27.12 MHz",
+      "10 MHz",
+      "3 MHz",
+      "1 MHz"
+    ],
+    "correct": 3,
+    "explanation": "Lower-frequency 1-MHz ultrasound penetrates more deeply than 3 MHz.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-057",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Which frequency is generally more suitable for superficial tissue?",
+    "options": [
+      "27.12 MHz",
+      "3 MHz",
+      "1 kHz",
+      "0.1 MHz"
+    ],
+    "correct": 1,
+    "explanation": "Three-megahertz ultrasound is absorbed more superficially.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-058",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "What unit is commonly used for therapeutic ultrasound intensity?",
+    "options": [
+      "Hz/cm",
+      "J/kg/min",
+      "W/cm²",
+      "Ohms/m²"
+    ],
+    "correct": 2,
+    "explanation": "Ultrasound intensity is commonly expressed in watts per square centimetre.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-059",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "What is the main purpose of coupling medium?",
+    "options": [
+      "Remove air between sound head and skin",
+      "Increase reflection at skin at the treated tissue",
+      "Dry the transducer during ultrasound exposure",
+      "Convert sound into current during ultrasound exposure"
+    ],
+    "correct": 0,
+    "explanation": "Air strongly reflects ultrasound; coupling medium provides an acoustic path.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-060",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "What is the usual effect of pulsing therapeutic ultrasound?",
+    "options": [
+      "Lower average energy and heating",
+      "Guarantee cavitation",
+      "Increase duty cycle to 100%",
+      "Eliminate coupling medium"
+    ],
+    "correct": 0,
+    "explanation": "Pulsed output reduces average energy compared with continuous output.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-061",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Continuous ultrasound is primarily associated with:",
+    "options": [
+      "Mechanical compression",
+      "Thermal energy delivery",
+      "No tissue heating",
+      "Motor-axon recruitment"
+    ],
+    "correct": 1,
+    "explanation": "Continuous ultrasound is used when greater thermal effect is intended.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-062",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "applied",
+    "text": "Why should the ultrasound head normally be kept moving?",
+    "options": [
+      "Stop acoustic energy during ultrasound exposure",
+      "Increase air reflection at the treated tissue",
+      "Make it an electrode during ultrasound exposure",
+      "Limit hot spots and standing waves"
+    ],
+    "correct": 3,
+    "explanation": "Movement distributes energy and reduces excessive local heating.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-063",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Which phenomenon describes formation and oscillation of gas bubbles?",
+    "options": [
+      "Cavitation",
+      "Accommodation",
+      "Refraction of visible light",
+      "Electrode polarization"
+    ],
+    "correct": 0,
+    "explanation": "Cavitation is formation and oscillation of gas bubbles in an acoustic field.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-064",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "What does effective radiating area represent?",
+    "options": [
+      "The whole handle",
+      "The patient’s body surface",
+      "Useful acoustic-emission area",
+      "The treatment-room area"
+    ],
+    "correct": 2,
+    "explanation": "ERA is the transducer area emitting useful acoustic energy.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-065",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "analytical",
+    "text": "A sound head is larger than the small tendon being treated. What is most relevant?",
+    "options": [
+      "Match treatment area to ERA",
+      "The larger head guarantees depth",
+      "It needs no coupling",
+      "It can be held stationary"
+    ],
+    "correct": 0,
+    "explanation": "Treatment area and transducer size should be compatible for safe energy distribution.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-066",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Which interface reflects ultrasound most strongly?",
+    "options": [
+      "Water–gel during ultrasound exposure",
+      "Muscle–fat at the treated tissue",
+      "A tissue–air interface",
+      "Muscle–blood at the treated tissue"
+    ],
+    "correct": 2,
+    "explanation": "The acoustic mismatch at a tissue–air interface produces strong reflection.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-067",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "applied",
+    "text": "Why ask about sensation during ultrasound?",
+    "options": [
+      "Sensation sets frequency automatically at the treated tissue",
+      "Excessive heat or pain may indicate unsafe delivery",
+      "Ultrasound has no sensation during ultrasound exposure",
+      "Pulse rate is the only safety measure during ultrasound exposure"
+    ],
+    "correct": 1,
+    "explanation": "Patient feedback can identify excessive heat or pain.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-068",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "foundational",
+    "text": "Phonophoresis refers to ultrasound used to assist:",
+    "options": [
+      "Bone-density measurement at the treated tissue",
+      "Topical medication transport through skin",
+      "Electrical diagnosis during ultrasound exposure",
+      "Cooling deep tissue during ultrasound exposure"
+    ],
+    "correct": 1,
+    "explanation": "Phonophoresis is proposed use of ultrasound to assist topical-agent movement through skin.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-069",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "therapeutic ultrasound",
+    "difficulty": "analytical",
+    "text": "For an acute irritable injury when ultrasound is selected as an adjunct, what is more conservative?",
+    "options": [
+      "Lower average output with close monitoring",
+      "Stationary head over bone during ultrasound exposure",
+      "Continuous maximal intensity at the treated tissue",
+      "Ignoring patient feedback during ultrasound exposure"
+    ],
+    "correct": 0,
+    "explanation": "Lower average output with monitoring is more conservative for an acute irritable presentation.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-070",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "Which frequency is internationally designated for therapeutic shortwave diathermy?",
+    "options": [
+      "3 kHz",
+      "2450 MHz",
+      "27.12 MHz",
+      "1 MHz"
+    ],
+    "correct": 2,
+    "explanation": "27.12 MHz is the commonly designated therapeutic shortwave frequency.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-071",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "Shortwave diathermy primarily delivers:",
+    "options": [
+      "Ultraviolet radiation during diathermy exposure",
+      "Mechanical acoustic energy in the diathermy field",
+      "Radiofrequency electromagnetic energy",
+      "Direct current through a cable in the diathermy field"
+    ],
+    "correct": 2,
+    "explanation": "Shortwave diathermy uses radiofrequency electromagnetic energy.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-072",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "In capacitive shortwave application, tissues are positioned between:",
+    "options": [
+      "An ice pack and towel in the diathermy field",
+      "Electrodes forming an electric field",
+      "A laser and mirror during diathermy exposure",
+      "Two ultrasound heads during diathermy exposure"
+    ],
+    "correct": 1,
+    "explanation": "Capacitive application places the body part between electrodes.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-073",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "Inductive shortwave treatment commonly uses:",
+    "options": [
+      "A coil or drum applicator",
+      "A UV-B tube in the diathermy field",
+      "A monophasic electrode only",
+      "A water-filled ultrasound head"
+    ],
+    "correct": 0,
+    "explanation": "Inductive treatment uses a coil or drum to induce currents.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-074",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "What is the main intended effect of continuous shortwave diathermy?",
+    "options": [
+      "Motor-point stimulation without heat",
+      "Deep tissue heating",
+      "Superficial evaporative cooling",
+      "UV erythema in the diathermy field"
+    ],
+    "correct": 1,
+    "explanation": "Continuous shortwave is primarily a deep-heating modality.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-075",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "Pulsed shortwave differs mainly by:",
+    "options": [
+      "Delivering energy in pulses with lower average power",
+      "Always producing higher continuous temperature",
+      "Requiring direct-current electrodes in the diathermy field",
+      "Using no electromagnetic energy during diathermy exposure"
+    ],
+    "correct": 0,
+    "explanation": "Pulsed shortwave delivers intermittent energy and may have lower average power.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-076",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "applied",
+    "text": "Why should metal objects be removed before capacitive shortwave?",
+    "options": [
+      "They convert it to ultrasound",
+      "They prevent all sensation",
+      "They can concentrate the field and heat",
+      "They eliminate tissue absorption"
+    ],
+    "correct": 2,
+    "explanation": "Metal can concentrate fields and cause unwanted heating or burns.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-077",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "What can happen if capacitive electrodes are placed too close to skin?",
+    "options": [
+      "It becomes photobiomodulation",
+      "The field disappears",
+      "Surface heating may increase",
+      "Only the opposite limb heats"
+    ],
+    "correct": 2,
+    "explanation": "Poor spacing can concentrate the field near the surface.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-078",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "analytical",
+    "text": "A patient has an implanted electronic cardiac device. What is safest for shortwave?",
+    "options": [
+      "Proceed if warmth is absent in the diathermy field",
+      "Use maximal power briefly during diathermy exposure",
+      "Place the applicator over the generator",
+      "Do not apply; seek guidance or an alternative"
+    ],
+    "correct": 3,
+    "explanation": "Electromagnetic diathermy may interfere with implanted electronic devices.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-079",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "Which patient feedback is important during thermal shortwave?",
+    "options": [
+      "Report excessive heat or discomfort",
+      "Ignore warmth during diathermy exposure",
+      "Report room temperature in the diathermy field",
+      "Report only thirst during diathermy exposure"
+    ],
+    "correct": 0,
+    "explanation": "Prompt reporting helps prevent thermal injury.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-080",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "What increases risk of uneven shortwave heating?",
+    "options": [
+      "Removing conductive materials in the diathermy field",
+      "Unequal distance or poor applicator alignment",
+      "Uniform spacing during diathermy exposure",
+      "Measured treatment dose during diathermy exposure"
+    ],
+    "correct": 1,
+    "explanation": "Unequal spacing and alignment can produce nonuniform heating.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-081",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "applied",
+    "text": "Why assess sensation and circulation before thermal diathermy?",
+    "options": [
+      "Sensation changes wavelength",
+      "Reduced heat detection or unsafe perfusion",
+      "Circulation determines electrode colour",
+      "Assessment is needed only after a burn"
+    ],
+    "correct": 1,
+    "explanation": "Impaired sensation or circulation increases thermal risk.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-082",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shortwave diathermy",
+    "difficulty": "foundational",
+    "text": "How does shortwave diathermy differ from therapeutic ultrasound?",
+    "options": [
+      "Both are direct current during diathermy exposure",
+      "Shortwave is visible light during diathermy exposure",
+      "Ultrasound is always deeper in the diathermy field",
+      "Electromagnetic versus acoustic energy"
+    ],
+    "correct": 3,
+    "explanation": "Shortwave is electromagnetic; ultrasound is mechanical acoustic energy.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-083",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Therapeutic infrared is primarily associated with:",
+    "options": [
+      "Superficial radiant heating",
+      "Direct-current ion transfer",
+      "Ultrasound cavitation",
+      "Deep motor stimulation"
+    ],
+    "correct": 0,
+    "explanation": "Infrared is a radiant modality that mainly produces superficial heating.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-084",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "What happens to radiant intensity as distance from a point source increases?",
+    "options": [
+      "It becomes ultraviolet during light exposure",
+      "It remains identical during light exposure",
+      "It increases proportionally at the treatment site",
+      "Decreases by the inverse-square relationship"
+    ],
+    "correct": 3,
+    "explanation": "For a point source, irradiance decreases approximately with the square of distance.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-085",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "applied",
+    "text": "A patient reports excessive heat and erythema during infrared exposure. What should happen first?",
+    "options": [
+      "Increase heat during light exposure",
+      "Cover the lamp with metal",
+      "Stop or reduce exposure and inspect skin",
+      "Continue because erythema is always safe"
+    ],
+    "correct": 2,
+    "explanation": "Excessive heat or erythema requires stopping or reducing exposure and checking skin.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-086",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Which ultraviolet band is most associated with erythema and sunburn?",
+    "options": [
+      "UVA",
+      "UVB",
+      "UVC",
+      "Infrared-A"
+    ],
+    "correct": 1,
+    "explanation": "UVB is strongly associated with erythema and sunburn.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-087",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Which ultraviolet band has the longest wavelength?",
+    "options": [
+      "UVA",
+      "UVB",
+      "UVC",
+      "Shortwave infrared"
+    ],
+    "correct": 0,
+    "explanation": "UVA has the longest wavelength among ultraviolet bands.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-088",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "What is necessary during ultraviolet treatment?",
+    "options": [
+      "The same dose for every skin type",
+      "No exposure-time record at the treatment site",
+      "Protect eyes; control dose and test skin",
+      "Looking at the source during light exposure"
+    ],
+    "correct": 2,
+    "explanation": "Eye protection, dose control and appropriate skin testing are essential.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-089",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Photobiomodulation uses:",
+    "options": [
+      "UVC radiation during light exposure",
+      "Red or near-infrared non-ionizing light",
+      "Mechanical shock waves during light exposure",
+      "High-voltage direct current at the treatment site"
+    ],
+    "correct": 1,
+    "explanation": "Photobiomodulation uses low-intensity non-ionizing red or near-infrared light.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-090",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Which quantity describes photobiomodulation energy per unit area?",
+    "options": [
+      "Frequency in ohms",
+      "Fluence in J/cm²",
+      "Resistance in watts",
+      "Duty cycle in metres"
+    ],
+    "correct": 1,
+    "explanation": "Fluence is energy per unit area, commonly J/cm².",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-091",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "applied",
+    "text": "Why document wavelength and output settings for photobiomodulation?",
+    "options": [
+      "It converts light to ultrasound during light exposure",
+      "All devices deliver identical energy at the treatment site",
+      "Wavelength has no exposure relation during light exposure",
+      "Dose depends on energy, area, time and device parameters"
+    ],
+    "correct": 3,
+    "explanation": "Reproducible dosing requires relevant device and treatment parameters.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-092",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "analytical",
+    "text": "Two photobiomodulation treatments have equal power but different areas. What is correct?",
+    "options": [
+      "The larger area receives higher irradiance",
+      "Both have identical irradiance during light exposure",
+      "Area does not affect dose rate at the treatment site",
+      "The larger area receives lower irradiance"
+    ],
+    "correct": 3,
+    "explanation": "Irradiance is power divided by area.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-093",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "What most directly affects the wavelength of therapeutic light?",
+    "options": [
+      "Sponge thickness during light exposure",
+      "Room humidity alone at the treatment site",
+      "The light source and device specification",
+      "Blood pressure during light exposure"
+    ],
+    "correct": 2,
+    "explanation": "The device’s light source and specification determine wavelength.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-094",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "applied",
+    "text": "Before UV treatment in a patient using photosensitizing medication, what is appropriate?",
+    "options": [
+      "Increase the dose during light exposure",
+      "Protect only the table during light exposure",
+      "Assume medication cannot matter at the treatment site",
+      "Review medication risk and avoid or seek guidance"
+    ],
+    "correct": 3,
+    "explanation": "Photosensitizing drugs can increase adverse reactions.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-095",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "infrared, ultraviolet and photobiomodulation",
+    "difficulty": "foundational",
+    "text": "Which modality is radiant rather than contact-conduction heating?",
+    "options": [
+      "Ice massage",
+      "Infrared",
+      "Paraffin wax",
+      "Hot pack"
+    ],
+    "correct": 1,
+    "explanation": "Infrared transfers energy by radiation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-096",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "Extracorporeal shockwave therapy delivers:",
+    "options": [
+      "High-energy acoustic pressure waves",
+      "Continuous direct current at the treated region",
+      "Ultraviolet erythema during the selected treatment",
+      "Low-temperature cooling at the treated region"
+    ],
+    "correct": 0,
+    "explanation": "Shockwave therapy delivers acoustic pressure waves.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-097",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "How does focused shockwave differ from radial pressure-wave treatment?",
+    "options": [
+      "Focused energy converges at a selected depth",
+      "Radial always reaches deeper at the treated region",
+      "Radial has no mechanical component at the treated region",
+      "Focused uses only cold during the selected treatment"
+    ],
+    "correct": 0,
+    "explanation": "Focused systems concentrate energy at a focal depth.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-098",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "A common sports-medicine indication for shockwave is:",
+    "options": [
+      "Unprotected eye treatment",
+      "An open arterial bleed at the treated region",
+      "Selected chronic tendinopathy",
+      "A fresh tendon rupture requiring repair"
+    ],
+    "correct": 2,
+    "explanation": "Shockwave may be an adjunct for selected chronic tendinopathies.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-099",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "applied",
+    "text": "Before shockwave over a painful tendon, establish:",
+    "options": [
+      "Diagnosis, rationale, consent and precautions",
+      "Pain must be absent during the selected treatment",
+      "Consent is unnecessary at the treated region",
+      "Highest energy first during the selected treatment"
+    ],
+    "correct": 0,
+    "explanation": "Diagnosis, rationale, consent and screening should precede treatment.",
+    "sourceId": "ioc-manual-sports-injuries"
+  },
+  {
+    "id": "b-electro-100",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "Cryotherapy removes heat from tissue mainly by:",
+    "options": [
+      "Converting heat to current",
+      "Conduction to a colder medium",
+      "Increasing infrared radiation",
+      "Generating cavitation"
+    ],
+    "correct": 1,
+    "explanation": "Cryotherapy transfers heat by conduction.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-101",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "The immediate vascular response to local cooling is usually:",
+    "options": [
+      "No change at the treated region",
+      "Persistent maximal vasodilation",
+      "Vasoconstriction",
+      "Thrombosis in every patient"
+    ],
+    "correct": 2,
+    "explanation": "Local cooling initially produces vasoconstriction.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-102",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "The principal analgesic effect of cooling is:",
+    "options": [
+      "Increased pain-fibre conduction during the selected treatment",
+      "Reduced nerve conduction and altered nociceptive input",
+      "Immediate tissue regeneration during the selected treatment",
+      "Permanent sensory-nerve destruction at the treated region"
+    ],
+    "correct": 1,
+    "explanation": "Cooling can reduce nerve conduction velocity and nociceptive input.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-103",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "applied",
+    "text": "Why may intermittent cooling be preferred to prolonged cooling?",
+    "options": [
+      "It eliminates skin inspection during the selected treatment",
+      "Limit cold exposure while controlling symptoms",
+      "It guarantees deep heating during the selected treatment",
+      "It prevents all vascular responses at the treated region"
+    ],
+    "correct": 1,
+    "explanation": "Intermittent application can manage symptoms while limiting excessive exposure.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-104",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "What is the purpose of ice massage?",
+    "options": [
+      "Localized moving cooling",
+      "Motor-point stimulation",
+      "Deep radiofrequency heating",
+      "UV exposure at the treated region"
+    ],
+    "correct": 0,
+    "explanation": "Ice massage provides localized cooling while the ice is moved.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-105",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "analytical",
+    "text": "Intense burning and mottled skin develop during ice application. What is safest?",
+    "options": [
+      "Assume analgesia is complete at the treated region",
+      "Increase pressure during the selected treatment",
+      "Continue for planned time at the treated region",
+      "Stop and assess skin and cold response"
+    ],
+    "correct": 3,
+    "explanation": "Burning or abnormal skin changes indicate intolerance or excessive exposure.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-106",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "Which condition is a major precaution to routine cryotherapy?",
+    "options": [
+      "Normal sensation during the selected treatment",
+      "Healed superficial scar at the treated region",
+      "Mild delayed soreness during the selected treatment",
+      "Cold hypersensitivity or cold urticaria"
+    ],
+    "correct": 3,
+    "explanation": "Cold hypersensitivity or cold urticaria can cause an adverse response.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-107",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "applied",
+    "text": "Before applying an ice pack to an athlete’s limb, check:",
+    "options": [
+      "That limb is numb during the selected treatment",
+      "That pack is heaviest at the treated region at the treated region",
+      "Check skin, sensation, circulation and cold tolerance",
+      "Only athlete height during the selected treatment"
+    ],
+    "correct": 2,
+    "explanation": "Safety screening includes skin, sensation, circulation and tolerance.",
+    "sourceId": "ioc-manual-sports-injuries"
+  },
+  {
+    "id": "b-electro-108",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "shockwave and cryotherapy",
+    "difficulty": "foundational",
+    "text": "Cryokinetics combines cooling with:",
+    "options": [
+      "Carefully dosed active movement or exercise",
+      "UV exposure during numbness during the selected treatment",
+      "Unrestricted failure loading during the selected treatment",
+      "Continuous maximal ultrasound at the treated region"
+    ],
+    "correct": 0,
+    "explanation": "Cryokinetics combines symptom reduction with controlled movement.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-109",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Surface EMG biofeedback primarily detects:",
+    "options": [
+      "Cartilage thickness in the target-muscle recording",
+      "Bone mineral density in the target-muscle recording",
+      "Muscle-activation electrical activity",
+      "Blood oxygen directly in the EMG trace"
+    ],
+    "correct": 2,
+    "explanation": "Surface EMG records electrical activity associated with skeletal muscle activation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-110",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Where should bipolar surface EMG electrodes generally be aligned?",
+    "options": [
+      "Along the muscle fibre direction",
+      "Across the carotid sinus",
+      "Perpendicular across unrelated joints",
+      "Over a bony prominence only"
+    ],
+    "correct": 0,
+    "explanation": "Alignment along fibres helps sample the intended muscle.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-111",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "What does an EMG amplitude display most directly represent?",
+    "options": [
+      "Detected electrical activity amplitude",
+      "Blood flow in the target-muscle recording",
+      "Exact mechanical torque in the EMG trace",
+      "Joint angle without a sensor"
+    ],
+    "correct": 0,
+    "explanation": "EMG amplitude reflects detected electrical activity, not directly torque.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-112",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "applied",
+    "text": "After knee surgery, the goal of quadriceps EMG biofeedback is to:",
+    "options": [
+      "Heat the knee in the target-muscle recording",
+      "Train maximal contraction continuously in the EMG trace",
+      "Increase quadriceps activation and limit co-contraction",
+      "Replace strengthening in the target-muscle recording"
+    ],
+    "correct": 2,
+    "explanation": "EMG feedback can assist selective target-muscle activation.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-113",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "What is a common source of surface EMG artefact?",
+    "options": [
+      "A stable clean electrode",
+      "A quiet electrical environment",
+      "Fibre alignment in the EMG trace",
+      "Movement of the electrode or cable"
+    ],
+    "correct": 3,
+    "explanation": "Electrode or cable movement can introduce artefact.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-114",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Why is skin preparation useful for surface EMG?",
+    "options": [
+      "It converts EMG to X-ray in the target-muscle recording",
+      "It prevents all biological variation in the EMG trace",
+      "Reduce impedance and improve signal quality",
+      "It guarantees one motor unit in the EMG trace"
+    ],
+    "correct": 2,
+    "explanation": "Skin preparation improves contact and signal quality.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-115",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "analytical",
+    "text": "Why should EMG amplitudes from two muscles not be compared without normalization?",
+    "options": [
+      "Raw amplitude directly measures force in the EMG trace",
+      "Placement, anatomy and signal scaling can differ",
+      "Normalization removes all variation in the target-muscle recording",
+      "All muscles have identical raw amplitude in the EMG trace"
+    ],
+    "correct": 1,
+    "explanation": "Normalization helps account for recording and anatomical differences.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-116",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Which feedback can help a patient relax an overactive muscle?",
+    "options": [
+      "UV exposure in the EMG trace",
+      "Maximal cold stimulus",
+      "Feedback linked to reduced EMG",
+      "Painful electrical contraction"
+    ],
+    "correct": 2,
+    "explanation": "Feedback can be arranged so the patient learns to reduce excessive activity.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-117",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Signal from adjacent muscles contaminating the target recording is called:",
+    "options": [
+      "Phonophoresis",
+      "Rheobase",
+      "Accommodation",
+      "Cross-talk"
+    ],
+    "correct": 3,
+    "explanation": "Cross-talk is activity from nearby muscles contaminating the signal.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-118",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "The main value of EMG biofeedback in motor relearning is that it:",
+    "options": [
+      "Eliminates participation in the target-muscle recording",
+      "Measures ligament healing in the EMG trace",
+      "Diagnoses every nerve lesion in the EMG trace",
+      "Shows otherwise unseen muscle activity"
+    ],
+    "correct": 3,
+    "explanation": "EMG feedback gives information about muscle activity not directly visible.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-119",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "applied",
+    "text": "A signal changes when the cable moves but effort is unchanged. Suspect:",
+    "options": [
+      "A change in bone length",
+      "A change in fibre type",
+      "Recording artefact",
+      "Guaranteed recovery"
+    ],
+    "correct": 2,
+    "explanation": "Cable movement causing signal change is consistent with artefact.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-120",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "foundational",
+    "text": "Which contraction is commonly used as a reference for normalized EMG?",
+    "options": [
+      "Standardized maximal voluntary contraction",
+      "A random posture in the target-muscle recording",
+      "An unrecorded passive stretch in the EMG trace",
+      "A cryotherapy session in the target-muscle recording"
+    ],
+    "correct": 0,
+    "explanation": "A standardized MVC is commonly used for EMG normalization.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-121",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "biofeedback and EMG",
+    "difficulty": "analytical",
+    "text": "A patient raises EMG by bracing several muscles. What should the therapist emphasize?",
+    "options": [
+      "Stopping all feedback in the EMG trace",
+      "Amplitude alone in the target-muscle recording",
+      "Selective activation and task quality",
+      "More co-contraction in the target-muscle recording"
+    ],
+    "correct": 2,
+    "explanation": "Higher EMG is not automatically better; selective functional activation matters.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-122",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "In electrodiagnosis, rheobase is the:",
+    "options": [
+      "Frequency of two currents under the test conditions",
+      "Shortest pulse at twice threshold for the tested tissue",
+      "Time for muscle relaxation for the tested tissue",
+      "Minimum long-pulse amplitude for excitation"
+    ],
+    "correct": 3,
+    "explanation": "Rheobase is minimum amplitude capable of excitation at long duration.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-123",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "Chronaxie is the pulse duration required at:",
+    "options": [
+      "Zero current under the test conditions",
+      "Twice the rheobase amplitude",
+      "Half rheobase for the tested tissue",
+      "Maximum voluntary force"
+    ],
+    "correct": 1,
+    "explanation": "Chronaxie is minimum duration at twice rheobase.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-124",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "A strength-duration curve plots threshold stimulus against:",
+    "options": [
+      "Room humidity",
+      "Electrode colour",
+      "Pulse duration",
+      "Joint circumference"
+    ],
+    "correct": 2,
+    "explanation": "The curve relates threshold amplitude to pulse duration.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-125",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "Which tissue generally has a shorter chronaxie?",
+    "options": [
+      "A tendon under the test conditions",
+      "A completely denervated muscle",
+      "A normally innervated motor nerve",
+      "A dry electrode for the tested tissue"
+    ],
+    "correct": 2,
+    "explanation": "Normally innervated nerves are more excitable and have shorter chronaxies.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-126",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "applied",
+    "text": "A markedly prolonged chronaxie most strongly suggests:",
+    "options": [
+      "Lower electrode resistance for the tested tissue",
+      "Reduced excitability such as denervation",
+      "A normal motor nerve under the test conditions",
+      "Successful coupling under the test conditions"
+    ],
+    "correct": 1,
+    "explanation": "Prolonged chronaxie indicates reduced excitability and may occur with denervation.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-127",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "Utilization time is the:",
+    "options": [
+      "Time to clean an electrode under the test conditions",
+      "Ultrasound-head movement time for the tested tissue",
+      "Clinic appointment duration under the test conditions",
+      "Minimum duration needed at rheobase strength"
+    ],
+    "correct": 3,
+    "explanation": "Utilization time is minimum duration that excites at rheobase.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-128",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "At very long pulse durations, threshold amplitude approaches:",
+    "options": [
+      "Ultrasound frequency",
+      "Twice chronaxie",
+      "Zero duration",
+      "The rheobase"
+    ],
+    "correct": 3,
+    "explanation": "At long duration, threshold amplitude approaches rheobase.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-129",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "analytical",
+    "text": "Why can denervated muscle require longer pulses?",
+    "options": [
+      "The electrode becomes smaller for the tested tissue",
+      "It has no excitable membrane under the test conditions",
+      "Directly excite muscle without a functioning motor nerve",
+      "It has a shorter chronaxie under the test conditions"
+    ],
+    "correct": 2,
+    "explanation": "Without an excitable motor nerve, longer pulses may be needed for direct fibre excitation.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-130",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "A lower rheobase generally indicates:",
+    "options": [
+      "Higher resistance in every case",
+      "Greater electrical excitability",
+      "Longer treatment time",
+      "No excitable tissue"
+    ],
+    "correct": 1,
+    "explanation": "A lower threshold amplitude indicates greater excitability under test conditions.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-131",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "applied",
+    "text": "Which condition should remain consistent during repeated strength-duration testing?",
+    "options": [
+      "The treatment goal after each pulse",
+      "Room lighting for the tested tissue",
+      "Electrode placement and contact",
+      "Answers and duration simultaneously"
+    ],
+    "correct": 2,
+    "explanation": "Consistent placement and contact improve test comparisons.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-132",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "Accommodation in electrical stimulation is:",
+    "options": [
+      "Movement of an ultrasound head for the tested tissue",
+      "Reduced excitability during a slowly rising stimulus",
+      "Difference between carriers under the test conditions",
+      "Permanent strength gain under the test conditions"
+    ],
+    "correct": 1,
+    "explanation": "Accommodation is reduced response to a slowly rising or sustained stimulus.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-133",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "analytical",
+    "text": "After nerve recovery, which trend supports improved motor-nerve excitability?",
+    "options": [
+      "Longer chronaxie and higher threshold",
+      "No threshold change under the test conditions",
+      "Zero pulse duration for the tested tissue",
+      "Shorter chronaxie and lower threshold"
+    ],
+    "correct": 3,
+    "explanation": "Improved excitability is supported by lower thresholds and shorter chronaxie.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-134",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "strength-duration curves, chronaxie and rheobase",
+    "difficulty": "foundational",
+    "text": "Which finding is most consistent with a strength-duration test performed unreliably?",
+    "options": [
+      "Recording each threshold under the test conditions",
+      "Using the same protocol under the test conditions",
+      "Changing electrode position between measurements",
+      "Keeping skin contact consistent for the tested tissue"
+    ],
+    "correct": 2,
+    "explanation": "Changing electrode position confounds comparisons between measurements.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-135",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "What should precede application of any electrophysical agent?",
+    "options": [
+      "Ignoring sensation during supervised treatment",
+      "Applying electrodes before explanation",
+      "Complete assessment and safety screen",
+      "Maximum-intensity testing for this patient"
+    ],
+    "correct": 2,
+    "explanation": "Screening identifies risks, contraindications and treatment targets.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-136",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Why inspect skin before electrode or thermal treatment?",
+    "options": [
+      "Inspection changes current to ultrasound",
+      "Inspection replaces consent for this patient",
+      "Broken or irritated skin increases injury risk",
+      "Intact skin is never needed during supervised treatment"
+    ],
+    "correct": 2,
+    "explanation": "Skin damage can increase electrical, thermal, chemical and infection risks.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-137",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Which finding most limits reporting of excessive heat?",
+    "options": [
+      "Normal light touch",
+      "Impaired protective sensation",
+      "A healed normal scar",
+      "Normal resting pulse"
+    ],
+    "correct": 1,
+    "explanation": "Impaired sensation reduces reliable feedback.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-138",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "applied",
+    "text": "A patient with a pacemaker is considered for trunk electrical stimulation. What is safest?",
+    "options": [
+      "Apply maximal current over generator",
+      "Avoid or obtain device-specific guidance",
+      "Place an electrode over the pocket",
+      "Assume all devices are compatible"
+    ],
+    "correct": 1,
+    "explanation": "Implanted electronic devices require device-specific precautions and medical guidance.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-139",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Why is informed consent important before electrotherapy?",
+    "options": [
+      "Explain sensations, benefits and risks",
+      "It permits ignoring contraindications",
+      "It is needed only if painful",
+      "It replaces monitoring for this patient"
+    ],
+    "correct": 0,
+    "explanation": "Consent supports an informed voluntary decision and does not replace screening.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-140",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Which practice is safest for a reusable conductive electrode?",
+    "options": [
+      "Share without cleaning during supervised treatment",
+      "Use a torn lead and dry surface for this patient",
+      "Place over an open wound for this patient",
+      "Inspect, clean and ensure full contact"
+    ],
+    "correct": 3,
+    "explanation": "Inspection, cleaning and full contact reduce infection and uneven-current risks.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-141",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Why increase intensity gradually when appropriate?",
+    "options": [
+      "It permanently prevents accommodation",
+      "Monitor comfort and tissue response",
+      "It removes placement checks",
+      "It guarantees contraction"
+    ],
+    "correct": 1,
+    "explanation": "Gradual adjustment allows monitoring of sensation, contraction and skin response.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-142",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Which site should generally be avoided for routine electrical stimulation?",
+    "options": [
+      "A localized muscle region during supervised treatment",
+      "A muscle belly with intact skin for this patient",
+      "A limb with normal sensation for this patient",
+      "Across the carotid sinus or anterior neck"
+    ],
+    "correct": 3,
+    "explanation": "The anterior neck contains structures where stimulation may pose avoidable risk.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-143",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "applied",
+    "text": "A hot spot appears beneath one electrode corner. What should happen next?",
+    "options": [
+      "Stop and reassess contact and skin",
+      "Increase intensity during supervised treatment",
+      "Ignore it near session end for this patient",
+      "Cover it with dry paper for this patient"
+    ],
+    "correct": 0,
+    "explanation": "A hot spot suggests uneven contact or excessive current density.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-144",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Why avoid applying therapeutic ultrasound directly over the eye?",
+    "options": [
+      "Ultrasound cannot reflect from fluid",
+      "The eye has no tissue interfaces",
+      "Sensitive ocular structures may be injured",
+      "The eye always requires maximal intensity"
+    ],
+    "correct": 2,
+    "explanation": "Sensitive ocular structures are a safety concern for direct ultrasound.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-145",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "A patient reports unexpected sharp pain during a modality. What is best?",
+    "options": [
+      "Pain proves effectiveness for this patient",
+      "Continue to timer end during supervised treatment",
+      "Stop and reassess patient and equipment",
+      "Increase dose during supervised treatment"
+    ],
+    "correct": 2,
+    "explanation": "Unexpected sharp pain requires reassessment rather than automatic continuation.",
+    "sourceId": "ioc-manual-sports-injuries"
+  },
+  {
+    "id": "b-electro-146",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "analytical",
+    "text": "An acute infection has spreading local inflammation. Which principle applies?",
+    "options": [
+      "Use maximal current during supervised treatment",
+      "Treat without documenting during supervised treatment",
+      "Apply deep heat to spread it for this patient",
+      "Avoid aggravating treatment and refer as needed"
+    ],
+    "correct": 3,
+    "explanation": "Active infection requires clinical judgment and possible referral.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  },
+  {
+    "id": "b-electro-147",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Why document parameters and patient response?",
+    "options": [
+      "Records matter only after injury for this patient",
+      "Documentation changes waveform during supervised treatment",
+      "Support reproducibility, communication and progression",
+      "Only billing requires details during supervised treatment"
+    ],
+    "correct": 2,
+    "explanation": "Treatment records support safe follow-up and communication.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-148",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "foundational",
+    "text": "Which action reduces risk of an electrical burn at an electrode?",
+    "options": [
+      "Apply over dry contaminated skin for this patient",
+      "Intact electrodes, even contact and suitable density",
+      "Allow an edge to lift during supervised treatment",
+      "Use the smallest electrode at maximal current"
+    ],
+    "correct": 1,
+    "explanation": "Even contact and suitable current density reduce localized injury.",
+    "sourceId": "claytons-electrotherapy"
+  },
+  {
+    "id": "b-electro-149",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "applied",
+    "text": "A patient cannot reliably communicate during treatment. What is safest?",
+    "options": [
+      "Increase until visible response",
+      "Leave the patient unattended",
+      "Assume tolerance for this patient",
+      "Use alternative or enhanced monitoring"
+    ],
+    "correct": 3,
+    "explanation": "When communication is limited, subjective feedback cannot be the sole safety control.",
+    "sourceId": "watson-electrotherapy"
+  },
+  {
+    "id": "b-electro-150",
+    "section": "B",
+    "topic": "Electrotherapy and Electrodiagnosis",
+    "subtopic": "indications, contraindications and safety",
+    "difficulty": "analytical",
+    "text": "A modality is requested but assessment finds no plausible treatment goal. What is best reasoning?",
+    "options": [
+      "Use maximum dose during supervised treatment",
+      "Use it instead of reassessment for this patient",
+      "Choose the longest time during supervised treatment",
+      "Do not apply without a defensible indication and goal"
+    ],
+    "correct": 3,
+    "explanation": "A modality should have a defensible indication, target and outcome measure.",
+    "sourceId": "brukner-khan-clinical-sports-medicine"
+  }
+]

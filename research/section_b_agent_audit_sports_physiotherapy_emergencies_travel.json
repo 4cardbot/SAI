@@ -1,0 +1,110 @@
+{
+  "status": "pass-with-review-flags",
+  "generatedAt": "2026-08-17",
+  "section": "B",
+  "topic": "Sports Physiotherapy, Emergencies and Travel",
+  "file": "question_bank/section_b_sports_physiotherapy_emergencies_travel.json",
+  "questionCount": 150,
+  "idPrefix": "b-sportsphysio-",
+  "schema": {
+    "requiredFields": [
+      "id",
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "text",
+      "options",
+      "correct",
+      "explanation",
+      "sourceId"
+    ],
+    "optionCount": 4,
+    "correctIndex": "zero-based"
+  },
+  "subtopics": {
+    "Acute soft-tissue protocols and optimal loading": 13,
+    "Hamstring injuries": 13,
+    "ACL reconstruction rehabilitation": 13,
+    "Shoulder and rotator-cuff conditions": 12,
+    "Stress injuries and exertional compartment syndrome": 12,
+    "Ankle, syndesmotic and groin injuries": 13,
+    "Return to sport and psychological readiness": 12,
+    "Injury prevention programmes and screening": 12,
+    "Emergency action plans and primary survey": 12,
+    "Concussion, SCAT6 and spinal trauma": 13,
+    "Heat, cold and altitude emergencies": 12,
+    "Team travel, jet lag and medical kits": 13
+  },
+  "difficulty": {
+    "foundational": 105,
+    "applied": 33,
+    "analytical": 12
+  },
+  "answerIndices": [
+    38,
+    37,
+    38,
+    37
+  ],
+  "sources": {
+    "brukner-khan-clinical-sports-medicine": 25,
+    "london-hamstring-consensus-2023": 25,
+    "aspetar-acl-cpg-2023": 13,
+    "brukner-khan-clinical-sports-medicine-vol2": 12,
+    "apta-lateral-ankle-cpg-2021": 13,
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": 12,
+    "ioc-manual-sports-injuries": 12,
+    "ioc-concussion-amsterdam-2022": 13,
+    "ioc-load-illness-2016": 25
+  },
+  "uniqueness": {
+    "ids": 150,
+    "stems": 150
+  },
+  "optionReview": {
+    "correctStrictlyLongest": 20,
+    "correctStrictlyShortest": 58,
+    "maximumSpread": 20,
+    "reviewFlags": []
+  },
+  "answerPattern": {
+    "exactRepeatingPeriodsCheckedThrough": 40,
+    "exactRepeatingPeriods": [],
+    "first24CorrectIndices": [
+      3,
+      2,
+      2,
+      0,
+      1,
+      1,
+      3,
+      1,
+      0,
+      0,
+      3,
+      2,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      3,
+      1,
+      0,
+      3,
+      0
+    ]
+  },
+  "provenance": {
+    "allSourceIdsResolvedAgainst": "src/data/sourceCatalog.ts",
+    "primarySourcePerQuestion": true
+  },
+  "caveats": [
+    "Questions are authored or paraphrased from the supplied reference books and named consensus/guideline sources; they are not predictions of exact exam items.",
+    "Return-to-sport thresholds such as approximately 90% symmetry are criteria within a multidimensional decision, not universal clearance rules.",
+    "Environmental and emergency items require venue-specific protocols, trained personnel and local medical oversight."
+  ]
+}

@@ -8,7 +8,7 @@ describe("section-based authored question bank", () => {
     expect(Object.keys(SECTION_BANKS).sort()).toEqual(["A1", "A2", "B", "C"]);
     expect(SECTION_BANKS.A1).toHaveLength(900);
     expect(SECTION_BANKS.A2).toHaveLength(200);
-    expect(SECTION_BANKS.B).toHaveLength(480);
+    expect(SECTION_BANKS.B).toHaveLength(1350);
     expect(SECTION_BANKS.C).toHaveLength(240);
     Object.entries(SECTION_BANKS).forEach(([section, questions]) => {
       questions.forEach((question) => expect(question.section).toBe(section));
@@ -16,9 +16,9 @@ describe("section-based authored question bank", () => {
   });
 
   it("contain literal records with unique IDs and answer choices", () => {
-    expect(AUTHORED_QUESTION_BANK.length).toBe(1820);
+    expect(AUTHORED_QUESTION_BANK.length).toBe(2690);
     expect(new Set(AUTHORED_QUESTION_BANK.map((question) => question.id)).size).toBe(AUTHORED_QUESTION_BANK.length);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(1580);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(2450);
     AUTHORED_QUESTION_BANK.forEach((question) => {
       expect(question.options).toHaveLength(4);
       expect(new Set(question.options).size).toBe(4);
@@ -34,7 +34,7 @@ describe("section-based authored question bank", () => {
   it("preserves the official section and case-study composition", () => {
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(900);
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(200);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(480);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(1350);
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(240);
     expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(120);
     const passageCounts = new Map<string, number>();

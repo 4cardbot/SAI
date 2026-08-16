@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-08-17",
+  "status": "pass",
+  "comparisonReference": "question_bank/section_b.json (pre-remediation records)",
+  "scope": "Only option order and zero-based correct indices were changed in the two listed files.",
+  "files": [
+    {
+      "file": "question_bank/section_b_human_anatomy.json",
+      "recordCount": {
+        "before": 150,
+        "after": 150
+      },
+      "changedOptionOrders": 150,
+      "permutation": {
+        "algorithm": "FNV-1a seed (salt + question id), xorshift32, seeded Fisher-Yates; identity replaced by seeded non-identity rotation",
+        "salt": "anatomy-seeded-v1",
+        "uniquePermutations": 23,
+        "permutationCounts": {
+          "1023": 3,
+          "1032": 7,
+          "1203": 6,
+          "1230": 7,
+          "1302": 10,
+          "1320": 4,
+          "2013": 6,
+          "2031": 6,
+          "2103": 1,
+          "2130": 8,
+          "2301": 8,
+          "2310": 4,
+          "3012": 12,
+          "3021": 7,
+          "3102": 12,
+          "3120": 5,
+          "3201": 5,
+          "3210": 1,
+          "0231": 9,
+          "0132": 13,
+          "0321": 9,
+          "0312": 5,
+          "0213": 2
+        },
+        "identityPermutations": 0,
+        "adjacentIdenticalPermutations": 9,
+        "repeatingPeriodsChecked": "1-32",
+        "repeatingPeriodsDetected": []
+      },
+      "answerIndexCounts": [
+        41,
+        45,
+        34,
+        30
+      ],
+      "checks": {
+        "fourOptionsEach": true,
+        "optionSetsPreserved": true,
+        "answerMeaningPreserved": true,
+        "immutableFieldsUnchanged": true,
+        "deterministicPermutationMatches": true
+      }
+    },
+    {
+      "file": "question_bank/section_b_electrotherapy_electrodiagnosis.json",
+      "recordCount": {
+        "before": 150,
+        "after": 150
+      },
+      "changedOptionOrders": 150,
+      "permutation": {
+        "algorithm": "FNV-1a seed (salt + question id), xorshift32, seeded Fisher-Yates; identity replaced by seeded non-identity rotation",
+        "salt": "electro-seeded-v1",
+        "uniquePermutations": 23,
+        "permutationCounts": {
+          "1023": 7,
+          "1032": 9,
+          "1203": 6,
+          "1230": 11,
+          "1302": 9,
+          "1320": 6,
+          "2013": 4,
+          "2031": 6,
+          "2103": 9,
+          "2130": 1,
+          "2301": 6,
+          "2310": 4,
+          "3012": 11,
+          "3021": 2,
+          "3102": 9,
+          "3120": 4,
+          "3201": 1,
+          "3210": 5,
+          "0132": 12,
+          "0213": 7,
+          "0321": 7,
+          "0312": 11,
+          "0231": 3
+        },
+        "identityPermutations": 0,
+        "adjacentIdenticalPermutations": 14,
+        "repeatingPeriodsChecked": "1-32",
+        "repeatingPeriodsDetected": []
+      },
+      "answerIndexCounts": [
+        31,
+        32,
+        45,
+        42
+      ],
+      "checks": {
+        "fourOptionsEach": true,
+        "optionSetsPreserved": true,
+        "answerMeaningPreserved": true,
+        "immutableFieldsUnchanged": true,
+        "deterministicPermutationMatches": true
+      }
+    }
+  ],
+  "overallChecks": {
+    "filesAudited": 2,
+    "recordsAudited": 300,
+    "allRecordsHaveFourOptions": true,
+    "allOptionSetsPreserved": true,
+    "allAnswerMeaningsPreserved": true,
+    "allImmutableFieldsUnchanged": true,
+    "allPermutationsDeterministic": true,
+    "noIdentityPermutation": true,
+    "noDetectedShortPeriod": true
+  }
+}

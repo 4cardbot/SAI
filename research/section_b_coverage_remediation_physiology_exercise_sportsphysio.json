@@ -1,0 +1,728 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "targeted Section B syllabus-coverage remediation audit",
+  "scope": {
+    "filesRemediated": [
+      "question_bank/section_b_human_exercise_physiology.json",
+      "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "question_bank/section_b_sports_physiotherapy_emergencies_travel.json"
+    ],
+    "auditFile": "research/section_b_coverage_remediation_physiology_exercise_sportsphysio.json",
+    "mergedBankRegenerated": false,
+    "sourceCatalogModified": false,
+    "otherQuestionBankFilesWritten": false
+  },
+  "sourceCatalogReferences": {
+    "openstax-anatomy-physiology-2e": {
+      "title": "Anatomy and Physiology 2e",
+      "publisher": "OpenStax, Rice University",
+      "locator": "Chapters 17, 23 and 27",
+      "catalogEntryResolved": true
+    },
+    "physiology-sport-exercise-kenney": {
+      "title": "Physiology of Sport and Exercise",
+      "publisher": "Human Kinetics; Kenney, Wilmore and Costill",
+      "locator": "5th edition, exercise blood-flow redistribution and gastrointestinal-response sections",
+      "catalogEntryResolved": true
+    },
+    "ioc-reds-2023": {
+      "title": "IOC consensus statement on Relative Energy Deficiency in Sport: 2023 update",
+      "publisher": "International Olympic Committee",
+      "locator": "Reproductive-health and low-energy-availability sections",
+      "catalogEntryResolved": true
+    },
+    "nccih-yoga-safety": {
+      "title": "Yoga: Effectiveness and Safety",
+      "publisher": "National Center for Complementary and Integrative Health",
+      "locator": "What is yoga; What are the risks",
+      "catalogEntryResolved": true
+    },
+    "yoga-athletes-review-2025": {
+      "title": "Effect of yoga on selected performance metrics and mental health of track and field athletes: A systematic review",
+      "publisher": "Journal of Bodywork and Movement Therapies; Deepshikha Singh et al.",
+      "locator": "Systematic review of yoga interventions in track and field athletes",
+      "catalogEntryResolved": true
+    },
+    "acsm-getp-12": {
+      "title": "ACSM's Guidelines for Exercise Testing and Prescription",
+      "publisher": "American College of Sports Medicine",
+      "locator": "12th edition, body-composition assessment chapter",
+      "catalogEntryResolved": true
+    }
+  },
+  "replacements": {
+    "physiology": {
+      "file": "question_bank/section_b_human_exercise_physiology.json",
+      "replacementIds": [
+        "b-physiology-013",
+        "b-physiology-014",
+        "b-physiology-015",
+        "b-physiology-028",
+        "b-physiology-029",
+        "b-physiology-030",
+        "b-physiology-043",
+        "b-physiology-044",
+        "b-physiology-045",
+        "b-physiology-058",
+        "b-physiology-059",
+        "b-physiology-060",
+        "b-physiology-073",
+        "b-physiology-074",
+        "b-physiology-075",
+        "b-physiology-088",
+        "b-physiology-089",
+        "b-physiology-090",
+        "b-physiology-103",
+        "b-physiology-104",
+        "b-physiology-105",
+        "b-physiology-118",
+        "b-physiology-119",
+        "b-physiology-120",
+        "b-physiology-133",
+        "b-physiology-134",
+        "b-physiology-135",
+        "b-physiology-148",
+        "b-physiology-149",
+        "b-physiology-150"
+      ],
+      "replacementCount": 30,
+      "newSubtopics": {
+        "Gastrointestinal physiology": [
+          "b-physiology-013",
+          "b-physiology-014",
+          "b-physiology-015",
+          "b-physiology-028",
+          "b-physiology-029",
+          "b-physiology-030",
+          "b-physiology-043",
+          "b-physiology-044",
+          "b-physiology-045",
+          "b-physiology-058"
+        ],
+        "Reproductive physiology": [
+          "b-physiology-059",
+          "b-physiology-060",
+          "b-physiology-073",
+          "b-physiology-074",
+          "b-physiology-075",
+          "b-physiology-088",
+          "b-physiology-089",
+          "b-physiology-090",
+          "b-physiology-103",
+          "b-physiology-104"
+        ],
+        "Special-senses physiology": [
+          "b-physiology-105",
+          "b-physiology-118",
+          "b-physiology-119",
+          "b-physiology-120",
+          "b-physiology-133",
+          "b-physiology-134",
+          "b-physiology-135",
+          "b-physiology-148",
+          "b-physiology-149",
+          "b-physiology-150"
+        ]
+      }
+    },
+    "exercise": {
+      "file": "question_bank/section_b_exercise_therapy_rehabilitation.json",
+      "replacementIds": [
+        "b-exercise-012",
+        "b-exercise-025",
+        "b-exercise-038",
+        "b-exercise-051",
+        "b-exercise-064",
+        "b-exercise-076",
+        "b-exercise-088",
+        "b-exercise-100",
+        "b-exercise-113",
+        "b-exercise-126"
+      ],
+      "replacementCount": 10,
+      "newSubtopics": {
+        "Yoga basics": [
+          "b-exercise-012",
+          "b-exercise-025",
+          "b-exercise-038",
+          "b-exercise-051",
+          "b-exercise-064",
+          "b-exercise-076",
+          "b-exercise-088",
+          "b-exercise-100",
+          "b-exercise-113",
+          "b-exercise-126"
+        ]
+      }
+    },
+    "sportsphysio": {
+      "file": "question_bank/section_b_sports_physiotherapy_emergencies_travel.json",
+      "replacementIds": [
+        "b-sportsphysio-012",
+        "b-sportsphysio-025",
+        "b-sportsphysio-038",
+        "b-sportsphysio-051",
+        "b-sportsphysio-063",
+        "b-sportsphysio-076",
+        "b-sportsphysio-089",
+        "b-sportsphysio-101",
+        "b-sportsphysio-113",
+        "b-sportsphysio-126"
+      ],
+      "replacementCount": 10,
+      "newSubtopics": {
+        "Body-composition assessment and anthropometry": [
+          "b-sportsphysio-012",
+          "b-sportsphysio-025",
+          "b-sportsphysio-038",
+          "b-sportsphysio-051",
+          "b-sportsphysio-063",
+          "b-sportsphysio-076",
+          "b-sportsphysio-089",
+          "b-sportsphysio-101",
+          "b-sportsphysio-113",
+          "b-sportsphysio-126"
+        ]
+      }
+    }
+  },
+  "syllabusCoverage": {
+    "Gastrointestinal physiology": {
+      "officialSyllabusArea": "Human Physiology — gastrointestinal system",
+      "questionCount": 10,
+      "questionIds": [
+        "b-physiology-013",
+        "b-physiology-014",
+        "b-physiology-015",
+        "b-physiology-028",
+        "b-physiology-029",
+        "b-physiology-030",
+        "b-physiology-043",
+        "b-physiology-044",
+        "b-physiology-045",
+        "b-physiology-058"
+      ],
+      "sourceIds": [
+        "openstax-anatomy-physiology-2e",
+        "physiology-sport-exercise-kenney"
+      ],
+      "contentEvidence": "Digestion and absorption, bile and pancreatic secretions, gastrointestinal hormones, lipid transport, villi, peristalsis, gastrin and exercise-related splanchnic responses.",
+      "questions": [
+        {
+          "questionId": "b-physiology-013",
+          "text": "Which site is the principal location for digestion and absorption of most dietary nutrients?",
+          "correctOption": "Small intestine",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23 (The Digestive System), describes the small intestine as the major site of chemical digestion and nutrient absorption."
+        },
+        {
+          "questionId": "b-physiology-014",
+          "text": "Bile salts assist fat digestion primarily by:",
+          "correctOption": "Emulsifying lipids into smaller droplets",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, explains that bile salts emulsify fats, increasing the surface area available to lipase."
+        },
+        {
+          "questionId": "b-physiology-015",
+          "text": "When acidic chyme enters the duodenum, secretin primarily stimulates the pancreas to release:",
+          "correctOption": "Bicarbonate-rich pancreatic fluid",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, describes secretin release in response to duodenal acid and its stimulation of pancreatic bicarbonate secretion."
+        },
+        {
+          "questionId": "b-physiology-028",
+          "text": "Cholecystokinin released after a fatty meal helps digestion mainly by causing:",
+          "correctOption": "Gallbladder contraction and enzyme secretion",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, identifies cholecystokinin as a response to fats and proteins that promotes gallbladder contraction and pancreatic secretion."
+        },
+        {
+          "questionId": "b-physiology-029",
+          "text": "Most absorbed long-chain dietary lipids initially enter the circulation through the:",
+          "correctOption": "Lacteals of the intestinal villi",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, explains that larger lipid products are packaged into chylomicrons and enter intestinal lacteals before reaching the blood."
+        },
+        {
+          "questionId": "b-physiology-030",
+          "text": "Villi and microvilli increase intestinal absorption primarily by:",
+          "correctOption": "Increasing the epithelial surface area",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, describes villi and microvilli as adaptations that greatly increase the absorptive surface of the small intestine."
+        },
+        {
+          "questionId": "b-physiology-043",
+          "text": "Peristalsis is best described as:",
+          "correctOption": "Coordinated smooth-muscle waves that propel gastrointestinal contents",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, describes peristalsis as coordinated muscular contractions that move gastrointestinal contents along the tract."
+        },
+        {
+          "questionId": "b-physiology-044",
+          "text": "Gastrin primarily promotes which gastrointestinal response?",
+          "correctOption": "Gastric acid secretion and gastric motility",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, describes gastrin as a hormone that supports gastric secretion and motility."
+        },
+        {
+          "questionId": "b-physiology-045",
+          "text": "During prolonged exercise, reduced splanchnic blood flow can contribute to gastrointestinal symptoms because:",
+          "correctOption": "Blood is redirected away from the gut",
+          "sourceId": "physiology-sport-exercise-kenney",
+          "explanation": "Physiology of Sport and Exercise, Kenney, Wilmore and Costill, 5th edition, sections on exercise blood-flow redistribution and gastrointestinal responses, describes reduced gut perfusion and exercise stress as contributors to gastrointestinal symptoms."
+        },
+        {
+          "questionId": "b-physiology-058",
+          "text": "A person with impaired pancreatic bicarbonate secretion would have the greatest difficulty:",
+          "correctOption": "Neutralising duodenal acid",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 23, explains the role of pancreatic bicarbonate in neutralising acidic chyme in the duodenum."
+        }
+      ]
+    },
+    "Reproductive physiology": {
+      "officialSyllabusArea": "Human Physiology — reproductive systems",
+      "questionCount": 10,
+      "questionIds": [
+        "b-physiology-059",
+        "b-physiology-060",
+        "b-physiology-073",
+        "b-physiology-074",
+        "b-physiology-075",
+        "b-physiology-088",
+        "b-physiology-089",
+        "b-physiology-090",
+        "b-physiology-103",
+        "b-physiology-104"
+      ],
+      "sourceIds": [
+        "openstax-anatomy-physiology-2e",
+        "ioc-reds-2023"
+      ],
+      "contentEvidence": "Hypothalamic-pituitary-gonadal signalling, Leydig and Sertoli cell function, ovulation, corpus luteum, progesterone, inhibin, follicular oestrogen and low-energy-availability effects.",
+      "questions": [
+        {
+          "questionId": "b-physiology-059",
+          "text": "Which hypothalamic hormone initiates reproductive-axis signalling by stimulating pituitary gonadotropin release?",
+          "correctOption": "Gonadotropin-releasing hormone",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27 (The Reproductive System), describes hypothalamic gonadotropin-releasing hormone as the signal that regulates pituitary FSH and LH secretion."
+        },
+        {
+          "questionId": "b-physiology-060",
+          "text": "Luteinising hormone acts on Leydig cells primarily to stimulate:",
+          "correctOption": "Testosterone secretion",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, explains that LH stimulates testosterone production by the interstitial (Leydig) cells of the testes."
+        },
+        {
+          "questionId": "b-physiology-073",
+          "text": "Follicle-stimulating hormone supports male reproductive function mainly by acting on:",
+          "correctOption": "Sertoli cells and spermatogenic support",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, describes FSH action on Sertoli cells and its role in supporting spermatogenesis."
+        },
+        {
+          "questionId": "b-physiology-074",
+          "text": "The mid-cycle surge of which hormone triggers ovulation?",
+          "correctOption": "Luteinising hormone",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, identifies the mid-cycle LH surge as the endocrine trigger for ovulation."
+        },
+        {
+          "questionId": "b-physiology-075",
+          "text": "After ovulation, the corpus luteum primarily secretes:",
+          "correctOption": "Progesterone",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, describes the corpus luteum as a source of progesterone during the luteal phase."
+        },
+        {
+          "questionId": "b-physiology-088",
+          "text": "Progesterone during the luteal phase helps to:",
+          "correctOption": "Maintain a secretory endometrium for implantation",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, explains progesterone effects on the endometrium during the luteal phase and preparation for implantation."
+        },
+        {
+          "questionId": "b-physiology-089",
+          "text": "Inhibin provides negative feedback on pituitary secretion mainly by reducing:",
+          "correctOption": "Follicle-stimulating hormone",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, describes inhibin feedback as selectively reducing FSH secretion."
+        },
+        {
+          "questionId": "b-physiology-090",
+          "text": "During the follicular phase, rising oestrogen from developing ovarian follicles helps to:",
+          "correctOption": "Promote proliferative growth of the endometrium",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, describes follicular oestrogen production and its proliferative effects on the uterine lining."
+        },
+        {
+          "questionId": "b-physiology-103",
+          "text": "Which event is most directly associated with the follicular phase of the ovarian cycle?",
+          "correctOption": "Development and maturation of an ovarian follicle",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 27, describes follicular development as the defining ovarian event of the follicular phase."
+        },
+        {
+          "questionId": "b-physiology-104",
+          "text": "Low energy availability in an athlete can impair reproductive function partly by reducing:",
+          "correctOption": "Hypothalamic GnRH pulsatility",
+          "sourceId": "ioc-reds-2023",
+          "explanation": "IOC consensus statement on Relative Energy Deficiency in Sport: 2023 update, reproductive-health sections, describes low energy availability as capable of disrupting hypothalamic reproductive signalling and menstrual function."
+        }
+      ]
+    },
+    "Special-senses physiology": {
+      "officialSyllabusArea": "Human Physiology — special senses",
+      "questionCount": 10,
+      "questionIds": [
+        "b-physiology-105",
+        "b-physiology-118",
+        "b-physiology-119",
+        "b-physiology-120",
+        "b-physiology-133",
+        "b-physiology-134",
+        "b-physiology-135",
+        "b-physiology-148",
+        "b-physiology-149",
+        "b-physiology-150"
+      ],
+      "sourceIds": [
+        "openstax-anatomy-physiology-2e"
+      ],
+      "contentEvidence": "Rods, semicircular canals, organ of Corti, fovea, vestibulo-ocular reflex, accommodation, optic-chiasm fibre crossing, phototransduction, otolith organs and middle-ear ossicles.",
+      "questions": [
+        {
+          "questionId": "b-physiology-105",
+          "text": "Which retinal photoreceptors are most important for vision in dim light?",
+          "correctOption": "Rods",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17 (The Special Senses), describes rods as highly sensitive photoreceptors used especially in low-light vision."
+        },
+        {
+          "questionId": "b-physiology-118",
+          "text": "The semicircular canals primarily detect:",
+          "correctOption": "Angular or rotational acceleration of the head",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes the semicircular canals as receptors for rotational movement and angular acceleration."
+        },
+        {
+          "questionId": "b-physiology-119",
+          "text": "The organ of Corti is located in the:",
+          "correctOption": "Cochlea",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, locates the organ of Corti in the cochlea, where auditory transduction occurs."
+        },
+        {
+          "questionId": "b-physiology-120",
+          "text": "The fovea centralis provides the highest visual acuity because it contains a high concentration of:",
+          "correctOption": "Cones in the fovea",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes the fovea as the retinal region with the greatest cone density and visual acuity."
+        },
+        {
+          "questionId": "b-physiology-133",
+          "text": "The vestibulo-ocular reflex helps an athlete maintain a stable visual target when the head:",
+          "correctOption": "Rotates or accelerates",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, explains vestibular contributions to reflex eye movements that stabilise gaze during head movement."
+        },
+        {
+          "questionId": "b-physiology-134",
+          "text": "For a near object, accommodation of the eye requires the lens to become:",
+          "correctOption": "Becomes rounder as ciliary tension falls",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes near accommodation as ciliary-muscle contraction that allows the lens to become more rounded."
+        },
+        {
+          "questionId": "b-physiology-135",
+          "text": "At the optic chiasm, which fibres cross to the opposite side?",
+          "correctOption": "Nasal retinal fibres from each eye",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes crossing of nasal retinal fibres at the optic chiasm."
+        },
+        {
+          "questionId": "b-physiology-148",
+          "text": "In phototransduction, light exposure normally causes a photoreceptor membrane to:",
+          "correctOption": "Hyperpolarise as cyclic-GMP-gated channels close",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, explains that light reduces cyclic GMP, closes cation channels and hyperpolarises photoreceptors."
+        },
+        {
+          "questionId": "b-physiology-149",
+          "text": "The utricle and saccule are most involved in sensing:",
+          "correctOption": "Linear acceleration and head position",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes the utricle and saccule as otolith organs that detect linear acceleration and head position."
+        },
+        {
+          "questionId": "b-physiology-150",
+          "text": "The middle-ear ossicles primarily function to:",
+          "correctOption": "Transmit and amplify sound vibrations",
+          "sourceId": "openstax-anatomy-physiology-2e",
+          "explanation": "OpenStax, Anatomy and Physiology 2e, Chapter 17, describes the malleus, incus and stapes as transmitting and amplifying tympanic-membrane vibrations to the inner ear."
+        }
+      ]
+    },
+    "Yoga basics": {
+      "officialSyllabusArea": "Exercise Therapy and Rehabilitation — massage therapy and yoga basics",
+      "questionCount": 10,
+      "questionIds": [
+        "b-exercise-012",
+        "b-exercise-025",
+        "b-exercise-038",
+        "b-exercise-051",
+        "b-exercise-064",
+        "b-exercise-076",
+        "b-exercise-088",
+        "b-exercise-100",
+        "b-exercise-113",
+        "b-exercise-126"
+      ],
+      "sourceIds": [
+        "nccih-yoga-safety",
+        "yoga-athletes-review-2025"
+      ],
+      "contentEvidence": "Asana, pranayama, mind-body practice, safe instruction, non-forceful progression, symptom monitoring, balance, adjunctive use and controlled breathing.",
+      "questions": [
+        {
+          "questionId": "b-exercise-012",
+          "text": "In basic yoga terminology, an asana is a:",
+          "correctOption": "A physical yoga posture",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, “What is yoga,” identifies asana as the physical-posture component of yoga practice."
+        },
+        {
+          "questionId": "b-exercise-025",
+          "text": "Pranayama refers most directly to the practice of:",
+          "correctOption": "Controlled breathing",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, “What is yoga,” identifies pranayama as breathing practices used within yoga."
+        },
+        {
+          "questionId": "b-exercise-038",
+          "text": "Which introductory yoga instruction is most consistent with safe practice?",
+          "correctOption": "Progress gradually without painful forcing",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, “What are the risks,” recommends qualified instruction and cautions against forceful or extreme practice."
+        },
+        {
+          "questionId": "b-exercise-051",
+          "text": "An athlete with acute knee pain feels discomfort in a deep yoga squat. The most appropriate response is to:",
+          "correctOption": "Modify or stop the posture and reassess the knee",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, advises adapting practice and avoiding forceful techniques; a painful posture should be modified and clinically reassessed."
+        },
+        {
+          "questionId": "b-exercise-064",
+          "text": "A yoga session that combines postures with deliberate breathing and attention is best described as:",
+          "correctOption": "A mind–body exercise practice",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, describes yoga as a practice combining physical postures, breathing techniques and meditation or attention."
+        },
+        {
+          "questionId": "b-exercise-076",
+          "text": "For an athlete using yoga to supplement rehabilitation, the safest progression is generally to:",
+          "correctOption": "Progress gradually while monitoring symptoms",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, supports safe instruction and avoidance of extreme techniques; progression should therefore be gradual and symptom-aware."
+        },
+        {
+          "questionId": "b-exercise-088",
+          "text": "Which outcome is most plausibly targeted by a controlled yoga balance posture?",
+          "correctOption": "Improved balance and postural control",
+          "sourceId": "yoga-athletes-review-2025",
+          "explanation": "Effect of yoga on selected performance metrics and mental health of track and field athletes: A systematic review, Singh et al., 2025, reports balance and flexibility as performance-related outcomes studied in yoga interventions."
+        },
+        {
+          "questionId": "b-exercise-100",
+          "text": "An athlete reports that a yoga session produces a mild, short-lived stretch sensation without worsening symptoms the next day. The best interpretation is:",
+          "correctOption": "No further assessment is needed",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, supports safe practice within individual tolerance; a favourable response does not remove the need for graded monitoring."
+        },
+        {
+          "questionId": "b-exercise-113",
+          "text": "Which statement about yoga and sports performance is most defensible?",
+          "correctOption": "Yoga may help as an adjunct; effects vary",
+          "sourceId": "yoga-athletes-review-2025",
+          "explanation": "Effect of yoga on selected performance metrics and mental health of track and field athletes: A systematic review, Singh et al., 2025, supports cautious interpretation of yoga as an adjunct rather than a universal replacement or guarantee."
+        },
+        {
+          "questionId": "b-exercise-126",
+          "text": "During a basic yoga session, diaphragmatic breathing is most appropriately used to:",
+          "correctOption": "Support controlled, non-forceful movement",
+          "sourceId": "nccih-yoga-safety",
+          "explanation": "NCCIH, Yoga: Effectiveness and Safety, describes breathing practice as a component of yoga and recommends safe, non-forceful participation; breathing should support controlled movement rather than strain."
+        }
+      ]
+    },
+    "Body-composition assessment and anthropometry": {
+      "officialSyllabusArea": "Sports Physiotherapy — body composition assessment",
+      "questionCount": 10,
+      "questionIds": [
+        "b-sportsphysio-012",
+        "b-sportsphysio-025",
+        "b-sportsphysio-038",
+        "b-sportsphysio-051",
+        "b-sportsphysio-063",
+        "b-sportsphysio-076",
+        "b-sportsphysio-089",
+        "b-sportsphysio-101",
+        "b-sportsphysio-113",
+        "b-sportsphysio-126"
+      ],
+      "sourceIds": [
+        "acsm-getp-12"
+      ],
+      "contentEvidence": "BMI formula and calculation, BMI limitations, skinfolds, standardisation, waist circumference, body-mass interpretation, hydration effects, measurement error and contextual interpretation.",
+      "questions": [
+        {
+          "questionId": "b-sportsphysio-012",
+          "text": "Body mass index is calculated as:",
+          "correctOption": "Body mass in kilograms divided by height in metres squared",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, defines BMI as body mass in kilograms divided by height in metres squared."
+        },
+        {
+          "questionId": "b-sportsphysio-025",
+          "text": "An athlete weighs 81 kg and is 1.80 m tall. The approximate BMI is:",
+          "correctOption": "25.0 kg/m²",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, supports the BMI calculation: 81 ÷ 1.80² is approximately 25.0 kg/m²."
+        },
+        {
+          "questionId": "b-sportsphysio-038",
+          "text": "A major limitation of BMI when used with a muscular athlete is that it:",
+          "correctOption": "Cannot distinguish fat mass from lean mass",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, cautions that BMI does not distinguish fat mass from fat-free mass."
+        },
+        {
+          "questionId": "b-sportsphysio-051",
+          "text": "Skinfold assessment primarily measures:",
+          "correctOption": "Subcutaneous fat thickness",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, describes skinfolds as measures of subcutaneous fat used in prediction equations for body composition."
+        },
+        {
+          "questionId": "b-sportsphysio-063",
+          "text": "For repeated skinfold measurements to be more interpretable, the assessor should:",
+          "correctOption": "Use a consistent protocol, sites and trained technique",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, emphasises standardised sites, technique and assessor procedures for reliable repeated measures."
+        },
+        {
+          "questionId": "b-sportsphysio-076",
+          "text": "Which measurement is a direct anthropometric circumference measure commonly used in body-composition interpretation?",
+          "correctOption": "Waist circumference",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, includes circumference measures such as waist circumference within anthropometric assessment."
+        },
+        {
+          "questionId": "b-sportsphysio-089",
+          "text": "An athlete loses 2 kg over a training block. Which conclusion is most defensible without further assessment?",
+          "correctOption": "The change may include fluid and tissue",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, supports interpreting body-mass change with additional measures because mass alone cannot identify the tissues or fluid responsible."
+        },
+        {
+          "questionId": "b-sportsphysio-101",
+          "text": "A dehydrated athlete shows a lower body mass before testing. The body-composition result should be interpreted with caution because:",
+          "correctOption": "Hydration can alter mass and estimates",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, supports standardised testing and cautions that hydration status affects body-mass interpretation and some methods."
+        },
+        {
+          "questionId": "b-sportsphysio-113",
+          "text": "A small change in a skinfold measurement that is within the method’s expected measurement error should be:",
+          "correctOption": "Interpret it cautiously as possible change",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, supports considering measurement error and standardisation before interpreting small changes in skinfold-derived estimates."
+        },
+        {
+          "questionId": "b-sportsphysio-126",
+          "text": "A BMI of 27 kg/m² in an adult athlete should initially be regarded as:",
+          "correctOption": "A screening value that needs context",
+          "sourceId": "acsm-getp-12",
+          "explanation": "ACSM’s Guidelines for Exercise Testing and Prescription, 12th edition, body-composition assessment chapter, uses BMI as a screening measure and notes that interpretation requires context, especially in muscular athletes."
+        }
+      ]
+    }
+  },
+  "structuralChecks": {
+    "fileCounts": {
+      "question_bank/section_b_human_exercise_physiology.json": 150,
+      "question_bank/section_b_exercise_therapy_rehabilitation.json": 150,
+      "question_bank/section_b_sports_physiotherapy_emergencies_travel.json": 150
+    },
+    "requiredCountPerFile": 150,
+    "allFilesExactly150": true,
+    "totalQuestionsAcrossFiles": 450,
+    "modifiedRecordCount": 50,
+    "targetSubtopicCounts": {
+      "Gastrointestinal physiology": 10,
+      "Reproductive physiology": 10,
+      "Special-senses physiology": 10,
+      "Yoga basics": 10,
+      "Body-composition assessment and anthropometry": 10
+    },
+    "requiredCoverageCountPerTarget": 10,
+    "allTargetSubtopicsHaveTen": true,
+    "schemaErrors": [],
+    "allSchemaChecksPass": true,
+    "allSourceIdsResolve": true,
+    "allFourOptionsUnique": true,
+    "allCorrectIndicesValid": true,
+    "duplicateIds": [],
+    "duplicateStems": [],
+    "answerCountsByFile": {
+      "question_bank/section_b_human_exercise_physiology.json": [
+        40,
+        35,
+        38,
+        37
+      ],
+      "question_bank/section_b_exercise_therapy_rehabilitation.json": [
+        38,
+        37,
+        38,
+        37
+      ],
+      "question_bank/section_b_sports_physiotherapy_emergencies_travel.json": [
+        37,
+        39,
+        37,
+        37
+      ]
+    },
+    "newQuestionAnswerIndexCounts": [
+      12,
+      13,
+      13,
+      12
+    ],
+    "citationChecks": {
+      "checkedQuestions": 50,
+      "failures": [],
+      "allExplanationsIdentifyCitedSource": true
+    },
+    "optionLengthReview": {
+      "checkedQuestions": 450,
+      "strictLongestCorrect": 78,
+      "strictShortestCorrect": 146,
+      "maximumSpread": 40,
+      "setsOver15Characters": 67
+    },
+    "writeScopeChecks": {
+      "onlyThreeQuestionFilesRemediated": true,
+      "onlyOneAuditJsonWritten": true
+    }
+  },
+  "notes": [
+    "Stable existing IDs were replaced in place; no file grew beyond 150 records.",
+    "Every new question has one primary sourceId from the existing source catalog, and its explanation names or identifies that source.",
+    "The merged Section B file was intentionally not regenerated because the requested write scope excluded it."
+  ]
+}
