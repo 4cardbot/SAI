@@ -5,10 +5,10 @@ export const A2_PRACTICE_DURATION_MS = 48 * 60 * 1000;
 export const NEGATIVE_MARK = 0.25;
 /** Question counts used by section-specific practice cards. */
 export const SECTION_COUNTS: Record<Section, number> = {
-  A1: 32,
+  A1: 100,
   A2: 40,
-  B: 40,
-  C: 20,
+  B: 100,
+  C: 100,
 };
 /** Official full-CBT composition from the SAI notification. */
 export const EXAM_SECTION_COUNTS: Record<Section, number> = {

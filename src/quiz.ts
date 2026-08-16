@@ -10,7 +10,7 @@ function chooseQuestions(pool: Question[], count: number, seed: number, section:
   return rotatedSlice(ordered, count, start);
 }
 
-function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
+function chooseCaseQuestions(pool: Question[], seed: number, target: number): Question[] {
   const byPassage = new Map<string, Question[]>();
   pool.forEach((question) => {
     if (!question.passageId) return;
@@ -20,7 +20,6 @@ function chooseCaseQuestions(pool: Question[], seed: number): Question[] {
   });
   const passages = shuffle([...byPassage.keys()], hashSeed(`${seed}:C:passages`));
   const selected: Question[] = [];
-  const target = EXAM_SECTION_COUNTS.C;
   const start = hashSeed(`${seed}:C:start`) % passages.length;
   const orderedPassages = rotatedSlice(passages, passages.length, start);
 
@@ -45,7 +44,7 @@ export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), 
         ? EXAM_SECTION_COUNTS[section]
         : SECTION_COUNTS[section];
     const sectionQuestions = section === "C"
-      ? chooseCaseQuestions(pool, seed)
+      ? chooseCaseQuestions(pool, seed, selectedCount)
       : chooseQuestions(pool, selectedCount, seed, section);
     selected.push(...sectionQuestions);
   });

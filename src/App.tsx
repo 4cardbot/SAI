@@ -39,7 +39,6 @@ function displayedOptionLabel(item: { optionOrder: number[] }, optionIndex: numb
 }
 
 const BANK_OPTIONS: Array<{ mode: AttemptMode; badge: string; badgeClass: string; title: string; count: number; description: string }> = [
-  { mode: "A1", badge: "A1", badgeClass: "a1", title: "Basic sports science", count: SECTION_COUNTS.A1, description: "Strength, physiology, nutrition, psychology and performance analysis." },
   { mode: "A1_FULL", badge: "A1 · 100", badgeClass: "a1", title: "A1-only full test", count: A1_FULL_COUNT, description: "100 questions drawn only from the 900-question A1 bank." },
   { mode: "A2", badge: "A2", badgeClass: "a2", title: "Sports awareness", count: SECTION_COUNTS.A2, description: "Indian sports governance, anti-doping and major sporting events." },
   { mode: "B", badge: "B", badgeClass: "b", title: "Applied Physiotherapy", count: SECTION_COUNTS.B, description: "Assessment, rehabilitation, electrotherapy and sports physiotherapy." },
