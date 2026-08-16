@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { QUESTION_BANK } from "./data/questionBank";
-import { completedCount, createAttempt, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning } from "./quiz";
-import { A1_FULL_COUNT, A2_PRACTICE_DURATION_MS, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
+import { completedCount, createAttempt, filterQuestions, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning, subtopicsForSelection, topicsForSection } from "./quiz";
+import { A1_FULL_COUNT, A2_PRACTICE_DURATION_MS, durationForQuestionCount, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 
 const byId = new Map(QUESTION_BANK.map((question) => [question.id, question]));
 
@@ -50,6 +50,27 @@ describe("quiz engine", () => {
     const savedAttempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "A1_FULL");
     expect(savedAttempt.mode).toBe("A1_FULL");
     expect(savedAttempt.questions).toHaveLength(A1_FULL_COUNT);
+  });
+
+  it("includes every question matching a section, topic and optional subtopic", () => {
+    const first = QUESTION_BANK.find((question) => question.section === "A1")!;
+    const topicSelection = { section: first.section, topic: first.topic } as const;
+    const topicQuestions = filterQuestions(QUESTION_BANK, topicSelection);
+    const topicAttempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", topicSelection);
+
+    expect(topicsForSection(QUESTION_BANK, first.section)).toContain(first.topic);
+    expect(topicAttempt.questions).toHaveLength(topicQuestions.length);
+    expect(new Set(topicAttempt.questions.map((item) => item.questionId))).toEqual(new Set(topicQuestions.map((question) => question.id)));
+    expect(topicAttempt.remainingMs).toBe(durationForQuestionCount(topicQuestions.length));
+    expect(topicAttempt.totalDurationMs).toBe(durationForQuestionCount(topicQuestions.length));
+
+    const subtopic = subtopicsForSelection(QUESTION_BANK, topicSelection)[0];
+    const subtopicSelection = { ...topicSelection, subtopic };
+    const subtopicQuestions = filterQuestions(QUESTION_BANK, subtopicSelection);
+    const subtopicAttempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", subtopicSelection);
+    expect(subtopicAttempt.questions).toHaveLength(subtopicQuestions.length);
+    expect(subtopicAttempt.questions.every((item) => byId.get(item.questionId)?.subtopic === subtopic)).toBe(true);
+    expect(subtopicAttempt.remainingMs).toBe(durationForQuestionCount(subtopicQuestions.length));
   });
 
   it("gives new attempts different question selections when their seeds differ", () => {

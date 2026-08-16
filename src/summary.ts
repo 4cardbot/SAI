@@ -15,7 +15,14 @@ function displayLabel(item: ResultItem, optionIndex: number | undefined): string
 function modeLabel(mode: TestResult["mode"]): string {
   if (!mode || mode === "full") return "Full CBT simulation";
   if (mode === "A1_FULL") return "A1-only 100-question test";
+  if (mode === "filtered") return "Focused question test";
   return `${mode} section practice`;
+}
+
+function selectionLabel(result: TestResult): string {
+  if (result.mode !== "filtered" || !result.selection) return modeLabel(result.mode);
+  const subtopic = result.selection.subtopic ? ` · ${result.selection.subtopic}` : "";
+  return `${result.selection.section} · ${result.selection.topic}${subtopic}`;
 }
 
 function itemHtml(item: ResultItem): string {
@@ -28,7 +35,7 @@ function itemHtml(item: ResultItem): string {
 export function buildSummaryHtml(result: TestResult): string {
   const details = result.items.filter((item) => item.status !== "correct").map(itemHtml).join("\n");
   const sections = Object.entries(result.sectionScores).map(([section, score]) => `<tr><td>${section}</td><td>${score.correct}</td><td>${score.wrong}</td><td>${score.skipped}</td><td>${score.score.toFixed(2)}</td></tr>`).join("");
-  const testModeLabel = modeLabel(result.mode);
+  const testModeLabel = selectionLabel(result);
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>SAI Performance Analyst Practice Summary</title><style>body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;color:#102a43;line-height:1.55}h1{margin-bottom:4px}.muted{color:#52606d}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:24px 0}.stat{padding:14px;background:#f0f4f8;border-radius:10px}.stat strong{display:block;font-size:1.45rem}table{border-collapse:collapse;width:100%;margin:16px 0 30px}th,td{border:1px solid #bcccdc;padding:8px;text-align:left}.item{border:1px solid #d9e2ec;border-left:5px solid #d64545;padding:18px;margin:18px 0;border-radius:8px}.item.skipped{border-left-color:#d9822b}.passage{background:#f5f7fa;padding:12px;border-radius:8px}@media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}@media print{body{margin:0}.item{break-inside:avoid}}</style></head><body><h1>SAI Performance Analyst Practice Summary</h1><p class="muted">${escapeHtml(testModeLabel)} · Independent preparation tool · Submitted ${escapeHtml(new Date(result.submittedAt).toLocaleString())}</p><p>This summary includes only wrong and skipped questions, as requested. It is not an official Sports Authority of India document.</p><div class="stats"><div class="stat"><strong>${result.score.toFixed(2)} / ${result.total}</strong>Final score</div><div class="stat"><strong>${result.correctCount}</strong>Correct</div><div class="stat"><strong>${result.wrongCount}</strong>Wrong</div><div class="stat"><strong>${result.skippedCount}</strong>Skipped</div></div><h2>Section performance</h2><table><thead><tr><th>Section</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Score</th></tr></thead><tbody>${sections}</tbody></table><h2>Review items</h2>${details || "<p>No wrong or skipped questions.</p>"}</body></html>`;
 }
 

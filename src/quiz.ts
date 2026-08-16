@@ -1,6 +1,6 @@
-import { A1_FULL_COUNT, durationForMode, EXAM_SECTION_COUNTS, NEGATIVE_MARK, SECTION_COUNTS } from "./constants";
+import { A1_FULL_COUNT, durationForMode, durationForQuestionCount, EXAM_SECTION_COUNTS, NEGATIVE_MARK, SECTION_COUNTS } from "./constants";
 import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
-import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult } from "./types";
+import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult, TestSelection } from "./types";
 
 const SECTION_ORDER: Section[] = ["A1", "A2", "B", "C"];
 
@@ -33,7 +33,46 @@ function chooseCaseQuestions(pool: Question[], seed: number, target: number): Qu
   throw new Error(`Unable to select exactly ${target} case-study questions`);
 }
 
-export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), mode: AttemptMode = "full"): AttemptQuestion[] {
+export function filterQuestions(bank: Question[], selection: TestSelection): Question[] {
+  return bank.filter((question) => question.section === selection.section
+    && question.topic === selection.topic
+    && (!selection.subtopic || question.subtopic === selection.subtopic));
+}
+
+function uniqueSorted(values: string[]): string[] {
+  return [...new Set(values)].sort((first, second) => first.localeCompare(second));
+}
+
+export function topicsForSection(bank: Question[], section: Section): string[] {
+  return uniqueSorted(bank.filter((question) => question.section === section).map((question) => question.topic));
+}
+
+export function subtopicsForSelection(bank: Question[], selection: Pick<TestSelection, "section" | "topic">): string[] {
+  return uniqueSorted(bank
+    .filter((question) => question.section === selection.section && question.topic === selection.topic)
+    .map((question) => question.subtopic));
+}
+
+function generateFilteredAttemptQuestions(bank: Question[], seed: number, selection: TestSelection): AttemptQuestion[] {
+  const matchingQuestions = filterQuestions(bank, selection);
+  if (matchingQuestions.length === 0) {
+    throw new Error("The selected section, topic and subtopic contain no questions");
+  }
+  return shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`)).map((question) => ({
+    questionId: question.id,
+    optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
+  }));
+}
+
+function durationForAttempt(mode: AttemptMode, questionCount: number): number {
+  return mode === "filtered" ? durationForQuestionCount(questionCount) : durationForMode(mode);
+}
+
+export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), mode: AttemptMode = "full", selection?: TestSelection): AttemptQuestion[] {
+  if (mode === "filtered") {
+    if (!selection) throw new Error("A selection is required for a filtered test");
+    return generateFilteredAttemptQuestions(bank, seed, selection);
+  }
   const selected: Question[] = [];
   const sections: Section[] = mode === "full" ? SECTION_ORDER : [mode === "A1_FULL" ? "A1" : mode];
   sections.forEach((section) => {
@@ -54,8 +93,8 @@ export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), 
   }));
 }
 
-export function createAttempt(bank: Question[], now = new Date(), seed = randomSeed(), mode: AttemptMode = "full"): ActiveAttempt {
-  const questions = generateAttemptQuestions(bank, seed, mode);
+export function createAttempt(bank: Question[], now = new Date(), seed = randomSeed(), mode: AttemptMode = "full", selection?: TestSelection): ActiveAttempt {
+  const questions = generateAttemptQuestions(bank, seed, mode, selection);
   const responses: Record<string, Response> = {};
   questions.forEach(({ questionId }) => {
     responses[questionId] = { status: "unanswered" };
@@ -66,11 +105,13 @@ export function createAttempt(bank: Question[], now = new Date(), seed = randomS
     createdAt: now.toISOString(),
     updatedAt: now.toISOString(),
     status: "paused",
-    remainingMs: durationForMode(mode),
+    remainingMs: durationForAttempt(mode, questions.length),
     currentIndex: 0,
     questions,
     responses,
+    totalDurationMs: durationForAttempt(mode, questions.length),
     mode,
+    selection,
   };
 }
 
@@ -132,6 +173,7 @@ export function moveNext(attempt: ActiveAttempt): ActiveAttempt {
 }
 
 export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submittedAt = new Date()): TestResult {
+  const totalDurationMs = attempt.totalDurationMs ?? durationForAttempt(attempt.mode ?? "full", attempt.questions.length);
   const byId = new Map(bank.map((question) => [question.id, question]));
   const counts: Record<Section, { correct: number; wrong: number; skipped: number; score: number }> = {
     A1: { correct: 0, wrong: 0, skipped: 0, score: 0 },
@@ -172,7 +214,7 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
   return {
     version: 3,
     submittedAt: submittedAt.toISOString(),
-    durationMs: Math.max(0, durationForMode(attempt.mode ?? "full") - attempt.remainingMs),
+    durationMs: Math.max(0, totalDurationMs - attempt.remainingMs),
     total: attempt.questions.length,
     correctCount,
     wrongCount,
@@ -183,5 +225,6 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
     sectionScores: counts,
     items,
     mode: attempt.mode ?? "full",
+    selection: attempt.selection,
   };
 }

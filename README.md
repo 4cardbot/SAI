@@ -8,6 +8,7 @@ An independent, English-only Physiotherapy Performance Analyst preparation app a
 - Section B: 40 applied Physiotherapy questions in the official CBT; 100-question B-only practice sets.
 - Section C: 20 analytical questions in the official CBT; 100-question C-only practice sets selected from complete passage-based case-study groups.
 - Correct: +1, wrong: −0.25, skipped: 0.
+- Focused tests can be created by selecting a section, topic and optional subtopic. Every matching question is included and receives 72 seconds of prorated time.
 
 ## Run locally
 

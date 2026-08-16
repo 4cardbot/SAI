@@ -1,6 +1,7 @@
 import type { AttemptMode, Section } from "./types";
 
 export const TEST_DURATION_MS = 2 * 60 * 60 * 1000;
+export const STANDARD_QUESTION_DURATION_MS = TEST_DURATION_MS / 100;
 export const A2_PRACTICE_DURATION_MS = 48 * 60 * 1000;
 export const NEGATIVE_MARK = 0.25;
 /** Question counts used by section-specific practice cards. */
@@ -30,4 +31,8 @@ export const A2_COVERAGE_DATE = "2026-08-16";
 
 export function durationForMode(mode: AttemptMode = "full"): number {
   return mode === "A2" ? A2_PRACTICE_DURATION_MS : TEST_DURATION_MS;
+}
+
+export function durationForQuestionCount(questionCount: number): number {
+  return Math.max(0, Math.round(questionCount * STANDARD_QUESTION_DURATION_MS));
 }

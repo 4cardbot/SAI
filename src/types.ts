@@ -1,7 +1,13 @@
 export type Section = "A1" | "A2" | "B" | "C";
-export type AttemptMode = "full" | "A1_FULL" | Section;
+export type AttemptMode = "full" | "A1_FULL" | "filtered" | Section;
 export type Difficulty = "foundational" | "applied" | "analytical";
 export type ResponseStatus = "unanswered" | "answered" | "skipped";
+
+export interface TestSelection {
+  section: Section;
+  topic: string;
+  subtopic?: string;
+}
 
 export interface Question {
   id: string;
@@ -40,7 +46,9 @@ export interface ActiveAttempt {
   currentIndex: number;
   questions: AttemptQuestion[];
   responses: Record<string, Response>;
+  totalDurationMs?: number;
   mode?: AttemptMode;
+  selection?: TestSelection;
 }
 
 export interface ResultItem {
@@ -72,6 +80,7 @@ export interface TestResult {
   sectionScores: Record<Section, { correct: number; wrong: number; skipped: number; score: number }>;
   items: ResultItem[];
   mode?: AttemptMode;
+  selection?: TestSelection;
 }
 
 export interface PersistedState {
