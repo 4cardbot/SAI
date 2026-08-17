@@ -72,6 +72,23 @@ describe("quiz engine", () => {
     expect(subtopicAttempt.remainingMs).toBe(durationForQuestionCount(subtopicQuestions.length));
   });
 
+  it("builds a 100-question random test when only a section is selected", () => {
+    const sectionOnly = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { section: "B" });
+    expect(sectionOnly.questions).toHaveLength(100);
+    expect(sectionOnly.questions.every((item) => byId.get(item.questionId)?.section === "B")).toBe(true);
+    expect(sectionOnly.remainingMs).toBe(durationForQuestionCount(100));
+
+    const sectionC = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { section: "C" });
+    expect(sectionC.questions).toHaveLength(100);
+    const passageCounts = new Map<string, number>();
+    sectionC.questions.forEach((item) => {
+      const passageId = byId.get(item.questionId)?.passageId!;
+      passageCounts.set(passageId, (passageCounts.get(passageId) ?? 0) + 1);
+    });
+    expect(passageCounts.size).toBe(25);
+    expect([...passageCounts.values()].every((count) => count === 4)).toBe(true);
+  });
+
   it("filters Section C by theme only and preserves complete four-question cases", () => {
     const topic = topicsForSection(QUESTION_BANK, "C")[0];
     const matching = filterQuestions(QUESTION_BANK, { section: "C", topic });

@@ -5,7 +5,7 @@ export type ResponseStatus = "unanswered" | "answered" | "skipped";
 
 export interface TestSelection {
   section: Section;
-  topic: string;
+  topic?: string;
   subtopic?: string;
 }
 

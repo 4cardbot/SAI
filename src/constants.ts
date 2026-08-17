@@ -19,6 +19,8 @@ export const EXAM_SECTION_COUNTS: Record<Section, number> = {
   C: 20,
 };
 export const A1_FULL_COUNT = 100;
+/** Random practice count when the user selects a section without a topic. */
+export const SECTION_ONLY_COUNT = 100;
 export const SECTION_LABELS: Record<Section, string> = {
   A1: "Section A1 · Basic sports science",
   A2: "Section A2 · General sports awareness",

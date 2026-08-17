@@ -1,4 +1,4 @@
-import { A1_FULL_COUNT, durationForMode, durationForQuestionCount, EXAM_SECTION_COUNTS, NEGATIVE_MARK, SECTION_COUNTS } from "./constants";
+import { A1_FULL_COUNT, durationForMode, durationForQuestionCount, EXAM_SECTION_COUNTS, NEGATIVE_MARK, SECTION_COUNTS, SECTION_ONLY_COUNT } from "./constants";
 import { hashSeed, randomSeed, rotatedSlice, shuffle } from "./random";
 import type { ActiveAttempt, AttemptMode, AttemptQuestion, Question, Response, Section, TestResult, TestSelection } from "./types";
 
@@ -47,7 +47,7 @@ function shuffleCompleteCases(pool: Question[], seed: number): Question[] {
 
 export function filterQuestions(bank: Question[], selection: TestSelection): Question[] {
   return bank.filter((question) => question.section === selection.section
-    && question.topic === selection.topic
+    && (!selection.topic || question.topic === selection.topic)
     && (selection.section === "C" || !selection.subtopic || question.subtopic === selection.subtopic));
 }
 
@@ -71,9 +71,13 @@ function generateFilteredAttemptQuestions(bank: Question[], seed: number, select
   if (matchingQuestions.length === 0) {
     throw new Error("The selected section, topic and subtopic contain no questions");
   }
-  const orderedQuestions = selection.section === "C"
-    ? shuffleCompleteCases(matchingQuestions, seed)
-    : shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`));
+  const orderedQuestions = !selection.topic
+    ? selection.section === "C"
+      ? chooseCaseQuestions(matchingQuestions, seed, SECTION_ONLY_COUNT)
+      : chooseQuestions(matchingQuestions, SECTION_ONLY_COUNT, seed, selection.section)
+    : selection.section === "C"
+      ? shuffleCompleteCases(matchingQuestions, seed)
+      : shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`));
   return orderedQuestions.map((question) => ({
     questionId: question.id,
     optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
