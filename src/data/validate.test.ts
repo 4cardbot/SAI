@@ -7,8 +7,8 @@ describe("question bank validation", () => {
     const result = validateQuestionBank(QUESTION_BANK);
     expect(result.valid).toBe(true);
     expect(result.errors).toEqual([]);
-    expect(result.counts).toEqual({ A1: 900, A2: 200, B: 1350, C: 240 });
-    expect(result.passageCount).toBe(120);
+    expect(result.counts).toEqual({ A1: 900, A2: 200, B: 1350, C: 1000 });
+    expect(result.passageCount).toBe(250);
   });
 
   it("detects duplicate IDs, malformed options and missing explanations", () => {

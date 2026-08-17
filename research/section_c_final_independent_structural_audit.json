@@ -1,0 +1,1660 @@
+{
+  "generatedAt": "2026-08-17",
+  "auditType": "independent read-only Section C structural/provenance/case audit after repair",
+  "status": "certified_with_review_flags",
+  "scope": {
+    "durableFiles": [
+      "question_bank/section_c_lower_extremity.json",
+      "question_bank/section_c_upper_extremity.json",
+      "question_bank/section_c_spine_pelvis.json",
+      "question_bank/section_c_on_field_emergency_triage.json",
+      "question_bank/section_c_return_to_play.json"
+    ],
+    "mergedFile": "question_bank/section_c.json",
+    "manifest": "research/section_c_coverage_manifest.json",
+    "filesWrittenByAudit": [
+      "research/section_c_final_independent_structural_audit.json"
+    ],
+    "filesNotModified": [
+      "question banks",
+      "sourceCatalog",
+      "app code",
+      "scripts",
+      "other audit reports"
+    ]
+  },
+  "blockers": [],
+  "reviewFlags": [
+    "Lower Extremity Scenarios option spread >15 in 160/200",
+    "Lower Extremity Scenarios correct option >=10 chars above distractor median in 36/200",
+    "Upper Extremity Scenarios strictly-longest correct options >=35% (135/200)",
+    "Upper Extremity Scenarios option spread >15 in 119/200",
+    "Upper Extremity Scenarios correct option >=10 chars above distractor median in 104/200",
+    "Spine & Pelvis Scenarios option spread >15 in 28/200",
+    "Spine & Pelvis Scenarios correct option >=10 chars above distractor median in 16/200",
+    "On-Field & Emergency Triage option spread >15 in 72/200",
+    "On-Field & Emergency Triage correct option >=10 chars above distractor median in 57/200",
+    "Return to Play (RTP) Frameworks option spread >15 in 91/200",
+    "Return to Play (RTP) Frameworks correct option >=10 chars above distractor median in 38/200",
+    "Normalized stems reused across different cases: 30",
+    "Merged option spread >15 in 470/1000",
+    "Merged correct option >=10 chars above distractor median in 251/1000"
+  ],
+  "counts": {
+    "durableQuestions": 1000,
+    "mergedQuestions": 1000,
+    "expectedQuestions": 1000,
+    "themes": 5,
+    "expectedThemes": 5,
+    "casesTotal": 250,
+    "expectedCasesTotal": 250,
+    "questionsPerCase": [
+      4
+    ],
+    "expectedQuestionsPerCase": 4,
+    "casesByTheme": {
+      "Lower Extremity Scenarios": 50,
+      "Upper Extremity Scenarios": 50,
+      "Spine & Pelvis Scenarios": 50,
+      "On-Field & Emergency Triage": 50,
+      "Return to Play (RTP) Frameworks": 50
+    },
+    "questionsByTheme": {
+      "Lower Extremity Scenarios": 200,
+      "Upper Extremity Scenarios": 200,
+      "Spine & Pelvis Scenarios": 200,
+      "On-Field & Emergency Triage": 200,
+      "Return to Play (RTP) Frameworks": 200
+    }
+  },
+  "caseContinuity": {
+    "perTheme": [
+      {
+        "topic": "Lower Extremity Scenarios",
+        "questionCount": 200,
+        "caseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "stableIds": true,
+        "sharedPassageText": true,
+        "duplicateStemsWithinCase": []
+      },
+      {
+        "topic": "Upper Extremity Scenarios",
+        "questionCount": 200,
+        "caseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "stableIds": true,
+        "sharedPassageText": true,
+        "duplicateStemsWithinCase": []
+      },
+      {
+        "topic": "Spine & Pelvis Scenarios",
+        "questionCount": 200,
+        "caseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "stableIds": true,
+        "sharedPassageText": true,
+        "duplicateStemsWithinCase": []
+      },
+      {
+        "topic": "On-Field & Emergency Triage",
+        "questionCount": 200,
+        "caseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "stableIds": true,
+        "sharedPassageText": true,
+        "duplicateStemsWithinCase": []
+      },
+      {
+        "topic": "Return to Play (RTP) Frameworks",
+        "questionCount": 200,
+        "caseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "stableIds": true,
+        "sharedPassageText": true,
+        "duplicateStemsWithinCase": []
+      }
+    ],
+    "mergedExactDurableConcatenation": true,
+    "duplicateQuestionIds": [],
+    "crossCaseNormalizedStemDuplicates": 30
+  },
+  "exactTopics": {
+    "expected": [
+      "Lower Extremity Scenarios",
+      "Upper Extremity Scenarios",
+      "Spine & Pelvis Scenarios",
+      "On-Field & Emergency Triage",
+      "Return to Play (RTP) Frameworks"
+    ],
+    "actual": [
+      "Lower Extremity Scenarios",
+      "Upper Extremity Scenarios",
+      "Spine & Pelvis Scenarios",
+      "On-Field & Emergency Triage",
+      "Return to Play (RTP) Frameworks"
+    ],
+    "dropdownTopics": [
+      "Lower Extremity Scenarios",
+      "On-Field & Emergency Triage",
+      "Return to Play (RTP) Frameworks",
+      "Spine & Pelvis Scenarios",
+      "Upper Extremity Scenarios"
+    ]
+  },
+  "groupReports": [
+    {
+      "topic": "Lower Extremity Scenarios",
+      "file": "question_bank/section_c_lower_extremity.json",
+      "questionCount": 200,
+      "caseCount": 50,
+      "questionsPerCase": [
+        4
+      ],
+      "subtopics": {
+        "Groin pain in athletes (Doha taxonomy)": 80,
+        "ACL/meniscal tears": 24,
+        "Hamstring strains": 16,
+        "PFPS and patellar tendinopathy": 16,
+        "Ankle sprains": 16,
+        "Achilles injury": 12,
+        "MTSS and tibial stress fractures": 12,
+        "Osgood-Schlatter disease and adolescent apophysitis": 12,
+        "Sever’s disease and calcaneal apophysitis": 12
+      },
+      "sources": {},
+      "difficulty": {
+        "foundational": 0,
+        "applied": 80,
+        "analytical": 120
+      },
+      "answerIndices": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 4,
+        "strictShortest": 2,
+        "spreadOver15": 160,
+        "correctOverMedianBy10": 36,
+        "maximumSpread": 36
+      },
+      "duplicateStemsWithinCase": []
+    },
+    {
+      "topic": "Upper Extremity Scenarios",
+      "file": "question_bank/section_c_upper_extremity.json",
+      "questionCount": 200,
+      "caseCount": 50,
+      "questionsPerCase": [
+        4
+      ],
+      "subtopics": {
+        "Glenohumeral internal-rotation deficit (GIRD)": 28,
+        "Subacromial pain and load-sensitive shoulder pain": 28,
+        "Rotator-cuff pathology": 28,
+        "Superior labral (SLAP) and biceps-related shoulder injury": 24,
+        "Lateral epicondylalgia": 28,
+        "Medial epicondylalgia": 28,
+        "De Quervain tenosynovitis": 20,
+        "Upper-extremity assessment, differential diagnosis and performance decisions": 16
+      },
+      "sources": {},
+      "difficulty": {
+        "foundational": 0,
+        "applied": 80,
+        "analytical": 120
+      },
+      "answerIndices": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 135,
+        "strictShortest": 0,
+        "spreadOver15": 119,
+        "correctOverMedianBy10": 104,
+        "maximumSpread": 33
+      },
+      "duplicateStemsWithinCase": []
+    },
+    {
+      "topic": "Spine & Pelvis Scenarios",
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionCount": 200,
+      "caseCount": 50,
+      "questionsPerCase": [
+        4
+      ],
+      "subtopics": {
+        "Spondylolysis and spondylolisthesis": 19,
+        "Extension-rotation lumbar loading": 7,
+        "Load management and progression": 43,
+        "Differential diagnosis and progression": 37,
+        "Red flags and referral": 19,
+        "Return-to-sport decision making": 20,
+        "Discogenic radiculopathy": 11,
+        "Directional preference and centralization": 5,
+        "Neurodynamic assessment: SLR and slump": 11,
+        "SI-joint pain and provocation cluster": 9,
+        "Pelvic and groin differential diagnosis": 19
+      },
+      "sources": {},
+      "difficulty": {
+        "foundational": 0,
+        "applied": 80,
+        "analytical": 120
+      },
+      "answerIndices": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 22,
+        "strictShortest": 61,
+        "spreadOver15": 28,
+        "correctOverMedianBy10": 16,
+        "maximumSpread": 58
+      },
+      "duplicateStemsWithinCase": []
+    },
+    {
+      "topic": "On-Field & Emergency Triage",
+      "file": "question_bank/section_c_on_field_emergency_triage.json",
+      "questionCount": 200,
+      "caseCount": 50,
+      "questionsPerCase": [
+        4
+      ],
+      "subtopics": {
+        "SCAT6 acute concussion recognition and red flags": 34,
+        "Rest and exercise after concussion": 12,
+        "Primary survey and emergency action plan": 16,
+        "Graduated return-to-sport after concussion": 18,
+        "Child SCAT6 and youth considerations": 4,
+        "CRT6 and sideline removal": 1,
+        "Persisting concussion symptoms and referral": 4,
+        "Return-to-learn after concussion": 3,
+        "Doha adductor-related groin pain": 16,
+        "On-field decision-making and referral": 20,
+        "Training load, recovery and illness risk": 25,
+        "Doha iliopsoas-related groin pain": 4,
+        "Doha inguinal-related groin pain": 6,
+        "Doha pubic-related groin pain": 6,
+        "Doha multiple groin entities": 8,
+        "Catastrophic injury triage": 5,
+        "Cervical spine stabilization and log-roll": 5,
+        "Spinal trauma and coordinated log-roll": 5,
+        "Exertional heat stroke": 7,
+        "Heat illness triage": 1
+      },
+      "sources": {},
+      "difficulty": {
+        "foundational": 0,
+        "applied": 80,
+        "analytical": 120
+      },
+      "answerIndices": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 66,
+        "strictShortest": 19,
+        "spreadOver15": 72,
+        "correctOverMedianBy10": 57,
+        "maximumSpread": 43
+      },
+      "duplicateStemsWithinCase": []
+    },
+    {
+      "topic": "Return to Play (RTP) Frameworks",
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionCount": 200,
+      "caseCount": 50,
+      "questionsPerCase": [
+        4
+      ],
+      "subtopics": {
+        "Criteria-based progression": 30,
+        "Pain and effusion status": 15,
+        "Shared medical-performance decisions": 25,
+        "Reactive strength index (RSI)": 10,
+        "Limb-symmetry index (LSI)": 10,
+        "Strength and ROM symmetry": 15,
+        "Hop tests": 10,
+        "Y-Balance": 10,
+        "Sport-specific agility": 15,
+        "Psychological readiness / ACL-RSI": 10,
+        "Load monitoring": 35,
+        "Recovery": 15
+      },
+      "sources": {},
+      "difficulty": {
+        "foundational": 0,
+        "applied": 80,
+        "analytical": 120
+      },
+      "answerIndices": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 65,
+        "strictShortest": 58,
+        "spreadOver15": 91,
+        "correctOverMedianBy10": 38,
+        "maximumSpread": 58
+      },
+      "duplicateStemsWithinCase": []
+    }
+  ],
+  "officialSubtopicCoverage": {
+    "Lower Extremity Scenarios": [
+      {
+        "subtopic": "ACL and meniscal tears",
+        "questionCount": 24,
+        "caseCount": 6,
+        "covered": true
+      },
+      {
+        "subtopic": "Hamstring strains",
+        "questionCount": 16,
+        "caseCount": 4,
+        "covered": true
+      },
+      {
+        "subtopic": "PFPS and patellar tendinopathy",
+        "questionCount": 16,
+        "caseCount": 4,
+        "covered": true
+      },
+      {
+        "subtopic": "Ankle sprains",
+        "questionCount": 16,
+        "caseCount": 4,
+        "covered": true
+      },
+      {
+        "subtopic": "Achilles injury",
+        "questionCount": 16,
+        "caseCount": 4,
+        "covered": true
+      },
+      {
+        "subtopic": "MTSS and tibial stress fracture",
+        "questionCount": 12,
+        "caseCount": 3,
+        "covered": true
+      },
+      {
+        "subtopic": "Sever’s disease and adolescent apophysitis",
+        "questionCount": 24,
+        "caseCount": 6,
+        "covered": true
+      }
+    ],
+    "Upper Extremity Scenarios": [
+      {
+        "subtopic": "GIRD / overhead thrower shoulder",
+        "questionCount": 28,
+        "caseCount": 7,
+        "covered": true
+      },
+      {
+        "subtopic": "Subacromial pain / impingement",
+        "questionCount": 28,
+        "caseCount": 7,
+        "covered": true
+      },
+      {
+        "subtopic": "Rotator-cuff pathology",
+        "questionCount": 28,
+        "caseCount": 7,
+        "covered": true
+      },
+      {
+        "subtopic": "SLAP / biceps-related injury",
+        "questionCount": 24,
+        "caseCount": 6,
+        "covered": true
+      },
+      {
+        "subtopic": "Lateral and medial epicondylalgia",
+        "questionCount": 56,
+        "caseCount": 14,
+        "covered": true
+      },
+      {
+        "subtopic": "de Quervain tenosynovitis",
+        "questionCount": 20,
+        "caseCount": 5,
+        "covered": true
+      }
+    ],
+    "Spine & Pelvis Scenarios": [
+      {
+        "subtopic": "Spondylolysis / spondylolisthesis",
+        "questionCount": 50,
+        "caseCount": 17,
+        "covered": true
+      },
+      {
+        "subtopic": "Discogenic radiculopathy",
+        "questionCount": 16,
+        "caseCount": 15,
+        "covered": true
+      },
+      {
+        "subtopic": "SI-joint dysfunction",
+        "questionCount": 11,
+        "caseCount": 6,
+        "covered": true
+      }
+    ],
+    "On-Field & Emergency Triage": [
+      {
+        "subtopic": "SCAT6 concussion red flags",
+        "questionCount": 79,
+        "caseCount": 20,
+        "covered": true
+      },
+      {
+        "subtopic": "Graduated concussion return-to-sport",
+        "questionCount": 18,
+        "caseCount": 15,
+        "covered": true
+      },
+      {
+        "subtopic": "Spinal trauma / log-roll",
+        "questionCount": 14,
+        "caseCount": 9,
+        "covered": true
+      },
+      {
+        "subtopic": "Exertional heat stroke",
+        "questionCount": 14,
+        "caseCount": 5,
+        "covered": true
+      }
+    ],
+    "Return to Play (RTP) Frameworks": [
+      {
+        "subtopic": "Strength and ROM symmetry",
+        "questionCount": 15,
+        "caseCount": 10,
+        "covered": true
+      },
+      {
+        "subtopic": "Limb-symmetry index",
+        "questionCount": 60,
+        "caseCount": 15,
+        "covered": true
+      },
+      {
+        "subtopic": "Hop-test battery",
+        "questionCount": 17,
+        "caseCount": 11,
+        "covered": true
+      },
+      {
+        "subtopic": "RSI / Y-Balance",
+        "questionCount": 59,
+        "caseCount": 28,
+        "covered": true
+      },
+      {
+        "subtopic": "Psychological readiness / ACL-RSI",
+        "questionCount": 12,
+        "caseCount": 5,
+        "covered": true
+      },
+      {
+        "subtopic": "Sport-specific agility",
+        "questionCount": 15,
+        "caseCount": 10,
+        "covered": true
+      },
+      {
+        "subtopic": "Pain and effusion status",
+        "questionCount": 35,
+        "caseCount": 12,
+        "covered": true
+      }
+    ]
+  },
+  "provenance": {
+    "sourceIdCount": 20,
+    "sourceUse": {
+      "acsm-getp-12": 15,
+      "apta-lateral-ankle-cpg-2021": 8,
+      "aspetar-acl-cpg-2023": 15,
+      "bern-return-to-sport-2016": 32,
+      "brukner-khan-clinical-sports-medicine": 141,
+      "brukner-khan-clinical-sports-medicine-vol2": 20,
+      "doha-groin-consensus-2015": 104,
+      "foundations-sport-exercise-psychology": 6,
+      "ioc-concussion-amsterdam-2022": 76,
+      "ioc-load-illness-2016": 133,
+      "ioc-manual-sports-injuries": 43,
+      "kisner-therapeutic-exercise": 78,
+      "konin-special-tests-orthopedic-examination": 24,
+      "london-hamstring-consensus-2023": 9,
+      "magee-orthopaedic-assessment": 91,
+      "neumann-kinesiology": 13,
+      "nsca-essentials-5": 13,
+      "shacklock-clinical-neurodynamics": 14,
+      "sports-injury-prevention-rehabilitation-joyce-lewindon": 163,
+      "world-physiotherapy-ebp-2023": 2
+    },
+    "sourceCaseCounts": {
+      "acsm-getp-12": 10,
+      "apta-lateral-ankle-cpg-2021": 4,
+      "aspetar-acl-cpg-2023": 11,
+      "bern-return-to-sport-2016": 17,
+      "brukner-khan-clinical-sports-medicine": 122,
+      "brukner-khan-clinical-sports-medicine-vol2": 20,
+      "doha-groin-consensus-2015": 51,
+      "foundations-sport-exercise-psychology": 6,
+      "ioc-concussion-amsterdam-2022": 20,
+      "ioc-load-illness-2016": 95,
+      "ioc-manual-sports-injuries": 31,
+      "kisner-therapeutic-exercise": 78,
+      "konin-special-tests-orthopedic-examination": 23,
+      "london-hamstring-consensus-2023": 5,
+      "magee-orthopaedic-assessment": 79,
+      "neumann-kinesiology": 12,
+      "nsca-essentials-5": 13,
+      "shacklock-clinical-neurodynamics": 10,
+      "sports-injury-prevention-rehabilitation-joyce-lewindon": 130,
+      "world-physiotherapy-ebp-2023": 2
+    },
+    "sourceCatalogMetadata": [
+      {
+        "sourceId": "acsm-getp-12",
+        "count": 15,
+        "caseCount": 10,
+        "title": "ACSM's Guidelines for Exercise Testing and Prescription",
+        "kind": "guideline",
+        "publisher": "American College of Sports Medicine",
+        "authors": "American College of Sports Medicine",
+        "year": null,
+        "url": "https://acsm.org/education-resources/books/guidelines-exercise-testing-prescription/",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Exercise physiology, testing, safety and prescription",
+        "locator": "Testing, screening, safety, body composition and exercise-prescription chapters"
+      },
+      {
+        "sourceId": "apta-lateral-ankle-cpg-2021",
+        "count": 8,
+        "caseCount": 4,
+        "title": "Lateral Ankle Ligament Sprains Clinical Practice Guideline",
+        "kind": "guideline",
+        "publisher": "Academy of Orthopaedic Physical Therapy / JOSPT",
+        "authors": null,
+        "year": 2021,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33789434/",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Ankle sprain assessment and rehabilitation",
+        "locator": "Clinical practice recommendations for examination, diagnosis, intervention and return to activity"
+      },
+      {
+        "sourceId": "aspetar-acl-cpg-2023",
+        "count": 15,
+        "caseCount": 11,
+        "title": "Aspetar clinical practice guideline on rehabilitation after ACL reconstruction",
+        "kind": "guideline",
+        "publisher": "British Journal of Sports Medicine",
+        "authors": null,
+        "year": 2023,
+        "url": "https://bjsm.bmj.com/content/57/9/500",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "ACL rehabilitation and criteria-based return to sport",
+        "locator": "Clinical practice recommendations for staged ACL rehabilitation, criteria and return to sport"
+      },
+      {
+        "sourceId": "bern-return-to-sport-2016",
+        "count": 32,
+        "caseCount": 17,
+        "title": "2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern",
+        "kind": "consensus",
+        "publisher": "British Journal of Sports Medicine",
+        "authors": null,
+        "year": 2016,
+        "url": "https://bjsm.bmj.com/content/50/14/853",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Athlete-centred return-to-sport decision-making, symptoms, function, tissue load, sport demands, risk and shared decision-making",
+        "locator": "Consensus statement and StARRT framework for return-to-sport decision-making"
+      },
+      {
+        "sourceId": "brukner-khan-clinical-sports-medicine",
+        "count": 141,
+        "caseCount": 122,
+        "title": "Brukner and Khan's Clinical Sports Medicine",
+        "kind": "textbook",
+        "publisher": "McGraw Hill Education",
+        "authors": "Peter Brukner and Karim Khan",
+        "year": 2017,
+        "url": null,
+        "localPath": "books/Brukner & Khan's Clinical Sports Medicine 1.pdf",
+        "localPathExists": true,
+        "scope": "Sports injury mechanisms, diagnosis and rehabilitation",
+        "locator": "Printed Chs. 2–4, 8–10, 12–13 and 17–20"
+      },
+      {
+        "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
+        "count": 20,
+        "caseCount": 20,
+        "title": "Brukner and Khan's Clinical Sports Medicine, Volume 2",
+        "kind": "textbook",
+        "publisher": "McGraw Hill Education",
+        "authors": "Peter Brukner and Karim Khan",
+        "year": null,
+        "url": null,
+        "localPath": "books/Brukner & Khan's Clinical Sports Medicine Volume 2.pdf",
+        "localPathExists": true,
+        "scope": "Clinical sports medicine, injury management, rehabilitation and prevention",
+        "locator": "Supplied Volume 2 chapters on sports injury diagnosis, treatment, rehabilitation and prevention"
+      },
+      {
+        "sourceId": "doha-groin-consensus-2015",
+        "count": 104,
+        "caseCount": 51,
+        "title": "Doha agreement meeting on terminology and definitions in groin pain in athletes",
+        "kind": "consensus",
+        "publisher": "British Journal of Sports Medicine",
+        "authors": "Per Hölmich, Adam Weir et al.",
+        "year": 2015,
+        "url": "https://bjsm.bmj.com/content/49/12/768",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Adductor-related, iliopsoas-related, inguinal-related and pubic-related groin pain terminology and clinical examination",
+        "locator": "BJSM 49(12):768–774; Doha agreement taxonomy and examination recommendations"
+      },
+      {
+        "sourceId": "foundations-sport-exercise-psychology",
+        "count": 6,
+        "caseCount": 6,
+        "title": "Foundations of Sport and Exercise Psychology",
+        "kind": "textbook",
+        "publisher": "Human Kinetics",
+        "authors": "Robert S. Weinberg and Daniel Gould",
+        "year": 2018,
+        "url": "https://www.human-kinetics.co.uk/9781718207592/foundations-of-sport-and-exercise-psychology/",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Motivation, anxiety, confidence and psychological skills",
+        "locator": "Chapters on motivation, anxiety, mental skills, burnout and team cohesion"
+      },
+      {
+        "sourceId": "ioc-concussion-amsterdam-2022",
+        "count": 76,
+        "caseCount": 20,
+        "title": "Consensus statement on concussion in sport: Amsterdam 2022",
+        "kind": "consensus",
+        "publisher": "Concussion in Sport Group / BJSM",
+        "authors": null,
+        "year": 2023,
+        "url": "https://bjsm.bmj.com/content/57/11/695",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Concussion recognition, rehabilitation and return to sport",
+        "locator": "Amsterdam 2022 consensus recommendations on assessment, rehabilitation and return-to-sport decisions"
+      },
+      {
+        "sourceId": "ioc-load-illness-2016",
+        "count": 133,
+        "caseCount": 95,
+        "title": "IOC consensus statement on load in sport and risk of illness",
+        "kind": "consensus",
+        "publisher": "International Olympic Committee",
+        "authors": null,
+        "year": 2016,
+        "url": "https://bjsm.bmj.com/content/50/17/1043",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Training load, recovery, travel and illness risk",
+        "locator": "Load, illness, recovery and monitoring recommendations"
+      },
+      {
+        "sourceId": "ioc-manual-sports-injuries",
+        "count": 43,
+        "caseCount": 31,
+        "title": "The IOC Manual of Sports Injuries",
+        "kind": "textbook",
+        "publisher": "Wiley-Blackwell / International Olympic Committee",
+        "authors": "J. D. R. Brukner and Karim Khan, eds.",
+        "year": null,
+        "url": null,
+        "localPath": "books/The IOC Manual of Sports Injuries.pdf",
+        "localPathExists": true,
+        "scope": "Sports injury recognition, acute management, rehabilitation, prevention and medical support",
+        "locator": "Supplied manual chapters on common sports injuries, field management and rehabilitation"
+      },
+      {
+        "sourceId": "kisner-therapeutic-exercise",
+        "count": 78,
+        "caseCount": 78,
+        "title": "Therapeutic Exercise: Foundations and Techniques",
+        "kind": "textbook",
+        "publisher": "F.A. Davis",
+        "authors": "Carolyn Kisner, Lynn Allen Colby and John Borstad",
+        "year": 2018,
+        "url": "https://fadavisat.mhmedical.com/Book.aspx?bookid=2262",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Exercise therapy, rehabilitation and progression",
+        "locator": "Parts I–III: general concepts, applied science and principles of intervention; publisher chapter listing for the 7th edition"
+      },
+      {
+        "sourceId": "konin-special-tests-orthopedic-examination",
+        "count": 24,
+        "caseCount": 23,
+        "title": "Special Tests for Orthopedic Examination",
+        "kind": "textbook",
+        "publisher": "Slack Incorporated",
+        "authors": "James G. Konin, J. W. Wiksten and David A. Isear",
+        "year": null,
+        "url": null,
+        "localPath": "books/Special Tests for Orthopedic Examination.pdf",
+        "localPathExists": true,
+        "scope": "Orthopaedic special tests, test procedures, structures assessed and interpretation",
+        "locator": "Supplied PDF test-by-test sections for regional orthopaedic examination"
+      },
+      {
+        "sourceId": "london-hamstring-consensus-2023",
+        "count": 9,
+        "caseCount": 5,
+        "title": "London International Consensus on Hamstring Injuries",
+        "kind": "consensus",
+        "publisher": "British Journal of Sports Medicine",
+        "authors": null,
+        "year": 2023,
+        "url": "https://bjsm.bmj.com/content/57/5/278",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Hamstring rehabilitation, running exposure and return to sport",
+        "locator": "Consensus recommendations on hamstring assessment, rehabilitation, running exposure and return to sport"
+      },
+      {
+        "sourceId": "magee-orthopaedic-assessment",
+        "count": 91,
+        "caseCount": 79,
+        "title": "Orthopedic Physical Assessment",
+        "kind": "textbook",
+        "publisher": "Elsevier",
+        "authors": "David J. Magee and Robert C. Manske",
+        "year": 2021,
+        "url": null,
+        "localPath": "books/Orthopedic Physical Assessment.pdf",
+        "localPathExists": true,
+        "scope": "Clinical examination, special tests and assessment",
+        "locator": "Printed Chs. 1, 5, 9, 11–14 and 17–18"
+      },
+      {
+        "sourceId": "neumann-kinesiology",
+        "count": 13,
+        "caseCount": 12,
+        "title": "Kinesiology of the Musculoskeletal System",
+        "kind": "textbook",
+        "publisher": "Elsevier",
+        "authors": "Donald A. Neumann",
+        "year": 2017,
+        "url": null,
+        "localPath": "books/Kinesiology of the Musculoskeletal System.pdf",
+        "localPathExists": true,
+        "scope": "Kinesiology, biomechanics, gait and movement analysis",
+        "locator": "Supplied PDF discussions of ground-reaction force and centre of pressure, pp. 645, 680 and 710; relevant kinetic and kinematic chapters"
+      },
+      {
+        "sourceId": "nsca-essentials-5",
+        "count": 13,
+        "caseCount": 13,
+        "title": "Essentials of Strength Training and Conditioning",
+        "kind": "textbook",
+        "publisher": "National Strength and Conditioning Association",
+        "authors": "G. Gregory Haff and N. Travis Triplett, eds.",
+        "year": 2016,
+        "url": null,
+        "localPath": "books/Essentials of Strength Training and Conditioning.pdf",
+        "localPathExists": true,
+        "scope": "Strength, conditioning, loading, periodisation and testing",
+        "locator": "Printed Chs. 2, 13–15, 23–24; supplied PDF pp. 128–133, 1631–1653 and 1679–1680 for relevant performance and recovery concepts"
+      },
+      {
+        "sourceId": "shacklock-clinical-neurodynamics",
+        "count": 14,
+        "caseCount": 10,
+        "title": "Clinical Neurodynamics: A New System of Neuromusculoskeletal Treatment",
+        "kind": "textbook",
+        "publisher": "Elsevier",
+        "authors": "Michael Shacklock",
+        "year": null,
+        "url": null,
+        "localPath": "books/Clinical Neurodynamics A New System of Neuromusculoskeletal.pdf",
+        "localPathExists": true,
+        "scope": "Neurodynamic assessment, mechanosensitivity, loading, differentiation and treatment principles",
+        "locator": "Supplied PDF chapters on neurodynamic examination, structural differentiation and treatment"
+      },
+      {
+        "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
+        "count": 163,
+        "caseCount": 130,
+        "title": "Sports Injury Prevention and Rehabilitation: Integrating Medicine and Science for Performance",
+        "kind": "textbook",
+        "publisher": "Routledge",
+        "authors": "Daniel Lewindon and David Joyce",
+        "year": 2016,
+        "url": null,
+        "localPath": "books/Sports Injury Prevention and Rehabilitation.epub",
+        "localPathExists": true,
+        "scope": "Sports injury prevention, rehabilitation planning, monitoring, performance integration and return to sport",
+        "locator": "Supplied ebook chapters on injury prevention, rehabilitation programming, monitoring and return-to-performance planning"
+      },
+      {
+        "sourceId": "world-physiotherapy-ebp-2023",
+        "count": 2,
+        "caseCount": 2,
+        "title": "World Physiotherapy evidence-based practice policy",
+        "kind": "guideline",
+        "publisher": "World Physiotherapy",
+        "authors": null,
+        "year": null,
+        "url": "https://world.physio/policy/ps-ebp",
+        "localPath": null,
+        "localPathExists": null,
+        "scope": "Evidence quality, uncertainty and clinical reasoning",
+        "locator": "Policy statement PS-EBP, evidence-informed decision-making and interpretation of evidence"
+      }
+    ],
+    "sourceMetadataIssues": [],
+    "requiredConsensusCaseCoverage": {
+      "ioc-concussion-amsterdam-2022": {
+        "label": "SCAT6 / Amsterdam concussion consensus",
+        "caseCount": 20,
+        "caseIds": [
+          "c-emergency-001",
+          "c-emergency-002",
+          "c-emergency-003",
+          "c-emergency-004",
+          "c-emergency-005",
+          "c-emergency-006",
+          "c-emergency-007",
+          "c-emergency-008",
+          "c-emergency-009",
+          "c-emergency-010",
+          "c-emergency-011",
+          "c-emergency-012",
+          "c-emergency-013",
+          "c-emergency-014",
+          "c-emergency-015",
+          "c-emergency-016",
+          "c-emergency-017",
+          "c-emergency-018",
+          "c-emergency-019",
+          "c-emergency-020"
+        ]
+      },
+      "doha-groin-consensus-2015": {
+        "label": "Doha groin-pain consensus",
+        "caseCount": 51,
+        "caseIds": [
+          "c-emergency-021",
+          "c-emergency-022",
+          "c-emergency-023",
+          "c-emergency-024",
+          "c-emergency-025",
+          "c-emergency-026",
+          "c-emergency-027",
+          "c-emergency-028",
+          "c-emergency-029",
+          "c-emergency-030",
+          "c-emergency-031",
+          "c-emergency-032",
+          "c-emergency-033",
+          "c-emergency-034",
+          "c-emergency-035",
+          "c-emergency-036",
+          "c-emergency-037",
+          "c-emergency-038",
+          "c-emergency-039",
+          "c-emergency-040",
+          "c-lower-001",
+          "c-lower-002",
+          "c-lower-003",
+          "c-lower-004",
+          "c-lower-005",
+          "c-lower-006",
+          "c-lower-007",
+          "c-lower-008",
+          "c-lower-009",
+          "c-lower-010",
+          "c-lower-011",
+          "c-lower-012",
+          "c-lower-013",
+          "c-lower-014",
+          "c-lower-015",
+          "c-lower-016",
+          "c-lower-017",
+          "c-lower-018",
+          "c-lower-019",
+          "c-lower-020",
+          "c-spine-030",
+          "c-spine-031",
+          "c-spine-032",
+          "c-spine-033",
+          "c-spine-034",
+          "c-spine-037",
+          "c-spine-038",
+          "c-spine-039",
+          "c-spine-040",
+          "c-spine-041",
+          "c-spine-044"
+        ]
+      },
+      "ioc-load-illness-2016": {
+        "label": "IOC load / return-to-sport consensus",
+        "caseCount": 95,
+        "caseIds": [
+          "c-emergency-021",
+          "c-emergency-022",
+          "c-emergency-023",
+          "c-emergency-024",
+          "c-emergency-025",
+          "c-emergency-026",
+          "c-emergency-027",
+          "c-emergency-028",
+          "c-emergency-029",
+          "c-emergency-030",
+          "c-emergency-031",
+          "c-emergency-032",
+          "c-emergency-033",
+          "c-emergency-034",
+          "c-emergency-035",
+          "c-emergency-036",
+          "c-emergency-037",
+          "c-emergency-038",
+          "c-emergency-039",
+          "c-emergency-040",
+          "c-emergency-046",
+          "c-emergency-047",
+          "c-emergency-048",
+          "c-emergency-049",
+          "c-emergency-050",
+          "c-lower-008",
+          "c-lower-009",
+          "c-lower-012",
+          "c-lower-016",
+          "c-lower-018",
+          "c-lower-020",
+          "c-lower-032",
+          "c-lower-042",
+          "c-lower-047",
+          "c-lower-048",
+          "c-lower-049",
+          "c-lower-050",
+          "c-rtp-004",
+          "c-rtp-007",
+          "c-rtp-008",
+          "c-rtp-009",
+          "c-rtp-010",
+          "c-rtp-013",
+          "c-rtp-014",
+          "c-rtp-015",
+          "c-rtp-017",
+          "c-rtp-018",
+          "c-rtp-019",
+          "c-rtp-020",
+          "c-rtp-023",
+          "c-rtp-024",
+          "c-rtp-025",
+          "c-rtp-026",
+          "c-rtp-027",
+          "c-rtp-028",
+          "c-rtp-029",
+          "c-rtp-030",
+          "c-rtp-033",
+          "c-rtp-034",
+          "c-rtp-035",
+          "c-rtp-036",
+          "c-rtp-037",
+          "c-rtp-038",
+          "c-rtp-039",
+          "c-rtp-040",
+          "c-rtp-043",
+          "c-rtp-044",
+          "c-rtp-047",
+          "c-rtp-048",
+          "c-rtp-049",
+          "c-rtp-050",
+          "c-spine-001",
+          "c-spine-003",
+          "c-spine-005",
+          "c-spine-010",
+          "c-spine-012",
+          "c-spine-013",
+          "c-spine-014",
+          "c-spine-015",
+          "c-spine-016",
+          "c-spine-021",
+          "c-spine-026",
+          "c-spine-027",
+          "c-spine-029",
+          "c-spine-031",
+          "c-spine-032",
+          "c-spine-036",
+          "c-spine-037",
+          "c-spine-039",
+          "c-spine-040",
+          "c-spine-044",
+          "c-spine-045",
+          "c-spine-046",
+          "c-spine-047",
+          "c-spine-048"
+        ]
+      }
+    }
+  },
+  "answerPattern": {
+    "byTheme": {
+      "Lower Extremity Scenarios": {
+        "answerIndices": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "repeatingPeriods": [],
+        "lengthAudit": {
+          "strictLongest": 4,
+          "strictShortest": 2,
+          "spreadOver15": 160,
+          "correctOverMedianBy10": 36,
+          "maximumSpread": 36
+        }
+      },
+      "Upper Extremity Scenarios": {
+        "answerIndices": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "repeatingPeriods": [],
+        "lengthAudit": {
+          "strictLongest": 135,
+          "strictShortest": 0,
+          "spreadOver15": 119,
+          "correctOverMedianBy10": 104,
+          "maximumSpread": 33
+        }
+      },
+      "Spine & Pelvis Scenarios": {
+        "answerIndices": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "repeatingPeriods": [],
+        "lengthAudit": {
+          "strictLongest": 22,
+          "strictShortest": 61,
+          "spreadOver15": 28,
+          "correctOverMedianBy10": 16,
+          "maximumSpread": 58
+        }
+      },
+      "On-Field & Emergency Triage": {
+        "answerIndices": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "repeatingPeriods": [],
+        "lengthAudit": {
+          "strictLongest": 66,
+          "strictShortest": 19,
+          "spreadOver15": 72,
+          "correctOverMedianBy10": 57,
+          "maximumSpread": 43
+        }
+      },
+      "Return to Play (RTP) Frameworks": {
+        "answerIndices": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "repeatingPeriods": [],
+        "lengthAudit": {
+          "strictLongest": 65,
+          "strictShortest": 58,
+          "spreadOver15": 91,
+          "correctOverMedianBy10": 38,
+          "maximumSpread": 58
+        }
+      }
+    },
+    "merged": {
+      "answerIndices": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "repeatingPeriods": [],
+      "lengthAudit": {
+        "strictLongest": 292,
+        "strictShortest": 140,
+        "spreadOver15": 470,
+        "correctOverMedianBy10": 251,
+        "maximumSpread": 58
+      }
+    }
+  },
+  "applicationChecks": {
+    "themeTopics": {
+      "expected": [
+        "Lower Extremity Scenarios",
+        "On-Field & Emergency Triage",
+        "Return to Play (RTP) Frameworks",
+        "Spine & Pelvis Scenarios",
+        "Upper Extremity Scenarios"
+      ],
+      "actual": [
+        "Lower Extremity Scenarios",
+        "On-Field & Emergency Triage",
+        "Return to Play (RTP) Frameworks",
+        "Spine & Pelvis Scenarios",
+        "Upper Extremity Scenarios"
+      ]
+    },
+    "themeFiltering": [
+      {
+        "topic": "Lower Extremity Scenarios",
+        "matchingQuestions": 200,
+        "ignoredSubtopicQuestions": 200,
+        "subtopicDropdownValues": [],
+        "attemptQuestionCount": 200,
+        "attemptCaseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "casesRemainContiguous": true,
+        "expectedDurationMs": 14400000,
+        "thrown": null
+      },
+      {
+        "topic": "Upper Extremity Scenarios",
+        "matchingQuestions": 200,
+        "ignoredSubtopicQuestions": 200,
+        "subtopicDropdownValues": [],
+        "attemptQuestionCount": 200,
+        "attemptCaseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "casesRemainContiguous": true,
+        "expectedDurationMs": 14400000,
+        "thrown": null
+      },
+      {
+        "topic": "Spine & Pelvis Scenarios",
+        "matchingQuestions": 200,
+        "ignoredSubtopicQuestions": 200,
+        "subtopicDropdownValues": [],
+        "attemptQuestionCount": 200,
+        "attemptCaseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "casesRemainContiguous": true,
+        "expectedDurationMs": 14400000,
+        "thrown": null
+      },
+      {
+        "topic": "On-Field & Emergency Triage",
+        "matchingQuestions": 200,
+        "ignoredSubtopicQuestions": 200,
+        "subtopicDropdownValues": [],
+        "attemptQuestionCount": 200,
+        "attemptCaseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "casesRemainContiguous": true,
+        "expectedDurationMs": 14400000,
+        "thrown": null
+      },
+      {
+        "topic": "Return to Play (RTP) Frameworks",
+        "matchingQuestions": 200,
+        "ignoredSubtopicQuestions": 200,
+        "subtopicDropdownValues": [],
+        "attemptQuestionCount": 200,
+        "attemptCaseCount": 50,
+        "questionsPerCase": [
+          4
+        ],
+        "casesRemainContiguous": true,
+        "expectedDurationMs": 14400000,
+        "thrown": null
+      }
+    ],
+    "fullCbt": {
+      "seedsChecked": 100,
+      "expectedComposition": {
+        "A1": 32,
+        "A2": 8,
+        "B": 40,
+        "C": 20
+      },
+      "passedSeeds": 100,
+      "failedSeeds": [],
+      "cQuestionCounts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "cCaseCounts": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "manifestCheck": {
+    "path": "research/section_c_coverage_manifest.json",
+    "exists": true,
+    "declaredTotal": 1000,
+    "declaredQuestionMappings": 1000,
+    "declaredCaseMappings": 250,
+    "groups": [
+      {
+        "topic": "Lower Extremity Scenarios",
+        "file": "question_bank/section_c_lower_extremity.json",
+        "count": 200,
+        "cases": 50
+      },
+      {
+        "topic": "Upper Extremity Scenarios",
+        "file": "question_bank/section_c_upper_extremity.json",
+        "count": 200,
+        "cases": 50
+      },
+      {
+        "topic": "Spine & Pelvis Scenarios",
+        "file": "question_bank/section_c_spine_pelvis.json",
+        "count": 200,
+        "cases": 50
+      },
+      {
+        "topic": "On-Field & Emergency Triage",
+        "file": "question_bank/section_c_on_field_emergency_triage.json",
+        "count": 200,
+        "cases": 50
+      },
+      {
+        "topic": "Return to Play (RTP) Frameworks",
+        "file": "question_bank/section_c_return_to_play.json",
+        "count": 200,
+        "cases": 50
+      }
+    ],
+    "sourceCountsMatch": true
+  },
+  "validatorAndAuditInputs": {
+    "validators": [
+      {
+        "file": "scripts/generate-section-c.ts",
+        "exists": true,
+        "checks": {
+          "50": true,
+          "200": true,
+          "questionsPerCase": true,
+          "SOURCE_CATALOG_BY_ID": true
+        }
+      },
+      {
+        "file": "scripts/audit-section-c.ts",
+        "exists": true,
+        "checks": {
+          "requiredConsensus": true,
+          "topicsForSection": true,
+          "full": true,
+          "generateAttemptQuestions": true
+        }
+      },
+      {
+        "file": "src/data/validate.ts",
+        "exists": true,
+        "checks": {
+          "C: 1000": true,
+          "count !== 4": true,
+          "lower extremity scenarios": true
+        }
+      },
+      {
+        "file": "src/data/validate.test.ts",
+        "exists": true,
+        "checks": {
+          "C: 1000": true,
+          "passageCount).toBe(250)": true
+        }
+      },
+      {
+        "file": "src/quiz.ts",
+        "exists": true,
+        "checks": {
+          "shuffleCompleteCases": true,
+          "selection.section === \"C\"": true,
+          "EXAM_SECTION_COUNTS": true
+        }
+      },
+      {
+        "file": "src/quiz.test.ts",
+        "exists": true,
+        "checks": {
+          "filters Section C by theme only": true,
+          "toHaveLength(200)": true,
+          "toBe(5)": true
+        }
+      }
+    ],
+    "priorAuditOutputs": {
+      "research/section_c_central_audit.json": {
+        "exists": true,
+        "generatedAt": "2026-08-17",
+        "status": "pass-with-review-flags",
+        "blockers": null,
+        "errors": 0,
+        "warnings": 5,
+        "reviewFlags": null,
+        "changeCount": null
+      },
+      "research/section_c_final_independent_structural_audit.json": {
+        "exists": true,
+        "generatedAt": "2026-08-17",
+        "status": "certified_with_review_flags",
+        "blockers": 0,
+        "errors": null,
+        "warnings": null,
+        "reviewFlags": 14,
+        "changeCount": null
+      },
+      "research/section_c_final_independent_factual_audit.json": {
+        "exists": true,
+        "generatedAt": "2026-08-17",
+        "status": "hold_for_correction",
+        "blockers": 27,
+        "errors": null,
+        "warnings": null,
+        "reviewFlags": null,
+        "changeCount": null
+      },
+      "research/section_c_repair_log.json": {
+        "exists": true,
+        "generatedAt": "2026-08-17T17:44:49.066Z",
+        "status": null,
+        "blockers": null,
+        "errors": null,
+        "warnings": null,
+        "reviewFlags": null,
+        "changeCount": 286
+      }
+    },
+    "repairLogRead": true
+  },
+  "schema": {
+    "requiredFields": [
+      "id",
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "text",
+      "options",
+      "correct",
+      "explanation",
+      "sourceId",
+      "passageId",
+      "passage"
+    ],
+    "allowedOptionalFields": [
+      "asOf"
+    ],
+    "issueCount": 0,
+    "unexpectedKeyCount": 0
+  },
+  "methodology": {
+    "caseSourceMembership": "A consensus source counts toward a case when at least one linked question carries that sourceId.",
+    "contentBoundary": "Read-only structural/provenance audit; it does not independently re-answer every clinical MCQ. Prior factual-audit output is reported as input, not copied as current status."
+  }
+}
+

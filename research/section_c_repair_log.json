@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-17T17:58:57.419Z",
+  "purpose": "Repair factual, grammatical, provenance-preserving, and option-length defects identified by the independent Section C audit.",
+  "changeCount": 36,
+  "changes": [
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-001-q4",
+      "field": "options",
+      "before": [
+        "The phase keeps the lumbar spine in unloaded flexion",
+        "Repeated lumbar extension and rotation increase pars loading.",
+        "It isolates hamstring work without meaningful trunk motion",
+        "It prevents force transfer through the pelvis and lumbar spine"
+      ],
+      "after": [
+        "The phase keeps the lumbar spine in unloaded flexion",
+        "It repeatedly combines lumbar extension and rotation, increasing pars loading",
+        "It isolates hamstring work without meaningful trunk motion",
+        "It prevents force transfer through the pelvis and lumbar spine"
+      ],
+      "reason": "Complete the keyed proposition about pars loading."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-004-q2",
+      "field": "options",
+      "before": [
+        "It confirms a primary hamstring tear despite no tear signs",
+        "It makes the pars lesion incidental in every athlete",
+        "It justifies ignoring spinal loading during rehabilitation",
+        "A modifiable associated impairment, not the sole diagnosis"
+      ],
+      "after": [
+        "It confirms a primary hamstring tear despite no tear signs",
+        "It makes the pars lesion incidental in every athlete",
+        "It justifies ignoring spinal loading during rehabilitation",
+        "It is a modifiable associated impairment, not the sole pain diagnosis"
+      ],
+      "reason": "Complete the keyed proposition while preserving the clinical interpretation."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-010-q3",
+      "field": "options",
+      "before": [
+        "Familiar focal pain during or after progression",
+        "Mild general fatigue that resolves with recovery",
+        "Stable pain-free walking tolerance during progression",
+        "Improved hip strength without lumbar symptoms"
+      ],
+      "after": [
+        "Return of the familiar focal pain during load progression or afterward",
+        "Mild general fatigue that resolves with recovery",
+        "Stable pain-free walking tolerance during progression",
+        "Improved hip strength without lumbar symptoms"
+      ],
+      "reason": "Complete the regression trigger and remove the fragmentary tail."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-026-q4",
+      "field": "options",
+      "before": [
+        "When a fixed number of days has elapsed",
+        "When the athlete completes one maximal interval",
+        "Progress when repeated sessions tolerate the current dose",
+        "When resting pain is absent but post-session pain remains high"
+      ],
+      "after": [
+        "When a fixed number of days has elapsed",
+        "When the athlete completes one maximal interval",
+        "When the current dose is tolerated during and after repeated sessions",
+        "When resting pain is absent but post-session pain remains high"
+      ],
+      "reason": "Complete the dose-tolerance criterion."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-003-q4",
+      "field": "options[0]",
+      "before": "Progress from controlled to reactive tasks; monitor quality and next-day response.",
+      "after": "Progress from controlled to reactive tasks; monitor next-day response.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-004-q3",
+      "field": "options[0]",
+      "before": "Discuss the feared task, goals, uncertainty and graded options with the team.",
+      "after": "Discuss feared task, goals, and graded options with the team.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-006-q1",
+      "field": "options[0]",
+      "before": "Delayed symptoms or effusion show that the preceding load was not tolerated.",
+      "after": "Delayed symptoms or effusion show the load was not tolerated.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-006-q2",
+      "field": "options[3]",
+      "before": "Reduce the provoking load, retain tolerable rehabilitation, and reassess.",
+      "after": "Reduce provoking load, retain rehabilitation, and reassess.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-006-q4",
+      "field": "options[1]",
+      "before": "Track loading symptoms, effusion or stiffness, ROM, performance and next-day function.",
+      "after": "Track loading symptoms, ROM, performance, and next-day function.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-011-q1",
+      "field": "options[3]",
+      "before": "progress repeated tennis-specific accelerations below maximal speed before full match play",
+      "after": "Progress tennis accelerations below maximal speed before match play",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-013-q4",
+      "field": "options[1]",
+      "before": "Progress from controlled to reactive tasks; monitor quality and next-day response.",
+      "after": "Progress from controlled to reactive tasks; monitor next-day response.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-014-q3",
+      "field": "options[1]",
+      "before": "Discuss the feared task, goals, uncertainty and graded options with the team.",
+      "after": "Discuss feared task, goals, and graded options with the team.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-016-q1",
+      "field": "options[2]",
+      "before": "Delayed symptoms or effusion show that the preceding load was not tolerated.",
+      "after": "Delayed symptoms or effusion show the load was not tolerated.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-016-q2",
+      "field": "options[1]",
+      "before": "Reduce the provoking load, retain tolerable rehabilitation, and reassess.",
+      "after": "Reduce provoking load, retain rehabilitation, and reassess.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-016-q4",
+      "field": "options[2]",
+      "before": "Track loading symptoms, effusion or stiffness, ROM, performance and next-day function.",
+      "after": "Track loading symptoms, ROM, performance, and next-day function.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-023-q4",
+      "field": "options[2]",
+      "before": "Progress from controlled to reactive tasks; monitor quality and next-day response.",
+      "after": "Progress from controlled to reactive tasks; monitor next-day response.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-024-q3",
+      "field": "options[0]",
+      "before": "Discuss the feared task, goals, uncertainty and graded options with the team.",
+      "after": "Discuss feared task, goals, and graded options with the team.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-026-q1",
+      "field": "options[3]",
+      "before": "Delayed symptoms or effusion show that the preceding load was not tolerated.",
+      "after": "Delayed symptoms or effusion show the load was not tolerated.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-026-q2",
+      "field": "options[2]",
+      "before": "Reduce the provoking load, retain tolerable rehabilitation, and reassess.",
+      "after": "Reduce provoking load, retain rehabilitation, and reassess.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-026-q4",
+      "field": "options[3]",
+      "before": "Track loading symptoms, effusion or stiffness, ROM, performance and next-day function.",
+      "after": "Track loading symptoms, ROM, performance, and next-day function.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-033-q4",
+      "field": "options[3]",
+      "before": "Progress from controlled to reactive tasks; monitor quality and next-day response.",
+      "after": "Progress from controlled to reactive tasks; monitor next-day response.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-034-q3",
+      "field": "options[3]",
+      "before": "Discuss the feared task, goals, uncertainty and graded options with the team.",
+      "after": "Discuss feared task, goals, and graded options with the team.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-036-q1",
+      "field": "options[2]",
+      "before": "Delayed symptoms or effusion show that the preceding load was not tolerated.",
+      "after": "Delayed symptoms or effusion show the load was not tolerated.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-036-q2",
+      "field": "options[1]",
+      "before": "Reduce the provoking load, retain tolerable rehabilitation, and reassess.",
+      "after": "Reduce provoking load, retain rehabilitation, and reassess.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-036-q4",
+      "field": "options[0]",
+      "before": "Track loading symptoms, effusion or stiffness, ROM, performance and next-day function.",
+      "after": "Track loading symptoms, ROM, performance, and next-day function.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-043-q4",
+      "field": "options[1]",
+      "before": "Progress from controlled to reactive tasks; monitor quality and next-day response.",
+      "after": "Progress from controlled to reactive tasks; monitor next-day response.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-044-q3",
+      "field": "options[3]",
+      "before": "Discuss the feared task, goals, uncertainty and graded options with the team.",
+      "after": "Discuss feared task, goals, and graded options with the team.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-046-q1",
+      "field": "options[1]",
+      "before": "Delayed symptoms or effusion show that the preceding load was not tolerated.",
+      "after": "Delayed symptoms or effusion show the load was not tolerated.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-046-q2",
+      "field": "options[1]",
+      "before": "Reduce the provoking load, retain tolerable rehabilitation, and reassess.",
+      "after": "Reduce provoking load, retain rehabilitation, and reassess.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_return_to_play.json",
+      "questionId": "c-rtp-046-q4",
+      "field": "options[0]",
+      "before": "Track loading symptoms, effusion or stiffness, ROM, performance and next-day function.",
+      "after": "Track loading symptoms, ROM, performance, and next-day function.",
+      "reason": "Reduce repeated answer-length giveaway while preserving meaning."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-028-q1",
+      "field": "options[1]",
+      "before": "Spinal loading aggravates the leg symptoms",
+      "after": "Leg symptoms aggravated by spinal loading, not isolated local hamstring massage",
+      "reason": "Complete fragmentary option identified during factual review."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-001-q4",
+      "field": "options[1]",
+      "before": "It repeatedly combines lumbar extension and rotation, increasing pars loading",
+      "after": "Repeated lumbar extension and rotation increase pars loading.",
+      "reason": "Shorten a keyed spine proposition after removing generated padding while preserving the sourced claim."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-004-q2",
+      "field": "options[3]",
+      "before": "It is a modifiable associated impairment, not the sole pain diagnosis",
+      "after": "A modifiable associated impairment, not the sole diagnosis",
+      "reason": "Shorten a keyed spine proposition after removing generated padding while preserving the sourced claim."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-010-q3",
+      "field": "options[0]",
+      "before": "Return of the familiar focal pain during load progression or afterward",
+      "after": "Familiar focal pain during or after progression",
+      "reason": "Shorten a keyed spine proposition after removing generated padding while preserving the sourced claim."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-028-q1",
+      "field": "options[1]",
+      "before": "Leg symptoms aggravated by spinal loading, not isolated local hamstring massage",
+      "after": "Spinal loading aggravates the leg symptoms",
+      "reason": "Shorten a keyed spine proposition after removing generated padding while preserving the sourced claim."
+    },
+    {
+      "file": "question_bank/section_c_spine_pelvis.json",
+      "questionId": "c-spine-026-q4",
+      "field": "options[2]",
+      "before": "When the current dose is tolerated during and after repeated sessions",
+      "after": "Progress when repeated sessions tolerate the current dose",
+      "reason": "Shorten a keyed spine proposition after removing generated padding while preserving the sourced claim."
+    }
+  ]
+}

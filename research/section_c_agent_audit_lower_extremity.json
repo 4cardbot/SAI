@@ -1,0 +1,193 @@
+{
+  "status": "pass-with-review-flags",
+  "generatedAt": "2026-08-17",
+  "scope": "Only the Lower Extremity Section C agent deliverables",
+  "files": {
+    "bank": "question_bank/section_c_lower_extremity.json",
+    "audit": "research/section_c_agent_audit_lower_extremity.json"
+  },
+  "counts": {
+    "records": 200,
+    "cases": 50,
+    "questionsPerCase": [
+      4
+    ],
+    "expectedRecords": 200,
+    "expectedCases": 50
+  },
+  "topic": {
+    "expected": "Lower Extremity Scenarios",
+    "observed": [
+      "Lower Extremity Scenarios"
+    ],
+    "valid": true
+  },
+  "identifiers": {
+    "caseIdRange": [
+      "c-lower-001",
+      "c-lower-050"
+    ],
+    "questionIdRange": [
+      "c-lower-001-q1",
+      "c-lower-050-q4"
+    ],
+    "orderedAndContiguous": true
+  },
+  "subtopicCoverage": {
+    "counts": {
+      "Groin pain in athletes (Doha taxonomy)": 80,
+      "ACL/meniscal tears": 24,
+      "Hamstring strains": 16,
+      "PFPS and patellar tendinopathy": 16,
+      "Ankle sprains": 16,
+      "Achilles injury": 12,
+      "MTSS and tibial stress fractures": 12,
+      "Osgood-Schlatter disease and adolescent apophysitis": 12,
+      "Sever’s disease and calcaneal apophysitis": 12
+    },
+    "minimumMappedQuestionsPerOfficialArea": 10,
+    "officialAreas": {
+      "ACL/meniscal tears": 24,
+      "Hamstring strains": 16,
+      "PFPS and patellar tendinopathy": 16,
+      "Ankle sprains": 16,
+      "Achilles injury": 12,
+      "MTSS and tibial stress fractures": 12,
+      "Osgood-Schlatter disease and adolescent apophysitis": 12,
+      "Sever’s disease and calcaneal apophysitis": 12,
+      "Groin pain in athletes (Doha taxonomy)": 80
+    }
+  },
+  "provenance": {
+    "usedSourceIds": {
+      "doha-groin-consensus-2015": 41,
+      "kisner-therapeutic-exercise": 14,
+      "sports-injury-prevention-rehabilitation-joyce-lewindon": 31,
+      "brukner-khan-clinical-sports-medicine": 51,
+      "brukner-khan-clinical-sports-medicine-vol2": 8,
+      "london-hamstring-consensus-2023": 9,
+      "ioc-load-illness-2016": 13,
+      "aspetar-acl-cpg-2023": 4,
+      "magee-orthopaedic-assessment": 8,
+      "nsca-essentials-5": 3,
+      "foundations-sport-exercise-psychology": 1,
+      "ioc-manual-sports-injuries": 7,
+      "neumann-kinesiology": 2,
+      "apta-lateral-ankle-cpg-2021": 8
+    },
+    "allUsedIdsResolveInSourceCatalog": true,
+    "sourceRule": "One inspected primary sourceId per question; no keyword-only assignment.",
+    "dohaPrimaryCaseCoverage": {
+      "distinctCases": 20,
+      "minimum": 20,
+      "caseIds": [
+        "c-lower-001",
+        "c-lower-002",
+        "c-lower-003",
+        "c-lower-004",
+        "c-lower-005",
+        "c-lower-006",
+        "c-lower-007",
+        "c-lower-008",
+        "c-lower-009",
+        "c-lower-010",
+        "c-lower-011",
+        "c-lower-012",
+        "c-lower-013",
+        "c-lower-014",
+        "c-lower-015",
+        "c-lower-016",
+        "c-lower-017",
+        "c-lower-018",
+        "c-lower-019",
+        "c-lower-020"
+      ]
+    },
+    "scat6Cases": 0,
+    "scat6Note": "SCAT6 was not used because concussion content is outside this lower-extremity-only deliverable.",
+    "iocLoadCases": 12
+  },
+  "difficulty": {
+    "counts": {
+      "applied": 80,
+      "analytical": 120
+    },
+    "appliedPercent": 40,
+    "analyticalPercent": 60,
+    "target": "approximately 40% applied / 60% analytical"
+  },
+  "answerBalance": {
+    "counts": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "percentages": [
+      25,
+      25,
+      25,
+      25
+    ],
+    "periodsDetected": [],
+    "nonPeriodic": true
+  },
+  "optionQuality": {
+    "exactlyFourUnique": true,
+    "maxCharacterSpread": 36,
+    "spreadOver15Count": 164,
+    "correctStrictlyLongestCount": 0,
+    "correctStrictlyLongestPercent": 0,
+    "correctStrictlyShortestCount": 0,
+    "correctStrictlyShortestPercent": 0
+  },
+  "schema": {
+    "requiredKeys": [
+      "id",
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "text",
+      "options",
+      "correct",
+      "explanation",
+      "sourceId",
+      "passageId",
+      "passage"
+    ],
+    "valid": true
+  },
+  "caseContinuity": {
+    "valid": true,
+    "allCasesExactlyFour": true,
+    "passageTextSharedWithinCase": true,
+    "questionOrderPreserved": true,
+    "duplicateQuestionStems": []
+  },
+  "designReferences": [
+    {
+      "sourceId": "sai-notification-2026",
+      "use": "SAI Section C case-study and analytical-MCQ format; not a clinical answer authority."
+    },
+    {
+      "sourceId": "doha-groin-consensus-2015",
+      "use": "Doha taxonomy and examination; primary q1 source for 20 cases."
+    },
+    {
+      "sourceIds": [
+        "brukner-khan-clinical-sports-medicine",
+        "sports-injury-prevention-rehabilitation-joyce-lewindon",
+        "magee-orthopaedic-assessment",
+        "kisner-therapeutic-exercise",
+        "apta-lateral-ankle-cpg-2021"
+      ],
+      "use": "Supplied books/guideline sources for lower-extremity diagnosis, loading and rehabilitation."
+    }
+  ],
+  "sourceCatalogSuggestions": [],
+  "errors": [],
+  "warnings": [
+    "164 option sets exceed a 15-character spread; non-blocking semantic review flag."
+  ]
+}

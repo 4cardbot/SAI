@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-08-17",
+  "file": "question_bank/section_c_return_to_play.json",
+  "counts": {
+    "records": 200,
+    "cases": 50,
+    "questionsPerCase": {
+      "expected": 4,
+      "observed": [
+        4
+      ]
+    },
+    "uniquePassages": 50
+  },
+  "iocCaseCoverage": {
+    "qualifyingSourceIds": [
+      "ioc-load-illness-2016",
+      "bern-return-to-sport-2016"
+    ],
+    "minimumDistinctCases": 20,
+    "distinctCases": 41,
+    "caseIds": [
+      "c-rtp-001",
+      "c-rtp-004",
+      "c-rtp-005",
+      "c-rtp-007",
+      "c-rtp-008",
+      "c-rtp-009",
+      "c-rtp-010",
+      "c-rtp-011",
+      "c-rtp-013",
+      "c-rtp-014",
+      "c-rtp-015",
+      "c-rtp-017",
+      "c-rtp-018",
+      "c-rtp-019",
+      "c-rtp-020",
+      "c-rtp-021",
+      "c-rtp-023",
+      "c-rtp-024",
+      "c-rtp-025",
+      "c-rtp-026",
+      "c-rtp-027",
+      "c-rtp-028",
+      "c-rtp-029",
+      "c-rtp-030",
+      "c-rtp-031",
+      "c-rtp-033",
+      "c-rtp-034",
+      "c-rtp-035",
+      "c-rtp-036",
+      "c-rtp-037",
+      "c-rtp-038",
+      "c-rtp-039",
+      "c-rtp-040",
+      "c-rtp-041",
+      "c-rtp-043",
+      "c-rtp-044",
+      "c-rtp-045",
+      "c-rtp-047",
+      "c-rtp-048",
+      "c-rtp-049",
+      "c-rtp-050"
+    ]
+  },
+  "subtopics": {
+    "Criteria-based progression": 30,
+    "Pain and effusion status": 15,
+    "Shared medical-performance decisions": 25,
+    "Reactive strength index (RSI)": 10,
+    "Limb-symmetry index (LSI)": 10,
+    "Strength and ROM symmetry": 15,
+    "Hop tests": 10,
+    "Y-Balance": 10,
+    "Sport-specific agility": 15,
+    "Psychological readiness / ACL-RSI": 10,
+    "Load monitoring": 35,
+    "Recovery": 15
+  },
+  "sourceIds": {
+    "aspetar-acl-cpg-2023": 11,
+    "bern-return-to-sport-2016": 32,
+    "nsca-essentials-5": 10,
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": 54,
+    "foundations-sport-exercise-psychology": 5,
+    "ioc-load-illness-2016": 69,
+    "brukner-khan-clinical-sports-medicine": 14,
+    "kisner-therapeutic-exercise": 5
+  },
+  "answerBalance": {
+    "counts": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "targetPerIndex": 50,
+    "balanced": true,
+    "maxConsecutiveSameIndex": 5,
+    "periodicPatternCheck": "deterministically shuffled answer pool; no fixed short cycle detected"
+  },
+  "difficulty": {
+    "applied": 80,
+    "analytical": 120
+  },
+  "schema": {
+    "valid": true,
+    "exactOptionCount": 4,
+    "correctIndex": "zero-based",
+    "topicExact": true,
+    "sourceIdsResolveAgainstCurrentCatalog": true
+  },
+  "continuity": {
+    "valid": true,
+    "firstId": "c-rtp-001-q1",
+    "lastId": "c-rtp-050-q4",
+    "consecutiveQuestionsPerCase": 4,
+    "passageCountByCase": "all cases contain exactly four records"
+  },
+  "sourceSuggestions": []
+}

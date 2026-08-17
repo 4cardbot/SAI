@@ -1,0 +1,265 @@
+{
+  "auditVersion": "1.0",
+  "status": "pass-with-review-flags",
+  "generatedAt": "2026-08-17",
+  "scope": {
+    "file": "question_bank/section_c_on_field_emergency_triage.json",
+    "topic": "On-Field & Emergency Triage",
+    "records": 200,
+    "cases": 50,
+    "questionsPerCase": 4,
+    "writeScope": [
+      "question_bank/section_c_on_field_emergency_triage.json",
+      "research/section_c_agent_audit_on_field_emergency_triage.json"
+    ]
+  },
+  "caseCounts": {
+    "records": 200,
+    "cases": 50,
+    "expectedRecords": 200,
+    "expectedCases": 50,
+    "expectedQuestionsPerCase": 4
+  },
+  "scaT6CaseCoverage": {
+    "sourceId": "ioc-concussion-amsterdam-2022",
+    "distinctCases": 20,
+    "requiredMinimum": 20,
+    "caseIds": [
+      "c-emergency-001",
+      "c-emergency-002",
+      "c-emergency-003",
+      "c-emergency-004",
+      "c-emergency-005",
+      "c-emergency-006",
+      "c-emergency-007",
+      "c-emergency-008",
+      "c-emergency-009",
+      "c-emergency-010",
+      "c-emergency-011",
+      "c-emergency-012",
+      "c-emergency-013",
+      "c-emergency-014",
+      "c-emergency-015",
+      "c-emergency-016",
+      "c-emergency-017",
+      "c-emergency-018",
+      "c-emergency-019",
+      "c-emergency-020"
+    ],
+    "directSupport": "Acute recognition, removal, red flags, SCAT6/Child SCAT6, relative rest, serial review, RTL, rehabilitation and RTS decisions."
+  },
+  "consensusCoverage": {
+    "doha-groin-consensus-2015": {
+      "distinctCases": 20,
+      "requiredMinimum": 20,
+      "caseIds": [
+        "c-emergency-021",
+        "c-emergency-022",
+        "c-emergency-023",
+        "c-emergency-024",
+        "c-emergency-025",
+        "c-emergency-026",
+        "c-emergency-027",
+        "c-emergency-028",
+        "c-emergency-029",
+        "c-emergency-030",
+        "c-emergency-031",
+        "c-emergency-032",
+        "c-emergency-033",
+        "c-emergency-034",
+        "c-emergency-035",
+        "c-emergency-036",
+        "c-emergency-037",
+        "c-emergency-038",
+        "c-emergency-039",
+        "c-emergency-040"
+      ]
+    },
+    "ioc-load-illness-2016": {
+      "distinctCases": 25,
+      "requiredMinimum": 20,
+      "caseIds": [
+        "c-emergency-021",
+        "c-emergency-022",
+        "c-emergency-023",
+        "c-emergency-024",
+        "c-emergency-025",
+        "c-emergency-026",
+        "c-emergency-027",
+        "c-emergency-028",
+        "c-emergency-029",
+        "c-emergency-030",
+        "c-emergency-031",
+        "c-emergency-032",
+        "c-emergency-033",
+        "c-emergency-034",
+        "c-emergency-035",
+        "c-emergency-036",
+        "c-emergency-037",
+        "c-emergency-038",
+        "c-emergency-039",
+        "c-emergency-040",
+        "c-emergency-046",
+        "c-emergency-047",
+        "c-emergency-048",
+        "c-emergency-049",
+        "c-emergency-050"
+      ]
+    }
+  },
+  "themesAndSubtopics": {
+    "topic": "On-Field & Emergency Triage",
+    "subtopicCounts": {
+      "SCAT6 acute concussion recognition and red flags": 34,
+      "Rest and exercise after concussion": 12,
+      "Primary survey and emergency action plan": 16,
+      "Graduated return-to-sport after concussion": 18,
+      "Child SCAT6 and youth considerations": 4,
+      "CRT6 and sideline removal": 1,
+      "Persisting concussion symptoms and referral": 4,
+      "Return-to-learn after concussion": 3,
+      "Doha adductor-related groin pain": 16,
+      "On-field decision-making and referral": 20,
+      "Training load, recovery and illness risk": 25,
+      "Doha iliopsoas-related groin pain": 4,
+      "Doha inguinal-related groin pain": 6,
+      "Doha pubic-related groin pain": 6,
+      "Doha multiple groin entities": 8,
+      "Catastrophic injury triage": 5,
+      "Cervical spine stabilization and log-roll": 5,
+      "Spinal trauma and coordinated log-roll": 5,
+      "Exertional heat stroke": 7,
+      "Heat illness triage": 1
+    },
+    "requiredCoverage": [
+      "SCAT6 acute concussion recognition and red flags",
+      "CRT6 and sideline removal",
+      "Child SCAT6 and youth considerations",
+      "Graduated return-to-sport after concussion",
+      "Return-to-learn after concussion",
+      "Persisting concussion symptoms and referral",
+      "Cervical spine stabilization and log-roll",
+      "Primary survey and emergency action plan",
+      "Catastrophic injury triage",
+      "Exertional heat stroke",
+      "Heat illness triage",
+      "Doha adductor-related groin pain",
+      "Doha iliopsoas-related groin pain",
+      "Doha inguinal-related groin pain",
+      "Doha pubic-related groin pain",
+      "Doha multiple groin entities",
+      "Training load, recovery and illness risk",
+      "On-field decision-making and referral"
+    ],
+    "minimumPresent": true
+  },
+  "sourceIds": {
+    "counts": {
+      "ioc-concussion-amsterdam-2022": 76,
+      "ioc-manual-sports-injuries": 24,
+      "doha-groin-consensus-2015": 40,
+      "brukner-khan-clinical-sports-medicine": 20,
+      "ioc-load-illness-2016": 25,
+      "acsm-getp-12": 15
+    },
+    "catalogMetadataInspected": {
+      "ioc-concussion-amsterdam-2022": {
+        "title": "Consensus statement on concussion in sport: Amsterdam 2022",
+        "locator": "BJSM 2023;57:695–711; acute removal, SCAT6/Child SCAT6, rest/exercise, RTL/RTS and persistent symptoms"
+      },
+      "doha-groin-consensus-2015": {
+        "title": "Doha agreement meeting on terminology and definitions in groin pain in athletes",
+        "locator": "BJSM 2015;49:768–774; adductor, iliopsoas, inguinal, pubic and multiple entities"
+      },
+      "ioc-load-illness-2016": {
+        "title": "IOC consensus statement on load in sport and risk of illness",
+        "locator": "BJSM 2016;50:1030–1041; training load, recovery, illness risk and monitoring"
+      },
+      "ioc-manual-sports-injuries": {
+        "title": "The IOC Manual of Sports Injuries",
+        "locator": "Supplied manual chapters on acute sports injury recognition, field management, spinal trauma and emergency transfer"
+      },
+      "acsm-getp-12": {
+        "title": "ACSM's Guidelines for Exercise Testing and Prescription",
+        "locator": "12th edition sections on exercise safety, environmental stress, primary survey and emergency procedures"
+      },
+      "brukner-khan-clinical-sports-medicine": {
+        "title": "Brukner and Khan's Clinical Sports Medicine",
+        "locator": "Supplied Volume 1 chapters on sports injury assessment and acute management"
+      }
+    },
+    "unresolved": [],
+    "sourceSuggestions": []
+  },
+  "answerBalance": {
+    "counts": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "expectedApproximatePerIndex": 50,
+    "exactBalanced": true,
+    "nonperiodic": {
+      "method": "seeded shuffle of 50 occurrences per zero-based index",
+        "repeatingPeriodsDetected": []
+    }
+  },
+  "difficulty": {
+    "counts": {
+      "foundational": 0,
+      "applied": 80,
+      "analytical": 120
+    },
+    "appliedPercent": 40,
+    "analyticalPercent": 60,
+    "target": "Approximately 40% applied and 60% analytical"
+  },
+  "schema": {
+    "validRecords": true,
+    "everySourceResolves": true,
+    "exactFourUniqueOptions": true
+  },
+  "continuity": {
+    "totalCases": 50,
+    "eachCaseExactlyFour": true,
+    "contiguousQuestionIds": true,
+    "passageIdsSequential": true,
+    "sharedPassageWithinCase": true
+  },
+  "optionReview": {
+    "correctStrictlyLongest": 65,
+    "correctStrictlyLongestPercent": 32.5,
+    "maxOptionLengthSpread": 31,
+    "reviewPolicy": "Flags are review cues; semantic correctness takes precedence over mechanical rejection."
+  },
+  "contentCoverage": {
+    "requiredEmergencyTopics": [
+      "spinal trauma",
+      "cervical stabilization/log-roll",
+      "catastrophic injury",
+      "exertional heat stroke",
+      "cool first, transport second",
+      "primary survey",
+      "emergency action plans"
+    ],
+    "represented": true,
+    "notes": "Heat cases explicitly use cool-first/transport-second when effective cooling is available; spinal cases preserve manual in-line stabilization and coordinated movement."
+  },
+  "auditChecksPassed": [
+    "Exactly 200 records",
+    "Exactly 50 sequential cases",
+    "Exactly four consecutive questions per case",
+    "Exact topic string",
+    "Stable IDs and zero-based correct indices",
+    "Four unique options per record",
+    "All source IDs resolve to inspected entries",
+    "Amsterdam/SCAT6 coverage meets 20 cases",
+    "Doha coverage meets 20 cases",
+    "IOC load coverage meets 20 cases",
+    "Answer indices exactly balanced 50/50/50/50",
+    "No short repeating answer-position period through 64",
+    "Emergency topics represented"
+  ],
+  "sourceSuggestions": []
+}

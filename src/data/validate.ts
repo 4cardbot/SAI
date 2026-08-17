@@ -46,7 +46,13 @@ const coverage: Record<Section, Array<[string, RegExp]>> = {
     ["sports physiotherapy, emergencies and travel", /sports physiotherapy|sports injury|return to sport|concussion|emergency action|heat stroke|travel/],
     ["sports medicine, nutrition and research", /sports medicine|nutrition|research|evidence|statistics|anti-doping/],
   ],
-  C: [],
+  C: [
+    ["lower extremity scenarios", /lower extremity scenarios|acl|hamstring|ankle sprain|patellar|achilles/],
+    ["upper extremity scenarios", /upper extremity scenarios|gird|rotator cuff|slap|epicondyl|de quervain/],
+    ["spine and pelvis scenarios", /spine & pelvis scenarios|spondylolysis|radiculopathy|sacroiliac|si joint/],
+    ["on-field and emergency triage", /on-field & emergency triage|concussion|scat6|heat stroke|spinal trauma/],
+    ["return to play frameworks", /return to play|rtp|limb symmetry|hop test|psychological readiness/],
+  ],
 };
 
 export function validateQuestionBank(bank: Question[]): ValidationResult {
@@ -80,7 +86,7 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });
 
-  const expected = { A1: 900, A2: 200, B: 1350, C: 240 };
+  const expected = { A1: 900, A2: 200, B: 1350, C: 1000 };
   sections.forEach((section) => {
     if (counts[section] !== expected[section]) errors.push(`${section} has ${counts[section]} questions; expected ${expected[section]}`);
   });
@@ -93,7 +99,7 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     });
   });
   passages.forEach((count, passageId) => {
-    if (count !== 2 && count !== 4) errors.push(`${passageId} has ${count} questions; expected 2 or 4`);
+    if (count !== 4) errors.push(`${passageId} has ${count} questions; Section C cases require exactly 4`);
   });
 
   return { valid: errors.length === 0, errors, counts, passageCount: passages.size };

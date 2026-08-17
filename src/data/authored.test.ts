@@ -9,14 +9,14 @@ describe("section-based authored question bank", () => {
     expect(SECTION_BANKS.A1).toHaveLength(900);
     expect(SECTION_BANKS.A2).toHaveLength(200);
     expect(SECTION_BANKS.B).toHaveLength(1350);
-    expect(SECTION_BANKS.C).toHaveLength(240);
+    expect(SECTION_BANKS.C).toHaveLength(1000);
     Object.entries(SECTION_BANKS).forEach(([section, questions]) => {
       questions.forEach((question) => expect(question.section).toBe(section));
     });
   });
 
   it("contain literal records with unique IDs and answer choices", () => {
-    expect(AUTHORED_QUESTION_BANK.length).toBe(2690);
+    expect(AUTHORED_QUESTION_BANK.length).toBe(3450);
     expect(new Set(AUTHORED_QUESTION_BANK.map((question) => question.id)).size).toBe(AUTHORED_QUESTION_BANK.length);
     expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section !== "C").map((question) => question.text)).size).toBe(2450);
     AUTHORED_QUESTION_BANK.forEach((question) => {
@@ -35,13 +35,13 @@ describe("section-based authored question bank", () => {
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A1")).toHaveLength(900);
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "A2")).toHaveLength(200);
     expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "B")).toHaveLength(1350);
-    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(240);
-    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(120);
+    expect(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C")).toHaveLength(1000);
+    expect(new Set(AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").map((question) => question.passageId)).size).toBe(250);
     const passageCounts = new Map<string, number>();
     AUTHORED_QUESTION_BANK.filter((question) => question.section === "C").forEach((question) => {
       passageCounts.set(question.passageId!, (passageCounts.get(question.passageId!) ?? 0) + 1);
       expect(question.passage?.length).toBeGreaterThan(20);
     });
-    expect([...passageCounts.values()].every((count) => count === 2 || count === 4)).toBe(true);
+    expect([...passageCounts.values()].every((count) => count === 4)).toBe(true);
   });
 });

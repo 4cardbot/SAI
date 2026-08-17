@@ -1,0 +1,268 @@
+{
+  "auditVersion": "6.0",
+  "auditType": "Independent final factual/content audit after RTP cleanup",
+  "generatedAt": "2026-08-17",
+  "releaseStatus": "pass_with_nonblocking_flags",
+  "releaseRecommendation": "All 27 previously reported factual and clinical-safety blockers remain resolved, with no remaining true blockers. RTP generated suffixes and malformed stems are gone. The bank passes the factual release gate; only previously documented non-blocking option-length, template-repetition, and broad-locator flags remain.",
+  "scope": {
+    "repository": "/Users/vigi/Developer/Code/SAI",
+    "durableFiles": [
+      "question_bank/section_c_lower_extremity.json",
+      "question_bank/section_c_upper_extremity.json",
+      "question_bank/section_c_spine_pelvis.json",
+      "question_bank/section_c_on_field_emergency_triage.json",
+      "question_bank/section_c_return_to_play.json"
+    ],
+    "mergedFile": "question_bank/section_c.json",
+    "questionsRead": 1000,
+    "casesRead": 250,
+    "questionsPerCase": 4,
+    "latestEditorialChanges": {
+      "repairLog": "research/section_c_repair_log.json",
+      "changeCount": 461,
+      "scope": "section_c_spine_pelvis.json options only"
+    },
+    "readEveryCurrentQuestionAndPassage": true,
+    "bankOrCodeFilesModified": false,
+    "onlyWrittenFile": "research/section_c_final_independent_factual_audit.json"
+  },
+  "targetedVerification": {
+    "id": "c-spine-041-q1",
+    "durableFile": "question_bank/section_c_spine_pelvis.json",
+    "mergedFile": "question_bank/section_c.json",
+    "durableAndMergedRecordsEqual": true,
+    "text": "Which source should be investigated more carefully?",
+    "options": [
+      "The lumbar spine and neural pathways",
+      "The adductor alone because any tenderness is diagnostic",
+      "Only the pubic symphysis",
+      "Only the ankle"
+    ],
+    "correct": 0,
+    "correctOption": "The lumbar spine and neural pathways",
+    "danglingCommaPresent": false,
+    "sourceId": "magee-orthopaedic-assessment",
+    "passageId": "c-spine-041",
+    "passage": "A 29-year-old footballer presents with groin pain, reduced lumbar movement and intermittent numbness into the posterior thigh. Adductor palpation is mildly uncomfortable but does not reproduce the athlete's main pain.",
+    "explanation": "Lumbar movement restriction and distal sensory symptoms make a spinal or neural contribution important to assess.",
+    "finding": "The corrected keyed option is grammatically complete and clinically supported by the passage. The reduced lumbar movement and posterior-thigh numbness justify investigating lumbar/neural contribution; mild adductor discomfort without reproduction of the main pain does not make the adductor-only distractor correct.",
+    "status": "resolved_no_blocker",
+    "latestSpine040Q3": {
+      "id": "c-spine-040-q3",
+      "durableFile": "question_bank/section_c_spine_pelvis.json",
+      "mergedFile": "question_bank/section_c.json",
+      "durableAndMergedRecordsEqual": true,
+      "text": "Which rehabilitation design best reflects the mixed presentation?",
+      "options": [
+        "Train only the most painful structure with no whole-chain work",
+        "Use passive treatment alone without active loading",
+        "Return directly to match intensity before full competition",
+        "Progress pelvic/adductor capacity before cutting/contact"
+      ],
+      "correct": 3,
+      "correctOption": "Progress pelvic/adductor capacity before cutting/contact",
+      "passageId": "c-spine-040",
+      "passage": "A 28-year-old rugby player has groin pain with adductor tenderness, pain on resisted adduction and coexisting pubic symphysis tenderness.",
+      "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
+      "finding": "The latest keyed option is complete, clinically supported by the mixed adductor/pubic presentation, and contains no residual generated padding or malformed punctuation.",
+      "status": "resolved_no_blocker"
+    },
+    "rtpCleanup": {
+      "durableFile": "question_bank/section_c_return_to_play.json",
+      "mergedFile": "question_bank/section_c.json",
+      "durableAndMergedRecordsEqual": true,
+      "generatedSuffixOccurrences": 0,
+      "generatedSuffixAffectedQuestions": 0,
+      "generatedSuffixAffectedCorrectOptions": 0,
+      "malformedStemOccurrences": 0,
+      "ellipsisOccurrences": 0,
+      "danglingPunctuationOccurrences": 0,
+      "status": "resolved_no_blocker"
+    }
+  },
+  "methodology": {
+    "checksPerformed": [
+      "Read all five current durable files and the current merged file; verified JSON-value equality between the merged array and concatenated durable arrays.",
+      "Read every current question, passage, option, explanation, correct index, sourceId, and passageId.",
+      "Rechecked all 27 IDs from the previous blocker report.",
+      "Reviewed the 461 latest spine option edits, including 127 edits to keyed correct options, for lost clinical qualifiers or changed meaning.",
+      "Re-read the local notification, sectionC_guidelines.md, SCAT6 Amsterdam 2022/BJSM 2023 PDF, Doha consensus PDF, IOC load/return-to-sport PDF, and cited IOC Manual PDF.",
+      "Targeted all consensus-source case ranges and manually inspected emergency concussion, heat-illness, spinal-trauma, Doha, and criteria-based return-to-sport items.",
+      "Recomputed RTP generated-text corruption, padding, grammar, repeated-stem, ellipsis, option-length, source-resolution, case-continuity, schema, and answer-position metrics.",
+      "Directly compared c-spine-040-q3 in its durable and merged records; its keyed option remains complete and passage-aligned.",
+      "Checked all 1000 current records for answer-index validity, option uniqueness, case passage continuity, and sourceId resolution; manually rechecked all 27 previous blocker IDs and targeted consensus/safety cases."
+      ,"Rechecked the cleaned RTP durable file and merged records for the former ‘with recovery controlled’, ‘with goals discussed’, ‘has has’, malformed stem, ellipsis, and dangling-punctuation patterns; all counts are zero."
+      ,"Directly compared c-spine-041-q1 in its durable and merged records and confirmed the corrected keyed option has no trailing comma."
+    ],
+    "blockerRule": "A true blocker requires an incorrect or materially ambiguous key, a passage that does not support the keyed decision, unsafe clinical management for the stated facts, or a keyed option too incomplete to answer unambiguously. Minor grammar, a dangling punctuation mark with an otherwise clear answer, repeated templates, broad locators, and length bias are non-blocking flags."
+  },
+  "sourceReview": {
+    "localSourcesRead": [
+      {"path": "_Final_ NOTIFICATION FOR PA REGULAR RECRUITMENT_30.01.2026.pdf", "locators": "Section C requirements, approximately English CBT pp. 14-15 and 22-23", "finding": "Section C is passage-based, analytical, sport-specific, and intended to reflect Performance Analyst scenarios."},
+      {"path": "sectionC_guidelines.md", "finding": "Operational five-theme structure and safety targets."},
+      {"path": "books/Consensus statement on concussion in sport.pdf", "locators": "pp. 6-10", "finding": "SCAT6/SCOAT6 roles, relative rest, mild/brief exacerbation, RTL, RTS steps, and minimum step intervals."},
+      {"path": "books/Doha agreement meeting on Groin Pain in Athletes.pdf", "locators": "pp. 1, 4-6", "finding": "Doha entities, recognizable pain, required tenderness/provocation findings, clinical correlation, and coexistence."},
+      {"path": "books/IOC Consensus Statements on Return to Sport and Load Management.pdf", "locators": "pp. 1-8", "finding": "Broad load definition, individual prescription, external/internal monitoring, well-being, symptoms, injury, and recovery."},
+      {"path": "books/The IOC Manual of Sports Injuries.pdf", "finding": "Cited emergency care, bone-stress escalation, and sports-injury management items."},
+      {"path": "src/data/sourceCatalog.ts", "finding": "All 20 used source IDs resolve; catalog local paths used by Section C exist."}
+    ],
+    "primaryPublicationLinks": [
+      {"sourceId": "ioc-concussion-amsterdam-2022", "url": "https://bjsm.bmj.com/content/57/11/695"},
+      {"sourceId": "doha-groin-consensus-2015", "url": "https://bjsm.bmj.com/content/49/12/768"},
+      {"sourceId": "ioc-load-illness-2016", "url": "https://bjsm.bmj.com/content/50/17/1043"},
+      {"sourceId": "bern-return-to-sport-2016", "url": "https://bjsm.bmj.com/content/50/14/853"}
+    ],
+    "webAccessNote": "BJSM pages returned HTTP 403 during the final pass; the supplied local PDFs were readable and used for the named consensus checks."
+  },
+  "structuralValidation": {
+    "durableFileCounts": {
+      "section_c_lower_extremity.json": 200,
+      "section_c_upper_extremity.json": 200,
+      "section_c_spine_pelvis.json": 200,
+      "section_c_on_field_emergency_triage.json": 200,
+      "section_c_return_to_play.json": 200
+    },
+    "mergedCount": 1000,
+    "mergedEqualsConcatenatedDurableFiles": true,
+    "caseCount": 250,
+    "caseContinuityErrors": 0,
+    "schemaErrors": 0,
+    "allQuestionsHaveFourOptions": true,
+    "allCorrectIndicesAreZeroBasedAndInRange": true,
+    "answerIndexCounts": [250, 250, 250, 250],
+    "sourceIdsUnresolved": [],
+    "conclusion": "Structural integrity, merged-file integrity, and answer-position balance pass."
+  },
+  "previousBlockerVerification": {
+    "previousBlockerCount": 27,
+    "resolvedCount": 27,
+    "remainingPreviousBlockers": [],
+    "resolvedIds": [
+      "c-lower-018-q1", "c-lower-031-q4", "c-lower-032-q4", "c-lower-033-q4", "c-lower-034-q4", "c-lower-042-q4", "c-lower-043-q4", "c-lower-044-q4",
+      "c-spine-001-q4", "c-spine-004-q2", "c-spine-010-q3", "c-spine-026-q4", "c-spine-033-q4", "c-spine-039-q1", "c-spine-039-q3", "c-spine-040-q1", "c-spine-040-q2", "c-spine-041-q3", "c-spine-045-q3", "c-spine-048-q3",
+      "c-emergency-011-q1", "c-emergency-011-q2", "c-emergency-019-q3", "c-emergency-033-q1", "c-emergency-036-q1", "c-emergency-048-q2", "c-emergency-048-q3"
+    ],
+    "verificationSummary": {
+      "lower": "All progression and bone-stress escalation keys now select case-relevant pain recurrence, persistent deficit, focal rest/night pain, or reduced walking load tolerance. The mixed Doha item now asks for the specific resisted-hip-flexion finding.",
+      "spine": "All previously incomplete keyed options are complete and clinically interpretable. Pars loading, dose tolerance, pelvic/adductor rehabilitation, MRI correlation, Doha findings, load monitoring, and hip-motion effects remain supported.",
+      "emergency": "The day-four concussion case now advances symptom-limited non-contact work; the mild/brief symptom-rise case holds and reassesses; the two unsupported Doha coexistence cases select the supported pubic-related presentation.",
+      "heat": "The oriented, improving heat-illness case now uses active cooling, monitoring, supervised observation, and escalation for worsening mental status/symptoms rather than an automatic heat-stroke transport key."
+    }
+  },
+  "latestSpineEditorialPass": {
+    "changesReviewed": 461,
+    "keyedCorrectOptionsReviewed": 127,
+    "paddingRemoval": {
+      "previousOccurrencesOfAfterAfter": 176,
+      "currentOccurrencesOfAfterAfter": 0,
+      "previousArticleErrors": 4,
+      "currentArticleErrors": 0,
+      "previousEllipsisQuestionCount": 131,
+      "currentEllipsisQuestionCount": 0,
+      "previousCaseAthletePaddingOccurrences": 240,
+      "currentCaseAthletePaddingOccurrences": 0,
+      "currentPaddingQuestionIds": [],
+      "currentPaddingIsInCorrectOptions": false
+    },
+    "contentReview": {
+      "finding": "The new concise keyed spine options preserve the relevant clinical proposition in the sampled and targeted items. Examples include pars loading, neurological red flags, dose tolerance, MRI clinical correlation, Doha examination, neural contribution, and load monitoring.",
+      "representativeReviewedIds": ["c-spine-001-q1", "c-spine-001-q4", "c-spine-003-q2", "c-spine-004-q4", "c-spine-006-q1", "c-spine-018-q4", "c-spine-020-q3", "c-spine-024-q2", "c-spine-030-q3", "c-spine-040-q2", "c-spine-045-q3", "c-spine-049-q2", "c-spine-050-q2"],
+      "resolvedEditorialFlag": {
+        "id": "c-spine-041-q1",
+        "previousFinding": "The keyed answer ended with a dangling comma.",
+        "currentFinding": "The keyed answer is now ‘The lumbar spine and neural pathways’ with no dangling comma.",
+        "classification": "resolved"
+      },
+      "remainingTrueBlockers": []
+    }
+  },
+  "consensusAndSafetyVerification": {
+    "SCAT6Amsterdam": {
+      "targetCases": "c-emergency-001 through c-emergency-020",
+      "sourceQuestionCount": 76,
+      "remainingTrueBlockers": [],
+      "finding": "Removal for suspected concussion/red flags, Child SCAT6 age use, relative rest, symptom-limited activity, at-least-24-hour RTS spacing, return-to-learn sequencing, and mild/brief symptom handling remain aligned with the local Amsterdam consensus PDF.",
+      "representativeIds": ["c-emergency-001-q1", "c-emergency-004-q2", "c-emergency-008-q3", "c-emergency-011-q1", "c-emergency-011-q3", "c-emergency-015-q1", "c-emergency-019-q3"]
+    },
+    "DohaGroin": {
+      "sourceQuestionCount": 104,
+      "remainingTrueBlockers": [],
+      "finding": "The repaired iliopsoas, pubic-related, coexisting-entity, MRI-correlation, and adductor-examination items remain supported by the local Doha consensus PDF.",
+      "representativeIds": ["c-lower-018-q1", "c-emergency-033-q1", "c-emergency-036-q1", "c-spine-039-q1", "c-spine-040-q1", "c-spine-040-q2", "c-spine-041-q3", "c-spine-044-q1"]
+    },
+    "IOCLoadAndRTS": {
+      "sourceQuestionCounts": {"ioc-load-illness-2016": 133, "bern-return-to-sport-2016": 32, "ioc-concussion-amsterdam-2022": 76},
+      "remainingTrueBlockers": [],
+      "finding": "Individualized load/recovery monitoring, no calendar-only clearance, shared decision-making, psychological-readiness limits, and sport-demand testing remain defensible. The latest spine shortening did not introduce a new load or return-to-sport key error.",
+      "representativeIds": ["c-spine-045-q3", "c-spine-047-q1", "c-spine-047-q2", "c-rtp-001-q3", "c-rtp-002-q3", "c-rtp-009-q2", "c-rtp-023-q2"]
+    },
+    "heatIllnessAndSpinalTrauma": {
+      "remainingTrueBlockers": [],
+      "heatIds": ["c-emergency-048-q1", "c-emergency-048-q2", "c-emergency-048-q3", "c-emergency-049-q1", "c-emergency-049-q2", "c-emergency-050-q1"],
+      "spinalTraumaIds": ["c-emergency-041-q1", "c-emergency-041-q3", "c-emergency-042-q1", "c-emergency-043-q1", "c-emergency-044-q1", "c-emergency-045-q1", "c-spine-049-q2", "c-spine-049-q4"],
+      "finding": "The targeted heat-illness and spinal-trauma keys remain clinically safe for their stated passages. Residual concerns are template repetition and option length only."
+    }
+  },
+  "remainingTrueBlockers": [],
+  "nonBlockingFlags": {
+    "RTPArtificialSuffixCorruption": {
+      "currentSuffixHitCount": 0,
+      "currentAffectedQuestionCount": 0,
+      "currentAffectedCorrectOptions": 0,
+      "recoveryControlledOccurrences": 0,
+      "goalsDiscussedOccurrences": 0,
+      "status": "resolved",
+      "finding": "The former generated ‘with recovery controlled’ and ‘with goals discussed’ tails are absent from both the RTP durable file and merged bank."
+    },
+    "RTPMalformedStems": {
+      "duplicateHasHasQuestionCount": 0,
+      "beforeHighDemandQuestionCount": 0,
+      "beforeAdvancingThisAQuestionCount": 0,
+      "status": "resolved",
+      "finding": "The former duplicate-word and malformed RTP stem constructions are absent."
+    },
+    "residualPadding": {"currentOptionOccurrences": 0, "questionIds": [], "correctOptionOccurrences": 0, "finding": "No current Section C option contains the previously targeted ‘in this case for this athlete / given these findings / stable recovery’ padding patterns; c-spine-040-q3 is clean."},
+    "danglingPunctuation": {"count": 0, "questionIds": [], "resolvedQuestionIds": ["c-spine-041-q1"], "finding": "The previously reported dangling comma in c-spine-041-q1 is no longer present in either the durable or merged record."},
+    "malformedPunctuationAndEllipsis": {"ellipsisCount": 0, "malformedPunctuationCount": 0, "duplicateWordCount": 0, "status": "resolved", "finding": "No ellipsis, repeated punctuation, space-before-punctuation, leading punctuation, dangling punctuation, or duplicate-word corruption was found across the current bank."},
+    "repeatedGenericStems": {
+      "uniqueNormalizedStems": 758,
+      "duplicateGroups": 87,
+      "questionsInDuplicateGroups": 309,
+      "finding": "The bank remains heavily templated. This reduces analytical variety but did not create a new answer-key or safety blocker.",
+      "representativeIds": ["c-lower-001-q3", "c-lower-020-q3", "c-emergency-021-q1", "c-emergency-036-q4", "c-emergency-041-q3", "c-rtp-001-q3", "c-rtp-003-q3", "c-rtp-004-q2", "c-rtp-009-q2"]
+    },
+    "optionLengthBias": {
+      "metric": "Strictly longest/shortest correct options, correct option at least 10 characters above the three-distractor median, and option spread above 15/20 characters.",
+      "global": {"questions": 1000, "correctStrictlyLongest": 349, "correctStrictlyLongestPercent": 34.9, "correctStrictlyShortest": 124, "correctStrictlyShortestPercent": 12.4, "correctAtLeast10AboveMedian": 308, "correctAtLeast10AboveMedianPercent": 30.8, "spreadOver15": 577, "spreadOver20": 386},
+      "byTheme": {
+        "Lower Extremity Scenarios": {"questions": 200, "correctStrictlyLongest": 4, "correctStrictlyShortest": 2, "correctAtLeast10AboveMedian": 36, "spreadOver15": 160, "spreadOver20": 113},
+        "Upper Extremity Scenarios": {"questions": 200, "correctStrictlyLongest": 135, "correctStrictlyShortest": 0, "correctAtLeast10AboveMedian": 104, "spreadOver15": 119, "spreadOver20": 95},
+        "Spine & Pelvis Scenarios": {"questions": 200, "correctStrictlyLongest": 79, "correctStrictlyShortest": 45, "correctAtLeast10AboveMedian": 73, "spreadOver15": 135, "spreadOver20": 105},
+        "On-Field & Emergency Triage": {"questions": 200, "correctStrictlyLongest": 66, "correctStrictlyShortest": 19, "correctAtLeast10AboveMedian": 57, "spreadOver15": 72, "spreadOver20": 27},
+        "Return to Play (RTP) Frameworks": {"questions": 200, "correctStrictlyLongest": 65, "correctStrictlyShortest": 58, "correctAtLeast10AboveMedian": 38, "spreadOver15": 91, "spreadOver20": 46}
+      },
+      "finding": "The global strictly-longest rate is 34.9%, just below the 35% review target. The latest spine pass removed padding but shortened many distractors as well, leaving 79/200 spine correct options strictly longest and 73/200 at least 10 characters above the three-distractor median. Upper extremity remains 135/200 strictly longest. This is a significant answer-detection risk, but not a factual blocker when the options remain clinically plausible.",
+      "representativeHighPriorityIds": ["c-spine-038-q2", "c-spine-035-q2", "c-spine-035-q3", "c-spine-032-q2", "c-spine-044-q3", "c-spine-040-q2", "c-spine-045-q3", "c-upper-047-q4", "c-upper-048-q4", "c-upper-049-q4", "c-upper-050-q4", "c-rtp-006-q4", "c-rtp-016-q4", "c-rtp-026-q4", "c-rtp-036-q4", "c-rtp-046-q4"]
+    },
+    "sourceLocatorQuality": {"usedSourceIds": 20, "unresolvedSourceIds": [], "finding": "Every question has one resolving primary sourceId. Some textbook entries remain broad book-level locators rather than exact chapter/page citations."}
+  },
+  "finalDisposition": {
+    "remainingTrueBlockerCount": 0,
+    "remainingTrueBlockerIds": [],
+    "releaseStatus": "pass_with_nonblocking_flags",
+    "recommendedPolishBeforeCallingFullyFinal": [
+      "Keep the completed RTP cleanup unchanged; no RTP corruption remains.",
+      "Keep c-spine-040-q3 unchanged unless further stylistic refinement is desired; its current options are clean and aligned.",
+      "Review spine and upper-extremity option sets with large correct-answer length advantages; do not add meaningless padding.",
+      "Reduce copied stems across cases if greater analytical variety is desired."
+    ],
+    "positiveFindings": [
+      "All 27 previously reported blockers remain resolved.",
+      "The final c-spine-041-q1 dangling-comma flag is resolved in both durable and merged files.",
+      "No new factual, answer-key, passage-alignment, or clinical-safety blocker was found.",
+      "Latest spine editorial changes removed all former ‘after after’, article, ellipsis, and targeted padding defects; c-spine-040-q3 is clean.",
+      "RTP generated suffixes, malformed stems, duplicate words, ellipses, and dangling punctuation are absent after cleanup.",
+      "Merged-file integrity, four-question case continuity, schema, source resolution, and exact answer-index balance pass."
+    ]
+  }
+}

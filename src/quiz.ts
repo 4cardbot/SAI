@@ -33,10 +33,22 @@ function chooseCaseQuestions(pool: Question[], seed: number, target: number): Qu
   throw new Error(`Unable to select exactly ${target} case-study questions`);
 }
 
+function shuffleCompleteCases(pool: Question[], seed: number): Question[] {
+  const byPassage = new Map<string, Question[]>();
+  pool.forEach((question) => {
+    if (!question.passageId) return;
+    const existing = byPassage.get(question.passageId) ?? [];
+    existing.push(question);
+    byPassage.set(question.passageId, existing);
+  });
+  const passageIds = shuffle([...byPassage.keys()], hashSeed(`${seed}:C:filtered-passages`));
+  return passageIds.flatMap((passageId) => byPassage.get(passageId) ?? []);
+}
+
 export function filterQuestions(bank: Question[], selection: TestSelection): Question[] {
   return bank.filter((question) => question.section === selection.section
     && question.topic === selection.topic
-    && (!selection.subtopic || question.subtopic === selection.subtopic));
+    && (selection.section === "C" || !selection.subtopic || question.subtopic === selection.subtopic));
 }
 
 function uniqueSorted(values: string[]): string[] {
@@ -48,6 +60,7 @@ export function topicsForSection(bank: Question[], section: Section): string[] {
 }
 
 export function subtopicsForSelection(bank: Question[], selection: Pick<TestSelection, "section" | "topic">): string[] {
+  if (selection.section === "C") return [];
   return uniqueSorted(bank
     .filter((question) => question.section === selection.section && question.topic === selection.topic)
     .map((question) => question.subtopic));
@@ -58,7 +71,10 @@ function generateFilteredAttemptQuestions(bank: Question[], seed: number, select
   if (matchingQuestions.length === 0) {
     throw new Error("The selected section, topic and subtopic contain no questions");
   }
-  return shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`)).map((question) => ({
+  const orderedQuestions = selection.section === "C"
+    ? shuffleCompleteCases(matchingQuestions, seed)
+    : shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`));
+  return orderedQuestions.map((question) => ({
     questionId: question.id,
     optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),
   }));

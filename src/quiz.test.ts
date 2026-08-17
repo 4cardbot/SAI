@@ -18,8 +18,7 @@ describe("quiz engine", () => {
     expect(first.filter((item) => byId.get(item.questionId)?.section === "C")).toHaveLength(20);
     const caseQuestions = first.filter((item) => byId.get(item.questionId)?.section === "C");
     const selectedPassages = new Set(caseQuestions.map((item) => byId.get(item.questionId)?.passageId));
-    expect(selectedPassages.size).toBeGreaterThanOrEqual(5);
-    expect(selectedPassages.size).toBeLessThanOrEqual(10);
+    expect(selectedPassages.size).toBe(5);
     selectedPassages.forEach((passageId) => {
       expect(caseQuestions.filter((item) => byId.get(item.questionId)?.passageId === passageId).length).toBe(
         QUESTION_BANK.filter((question) => question.passageId === passageId).length,
@@ -71,6 +70,22 @@ describe("quiz engine", () => {
     expect(subtopicAttempt.questions).toHaveLength(subtopicQuestions.length);
     expect(subtopicAttempt.questions.every((item) => byId.get(item.questionId)?.subtopic === subtopic)).toBe(true);
     expect(subtopicAttempt.remainingMs).toBe(durationForQuestionCount(subtopicQuestions.length));
+  });
+
+  it("filters Section C by theme only and preserves complete four-question cases", () => {
+    const topic = topicsForSection(QUESTION_BANK, "C")[0];
+    const matching = filterQuestions(QUESTION_BANK, { section: "C", topic });
+    expect(matching).toHaveLength(200);
+    expect(subtopicsForSelection(QUESTION_BANK, { section: "C", topic })).toEqual([]);
+    const attempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { section: "C", topic });
+    expect(attempt.questions).toHaveLength(200);
+    const passageCounts = new Map<string, number>();
+    attempt.questions.forEach((item) => {
+      const passageId = byId.get(item.questionId)?.passageId!;
+      passageCounts.set(passageId, (passageCounts.get(passageId) ?? 0) + 1);
+    });
+    expect(passageCounts.size).toBe(50);
+    expect([...passageCounts.values()].every((count) => count === 4)).toBe(true);
   });
 
   it("gives new attempts different question selections when their seeds differ", () => {

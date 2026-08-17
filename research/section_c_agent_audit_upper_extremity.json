@@ -1,0 +1,351 @@
+{
+  "status": "pass-with-review-flags",
+  "generatedAt": "2026-08-17",
+  "scope": "Upper Extremity Scenarios",
+  "files": {
+    "questionBank": "question_bank/section_c_upper_extremity.json",
+    "audit": "research/section_c_agent_audit_upper_extremity.json"
+  },
+  "counts": {
+    "questions": 200,
+    "cases": 50,
+    "questionsPerCase": 4,
+    "topicQuestions": 200,
+    "topicCases": 50
+  },
+  "continuity": {
+    "allCasesFourQuestions": true,
+    "allContiguous": true,
+    "caseReports": [
+      {
+        "passageId": "c-upper-001",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-002",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-003",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-004",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-005",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-006",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-007",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-008",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-009",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-010",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-011",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-012",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-013",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-014",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-015",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-016",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-017",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-018",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-019",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-020",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-021",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-022",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-023",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-024",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-025",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-026",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-027",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-028",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-029",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-030",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-031",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-032",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-033",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-034",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-035",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-036",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-037",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-038",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-039",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-040",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-041",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-042",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-043",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-044",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-045",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-046",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-047",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-048",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-049",
+        "count": 4,
+        "contiguous": true
+      },
+      {
+        "passageId": "c-upper-050",
+        "count": 4,
+        "contiguous": true
+      }
+    ]
+  },
+  "coverage": {
+    "subtopics": {
+      "Glenohumeral internal-rotation deficit (GIRD)": 28,
+      "Subacromial pain and load-sensitive shoulder pain": 28,
+      "Rotator-cuff pathology": 28,
+      "Superior labral (SLAP) and biceps-related shoulder injury": 24,
+      "Lateral epicondylalgia": 28,
+      "Medial epicondylalgia": 28,
+      "De Quervain tenosynovitis": 20,
+      "Upper-extremity assessment, differential diagnosis and performance decisions": 16
+    },
+    "required": [
+      "GIRD",
+      "subacromial pain",
+      "rotator cuff",
+      "SLAP",
+      "lateral epicondylalgia",
+      "medial epicondylalgia",
+      "de Quervain’s",
+      "assessment",
+      "differential diagnosis",
+      "loading",
+      "sport-performance decisions"
+    ],
+    "note": "Assessment, differential diagnosis, loading and sport-performance decisions are integrated across all cases and question roles."
+  },
+  "sources": {
+    "ids": [
+      "brukner-khan-clinical-sports-medicine",
+      "magee-orthopaedic-assessment",
+      "kisner-therapeutic-exercise",
+      "sports-injury-prevention-rehabilitation-joyce-lewindon",
+      "konin-special-tests-orthopedic-examination"
+    ],
+    "counts": {
+      "brukner-khan-clinical-sports-medicine": 46,
+      "magee-orthopaedic-assessment": 39,
+      "kisner-therapeutic-exercise": 50,
+      "sports-injury-prevention-rehabilitation-joyce-lewindon": 50,
+      "konin-special-tests-orthopedic-examination": 15
+    },
+    "sourcePolicy": "Existing catalog IDs only; no additional source research performed."
+  },
+  "schema": {
+    "allSectionC": true,
+    "exactlyFourUniqueOptions": true,
+    "zeroBasedCorrect": true,
+    "requiredPassageFields": true
+  },
+  "difficulty": {
+    "applied": 80,
+    "analytical": 120
+  },
+  "answerBalance": {
+    "indices": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "target": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "nonperiodic": true,
+    "periodsWithExactRepeat": []
+  },
+  "optionLengthReview": {
+    "strictLongest": 190,
+    "strictShortest": 0,
+    "flagged": "Review only; no automatic rejection."
+  },
+  "duplicateChecks": {
+    "uniqueIds": 200,
+    "uniqueStems": 200
+  },
+  "errors": []
+}

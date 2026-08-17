@@ -61,9 +61,10 @@ function TestSetup({ onStart }: { onStart: (selection: TestSelection) => void })
   const [topic, setTopic] = useState("");
   const [subtopic, setSubtopic] = useState("");
   const availableTopics = useMemo(() => section ? topicsForSection(QUESTION_BANK, section) : [], [section]);
-  const availableSubtopics = useMemo(() => section && topic ? subtopicsForSelection(QUESTION_BANK, { section, topic }) : [], [section, topic]);
+  const isCaseStudySection = section === "C";
+  const availableSubtopics = useMemo(() => !isCaseStudySection && section && topic ? subtopicsForSelection(QUESTION_BANK, { section, topic }) : [], [isCaseStudySection, section, topic]);
   const matchingCount = section && topic
-    ? filterQuestions(QUESTION_BANK, { section, topic, subtopic: subtopic || undefined }).length
+    ? filterQuestions(QUESTION_BANK, { section, topic, subtopic: isCaseStudySection ? undefined : subtopic || undefined }).length
     : 0;
 
   const selectSection = (nextSection: Section | "") => {
@@ -80,7 +81,7 @@ function TestSetup({ onStart }: { onStart: (selection: TestSelection) => void })
   const submit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!section || !topic || matchingCount === 0) return;
-    onStart({ section, topic, subtopic: subtopic || undefined });
+    onStart({ section, topic, subtopic: isCaseStudySection ? undefined : subtopic || undefined });
   };
 
   return <section className="test-setup" id="test-setup">
@@ -88,7 +89,7 @@ function TestSetup({ onStart }: { onStart: (selection: TestSelection) => void })
     <form className="setup-form" onSubmit={submit}>
       <label><span>Section</span><select value={section} onChange={(event) => selectSection(event.target.value as Section | "")} required><option value="">Choose a section</option>{(["A1", "A2", "B", "C"] as Section[]).map((item) => <option key={item} value={item}>{item} · {SECTION_LABELS[item].replace(/^Section [A-Z0-9]+ · /, "")}</option>)}</select></label>
       <label><span>Topic</span><select value={topic} onChange={(event) => selectTopic(event.target.value)} disabled={!section} required><option value="">Choose a topic</option>{availableTopics.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-      <label><span>Subtopic <small>(optional)</small></span><select value={subtopic} onChange={(event) => setSubtopic(event.target.value)} disabled={!topic}><option value="">All subtopics</option>{availableSubtopics.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+      {!isCaseStudySection && <label><span>Subtopic <small>(optional)</small></span><select value={subtopic} onChange={(event) => setSubtopic(event.target.value)} disabled={!topic}><option value="">All subtopics</option>{availableSubtopics.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>}
       <div className="setup-summary" aria-live="polite">{matchingCount > 0 ? <><strong>{matchingCount} questions</strong><span>{formatTime(durationForQuestionCount(matchingCount))} allocated at the standard pace</span></> : <span>Select a section and topic to preview the test size and time.</span>}</div>
       <button className="primary-button" type="submit" disabled={matchingCount === 0}>Start test</button>
     </form>
@@ -100,7 +101,7 @@ function HomeScreen({ state, onStart, onStartFull, onResume, onPrepareNewTest, o
   const result = state.latestResult;
   return <main className="page-shell home-shell">
     <section className="hero-card">
-      <div><p className="eyebrow">Physiotherapy · Performance Analyst</p><h2>Build confidence one topic at a time.</h2><p className="hero-copy">Choose a section and topic, optionally narrow it to a subtopic, and practice every matching question with immediate explanations and a saved attempt you can resume.</p></div>
+      <div><p className="eyebrow">Physiotherapy · Performance Analyst</p><h2>Build confidence one topic at a time.</h2><p className="hero-copy">Choose a section and topic, optionally narrow Sections A1, A2 or B to a subtopic, and practice every matching question with immediate explanations and a saved attempt you can resume. Section C is organized as complete theme-based case studies.</p></div>
       <div className="hero-score"><span>All</span><small>matching</small><span>72s</span><small>per question</small></div>
     </section>
     <TestSetup onStart={onStart} />

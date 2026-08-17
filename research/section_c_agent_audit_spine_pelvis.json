@@ -1,0 +1,275 @@
+{
+  "auditVersion": 4,
+  "status": "pass-with-review-flags",
+  "scope": "Spine & Pelvis Section C agent bank only",
+  "generatedAt": "2026-08-17",
+  "files": {
+    "bank": "question_bank/section_c_spine_pelvis.json",
+    "audit": "research/section_c_agent_audit_spine_pelvis.json",
+    "modifiedOnly": [
+      "question_bank/section_c_spine_pelvis.json",
+      "research/section_c_agent_audit_spine_pelvis.json"
+    ]
+  },
+  "counts": {
+    "records": 200,
+    "cases": 50,
+    "questionsPerCase": [
+      4
+    ],
+    "recordsPerTheme": 200,
+    "uniqueQuestionStems": 200,
+    "duplicateQuestionStems": 0
+  },
+  "officialSubtopicCoverage": {
+    "mappingNote": "Cases integrate multiple spine, pelvis and groin concepts; each question has one primary subtopic.",
+    "questionCounts": {
+      "Spondylolysis and spondylolisthesis": 19,
+      "Extension-rotation lumbar loading": 7,
+      "Load management and progression": 43,
+      "Differential diagnosis and progression": 37,
+      "Red flags and referral": 19,
+      "Return-to-sport decision making": 20,
+      "Discogenic radiculopathy": 11,
+      "Directional preference and centralization": 5,
+      "Neurodynamic assessment: SLR and slump": 11,
+      "SI-joint pain and provocation cluster": 9,
+      "Pelvic and groin differential diagnosis": 19
+    },
+    "minimumQuestionsPerMappedSubtopic": 5,
+    "coveredAreas": [
+      "Spondylolysis and spondylolisthesis",
+      "Fast-bowler and gymnast extension-rotation presentations",
+      "Discogenic radiculopathy",
+      "SLR and slump neurodynamic assessment",
+      "Directional preference and centralization",
+      "SI-joint pain and provocation clusters",
+      "Pelvic and groin differential diagnosis",
+      "Load management and progression",
+      "Red flags and referral",
+      "Return-to-sport decision making"
+    ]
+  },
+  "sourceUse": {
+    "magee-orthopaedic-assessment": {
+      "questionCount": 44,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": {
+      "questionCount": 28,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "ioc-load-illness-2016": {
+      "questionCount": 26,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "doha-groin-consensus-2015": {
+      "questionCount": 23,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "shacklock-clinical-neurodynamics": {
+      "questionCount": 14,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "brukner-khan-clinical-sports-medicine-vol2": {
+      "questionCount": 12,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "ioc-manual-sports-injuries": {
+      "questionCount": 12,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "neumann-kinesiology": {
+      "questionCount": 11,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "brukner-khan-clinical-sports-medicine": {
+      "questionCount": 10,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "konin-special-tests-orthopedic-examination": {
+      "questionCount": 9,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "kisner-therapeutic-exercise": {
+      "questionCount": 9,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    },
+    "world-physiotherapy-ebp-2023": {
+      "questionCount": 2,
+      "existingCatalogId": true,
+      "localOrInspectedSource": true
+    }
+  },
+  "inspectedSourceIds": [
+    "brukner-khan-clinical-sports-medicine",
+    "brukner-khan-clinical-sports-medicine-vol2",
+    "magee-orthopaedic-assessment",
+    "konin-special-tests-orthopedic-examination",
+    "sports-injury-prevention-rehabilitation-joyce-lewindon",
+    "ioc-load-illness-2016",
+    "ioc-manual-sports-injuries",
+    "shacklock-clinical-neurodynamics",
+    "kisner-therapeutic-exercise",
+    "neumann-kinesiology",
+    "doha-groin-consensus-2015",
+    "world-physiotherapy-ebp-2023",
+    "world-physiotherapy-consent-2023"
+  ],
+  "answerBalance": {
+    "correctIndexCounts": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "targetPerIndex": 50,
+    "balanced": true,
+    "repeatingPeriodsChecked": "1-24",
+    "repeatingPeriods": []
+  },
+  "difficulty": {
+    "counts": {
+      "applied": 80,
+      "analytical": 120
+    },
+    "appliedTarget": 80,
+    "analyticalTarget": 120,
+    "appliedPercent": 0.4,
+    "analyticalPercent": 0.6
+  },
+  "schema": {
+    "valid": true,
+    "errors": [],
+    "exactlyFourUniqueOptions": true,
+    "zeroBasedCorrectIndices": true,
+    "requiredFieldsPresent": true
+  },
+  "caseContinuity": {
+    "everyCaseHasFourQuestions": true,
+    "questionsContiguous": true,
+    "expectedPassageIds": [
+      "c-spine-001",
+      "c-spine-050"
+    ],
+    "firstAndLastIds": [
+      "c-spine-001-q1",
+      "c-spine-050-q4"
+    ],
+    "allPassageIdsSequential": true
+  },
+  "provenance": {
+    "onePrimarySourcePerQuestion": true,
+    "sourcesResolvedAgainstExistingCatalog": true,
+    "sourceTraceabilityNote": "Each explanation is tied to the inspected local textbook or consensus scope represented by its existing source catalog ID."
+  },
+  "optionReview": {
+    "flagOnly": true,
+    "correctStrictlyLongest": 7,
+    "correctStrictlyLongestPercent": 0.035,
+    "correctStrictlyShortest": 63,
+    "correctStrictlyShortestPercent": 0.315,
+    "wideSpreadCount": 13,
+    "wideSpreadThresholdCharacters": 15,
+    "wideSpreadFlags": [
+      {
+        "id": "c-spine-001-q3",
+        "spread": 19,
+        "correctIsStrictlyLongest": true,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-006-q2",
+        "spread": 19,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-012-q1",
+        "spread": 18,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": true
+      },
+      {
+        "id": "c-spine-018-q4",
+        "spread": 17,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-019-q1",
+        "spread": 20,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-020-q1",
+        "spread": 17,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-024-q1",
+        "spread": 16,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-034-q3",
+        "spread": 18,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-035-q2",
+        "spread": 18,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": true
+      },
+      {
+        "id": "c-spine-036-q1",
+        "spread": 16,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": true
+      },
+      {
+        "id": "c-spine-040-q3",
+        "spread": 17,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      },
+      {
+        "id": "c-spine-046-q2",
+        "spread": 19,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": true
+      },
+      {
+        "id": "c-spine-046-q3",
+        "spread": 17,
+        "correctIsStrictlyLongest": false,
+        "correctIsStrictlyShortest": false
+      }
+    ],
+    "method": "Options were semantically retained and compacted or given concise case-relevant qualifiers; all flags remain review-only."
+  },
+  "sourceSuggestions": [],
+  "exclusions": [
+    "section_c.json",
+    "other question banks",
+    "src/data/sourceCatalog.ts",
+    "app code",
+    "scripts"
+  ]
+}
