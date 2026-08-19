@@ -86,7 +86,7 @@ for (const sourceId of requiredSources) {
 
 await writeFile("question_bank/section_c.json", `${JSON.stringify(all, null, 2)}\n`);
 await writeFile("research/section_c_coverage_manifest.json", `${JSON.stringify({
-  generatedAt: "2026-08-17",
+  generatedAt: "2026-08-19",
   section: "C",
   total: all.length,
   questionsPerTheme: 200,

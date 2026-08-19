@@ -7,12 +7,12 @@
     "difficulty": "applied",
     "text": "Which diagnosis best fits the examination and MRI pattern?",
     "options": [
-      "A lumbar disc extrusion with nerve-root compression",
-      "A primary sacroiliac ligament sprain",
-      "An active pars stress injury (early spondylolysis)",
-      "A hamstring origin tendinopathy"
+      "Active pars stress injury",
+      "Disc herniation with root signs",
+      "Sacroiliac joint pain pattern",
+      "Proximal hamstring injury"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "The focal extension-rotation pain and pars marrow oedema indicate an active stress injury before a complete pars defect is established.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-001",
@@ -26,12 +26,12 @@
     "difficulty": "applied",
     "text": "What is the most appropriate immediate training modification?",
     "options": [
+      "Remove bowling and painful extension-rotation",
       "Continue full bowling but add passive lumbar stretching",
       "Use repeated maximal back extensions to desensitize the pars",
-      "Stop all physical activity until the MRI becomes normal",
-      "Remove bowling and painful extension-rotation"
+      "Stop all physical activity until the MRI becomes normal"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Early management reduces the provoking extension-rotation load while retaining safe conditioning; prolonged complete rest is not automatically required.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-001",
@@ -46,9 +46,9 @@
     "text": "Which finding should be present before a return-to-bowling progression begins?",
     "options": [
       "Pain-free daily activity",
-      "A normal single-leg hyperextension test despite ongoing resting pain",
-      "A fixed six-week date regardless of symptoms or strength",
-      "The ability to bowl one maximal spell immediately"
+      "Normal stork test despite rest pain",
+      "A fixed six-week timeline",
+      "One maximal bowling spell"
     ],
     "correct": 0,
     "explanation": "Return should be criteria-based: symptoms, movement control and functional loading must be acceptable before sport-specific exposure.",
@@ -64,12 +64,12 @@
     "difficulty": "analytical",
     "text": "Why is the front-foot phase a plausible contributor to this athlete's symptoms?",
     "options": [
-      "The phase keeps the lumbar spine in unloaded flexion",
       "Repeated lumbar extension and rotation increase pars loading.",
+      "The phase keeps the lumbar spine in unloaded flexion",
       "It isolates hamstring work without meaningful trunk motion",
       "It prevents force transfer through the pelvis and lumbar spine"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Fast bowling can expose the lumbar pars to repeated combined extension and rotation; workload and technique determine the accumulated stress.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-001",
@@ -83,12 +83,12 @@
     "difficulty": "applied",
     "text": "Which clinical pattern most strongly supports a pars stress reaction rather than uncomplicated delayed-onset muscle soreness?",
     "options": [
-      "Diffuse soreness that resolves during the first warm-up",
-      "Pain only after meals with no movement relationship",
-      "Bilateral calf tingling provoked by ankle motion",
-      "Focal extension-related pain"
+      "Focal, repeated extension pain",
+      "Warm-up eases diffuse soreness",
+      "Pain unrelated to movement",
+      "Ankle movement causes calf tingling"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Persistent, focal, mechanically reproduced extension pain in a gymnast warrants evaluation for a pars stress injury rather than assuming muscle soreness.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-002",
@@ -102,12 +102,12 @@
     "difficulty": "applied",
     "text": "How should the positive one-leg hyperextension or stork test be interpreted?",
     "options": [
-      "As a pain-provocation finding",
-      "As a standalone confirmation of a pars fracture",
-      "As proof that the sacroiliac joint is the pain source",
-      "As evidence that no imaging or follow-up is required"
+      "Confirms a pars fracture on its own",
+      "Reproduces the athlete's familiar pain",
+      "Confirms the SI joint as pain source",
+      "Rules out imaging or follow-up"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "The test may reproduce extension pain but is not sufficiently specific to establish the diagnosis alone; clinical reasoning and appropriate imaging are required.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-002",
@@ -119,14 +119,14 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Spondylolysis and spondylolisthesis",
     "difficulty": "analytical",
-    "text": "Which imaging approach is most useful for detecting an early bone stress response in this case?",
+    "text": "Which imaging approach is most useful for detecting an early bone stress response in this presentation?",
     "options": [
-      "Plain radiography alone during the first painful session",
-      "MRI demonstrating marrow oedema",
-      "Diagnostic ultrasound of the paraspinal muscles",
-      "A nerve-conduction study of the lower limbs"
+      "MRI showing marrow oedema",
+      "Plain radiograph at first presentation",
+      "Ultrasound of paraspinal muscles",
+      "Nerve-conduction study of both legs"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "MRI can show bone marrow oedema in an early stress response when a visible cortical defect is not yet complete.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-002",
@@ -140,12 +140,12 @@
     "difficulty": "analytical",
     "text": "Which rehabilitation plan best balances protection and physical preparation?",
     "options": [
-      "Prescribe repeated end-range bridges to strengthen through pain",
-      "Use bed rest until all spinal movement is avoided",
-      "Temporarily remove painful skills",
-      "Return to full routines once the athlete can tolerate passive stretching"
+      "Repeated end-range bridges through pain",
+      "Bed rest until spinal movement is restored",
+      "Full routines after passive stretching",
+      "Temporarily remove painful skills"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "The athlete should reduce the provocative gymnastics exposure while preserving appropriate conditioning and gradually rebuilding capacity.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-002",
@@ -159,12 +159,12 @@
     "difficulty": "applied",
     "text": "What distinguishes the imaging diagnosis of spondylolisthesis from isolated spondylolysis?",
     "options": [
-      "Anterior translation of one vertebra relative to the next",
-      "Inflammation confined to a sacroiliac ligament",
-      "A disc bulge without any vertebral translation",
-      "A fracture of the transverse process only"
+      "Sacroiliac-ligament inflammation",
+      "Disc bulge without translation",
+      "Anterior vertebral translation",
+      "Isolated transverse-process fracture"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Spondylolysis describes a pars defect; spondylolisthesis denotes vertebral translation, which can follow bilateral pars defects.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-003",
@@ -178,12 +178,12 @@
     "difficulty": "applied",
     "text": "Why does a bilateral pars defect in a skeletally immature athlete require follow-up?",
     "options": [
+      "Growth and loading may worsen vertebral slip or symptoms.",
       "A bilateral defect always causes immediate cauda equina syndrome",
       "The defect inevitably heals if the athlete continues bowling",
-      "Growth and loading may worsen vertebral slip or symptoms.",
       "The finding is unrelated to growth or mechanical loading"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "In a young athlete, growth and continued extension-rotation loading can influence symptoms and slip progression, so clinical follow-up is appropriate.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-003",
@@ -197,12 +197,12 @@
     "difficulty": "analytical",
     "text": "Which assessment is most important before prescribing high-load bowling drills?",
     "options": [
-      "Only a hamstring flexibility measurement",
       "Neurological screen plus hip examination",
+      "Only a hamstring flexibility measurement",
       "Only the athlete's preferred bowling speed",
       "Only a static posture photograph"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Neurological status and adjacent-region movement help identify risk, functional limitations and alternative contributors to the presentation.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-003",
@@ -216,12 +216,12 @@
     "difficulty": "analytical",
     "text": "Which return plan is most defensible once symptoms and function have improved?",
     "options": [
-      "Start with a maximal match spell to test tolerance",
-      "Increase only the number of rest days and not the bowling dose",
-      "Use a fixed calendar date as the sole clearance criterion",
-      "Progress bowling volume"
+      "Progress bowling volume",
+      "Start with a maximal spell",
+      "Add rest days without increasing dose",
+      "Use a calendar date alone"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "A graded sport-specific exposure allows the team to monitor the athlete's response and avoid abrupt reloading.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-003",
@@ -236,11 +236,11 @@
     "text": "Which finding is most directly related to the primary spinal lesion?",
     "options": [
       "Mild bilateral hamstring tightness alone",
-      "Pain reproduced by lumbar extension-rotation",
       "A painless reduction in hip internal rotation",
+      "Pain reproduced by lumbar extension-rotation",
       "A symmetrical shoulder range of motion"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The focal, mechanically reproduced extension-rotation pain corresponds most closely to the symptomatic pars lesion.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-004",
@@ -256,10 +256,10 @@
     "options": [
       "It confirms a primary hamstring tear despite no tear signs",
       "It makes the pars lesion incidental in every athlete",
-      "It justifies ignoring spinal loading during rehabilitation",
-      "A modifiable associated impairment, not the sole diagnosis"
+      "A modifiable associated impairment, not the sole diagnosis",
+      "It justifies ignoring spinal loading during rehabilitation"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Associated flexibility or movement findings can influence rehabilitation but do not independently establish the pain generator.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-004",
@@ -273,12 +273,12 @@
     "difficulty": "analytical",
     "text": "Which exercise emphasis is most appropriate during early rehabilitation?",
     "options": [
-      "Repeated loaded lumbar hyperextension to restore confidence",
-      "High-volume twisting drills before basic control is restored",
-      "Hip and trunk control in neutral or symptom-free ranges",
-      "Passive stretching as the only intervention"
+      "Loaded lumbar hyperextension",
+      "High-volume twisting drills",
+      "Passive stretching alone",
+      "Neutral-range hip and trunk control"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Early rehabilitation builds capacity while minimizing the specific extension-rotation provocation and then progresses loading.",
     "sourceId": "kisner-therapeutic-exercise",
     "passageId": "c-spine-004",
@@ -292,12 +292,12 @@
     "difficulty": "analytical",
     "text": "Which new development would most urgently change the management pathway?",
     "options": [
-      "Progressive weakness or bowel/bladder change",
-      "Mild post-training stiffness that resolves overnight",
+      "Post-training stiffness resolving overnight",
       "Improved hip extension without pain",
-      "A stable symptom score during walking"
+      "New weakness or bowel/bladder change",
+      "Stable walking tolerance without escalation"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Progressive neurological deficit or sphincter disturbance is a red flag requiring urgent medical assessment.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-004",
@@ -309,14 +309,14 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Differential diagnosis and progression",
     "difficulty": "applied",
-    "text": "Which working diagnosis should be prioritized while the athlete is being assessed?",
+    "text": "Which working diagnosis should be prioritized from this presentation?",
     "options": [
-      "An isolated calf strain causing referred lumbar pain",
-      "A primary cervical radiculopathy",
-      "Mechanical lumbar bone-stress or posterior-element injury",
-      "A non-mechanical visceral disorder without screening"
+      "Mechanical posterior-element pain",
+      "Calf strain with referred back pain",
+      "Cervical radiculopathy pattern",
+      "Non-mechanical visceral pain"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "The sport, rapid workload increase and extension-rotation pain make a posterior-element or pars stress injury an important working diagnosis.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-005",
@@ -369,11 +369,11 @@
     "text": "Which bowling modification most directly reduces the immediate exposure?",
     "options": [
       "Increase spell frequency at lower rest intervals",
-      "Reduce spell volume and remove high-intensity bowling",
       "Add maximal resisted trunk rotation after every session",
+      "Reduce spell volume and remove high-intensity bowling",
       "Replace bowling with repeated back-extension drills"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Reducing the acute bowling dose addresses the exposure while allowing continued general preparation within symptom limits.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-005",
@@ -387,12 +387,12 @@
     "difficulty": "applied",
     "text": "Which feature most strongly supports prompt medical review rather than routine exercise progression?",
     "options": [
-      "A transient ache only after a long warm-up",
       "Focal pain at rest or night in a young athlete",
+      "A transient ache only after a long warm-up",
       "A normal neurological screen by itself",
       "Mild bilateral shoulder fatigue after practice"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Persistent focal or night pain in a young athlete warrants further assessment even when neurological findings are normal.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-006",
@@ -406,12 +406,12 @@
     "difficulty": "applied",
     "text": "Which diagnosis should remain high on the differential?",
     "options": [
-      "An isolated wrist overuse injury",
-      "A primary ankle syndesmosis sprain",
-      "A cervical facet disorder",
-      "Lumbar pars stress injury from repeated extension"
+      "Pars stress reaction on MRI",
+      "Wrist overuse injury pattern",
+      "Ankle syndesmosis sprain",
+      "Cervical facet disorder"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Repeated gymnastics extension and focal lumbar pain are characteristic reasons to evaluate for a pars stress injury.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-006",
@@ -425,12 +425,12 @@
     "difficulty": "analytical",
     "text": "What is the safest immediate training decision while awaiting review?",
     "options": [
+      "Continue full routines pending imaging",
       "Stop painful extension skills",
-      "Continue full routines until imaging confirms a fracture",
-      "Use repeated painful bridges as a diagnostic exercise",
-      "Prescribe complete inactivity without reassessment"
+      "Repeat painful bridges diagnostically",
+      "Stop all activity without review"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "The painful exposure should be removed while safe conditioning is preserved and the athlete is medically assessed.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-006",
@@ -444,12 +444,12 @@
     "difficulty": "analytical",
     "text": "Which finding would increase concern for a non-mechanical cause?",
     "options": [
+      "Fever, weight loss, or non-mechanical pain",
       "Pain that reliably changes with extension loading",
       "Improvement with reduced practice volume",
-      "Fever, weight loss, or non-mechanical pain",
       "A reproducible local movement restriction"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Systemic symptoms or non-mechanical pain patterns expand the differential and require medical evaluation.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-006",
@@ -463,12 +463,12 @@
     "difficulty": "applied",
     "text": "What does a low-grade slip represent in this context?",
     "options": [
-      "A small degree of anterior vertebral translation",
       "A complete spinal cord injury regardless of symptoms",
       "A diagnosis of nerve compression in every athlete",
-      "A normal radiograph that excludes all lumbar pathology"
+      "A normal radiograph that excludes all lumbar pathology",
+      "A small degree of anterior vertebral translation"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Radiographic translation is a structural finding; its clinical relevance depends on symptoms, examination and progression rather than the image alone.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-007",
@@ -483,11 +483,11 @@
     "text": "Which examination result would most alter the immediate risk assessment?",
     "options": [
       "Improved single-leg balance",
-      "Normal hip rotation bilaterally",
-      "New dermatomal loss, reflex change, or myotomal weakness",
-      "Mild tightness after practice"
+      "Normal hip rotation without pain",
+      "Mild post-practice tightness",
+      "New neurological deficit"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Neurological deficits may indicate nerve-root involvement and change referral and activity decisions.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-007",
@@ -501,12 +501,12 @@
     "difficulty": "analytical",
     "text": "Which rehabilitation focus is most appropriate when symptoms are mechanical and neurological findings are normal?",
     "options": [
+      "Progressive trunk, hip, and sport control",
       "Avoid all trunk training indefinitely",
-      "Progressive trunk, hip, and sport-specific control",
       "Use passive modalities as the sole treatment",
       "Increase extension loading to test the slip"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Criteria-based active rehabilitation can improve capacity while respecting the athlete's painful loading pattern.",
     "sourceId": "kisner-therapeutic-exercise",
     "passageId": "c-spine-007",
@@ -520,10 +520,10 @@
     "difficulty": "analytical",
     "text": "Which situation most clearly supports specialist referral?",
     "options": [
-      "A stable low-grade slip with no symptoms",
-      "Normal training tolerance with no functional loss",
-      "A single painless extension movement",
-      "Progressive slip, disabling pain, or neurological compromise"
+      "Stable low-grade slip without symptoms",
+      "Normal training tolerance",
+      "A single painless extension",
+      "Progressive slip or neuro deficit"
     ],
     "correct": 3,
     "explanation": "Progression, neurological compromise or failure of appropriate conservative care warrants specialist assessment.",
@@ -558,12 +558,12 @@
     "difficulty": "applied",
     "text": "Which initial wrestling modification is most appropriate?",
     "options": [
-      "Continue bridging but add more repetitions",
-      "Stop all wrestling skills including pain-free positions",
-      "Use maximal passive lumbar flexion after each drill",
-      "Replace painful bridging"
+      "Bridge work with more repetitions",
+      "Stop all wrestling indefinitely",
+      "Replace painful bridging drills",
+      "Use passive lumbar flexion only"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "The exposure should be modified specifically, preserving safe sport preparation and avoiding unnecessary deconditioning.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-008",
@@ -577,10 +577,10 @@
     "difficulty": "analytical",
     "text": "Which statement best explains why a pars defect can be symptomatic without leg pain?",
     "options": [
-      "All pars defects must compress the spinal cord",
-      "Leg pain is required before a pars lesion can be diagnosed",
-      "The lesion can generate localized posterior-element pain",
-      "Localized pain always proves disc herniation"
+      "All pars defects compress the cord",
+      "Leg pain is required for diagnosis",
+      "Localized posterior-element pain",
+      "Localized pain proves disc herniation"
     ],
     "correct": 2,
     "explanation": "A pars stress injury may be a local mechanical pain source; radicular symptoms are not required.",
@@ -596,12 +596,12 @@
     "difficulty": "analytical",
     "text": "Which finding would best support progression to controlled contact drills?",
     "options": [
-      "Pain-free sport-specific movement",
       "A normal scan despite pain during bridging",
       "A fixed time interval without functional testing",
+      "Pain-free sport-specific movement",
       "Tolerance of one maximal drill only"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Progression should reflect symptom response, movement control and repeated-load tolerance rather than imaging or time alone.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-008",
@@ -615,10 +615,10 @@
     "difficulty": "applied",
     "text": "Which impairment pattern is most consistent with the presentation?",
     "options": [
-      "Posterior-element pain aggravated by extension-rotation",
-      "A primary nerve-root tension pattern with distal symptoms",
-      "A systemic inflammatory syndrome with morning stiffness only",
-      "An isolated abdominal wall strain"
+      "Extension-rotation posterior-element pain",
+      "Nerve-root tension with distal symptoms",
+      "Inflammatory syndrome with morning stiffness",
+      "Focal abdominal wall strain without back pain"
     ],
     "correct": 0,
     "explanation": "The absence of distal or systemic findings and the reproducible extension-rotation pain support a localized posterior-element pattern.",
@@ -635,11 +635,11 @@
     "text": "Which additional finding would make discogenic radiculopathy more likely?",
     "options": [
       "Pain only during a painless back extension movement",
+      "Concordant leg pain with neurological change",
       "Normal reflexes and sensation with no leg symptoms",
-      "A local paraspinal tenderness without radiation",
-      "Concordant leg pain with neurological change"
+      "A local paraspinal tenderness without radiation"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Radicular presentations are supported by concordant distal symptoms plus neurological or neurodynamic findings, not by local back pain alone.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-009",
@@ -653,10 +653,10 @@
     "difficulty": "analytical",
     "text": "Which exercise selection is most defensible during the painful phase?",
     "options": [
-      "Repeated maximal backbends to restore extension tolerance",
-      "Loaded rotation to fatigue at every session",
+      "Repeated backbends to restore extension",
+      "Loaded rotation to fatigue",
       "Neutral-range hip and trunk strengthening",
-      "No strengthening until the athlete is completely asymptomatic at rest"
+      "No strengthening until fully symptom-free"
     ],
     "correct": 2,
     "explanation": "Symptom-limited active exercise maintains capacity while avoiding the specific aggravating movement.",
@@ -691,12 +691,12 @@
     "difficulty": "applied",
     "text": "Which change best indicates clinical improvement before sport-specific loading?",
     "options": [
-      "A normal scan before any functional improvement",
-      "Pain-free daily movement",
-      "A single painless passive stretch despite training pain",
-      "An increased bowling speed with persistent local pain"
+      "Pain-free daily movement tolerance",
+      "Normal scan before function improves",
+      "Painless stretch despite training pain",
+      "Faster bowling with local pain"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Clinical improvement should precede reloading; imaging changes may lag behind symptoms and function.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-010",
@@ -710,10 +710,10 @@
     "difficulty": "applied",
     "text": "How should the first bowling exposure be organized?",
     "options": [
-      "A full match workload to evaluate readiness",
-      "Maximum-intensity deliveries without a volume cap",
-      "Random exposure with no record of symptoms",
-      "Short, low-intensity spells"
+      "Full match workload immediately",
+      "Max-intensity deliveries without cap",
+      "Unrecorded random exposure",
+      "Short, low-intensity bowling spells"
     ],
     "correct": 3,
     "explanation": "A controlled dose permits observation of the athlete's response and limits an abrupt workload spike.",
@@ -748,12 +748,12 @@
     "difficulty": "analytical",
     "text": "Why is a calendar-based return alone inadequate?",
     "options": [
-      "Healing always occurs at exactly six weeks",
-      "Time has no relationship to rehabilitation decisions",
-      "Bone capacity, bowling load, and symptoms vary between athletes",
-      "A calendar date measures neurological function directly"
+      "Capacity, load, and symptoms vary",
+      "Healing always takes six weeks",
+      "Time does not guide rehabilitation decisions",
+      "A date does not measure function"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Time can guide planning but cannot replace individual clinical and functional criteria.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-010",
@@ -767,10 +767,10 @@
     "difficulty": "applied",
     "text": "Which diagnosis should be considered before labelling the symptoms a nonspecific muscle strain?",
     "options": [
-      "An isolated wrist flexor tendinopathy",
-      "A primary cervical nerve entrapment",
-      "Posterior-element stress injury from repetitive extension",
-      "A non-mechanical abdominal disorder without screening"
+      "Wrist flexor tendinopathy",
+      "Cervical nerve entrapment",
+      "Posterior-element stress injury",
+      "Non-mechanical abdominal disorder"
     ],
     "correct": 2,
     "explanation": "Repetitive extension with focal mechanical pain is a recognized presentation requiring assessment for posterior-element stress.",
@@ -787,11 +787,11 @@
     "text": "Which finding would favor hip pathology over a lumbar posterior-element source?",
     "options": [
       "Pain only with lumbar extension-rotation",
-      "Groin pain with restricted hip motion",
       "Normal hip range with local lumbar tenderness",
-      "No symptoms during hip loading"
+      "No symptoms during hip loading",
+      "Groin pain with restricted hip motion"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Hip pathology is more likely when symptoms are reproduced by hip examination and accompanied by motion restriction or a coherent hip pattern.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-011",
@@ -805,12 +805,12 @@
     "difficulty": "analytical",
     "text": "What is the best way to modify dance practice initially?",
     "options": [
+      "Continue arches with heat",
+      "Stop dance and conditioning",
       "Reduce arch repetitions",
-      "Continue all arches but add passive heat",
-      "Stop all dance and conditioning for an indefinite period",
-      "Test tolerance by increasing arch depth each day"
+      "Increase arch depth daily"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Specific exposure reduction with preserved conditioning is preferable to either unmodified practice or unnecessary total rest.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-011",
@@ -824,10 +824,10 @@
     "difficulty": "analytical",
     "text": "Which symptom would require urgent reassessment rather than routine progression?",
     "options": [
-      "Mild stiffness after a long rehearsal",
-      "Improved pain with reduced arch work",
-      "Symmetric hip range of motion",
-      "New weakness, saddle anaesthesia, or bladder dysfunction"
+      "Mild stiffness after rehearsal",
+      "Improved pain after reducing arches",
+      "Symmetric hip motion without pain",
+      "New weakness or saddle/bladder change"
     ],
     "correct": 3,
     "explanation": "New neurological or sphincter symptoms are urgent red flags in an athlete with spinal pain.",
@@ -843,12 +843,12 @@
     "difficulty": "applied",
     "text": "Which description best fits a grade-I slip?",
     "options": [
-      "A posterior translation of more than half the vertebral body",
-      "A complete vertebral dislocation",
-      "Low-grade anterior translation under 25%",
-      "A pars stress reaction without any translation"
+      "Posterior translation over 50%",
+      "Anterior translation under 25%",
+      "Complete vertebral dislocation",
+      "Pars stress reaction without slip"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "The Meyerding system grades anterior translation; grade I is the lowest slip category, below 25%.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-012",
@@ -864,10 +864,10 @@
     "options": [
       "The athlete should bowl through pain to build tolerance",
       "The symptom pattern proves neurological compression",
-      "The athlete needs only passive hamstring stretching",
-      "The current exposure exceeds tissue capacity"
+      "The current exposure exceeds tissue capacity",
+      "The athlete needs only passive hamstring stretching"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Symptoms that appear at a predictable dose provide useful load information and support an adjusted progression.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-012",
@@ -881,12 +881,12 @@
     "difficulty": "analytical",
     "text": "Which functional outcome is most relevant before increasing the overs?",
     "options": [
-      "A single maximal delivery without follow-up",
-      "Pain-free trunk control",
-      "A normal shoulder range of motion only",
-      "A normal radiograph without functional testing"
+      "One maximal delivery without follow-up",
+      "Shoulder range of motion alone",
+      "Pain-free trunk-control repetitions",
+      "Normal radiograph without functional testing"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The planned exposure and recovery response should be tested before increasing volume.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-012",
@@ -900,12 +900,12 @@
     "difficulty": "analytical",
     "text": "Which examination should be repeated if new leg symptoms appear?",
     "options": [
-      "Myotomes, dermatomes, reflexes, and neurodynamics",
-      "Only lumbar extension range",
-      "Only abdominal endurance",
-      "Only a static pelvic alignment measure"
+      "Lumbar extension only",
+      "Neurological retesting",
+      "Abdominal endurance only",
+      "Static pelvic alignment only"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "New distal symptoms require a neurological screen to assess possible nerve-root involvement.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-012",
@@ -919,12 +919,12 @@
     "difficulty": "applied",
     "text": "Which finding makes a localized mechanical lumbar source more likely than radiculopathy?",
     "options": [
-      "Local pain without distal or neurological signs",
-      "Pain radiating below the knee with weakness",
-      "A positive crossed straight-leg raise with calf pain",
-      "Progressive dermatomal numbness"
+      "Radiating below-knee pain with weakness",
+      "Local pain without distal signs",
+      "Crossed SLR with concordant calf pain",
+      "Progressive dermatomal sensory loss"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Radiculopathy is supported by distal and neurological findings; localized mechanical pain alone points elsewhere.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-013",
@@ -939,11 +939,11 @@
     "text": "Which lifting modification most directly reduces the suspected provocation?",
     "options": [
       "Add end-range lumbar extension after every set",
+      "Neutral trunk; reduce loaded extension-rotation",
       "Increase load while shortening rest intervals",
-      "Replace the deadlift with maximal trunk twisting",
-      "Neutral trunk; reduce loaded extension-rotation"
+      "Replace the deadlift with maximal trunk twisting"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Reducing the provoking lumbar movement and rebuilding the hip hinge addresses load distribution without abandoning strength training.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-013",
@@ -957,12 +957,12 @@
     "difficulty": "analytical",
     "text": "Which outcome is most useful for deciding whether the training dose is tolerated?",
     "options": [
+      "Pain during and after lifting together",
       "Only the heaviest successful repetition",
       "Only resting pain before training",
-      "Pain during and after lifting together",
       "Only the athlete's preferred exercise"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Load tolerance is a repeated response, not a single-session maximum; monitoring delayed symptoms and quality is important.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-013",
@@ -977,11 +977,11 @@
     "text": "Which additional history would most change the differential?",
     "options": [
       "Pain that improves with load reduction",
-      "Unexplained weight loss, fever or pain",
       "Stable hip strength bilaterally",
+      "Unexplained weight loss, fever or pain",
       "Normal sensation in both feet"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Systemic or non-mechanical features warrant medical evaluation for causes beyond routine mechanical back pain.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-013",
@@ -995,10 +995,10 @@
     "difficulty": "applied",
     "text": "What is the most appropriate next step?",
     "options": [
-      "Return directly to full routines because jogging is pain-free",
-      "Progress foundational control",
-      "Use maximal back handsprings to test healing",
-      "Remove all conditioning until extension is painless"
+      "Return after pain-free jogging",
+      "Progress neutral trunk control",
+      "Test with maximal back handsprings",
+      "Pause conditioning until extension settles"
     ],
     "correct": 1,
     "explanation": "Tolerance of general activity does not establish tolerance of repeated gymnastics extension; the sport-specific step should be graded.",
@@ -1014,12 +1014,12 @@
     "difficulty": "applied",
     "text": "Which result would argue against advancing to full skill volume?",
     "options": [
-      "Pain that increases later that day or next morning",
       "Stable symptoms during neutral conditioning",
+      "Pain increases later or next morning",
       "Improved trunk endurance without pain",
-      "Pain-free low-intensity skill practice"
+      "Pain-free low-intensity skills"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Delayed symptom escalation indicates the dose is too high even if the session itself was tolerated.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-014",
@@ -1033,12 +1033,12 @@
     "difficulty": "analytical",
     "text": "Why can a normal neurological examination coexist with symptomatic spondylolysis?",
     "options": [
-      "A normal neurological exam rules out all spinal pain",
-      "Pars lesions always affect the spinal cord first",
-      "Neurological testing measures bone healing directly",
-      "The pars lesion may be painful"
+      "Normal exam rules out spinal pain",
+      "Pars lesions always affect the cord",
+      "Pars lesion itself may generate pain",
+      "Neurological tests measure bone healing"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Local bone or posterior-element pain does not require nerve-root compression.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-014",
@@ -1052,12 +1052,12 @@
     "difficulty": "analytical",
     "text": "Which complementary assessment is most relevant to reduce extension demand during skills?",
     "options": [
-      "Only grip strength",
-      "Only visual acuity",
+      "Grip strength without trunk testing",
       "Hip extension and thoracic mobility",
-      "Only resting heart rate"
+      "Visual acuity without movement testing",
+      "Resting heart rate without mobility testing"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Adjacent-region mobility and trunk control can influence how extension loads are distributed during gymnastics skills.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-014",
@@ -1071,12 +1071,12 @@
     "difficulty": "applied",
     "text": "Which combination best explains the recurrence risk?",
     "options": [
-      "A low training load with no mechanical repetition",
-      "Only reduced shoulder external rotation",
-      "A technical extension-rotation exposure",
-      "Only a single painless warm-up"
+      "Repeated extension-rotation technique",
+      "Low load without repeated extension",
+      "Reduced shoulder external rotation",
+      "One painless warm-up only"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Recurrent injury risk reflects both the movement exposure and the rate at which the athlete's bowling load was increased.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-015",
@@ -1090,12 +1090,12 @@
     "difficulty": "applied",
     "text": "Which monitoring strategy is most useful for this bowler?",
     "options": [
-      "Record only the fastest delivery of the week",
       "Record bowling volume, intensity, recovery",
+      "Record only the fastest delivery of the week",
       "Record only resting heart rate once per month",
       "Use no monitoring because symptoms are subjective"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "A longitudinal record helps the staff relate external workload and athlete response to subsequent progression decisions.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-015",
@@ -1128,12 +1128,12 @@
     "difficulty": "analytical",
     "text": "Which clinical change would justify stepping back from the progression?",
     "options": [
-      "Improved recovery between low-dose sessions",
-      "Stable pain-free walking",
-      "Better hip strength with no back symptoms",
-      "Recurrent focal pain or new neurological findings"
+      "Improved recovery after low-dose sessions",
+      "Stable pain-free walking tolerance",
+      "Recurrent pain or new neurological signs",
+      "Improved hip strength without back pain"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Return of the original pain or new neurological signs indicates that the current plan needs reassessment.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-015",
@@ -1147,10 +1147,10 @@
     "difficulty": "applied",
     "text": "Which impairment is most relevant to address before high-repetition landing practice?",
     "options": [
-      "A painless reduction in wrist flexion",
+      "Painless wrist-flexion loss",
       "Inadequate trunk endurance",
-      "An isolated ankle range deficit with no landing effect",
-      "A normal resting lumbar posture"
+      "Ankle range deficit affecting landing",
+      "Normal resting lumbar posture"
     ],
     "correct": 1,
     "explanation": "Fatigue-related loss of trunk control may increase repeated extension exposure during landing and should be addressed.",
@@ -1166,10 +1166,10 @@
     "difficulty": "applied",
     "text": "Which exercise progression is most appropriate?",
     "options": [
-      "Start with maximal fatigued landings to reproduce technique",
-      "Use only passive lumbar mobilization",
-      "Build anti-extension endurance, then add landing",
-      "Avoid all lower-limb strengthening"
+      "Fatigued landings to test technique",
+      "Passive lumbar mobilization only",
+      "Build anti-extension endurance",
+      "Avoid lower-limb strengthening"
     ],
     "correct": 2,
     "explanation": "The progression links foundational capacity to the sport demand and observes technique under progressively relevant fatigue.",
@@ -1185,12 +1185,12 @@
     "difficulty": "analytical",
     "text": "Which test result is most meaningful before increasing repetition count?",
     "options": [
-      "One perfect landing at the start of practice",
-      "A painless lumbar flexion stretch only",
-      "A normal scan without skill testing",
-      "Consistent landing mechanics"
+      "One perfect landing at practice start",
+      "Consistent landing mechanics across drills",
+      "Painless lumbar flexion stretch alone",
+      "Normal scan without skill testing"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Repeated quality under a representative dose is more informative than a single isolated attempt.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-016",
@@ -1204,12 +1204,12 @@
     "difficulty": "analytical",
     "text": "Why should hip and thoracic movement be assessed as well?",
     "options": [
-      "Other restrictions can shift extension demand to the lumbar spine",
-      "They determine pars healing directly",
+      "They directly determine pars healing",
+      "Restrictions may shift lumbar loading",
       "They replace neurological screening",
-      "They make lumbar examination unnecessary"
+      "They make lumbar assessment unnecessary"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Whole-chain assessment helps identify modifiable contributors to movement strategy while retaining a focused lumbar examination.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-016",
@@ -1223,12 +1223,12 @@
     "difficulty": "applied",
     "text": "How should these lower-limb findings influence the plan?",
     "options": [
-      "Treat them as modifiable kinetic-chain impairments",
-      "Use them to prove the pars lesion is healed",
-      "Ignore them because the pain is lumbar",
-      "Replace all trunk rehabilitation with ankle stretching"
+      "Use findings to declare the pars healed",
+      "Ignore them because pain is lumbar",
+      "Replace trunk work with ankle stretching",
+      "Address modifiable kinetic-chain impairments"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Lower-limb control can influence force transfer and trunk strategy, so it should be integrated into rehabilitation without being mistaken for proof of bony healing.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-017",
@@ -1242,10 +1242,10 @@
     "difficulty": "applied",
     "text": "Which drill is the best starting point for rebuilding force transfer?",
     "options": [
-      "Maximal single-leg back extension",
-      "Repeated full-speed bowling from the first session",
-      "Neutral low-load hip control and trunk stabilization",
-      "Loaded twisting to exhaustion"
+      "Single-leg back extension",
+      "Full-speed bowling immediately",
+      "Neutral hip and trunk control",
+      "Loaded twisting to fatigue"
     ],
     "correct": 2,
     "explanation": "Low-load control drills can restore coordination before sport-specific high-speed exposure.",
@@ -1261,12 +1261,12 @@
     "difficulty": "analytical",
     "text": "Which progression criterion is most defensible?",
     "options": [
-      "The athlete can hold one static position for ten seconds",
-      "The athlete reports confidence despite poor movement quality",
-      "The athlete reaches a calendar milestone",
-      "The athlete maintains alignment"
+      "Hold one static position for 10 seconds",
+      "Maintain alignment under load",
+      "Report confidence despite poor mechanics",
+      "Reach a calendar milestone"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Repeated movement quality and symptoms better represent readiness for increased bowling demands.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-017",
@@ -1280,10 +1280,10 @@
     "difficulty": "analytical",
     "text": "What should not be inferred from improved gluteal endurance alone?",
     "options": [
-      "That the kinetic chain has improved",
-      "It confirms structural healing of the pars injury",
+      "That the kinetic chain improved",
+      "It confirms structural healing of the pars",
       "That exercise can continue if pain-free",
-      "That the bowling dose may eventually be progressed"
+      "That the bowling dose may eventually progress"
     ],
     "correct": 1,
     "explanation": "Functional improvement supports rehabilitation but does not independently establish osseous healing.",
@@ -1299,10 +1299,10 @@
     "difficulty": "applied",
     "text": "Which pattern most supports a disc-related directional presentation?",
     "options": [
-      "Local pain that is unchanged by all movement",
-      "Distal symptoms with flexion",
-      "Pain isolated to the groin with hip rotation",
-      "Symptoms that occur only during ankle inversion"
+      "Local pain unchanged by movement",
+      "Distal symptoms provoked by flexion",
+      "Groin pain with hip rotation",
+      "Symptoms only during ankle inversion"
     ],
     "correct": 1,
     "explanation": "The relationship between loading direction and symptom distribution is consistent with a disc-related mechanical presentation, although diagnosis requires examination.",
@@ -1318,12 +1318,12 @@
     "difficulty": "applied",
     "text": "What is the described symptom response called?",
     "options": [
-      "Centralization",
-      "Peripheralization",
-      "Referred muscle soreness",
-      "Delayed-onset stiffness"
+      "Peripheralization of distal symptoms",
+      "Referred muscle soreness after loading",
+      "Delayed-onset stiffness after training",
+      "Centralization of distal symptoms"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Centralization is the movement of distal symptoms toward the spinal midline or proximal region during a repeated movement response.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-018",
@@ -1337,12 +1337,12 @@
     "difficulty": "analytical",
     "text": "Which initial exercise strategy best matches the observed response?",
     "options": [
+      "Use carefully dosed extension-biased movements",
       "Repeated flexion loading to reproduce leg pain",
       "End-range rotation to fatigue the trunk",
-      "Complete bed rest until all symptoms disappear",
-      "Use carefully dosed extension-biased movements"
+      "Complete bed rest until all symptoms disappear"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "The observed directional preference can guide an individualized exercise trial, provided symptoms are monitored and not driven distally.",
     "sourceId": "kisner-therapeutic-exercise",
     "passageId": "c-spine-018",
@@ -1356,12 +1356,12 @@
     "difficulty": "analytical",
     "text": "Which finding would require a more urgent referral during this plan?",
     "options": [
-      "Less leg pain with improved walking",
+      "Less leg pain with better walking",
+      "New weakness or bladder change",
       "Stable reflexes and sensation",
-      "Progressive motor loss, saddle anaesthesia, or bladder change",
-      "A modest reduction in sitting tolerance"
+      "Slightly less sitting tolerance"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Progressive neurological loss or cauda equina features are red flags requiring urgent assessment.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-018",
@@ -1375,12 +1375,12 @@
     "difficulty": "applied",
     "text": "What does the SLR finding most strongly suggest?",
     "options": [
-      "Neural irritability provoked by leg movement",
-      "A definite hamstring tear without any spinal contribution",
-      "A confirmed sacroiliac joint lesion",
-      "A normal neural examination"
+      "Hamstring tear without neural signs",
+      "Neural irritability on leg movement",
+      "Confirmed SI-joint lesion on testing",
+      "Normal neural examination throughout"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Concordant symptoms reproduced by SLR and sensitized by dorsiflexion support a neural component, though the whole examination remains necessary.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-019",
@@ -1394,12 +1394,12 @@
     "difficulty": "applied",
     "text": "Which additional finding would strengthen an L5 or S1 radiculopathy diagnosis?",
     "options": [
-      "Only isolated paraspinal tenderness",
-      "Myotomal weakness with reflex or sensory change",
-      "A normal neurological screen with no leg symptoms",
-      "Pain-free repeated lumbar flexion"
+      "Weakness with neurological change",
+      "Paraspinal tenderness alone",
+      "Normal neurological screen",
+      "Pain-free lumbar flexion"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Radiculopathy is supported by a coherent neurological pattern in addition to symptoms and neurodynamic findings.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-019",
@@ -1411,7 +1411,7 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Differential diagnosis and progression",
     "difficulty": "analytical",
-    "text": "Why is dorsiflexion useful during the SLR in this case?",
+    "text": "Why is dorsiflexion useful during the SLR in this presentation?",
     "options": [
       "The finding isolates the lumbar facet joints",
       "The finding tests the sacroiliac ligaments directly",
@@ -1432,10 +1432,10 @@
     "difficulty": "analytical",
     "text": "Which change should stop routine field rehabilitation and prompt medical referral?",
     "options": [
-      "Leg pain that centralizes with a graded movement",
+      "Leg pain centralizing with movement",
       "Improved walking tolerance",
-      "Stable symptoms after reduced training",
-      "Worsening weakness or bladder-control loss"
+      "Stable symptoms after load reduction",
+      "New weakness or bladder-control loss"
     ],
     "correct": 3,
     "explanation": "Progressive neurological deficit or sphincter disturbance is an urgent red flag.",
@@ -1452,7 +1452,7 @@
     "text": "What interpretation is most appropriate?",
     "options": [
       "The result proves a disc extrusion",
-      "SLR may reflect hamstring or interface restriction",
+      "SLR may reflect hamstring or interface",
       "The result confirms sacroiliac instability",
       "The result excludes all posterior-thigh injury"
     ],
@@ -1472,7 +1472,7 @@
     "options": [
       "Repeat SLR forcefully until pain increases",
       "Assess only lumbar posture at rest",
-      "Compare resisted and lengthened hamstring testing",
+      "Compare hamstring loading tests",
       "Use a single sacroiliac test as a diagnosis"
     ],
     "correct": 2,
@@ -1491,10 +1491,10 @@
     "options": [
       "Progressive myotomal weakness",
       "Dermatomal numbness with reflex change",
-      "Concordant leg pain altered by sensitizing movements",
-      "Normal sensation, strength"
+      "Normal strength and sensation",
+      "Leg pain altered by neural sensitizers"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "A normal neurological screen and absent concordant neural symptoms reduce, but do not alone eliminate, the likelihood of radiculopathy.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-020",
@@ -1508,12 +1508,12 @@
     "difficulty": "analytical",
     "text": "What is the safest testing principle in this scenario?",
     "options": [
-      "Use a controlled sequence",
-      "Use repeated end-range tensioners until symptoms are severe",
-      "Interpret pain intensity alone without location or behavior",
-      "Ignore the athlete's familiar symptoms"
+      "Repeat end-range tensioners until severe",
+      "Judge intensity without location or behavior",
+      "Ignore the athlete's familiar symptoms",
+      "Use a controlled testing sequence"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Neurodynamic tests should be performed progressively and interpreted by symptom behavior, not by forcing a painful end range.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-020",
@@ -1527,10 +1527,10 @@
     "difficulty": "applied",
     "text": "Why is the change with contralateral neck side-flexion clinically useful?",
     "options": [
-      "It suggests neural involvement but does not identify one lesion",
-      "The finding proves the lumbar disc is the only possible lesion",
-      "The finding isolates the sacroiliac joint",
-      "The finding demonstrates a hamstring tear directly"
+      "Suggests neural mechanosensitivity",
+      "Only possible with a lumbar disc lesion",
+      "Localizes the pain to the SI joint",
+      "Confirms a hamstring tear"
     ],
     "correct": 0,
     "explanation": "A remote sensitizing movement can alter neural loading and help differentiate neural symptoms from local muscle or joint pain.",
@@ -1546,12 +1546,12 @@
     "difficulty": "applied",
     "text": "Which neurological pattern is most consistent with an L5 contribution?",
     "options": [
-      "Medial knee sensory change with isolated quadriceps weakness",
-      "Lateral foot sensory change",
+      "Medial-knee sensory change",
       "Dorsum-of-foot sensory change",
-      "Perineal numbness with no limb findings"
+      "Lateral-foot sensory change",
+      "Perineal numbness without limb findings"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "The L5 distribution commonly involves the dorsum of the foot and may affect great-toe or ankle dorsiflexion, with individual variation.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-021",
@@ -1565,12 +1565,12 @@
     "difficulty": "analytical",
     "text": "How should the therapist progress neurodynamic exercise if symptoms are irritable?",
     "options": [
+      "Begin with low-amplitude sliders",
       "Start with sustained end-range tensioners",
       "Use maximal nerve stretching before running",
-      "Avoid all movement until the test is negative",
-      "Begin with low-amplitude sliders"
+      "Avoid all movement until the test is negative"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Slider-style movement can expose the neural system to graded motion with less sustained end-range loading.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-021",
@@ -1585,11 +1585,11 @@
     "text": "Which running change is most appropriate initially?",
     "options": [
       "Increase maximal sprinting to test the nerve",
-      "Reduce sprint volume and high-speed exposure",
       "Continue the full program if symptoms settle during warm-up",
+      "Reduce sprint volume and high-speed exposure",
       "Replace all conditioning with lumbar extension"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "High-speed loading should be reduced while capacity and symptoms are monitored through a graded plan.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-021",
@@ -1603,12 +1603,12 @@
     "difficulty": "applied",
     "text": "Which nerve-root level is most consistent with this cluster?",
     "options": [
-      "L2",
-      "L4",
-      "C7",
-      "S1"
+      "Upper-lumbar L2 involvement",
+      "S1 nerve-root involvement",
+      "L4 nerve-root involvement",
+      "C7 nerve-root involvement"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The Achilles reflex and plantarflexion findings are commonly associated with S1 involvement, interpreted alongside the full neurological examination.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-022",
@@ -1623,9 +1623,9 @@
     "text": "Which finding would indicate a more concerning progression?",
     "options": [
       "Increasing plantarflexion weakness",
-      "Reduced calf pain with unchanged strength",
+      "Calf pain with strength improving",
       "Improved walking tolerance",
-      "A stable Achilles reflex"
+      "Stable Achilles reflex"
     ],
     "correct": 0,
     "explanation": "Progressive motor loss requires prompt reassessment and may alter the conservative pathway.",
@@ -1639,14 +1639,14 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Neurodynamic assessment: SLR and slump",
     "difficulty": "analytical",
-    "text": "What is the best way to use SLR in this case?",
+    "text": "What is the best way to use SLR in this presentation?",
     "options": [
-      "Use the angle alone to name the injured disc",
-      "Confirm whether the familiar calf symptoms are reproduced",
-      "Treat any limitation as hamstring shortening",
-      "Ignore symptom location during the test"
+      "Use angle alone to name the disc",
+      "Treat limitation as hamstring shortening",
+      "Ignore symptom location and quality",
+      "Reproduce the familiar calf symptoms"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "The response, symptom concordance and sensitization are more informative than a numerical angle alone.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-022",
@@ -1662,10 +1662,10 @@
     "options": [
       "Sprint training always heals nerve-root symptoms",
       "Motor loss is unrelated to running mechanics",
-      "Reduced force production",
-      "A normal resting heart rate proves readiness"
+      "A normal resting heart rate proves readiness",
+      "Motor loss reduces force production"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Progressive weakness can impair propulsion and control; the athlete needs medical review and rehabilitation rather than unrestricted sprinting.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-022",
@@ -1679,10 +1679,10 @@
     "difficulty": "applied",
     "text": "Which test is more appropriate than a standard SLR for this presentation?",
     "options": [
-      "A femoral nerve neurodynamic test",
-      "Only a straight-leg raise with ankle dorsiflexion",
-      "Only a seated hamstring stretch",
-      "Only a sacroiliac compression test"
+      "Femoral nerve neurodynamic testing",
+      "SLR with ankle dorsiflexion only",
+      "Seated hamstring stretch only",
+      "SI-joint compression testing only"
     ],
     "correct": 0,
     "explanation": "Anterior-thigh symptoms and quadriceps or patellar-reflex findings point toward the femoral pathway, assessed with a femoral neurodynamic sequence.",
@@ -1698,12 +1698,12 @@
     "difficulty": "applied",
     "text": "Which finding would support an upper-lumbar or femoral-root contribution?",
     "options": [
-      "Lateral-foot numbness with an absent Achilles reflex",
-      "Anterior-thigh sensory change",
-      "Dorsum-foot numbness with isolated great-toe weakness",
+      "New anterior-thigh sensory change with weakness",
+      "Lateral-foot numbness with reduced Achilles reflex",
+      "Dorsal-foot numbness with great-toe weakness",
       "Perineal numbness with bladder change"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "The pattern is compatible with upper-lumbar or femoral-root involvement, subject to examination variability.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-023",
@@ -1719,10 +1719,10 @@
     "options": [
       "Hip testing always reproduces nerve-root pain",
       "A normal hip test excludes lumbar disease",
-      "Hip pathology can refer pain to the anterior thigh",
-      "Hip assessment is unrelated to anterior-thigh symptoms"
+      "Hip assessment is unrelated to anterior-thigh symptoms",
+      "Hip pathology can refer pain to the anterior thigh"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "The hip and lumbar spine can produce overlapping symptoms; regional examination supports differential diagnosis.",
     "sourceId": "brukner-khan-clinical-sports-medicine",
     "passageId": "c-spine-023",
@@ -1736,12 +1736,12 @@
     "difficulty": "analytical",
     "text": "Which finding warrants prompt medical escalation?",
     "options": [
-      "Pain reduction during supported walking",
+      "Less pain with supported walking",
       "Stable sensation and reflexes",
-      "Improved hip range without symptoms",
-      "Progressive quadriceps weakness with impaired knee control"
+      "Quadriceps weakness with poor control",
+      "Improved hip range without pain"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Progressive motor impairment affects function and may indicate worsening neural compromise.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-023",
@@ -1756,7 +1756,7 @@
     "text": "What does a positive crossed straight-leg raise generally add to the examination?",
     "options": [
       "The finding confirms a sacroiliac ligament sprain",
-      "It raises suspicion of nerve-root or disc irritation",
+      "Raises suspicion of nerve-root irritation",
       "The finding identifies the exact pain source",
       "The finding proves a hamstring strain"
     ],
@@ -1775,11 +1775,11 @@
     "text": "Which additional test is essential before deciding on field participation?",
     "options": [
       "Only lumbar flexion range",
+      "Myotomes, dermatomes, and reflexes",
       "Only abdominal endurance",
-      "Only passive hip rotation",
-      "Myotomes, dermatomes, and reflexes"
+      "Only passive hip rotation"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Neurological status determines risk and helps establish whether symptoms are stable enough for activity.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-024",
@@ -1793,12 +1793,12 @@
     "difficulty": "analytical",
     "text": "Why is imaging not automatically the first action in every acute back episode?",
     "options": [
-      "Imaging always worsens a disc injury",
-      "MRI cannot show neural structures",
-      "Imaging findings may be common",
-      "Clinical examination has no role in imaging decisions"
+      "Imaging can worsen a disc injury",
+      "Findings may be common without symptoms",
+      "MRI may miss neural structures",
+      "Clinical examination guides imaging decisions"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Imaging should answer a clinical question and be considered in relation to red flags, neurological deficit and response to care.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-024",
@@ -1812,12 +1812,12 @@
     "difficulty": "analytical",
     "text": "Which symptom would require emergency evaluation?",
     "options": [
-      "New saddle anaesthesia with urinary retention or incontinence",
       "Leg pain that improves with position",
       "Mild back stiffness after lifting",
+      "Saddle anaesthesia with bladder change",
       "Stable reflexes and sensation"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Saddle sensory loss and bladder dysfunction raise concern for cauda equina compromise and require emergency assessment.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-024",
@@ -1831,12 +1831,12 @@
     "difficulty": "applied",
     "text": "Which clinical phenomenon is demonstrated?",
     "options": [
+      "Centralization with extension",
       "Peripheralization into the leg",
-      "A purely local hamstring contraction",
-      "Centralization of symptoms with an extension movement",
-      "A non-mechanical pain response"
+      "Local hamstring contraction",
+      "Non-mechanical pain response"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "The distal symptoms retreat toward the spine with repeated extension, which is the clinical pattern called centralization.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-025",
@@ -1850,10 +1850,10 @@
     "difficulty": "applied",
     "text": "What is the most appropriate interpretation of the repeated-movement response?",
     "options": [
-      "Flexion must be prescribed because it initially provokes pain",
-      "The response proves a specific disc level",
-      "Any extension is safe regardless of neurological findings",
-      "Extension may be a directional preference; reassess repeatedly"
+      "Flexion is prescribed if it provokes pain",
+      "The response proves one disc level",
+      "Extension is safe despite new neuro signs",
+      "Extension may be preferred; reassess response"
     ],
     "correct": 3,
     "explanation": "A directional preference guides an individualized trial but does not by itself identify an anatomical lesion or remove the need for screening.",
@@ -1869,12 +1869,12 @@
     "difficulty": "analytical",
     "text": "Which batting modification best matches the early response?",
     "options": [
+      "Use seated flexion to desensitize",
       "Limit prolonged flexed batting",
-      "Add long periods of seated flexion to desensitize the back",
-      "Return immediately to unrestricted batting",
+      "Return to unrestricted batting",
       "Avoid all standing conditioning"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Reducing the aggravating posture while progressively restoring sport-specific tolerance is consistent with the symptom behavior.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-025",
@@ -1888,12 +1888,12 @@
     "difficulty": "analytical",
     "text": "Which change would make the current extension strategy inappropriate?",
     "options": [
-      "Further centralization with stable strength",
-      "Peripheralization, new neurological loss or worsening distal symptoms",
+      "Centralization with stable strength",
       "Improved walking tolerance",
-      "Less pain after a graded exercise dose"
+      "Less pain after graded exercise",
+      "Peripheralization or new neuro loss"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "A change toward distal or neurological deterioration requires reassessment rather than simply increasing the directional exercise.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-025",
@@ -1907,10 +1907,10 @@
     "difficulty": "applied",
     "text": "What does the diary contribute to the clinical reasoning?",
     "options": [
-      "The finding proves a disc herniation on its own",
-      "The finding replaces neurological examination",
-      "The finding demonstrates that all rowing is unsafe",
-      "The finding links symptom response to a modifiable training exposure"
+      "It proves disc herniation alone",
+      "It replaces neurological examination",
+      "It shows all rowing is unsafe",
+      "Links symptoms to training exposure"
     ],
     "correct": 3,
     "explanation": "Load-response data help identify modifiable contributors without establishing a specific structural diagnosis by themselves.",
@@ -1926,12 +1926,12 @@
     "difficulty": "applied",
     "text": "Which intervention should be tested first?",
     "options": [
-      "A graded reduction in provocative flexion exposure",
       "Immediate maximal extension repetitions",
-      "Complete rest without a reloading plan",
-      "Only passive lumbar traction"
+      "Complete rest without reloading",
+      "Graded flexion-load reduction",
+      "Passive lumbar traction only"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Management should address the provoking dose and use active, individualized rehabilitation rather than rely on a single passive treatment.",
     "sourceId": "kisner-therapeutic-exercise",
     "passageId": "c-spine-026",
@@ -1964,10 +1964,10 @@
     "difficulty": "analytical",
     "text": "When can the ergometer dose reasonably be progressed?",
     "options": [
-      "When a fixed number of days has elapsed",
-      "When the athlete completes one maximal interval",
-      "Progress when repeated sessions tolerate the current dose",
-      "When resting pain is absent but post-session pain remains high"
+      "After a fixed number of days",
+      "After one maximal interval",
+      "After repeated dose tolerance",
+      "When post-session pain remains high"
     ],
     "correct": 2,
     "explanation": "Progression should follow repeated dose tolerance and recovery, not an arbitrary date or single maximum.",
@@ -1983,12 +1983,12 @@
     "difficulty": "applied",
     "text": "Which interpretation is most defensible?",
     "options": [
-      "The response is modifiable by neural loading",
-      "The response proves a muscle tear alone",
-      "The response is irrelevant because the pain is posterior",
-      "The response confirms sacroiliac instability"
+      "Response proves an isolated muscle tear",
+      "Response changes with neural loading",
+      "Response is irrelevant to posterior pain",
+      "Response confirms SI-joint instability"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Changes with remote and distal sensitizers suggest a neurodynamic component, but the examination should still assess local tissues and neurological status.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-027",
@@ -2002,12 +2002,12 @@
     "difficulty": "applied",
     "text": "What is the role of cervical extension in this slump sequence?",
     "options": [
+      "The finding can reduce neural tract tension",
       "The finding directly strengthens the hamstrings",
       "The finding isolates lumbar flexion",
-      "The finding can reduce neural tract tension",
       "The finding confirms a meniscal tear"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Neck position changes neural loading in a slump sequence and can help differentiate a neural response.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-027",
@@ -2021,12 +2021,12 @@
     "difficulty": "analytical",
     "text": "Which additional finding would favor a local hamstring disorder?",
     "options": [
-      "Dermatomal sensory loss with reflex change",
-      "Pain reproduced by resisted knee flexion",
+      "Dermatomal loss with reflex change",
       "Symptoms altered by neck and ankle sensitizers",
-      "Progressive myotomal weakness"
+      "Pain reproduced by resisted knee flexion",
+      "Progressive weakness in a myotomal pattern"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "A coherent local contractile pattern without neural features supports a hamstring differential.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-027",
@@ -2060,7 +2060,7 @@
     "text": "Which feature raises suspicion of a disc-related radicular presentation?",
     "options": [
       "Pain only after local hamstring massage",
-      "Spinal loading aggravates the leg symptoms",
+      "Spinal loading aggravates leg symptoms",
       "An isolated painless hip restriction",
       "Symptoms limited to the shoulder"
     ],
@@ -2097,12 +2097,12 @@
     "difficulty": "analytical",
     "text": "Which interim activity is most appropriate if symptoms remain stable and non-progressive?",
     "options": [
-      "Full-contact practice with a lumbar brace",
-      "Maximal loaded flexion and rotation",
+      "Full-contact practice with a brace",
       "Pain-free aerobic conditioning",
-      "No movement of any kind"
+      "Maximal loaded flexion and rotation",
+      "Complete rest with no movement"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Stable symptoms may permit carefully selected conditioning while contact and provocative loading are withheld pending assessment.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-028",
@@ -2116,12 +2116,12 @@
     "difficulty": "analytical",
     "text": "Which new finding would change the case to urgent referral?",
     "options": [
-      "Progressive weakness, saddle sensory change or bladder dysfunction",
       "Less tingling after walking",
       "Stable reflexes and strength",
-      "Pain that centralizes with a graded movement"
+      "Pain centralizing with graded movement",
+      "New weakness or bladder/saddle loss"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "These findings can indicate serious neural compromise and require urgent medical assessment.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-028",
@@ -2135,12 +2135,12 @@
     "difficulty": "applied",
     "text": "What does the cluster of concordant provocation tests suggest?",
     "options": [
-      "The SI joint is a plausible pain source",
       "A single test has confirmed a complete ligament tear",
       "The lumbar disc is excluded automatically",
+      "The SI joint is a plausible pain source",
       "Imaging is unnecessary in every patient"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "A cluster of familiar pain responses increases the clinical probability of SI-joint involvement, but no isolated cluster replaces differential diagnosis.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-029",
@@ -2154,10 +2154,10 @@
     "difficulty": "applied",
     "text": "Which test is commonly included in an SI-joint provocation cluster?",
     "options": [
-      "Lachman test",
-      "Empty-can test",
-      "Thompson test",
-      "Thigh thrust"
+      "Lachman knee-stability test",
+      "Empty-can shoulder test",
+      "Thompson calf-rupture test",
+      "Thigh-thrust provocation test"
     ],
     "correct": 3,
     "explanation": "Thigh thrust is one of the commonly used SI-joint provocation maneuvers, interpreted as part of a cluster.",
@@ -2173,12 +2173,12 @@
     "difficulty": "analytical",
     "text": "Why should lumbar screening still be performed?",
     "options": [
-      "SI provocation tests assess lumbar nerve roots directly",
-      "A normal neurological screen rules out all lumbar sources",
-      "Lumbar and SI-region disorders can produce overlapping buttock symptoms",
-      "The lumbar spine cannot refer pain to the buttock"
+      "SI tests do not assess lumbar roots directly",
+      "Lumbar and SI disorders can overlap",
+      "Normal screen excludes lumbar sources",
+      "Lumbar spine cannot refer buttock pain"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Regional symptoms overlap; a lumbar examination helps identify competing spinal or neural explanations.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-029",
@@ -2192,12 +2192,12 @@
     "difficulty": "analytical",
     "text": "Which initial cycling modification is most appropriate?",
     "options": [
-      "Increase hill repetitions to strengthen the SI joint",
+      "Increase hills to strengthen the SI joint",
+      "Stop cycling until symptoms disappear",
       "Reduce the new hill-load exposure",
-      "Stop all cycling permanently",
-      "Use only passive pelvic mobilization"
+      "Use passive pelvic mobilization alone"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The recent load change is modifiable and can be reduced before graded re-exposure.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-029",
@@ -2249,12 +2249,12 @@
     "difficulty": "analytical",
     "text": "Which rehabilitation approach is best supported for long-standing adductor-related pain?",
     "options": [
-      "Progress active adduction loading",
       "Passive treatment alone without active loading",
+      "Progress active adduction loading",
       "Immediate maximal kicking volume",
       "Complete rest without a reloading phase"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "The Doha evidence summary supports active physical training over passive modalities for long-standing adductor-related groin pain.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-030",
@@ -2268,12 +2268,12 @@
     "difficulty": "analytical",
     "text": "Which finding should be monitored before increasing cutting drills?",
     "options": [
-      "Only resting hip range",
-      "Only a normal lumbar radiograph",
-      "Adductor loading tolerance",
-      "Only the athlete's subjective confidence"
+      "Resting hip range at baseline",
+      "Normal lumbar radiograph at rest",
+      "Athlete confidence without symptoms",
+      "Pain-free adductor loading tolerance"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Adductor capacity and symptom response to relevant sport demands should guide progression.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-030",
@@ -2287,12 +2287,12 @@
     "difficulty": "applied",
     "text": "Which Doha category best fits this pattern?",
     "options": [
-      "Inguinal-related groin pain",
       "Adductor-related groin pain",
+      "Inguinal-related groin pain",
       "Iliopsoas-related groin pain",
       "Pubic-related groin pain"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Inguinal-related groin pain involves pain in the inguinal canal and canal tenderness without a palpable hernia; cough or abdominal resistance may aggravate it.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-031",
@@ -2325,9 +2325,9 @@
     "difficulty": "analytical",
     "text": "Why should medical examination remain available if symptoms persist?",
     "options": [
-      "All groin pain is a physiotherapy-only diagnosis",
-      "Consider a non-musculoskeletal or surgical cause when red flags are present",
-      "Imaging findings always identify the cause",
+      "All groin pain is physiotherapy-only",
+      "Consider non-musculoskeletal causes",
+      "Imaging always identifies the cause",
       "Cough pain excludes visceral pathology"
     ],
     "correct": 1,
@@ -2344,9 +2344,9 @@
     "difficulty": "analytical",
     "text": "Which training decision is most appropriate while the diagnosis is clarified?",
     "options": [
-      "Continue maximal contact because no hernia is palpable",
+      "Continue contact because no hernia is palpable",
       "Stop every activity indefinitely",
-      "Use aggressive abdominal loading to test the canal",
+      "Load the abdomen aggressively to test it",
       "Modify painful cutting and contact loads"
     ],
     "correct": 3,
@@ -2365,10 +2365,10 @@
     "options": [
       "Adductor-related groin pain",
       "Inguinal-related groin pain",
-      "Iliopsoas-related groin pain",
-      "Pubic-related groin pain"
+      "Pubic-related groin pain",
+      "Iliopsoas-related groin pain"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Iliopsoas-related pain is supported by iliopsoas tenderness with pain on resisted hip flexion and/or hip-flexor stretching.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-032",
@@ -2382,12 +2382,12 @@
     "difficulty": "analytical",
     "text": "Which examination finding would make lumbar radiculopathy more plausible?",
     "options": [
-      "Pain only on local hip-flexor resistance",
+      "Dermatomal symptoms with neurological change",
+      "Pain only with local hip-flexor resistance",
       "Normal sensation and reflexes",
-      "Pain-free lumbar movement",
-      "Dermatomal symptoms with reflex or myotomal change altered by spinal or neural loading"
+      "Pain-free lumbar movement throughout"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "A coherent neurological and neurodynamic pattern would increase suspicion of a lumbar source.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-032",
@@ -2402,11 +2402,11 @@
     "text": "Which initial modification best matches the presentation?",
     "options": [
       "Increase resisted hip flexion to fatigue",
-      "Reduce repeated high-load hip-flexion",
-      "Use only lumbar manipulation",
-      "Continue maximal dance leaps if pain is brief"
+      "Use lumbar manipulation as the only care",
+      "Reduce repeated high-load hip flexion",
+      "Continue maximal leaps if pain is brief"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The symptomatic hip-flexor exposure should be modified and rebuilt progressively.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-032",
@@ -2420,12 +2420,12 @@
     "difficulty": "analytical",
     "text": "Which criterion is most relevant before full dance rehearsal?",
     "options": [
-      "Pain-free repeated hip-flexion",
-      "A single pain-free hip-flexion repetition",
-      "Normal resting posture alone",
-      "A fixed two-week deadline"
+      "One pain-free hip-flexion repetition",
+      "Normal resting posture between sessions",
+      "Fixed two-week deadline without testing",
+      "Pain-free repeated hip-flexion loading"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Repeated task tolerance and recovery provide a more meaningful readiness signal than a single movement or time point.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-032",
@@ -2439,12 +2439,12 @@
     "difficulty": "applied",
     "text": "Which Doha entity should be considered first?",
     "options": [
-      "Pubic-related groin pain",
       "Iliopsoas-related groin pain",
       "Inguinal-related groin pain",
+      "Pubic-related groin pain",
       "Cervical radiculopathy"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Local tenderness of the pubic symphysis is the defining clinical feature of pubic-related groin pain in the Doha terminology.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-033",
@@ -2459,11 +2459,11 @@
     "text": "Why should a historical label such as sports hernia be avoided as the primary classification?",
     "options": [
       "The label identifies one precise tissue in every athlete",
+      "The Doha agreement favors defined clinical entities",
       "Historical labels are required for all groin cases",
-      "The label rules out lumbar and hip sources",
-      "The Doha agreement favors defined clinical entities"
+      "The label rules out lumbar and hip sources"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The consensus chose terminology based on clinical entities and did not recommend several ambiguous historical terms.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-033",
@@ -2477,12 +2477,12 @@
     "difficulty": "analytical",
     "text": "Which assessment remains important despite pubic tenderness?",
     "options": [
-      "Only repeated palpation of the symphysis",
-      "Only an ankle ligament examination",
-      "Hip, lumbar, adductor and abdominal examination for coexisting or alternative entities",
-      "No further examination once tenderness is found"
+      "Repeated symphysis palpation only",
+      "Ankle-ligament examination only",
+      "No further examination after tenderness",
+      "Examine hip, lumbar spine, and adductors"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Athletes may have multiple entities, and overlapping hip, lumbar, adductor or abdominal sources must be considered.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-033",
@@ -2497,9 +2497,9 @@
     "text": "Which rehabilitation progression is most defensible?",
     "options": [
       "Begin maximal cutting immediately",
-      "Reduce painful cutting, restore pelvic and adductor capacity, then progress sport load",
+      "Restore pelvic/adductor capacity",
       "Use passive modalities without active loading",
-      "Avoid all lower-limb loading indefinitely"
+      "Avoid lower-limb loading indefinitely"
     ],
     "correct": 1,
     "explanation": "A graded active progression addresses capacity and the sport-specific loads that provoke symptoms.",
@@ -2515,12 +2515,12 @@
     "difficulty": "applied",
     "text": "What is the most appropriate clinical response to the mixed presentation?",
     "options": [
-      "Choose adductor-related pain from the squeeze test alone",
-      "Assess for more than one entity, including the lumbar spine",
-      "Ignore the distal symptoms as irrelevant",
-      "Diagnose a single tissue without further examination"
+      "Assess coexisting entities and the lumbar spine",
+      "Choose adductor pain from squeeze alone",
+      "Ignore distal symptoms during assessment",
+      "Assign one tissue diagnosis without examination"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "The Doha framework allows multiple entities, and distal or spinal features warrant a broader assessment.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-034",
@@ -2553,12 +2553,12 @@
     "difficulty": "analytical",
     "text": "How should a painful squeeze test be interpreted?",
     "options": [
-      "The finding supports adductor involvement only when it reproduces recognizable adductor-region pain",
-      "The finding identifies lumbar radiculopathy directly",
-      "The finding is diagnostic even when pain is in the back",
-      "The finding excludes all other groin entities"
+      "It identifies lumbar radiculopathy directly",
+      "It is diagnostic even when pain is in the back",
+      "Adductor involvement requires familiar pain",
+      "It excludes all other groin entities"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "The anatomical location of reproduced pain matters, and coexisting diagnoses remain possible.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-034",
@@ -2572,12 +2572,12 @@
     "difficulty": "analytical",
     "text": "Which progression principle is safest while the differential remains unresolved?",
     "options": [
+      "Use tolerable loads for each involved region",
       "Progress the most painful task first",
       "Use maximal sprinting to clarify the diagnosis",
-      "Use tolerable loads for each involved region",
       "Avoid all activity until every label is certain"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "A controlled, region-specific progression protects the athlete while the clinical picture is clarified.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-034",
@@ -2591,12 +2591,12 @@
     "difficulty": "applied",
     "text": "What is the best interpretation of several concordant SI provocation tests?",
     "options": [
-      "They prove complete SI ligament rupture",
+      "They prove complete SI-ligament rupture",
+      "A concordant cluster increases confidence",
       "They exclude hip and lumbar disorders",
-      "They increase confidence when findings agree with the history and examination",
-      "They make imaging unnecessary in every case"
+      "They make imaging unnecessary"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Provocation clusters are used to improve clinical reasoning; they are not a direct structural diagnosis.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-035",
@@ -2611,11 +2611,11 @@
     "text": "Why is a cluster more useful than one positive test?",
     "options": [
       "Each test measures a different nerve root",
-      "Several concordant responses reduce reliance on the limited specificity of an isolated maneuver",
       "A single test cannot reproduce pain",
+      "A concordant cluster is more informative",
       "Clusters eliminate the need for history"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Using multiple provocation tests can improve the clinical probability of SI-region pain compared with relying on one test.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-035",
@@ -2629,10 +2629,10 @@
     "difficulty": "analytical",
     "text": "Which finding would redirect attention toward radiculopathy?",
     "options": [
-      "Dermatomal pain with myotomal weakness, reflex change or a positive neurodynamic pattern",
-      "Local PSIS tenderness only",
-      "Pain on several pelvic provocation tests",
-      "A normal sensory examination"
+      "Dermatomal pain with weakness or reflex change",
+      "Local PSIS tenderness without leg signs",
+      "Pelvic provocation pain without neural signs",
+      "Normal sensory testing without symptoms"
     ],
     "correct": 0,
     "explanation": "Neurological signs and concordant neural symptoms suggest a spinal nerve-root contribution rather than isolated SI-region pain.",
@@ -2648,12 +2648,12 @@
     "difficulty": "analytical",
     "text": "Which early intervention is most appropriate?",
     "options": [
-      "Repeated provocative compression to desensitize the joint",
+      "Repeated provocative compression",
+      "Progressive hip and trunk control",
       "Only passive belt techniques",
-      "Immediate unrestricted contact",
-      "Progressive hip and trunk control"
+      "Immediate unrestricted contact"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Active capacity and a graded reduction in provoking exposure are appropriate while monitoring symptoms.",
     "sourceId": "kisner-therapeutic-exercise",
     "passageId": "c-spine-035",
@@ -2665,11 +2665,11 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Load management and progression",
     "difficulty": "applied",
-    "text": "What is the clearest modifiable factor in this case?",
+    "text": "What is the clearest modifiable factor in this presentation?",
     "options": [
-      "The athlete's stable reflexes",
+      "Stable neurological reflexes",
       "A normal resting posture",
-      "The abrupt increase in rowing volume relative to current capacity",
+      "Abrupt rowing-volume increase",
       "The absence of distal symptoms"
     ],
     "correct": 2,
@@ -2686,12 +2686,12 @@
     "difficulty": "analytical",
     "text": "Which finding supports retaining SI-region pain in the working diagnosis?",
     "options": [
-      "Pain only during an unrelated shoulder test",
+      "Pain during an unrelated shoulder test",
+      "Familiar pain on a provocation cluster",
       "A normal neurological screen alone",
-      "A single painless pelvic movement",
-      "Reproduction of the athlete's familiar pain across a concordant provocation cluster"
+      "A single painless pelvic movement"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The symptom location and cluster response support SI-region involvement while other sources are screened.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-036",
@@ -2705,10 +2705,10 @@
     "difficulty": "analytical",
     "text": "Which impairment should be addressed alongside local symptom modulation?",
     "options": [
-      "Only passive hamstring length",
-      "Single-leg hip and trunk control during rowing-related force transfer",
-      "Only grip endurance",
-      "Only cervical rotation"
+      "Passive hamstring length alone",
+      "Single-leg hip and trunk control",
+      "Grip endurance as the only measure",
+      "Cervical rotation alone"
     ],
     "correct": 1,
     "explanation": "Pelvic control and force transfer are relevant to rowing mechanics and can be progressively trained.",
@@ -2724,12 +2724,12 @@
     "difficulty": "analytical",
     "text": "When should rowing volume be increased?",
     "options": [
-      "After the current dose is tolerated",
-      "Immediately once pain falls during warm-up",
-      "After a fixed seven-day interval regardless of response",
-      "Only after complete inactivity"
+      "Increase once warm-up reduces pain",
+      "Increase after a fixed seven-day interval",
+      "Increase only after complete inactivity",
+      "Increase after tolerating the current dose"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "A repeated, recoverable dose is the basis for gradual progression.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-036",
@@ -2743,10 +2743,10 @@
     "difficulty": "applied",
     "text": "How should this mixed presentation be examined?",
     "options": [
-      "Broaden the examination to hip, lumbar, pelvic control",
+      "Examine hip, lumbar spine, and pelvic control",
       "Label it adductor-related immediately",
-      "Use the active straight-leg raise alone as a diagnosis",
-      "Return to full hurdles without further assessment"
+      "Use active SLR as the diagnosis",
+      "Return to hurdles without more assessment"
     ],
     "correct": 0,
     "explanation": "A difficult active straight-leg raise is non-specific; a regional examination is needed to identify the dominant contributor.",
@@ -2762,12 +2762,12 @@
     "difficulty": "analytical",
     "text": "Which result would support an SI-region contribution?",
     "options": [
-      "Pain only during passive shoulder motion",
-      "A normal pelvic provocation examination",
-      "Familiar pain reproduced by several SI provocation tests",
-      "An isolated painless hip-flexor stretch"
+      "Pain during passive shoulder motion",
+      "Normal pelvic provocation examination",
+      "Painless hip-flexor stretch",
+      "Familiar pain on an SI cluster"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "An SI diagnosis should be supported by a coherent history and provocation pattern rather than one functional test.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-037",
@@ -2781,12 +2781,12 @@
     "difficulty": "analytical",
     "text": "Why does absent adductor tenderness matter?",
     "options": [
-      "The finding proves a lumbar disc injury",
-      "The finding rules out every groin diagnosis",
-      "The finding means no physical examination is required",
-      "The finding makes the Doha adductor-related definition incomplete"
+      "It proves a lumbar disc injury",
+      "It rules out every groin diagnosis",
+      "It does not establish adductor-related pain",
+      "It means no physical examination is required"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "Adductor-related groin pain requires adductor tenderness and recognizable pain on resisted adduction.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-037",
@@ -2800,12 +2800,12 @@
     "difficulty": "analytical",
     "text": "Which interim training decision is safest?",
     "options": [
-      "Increase hurdle height to test the diagnosis",
-      "Modify painful hurdle height",
+      "Increase hurdle height to test symptoms",
       "Stop all training indefinitely",
-      "Use repeated maximal adduction contractions"
+      "Use maximal adduction contractions",
+      "Modify the painful hurdle height"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "A dose-specific modification allows continued preparation while the source of pain is clarified.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-037",
@@ -2819,12 +2819,12 @@
     "difficulty": "applied",
     "text": "Which category is most consistent with the clinical pattern?",
     "options": [
-      "Adductor-related groin pain",
       "Inguinal-related groin pain",
+      "Adductor-related groin pain",
       "Pubic-related groin pain",
-      "S1 radiculopathy"
+      "S1 radiculopathy pattern"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Inguinal canal pain and tenderness with aggravation by cough or abdominal resistance fit the Doha inguinal-related category even without a palpable hernia.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-038",
@@ -2838,12 +2838,12 @@
     "difficulty": "analytical",
     "text": "What is the most appropriate action if pain persists or a mass appears?",
     "options": [
-      "Refer for medical or surgical assessment of possible hernia or another non-musculoskeletal cause",
-      "Continue maximal sprinting",
-      "Treat only the lumbar spine",
-      "Use forceful abdominal loading"
+      "Continue maximal sprinting despite pain",
+      "Treat the lumbar spine only",
+      "Use forceful abdominal loading",
+      "Refer for possible hernia"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Persistent or changing inguinal symptoms require medical review because surgical and other non-musculoskeletal conditions can mimic sports pain.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-038",
@@ -2855,12 +2855,12 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Differential diagnosis and progression",
     "difficulty": "analytical",
-    "text": "Which finding would make lumbar radiculopathy less likely in this case?",
+    "text": "Which finding would make lumbar radiculopathy less likely in this presentation?",
     "options": [
-      "Dermatomal sensory loss",
+      "Dermatomal sensory loss below the knee",
       "Reflex asymmetry with myotomal weakness",
       "Leg pain altered by SLR sensitization",
-      "No distal symptoms and a normal neurological and neurodynamic examination"
+      "Normal neural testing without distal symptoms"
     ],
     "correct": 3,
     "explanation": "A normal neural examination reduces the likelihood of a lumbar nerve-root source, though the full regional assessment remains important.",
@@ -2878,10 +2878,10 @@
     "options": [
       "Perform repeated maximal Valsalva drills",
       "Continue contact at full intensity",
-      "Avoid painful high-pressure abdominal",
-      "Stop all movement including pain-free walking"
+      "Stop all movement including pain-free walking",
+      "Avoid painful high-pressure abdominal tasks"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "The provoking activities should be reduced while safe conditioning is maintained pending diagnostic clarification.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-038",
@@ -2895,10 +2895,10 @@
     "difficulty": "applied",
     "text": "What is the most defensible conclusion about the MRI finding?",
     "options": [
-      "The finding proves symptomatic pubic-related pain",
-      "The finding proves the athlete must stop all sport",
-      "It requires clinical correlation because imaging may be present without familiar symptoms",
-      "The finding excludes lumbar and hip causes"
+      "It proves symptomatic pubic-related pain",
+      "It proves the athlete must stop all sport",
+      "Correlate imaging with symptoms",
+      "It excludes lumbar and hip causes"
     ],
     "correct": 2,
     "explanation": "Radiological findings can occur without symptoms; clinical correlation is essential in groin assessment.",
@@ -2914,10 +2914,10 @@
     "difficulty": "analytical",
     "text": "Which examination finding would support pubic-related groin pain?",
     "options": [
-      "Only a positive SLR with calf pain",
-      "Recognizable local tenderness at the pubic symphysis",
-      "Only reduced shoulder rotation",
-      "Only a painless MRI abnormality"
+      "A positive SLR with calf pain alone",
+      "Familiar pubic-symphysis tenderness",
+      "Reduced shoulder rotation alone",
+      "A painless MRI abnormality alone"
     ],
     "correct": 1,
     "explanation": "Local symphyseal tenderness is the defining clinical feature of the pubic-related entity.",
@@ -2933,12 +2933,12 @@
     "difficulty": "analytical",
     "text": "Which clearance decision is most appropriate from the information given?",
     "options": [
-      "Continue monitored participation if function and symptom response remain acceptable",
-      "Remove the athlete solely because of MRI oedema",
+      "Remove the athlete for MRI oedema alone",
       "Clear unrestricted activity without monitoring",
-      "Start maximal adduction rehabilitation despite no symptoms"
+      "Start maximal adduction work despite no symptoms",
+      "Continue if function and symptoms are acceptable"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Imaging alone should not dictate removal or clearance; functional status and symptom behavior guide the decision.",
     "sourceId": "world-physiotherapy-ebp-2023",
     "passageId": "c-spine-039",
@@ -2952,12 +2952,12 @@
     "difficulty": "analytical",
     "text": "What should the performance team monitor if training continues?",
     "options": [
-      "Only the MRI signal at each practice",
-      "Only the athlete's fastest sprint",
-      "Only body mass",
-      "Symptoms, exposure dose, movement quality"
+      "Monitor MRI signal at every practice",
+      "Track symptoms, dose, and movement quality",
+      "Monitor the fastest sprint only",
+      "Record body mass and nothing else"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Monitoring the athlete's response to load is more relevant than repeatedly measuring an imaging finding without a clinical question.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-039",
@@ -2971,10 +2971,10 @@
     "difficulty": "applied",
     "text": "How should the clinical picture be recorded?",
     "options": [
-      "As one mandatory single diagnosis only",
-      "As coexisting adductor-related and pubic-related groin pain",
-      "As lumbar radiculopathy without examination",
-      "As an imaging diagnosis without clinical findings"
+      "Record one primary diagnosis only",
+      "Record coexisting adductor and pubic pain",
+      "Record radiculopathy without signs",
+      "Record imaging change without symptoms"
     ],
     "correct": 1,
     "explanation": "The Doha agreement recognizes that more than one clinical entity can be present in the same athlete.",
@@ -2990,12 +2990,12 @@
     "difficulty": "analytical",
     "text": "Which finding supports the adductor component?",
     "options": [
-      "Only pubic imaging change",
-      "Only pain during coughing",
-      "Recognizable adductor pain with tenderness and pain on resisted adduction",
-      "Only a normal hip examination"
+      "Adductor tenderness with resisted pain",
+      "Pubic imaging change without symptoms",
+      "Cough-related pain without adductor signs",
+      "Normal hip examination with no pain"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Both tenderness and pain on resisted adduction are required for the adductor-related definition.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-040",
@@ -3010,11 +3010,11 @@
     "text": "Which rehabilitation design best reflects the mixed presentation?",
     "options": [
       "Train only the most painful structure with no whole-chain work",
+      "Progress pelvic/adductor capacity before cutting/contact",
       "Use passive treatment alone without active loading",
-      "Return directly to match intensity before full competition",
-      "Progress pelvic/adductor capacity before cutting/contact"
+      "Return directly to match intensity before full competition"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "A multi-entity presentation benefits from targeted capacity work followed by integrated sport-specific loading.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-040",
@@ -3028,12 +3028,12 @@
     "difficulty": "analytical",
     "text": "Which result is the strongest reason not to progress contact?",
     "options": [
-      "Familiar pain increases during repeated cutting or adduction",
       "Stable symptoms during pain-free jogging",
-      "Improved strength with no pain response",
-      "Normal resting hip range"
+      "Improved strength without pain",
+      "Normal resting hip range without pain",
+      "Familiar pain during cutting and adduction"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "The relevant sport demand must be tolerated without symptom escalation before contact volume is advanced.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-040",
@@ -3047,12 +3047,12 @@
     "difficulty": "applied",
     "text": "Which source should be investigated more carefully?",
     "options": [
-      "The lumbar spine and neural pathways",
-      "The adductor alone because any tenderness is diagnostic",
-      "Only the pubic symphysis",
-      "Only the ankle"
+      "The adductor alone as pain source",
+      "The pubic symphysis alone",
+      "Ankle assessment alone",
+      "Lumbar or neural source"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Lumbar movement restriction and distal sensory symptoms make a spinal or neural contribution important to assess.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-041",
@@ -3066,12 +3066,12 @@
     "difficulty": "analytical",
     "text": "Which response would support a neural contribution?",
     "options": [
-      "Pain only on local adductor palpation",
-      "A normal neurodynamic test with no distal symptoms",
-      "Familiar posterior-thigh symptoms altered by SLR or slump sensitizing movements",
-      "Pain only during shoulder abduction"
+      "Pain on local adductor palpation",
+      "Normal neurodynamic test without leg symptoms",
+      "Pain during shoulder abduction only",
+      "Posterior-thigh pain altered by SLR"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "A concordant and sensitizable distal response supports neural involvement, though not a specific lesion alone.",
     "sourceId": "shacklock-clinical-neurodynamics",
     "passageId": "c-spine-041",
@@ -3086,11 +3086,11 @@
     "text": "Why is mild adductor discomfort insufficient to classify the case as adductor-related?",
     "options": [
       "Adductor tenderness is never relevant",
-      "All groin pain is spinal",
-      "The Doha criteria require an abnormal MRI",
-      "The athlete's main recognizable pain is not reproduced by the adductor examination"
+      "Main pain not reproduced on adductor test",
+      "All groin pain originates in spine",
+      "Doha criteria require abnormal MRI"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The Doha definition depends on recognizable adductor-region pain with tenderness and resisted adduction findings.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-041",
@@ -3104,12 +3104,12 @@
     "difficulty": "analytical",
     "text": "Which training plan is most defensible before the differential is clarified?",
     "options": [
+      "Reduce high-speed cutting exposure",
       "Continue full contact because strength is normal",
-      "Reduce high-speed cutting",
       "Use maximal adduction and sprinting as tests",
       "Stop all activity without reassessment"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "A cautious, monitored reduction in provoking exposure protects the athlete while the examination proceeds.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-041",
@@ -3123,12 +3123,12 @@
     "difficulty": "applied",
     "text": "How should the isolated FABER result be interpreted?",
     "options": [
-      "As definitive proof of SI-joint pathology",
-      "As proof of a labral tear",
-      "As evidence that the lumbar spine is normal",
-      "As a non-specific finding"
+      "Definitive proof of SI-joint pathology",
+      "Proof of an acetabular labral tear",
+      "Non-specific finding requiring context",
+      "Evidence the lumbar spine is normal"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "FABER can stress multiple regions and is not a stand-alone diagnosis; a cluster and differential assessment are needed.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-042",
@@ -3142,10 +3142,10 @@
     "difficulty": "analytical",
     "text": "Which additional region should be assessed because of buttock pain?",
     "options": [
-      "The lumbar spine, hip and posterior pelvic structures",
-      "Only the wrist",
-      "Only the shoulder",
-      "No other region once FABER is positive"
+      "Assess lumbar spine, hip, and pelvis",
+      "Assess hip strength but not lumbar movement",
+      "Assess the shoulder for referred pain",
+      "Treat FABER as the final diagnosis"
     ],
     "correct": 0,
     "explanation": "Buttock symptoms may arise from lumbar, hip or SI-region structures, so regional assessment is necessary.",
@@ -3161,12 +3161,12 @@
     "difficulty": "analytical",
     "text": "Which result would make SI-region involvement more plausible?",
     "options": [
+      "Familiar pain on several SI tests",
       "A painless FABER with normal function",
-      "Concordant familiar pain on several SI provocation tests",
       "A positive shoulder impingement test",
       "An isolated normal lumbar flexion"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "A cluster of familiar responses provides stronger support than one non-specific maneuver.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-042",
@@ -3180,10 +3180,10 @@
     "difficulty": "analytical",
     "text": "Which activity decision is appropriate while assessment continues?",
     "options": [
-      "Remove all sport based on one positive FABER",
+      "Remove all sport after one positive FABER",
       "Increase cutting to test stability",
-      "Continue tolerated training",
-      "Use a fixed clearance date"
+      "Continue tolerated training with monitoring",
+      "Use symptom-based clearance criteria"
     ],
     "correct": 2,
     "explanation": "Participation can be individualized while provocative activities are modified and the diagnosis is clarified.",
@@ -3199,9 +3199,9 @@
     "difficulty": "applied",
     "text": "Which diagnosis should be prioritized?",
     "options": [
-      "A proximal hamstring contractile injury",
-      "SI-joint instability based on posterior location alone",
-      "Inguinal-related groin pain",
+      "Proximal hamstring contractile injury",
+      "SI-joint instability from location alone",
+      "Inguinal-related groin pain pattern",
       "Lumbar radiculopathy without neural findings"
     ],
     "correct": 0,
@@ -3218,12 +3218,12 @@
     "difficulty": "analytical",
     "text": "What does a negative provocation cluster contribute?",
     "options": [
-      "The finding proves the hamstring is fully healed",
-      "The finding makes an SI-region source less likely but does not exclude every pelvic disorder",
-      "The finding diagnoses a disc extrusion",
-      "The finding eliminates the need for load modification"
+      "Proves the proximal hamstring is healed",
+      "Diagnoses a lumbar disc extrusion",
+      "Eliminates the need for load modification",
+      "Makes SI pain less likely; assess pelvic causes"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Clusters inform probability; they do not replace the rest of the examination or establish another diagnosis by themselves.",
     "sourceId": "konin-special-tests-orthopedic-examination",
     "passageId": "c-spine-043",
@@ -3237,10 +3237,10 @@
     "difficulty": "analytical",
     "text": "Which running modification is most appropriate initially?",
     "options": [
-      "Add more maximal accelerations to condition the tendon",
-      "Continue unchanged because the SI tests are negative",
-      "Reduce maximal sprinting",
-      "Use only passive stretching"
+      "Add maximal acceleration work",
+      "Continue current sprint volume",
+      "Reduce maximal sprinting exposure",
+      "Use passive stretching alone"
     ],
     "correct": 2,
     "explanation": "The symptomatic hamstring exposure should be modified and progressively restored.",
@@ -3256,12 +3256,12 @@
     "difficulty": "analytical",
     "text": "Which finding would prompt renewed lumbar assessment?",
     "options": [
+      "New radiating or neurological symptoms",
       "Improved resisted hamstring strength",
-      "Pain-free jogging",
-      "Stable pelvic provocation tests",
-      "New radiating symptoms or neurological change during rehabilitation"
+      "Pain-free jogging at current volume",
+      "Stable pelvic provocation tests"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "New distal or neurological features broaden the differential toward the lumbar spine and nerve roots.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-043",
@@ -3275,12 +3275,12 @@
     "difficulty": "applied",
     "text": "Why is adductor-related groin pain not established from this squeeze alone?",
     "options": [
-      "The squeeze test can never be used clinically",
-      "The reproduced pain is not in the adductor region",
-      "Adductor-related pain requires a positive MRI",
+      "Never use squeeze testing clinically",
+      "Require a positive MRI before diagnosis",
+      "Reproduced pain is not in adductor region",
       "All inguinal pain is radicular"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The Doha definition requires adductor tenderness and recognizable adductor-region pain on resisted adduction.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-044",
@@ -3294,12 +3294,12 @@
     "difficulty": "analytical",
     "text": "Which category should be investigated next?",
     "options": [
-      "Only isolated hamstring strain",
-      "Only a cervical disorder",
-      "Inguinal-related pain and other abdominal or hip differentials",
-      "Only plantar-fascia pain"
+      "Investigate proximal hamstring causes only",
+      "Investigate inguinal or abdominal causes",
+      "Consider cervical referred pain",
+      "Consider plantar-fascia pain"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Inguinal location and the incomplete adductor pattern warrant assessment of inguinal, abdominal and other regional sources.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-044",
@@ -3313,12 +3313,12 @@
     "difficulty": "analytical",
     "text": "Which associated history would require medical referral?",
     "options": [
-      "Pain that settles after reducing cutting",
-      "Normal neurological screening",
-      "Stable hip strength",
-      "A palpable mass, gastrointestinal or urinary symptoms, or pain unrelated to activity"
+      "Mass, visceral symptoms, or non-mechanical pain",
+      "Pain settling after reduced cutting",
+      "Normal neurological screen without focal signs",
+      "Stable hip strength and range without pain"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "A mass or systemic, gastrointestinal or urinary features may indicate a non-musculoskeletal cause.",
     "sourceId": "doha-groin-consensus-2015",
     "passageId": "c-spine-044",
@@ -3332,12 +3332,12 @@
     "difficulty": "analytical",
     "text": "What is the safest short-term training plan?",
     "options": [
-      "Reduce cutting and high abdominal-pressure tasks",
-      "Increase cutting until the location becomes clear",
+      "Increase cutting until location becomes clear",
       "Use maximal squeeze repetitions",
-      "Return to full competition because MRI is not yet done"
+      "Return to competition before assessment",
+      "Reduce cutting and high-pressure tasks"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "The provoking exposure should be reduced while the differential is evaluated and tolerable conditioning continues.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-044",
@@ -3351,12 +3351,12 @@
     "difficulty": "applied",
     "text": "Which factor is most modifiable immediately?",
     "options": [
-      "The athlete's normal neurological examination",
-      "The absence of leg pain",
-      "The abrupt increase in bowling frequency",
-      "A stable resting posture"
+      "Normal neurological examination at rest",
+      "No leg pain during activity",
+      "Stable resting posture between sessions",
+      "Abrupt rise in bowling frequency"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "The change in exposure and recovery is the clearest immediate target for load management.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-045",
@@ -3389,12 +3389,12 @@
     "difficulty": "analytical",
     "text": "Which monitoring approach best supports the next decision?",
     "options": [
-      "Combine bowling exposure with symptoms, sleep, fatigue, and recovery response",
-      "Monitor only the number of wickets",
-      "Monitor only body mass",
-      "Ignore subjective recovery measures"
+      "Track bowling workload by session",
+      "Track body mass and hydration status",
+      "Track recovery, sleep, and fatigue trends",
+      "Track load, symptoms, fatigue, and recovery"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Training load and athlete response are complementary; monitoring both can identify emerging problems earlier.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-045",
@@ -3408,12 +3408,12 @@
     "difficulty": "analytical",
     "text": "Which finding would require referral rather than a routine deload?",
     "options": [
-      "Improved sleep after a reduced schedule",
-      "Night pain, neurological deficit or systemic symptoms",
-      "Pain-free walking",
-      "Stable symptoms during low-load conditioning"
+      "Night pain or other red flags",
+      "Improved sleep after deloading",
+      "Pain-free walking tolerance",
+      "Stable low-load symptoms"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "These features broaden the differential and require medical evaluation.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-045",
@@ -3427,12 +3427,12 @@
     "difficulty": "applied",
     "text": "Which training intervention is most defensible?",
     "options": [
-      "Repeat routines until fatigue no longer changes technique",
-      "Increase routine frequency to improve tolerance rapidly",
-      "Stop all movement indefinitely",
-      "Reduce high-risk routine volume"
+      "Repeat routines until technique fails",
+      "Reduce high-risk routine volume",
+      "Increase routine frequency quickly",
+      "Stop all movement indefinitely"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The load should be adjusted to protect quality and recovery while maintaining appropriate preparation.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-046",
@@ -3444,14 +3444,14 @@
     "topic": "Spine & Pelvis Scenarios",
     "subtopic": "Extension-rotation lumbar loading",
     "difficulty": "analytical",
-    "text": "Why is fatigue clinically relevant in this case?",
+    "text": "Why is fatigue clinically relevant in this presentation?",
     "options": [
-      "Loss of trunk control may increase repeated extension loading during skills",
-      "Fatigue guarantees a disc herniation",
+      "Fatigue guarantees disc herniation",
       "Fatigue makes movement analysis unnecessary",
+      "Fatigue can increase extension loading",
       "Fatigue affects only upper-limb performance"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Movement strategy under fatigue can alter the distribution and magnitude of spinal loading.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-046",
@@ -3466,11 +3466,11 @@
     "text": "Which criterion is most useful before restoring consecutive routines?",
     "options": [
       "One perfect routine after rest",
-      "Stable technique and symptoms across a representative repeated-routine dose",
       "A normal scan without fatigue testing",
-      "A calendar date at the end of competition"
+      "Stable technique and symptoms",
+      "A calendar date at competition's end"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "The athlete should demonstrate repeated-load tolerance, not just isolated performance.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-046",
@@ -3484,9 +3484,9 @@
     "difficulty": "analytical",
     "text": "Which change should prompt medical assessment?",
     "options": [
-      "Symptoms that settle with recovery",
-      "Stable neurological testing",
-      "Pain that becomes constant or is accompanied by night symptoms or neurological signs",
+      "Symptoms settle with recovery",
+      "Stable neurological testing over time",
+      "Constant/night pain or neurological signs",
       "Improved movement quality after deloading"
     ],
     "correct": 2,
@@ -3503,12 +3503,12 @@
     "difficulty": "applied",
     "text": "What is the most appropriate team response?",
     "options": [
-      "Reduce or redistribute the training load",
       "Increase volume to maintain the planned progression",
       "Ignore recovery data because distance is the only load",
+      "Reduce or redistribute the training load",
       "Stop all training without a reassessment plan"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Load management integrates exposure and recovery; a sudden rise with fatigue supports a temporary adjustment and review.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-047",
@@ -3523,11 +3523,11 @@
     "text": "What limitation should be acknowledged when using the dashboard?",
     "options": [
       "Monitoring replaces physical examination",
-      "Monitoring identifies risk signals but does not diagnose the tissue source of pain",
       "A high fatigue score proves pars fracture",
+      "Monitoring flags risk, not tissue source",
       "A low score excludes all pathology"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Monitoring can support early detection and decisions but cannot substitute for clinical assessment or establish a diagnosis.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-047",
@@ -3541,10 +3541,10 @@
     "difficulty": "analytical",
     "text": "Which outcome should guide a gradual return to higher volume?",
     "options": [
-      "A single low-fatigue morning",
-      "Completion of the original planned volume",
-      "Stable symptoms, restored movement quality",
-      "A normal imaging result alone"
+      "Single low-fatigue morning",
+      "Completion of planned volume",
+      "Stable symptoms and movement quality",
+      "Normal imaging without functional testing"
     ],
     "correct": 2,
     "explanation": "Progression should be based on repeated response and capacity rather than one favorable measure.",
@@ -3580,11 +3580,11 @@
     "text": "Which movement factor should be addressed first?",
     "options": [
       "Eliminate all hip motion from bowling",
-      "Excessive lumbar extension-rotation",
       "Increase lumbar extension to gain speed",
-      "Train only shoulder mobility"
+      "Train only shoulder mobility",
+      "Excessive lumbar extension-rotation"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Technical analysis should identify how force is transferred and whether the lumbar spine is absorbing avoidable extension-rotation.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-048",
@@ -3598,12 +3598,12 @@
     "difficulty": "analytical",
     "text": "Which workload strategy is safest?",
     "options": [
-      "Increase overs whenever the athlete feels good at warm-up",
-      "Use maximal match spells to test durability",
-      "Change both volume and intensity at once",
-      "Increase overs gradually"
+      "Increase overs gradually",
+      "Increase overs when warm-up feels good",
+      "Use maximal match spells",
+      "Change volume and intensity together"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Gradual exposure with recovery and monitoring reduces abrupt changes and provides interpretable feedback.",
     "sourceId": "ioc-load-illness-2016",
     "passageId": "c-spine-048",
@@ -3617,12 +3617,12 @@
     "difficulty": "analytical",
     "text": "Why should hip mobility be assessed as part of the lumbar plan?",
     "options": [
-      "Hip mobility determines pars healing directly",
+      "Restricted hip motion may shift lumbar loading",
+      "Hip mobility directly determines pars healing",
       "Hip testing replaces lumbar examination",
-      "Restricted hip movement can alter pelvic motion and force distribution",
       "Hip mobility has no relation to force transfer"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Adjacent-region mobility can affect movement strategy and load distribution, although it is not itself proof of causation.",
     "sourceId": "neumann-kinesiology",
     "passageId": "c-spine-048",
@@ -3636,12 +3636,12 @@
     "difficulty": "analytical",
     "text": "Which result best supports a return to higher-intensity spells?",
     "options": [
-      "Controlled delivery mechanics",
-      "Normal hip mobility with pain during bowling",
-      "A single high-speed over",
-      "No pain at rest despite post-spell pain"
+      "Normal hip mobility despite bowling pain",
+      "One high-speed over without symptoms",
+      "Controlled delivery mechanics under load",
+      "No resting pain despite post-spell pain"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "The sport-specific exposure and recovery response must be demonstrated before intensity and volume are increased.",
     "sourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
     "passageId": "c-spine-048",
@@ -3655,12 +3655,12 @@
     "difficulty": "applied",
     "text": "Which diagnosis must be considered urgently?",
     "options": [
-      "Routine post-training muscle soreness",
+      "Routine post-training soreness only",
       "Isolated adductor-related groin pain",
-      "Cauda equina or severe lumbosacral neural compromise",
-      "Stable mechanical facet pain"
+      "Stable mechanical facet pain pattern",
+      "Cauda equina or severe lumbosacral compromise"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Saddle sensory change with urinary difficulty is a neurological emergency pattern requiring immediate assessment.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-049",
@@ -3693,12 +3693,12 @@
     "difficulty": "analytical",
     "text": "Which finding would further support serious neural compromise?",
     "options": [
-      "Progressive bilateral weakness or loss of perineal sensation",
       "Improved pain with walking",
-      "Normal shoulder strength",
-      "A mild unilateral hamstring ache"
+      "Normal shoulder strength and sensation",
+      "Bilateral weakness or perineal numbness",
+      "Mild unilateral hamstring ache"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Bilateral or progressive neurological deficits increase concern for cauda equina or severe neural compromise.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-049",
@@ -3712,12 +3712,12 @@
     "difficulty": "analytical",
     "text": "Which return decision is appropriate at this stage?",
     "options": [
-      "Return once pain falls below 3/10",
-      "No sport participation until urgent medical assessment",
+      "No sport pending urgent assessment",
+      "Return once pain is below 3/10",
       "Return after one symptom-free warm-up",
       "Return if the athlete can jump"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Emergency signs override routine pain-based clearance and require medical evaluation first.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-049",
@@ -3731,12 +3731,12 @@
     "difficulty": "applied",
     "text": "Which feature most strongly changes the working differential?",
     "options": [
+      "Systemic or non-mechanical pain features",
       "Pain that varies predictably with loading",
-      "Systemic symptoms and non-mechanical pain behavior",
       "Improvement after reduced training",
-      "A normal single-leg balance test"
+      "Normal single-leg balance at baseline"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Fever, weight loss and non-mechanical night pain are red flags for causes requiring medical assessment.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-050",
@@ -3752,10 +3752,10 @@
     "options": [
       "Progressive lumbar strengthening without review",
       "Repeated extension testing until symptoms change",
-      "Clearance for low-intensity training only",
-      "Urgent medical referral for evaluation of infection, malignancy or another systemic disorder"
+      "Urgent referral for possible systemic disease",
+      "Clearance for low-intensity training only"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "The combination of systemic and non-mechanical signs requires medical evaluation rather than routine sports rehabilitation.",
     "sourceId": "brukner-khan-clinical-sports-medicine-vol2",
     "passageId": "c-spine-050",
@@ -3769,12 +3769,12 @@
     "difficulty": "analytical",
     "text": "Why is a normal neurological examination insufficient reassurance?",
     "options": [
-      "Serious spinal or systemic disease may initially occur",
       "Neurological tests detect all systemic disease",
       "A normal examination proves the pain is muscular",
-      "Systemic disorders always produce foot drop first"
+      "Systemic disorders always produce foot drop first",
+      "Serious spinal or systemic disease may initially occur"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Neurological screening is important but does not exclude non-neurological serious pathology.",
     "sourceId": "magee-orthopaedic-assessment",
     "passageId": "c-spine-050",
@@ -3789,11 +3789,11 @@
     "text": "Which training instruction is safest pending medical advice?",
     "options": [
       "Continue full endurance volume",
-      "Use maximal exercise to test severity",
       "Suspend training that aggravates symptoms",
-      "Use passive treatment as a substitute for referral"
+      "Use maximal exercise to test severity",
+      "Use passive treatment instead of referral"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Training should not continue as a diagnostic experiment when red flags are present.",
     "sourceId": "ioc-manual-sports-injuries",
     "passageId": "c-spine-050",
