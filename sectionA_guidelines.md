@@ -117,3 +117,103 @@ Section A is **common to all sports science disciplines** (40% of the total exam
 2. **Prioritize Objective Calculations:** Be prepared for formula-based questions often asked in Section A/B (such as Mid-parental height estimation, target weight from body fat percentage, Waist-to-Hip Ratio, and fluid replacement calculations).
 3. **Master Anti-Doping & Government Schemes:** These are straightforward scoring areas in the 8-mark Section A2 that take minimal study time.
 4. **Accuracy Over Guesswork:** With a **0.25 negative marking penalty** per wrong question and tie-breaker criteria giving weight to Section A/A1 scores, avoid blind guessing.
+
+---
+
+### 6. Official SAI Sample Questions (Annexure B: Section A – Basic Sports Science)
+
+*(Extracted verbatim from Annexure B of the official notification with detailed scientific rationales)*
+
+#### **Question 1 (Anthropometry & Body Composition)**
+An athlete with identical BMI values may demonstrate significantly different performance capacities primarily because BMI:
+* A. Does not account for body fat percentage
+* B. Does not reflect fat-free mass distribution
+* C. Does not consider limb length proportions
+* D. Does not capture somatotype and tissue composition
+
+**Correct Answer:** **D. Does not capture somatotype and tissue composition**
+> **Scientific Rationale:** While BMI ($\text{kg/m}^2$) gives a crude proxy of body mass relative to height, it fails to differentiate between fat mass and fat-free mass (skeletal muscle, bone density) and ignores Heath-Carter somatotype (endomorphy, mesomorphy, ectomorphy), both of which are primary determinants of athletic functional capacity.
+
+---
+
+#### **Question 2 (Exercise Physiology & Energy Systems)**
+During prolonged intermittent sports (e.g., football), which physiological mechanism most directly delays fatigue in the later stages of play?
+* A. Increased glycolytic enzyme activity
+* B. Enhanced phosphocreatine resynthesis
+* C. Improved mitochondrial oxidative capacity
+* D. Elevated resting metabolic rate
+
+**Correct Answer:** **C. Improved mitochondrial oxidative capacity**
+> **Scientific Rationale:** In intermittent sports, while high-intensity bouts utilize anaerobic pathways, the recovery between sprints and late-game stamina rely heavily on aerobic ATP resynthesis, lactate clearance, and phosphocreatine (PCr) replenishment driven by mitochondrial oxidative phosphorylation density.
+
+---
+
+#### **Question 3 (Sports Medicine & Physical Therapy)**
+Which factor most critically differentiates functional instability from mechanical instability following an ankle sprain?
+* A. Ligament laxity measured by stress testing
+* B. Presence of joint effusion
+* C. Deficits in proprioception and neuromuscular control
+* D. Reduced ankle dorsiflexion range
+
+**Correct Answer:** **C. Deficits in proprioception and neuromuscular control**
+> **Scientific Rationale:** Mechanical instability is defined by anatomical/structural ligamentous laxity (e.g., positive anterior drawer or talar tilt test), whereas functional instability (subjective feeling of "giving way") is driven by sensorimotor, proprioceptive, and dynamic neuromuscular control deficits despite adequate structural healing.
+
+---
+
+#### **Question 4 (Biomechanics & Kinetics)**
+In running biomechanics, reducing braking impulse during ground contact primarily improves performance by:
+* A. Increasing vertical oscillation
+* B. Enhancing elastic energy storage
+* C. Minimizing horizontal deceleration forces
+* D. Increasing stance time
+
+**Correct Answer:** **C. Minimizing horizontal deceleration forces**
+> **Scientific Rationale:** The ground reaction force during initial contact generates a braking (posteriorly directed) horizontal force. Minimizing braking impulse (reducing overstriding and foot-ahead-of-COM placement) prevents unwanted deceleration and preserves horizontal forward momentum.
+
+---
+
+#### **Question 5 (Biochemistry & Recovery Biomarkers)**
+Elevated creatine kinase (CK) levels following competition should be interpreted cautiously because CK:
+* A. Directly correlates with muscle strength loss
+* B. Reflects cumulative training volume only
+* C. Shows high inter-individual variability and delayed response
+* D. Is unaffected by eccentric muscle actions
+
+**Correct Answer:** **C. Shows high inter-individual variability and delayed response**
+> **Scientific Rationale:** Serum CK peaks 24–72 hours post-exercise and exhibits extreme inter-individual variance (high vs. low responders) and dependency on contact vs. non-contact collision exposure, meaning raw CK values alone cannot serve as a stand-alone metric of neuromuscular fatigue.
+
+---
+
+#### **Question 6 (Strength & Conditioning)**
+The principle of progressive overload is most effectively applied in elite athletes by manipulating:
+* A. Training frequency alone
+* B. External load without recovery consideration
+* C. Load, volume, and intensity while monitoring fatigue markers
+* D. Exercise selection exclusively
+
+**Correct Answer:** **C. Load, volume, and intensity while monitoring fatigue markers**
+> **Scientific Rationale:** Optimal adaptation in elite athletes requires systematic periodization and micro-adjustments of volume, load intensity, and movement velocity paired with objective internal/external fatigue monitoring (e.g., wellness questionnaires, velocity loss, HRV) to avoid non-functional overreaching.
+
+---
+
+#### **Question 7 (Sports Psychology)**
+Which psychological construct most strongly predicts consistency of performance under pressure?
+* A. Trait anxiety
+* B. Intrinsic motivation
+* C. Mental toughness
+* D. External motivation
+
+**Correct Answer:** **C. Mental toughness**
+> **Scientific Rationale:** Mental toughness encompasses resilience, attentional control, emotional regulation, and self-belief, which enables athletes to perform reliably under high-stakes competitive stress and adverse conditions.
+
+---
+
+#### **Question 8 (Sports Nutrition & Bioenergetics)**
+Why is carbohydrate availability more critical than total caloric intake during high-intensity training phases?
+* A. Carbohydrates suppress fat oxidation
+* B. Muscle glycogen directly supports high-intensity output
+* C. Protein cannot be oxidized during exercise
+* D. Fat digestion is slower
+
+**Correct Answer:** **B. Muscle glycogen directly supports high-intensity output**
+> **Scientific Rationale:** The rate of ATP synthesis through anaerobic glycolysis and glycogenolysis is significantly faster than oxidative phosphorylation from lipids. High-intensity muscular contractions are strictly dependent on adequate intra-muscular glycogen stores.

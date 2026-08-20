@@ -194,3 +194,127 @@ The official SAI notification questions are benchmarked directly against these a
    * Because Section C is the **#1 tie-breaker in the recruitment exam**, securing high accuracy here gives UR candidates the decisive edge in securing one of the 12 Unreserved vacancies.
 5. **Mitigate Negative Marking (0.25 Penalty):**
    * If a case scenario provides 2–3 specific clinical clues (e.g., age, mechanism, resisted movement reproduction), eliminate physiologically incompatible options before committing your answer.
+
+---
+
+### 6. Official SAI Sample Questions (Annexure B: Section C – Physiotherapy Case Studies)
+
+*(Extracted verbatim from Annexure B of the official notification with comprehensive clinical case deconstructions)*
+
+#### **Case Study 1 (Acute Hamstring Strain in Sprinting)**
+> **Clinical Scenario:** A 22-year-old male footballer reports a sudden “pop” in the posterior thigh while sprinting, followed by immediate pain and difficulty continuing play. According to standard sports medicine texts, the MOST likely structure injured is:
+* A. Adductor longus
+* B. Semimembranosus
+* C. Biceps femoris long head
+* D. Gracilis
+
+**Correct Answer:** **C. Biceps femoris long head**
+> **Case Analysis & Reasoning:** High-speed sprinting imposes maximum eccentric lengthening and peak contraction load during the terminal swing phase. The **long head of biceps femoris** is under maximal strain across both the hip and knee joints simultaneously, making it the most frequently injured muscle ($\sim 80\%$ of all hamstring strain injuries in sprinters and footballers).
+
+---
+
+#### **Case Study 2 (Lateral Elbow Overuse in Racquet Sports)**
+> **Clinical Scenario:** A professional badminton player presents with lateral elbow pain aggravated during backhand strokes. Resisted wrist extension reproduces symptoms. Based on textbook diagnostic criteria, the MOST likely diagnosis is:
+* A. Golfer’s elbow
+* B. Radial tunnel syndrome
+* C. Lateral epicondylalgia
+* D. Posterior interosseous nerve palsy
+
+**Correct Answer:** **C. Lateral epicondylalgia**
+> **Case Analysis & Reasoning:** Repetitive eccentric and isometric loading of the wrist extensors during backhand stroke impacts induces angiofibroblastic tendinosis predominantly at the **Extensor Carpi Radialis Brevis (ECRB)** origin at the lateral epicondyle. Resisted wrist extension with radial deviation (Cozen's test) is the classic diagnostic physical sign.
+
+---
+
+#### **Case Study 3 (Anterior Knee Pain in Basketball)**
+> **Clinical Scenario:** A 19-year-old basketball player complains of anterior knee pain, worse during stair descent and prolonged sitting. There is no history of trauma. According to sports rehabilitation texts, the MOST appropriate initial management is:
+* A. Complete rest for 6 weeks
+* B. Quadriceps strengthening with emphasis on VMO and hip abductors
+* C. Knee immobilization
+* D. Surgical patellar realignment
+
+**Correct Answer:** **B. Quadriceps strengthening with emphasis on VMO and hip abductors**
+> **Case Analysis & Reasoning:** The classic "theater sign" (pain with prolonged sitting) and worsening with eccentric loading during stair descent are hallmarks of Patellofemoral Pain Syndrome (PFPS). High-level evidence-based consensus guidelines mandate multimodal conservative exercise therapy targeting Vastus Medialis Oblique (VMO) timing and hip abductor/gluteal strengthening to optimize dynamic patellar tracking. Complete rest or immobilization causes rapid arthrogenic muscle inhibition and worsens outcomes.
+
+---
+
+#### **Case Study 4 (Inversion Ankle Injury in Sprinters)**
+> **Clinical Scenario:** A sprinter sustains an ankle injury with plantarflexion and inversion. Immediate swelling is noted around the lateral malleolus. According to orthopedic assessment textbooks, the MOST commonly injured ligament is:
+* A. Calcaneofibular ligament
+* B. Posterior talofibular ligament
+* C. Anterior talofibular ligament
+* D. Deltoid ligament
+
+**Correct Answer:** **C. Anterior talofibular ligament**
+> **Case Analysis & Reasoning:** In a plantarflexed and inverted position, the **Anterior Talofibular Ligament (ATFL)** becomes fully taut and oriented parallel to the long axis of the talus, bearing the initial mechanical failure load before the calcaneofibular ligament (CFL) or posterior talofibular ligament (PTFL).
+
+---
+
+#### **Case Study 5 (Shoulder Internal Rotation Deficit in Fast Bowlers)**
+> **Clinical Scenario:** A 24-year-old fast bowler reports shoulder pain during the late cocking phase of throwing. Examination shows increased external rotation and decreased internal rotation compared to the non-dominant side. This pattern is classically described as:
+* A. Shoulder impingement syndrome
+* B. Multidirectional instability
+* C. Glenohumeral internal rotation deficit (GIRD)
+* D. Adhesive capsulitis
+
+**Correct Answer:** **C. Glenohumeral internal rotation deficit (GIRD)**
+> **Case Analysis & Reasoning:** Repetitive overhead throwing causes osseous humeral retroversion and posterior capsular/rotator cuff contracture. A loss of glenohumeral internal rotation $>18^\circ–20^\circ$ relative to the non-dominant shoulder (or a $>5^\circ$ deficit in Total Motion Arc) defines GIRD, predisposing overhead throwers to internal impingement and superior labral (SLAP) tears.
+
+---
+
+#### **Case Study 6 (Traumatic Knee Instability & Special Tests)**
+> **Clinical Scenario:** A young volleyball player lands awkwardly from a jump and reports knee instability. Lachman test is positive. According to standard sports injury textbooks, the MOST sensitive clinical test for this injury is:
+* A. Anterior drawer test
+* B. Pivot shift test
+* C. Lachman test
+* D. McMurray test
+
+**Correct Answer:** **C. Lachman test**
+> **Case Analysis & Reasoning:** For assessing anterior cruciate ligament (ACL) integrity, the **Lachman test** (performed at $20^\circ–30^\circ$ flexion) has the highest sensitivity ($\sim 85–95\%$), minimizing false negatives compared to the Anterior Drawer test (which is confounded by hamstring spasm). The Pivot Shift test has higher specificity ($\sim 97–99\%$) but lower sensitivity in acute, guarded presentations.
+
+---
+
+#### **Case Study 7 (Exertional Leg Pain in Runners)**
+> **Clinical Scenario:** A long-distance runner presents with medial tibial pain aggravated by training volume increase. X-ray is normal. Sports medicine textbooks describe this condition MOST commonly as:
+* A. Tibial stress fracture
+* B. Chronic exertional compartment syndrome
+* C. Medial tibial stress syndrome
+* D. Popliteal artery entrapment
+
+**Correct Answer:** **C. Medial tibial stress syndrome**
+> **Case Analysis & Reasoning:** Medial Tibial Stress Syndrome (MTSS / "shin splints") is an exercise-induced traction periostitis presenting with diffuse posteromedial tibial border tenderness ($>5\text{ cm}$) associated with rapid volume increases. Standard plain radiographs are typically normal in early stages, whereas focal pinpoint bony tenderness ($\le 5\text{ cm}$) would point toward a cortical stress fracture requiring MRI.
+
+---
+
+#### **Case Study 8 (Progressive Shoulder Pain in Competitive Swimmers)**
+> **Clinical Scenario:** A competitive swimmer complains of progressive shoulder pain without a single traumatic event. Pain increases during overhead activity, and Hawkins–Kennedy test is positive. The MOST likely diagnosis is:
+* A. Rotator cuff tear
+* B. Shoulder instability
+* C. Subacromial impingement syndrome
+* D. Biceps tendon rupture
+
+**Correct Answer:** **C. Subacromial impingement syndrome**
+> **Case Analysis & Reasoning:** "Swimmer's shoulder" typically arises from repetitive mechanical compression of the supraspinatus tendon, subacromial bursa, and long head of biceps against the coracoacromial arch during overhead recovery strokes. A positive Hawkins-Kennedy test (passive internal rotation in $90^\circ$ forward flexion) specifically drives the greater tuberosity under the coracoacromial ligament, reproducing subacromial impingement pain.
+
+---
+
+#### **Case Study 9 (Return-to-Sport Decision Criteria Post-ACL Reconstruction)**
+> **Clinical Scenario:** A football player returns to sport after ACL reconstruction. According to rehabilitation textbooks, the MOST critical criterion before return-to-sport decision-making is:
+* A. Time since surgery
+* B. Absence of pain
+* C. Symmetry in strength and functional hop tests
+* D. Normal MRI appearance
+
+**Correct Answer:** **C. Symmetry in strength and functional hop tests**
+> **Case Analysis & Reasoning:** Modern evidence-based sports rehabilitation strictly repudiates calendar-based or purely symptom-based clearance. Objective functional criteria—specifically achieving a **Limb Symmetry Index (LSI) $\ge 90\%$** across quadriceps/hamstring isokinetic dynamometry and a validated single-leg hop test battery (Single hop, Triple hop, Crossover hop, 6-meter timed hop)—are mandatory to minimize graft re-rupture and contralateral injury risk.
+
+---
+
+#### **Case Study 10 (Adolescent Heel Pain in Running & Jumping)**
+> **Clinical Scenario:** A 17-year-old adolescent athlete presents with heel pain aggravated by running and jumping, relieved by rest. Tenderness is present at the calcaneal apophysis. According to sports medicine textbooks, the MOST likely diagnosis is:
+* A. Plantar fasciitis
+* B. Achilles tendinopathy
+* C. Sever’s disease
+* D. Retrocalcaneal bursitis
+
+**Correct Answer:** **C. Sever’s disease**
+> **Case Analysis & Reasoning:** **Sever’s disease (calcaneal apophysitis)** is a traction apophysitis of the secondary ossification center of the calcaneus caused by repetitive microtrauma from the Achilles tendon insertion during rapid skeletal growth spurts in young, active running and jumping athletes. The hallmark clinical sign is focal tenderness upon direct palpation or medio-lateral compression of the posterior calcaneal apophysis (positive "squeeze test" of the heel).

@@ -143,3 +143,137 @@ The sample questions provided in the official notification (**Annexure B**) expl
    * Memorize the latest **SCAT6** red flags (neck pain, double vision, weakness/tingling in arms/legs, severe headache, seizure, deteriorating consciousness) requiring immediate emergency hospital transfer.
 5. **Manage Negative Marking:**
    * Since each wrong answer deducts **0.25 marks**, eliminate options systematically using anatomical and biomechanical reasoning rather than random guessing.
+
+---
+
+### 6. Official SAI Sample Questions (Annexure B: Section B – Physiotherapy)
+
+*(Extracted verbatim from Annexure B of the official notification with cited standard textbook references and clinical rationales)*
+
+#### **Question 1 (Anatomy & Biomechanics: Shoulder Initiation)**
+Which muscle is described as the primary initiator of shoulder abduction ($0^\circ–15^\circ$) based on integrated biomechanical and EMG evidence in standard physiotherapy texts?
+* A. Deltoid
+* B. Supraspinatus
+* C. Infraspinatus
+* D. Upper trapezius
+
+**Correct Answer:** **B. Supraspinatus**
+* **Official Reference:** *Kinesiology of the Musculoskeletal System: Foundations for Rehabilitation* (Donald A. Neumann)
+> **Clinical Rationale:** The supraspinatus possesses an optimal mechanical line of pull to initiate the first $0^\circ–15^\circ$ of glenohumeral abduction and compresses the humeral head into the glenoid fossa, after which the deltoid becomes the primary torque generator.
+
+---
+
+#### **Question 2 (Gait Analysis & Biomechanics: Peak Knee Flexion)**
+According to observational gait data summarized in standard biomechanics textbooks, peak knee flexion during normal walking occurs in which phase?
+* A. Loading response
+* B. Mid-stance
+* C. Terminal stance
+* D. Swing phase
+
+**Correct Answer:** **D. Swing phase**
+* **Official Reference:** *Gait Analysis: Normal and Pathological Function* (Jacquelin Perry & Judith Burnfield)
+> **Clinical Rationale:** Peak knee flexion reaches approximately $60^\circ$ during the **Initial Swing** sub-phase of the swing phase to ensure foot clearance over the ground.
+
+---
+
+#### **Question 3 (Exercise Therapy: Hypertrophy & Strength Principles)**
+Which exercise approach is identified as producing the greatest strength gains based on evidence synthesized in classical exercise therapy textbooks?
+* A. Low-load endurance training
+* B. Isometric training alone
+* C. Progressive resistance training
+* D. Stretch-only programs
+
+**Correct Answer:** **C. Progressive resistance training**
+* **Official Reference:** *Therapeutic Exercise: Foundations and Techniques* (Carolyn Kisner & Lynn Allen Colby)
+> **Clinical Rationale:** Progressive Resistance Training (PRT) systematically applies overload to recruit high-threshold motor units (Henneman's size principle), inducing both neural adaptation and myofibrillar hypertrophy.
+
+---
+
+#### **Question 4 (Sports Rehabilitation: Tendinopathy Management)**
+Eccentric loading is described in major rehabilitation textbooks as having the strongest evidence-based role in the management of:
+* A. Acute muscle strain
+* B. Patellofemoral pain
+* C. Tendinopathies
+* D. Joint instability
+
+**Correct Answer:** **C. Tendinopathies**
+* **Official Reference:** *Therapeutic Exercise: Foundations and Techniques* (Kisner & Colby)
+> **Clinical Rationale:** Eccentric loading (e.g., Alfredson protocol for Achilles, Curwin-Stanish protocol for patellar tendon) stimulates tenocyte mechanotransduction, collagen remodeling, and normalizes tendon structure.
+
+---
+
+#### **Question 5 (Electrotherapy: Therapeutic Ultrasound in LBP)**
+According to standard electrotherapy reference texts, therapeutic ultrasound for chronic non-specific low back pain demonstrates:
+* A. Strong clinical superiority
+* B. Clear long-term benefit
+* C. Limited or no clinically meaningful benefit
+* D. Essential pain-modifying effects
+
+**Correct Answer:** **C. Limited or no clinically meaningful benefit**
+* **Official Reference:** *Electrotherapy: Evidence-Based Practice* (Tim Watson)
+> **Clinical Rationale:** Systematic reviews and international clinical practice guidelines (NICE, ACP) demonstrate that therapeutic ultrasound has no clinically meaningful benefit beyond placebo for chronic non-specific low back pain.
+
+---
+
+#### **Question 6 (Electrotherapy: Indications for TENS)**
+In evidence summaries presented in electrotherapy textbooks, TENS shows the strongest support for use in:
+* A. Chronic nonspecific low back pain
+* B. Acute postoperative pain
+* C. Muscle strengthening
+* D. Structural deformity correction
+
+**Correct Answer:** **B. Acute postoperative pain**
+* **Official Reference:** *Electrotherapy: Evidence-Based Practice* (Tim Watson)
+> **Clinical Rationale:** High-frequency conventional TENS provides robust, immediate analgesia via the Melzack-Wall Gate Control Theory, showing highest clinical efficacy in acute postoperative and acute procedural pain.
+
+---
+
+#### **Question 7 (Orthopaedic Assessment: Diagnostic Test Accuracy)**
+According to orthopaedic examination textbooks synthesizing diagnostic accuracy studies, which test has the highest sensitivity for ACL rupture?
+* A. Anterior drawer test
+* B. Pivot shift test
+* C. Lachman test
+* D. McMurray test
+
+**Correct Answer:** **C. Lachman test**
+* **Official Reference:** *Orthopedic Physical Assessment* (David J. Magee)
+> **Clinical Rationale:** The **Lachman test** has the highest sensitivity ($\sim 85–95\%$) for detecting ACL tears, whereas the **Pivot Shift test** has the highest specificity ($\sim 97–99\%$).
+
+---
+
+#### **Question 8 (Musculoskeletal Rehabilitation: Knee Osteoarthritis)**
+Standard orthopaedic rehabilitation textbooks state that the primary, consistent benefits of exercise therapy in knee osteoarthritis are improvements in:
+* A. Cartilage regeneration
+* B. Pain and physical function
+* C. Joint space width
+* D. Bone mineral density
+
+**Correct Answer:** **B. Pain and physical function**
+* **Official Reference:** *Orthopedic Physical Assessment* (David J. Magee)
+> **Clinical Rationale:** Therapeutic exercise cannot regenerate lost hyaline cartilage or widen structural joint space, but consistently delivers clinically significant reductions in pain and improvements in functional mobility.
+
+---
+
+#### **Question 9 (Neurological Rehabilitation: Task-Specific Training)**
+According to neurological rehabilitation textbooks, task-specific training after stroke most reliably improves:
+* A. Spasticity reduction
+* B. Functional task performance
+* C. Reflex inhibition
+* D. Sensory recovery
+
+**Correct Answer:** **B. Functional task performance**
+* **Official Reference:** *Physical Rehabilitation* / *Neurological Rehabilitation* (Susan B. O'Sullivan & Thomas J. Schmitz)
+> **Clinical Rationale:** Principles of neuroplasticity and motor learning demonstrate that repetitive, goal-directed, task-specific practice directly enhances motor skill retention and functional independence.
+
+---
+
+#### **Question 10 (Neurorehabilitation: CIMT Inclusion Criteria)**
+Constraint-induced movement therapy (CIMT) is recommended in standard neurorehabilitation texts for stroke patients who:
+* A. Are in the flaccid stage
+* B. Have no distal movement
+* C. Have some active wrist and finger extension
+* D. Are in the acute ICU phase
+
+**Correct Answer:** **C. Have some active wrist and finger extension**
+* **Official Reference:** *Physical Rehabilitation* (Susan B. O'Sullivan & Thomas J. Schmitz)
+> **Clinical Rationale:** Standard inclusion criteria for CIMT (e.g., EXCITE trial criteria) require minimum active distal motor control: at least $10^\circ$ of active wrist extension and $10^\circ$ of active extension in at least two fingers/thumb.
