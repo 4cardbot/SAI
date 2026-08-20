@@ -71,13 +71,20 @@ function generateFilteredAttemptQuestions(bank: Question[], seed: number, select
   if (matchingQuestions.length === 0) {
     throw new Error("The selected section, topic and subtopic contain no questions");
   }
-  const orderedQuestions = !selection.topic
+  const isSectionOnly = !selection.topic;
+  const wantsAll = selection.questionCount === "all" || (!isSectionOnly && selection.questionCount === undefined);
+  const targetCount = wantsAll ? matchingQuestions.length : Math.min(SECTION_ONLY_COUNT, matchingQuestions.length);
+  const orderedQuestions = isSectionOnly
     ? selection.section === "C"
-      ? chooseCaseQuestions(matchingQuestions, seed, SECTION_ONLY_COUNT)
-      : chooseQuestions(matchingQuestions, SECTION_ONLY_COUNT, seed, selection.section)
+      ? chooseCaseQuestions(matchingQuestions, seed, targetCount)
+      : chooseQuestions(matchingQuestions, targetCount, seed, selection.section)
     : selection.section === "C"
-      ? shuffleCompleteCases(matchingQuestions, seed)
-      : shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}`));
+      ? wantsAll
+        ? shuffleCompleteCases(matchingQuestions, seed)
+        : chooseCaseQuestions(matchingQuestions, seed, targetCount)
+      : wantsAll
+        ? shuffle(matchingQuestions, hashSeed(`${seed}:filtered:${selection.section}:${selection.topic}:${selection.subtopic ?? "all"}:all`))
+        : chooseQuestions(matchingQuestions, targetCount, seed, selection.section);
   return orderedQuestions.map((question) => ({
     questionId: question.id,
     optionOrder: shuffle([0, 1, 2, 3], hashSeed(`options:${question.id}:${seed}`)),

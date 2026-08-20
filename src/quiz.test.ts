@@ -72,6 +72,37 @@ describe("quiz engine", () => {
     expect(subtopicAttempt.remainingMs).toBe(durationForQuestionCount(subtopicQuestions.length));
   });
 
+  it("supports 100-question or all-question focused selections", () => {
+    const broadTopic = QUESTION_BANK.find((question) => {
+      const count = filterQuestions(QUESTION_BANK, { section: question.section, topic: question.topic }).length;
+      return count > 100;
+    })!;
+    const topicSelection = { section: broadTopic.section, topic: broadTopic.topic } as const;
+    const matching = filterQuestions(QUESTION_BANK, topicSelection);
+    const hundred = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { ...topicSelection, questionCount: 100 });
+    expect(matching.length).toBeGreaterThan(100);
+    expect(hundred.questions).toHaveLength(100);
+    expect(hundred.remainingMs).toBe(durationForQuestionCount(100));
+
+    const all = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { ...topicSelection, questionCount: "all" });
+    expect(all.questions).toHaveLength(matching.length);
+    expect(all.remainingMs).toBe(durationForQuestionCount(matching.length));
+    expect(new Set(all.questions.map((item) => item.questionId))).toEqual(new Set(matching.map((question) => question.id)));
+  });
+
+  it("keeps 100-question focused Section C selections as complete cases", () => {
+    const topic = topicsForSection(QUESTION_BANK, "C")[0];
+    const attempt = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { section: "C", topic, questionCount: 100 });
+    expect(attempt.questions).toHaveLength(100);
+    const passageCounts = new Map<string, number>();
+    attempt.questions.forEach((item) => {
+      const passageId = byId.get(item.questionId)?.passageId!;
+      passageCounts.set(passageId, (passageCounts.get(passageId) ?? 0) + 1);
+    });
+    expect(passageCounts.size).toBe(25);
+    expect([...passageCounts.values()].every((count) => count === 4)).toBe(true);
+  });
+
   it("builds a 100-question random test when only a section is selected", () => {
     const sectionOnly = createAttempt(QUESTION_BANK, new Date("2026-08-12T00:00:00Z"), 54321, "filtered", { section: "B" });
     expect(sectionOnly.questions).toHaveLength(100);

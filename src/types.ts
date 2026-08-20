@@ -2,11 +2,13 @@ export type Section = "A1" | "A2" | "B" | "C";
 export type AttemptMode = "full" | "A1_FULL" | "filtered" | Section;
 export type Difficulty = "foundational" | "applied" | "analytical";
 export type ResponseStatus = "unanswered" | "answered" | "skipped";
+export type PracticeQuestionCount = 100 | "all";
 
 export interface TestSelection {
   section: Section;
   topic?: string;
   subtopic?: string;
+  questionCount?: PracticeQuestionCount;
 }
 
 export interface Question {
