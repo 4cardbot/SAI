@@ -32,8 +32,9 @@ Most human limbs favour speed and range of motion over force advantage. Increasi
 ## Stability and alignment
 
 ```text
-Stability ↑ when: centre of mass stays over BOS + BOS is wider + COM is lower
-                 friction is adequate + external perturbation is manageable
+Stability increases when: the centre of mass stays over the base of support,
+the base is wider, the centre of mass is lower, friction is adequate,
+and the external disturbance is manageable.
 ```
 
 Dynamic alignment questions often use **hip–knee–foot**: poor hip control can contribute to dynamic knee valgus, but the cause must be tested rather than assumed.
@@ -60,11 +61,11 @@ Initial swing produces much of peak knee flexion for foot clearance. Terminal sw
 - Throwing: wind-up → cocking → acceleration → deceleration → follow-through; deceleration is a major load-management issue.
 - Sprinting: acceleration and maximal velocity differ in trunk angle, ground-contact time, step length/frequency and horizontal force orientation.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **K = know the motion; K = know the cause** (kinematics/kinetics).
-- Lever mnemonic: **first has the fulcrum first, second has resistance second, third has effort third**.
-- Gait initials: **I-L-M-T-P | I-M-T**.
+- **Kinematics describes the movement; kinetics explains the forces that cause or control it.**
+- For levers, identify the middle item: first-class has the joint axis in the middle, second-class has the resistance in the middle, and third-class has the effort in the middle.
+- Learn the walking sequence as words: **initial contact, loading response, mid-stance, terminal stance, pre-swing, initial swing, mid-swing, terminal swing.**
 
 ## Self-test
 

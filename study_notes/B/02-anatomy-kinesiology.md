@@ -20,7 +20,7 @@
 | Serratus anterior | Scapular protraction/upward rotation; long thoracic nerve |
 | Trapezius | Scapular elevation/retraction/upward rotation; spinal accessory nerve plus cervical contributions |
 
-Mnemonic: rotator cuff **SITS** = Supraspinatus, Infraspinatus, Teres minor, Subscapularis.
+The four rotator-cuff muscles are **supraspinatus, infraspinatus, teres minor and subscapularis**. Their initials are sometimes shortened to “SITS,” but learn the full names first.
 
 ## Lower-limb anchors
 
@@ -61,11 +61,12 @@ Open kinetic chain: distal segment free; closed kinetic chain: distal segment fi
 Joint position → muscle line of pull → moment arm → torque → movement/control
 ```
 
-## Memory tactics
+## Easy ways to remember it
 
-- **SITS** for the cuff; **F-A-T-D** for a quick upper-limb nerve cue: Femoral = anterior thigh/knee extension, Axillary = deltoid, Tibial = plantarflexors, Deep fibular = dorsiflexors.
-- Root ladder: **C5 shoulder, C6 thumb, C7 middle, C8 little; L4 knee, L5 great toe, S1 heel/lateral foot.**
-- When asked about a muscle, answer in four parts: **action–position–nerve–task.**
+- Learn the rotator cuff as four complete names, not as an unexplained letter group.
+- For a quick nerve check: the **femoral nerve helps knee extension, the axillary nerve supplies the deltoid, the tibial nerve helps plantarflexion, and the deep fibular nerve helps dorsiflexion**.
+- Sensory landmarks: **C5 shoulder, C6 thumb, C7 middle finger, C8 little finger; L4 medial knee/leg, L5 great toe, S1 lateral foot.**
+- When asked about a muscle, answer in four parts: **action, position, nerve and sporting task.**
 
 ## Self-test
 
@@ -77,4 +78,3 @@ Joint position → muscle line of pull → moment arm → torque → movement/co
 ## Sources
 
 `sai-notification-2026`; `openstax-anatomy-physiology-2e`; `neumann-kinesiology`; `basic-biomechanics-hall`; `shacklock-clinical-neurodynamics`; `osullivan-rehabilitation`; `magee-orthopaedic-assessment`.
-

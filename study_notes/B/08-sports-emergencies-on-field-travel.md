@@ -5,19 +5,20 @@
 ```text
 Prevent → plan roles/equipment/venue access → rehearse
 Recognise → stop play and identify danger
-Respond → cABCDE + emergency activation + appropriate transport
+Respond → catastrophic bleeding, airway, breathing, circulation, disability
+          and exposure + emergency activation + appropriate transport
 Reassess → document → debrief and improve the plan
 ```
 
 ## Primary survey
 
-**<C>ABCDE**: catastrophic haemorrhage, Airway with cervical-spine awareness, Breathing, Circulation, Disability, Exposure/environment. Treat life threats as found; use local emergency protocols and qualified responders.
+The primary survey is often written **<C>ABCDE**: catastrophic haemorrhage, Airway with cervical-spine awareness, Breathing, Circulation, Disability, Exposure/environment. Treat life threats as found; use local emergency protocols and qualified responders.
 
-- AED: attach and follow prompts as soon as available for a suspected cardiac arrest; minimise pauses in high-quality CPR.
+- Attach an **automated external defibrillator (AED)** and follow its prompts as soon as it is available for a suspected cardiac arrest; minimise pauses in high-quality **cardiopulmonary resuscitation (CPR)**.
 - Severe bleeding: direct pressure/tourniquet according to training and site protocol.
 - Suspected spinal injury: manual stabilisation, airway/breathing priorities, coordinated movement and appropriate equipment; do not delay life-saving care for an ideal transfer technique.
 
-## Concussion / SCAT6
+## Concussion / Sport Concussion Assessment Tool 6 (SCAT6)
 
 ```text
 Red flag? → emergency medical assessment/transport
@@ -26,7 +27,7 @@ No red flag → remove from play, multimodal assessment, no same-day return
              → medical clearance and staged sport exposure
 ```
 
-Red flags include deteriorating consciousness, repeated vomiting, seizure, severe/worsening headache, neck pain/tenderness, double vision, focal weakness/tingling, unusual behaviour or increasing confusion. SCAT6 supports acute assessment; it is not a stand-alone diagnosis and normal findings do not erase clinical concern.
+Red flags include deteriorating consciousness, repeated vomiting, seizure, severe/worsening headache, neck pain/tenderness, double vision, focal weakness/tingling, unusual behaviour or increasing confusion. The Sport Concussion Assessment Tool 6 supports acute assessment; it is not a stand-alone diagnosis and normal findings do not erase clinical concern.
 
 ## Heat and cold emergencies
 
@@ -39,16 +40,16 @@ Red flags include deteriorating consciousness, repeated vomiting, seizure, sever
 
 ## Travel readiness
 
-- Carry an EAP, medical kit, emergency contacts, medication/TUE documents and a record of allergies/conditions with appropriate privacy controls.
+- Carry the emergency action plan, medical kit, emergency contacts, medication/therapeutic-use-exemption documents and a record of allergies/conditions with appropriate privacy controls.
 - Use movement breaks during long travel; protect sleep, meal timing and hydration.
 - After time-zone change, anchor local sleep/wake and light exposure; reduce high-risk intensity until alertness and recovery are acceptable.
 - Infection-control, food/water safety, climate, altitude, venue access and insurance/evacuation plans belong in the travel risk assessment.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **<C>ABCDE = bleed, air, breathe, circulate, disability, expose.**
-- Heat stroke: **cool first, cool fast, continue reassessment.**
-- Concussion: **RED–REMOVE–REHAB** = red flags, remove from play, rehabilitate gradually.
+- On the field, look in this order: **catastrophic bleeding, airway, breathing, circulation, disability and exposure**.
+- Suspected exertional heat stroke: **start cooling immediately and keep reassessing**.
+- Suspected concussion: **look for red flags, remove the athlete from play, then begin a gradual rehabilitation pathway**.
 
 ## Self-test
 

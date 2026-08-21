@@ -19,8 +19,8 @@ Use a **biopsychosocial** lens: a performance change may be physical, psychologi
 | Overreaching | Short-term planned/unplanned performance dip; may be functional when followed by recovery |
 | Overtraining syndrome | Persistent maladaptation with prolonged performance decline and broader symptoms; diagnosis is not made from one bad session |
 | Burnout | Exhaustion, reduced accomplishment and sport devaluation; not simply ordinary fatigue |
-| RED-S | Health/performance consequences of low energy availability affecting multiple physiological systems; can affect any sex |
-| LTAD | Development is long-term and stage-sensitive; avoid adult training assumptions for growing athletes |
+| Relative energy deficiency in sport (RED-S) | Health/performance consequences of low energy availability affecting multiple physiological systems; can affect any sex |
+| Long-term athlete development (LTAD) | Development is long-term and stage-sensitive; avoid adult training assumptions for growing athletes |
 
 ## Travel and environmental readiness
 
@@ -46,11 +46,13 @@ Consent → competence → confidentiality → conflicts → clean sport
 - Explain risks, benefits, alternatives and data use; consent is voluntary and can be withdrawn.
 - Record facts, not speculation; correct errors transparently.
 - Disclose conflicts of interest and do not let selection pressure override welfare.
-- The athlete-support team educates about anti-doping and TUEs; it does not prescribe shortcuts.
+- The athlete-support team educates about anti-doping and **therapeutic use exemptions (TUEs)**; it does not prescribe shortcuts.
 
-## Memory tactic: SAFE TRAVEL
+## Easy ways to remember travel and ethics
 
-**S**leep anchor · **A**cclimatise · **F**uel/fluids · **E**mergency plan · **T**eam communication · **R**ecord data · **A**thlete consent · **V**ary load · **E**nvironment · **L**ocal recovery.
+Before travel, prepare a **sleep plan, food and fluids, emergency contacts, medicines and consent for information sharing**. During travel, protect sleep, move regularly and record important changes. After arrival, adjust light and sleep gradually, then reintroduce hard training only when the athlete is ready.
+
+For ethical questions, choose the response that protects **safety, autonomy, privacy, accurate records and fair treatment**.
 
 ## Self-test
 
@@ -62,4 +64,3 @@ Consent → competence → confidentiality → conflicts → clean sport
 ## Sources
 
 `sai-notification-2026`; `ioc-load-illness-2016`; `ioc-load-management-consensus-2016`; `ioc-reds-2023`; `brukner-khan-clinical-sports-medicine-vol2`; `world-physiotherapy-ethics-2023`; `world-physiotherapy-consent-2023`; `wada-istue-2023`.
-

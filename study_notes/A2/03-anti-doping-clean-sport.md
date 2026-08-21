@@ -3,13 +3,13 @@
 ## The clean-sport chain
 
 ```text
-2021 Code + 2026 List → athlete/support-person responsibility
-       → education + medication check + TUE when indicated
+2021 World Anti-Doping Code + 2026 Prohibited List → athlete/support-person responsibility
+       → education + medication check + therapeutic-use-exemption check when indicated
        → testing/whereabouts/sample integrity
        → results management + hearing/appeal
 ```
 
-The **2026 WADA Prohibited List took effect on 1 January 2026**. Always distinguish the current List from the broader Code and from Indian implementation through NADA India.
+The **2026 World Anti-Doping Agency (WADA) Prohibited List took effect on 1 January 2026**. Always distinguish the current List from the broader Code and from Indian implementation through the **National Anti-Doping Agency India (NADA India)**.
 
 ## The 11 anti-doping rule violations
 
@@ -27,7 +27,7 @@ The **2026 WADA Prohibited List took effect on 1 January 2026**. Always distingu
 | 2.10 | Prohibited association |
 | 2.11 | Discouraging/reporting retaliation or other prohibited retaliation |
 
-Mnemonic: **P-U-E-W-T-P-T-A-C-A-R** → “**Please Understand Every Whereabouts Test; Possession, Trafficking, Administration, Complicity, Association, Retaliation.**”
+To remember the violations, group them instead of memorising a long letter string: **what was found in the sample; what the athlete or support person did; possession, trafficking or association; and failures in the testing process.**
 
 ## Rules that appear in stems
 
@@ -36,14 +36,14 @@ Mnemonic: **P-U-E-W-T-P-T-A-C-A-R** → “**Please Understand Every Whereabouts
 - **Support-person responsibility:** do not administer, traffic, conceal, pressure, tamper or retaliate.
 - **Supplement risk:** “natural,” over-the-counter or trusted by a teammate does not mean contamination-free.
 
-## TUE: four-part decision test
+## Therapeutic use exemption (TUE): four-part decision test
 
 ```text
 Medical condition? → needed to restore normal health? → no reasonable permitted alternative?
                    → not a performance enhancement beyond normal health?
 ```
 
-Emergency/retroactive TUE rules are narrow and documentation-dependent. A TUE is not a general permission slip; verify the current NADA/WADA process before treatment.
+Emergency/retroactive therapeutic use exemption rules are narrow and documentation-dependent. A TUE is not a general permission slip; verify the current National Anti-Doping Agency India/World Anti-Doping Agency process before treatment.
 
 ## Prohibited-list memory
 
@@ -53,11 +53,11 @@ Emergency/retroactive TUE rules are narrow and documentation-dependent. A TUE is
 - **M1–M3** prohibited methods; **P1** beta-blockers in particular sports.
 - “In-competition only” is not the same as “always prohibited”; check route, dose, sport and formulation.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **LIST–LABEL–LOOK UP:** check the current list, label the route/status, look up the exact product.
-- **No shortcut without a paper trail:** medication decision → source check → TUE decision → record.
-- For an MCQ, first classify: **presence, conduct, possession/relationship, or process**.
+- For any medicine or supplement, do three things: **check the current list, check the route and competition status, and look up the exact product.**
+- Keep a paper trail: **medical reason → source check → exemption decision if needed → record.**
+- For a question, first decide whether it is about **what was found in a sample, what someone did, possession or association, or the testing process**.
 
 ## Self-test
 
@@ -69,4 +69,3 @@ Emergency/retroactive TUE rules are narrow and documentation-dependent. A TUE is
 ## Sources
 
 `wada-code-2021`; `wada-prohibited-list-2026`; `wada-istue-2023`; `nada-india-rules-2021`; `nada-india-official-2026`; `nada-india-tue-2026`; `nada-india-abp-2026`.
-

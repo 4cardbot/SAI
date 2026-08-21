@@ -4,14 +4,15 @@
 
 ```text
 Diagnosis → non-drug options → medicine indication/route/dose → interactions/side effects
-         → WADA status/TUE → document → reassess
+         → World Anti-Doping Agency status / therapeutic-use-exemption check
+         → document → reassess
 ```
 
-Never assume a medicine is permitted because it is common, prescribed, inhaled, topical or bought without prescription. Check the current WADA List and NADA guidance.
+Never assume a medicine is permitted because it is common, prescribed, inhaled, topical or bought without prescription. Check the current **World Anti-Doping Agency (WADA)** List and **National Anti-Doping Agency India (NADA India)** guidance.
 
 ## High-yield pharmacology cues
 
-- NSAIDs may affect gastrointestinal, renal and cardiovascular risk; they can mask symptoms and should not replace load modification or diagnosis.
+- **Non-steroidal anti-inflammatory drugs (NSAIDs)** may affect gastrointestinal, renal and cardiovascular risk; they can mask symptoms and should not replace load modification or diagnosis.
 - Glucocorticoid status depends on route and competition period; consult the current List and route-specific guidance.
 - Opioids and sedating medicines can impair reaction, judgement and safe participation.
 - Beta-2 agonists, stimulants, anabolic agents, peptide hormones and masking agents are frequent anti-doping categories.
@@ -21,7 +22,7 @@ Never assume a medicine is permitted because it is common, prescribed, inhaled, 
 
 | Need | Principle |
 | --- | --- |
-| Energy availability | Chronic mismatch between intake and expenditure can impair health and performance; screen for RED-S risk |
+| Energy availability | Chronic mismatch between intake and expenditure can impair health and performance; screen for relative energy deficiency in sport (RED-S) risk |
 | Carbohydrate | Supports high-intensity work and glycogen restoration; timing depends on training density |
 | Protein | Distribute adequate high-quality protein; needs may rise during immobilisation/rehabilitation, but prescribe individually |
 | Fat | Essential for energy, membranes and hormone-related functions; do not eliminate it |
@@ -33,21 +34,22 @@ Approximate energy values: carbohydrate **4 kcal/g**, protein **4 kcal/g**, fat 
 ## Research design ladder
 
 ```text
-Systematic review/meta-analysis → RCT → cohort → case-control
+Systematic review/meta-analysis → randomised controlled trial (RCT) → cohort → case-control
         → cross-sectional → case series/report → expert opinion
 ```
 
 The hierarchy is a shortcut, not a verdict: question, bias, precision, applicability and study quality matter.
 
-### PICO and statistics
+### Population–intervention–comparison–outcome (PICO) and statistics
 
 ```text
 P = population/problem     I = intervention/exposure
 C = comparator             O = outcome
 
-RR = risk exposed / risk control
-ARR = risk control − risk exposed
-NNT = 1 / ARR               OR = odds exposed / odds control
+Relative risk (RR) = risk exposed / risk control
+Absolute risk reduction (ARR) = risk control − risk exposed
+Number needed to treat (NNT) = 1 / ARR
+Odds ratio (OR) = odds exposed / odds control
 ```
 
 - RCTs support causal intervention inference when well designed; observational studies are often essential when randomisation is unethical/impractical.
@@ -62,11 +64,11 @@ Is the finding valid? → is it important? → does it apply to this athlete?
                       → what are benefits, harms, cost and preferences?
 ```
 
-## Memory tactics
+## Easy ways to remember it
 
-- **PICO before p-value.**
-- Research ladder: **review–randomise–follow–look back–describe.**
-- Medicine checklist: **R-I-S-K** = Route, In-competition status, Side effects, Keep documentation.
+- Before believing a research result, ask four questions: **Who was studied? What was done? What was it compared with? What outcome was measured?**
+- Research designs move from **summarising many studies, to randomised experiments, to following groups, to looking back at records, to describing cases**.
+- For medicines, check **route, competition status, side effects and documentation**.
 
 ## Self-test
 
@@ -78,4 +80,3 @@ Is the finding valid? → is it important? → does it apply to this athlete?
 ## Sources
 
 `sai-notification-2026`; `wada-prohibited-list-2026`; `wada-istue-2023`; `nada-india-rules-2021`; `clinical-sports-nutrition-burke`; `ioc-sports-nutrition-consensus`; `ioc-reds-2023`; `world-physiotherapy-ebp-2023`; `nsca-essentials-5`.
-

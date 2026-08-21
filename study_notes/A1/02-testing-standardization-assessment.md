@@ -15,6 +15,15 @@
 
 ## The formulas worth writing once
 
+In these formulas, **TP** means true positive, **TN** true negative, **FP**
+false positive, and **FN** false negative. **PPV** means positive predictive
+value and **NPV** negative predictive value. **SD** means standard deviation;
+**ICC** means intraclass correlation coefficient; **SEM** means standard error
+of measurement; **MDC** means the smallest change likely to be real; and
+**LSI** means limb symmetry index. **CV** means coefficient of variation;
+**z** means standard score; and **MDC95** means the minimum detectable change
+at 95% confidence.
+
 ```text
 Sensitivity = TP / (TP + FN)        Specificity = TN / (TN + FP)
 PPV = TP / (TP + FP)                 NPV = TN / (TN + FN)
@@ -23,7 +32,9 @@ SEM = SD × √(1 − ICC)                MDC95 = 1.96 × √2 × SEM
 LSI% = involved side / uninvolved side × 100
 ```
 
-**Interpretation:** high sensitivity helps rule out when the test is negative (**SnNout**); high specificity helps rule in when the test is positive (**SpPin**). Predictive values change with prevalence.
+**Interpretation:** a negative result from a very sensitive test is useful for
+ruling out a condition; a positive result from a very specific test is useful
+for ruling it in. Predictive values change with prevalence.
 
 ## Standardisation sequence
 
@@ -48,7 +59,7 @@ Purpose → screen safety → consent → familiarise → calibrate
 Question → construct → valid test → reliable protocol → useful decision
 ```
 
-Example: “Why is repeated sprint output falling?” may require sprint time, recovery heart rate, RPE, sleep/travel and training-load context—not a single laboratory value.
+Example: “Why is repeated sprint output falling?” may require sprint time, recovery heart rate, **rating of perceived exertion (RPE)**, sleep/travel and training-load context—not a single laboratory value.
 
 ## Lab versus field
 
@@ -61,15 +72,15 @@ Example: “Why is repeated sprint output falling?” may require sprint time, r
 ## Common traps
 
 - A reliable test can be reliably wrong; reliability does not guarantee validity.
-- A statistically significant change smaller than the MDC/MCID may not be actionable.
+- A statistically significant change smaller than the **minimum detectable change (MDC)** or the **minimum clinically important difference (MCID)** may not be actionable.
 - “Gold standard” is not automatically the best field test for every athlete.
 - Never compare scores collected under materially different protocols as if they were the same measurement.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **V-R-O-R:** Valid target, Repeatability, Observer independence, Responsiveness.
-- **SnNout / SpPin:** Sensitivity negative rules out; Specificity positive rules in.
-- Before every test ask **SAME?**: **S**afety, **A**thlete preparation, **M**ethod, **E**quipment/environment.
+- **Validity asks “does it measure the right thing?” Reliability asks “would it repeat?”**
+- A negative result from a very sensitive test is useful for ruling out a condition. A positive result from a very specific test is useful for ruling it in.
+- Before every test, check five things in plain language: **Is the athlete safe? Is the athlete prepared? Is the method fixed? Is the equipment calibrated? Is the environment recorded?**
 
 ## Self-test
 
@@ -81,4 +92,3 @@ Example: “Why is repeated sprint output falling?” may require sprint time, r
 ## Sources
 
 `sai-notification-2026`; `acsm-getp-12`; `nsca-essentials-5`; `magee-orthopaedic-assessment`; `world-physiotherapy-consent-2023`; `world-physiotherapy-ethics-2023`.
-

@@ -2,6 +2,8 @@
 
 These notes are deliberately compact: revise the bold terms, redraw the small diagrams, and answer the “self-test” prompts without looking. They are aligned to the SAI notification and the weak-area labels used by the question bank. They are revision aids, not substitutes for clinical judgement or the full reference texts.
 
+Abbreviations are expanded at first use. The [quick abbreviation glossary](glossary.md) is available when a short form still feels unfamiliar.
+
 ## Suggested one-day route
 
 | Block | Notes | What to do |

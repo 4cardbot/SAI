@@ -3,7 +3,7 @@
 ## Rehabilitation staircase
 
 ```text
-Protect / calm symptoms → restore ROM and activation → build capacity
+Protect / calm symptoms → restore range of motion and activation → build capacity
 → integrate proprioception/strength → power/speed/change of direction
 → sport-specific practice → unrestricted performance exposure
 ```
@@ -27,7 +27,7 @@ For every exercise specify: position, load, range, speed, sets/repetitions, rest
 
 For tendinopathy, progressive tendon loading may include isometrics, isotonic/eccentric or heavy-slow resistance and sport exposure; the best choice depends on stage, symptoms and capacity.
 
-## Flexibility and PNF
+## Flexibility and proprioceptive neuromuscular facilitation
 
 | Method | Main cue |
 | --- | --- |
@@ -65,11 +65,11 @@ The grade is not the whole treatment: direction, examination findings, irritabil
 - Plyometrics: eccentric braking followed by rapid concentric action; require adequate strength, landing control and tissue readiness.
 - Aquatic therapy unloads body weight and changes resistance; water depth, buoyancy, drag and temperature alter the dose.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **RAMP:** Restore range, Activate, Make strong, Perform.
-- Maitland: **I–II soothe, III–IV move, V thrust.**
-- Progression ladder: **range → load → speed → complexity → chaos.**
+- Progress in this order: **restore movement, restore activation, build strength, then practise the sport task**.
+- Maitland grades I and II are usually used for gentle pain or movement tolerance; grades III and IV emphasise mobility; grade V is a thrust performed by an appropriately trained clinician.
+- Increase difficulty step by step: **range → load → speed → complexity → unpredictable sport demands**.
 
 ## Self-test
 
@@ -81,4 +81,3 @@ The grade is not the whole treatment: direction, examination findings, irritabil
 ## Sources
 
 `sai-notification-2026`; `kisner-therapeutic-exercise`; `maitland-peripheral-manipulation`; `sports-injury-prevention-rehabilitation-joyce-lewindon`; `brukner-khan-clinical-sports-medicine`; `nsca-essentials-5`; `osullivan-rehabilitation`.
-

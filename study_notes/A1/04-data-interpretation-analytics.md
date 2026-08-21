@@ -14,10 +14,10 @@ The output is not a dashboard; it is a **defensible decision**.
 ```text
 Absolute change = post − pre
 % change = (post − pre) / pre × 100
-Training monotony = weekly mean daily load / SD of daily load
+Training monotony = weekly mean daily load / standard deviation of daily load
 Training strain = weekly load × monotony
-Session load = session duration (min) × session-RPE
-LSI = involved / uninvolved × 100
+Session load = session duration (min) × rating of perceived exertion
+Limb symmetry index (LSI) = involved / uninvolved × 100
 ```
 
 Use acute:chronic workload ratios cautiously. They are summaries of load history, not a universal injury threshold or a substitute for athlete context.
@@ -40,7 +40,7 @@ For each domain record: **current level, target, confidence in measurement, tren
 
 - Compare like with like: same test, protocol, timing, environment and athlete state.
 - Plot individual data, not only team averages; averages can hide responders and non-responders.
-- Separate **signal** from **noise** using reliability, SEM/MDC and repeated observations.
+- Separate **signal** from **noise** using reliability, measurement error, the minimum detectable change and repeated observations.
 - Mark illness, travel, menstrual-cycle context where voluntarily and appropriately shared, injury and major training changes on the timeline.
 - Use thresholds as prompts for review, not as automatic diagnoses.
 
@@ -60,14 +60,14 @@ For each domain record: **current level, target, confidence in measurement, tren
 
 Example: “Repeated-sprint time is 4% slower than the athlete’s reliable baseline across two sessions; sleep and recent high-speed volume are also reduced. Treat this as a recovery flag, modify today’s high-speed exposure, and reassess after recovery.”
 
-## Memory tactics
+## Easy ways to remember it
 
-- **CLEAN:** **C**ontext, **L**ike-for-like, **E**rror, **A**ction, **N**ext check.
+- For every result, work through five plain questions: **What is the context? Am I comparing like with like? Could this be measurement error? What action follows? When will I check again?**
 - Every chart must answer: **What changed? Compared with what? How sure are we? What will we do?**
 
 ## Self-test
 
-1. Calculate session load for 60 minutes at RPE 7.
+1. Calculate session load for 60 minutes at a rating of perceived exertion of 7.
 2. Why is one abnormal wearable value insufficient for a training decision?
 3. What fields belong in a performance profile besides the score?
 4. Why should an acute:chronic ratio never be treated as a diagnosis?
@@ -75,4 +75,3 @@ Example: “Repeated-sprint time is 4% slower than the athlete’s reliable base
 ## Sources
 
 `sai-notification-2026`; `nsca-essentials-5`; `ioc-load-illness-2016`; `ioc-load-management-consensus-2016`; `gps-validity-scott-2016`; `world-physiotherapy-ebp-2023`.
-

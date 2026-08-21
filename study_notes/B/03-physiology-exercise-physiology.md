@@ -4,7 +4,7 @@
 
 | System | Rate/capacity | Typical use cue |
 | --- | --- | --- |
-| ATP–PCr | Highest rate, low capacity | Immediate maximal efforts |
+| Adenosine triphosphate–phosphocreatine (ATP–PCr) | Highest rate, low capacity | Immediate maximal efforts |
 | Anaerobic glycolysis | High rate, moderate capacity | Hard efforts lasting longer than the immediate burst; metabolites accumulate |
 | Oxidative phosphorylation | Lower rate, high capacity | Sustained work and recovery between efforts |
 
@@ -13,8 +13,9 @@ All three operate together. “Aerobic versus anaerobic” is a relative-contrib
 ## Muscle physiology
 
 ```text
-Motor nerve AP → ACh at NMJ → sarcolemma/T-tubule AP → Ca²⁺ release
-→ troponin shift → actin–myosin cross-bridges → ATP-dependent cycling
+Motor-nerve action potential → acetylcholine at the neuromuscular junction
+→ muscle-fibre action potential → calcium release → troponin shift
+→ actin–myosin cross-bridges → adenosine-triphosphate-dependent cycling
 ```
 
 - **Henneman size principle:** smaller, lower-threshold motor units are recruited before larger, higher-threshold units as demand rises.
@@ -25,14 +26,14 @@ Motor nerve AP → ACh at NMJ → sarcolemma/T-tubule AP → Ca²⁺ release
 ## Cardiovascular equations
 
 ```text
-Cardiac output (Q) = HR × stroke volume
-VO₂ = Q × (arterial O₂ − venous O₂ difference)  [Fick principle]
-MAP ≈ DBP + 1/3(SBP − DBP)
+Cardiac output (Q) = heart rate (HR) × stroke volume (SV)
+Oxygen uptake (VO₂) = Q × (arterial O₂ − venous O₂ difference)  [Fick principle]
+Mean arterial pressure (MAP) ≈ diastolic pressure + 1/3(systolic pressure − diastolic pressure)
 ```
 
-Acute exercise: HR, stroke volume (until high intensities in some conditions), cardiac output, ventilation and systolic BP generally rise; blood flow is redistributed according to demand and thermoregulation.
+Acute exercise: heart rate, stroke volume (until high intensities in some conditions), cardiac output, ventilation and systolic blood pressure generally rise; blood flow is redistributed according to demand and thermoregulation.
 
-Training adaptations can include lower submaximal HR, increased stroke volume, improved oxygen extraction, plasma-volume change and improved economy—depending on programme and athlete.
+Training adaptations can include lower submaximal heart rate, increased stroke volume, improved oxygen extraction, plasma-volume change and improved economy—depending on programme and athlete.
 
 ## Threshold and fatigue
 
@@ -54,11 +55,11 @@ Heat acclimatisation is progressive exposure with monitoring. Altitude illness i
 
 Recovery restores homeostasis and supports supercompensation, but the response depends on dose, sleep, food, illness, psychological stress and tissue injury. Do not use “more inflammation is always bad” or “more soreness means more adaptation” as rules.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **PCr–glycolysis–oxidative = fast–hard–long.**
-- **Q = HR × SV**; **VO₂ = Q × extraction**.
-- Cross-bridge sequence: **Nerve → Calcium → Troponin → Myosin.**
+- Think of the energy systems as **fast, hard and long**: phosphocreatine is fastest, glycolysis supports hard efforts, and oxidative metabolism supports long efforts.
+- Cardiac output means **how much blood the heart pumps each minute**, so it equals heart rate multiplied by stroke volume. Oxygen uptake equals cardiac output multiplied by the difference in oxygen content between arterial and venous blood.
+- Muscle activation follows this order: **nerve signal → acetylcholine → calcium → troponin → myosin cross-bridge.**
 
 ## Self-test
 
@@ -70,4 +71,3 @@ Recovery restores homeostasis and supports supercompensation, but the response d
 ## Sources
 
 `sai-notification-2026`; `physiology-sport-exercise-kenney`; `nsca-essentials-5`; `openstax-anatomy-physiology-2e`; `acsm-getp-12`; `brukner-khan-clinical-sports-medicine-vol2`.
-

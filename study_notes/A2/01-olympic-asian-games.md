@@ -3,22 +3,22 @@
 ## Institution map
 
 ```text
-IOC / Olympic Charter
+International Olympic Committee (IOC) / Olympic Charter
         ↓
-International Federations → rules of each sport
+International Federations (IFs) → rules of each sport
         ↓
-National Olympic Committee (India: IOA) → selects/represents delegation
+National Olympic Committee (India: Indian Olympic Association, or IOA) → selects/represents delegation
         ↓
 National Sports Federations → sport-specific athletes and teams
 ```
 
-Do not confuse the **IOC** (Olympic Movement governance) with an **IF** (technical sport rules), an **NOC** (national representation) or a host **Organising Committee** (delivery of one Games).
+Do not confuse the **International Olympic Committee** (Olympic Movement governance) with an **International Federation** (technical sport rules), a **National Olympic Committee** (national representation) or a host organising committee (delivery of one Games).
 
 ## Core timeline
 
 | Fact | Recall |
 | --- | --- |
-| IOC constituted | Paris Congress, 1894; modern Olympic Games began at Athens in 1896 |
+| International Olympic Committee constituted | Paris Congress, 1894; modern Olympic Games began at Athens in 1896 |
 | Olympiad | Four consecutive calendar years; the Games need not be held in every year of the Olympiad |
 | Olympic motto | **Citius, Altius, Fortius — Communiter**: Faster, Higher, Stronger — Together |
 | Olympic symbol | Five interlaced rings express the union of the Olympic continents/athletes and the meeting of the world through sport; do not assign one official ring to one continent |
@@ -30,23 +30,23 @@ Do not confuse the **IOC** (Olympic Movement governance) with an **IF** (technic
 ## India memory line
 
 ```text
-Athens 1896 → Paris Congress/IOC 1894 → New Delhi Asian Games 1951
+Athens 1896 → Paris Congress/International Olympic Committee 1894 → New Delhi Asian Games 1951
 → Abhinav Bindra: India's first individual Olympic gold (10 m air rifle, Beijing 2008)
 ```
 
-## Question tactics
+## How to answer institution questions
 
-- If a question asks **who makes technical rules**, think IF.
-- If it asks **who represents India at the Olympic level**, think IOA/NOC.
-- If it asks **host delivery**, think Organising Committee.
-- If it asks **principles/ownership/symbol/motto**, think Olympic Charter/IOC.
-- For host-city questions, read the year carefully: planned, current, and completed editions are different statements.
+- If the question asks who writes the technical rules for a sport, choose the **International Federation**.
+- If it asks who represents India in the Olympic Movement, choose the **Indian Olympic Association**, India’s National Olympic Committee.
+- If it asks who delivers one edition of the Games, choose the **host organising committee**.
+- If it asks about principles, ownership, the symbol or the motto, look for the **Olympic Charter or International Olympic Committee**.
+- For a host-city question, read the year carefully: a scheduled event, a current event and a completed event are different statements.
 
-## Memory tactics
+## Easy ways to remember it
 
-- **I–F–N–H:** International Federation sets sport rules; NOC represents nation; Host committee delivers the event.
-- **1894–1896–1951:** IOC/Paris → first modern Games/Athens → first Asian Games/New Delhi.
-- Aichi–Nagoya: **Aichi before Nagoya, 2026 before 2028**; associate it with Japan and the 20th Asian Games.
+Remember the order as a sentence: **the International Federation makes the sport rules, the National Olympic Committee represents the country, and the host committee runs that edition.**
+
+Keep the three dates together: **1894 (International Olympic Committee), 1896 (first modern Olympic Games), 1951 (first Asian Games).**
 
 ## Self-test
 
