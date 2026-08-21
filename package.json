@@ -19,6 +19,7 @@
     "audit:c": "tsx scripts/audit-section-c.ts",
     "audit:a1": "tsx scripts/audit-a1.ts",
     "audit:a1:remediation": "tsx scripts/validate-a1-remediation.ts",
+    "build:study-pdf": "tsx scripts/build-study-notes-pdf.ts",
     "audit:a1:content": "tsx scripts/validate-a1-final-remediation.ts"
   },
   "dependencies": {
