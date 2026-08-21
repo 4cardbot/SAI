@@ -1,17 +1,11 @@
-import { FINAL_TEST_BANK } from "../src/data/questionBank";
-import { QUESTION_BANK } from "../src/data/questionBank";
+import { FINAL_TEST_BANKS, QUESTION_BANK } from "../src/data/questionBank";
 import { validateQuestionBank } from "../src/data/validate";
 
 const expected = { A1: 32, A2: 8, B: 40, C: 20 };
-const result = validateQuestionBank(FINAL_TEST_BANK, expected, false);
-const errors = [...result.errors];
+const errors: string[] = [];
 const regularTexts = new Set(QUESTION_BANK.map((question) => question.text));
-FINAL_TEST_BANK.forEach((question) => {
-  if (regularTexts.has(question.text)) errors.push(`${question.id} repeats a practice-bank question text`);
-});
-
-const topicCounts = new Map<string, number>();
-FINAL_TEST_BANK.forEach((question) => topicCounts.set(`${question.section}:${question.topic}`, (topicCounts.get(`${question.section}:${question.topic}`) ?? 0) + 1));
+const allFinalTexts = new Set<string>();
+const reports: Record<string, unknown> = {};
 const requiredTopics = [
   "A1:Core Disciplines Foundational Concepts",
   "A1:Testing Parameters, Standardization & Athlete Assessment",
@@ -39,19 +33,31 @@ const requiredTopics = [
   "C:On-Field & Emergency Triage",
   "C:Return to Play (RTP) Frameworks",
 ];
-requiredTopics.forEach((topic) => {
-  if (!topicCounts.has(topic)) errors.push(`Final test is missing required topic: ${topic}`);
+
+Object.entries(FINAL_TEST_BANKS).forEach(([finalTestId, bank]) => {
+  const result = validateQuestionBank(bank, expected, false);
+  errors.push(...result.errors.map((error) => `Final test ${finalTestId}: ${error}`));
+  const topicCounts = new Map<string, number>();
+  bank.forEach((question) => {
+    topicCounts.set(`${question.section}:${question.topic}`, (topicCounts.get(`${question.section}:${question.topic}`) ?? 0) + 1);
+    if (regularTexts.has(question.text)) errors.push(`${question.id} repeats a practice-bank question text`);
+    if (allFinalTexts.has(question.text)) errors.push(`${question.id} repeats another final-test question text`);
+    allFinalTexts.add(question.text);
+  });
+  requiredTopics.forEach((topic) => {
+    if (!topicCounts.has(topic)) errors.push(`Final test ${finalTestId} is missing required topic: ${topic}`);
+  });
+  const answerCounts = bank.reduce((counts, question) => {
+    counts[question.correct] += 1;
+    return counts;
+  }, [0, 0, 0, 0]);
+  if (Math.max(...answerCounts) - Math.min(...answerCounts) > 10) errors.push(`Final test ${finalTestId} answer-position imbalance: ${answerCounts.join(", ")}`);
+  const passageIds = [...new Set(bank.filter((question) => question.passageId).map((question) => question.passageId!))];
+  if (passageIds.length !== 5 || passageIds.some((passageId) => bank.filter((question) => question.passageId === passageId).length !== 4)) {
+    errors.push(`Final test ${finalTestId} Section C must contain five four-question cases`);
+  }
+  reports[finalTestId] = { ...result, answerCounts, topicCounts: Object.fromEntries(topicCounts), passageIds };
 });
 
-const answerCounts = FINAL_TEST_BANK.reduce((counts, question) => {
-  counts[question.correct] += 1;
-  return counts;
-}, [0, 0, 0, 0]);
-if (Math.max(...answerCounts) - Math.min(...answerCounts) > 10) errors.push(`Final answer-position imbalance: ${answerCounts.join(", ")}`);
-const passageIds = [...new Set(FINAL_TEST_BANK.filter((question) => question.passageId).map((question) => question.passageId!))];
-if (passageIds.length !== 5 || passageIds.some((passageId) => FINAL_TEST_BANK.filter((question) => question.passageId === passageId).length !== 4)) {
-  errors.push("Final Section C must contain five four-question cases");
-}
-
-console.log(JSON.stringify({ ...result, valid: errors.length === 0, errors, answerCounts, topicCounts: Object.fromEntries(topicCounts), passageIds }, null, 2));
+console.log(JSON.stringify({ valid: errors.length === 0, errors, reports }, null, 2));
 if (errors.length) process.exitCode = 1;

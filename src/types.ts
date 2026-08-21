@@ -1,4 +1,5 @@
 export type Section = "A1" | "A2" | "B" | "C";
+export type FinalTestId = 1 | 2 | 3 | 4;
 export type AttemptMode = "full" | "final" | "A1_FULL" | "filtered" | Section;
 export type TestSlot = "practice" | "final";
 export type Difficulty = "foundational" | "applied" | "analytical";
@@ -52,6 +53,7 @@ export interface ActiveAttempt {
   totalDurationMs?: number;
   mode?: AttemptMode;
   selection?: TestSelection;
+  finalTestId?: FinalTestId;
 }
 
 export interface ResultItem {
@@ -84,6 +86,7 @@ export interface TestResult {
   items: ResultItem[];
   mode?: AttemptMode;
   selection?: TestSelection;
+  finalTestId?: FinalTestId;
 }
 
 export interface PersistedState {

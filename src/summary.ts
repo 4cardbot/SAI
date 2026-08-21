@@ -12,16 +12,16 @@ function displayLabel(item: ResultItem, optionIndex: number | undefined): string
   return optionIndex === undefined ? "—" : optionLabel(item.optionOrder.indexOf(optionIndex));
 }
 
-function modeLabel(mode: TestResult["mode"]): string {
+function modeLabel(mode: TestResult["mode"], finalTestId?: TestResult["finalTestId"]): string {
   if (!mode || mode === "full") return "Full CBT simulation";
-  if (mode === "final") return "Final CBT test";
+  if (mode === "final") return `Final CBT Test ${finalTestId ?? 1}`;
   if (mode === "A1_FULL") return "A1-only 100-question test";
   if (mode === "filtered") return "Focused question test";
   return `${mode} section practice`;
 }
 
 function selectionLabel(result: TestResult): string {
-  if (result.mode !== "filtered" || !result.selection) return modeLabel(result.mode);
+  if (result.mode !== "filtered" || !result.selection) return modeLabel(result.mode, result.finalTestId);
   const subtopic = result.selection.subtopic ? ` · ${result.selection.subtopic}` : "";
   return `${result.selection.section} · ${result.selection.topic}${subtopic}`;
 }

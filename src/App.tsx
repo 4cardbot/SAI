@@ -4,10 +4,10 @@ import { completedCount, createAttempt, filterQuestions, isComplete, moveNext, p
 import { randomSeed } from "./random";
 import { loadState, saveState } from "./storage";
 import { downloadSummary } from "./summary";
-import { FINAL_TEST_BANK, QUESTION_BANK } from "./data/questionBank";
+import { FINAL_TEST_BANKS, QUESTION_BANK } from "./data/questionBank";
 import { SOURCE_CATALOG_BY_ID } from "./data/sourceCatalog";
 import { optionLabelForOptionIndex } from "./answerDisplay";
-import type { ActiveAttempt, AttemptMode, PersistedState, PracticeQuestionCount, Question, Response, Section, TestResult, TestSelection, TestSlot } from "./types";
+import type { ActiveAttempt, AttemptMode, FinalTestId, PersistedState, PracticeQuestionCount, Question, Response, Section, TestResult, TestSelection, TestSlot } from "./types";
 
 type Screen = "home" | "test" | "result";
 
@@ -28,8 +28,8 @@ function withResult(state: PersistedState, slot: TestSlot, result: TestResult | 
   return slot === "final" ? { ...state, finalTestResult: result } : { ...state, latestResult: result };
 }
 
-function bankForSlot(slot: TestSlot): Question[] {
-  return slot === "final" ? FINAL_TEST_BANK : QUESTION_BANK;
+function bankForSlot(slot: TestSlot, finalTestId: FinalTestId = 1): Question[] {
+  return slot === "final" ? FINAL_TEST_BANKS[finalTestId] : QUESTION_BANK;
 }
 
 function loadInitialState(): PersistedState {
@@ -59,9 +59,9 @@ function displayedOptionLabel(item: { optionOrder: number[] }, optionIndex: numb
   return optionLabel(item.optionOrder.indexOf(optionIndex));
 }
 
-function modeTitle(mode: AttemptMode | undefined, selection?: TestSelection): string {
+function modeTitle(mode: AttemptMode | undefined, selection?: TestSelection, finalTestId?: FinalTestId): string {
   if (!mode || mode === "full") return "Full CBT simulation";
-  if (mode === "final") return "Final CBT test";
+  if (mode === "final") return `Final CBT Test ${finalTestId ?? 1}`;
   if (mode === "A1_FULL") return "A1-only · 100-question test";
   if (mode === "filtered") {
     if (!selection) return "Focused question test";
@@ -72,7 +72,7 @@ function modeTitle(mode: AttemptMode | undefined, selection?: TestSelection): st
 }
 
 function getQuestionMap(): Map<string, Question> {
-  return new Map([...QUESTION_BANK, ...FINAL_TEST_BANK].map((question) => [question.id, question]));
+  return new Map([...QUESTION_BANK, ...Object.values(FINAL_TEST_BANKS).flat()].map((question) => [question.id, question]));
 }
 
 function AppHeader({ onHome }: { onHome?: () => void }) {
@@ -107,19 +107,19 @@ function TestSetup({ onStart }: { onStart: (selection: TestSelection) => void })
 }
 
 function SavedAttemptCard({ slot, attempt, onResume }: { slot: TestSlot; attempt: ActiveAttempt; onResume: (slot: TestSlot) => void }) {
-  return <section className="action-card"><div><p className="eyebrow">Saved {slot === "final" ? "final" : "practice"} attempt · {modeTitle(attempt.mode, attempt.selection)}</p><h3>{completedCount(attempt)} of {attempt.questions.length} questions completed</h3><p className="muted">This attempt is paused and can be resumed without affecting the other test slot.</p></div><button className="primary-button" onClick={() => onResume(slot)}>Resume {slot === "final" ? "final test" : "practice"}</button></section>;
+  return <section className="action-card"><div><p className="eyebrow">Saved {slot === "final" ? "final" : "practice"} attempt · {modeTitle(attempt.mode, attempt.selection, attempt.finalTestId)}</p><h3>{completedCount(attempt)} of {attempt.questions.length} questions completed</h3><p className="muted">This attempt is paused and can be resumed without affecting the other test slot.</p></div><button className="primary-button" onClick={() => onResume(slot)}>Resume {slot === "final" ? "final test" : "practice"}</button></section>;
 }
 
 function ResultCard({ slot, result, onDownload, onPrepare }: { slot: TestSlot; result: TestResult; onDownload: (result: TestResult) => void; onPrepare: (slot: TestSlot) => void }) {
-  return <section className="action-card"><div><p className="eyebrow">{slot === "final" ? "Final-test result" : "Latest practice result"} · {modeTitle(result.mode, result.selection)}</p><h3>{result.score.toFixed(2)} / {result.total}</h3><p className="muted">{result.correctCount} correct · {result.wrongCount} wrong · {result.skippedCount} skipped</p></div><div className="button-row"><button className="secondary-button" onClick={() => onDownload(result)}>Download summary</button><button className="primary-button" onClick={() => onPrepare(slot)}>Start another {slot === "final" ? "final test" : "practice test"}</button></div></section>;
+  return <section className="action-card"><div><p className="eyebrow">{slot === "final" ? "Final-test result" : "Latest practice result"} · {modeTitle(result.mode, result.selection, result.finalTestId)}</p><h3>{result.score.toFixed(2)} / {result.total}</h3><p className="muted">{result.correctCount} correct · {result.wrongCount} wrong · {result.skippedCount} skipped</p></div><div className="button-row"><button className="secondary-button" onClick={() => onDownload(result)}>Download summary</button><button className="primary-button" onClick={() => onPrepare(slot)}>Start another {slot === "final" ? "final test" : "practice test"}</button></div></section>;
 }
 
-function HomeScreen({ state, onStart, onStartFull, onStartFinal, onResume, onPrepare, onDownload }: { state: PersistedState; onStart: (selection: TestSelection) => void; onStartFull: () => void; onStartFinal: () => void; onResume: (slot: TestSlot) => void; onPrepare: (slot: TestSlot) => void; onDownload: (result: TestResult) => void }) {
+function HomeScreen({ state, onStart, onStartFull, onStartFinal, onResume, onPrepare, onDownload }: { state: PersistedState; onStart: (selection: TestSelection) => void; onStartFull: () => void; onStartFinal: (finalTestId: FinalTestId) => void; onResume: (slot: TestSlot) => void; onPrepare: (slot: TestSlot) => void; onDownload: (result: TestResult) => void }) {
   return <main className="page-shell home-shell">
-    <section className="hero-card"><div><p className="eyebrow">Physiotherapy · Performance Analyst</p><h2>Build confidence one topic at a time.</h2><p className="hero-copy">Practice from the section banks, or take the fixed unseen final CBT when you are ready. Ordinary practice and the final test are saved separately in this browser.</p></div><div className="hero-score"><span>100</span><small>final questions</small><span>72s</span><small>per question</small></div></section>
+    <section className="hero-card"><div><p className="eyebrow">Physiotherapy · Performance Analyst</p><h2>Build confidence one topic at a time.</h2><p className="hero-copy">Practice from the section banks, or take one of four fixed unseen final CBTs when you are ready. Ordinary practice and the final test slot are saved separately in this browser.</p></div><div className="hero-score"><span>100</span><small>final questions</small><span>72s</span><small>per question</small></div></section>
     <TestSetup onStart={onStart} />
     <div className="setup-alternative"><span>Prefer the official 100-question mix?</span><button className="secondary-button compact" onClick={onStartFull}>Start full CBT simulation</button></div>
-    <section className="action-card final-test-card"><div><p className="eyebrow">Fixed readiness check</p><h3>Start Final Test</h3><p className="muted">100 new questions · 120 minutes · A1/A2/B/C = 32/8/40/20. Questions are separate from the ordinary practice banks.</p></div><button className="primary-button" onClick={onStartFinal}>Start Final Test</button></section>
+    <section className="action-card final-test-card"><div><p className="eyebrow">Fixed readiness checks</p><h3>Start Final Test</h3><p className="muted">Choose one of four separate 100-question sets · 120 minutes · A1/A2/B/C = 32/8/40/20. Each set is separate from the ordinary practice banks.</p></div><div className="button-row final-test-buttons">{([1, 2, 3, 4] as FinalTestId[]).map((finalTestId) => <button key={finalTestId} className="primary-button" onClick={() => onStartFinal(finalTestId)}>Start Final Test {finalTestId}</button>)}</div></section>
     {state.practiceAttempt && <SavedAttemptCard slot="practice" attempt={state.practiceAttempt} onResume={onResume} />}
     {state.finalAttempt && <SavedAttemptCard slot="final" attempt={state.finalAttempt} onResume={onResume} />}
     {!state.practiceAttempt && state.latestResult && <ResultCard slot="practice" result={state.latestResult} onDownload={onDownload} onPrepare={onPrepare} />}
@@ -140,9 +140,9 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
   const lastQuestion = attempt.currentIndex === attempt.questions.length - 1;
   const percent = Math.round((completed / attempt.questions.length) * 100);
   const timerWarning = attempt.remainingMs < 10 * 60 * 1000;
-  const modeLabel = attempt.mode === "final" ? "Fixed unseen final test" : attempt.mode === "filtered" ? "Focused question test" : attempt.mode === "full" || !attempt.mode ? "Full CBT simulation" : attempt.mode === "A1_FULL" ? "A1-only full bank" : "Section bank practice";
+  const modeLabel = attempt.mode === "final" ? `Fixed unseen final test ${attempt.finalTestId ?? 1}` : attempt.mode === "filtered" ? "Focused question test" : attempt.mode === "full" || !attempt.mode ? "Full CBT simulation" : attempt.mode === "A1_FULL" ? "A1-only full bank" : "Section bank practice";
   return <main className="test-shell">
-    <div className="test-topbar"><div><p className="eyebrow">{modeLabel}</p><h2>{modeTitle(attempt.mode, attempt.selection)}</h2></div><div className="test-controls"><div className={"timer " + (timerWarning ? "warning" : "")} aria-live="polite"><span className="timer-dot" />{formatTime(attempt.remainingMs)}</div>{attempt.status === "running" ? <button className="secondary-button compact" onClick={onPause}>Pause</button> : <button className="primary-button compact" onClick={onResume}>Resume</button>}</div></div>
+    <div className="test-topbar"><div><p className="eyebrow">{modeLabel}</p><h2>{modeTitle(attempt.mode, attempt.selection, attempt.finalTestId)}</h2></div><div className="test-controls"><div className={"timer " + (timerWarning ? "warning" : "")} aria-live="polite"><span className="timer-dot" />{formatTime(attempt.remainingMs)}</div>{attempt.status === "running" ? <button className="secondary-button compact" onClick={onPause}>Pause</button> : <button className="primary-button compact" onClick={onResume}>Resume</button>}</div></div>
     <div className="progress-row"><div className="progress-track"><div className="progress-fill" style={{ width: percent + "%" }} /></div><span>{completed}/{attempt.questions.length} completed</span></div>
     <section className="question-card"><div className="question-meta"><span>Question {attempt.currentIndex + 1} of {attempt.questions.length}</span><span className={"section-badge " + question.section.toLowerCase()}>{question.section}</span><span className={"difficulty " + question.difficulty}>{question.difficulty}</span></div>
       {question.passage && <div className="passage-box"><p className="eyebrow">Case study · {question.passageId}</p><p>{question.passage}</p></div>}
@@ -162,7 +162,7 @@ function TestScreen({ attempt, questionMap, onPause, onResume, onAnswer, onSkip,
 
 function ResultScreen({ result, onDownload, onStart }: { result: TestResult; onDownload: () => void; onStart: () => void }) {
   const items = result.items.filter((item) => item.status !== "correct");
-  return <main className="page-shell result-shell"><section className="result-hero"><div><p className="eyebrow">{modeTitle(result.mode, result.selection)} complete</p><h2>{result.mode === "final" ? "Final test complete." : "Practice complete."}</h2><p className="muted">Review the decisions that cost marks. Correctly answered questions are intentionally omitted from this review.</p></div><div className="big-score"><span>{result.score.toFixed(2)}</span><small>/ {result.total}</small></div></section><section className="result-stats"><div><strong>{result.correctCount}</strong><span>Correct</span></div><div><strong>{result.wrongCount}</strong><span>Wrong</span></div><div><strong>{result.skippedCount}</strong><span>Skipped</span></div><div><strong>−{result.negativeMarks.toFixed(2)}</strong><span>Negative marks</span></div></section><section className="section-results"><h3>Section performance</h3><div className="section-result-grid">{Object.entries(result.sectionScores).map(([section, score]) => <div key={section}><span className={"section-badge " + section.toLowerCase()}>{section}</span><strong>{score.score.toFixed(2)}</strong><small>{score.correct} correct · {score.wrong} wrong · {score.skipped} skipped</small></div>)}</div></section><div className="result-actions"><button className="secondary-button" onClick={onDownload}>Download summary</button><button className="primary-button" onClick={onStart}>Return Home</button></div><section className="review-list"><h3>Wrong and skipped questions ({items.length})</h3>{items.length === 0 ? <div className="empty-card">Perfect score. There are no review items.</div> : items.map((item) => <article className={"review-item " + item.status} key={item.questionId}>{item.passage && <div className="passage-box"><p className="eyebrow">Case study · {item.passageId}</p><p>{item.passage}</p></div>}<div className="review-heading"><span className="section-badge">{item.section}</span><strong>{item.status === "wrong" ? "Wrong" : "Skipped"}</strong></div><h4>{item.text}</h4><p><strong>Your answer:</strong> {item.selected === undefined ? "Skipped" : displayedOptionLabel(item, item.selected) + ". " + item.options[item.selected]}</p><p><strong>Correct answer:</strong> {displayedOptionLabel(item, item.correct) + ". " + item.options[item.correct]}</p><p><strong>Explanation:</strong> {item.explanation}</p></article>)}</section><p className="disclaimer">Independent preparation tool; not an official SAI document.</p></main>;
+  return <main className="page-shell result-shell"><section className="result-hero"><div><p className="eyebrow">{modeTitle(result.mode, result.selection, result.finalTestId)} complete</p><h2>{result.mode === "final" ? "Final test complete." : "Practice complete."}</h2><p className="muted">Review the decisions that cost marks. Correctly answered questions are intentionally omitted from this review.</p></div><div className="big-score"><span>{result.score.toFixed(2)}</span><small>/ {result.total}</small></div></section><section className="result-stats"><div><strong>{result.correctCount}</strong><span>Correct</span></div><div><strong>{result.wrongCount}</strong><span>Wrong</span></div><div><strong>{result.skippedCount}</strong><span>Skipped</span></div><div><strong>−{result.negativeMarks.toFixed(2)}</strong><span>Negative marks</span></div></section><section className="section-results"><h3>Section performance</h3><div className="section-result-grid">{Object.entries(result.sectionScores).map(([section, score]) => <div key={section}><span className={"section-badge " + section.toLowerCase()}>{section}</span><strong>{score.score.toFixed(2)}</strong><small>{score.correct} correct · {score.wrong} wrong · {score.skipped} skipped</small></div>)}</div></section><div className="result-actions"><button className="secondary-button" onClick={onDownload}>Download summary</button><button className="primary-button" onClick={onStart}>Return Home</button></div><section className="review-list"><h3>Wrong and skipped questions ({items.length})</h3>{items.length === 0 ? <div className="empty-card">Perfect score. There are no review items.</div> : items.map((item) => <article className={"review-item " + item.status} key={item.questionId}>{item.passage && <div className="passage-box"><p className="eyebrow">Case study · {item.passageId}</p><p>{item.passage}</p></div>}<div className="review-heading"><span className="section-badge">{item.section}</span><strong>{item.status === "wrong" ? "Wrong" : "Skipped"}</strong></div><h4>{item.text}</h4><p><strong>Your answer:</strong> {item.selected === undefined ? "Skipped" : displayedOptionLabel(item, item.selected) + ". " + item.options[item.selected]}</p><p><strong>Correct answer:</strong> {displayedOptionLabel(item, item.correct) + ". " + item.options[item.correct]}</p><p><strong>Explanation:</strong> {item.explanation}</p></article>)}</section><p className="disclaimer">Independent preparation tool; not an official SAI document.</p></main>;
 }
 
 export default function App() {
@@ -186,7 +186,7 @@ export default function App() {
         const updated = updateTimer(currentAttempt);
         if (updated.remainingMs <= 0) {
           const expired = setPaused(updated);
-          const submitted = scoreAttempt(expired, bankForSlot(slot));
+          const submitted = scoreAttempt(expired, bankForSlot(slot, expired.finalTestId));
           let next = withAttempt(current, slot, null);
           next = withResult(next, slot, submitted);
           stateRef.current = next;
@@ -244,9 +244,10 @@ export default function App() {
   };
   const startTest = (selection: TestSelection) => startPractice(() => createAttempt(QUESTION_BANK, new Date(), randomSeed(), "filtered", selection));
   const startFullTest = () => startPractice(() => createAttempt(QUESTION_BANK, new Date(), randomSeed(), "full"));
-  const startFinalTest = () => {
+  const startFinalTest = (finalTestId: FinalTestId) => {
     if (canReplace("final") && !window.confirm("Starting another final test will replace the saved final attempt and result. Your practice slot will remain unchanged. Continue?")) return;
-    let next = withAttempt(stateRef.current, "final", setRunning(createAttempt(FINAL_TEST_BANK, new Date(), randomSeed(), "final")));
+    const attempt = { ...createAttempt(FINAL_TEST_BANKS[finalTestId], new Date(), randomSeed(), "final"), finalTestId };
+    let next = withAttempt(stateRef.current, "final", setRunning(attempt));
     next = withResult(next, "final", null);
     commit(next);
     setResultSlot("final");
@@ -262,7 +263,7 @@ export default function App() {
   const submit = () => {
     if (!attempt || !activeSlot || !isComplete(attempt)) return;
     if (!window.confirm("Submit this test and calculate your final score?")) return;
-    const submitted = scoreAttempt(attempt, bankForSlot(activeSlot));
+    const submitted = scoreAttempt(attempt, bankForSlot(activeSlot, attempt.finalTestId));
     let next = withAttempt(stateRef.current, activeSlot, null);
     next = withResult(next, activeSlot, submitted);
     commit(next);

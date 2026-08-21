@@ -255,5 +255,6 @@ export function scoreAttempt(attempt: ActiveAttempt, bank: Question[], submitted
     items,
     mode: attempt.mode ?? "full",
     selection: attempt.selection,
+    finalTestId: attempt.finalTestId,
   };
 }

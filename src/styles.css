@@ -56,6 +56,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid #f6bd60; outline-offs
 .action-card h3 { margin: 7px 0 3px; font-size: 1.2rem; }
 .action-card p { margin: 0; }
 .button-row, .result-actions, .test-controls, .next-row, .question-actions, .home-footer { display: flex; align-items: center; gap: 12px; }
+.final-test-buttons { flex-wrap: wrap; justify-content: flex-end; }
 .primary-button, .secondary-button, .icon-button { border: 0; border-radius: 10px; padding: 12px 17px; font-weight: 750; transition: transform .15s ease, background .15s ease, box-shadow .15s ease; }
 .primary-button { color: white; background: var(--blue); box-shadow: 0 5px 12px rgba(31, 122, 140, .2); }
 .primary-button:hover { background: #155c6b; transform: translateY(-1px); }
