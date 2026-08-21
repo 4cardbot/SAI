@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:bank": "tsx scripts/validate-bank.ts",
+    "validate:final": "tsx scripts/validate-final-test.ts",
     "generate:a2": "tsx scripts/generate-a2.ts",
     "audit:a2": "tsx scripts/audit-a2.ts",
     "generate:b": "tsx scripts/generate-section-b.ts",

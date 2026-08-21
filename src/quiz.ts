@@ -101,10 +101,12 @@ export function generateAttemptQuestions(bank: Question[], seed = randomSeed(), 
     return generateFilteredAttemptQuestions(bank, seed, selection);
   }
   const selected: Question[] = [];
-  const sections: Section[] = mode === "full" ? SECTION_ORDER : [mode === "A1_FULL" ? "A1" : mode];
+  const sections: Section[] = mode === "full" || mode === "final" ? SECTION_ORDER : [mode === "A1_FULL" ? "A1" : mode];
   sections.forEach((section) => {
     const pool = bank.filter((question) => question.section === section);
-    const selectedCount = mode === "A1_FULL"
+    const selectedCount = mode === "final"
+      ? pool.length
+      : mode === "A1_FULL"
       ? A1_FULL_COUNT
       : mode === "full"
         ? EXAM_SECTION_COUNTS[section]

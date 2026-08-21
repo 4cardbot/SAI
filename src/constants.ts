@@ -28,7 +28,7 @@ export const SECTION_LABELS: Record<Section, string> = {
   C: "Section C · Case studies",
 };
 export const STORAGE_KEY = "sai-pa-mock:v3";
-export const BANK_VERSION = "2026.08.6";
+export const BANK_VERSION = "2026.08.7";
 export const A2_COVERAGE_DATE = "2026-08-16";
 
 export function durationForMode(mode: AttemptMode = "full"): number {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { QUESTION_BANK } from "./data/questionBank";
+import { FINAL_TEST_BANK, QUESTION_BANK } from "./data/questionBank";
 import { completedCount, createAttempt, filterQuestions, generateAttemptQuestions, isComplete, moveNext, pausePersisted, recordAnswer, recordSkip, scoreAttempt, setPaused, setRunning, subtopicsForSelection, topicsForSection } from "./quiz";
 import { A1_FULL_COUNT, A2_PRACTICE_DURATION_MS, durationForQuestionCount, SECTION_COUNTS, TEST_DURATION_MS } from "./constants";
 
@@ -24,6 +24,22 @@ describe("quiz engine", () => {
         QUESTION_BANK.filter((question) => question.passageId === passageId).length,
       );
     });
+  });
+
+  it("creates the fixed final CBT from its separate bank with complete cases", () => {
+    const final = createAttempt(FINAL_TEST_BANK, new Date("2026-08-21T00:00:00Z"), 98765, "final");
+    const finalById = new Map(FINAL_TEST_BANK.map((question) => [question.id, question]));
+    expect(final.mode).toBe("final");
+    expect(final.questions).toHaveLength(100);
+    expect(final.totalDurationMs).toBe(2 * 60 * 60 * 1000);
+    expect(final.questions.filter((item) => finalById.get(item.questionId)?.section === "A1")).toHaveLength(32);
+    expect(final.questions.filter((item) => finalById.get(item.questionId)?.section === "A2")).toHaveLength(8);
+    expect(final.questions.filter((item) => finalById.get(item.questionId)?.section === "B")).toHaveLength(40);
+    expect(final.questions.filter((item) => finalById.get(item.questionId)?.section === "C")).toHaveLength(20);
+    const cQuestions = final.questions.map((item) => finalById.get(item.questionId)!).filter((question) => question.section === "C");
+    for (let index = 0; index < cQuestions.length; index += 4) {
+      expect(new Set(cQuestions.slice(index, index + 4).map((question) => question.passageId)).size).toBe(1);
+    }
   });
 
   it("builds section-specific practice sets from the section banks", () => {

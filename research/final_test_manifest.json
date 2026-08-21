@@ -1,0 +1,1774 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-21",
+  "bankPath": "question_bank/final_test.json",
+  "purpose": "Fixed unseen 100-question final CBT set; source and audit manifest",
+  "composition": {
+    "A1": 32,
+    "A2": 8,
+    "B": 40,
+    "C": 20
+  },
+  "timing": {
+    "totalMinutes": 120,
+    "secondsPerQuestion": 72
+  },
+  "asOf": "2026-08-16",
+  "sourcePriority": [
+    "sai-notification-2026",
+    "scat6-consensus-bjsm-2023",
+    "doha-groin-consensus-2015",
+    "ioc-load-management-consensus-2016",
+    "textbooks-and-official-sources"
+  ],
+  "topicCounts": {
+    "A1: Core Disciplines Foundational Concepts": 10,
+    "A1: Testing Parameters, Standardization & Athlete Assessment": 4,
+    "A1: Data Interpretation & Applied Analytics": 4,
+    "A1: Performance Enhancement & Recovery Protocols": 6,
+    "A1: Emerging Technologies & Biostatistics": 4,
+    "A1: Holistic Development, Travel & Ethics": 4,
+    "A2: Olympic & Asian Games": 2,
+    "A2: Indian sports ecosystem and schemes": 2,
+    "A2: Anti-doping awareness": 2,
+    "A2: Major international sporting events": 1,
+    "A2: Sports governance and ethics": 1,
+    "B: Human Anatomy": 4,
+    "B: Human and Exercise Physiology": 5,
+    "B: Electrotherapy and Electrodiagnosis": 4,
+    "B: Exercise Therapy and Rehabilitation": 6,
+    "B: Biomechanics and Movement Analysis": 6,
+    "B: Psychology and Human Development": 3,
+    "B: Assessment, Diagnosis and Clinical Reasoning": 5,
+    "B: Sports Physiotherapy, Emergencies and Travel": 4,
+    "B: Sports Medicine, Nutrition and Research": 3,
+    "C: Lower Extremity Scenarios": 4,
+    "C: Upper Extremity Scenarios": 4,
+    "C: Spine & Pelvis Scenarios": 4,
+    "C: On-Field & Emergency Triage": 4,
+    "C: Return to Play (RTP) Frameworks": 4
+  },
+  "sourceCounts": {
+    "acsm-getp-12": 6,
+    "physiology-sport-exercise-kenney": 9,
+    "brukner-khan-clinical-sports-medicine": 4,
+    "basic-biomechanics-hall": 4,
+    "nsca-essentials-5": 4,
+    "foundations-sport-exercise-psychology": 5,
+    "clinical-sports-nutrition-burke": 1,
+    "world-physiotherapy-consent-2023": 1,
+    "nist-sematech-statistics": 1,
+    "cdc-confounding-epi-manual": 1,
+    "nakagawa-cuthill-effect-size-2007": 2,
+    "ioc-load-illness-2016": 2,
+    "cdc-yellow-book-jet-lag-2026": 2,
+    "gps-validity-scott-2016": 1,
+    "wearable-inertial-camomilla-2018": 1,
+    "ais-athlete-data-governance": 1,
+    "nccih-yoga-safety": 1,
+    "interdisciplinary-performance-sport-burns-2023": 1,
+    "world-physiotherapy-ethics-2023": 1,
+    "ioc-olympic-charter-2025": 1,
+    "oca-games-timeline": 1,
+    "myas-khelo-india-2025": 1,
+    "sai-tops-official-2026": 1,
+    "wada-istue-2023": 1,
+    "nada-india-abp-2026": 1,
+    "fifa-world-cup-2026": 1,
+    "a2-ioc-safeguarding-toolkit-2017": 1,
+    "openstax-anatomy-physiology-2e": 3,
+    "neumann-kinesiology": 3,
+    "watson-electrotherapy": 3,
+    "claytons-electrotherapy": 1,
+    "kisner-therapeutic-exercise": 4,
+    "sports-injury-prevention-rehabilitation-joyce-lewindon": 2,
+    "maitland-peripheral-manipulation": 1,
+    "perry-burnfield-gait-analysis": 1,
+    "magee-orthopaedic-assessment": 7,
+    "scat6-consensus-bjsm-2023": 5,
+    "ioc-manual-sports-injuries": 1,
+    "ioc-reds-2023": 1,
+    "ais-supplements-position-2022": 1,
+    "world-physiotherapy-ebp-2023": 1,
+    "doha-groin-consensus-2015": 4,
+    "brukner-khan-clinical-sports-medicine-vol2": 2,
+    "bern-return-to-sport-2016": 2,
+    "ioc-load-management-consensus-2016": 1,
+    "aspetar-acl-cpg-2023": 1
+  },
+  "answerPositionCounts": [
+    26,
+    28,
+    24,
+    22
+  ],
+  "cases": [
+    {
+      "passageId": "final-c-lower-001",
+      "questionIds": [
+        "final-c-lower-001-q1",
+        "final-c-lower-001-q2",
+        "final-c-lower-001-q3",
+        "final-c-lower-001-q4"
+      ],
+      "sourceIds": [
+        "doha-groin-consensus-2015"
+      ]
+    },
+    {
+      "passageId": "final-c-upper-001",
+      "questionIds": [
+        "final-c-upper-001-q1",
+        "final-c-upper-001-q2",
+        "final-c-upper-001-q3",
+        "final-c-upper-001-q4"
+      ],
+      "sourceIds": [
+        "brukner-khan-clinical-sports-medicine",
+        "neumann-kinesiology",
+        "magee-orthopaedic-assessment"
+      ]
+    },
+    {
+      "passageId": "final-c-spine-001",
+      "questionIds": [
+        "final-c-spine-001-q1",
+        "final-c-spine-001-q2",
+        "final-c-spine-001-q3",
+        "final-c-spine-001-q4"
+      ],
+      "sourceIds": [
+        "brukner-khan-clinical-sports-medicine-vol2",
+        "magee-orthopaedic-assessment"
+      ]
+    },
+    {
+      "passageId": "final-c-emergency-001",
+      "questionIds": [
+        "final-c-emergency-001-q1",
+        "final-c-emergency-001-q2",
+        "final-c-emergency-001-q3",
+        "final-c-emergency-001-q4"
+      ],
+      "sourceIds": [
+        "scat6-consensus-bjsm-2023"
+      ]
+    },
+    {
+      "passageId": "final-c-rtp-001",
+      "questionIds": [
+        "final-c-rtp-001-q1",
+        "final-c-rtp-001-q2",
+        "final-c-rtp-001-q3",
+        "final-c-rtp-001-q4"
+      ],
+      "sourceIds": [
+        "bern-return-to-sport-2016",
+        "ioc-load-management-consensus-2016",
+        "aspetar-acl-cpg-2023"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "final-a1-core-001",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Anthropometry and body composition",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-002",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Exercise physiology and energy systems",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 3,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-003",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Sports injury and rehabilitation",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 3,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-004",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Running biomechanics",
+      "primarySourceId": "basic-biomechanics-hall",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-005",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Biochemistry and recovery biomarkers",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-006",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Strength and conditioning principles",
+      "primarySourceId": "nsca-essentials-5",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 3,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-007",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Sports psychology",
+      "primarySourceId": "foundations-sport-exercise-psychology",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-008",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Sports nutrition and bioenergetics",
+      "primarySourceId": "clinical-sports-nutrition-burke",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-009",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Somatotype and biological maturation",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 4,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-core-010",
+      "section": "A1",
+      "repositoryGroup": "Core Disciplines Foundational Concepts",
+      "syllabusSubtopic": "Long-term athlete development",
+      "primarySourceId": "nsca-essentials-5",
+      "samplePattern": "SAI Annexure B Section A cross-disciplinary applied concept",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-testing-001",
+      "section": "A1",
+      "repositoryGroup": "Testing Parameters, Standardization & Athlete Assessment",
+      "syllabusSubtopic": "Reliability and repeated testing",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure A testing, validity and standardisation emphasis",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-testing-002",
+      "section": "A1",
+      "repositoryGroup": "Testing Parameters, Standardization & Athlete Assessment",
+      "syllabusSubtopic": "Validity and test interpretation",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure A testing, validity and standardisation emphasis",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-testing-003",
+      "section": "A1",
+      "repositoryGroup": "Testing Parameters, Standardization & Athlete Assessment",
+      "syllabusSubtopic": "Standard operating procedures and calibration",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure A testing, validity and standardisation emphasis",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-testing-004",
+      "section": "A1",
+      "repositoryGroup": "Testing Parameters, Standardization & Athlete Assessment",
+      "syllabusSubtopic": "Safety screening and informed consent",
+      "primarySourceId": "world-physiotherapy-consent-2023",
+      "samplePattern": "SAI Annexure A testing, validity and standardisation emphasis",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-analytics-001",
+      "section": "A1",
+      "repositoryGroup": "Data Interpretation & Applied Analytics",
+      "syllabusSubtopic": "Descriptive statistics",
+      "primarySourceId": "nist-sematech-statistics",
+      "samplePattern": "SAI Annexure A data interpretation and evidence emphasis",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 0,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-analytics-002",
+      "section": "A1",
+      "repositoryGroup": "Data Interpretation & Applied Analytics",
+      "syllabusSubtopic": "Correlation and causal interpretation",
+      "primarySourceId": "cdc-confounding-epi-manual",
+      "samplePattern": "SAI Annexure A data interpretation and evidence emphasis",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-a1-analytics-003",
+      "section": "A1",
+      "repositoryGroup": "Data Interpretation & Applied Analytics",
+      "syllabusSubtopic": "Effect size and practical significance",
+      "primarySourceId": "nakagawa-cuthill-effect-size-2007",
+      "samplePattern": "SAI Annexure A data interpretation and evidence emphasis",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-analytics-004",
+      "section": "A1",
+      "repositoryGroup": "Data Interpretation & Applied Analytics",
+      "syllabusSubtopic": "Longitudinal performance monitoring",
+      "primarySourceId": "acsm-getp-12",
+      "samplePattern": "SAI Annexure A data interpretation and evidence emphasis",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-001",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Velocity-based fatigue monitoring",
+      "primarySourceId": "nsca-essentials-5",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-002",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Sleep and recovery",
+      "primarySourceId": "ioc-load-illness-2016",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-003",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Active recovery",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-004",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Heat acclimatization",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-005",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Travel fatigue and circadian management",
+      "primarySourceId": "cdc-yellow-book-jet-lag-2026",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-recovery-006",
+      "section": "A1",
+      "repositoryGroup": "Performance Enhancement & Recovery Protocols",
+      "syllabusSubtopic": "Periodization and deloading",
+      "primarySourceId": "ioc-load-illness-2016",
+      "samplePattern": "SAI Annexure B fatigue, recovery and training-adjustment pattern",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-tech-001",
+      "section": "A1",
+      "repositoryGroup": "Emerging Technologies & Biostatistics",
+      "syllabusSubtopic": "GPS monitoring and measurement validity",
+      "primarySourceId": "gps-validity-scott-2016",
+      "samplePattern": "SAI Annexure A technology and biostatistics emphasis",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-tech-002",
+      "section": "A1",
+      "repositoryGroup": "Emerging Technologies & Biostatistics",
+      "syllabusSubtopic": "Inertial measurement units",
+      "primarySourceId": "wearable-inertial-camomilla-2018",
+      "samplePattern": "SAI Annexure A technology and biostatistics emphasis",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 2,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-tech-003",
+      "section": "A1",
+      "repositoryGroup": "Emerging Technologies & Biostatistics",
+      "syllabusSubtopic": "Inferential statistics",
+      "primarySourceId": "nakagawa-cuthill-effect-size-2007",
+      "samplePattern": "SAI Annexure A technology and biostatistics emphasis",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-tech-004",
+      "section": "A1",
+      "repositoryGroup": "Emerging Technologies & Biostatistics",
+      "syllabusSubtopic": "Athlete data governance and AI ethics",
+      "primarySourceId": "ais-athlete-data-governance",
+      "samplePattern": "SAI Annexure A technology and biostatistics emphasis",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-holistic-001",
+      "section": "A1",
+      "repositoryGroup": "Holistic Development, Travel & Ethics",
+      "syllabusSubtopic": "Burnout prevention and athlete wellbeing",
+      "primarySourceId": "foundations-sport-exercise-psychology",
+      "samplePattern": "SAI Annexure A athlete-management, travel and ethical-practice emphasis",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-holistic-002",
+      "section": "A1",
+      "repositoryGroup": "Holistic Development, Travel & Ethics",
+      "syllabusSubtopic": "Yoga and mind-body interventions",
+      "primarySourceId": "nccih-yoga-safety",
+      "samplePattern": "SAI Annexure A athlete-management, travel and ethical-practice emphasis",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 5,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-holistic-003",
+      "section": "A1",
+      "repositoryGroup": "Holistic Development, Travel & Ethics",
+      "syllabusSubtopic": "Interdisciplinary coordination",
+      "primarySourceId": "interdisciplinary-performance-sport-burns-2023",
+      "samplePattern": "SAI Annexure A athlete-management, travel and ethical-practice emphasis",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a1-holistic-004",
+      "section": "A1",
+      "repositoryGroup": "Holistic Development, Travel & Ethics",
+      "syllabusSubtopic": "Professional ethics and privacy",
+      "primarySourceId": "world-physiotherapy-ethics-2023",
+      "samplePattern": "SAI Annexure A athlete-management, travel and ethical-practice emphasis",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-olympic-001",
+      "section": "A2",
+      "repositoryGroup": "Olympic & Asian Games",
+      "syllabusSubtopic": "Modern Olympic history",
+      "primarySourceId": "ioc-olympic-charter-2025",
+      "samplePattern": "SAI Annexure A2 general sports awareness",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 2,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-olympic-002",
+      "section": "A2",
+      "repositoryGroup": "Olympic & Asian Games",
+      "syllabusSubtopic": "Asian Games history",
+      "primarySourceId": "oca-games-timeline",
+      "samplePattern": "SAI Annexure A2 general sports awareness",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 4,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-ecosystem-001",
+      "section": "A2",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "syllabusSubtopic": "Khelo India scheme",
+      "primarySourceId": "myas-khelo-india-2025",
+      "samplePattern": "SAI Annexure A2 Indian sports ecosystem and schemes",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-ecosystem-002",
+      "section": "A2",
+      "repositoryGroup": "Indian sports ecosystem and schemes",
+      "syllabusSubtopic": "Target Olympic Podium Scheme",
+      "primarySourceId": "sai-tops-official-2026",
+      "samplePattern": "SAI Annexure A2 Indian sports ecosystem and schemes",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-doping-001",
+      "section": "A2",
+      "repositoryGroup": "Anti-doping awareness",
+      "syllabusSubtopic": "Therapeutic Use Exemptions",
+      "primarySourceId": "wada-istue-2023",
+      "samplePattern": "SAI Annexure A2 clean-sport and TUE awareness",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-doping-002",
+      "section": "A2",
+      "repositoryGroup": "Anti-doping awareness",
+      "syllabusSubtopic": "Athlete Biological Passport",
+      "primarySourceId": "nada-india-abp-2026",
+      "samplePattern": "SAI Annexure A2 clean-sport and TUE awareness",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-events-001",
+      "section": "A2",
+      "repositoryGroup": "Major international sporting events",
+      "syllabusSubtopic": "FIFA World Cup 2026",
+      "primarySourceId": "fifa-world-cup-2026",
+      "samplePattern": "SAI Annexure A2 major-event awareness",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 6,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-a2-governance-001",
+      "section": "A2",
+      "repositoryGroup": "Sports governance and ethics",
+      "syllabusSubtopic": "Athlete safeguarding",
+      "primarySourceId": "a2-ioc-safeguarding-toolkit-2017",
+      "samplePattern": "SAI Annexure A2 governance, safeguarding and ethics",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 15,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-anatomy-001",
+      "section": "B",
+      "repositoryGroup": "Human Anatomy",
+      "syllabusSubtopic": "Scapular stabilisers and innervation",
+      "primarySourceId": "openstax-anatomy-physiology-2e",
+      "samplePattern": "SAI Annexure B applied anatomy and kinesiology",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-anatomy-002",
+      "section": "B",
+      "repositoryGroup": "Human Anatomy",
+      "syllabusSubtopic": "Peripheral nerve supply",
+      "primarySourceId": "openstax-anatomy-physiology-2e",
+      "samplePattern": "SAI Annexure B applied anatomy and kinesiology",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-anatomy-003",
+      "section": "B",
+      "repositoryGroup": "Human Anatomy",
+      "syllabusSubtopic": "Knee ligament function",
+      "primarySourceId": "neumann-kinesiology",
+      "samplePattern": "SAI Annexure B applied anatomy and kinesiology",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-anatomy-004",
+      "section": "B",
+      "repositoryGroup": "Human Anatomy",
+      "syllabusSubtopic": "Upper-limb entrapment sites",
+      "primarySourceId": "openstax-anatomy-physiology-2e",
+      "samplePattern": "SAI Annexure B applied anatomy and kinesiology",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-physiology-001",
+      "section": "B",
+      "repositoryGroup": "Human and Exercise Physiology",
+      "syllabusSubtopic": "Cardiovascular response to exercise",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B applied physiology scenarios",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-physiology-002",
+      "section": "B",
+      "repositoryGroup": "Human and Exercise Physiology",
+      "syllabusSubtopic": "Skeletal muscle fibre characteristics",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B applied physiology scenarios",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-b-physiology-003",
+      "section": "B",
+      "repositoryGroup": "Human and Exercise Physiology",
+      "syllabusSubtopic": "Ventilatory threshold",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B applied physiology scenarios",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-physiology-004",
+      "section": "B",
+      "repositoryGroup": "Human and Exercise Physiology",
+      "syllabusSubtopic": "Thermoregulation",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B applied physiology scenarios",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-physiology-005",
+      "section": "B",
+      "repositoryGroup": "Human and Exercise Physiology",
+      "syllabusSubtopic": "Altitude adaptation",
+      "primarySourceId": "physiology-sport-exercise-kenney",
+      "samplePattern": "SAI Annexure B applied physiology scenarios",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-electro-001",
+      "section": "B",
+      "repositoryGroup": "Electrotherapy and Electrodiagnosis",
+      "syllabusSubtopic": "TENS and pain modulation",
+      "primarySourceId": "watson-electrotherapy",
+      "samplePattern": "SAI Annexure B modality selection and safety",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-electro-002",
+      "section": "B",
+      "repositoryGroup": "Electrotherapy and Electrodiagnosis",
+      "syllabusSubtopic": "Therapeutic ultrasound frequency",
+      "primarySourceId": "watson-electrotherapy",
+      "samplePattern": "SAI Annexure B modality selection and safety",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 2,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-electro-003",
+      "section": "B",
+      "repositoryGroup": "Electrotherapy and Electrodiagnosis",
+      "syllabusSubtopic": "Electrical stimulation safety",
+      "primarySourceId": "claytons-electrotherapy",
+      "samplePattern": "SAI Annexure B modality selection and safety",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-electro-004",
+      "section": "B",
+      "repositoryGroup": "Electrotherapy and Electrodiagnosis",
+      "syllabusSubtopic": "Therapeutic ultrasound dosage",
+      "primarySourceId": "watson-electrotherapy",
+      "samplePattern": "SAI Annexure B modality selection and safety",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-exercise-001",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "Overload and progression",
+      "primarySourceId": "kisner-therapeutic-exercise",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 6,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-exercise-002",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "Muscle contractions",
+      "primarySourceId": "kisner-therapeutic-exercise",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-exercise-003",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "PNF stretching",
+      "primarySourceId": "kisner-therapeutic-exercise",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-b-exercise-004",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "Open and closed kinetic chain exercise",
+      "primarySourceId": "kisner-therapeutic-exercise",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 3,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-exercise-005",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "Tendinopathy loading",
+      "primarySourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 5,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-exercise-006",
+      "section": "B",
+      "repositoryGroup": "Exercise Therapy and Rehabilitation",
+      "syllabusSubtopic": "Maitland mobilisation grades",
+      "primarySourceId": "maitland-peripheral-manipulation",
+      "samplePattern": "SAI Annexure B exercise-therapy application",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 9,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-001",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Torque and moment arm",
+      "primarySourceId": "basic-biomechanics-hall",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-002",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Gait cycle",
+      "primarySourceId": "perry-burnfield-gait-analysis",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 4,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-003",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Scapulohumeral rhythm",
+      "primarySourceId": "neumann-kinesiology",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 6,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-004",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Impulse-momentum relationship",
+      "primarySourceId": "basic-biomechanics-hall",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-005",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Rate of force development",
+      "primarySourceId": "nsca-essentials-5",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 3,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-biomech-006",
+      "section": "B",
+      "repositoryGroup": "Biomechanics and Movement Analysis",
+      "syllabusSubtopic": "Running cadence and loading",
+      "primarySourceId": "basic-biomechanics-hall",
+      "samplePattern": "SAI Annexure B movement analysis and force interpretation",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-psych-001",
+      "section": "B",
+      "repositoryGroup": "Psychology and Human Development",
+      "syllabusSubtopic": "Pressure training",
+      "primarySourceId": "foundations-sport-exercise-psychology",
+      "samplePattern": "SAI Annexure B applied psychology scenarios",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-psych-002",
+      "section": "B",
+      "repositoryGroup": "Psychology and Human Development",
+      "syllabusSubtopic": "Motivation",
+      "primarySourceId": "foundations-sport-exercise-psychology",
+      "samplePattern": "SAI Annexure B applied psychology scenarios",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-psych-003",
+      "section": "B",
+      "repositoryGroup": "Psychology and Human Development",
+      "syllabusSubtopic": "Burnout and autonomy support",
+      "primarySourceId": "foundations-sport-exercise-psychology",
+      "samplePattern": "SAI Annexure B applied psychology scenarios",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-assessment-001",
+      "section": "B",
+      "repositoryGroup": "Assessment, Diagnosis and Clinical Reasoning",
+      "syllabusSubtopic": "ACL special tests",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B diagnostic-test and clinical-reasoning pattern",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 4,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-assessment-002",
+      "section": "B",
+      "repositoryGroup": "Assessment, Diagnosis and Clinical Reasoning",
+      "syllabusSubtopic": "Shoulder examination",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B diagnostic-test and clinical-reasoning pattern",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 5,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-assessment-003",
+      "section": "B",
+      "repositoryGroup": "Assessment, Diagnosis and Clinical Reasoning",
+      "syllabusSubtopic": "Achilles tendon examination",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B diagnostic-test and clinical-reasoning pattern",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-assessment-004",
+      "section": "B",
+      "repositoryGroup": "Assessment, Diagnosis and Clinical Reasoning",
+      "syllabusSubtopic": "Hip and sacroiliac examination",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B diagnostic-test and clinical-reasoning pattern",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 2,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-assessment-005",
+      "section": "B",
+      "repositoryGroup": "Assessment, Diagnosis and Clinical Reasoning",
+      "syllabusSubtopic": "Patient-reported outcome measures",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine",
+      "samplePattern": "SAI Annexure B diagnostic-test and clinical-reasoning pattern",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 2,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-sports-001",
+      "section": "B",
+      "repositoryGroup": "Sports Physiotherapy, Emergencies and Travel",
+      "syllabusSubtopic": "Acute soft-tissue management",
+      "primarySourceId": "sports-injury-prevention-rehabilitation-joyce-lewindon",
+      "samplePattern": "SAI Annexure B emergency, rehabilitation and travel application",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 6,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-sports-002",
+      "section": "B",
+      "repositoryGroup": "Sports Physiotherapy, Emergencies and Travel",
+      "syllabusSubtopic": "Concussion triage",
+      "primarySourceId": "scat6-consensus-bjsm-2023",
+      "samplePattern": "SAI Annexure B emergency, rehabilitation and travel application",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-sports-003",
+      "section": "B",
+      "repositoryGroup": "Sports Physiotherapy, Emergencies and Travel",
+      "syllabusSubtopic": "Exertional heat illness",
+      "primarySourceId": "ioc-manual-sports-injuries",
+      "samplePattern": "SAI Annexure B emergency, rehabilitation and travel application",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-sports-004",
+      "section": "B",
+      "repositoryGroup": "Sports Physiotherapy, Emergencies and Travel",
+      "syllabusSubtopic": "Team travel and jet lag",
+      "primarySourceId": "cdc-yellow-book-jet-lag-2026",
+      "samplePattern": "SAI Annexure B emergency, rehabilitation and travel application",
+      "passageId": null,
+      "correctIndex": 1,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-b-medicine-001",
+      "section": "B",
+      "repositoryGroup": "Sports Medicine, Nutrition and Research",
+      "syllabusSubtopic": "Relative Energy Deficiency in Sport",
+      "primarySourceId": "ioc-reds-2023",
+      "samplePattern": "SAI Annexure B nutrition, sports medicine and evidence application",
+      "passageId": null,
+      "correctIndex": 0,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-medicine-002",
+      "section": "B",
+      "repositoryGroup": "Sports Medicine, Nutrition and Research",
+      "syllabusSubtopic": "Supplement safety",
+      "primarySourceId": "ais-supplements-position-2022",
+      "samplePattern": "SAI Annexure B nutrition, sports medicine and evidence application",
+      "passageId": null,
+      "correctIndex": 2,
+      "optionLengthSpread": 15,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-b-medicine-003",
+      "section": "B",
+      "repositoryGroup": "Sports Medicine, Nutrition and Research",
+      "syllabusSubtopic": "Confidence intervals and evidence",
+      "primarySourceId": "world-physiotherapy-ebp-2023",
+      "samplePattern": "SAI Annexure B nutrition, sports medicine and evidence application",
+      "passageId": null,
+      "correctIndex": 3,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-lower-001-q1",
+      "section": "C",
+      "repositoryGroup": "Lower Extremity Scenarios",
+      "syllabusSubtopic": "Doha taxonomy and adductor-related groin pain",
+      "primarySourceId": "doha-groin-consensus-2015",
+      "samplePattern": "SAI Annexure B Section C sports-injury case pattern; Doha consensus integration",
+      "passageId": "final-c-lower-001",
+      "correctIndex": 0,
+      "optionLengthSpread": 4,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-lower-001-q2",
+      "section": "C",
+      "repositoryGroup": "Lower Extremity Scenarios",
+      "syllabusSubtopic": "Doha clinical examination",
+      "primarySourceId": "doha-groin-consensus-2015",
+      "samplePattern": "SAI Annexure B Section C sports-injury case pattern; Doha consensus integration",
+      "passageId": "final-c-lower-001",
+      "correctIndex": 1,
+      "optionLengthSpread": 7,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-lower-001-q3",
+      "section": "C",
+      "repositoryGroup": "Lower Extremity Scenarios",
+      "syllabusSubtopic": "Adductor rehabilitation and load progression",
+      "primarySourceId": "doha-groin-consensus-2015",
+      "samplePattern": "SAI Annexure B Section C sports-injury case pattern; Doha consensus integration",
+      "passageId": "final-c-lower-001",
+      "correctIndex": 2,
+      "optionLengthSpread": 15,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-c-lower-001-q4",
+      "section": "C",
+      "repositoryGroup": "Lower Extremity Scenarios",
+      "syllabusSubtopic": "Groin differential diagnosis and monitoring",
+      "primarySourceId": "doha-groin-consensus-2015",
+      "samplePattern": "SAI Annexure B Section C sports-injury case pattern; Doha consensus integration",
+      "passageId": "final-c-lower-001",
+      "correctIndex": 3,
+      "optionLengthSpread": 15,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-c-upper-001-q1",
+      "section": "C",
+      "repositoryGroup": "Upper Extremity Scenarios",
+      "syllabusSubtopic": "Glenohumeral internal rotation deficit",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine",
+      "samplePattern": "SAI Annexure B Section C overhead-athlete case pattern",
+      "passageId": "final-c-upper-001",
+      "correctIndex": 0,
+      "optionLengthSpread": 12,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-upper-001-q2",
+      "section": "C",
+      "repositoryGroup": "Upper Extremity Scenarios",
+      "syllabusSubtopic": "Posterior shoulder mobility",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine",
+      "samplePattern": "SAI Annexure B Section C overhead-athlete case pattern",
+      "passageId": "final-c-upper-001",
+      "correctIndex": 1,
+      "optionLengthSpread": 10,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-upper-001-q3",
+      "section": "C",
+      "repositoryGroup": "Upper Extremity Scenarios",
+      "syllabusSubtopic": "Overhead throwing mechanics",
+      "primarySourceId": "neumann-kinesiology",
+      "samplePattern": "SAI Annexure B Section C overhead-athlete case pattern",
+      "passageId": "final-c-upper-001",
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-upper-001-q4",
+      "section": "C",
+      "repositoryGroup": "Upper Extremity Scenarios",
+      "syllabusSubtopic": "Rotator cuff examination",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B Section C overhead-athlete case pattern",
+      "passageId": "final-c-upper-001",
+      "correctIndex": 3,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-spine-001-q1",
+      "section": "C",
+      "repositoryGroup": "Spine & Pelvis Scenarios",
+      "syllabusSubtopic": "Lumbar pars stress injury",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine-vol2",
+      "samplePattern": "SAI Annexure B Section C spine and pelvis case pattern",
+      "passageId": "final-c-spine-001",
+      "correctIndex": 0,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-spine-001-q2",
+      "section": "C",
+      "repositoryGroup": "Spine & Pelvis Scenarios",
+      "syllabusSubtopic": "Discogenic radiculopathy",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B Section C spine and pelvis case pattern",
+      "passageId": "final-c-spine-001",
+      "correctIndex": 1,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-spine-001-q3",
+      "section": "C",
+      "repositoryGroup": "Spine & Pelvis Scenarios",
+      "syllabusSubtopic": "Sacroiliac joint assessment",
+      "primarySourceId": "magee-orthopaedic-assessment",
+      "samplePattern": "SAI Annexure B Section C spine and pelvis case pattern",
+      "passageId": "final-c-spine-001",
+      "correctIndex": 2,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-spine-001-q4",
+      "section": "C",
+      "repositoryGroup": "Spine & Pelvis Scenarios",
+      "syllabusSubtopic": "Imaging and referral",
+      "primarySourceId": "brukner-khan-clinical-sports-medicine-vol2",
+      "samplePattern": "SAI Annexure B Section C spine and pelvis case pattern",
+      "passageId": "final-c-spine-001",
+      "correctIndex": 3,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-emergency-001-q1",
+      "section": "C",
+      "repositoryGroup": "On-Field & Emergency Triage",
+      "syllabusSubtopic": "SCAT6 red flags",
+      "primarySourceId": "scat6-consensus-bjsm-2023",
+      "samplePattern": "SAI Annexure B Section C emergency and concussion case pattern; SCAT6 integration",
+      "passageId": "final-c-emergency-001",
+      "correctIndex": 0,
+      "optionLengthSpread": 8,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-emergency-001-q2",
+      "section": "C",
+      "repositoryGroup": "On-Field & Emergency Triage",
+      "syllabusSubtopic": "Same-day sport after suspected concussion",
+      "primarySourceId": "scat6-consensus-bjsm-2023",
+      "samplePattern": "SAI Annexure B Section C emergency and concussion case pattern; SCAT6 integration",
+      "passageId": "final-c-emergency-001",
+      "correctIndex": 1,
+      "optionLengthSpread": 11,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-emergency-001-q3",
+      "section": "C",
+      "repositoryGroup": "On-Field & Emergency Triage",
+      "syllabusSubtopic": "SCAT6 multimodal assessment",
+      "primarySourceId": "scat6-consensus-bjsm-2023",
+      "samplePattern": "SAI Annexure B Section C emergency and concussion case pattern; SCAT6 integration",
+      "passageId": "final-c-emergency-001",
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-c-emergency-001-q4",
+      "section": "C",
+      "repositoryGroup": "On-Field & Emergency Triage",
+      "syllabusSubtopic": "Graduated return to sport after concussion",
+      "primarySourceId": "scat6-consensus-bjsm-2023",
+      "samplePattern": "SAI Annexure B Section C emergency and concussion case pattern; SCAT6 integration",
+      "passageId": "final-c-emergency-001",
+      "correctIndex": 3,
+      "optionLengthSpread": 5,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-rtp-001-q1",
+      "section": "C",
+      "repositoryGroup": "Return to Play (RTP) Frameworks",
+      "syllabusSubtopic": "Criteria-based return to sport",
+      "primarySourceId": "bern-return-to-sport-2016",
+      "samplePattern": "SAI Annexure B Section C criteria-based decision pattern; IOC load integration",
+      "passageId": "final-c-rtp-001",
+      "correctIndex": 0,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-rtp-001-q2",
+      "section": "C",
+      "repositoryGroup": "Return to Play (RTP) Frameworks",
+      "syllabusSubtopic": "Load progression and monitoring",
+      "primarySourceId": "ioc-load-management-consensus-2016",
+      "samplePattern": "SAI Annexure B Section C criteria-based decision pattern; IOC load integration",
+      "passageId": "final-c-rtp-001",
+      "correctIndex": 1,
+      "optionLengthSpread": 14,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    },
+    {
+      "id": "final-c-rtp-001-q3",
+      "section": "C",
+      "repositoryGroup": "Return to Play (RTP) Frameworks",
+      "syllabusSubtopic": "Functional symmetry and readiness",
+      "primarySourceId": "aspetar-acl-cpg-2023",
+      "samplePattern": "SAI Annexure B Section C criteria-based decision pattern; IOC load integration",
+      "passageId": "final-c-rtp-001",
+      "correctIndex": 2,
+      "optionLengthSpread": 13,
+      "correctStrictlyLongest": true,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": true
+      }
+    },
+    {
+      "id": "final-c-rtp-001-q4",
+      "section": "C",
+      "repositoryGroup": "Return to Play (RTP) Frameworks",
+      "syllabusSubtopic": "Shared decision-making",
+      "primarySourceId": "bern-return-to-sport-2016",
+      "samplePattern": "SAI Annexure B Section C criteria-based decision pattern; IOC load integration",
+      "passageId": "final-c-rtp-001",
+      "correctIndex": 3,
+      "optionLengthSpread": 15,
+      "correctStrictlyLongest": false,
+      "flags": {
+        "optionLengthSpreadOver15": false,
+        "correctOver10CharsLongerThanDistractorMedian": false
+      }
+    }
+  ]
+}

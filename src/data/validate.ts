@@ -55,7 +55,7 @@ const coverage: Record<Section, Array<[string, RegExp]>> = {
   ],
 };
 
-export function validateQuestionBank(bank: Question[]): ValidationResult {
+export function validateQuestionBank(bank: Question[], expected = { A1: 900, A2: 200, B: 1350, C: 1000 }, requireCoverage = true): ValidationResult {
   const errors: string[] = [];
   const counts: Record<Section, number> = { A1: 0, A2: 0, B: 0, C: 0 };
   const ids = new Set<string>();
@@ -86,18 +86,19 @@ export function validateQuestionBank(bank: Question[]): ValidationResult {
     if (index > 10000) errors.push("Question bank is unexpectedly large");
   });
 
-  const expected = { A1: 900, A2: 200, B: 1350, C: 1000 };
   sections.forEach((section) => {
     if (counts[section] !== expected[section]) errors.push(`${section} has ${counts[section]} questions; expected ${expected[section]}`);
   });
 
-  sections.forEach((section) => {
-    const sectionQuestions = bank.filter((question) => question.section === section);
-    const searchable = sectionQuestions.map((question) => `${question.topic} ${question.subtopic} ${question.text} ${question.explanation}`.toLowerCase());
-    coverage[section].forEach(([label, pattern]) => {
-      if (!searchable.some((value) => pattern.test(value))) errors.push(`${section} is missing syllabus coverage: ${label}`);
+  if (requireCoverage) {
+    sections.forEach((section) => {
+      const sectionQuestions = bank.filter((question) => question.section === section);
+      const searchable = sectionQuestions.map((question) => `${question.topic} ${question.subtopic} ${question.text} ${question.explanation}`.toLowerCase());
+      coverage[section].forEach(([label, pattern]) => {
+        if (!searchable.some((value) => pattern.test(value))) errors.push(`${section} is missing syllabus coverage: ${label}`);
+      });
     });
-  });
+  }
   passages.forEach((count, passageId) => {
     if (count !== 4) errors.push(`${passageId} has ${count} questions; Section C cases require exactly 4`);
   });

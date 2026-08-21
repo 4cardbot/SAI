@@ -1,5 +1,6 @@
 export type Section = "A1" | "A2" | "B" | "C";
-export type AttemptMode = "full" | "A1_FULL" | "filtered" | Section;
+export type AttemptMode = "full" | "final" | "A1_FULL" | "filtered" | Section;
+export type TestSlot = "practice" | "final";
 export type Difficulty = "foundational" | "applied" | "analytical";
 export type ResponseStatus = "unanswered" | "answered" | "skipped";
 export type PracticeQuestionCount = 100 | "all";
@@ -86,9 +87,12 @@ export interface TestResult {
 }
 
 export interface PersistedState {
-  version: 3;
-  activeAttempt: ActiveAttempt | null;
+  version: 4;
+  practiceAttempt: ActiveAttempt | null;
+  finalAttempt: ActiveAttempt | null;
+  activeSlot: TestSlot | null;
   latestResult: TestResult | null;
+  finalTestResult: TestResult | null;
 }
 
 export interface ValidationResult {

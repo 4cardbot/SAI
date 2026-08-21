@@ -14,6 +14,7 @@ function displayLabel(item: ResultItem, optionIndex: number | undefined): string
 
 function modeLabel(mode: TestResult["mode"]): string {
   if (!mode || mode === "full") return "Full CBT simulation";
+  if (mode === "final") return "Final CBT test";
   if (mode === "A1_FULL") return "A1-only 100-question test";
   if (mode === "filtered") return "Focused question test";
   return `${mode} section practice`;
