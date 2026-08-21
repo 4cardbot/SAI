@@ -1,0 +1,52 @@
+# A2 — Major International Championships
+
+## Event fingerprint chart
+
+| Event | First / origin cue | Current high-yield cue |
+| --- | --- | --- |
+| Commonwealth Games | 1930, Hamilton; originally British Empire Games | Glasgow 2026 was the 23rd edition, 23 July–2 August, with a 10-sport programme and integrated Para sport; Amdavad is confirmed for 2030 centenary Games |
+| FIFA World Cup | 1930, Uruguay; first champion Uruguay | 2026: Canada–Mexico–United States; expanded 48-team tournament; keep format facts separate from historical winners |
+| ICC Cricket World Cup | ODI World Cup began in 1975 | Distinguish ODI World Cup, T20 World Cup and World Test Championship; they are different competitions and formats |
+| World Athletics Championships | First edition 1983, Helsinki | Tokyo 2025 was the 20th edition; athletics world championships are distinct from the Olympic athletics programme |
+| World Aquatics Championships | First edition 1973, Belgrade | Aquatics includes swimming, diving, water polo, artistic swimming, open water and high diving; do not call it only a swimming meet |
+| FIBA Basketball World Cup | First edition 1950, Argentina | 2027 edition: Doha, Qatar; 32-team event |
+
+## Host–format–governing body method
+
+```text
+Question says “who governs?” → identify federation/organisation
+Question says “where/when?” → identify edition and host
+Question says “format?” → identify sport-specific competition
+Question says “first?” → use official history, not a memory list
+```
+
+## Frequently confused pairs
+
+- Olympic Games ≠ World Championships: Olympic cycle and federation championships have different histories and qualification systems.
+- Commonwealth Games ≠ Commonwealth Youth Games: different age/edition structures.
+- FIFA World Cup ≠ Club World Cup: national teams versus clubs.
+- ICC ODI World Cup ≠ ICC T20 World Cup: different formats.
+- World Aquatics Championships ≠ Olympic swimming: same sport family, different event.
+- World Athletics Championships ≠ Diamond League: championship versus annual circuit meetings.
+
+## Memory tactics
+
+- **H–U–H:** Hamilton–Uruguay–Helsinki for Commonwealth 1930, FIFA 1930, Athletics 1983? (Use the first two as the 1930 pair; Helsinki is 1983.)
+- Sports-body hooks: **FIFA–football, ICC–cricket, FIBA–basketball, World Athletics–track/field, World Aquatics–water.**
+- Build a three-column flashcard: **event | first edition | present/current cue**.
+
+## Current-fact rule
+
+These notes use the official snapshot available **2026-08-21**. A future host, completed Games result, sport programme or qualification format can change; check the organiser’s page if the notification is updated.
+
+## Self-test
+
+1. Which event began at Hamilton in 1930?
+2. What is the difference between an international federation championship and the Olympics?
+3. Which body is associated with basketball’s World Cup?
+4. Name two disciplines included in World Aquatics beyond pool swimming.
+
+## Sources
+
+`sai-notification-2026`; `commonwealth-sport-history-2026`; `commonwealth-sport-glasgow-2026`; `commonwealth-sport-amdavad-2030`; `fifa-world-cup-history`; `fifa-world-cup-2026`; `icc-world-cups-2026`; `world-athletics-champs-history-2025`; `world-athletics-tokyo-2025`; `world-aquatics-championships-history`; `world-aquatics-singapore-2025`; `fiba-basketball-world-cup-history`; `fiba-basketball-world-cup-2027`.
+

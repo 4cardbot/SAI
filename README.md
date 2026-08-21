@@ -46,3 +46,7 @@ The production bank contains 3450 explicit, high-yield question objects split in
 The app has no backend or login. Each attempt is generated from a fresh random seed. Ordinary practice and the fixed final test have separate versioned browser-storage slots, including separate resumable attempts and results. Answers, the current question, and remaining time are saved as the user progresses. Closing, refreshing, leaving the tab, or navigating Home pauses the active slot; Home offers separate Resume actions. Replacing a same-type attempt or result requires confirmation and does not affect the other slot.
 
 The question bank is an independent preparation resource, not an official SAI examination or recruitment application.
+
+## Day-before study notes
+
+Compact revision notes for the weak areas are indexed in [`study_notes/README.md`](study_notes/README.md). They include formulas, comparison tables, ASCII diagrams, memory hooks, self-tests and source IDs linked to the repository catalog. The A2 current-fact snapshot is dated 2026-08-21 and should be rechecked against official pages immediately before the examination.
