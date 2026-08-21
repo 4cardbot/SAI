@@ -2,11 +2,16 @@
 
 ## Rehabilitation staircase
 
-```text
-Protect / calm symptoms → restore range of motion and activation → build capacity
-→ integrate proprioception/strength → power/speed/change of direction
-→ sport-specific practice → unrestricted performance exposure
-```
+## Rehabilitation staircase
+
+Progress through these stages when the athlete meets the relevant criteria:
+
+1. Protect the tissue and calm unnecessary aggravation.
+2. Restore range of motion and muscle activation.
+3. Build strength and general capacity.
+4. Add balance, power, speed and change-of-direction work.
+5. Practise the sport task.
+6. Expose the athlete to unrestricted performance demands.
 
 Progress by **response and criteria**, not by calendar alone.
 
@@ -61,7 +66,7 @@ The grade is not the whole treatment: direction, examination findings, irritabil
 
 ## Proprioception, plyometrics, hydrotherapy
 
-- Proprioception: change sensory and motor-control demand—stable → unstable, predictable → perturbation, bilateral → unilateral, slow → fast.
+- Proprioception: progress from stable to unstable, predictable to perturbed, two-leg to one-leg, and slow to fast tasks.
 - Plyometrics: eccentric braking followed by rapid concentric action; require adequate strength, landing control and tissue readiness.
 - Aquatic therapy unloads body weight and changes resistance; water depth, buoyancy, drag and temperature alter the dose.
 
@@ -69,7 +74,7 @@ The grade is not the whole treatment: direction, examination findings, irritabil
 
 - Progress in this order: **restore movement, restore activation, build strength, then practise the sport task**.
 - Maitland grades I and II are usually used for gentle pain or movement tolerance; grades III and IV emphasise mobility; grade V is a thrust performed by an appropriately trained clinician.
-- Increase difficulty step by step: **range → load → speed → complexity → unpredictable sport demands**.
+- Increase difficulty step by step: **range, load, speed, complexity, then unpredictable sport demands**.
 
 ## Self-test
 

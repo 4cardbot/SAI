@@ -2,17 +2,16 @@
 
 ## Institution–scheme map
 
-```text
-Ministry of Youth Affairs and Sports (MYAS) → national policy, schemes and government oversight
-  │
-  ├─ Sports Authority of India (SAI) → implementation, centres, coaching, sports science and athlete support
-  ├─ Target Olympic Podium Scheme (TOPS)/Mission Olympic Cell → targeted elite-athlete support
-  ├─ Khelo India → participation, competitions, talent and facilities
-  └─ National Sports Development Fund (NSDF) → grants/resources supporting sport and elite preparation
-
-Indian Olympic Association (IOA) + recognised National Sports Federations (NSFs) → Olympic representation and sport-specific administration
-National Centres of Excellence (NCOEs) → high-performance training + integrated sports-science support
-```
+| Organisation or programme | Main role |
+| --- | --- |
+| Ministry of Youth Affairs and Sports | National policy, schemes and government oversight |
+| Sports Authority of India | Programme implementation, centres, coaching, sports science and athlete support |
+| Target Olympic Podium Scheme and Mission Olympic Cell | Targeted support for elite athletes with major-Games potential |
+| Khelo India | Participation, competitions, talent development and facilities |
+| National Sports Development Fund | Funding and resources for sport and elite preparation |
+| Indian Olympic Association | Olympic representation for India |
+| National Sports Federation | Administration and development of one sport |
+| National Centres of Excellence | High-performance training with integrated sports-science support |
 
 ## Scheme flash table
 
@@ -28,15 +27,14 @@ National Centres of Excellence (NCOEs) → high-performance training + integrate
 
 ## How to solve scheme questions
 
-```text
-Problem in stem → identify scale → choose scheme
-participation/facilities/talent pipeline → Khelo India
-elite medal pathway/individual support → TOPS
-high-performance campus/integrated support → NCOE / SAI
-funding/resource mobilisation → NSDF
-national representation → IOA
-sport-specific selection/rules → NSF
-```
+| Problem described in the question | Most likely answer |
+| --- | --- |
+| Participation, facilities or a talent pipeline | Khelo India |
+| Elite medal pathway or individual support | Target Olympic Podium Scheme |
+| High-performance campus and integrated support | National Centre of Excellence / Sports Authority of India |
+| Funding or resource mobilisation | National Sports Development Fund |
+| National Olympic representation | Indian Olympic Association |
+| Sport-specific selection or technical rules | National Sports Federation |
 
 ## Governance distinctions
 

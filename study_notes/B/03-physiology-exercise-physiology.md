@@ -12,11 +12,14 @@ All three operate together. “Aerobic versus anaerobic” is a relative-contrib
 
 ## Muscle physiology
 
-```text
-Motor-nerve action potential → acetylcholine at the neuromuscular junction
-→ muscle-fibre action potential → calcium release → troponin shift
-→ actin–myosin cross-bridges → adenosine-triphosphate-dependent cycling
-```
+Muscle contraction follows this sequence:
+
+1. A nerve signal reaches the muscle.
+2. Acetylcholine is released at the neuromuscular junction.
+3. The muscle-fibre electrical signal travels along the fibre.
+4. Calcium is released.
+5. Calcium moves troponin so actin and myosin can form cross-bridges.
+6. The cross-bridges cycle using adenosine triphosphate.
 
 - **Henneman size principle:** smaller, lower-threshold motor units are recruited before larger, higher-threshold units as demand rises.
 - Type I fibres: oxidative, fatigue-resistant, lower maximal force/power.
@@ -26,9 +29,9 @@ Motor-nerve action potential → acetylcholine at the neuromuscular junction
 ## Cardiovascular equations
 
 ```text
-Cardiac output (Q) = heart rate (HR) × stroke volume (SV)
-Oxygen uptake (VO₂) = Q × (arterial O₂ − venous O₂ difference)  [Fick principle]
-Mean arterial pressure (MAP) ≈ diastolic pressure + 1/3(systolic pressure − diastolic pressure)
+Cardiac output = heart rate × stroke volume
+Oxygen uptake = cardiac output × (arterial oxygen − venous oxygen difference)  [Fick principle]
+Mean arterial pressure ≈ diastolic pressure + 1/3(systolic pressure − diastolic pressure)
 ```
 
 Acute exercise: heart rate, stroke volume (until high intensities in some conditions), cardiac output, ventilation and systolic blood pressure generally rise; blood flow is redistributed according to demand and thermoregulation.
@@ -43,11 +46,10 @@ Training adaptations can include lower submaximal heart rate, increased stroke v
 
 ## Thermoregulation and altitude
 
-```text
-Heat → skin blood flow + sweating → evaporative cooling
-Humidity ↑ → evaporation ↓ → heat strain ↑
-Altitude → inspired O₂ pressure ↓ → ventilatory/cardiovascular stress ↑
-```
+In heat, the body sends more blood to the skin and produces sweat; evaporation
+of that sweat removes heat. High humidity reduces evaporation and therefore
+increases heat strain. At altitude, lower oxygen pressure increases breathing
+and cardiovascular stress.
 
 Heat acclimatisation is progressive exposure with monitoring. Altitude illness is clinical; headache plus nausea, dizziness, sleep disturbance or deteriorating neurological/respiratory symptoms should not be treated as ordinary “fitness adaptation.”
 
@@ -59,7 +61,7 @@ Recovery restores homeostasis and supports supercompensation, but the response d
 
 - Think of the energy systems as **fast, hard and long**: phosphocreatine is fastest, glycolysis supports hard efforts, and oxidative metabolism supports long efforts.
 - Cardiac output means **how much blood the heart pumps each minute**, so it equals heart rate multiplied by stroke volume. Oxygen uptake equals cardiac output multiplied by the difference in oxygen content between arterial and venous blood.
-- Muscle activation follows this order: **nerve signal → acetylcholine → calcium → troponin → myosin cross-bridge.**
+- Muscle activation follows this order: **nerve signal, acetylcholine, calcium, troponin and finally the myosin cross-bridge.**
 
 ## Self-test
 

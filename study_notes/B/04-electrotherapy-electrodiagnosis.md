@@ -44,10 +44,9 @@ Denervated muscle requires different pulse characteristics from innervated muscl
 
 ## Evidence-based choice
 
-```text
-Clinical problem → desired mechanism/outcome → best supported option
-                 → safe dose → reassess meaningful change
-```
+Choose a modality in five steps: **identify the clinical problem, define the
+desired outcome, choose the best-supported option, select a safe dose, and
+reassess whether a meaningful change occurred.**
 
 The presence of a physiological effect does not prove a clinically meaningful outcome. For chronic nonspecific low-back pain, do not assume therapeutic ultrasound is essential merely because it produces tissue heating.
 

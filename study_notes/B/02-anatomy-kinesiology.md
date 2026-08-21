@@ -20,7 +20,7 @@
 | Serratus anterior | Scapular protraction/upward rotation; long thoracic nerve |
 | Trapezius | Scapular elevation/retraction/upward rotation; spinal accessory nerve plus cervical contributions |
 
-The four rotator-cuff muscles are **supraspinatus, infraspinatus, teres minor and subscapularis**. Their initials are sometimes shortened to “SITS,” but learn the full names first.
+The four rotator-cuff muscles are **supraspinatus, infraspinatus, teres minor and subscapularis**. Learn the full names because each muscle has a different action and nerve supply.
 
 ## Lower-limb anchors
 
@@ -57,9 +57,9 @@ Open kinetic chain: distal segment free; closed kinetic chain: distal segment fi
 
 ## Kinesiology reasoning
 
-```text
-Joint position → muscle line of pull → moment arm → torque → movement/control
-```
+To analyse a movement, ask these questions in order: **Where is the joint?
+Which way does the muscle pull? How long is its moment arm? How much torque
+does it create? What movement or control does that produce?**
 
 ## Easy ways to remember it
 

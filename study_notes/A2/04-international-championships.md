@@ -13,12 +13,12 @@
 
 ## Host–format–governing body method
 
-```text
-Question says “who governs?” → identify federation/organisation
-Question says “where/when?” → identify edition and host
-Question says “format?” → identify sport-specific competition
-Question says “first?” → use official history, not a memory list
-```
+When reading an event question:
+
+1. “Who governs?” asks for the federation or organisation.
+2. “Where and when?” asks for the edition and host.
+3. “What format?” asks which version of the competition is meant.
+4. “Which was first?” requires the official history, not a rough memory.
 
 ## Frequently confused pairs
 

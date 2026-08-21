@@ -2,13 +2,15 @@
 
 ## The athlete is a system
 
-```text
-Physical capacity ─┐
-Mental health      ├→ availability → performance → sustainable career
-Fuel/energy        │
-Sleep/travel       │
-Relationships/ethics┘
-```
+An athlete’s availability and long-term performance depend on several areas:
+
+| Area | Why it matters |
+| --- | --- |
+| Physical capacity | Determines what the athlete can do |
+| Mental health | Affects motivation, confidence, concentration and recovery |
+| Fuel and energy | Supports training, healing and normal body functions |
+| Sleep and travel | Affect alertness, adaptation and readiness |
+| Relationships and ethics | Affect safety, trust and sustainable participation |
 
 Use a **biopsychosocial** lens: a performance change may be physical, psychological, social, environmental—or several at once.
 
@@ -24,11 +26,11 @@ Use a **biopsychosocial** lens: a performance change may be physical, psychologi
 
 ## Travel and environmental readiness
 
-```text
-Before → plan time-zone/light/sleep → pack fuel, fluids, medication documents
-During → move, hydrate, protect sleep, manage meals and infection exposure
-After  → anchor local sleep/light → monitor symptoms → reintroduce intensity
-```
+| Travel stage | Main actions |
+| --- | --- |
+| Before departure | Plan time-zone adjustment, sleep, food, fluids, medicines and emergency contacts |
+| During travel | Move regularly, hydrate, protect sleep, manage meals and reduce infection exposure |
+| After arrival | Set a local sleep/light routine, monitor symptoms and reintroduce hard training gradually |
 
 - **Eastward travel** usually requires advancing the body clock; **westward** travel usually requires delaying it. The direction of light exposure matters; do not give blanket “bright light at any time” advice.
 - Shift gradually where possible; use a consistent sleep/wake anchor, morning/evening light strategically, and avoid alcohol or unprescribed sedatives.
@@ -37,10 +39,10 @@ After  → anchor local sleep/light → monitor symptoms → reintroduce intensi
 
 ## Ethics checklist
 
-```text
-Consent → competence → confidentiality → conflicts → clean sport
-        → safeguarding → accurate records → speak up/escalate
-```
+Ethical practice means **obtaining consent, working within competence, keeping
+information confidential, managing conflicts of interest, supporting clean
+sport, safeguarding the athlete, keeping accurate records, and escalating a
+serious concern.**
 
 - Share only necessary health data with the appropriate team member.
 - Explain risks, benefits, alternatives and data use; consent is voluntary and can be withdrawn.

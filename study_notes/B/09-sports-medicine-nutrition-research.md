@@ -2,11 +2,10 @@
 
 ## Clinical–clean-sport rule
 
-```text
-Diagnosis → non-drug options → medicine indication/route/dose → interactions/side effects
-         → World Anti-Doping Agency status / therapeutic-use-exemption check
-         → document → reassess
-```
+For a medicine decision, first diagnose the problem and consider non-drug
+options. Then check the medicine’s indication, route, dose, interactions and
+side effects. Check its anti-doping status and whether a therapeutic use
+exemption is needed. Document the decision and reassess the athlete.
 
 Never assume a medicine is permitted because it is common, prescribed, inhaled, topical or bought without prescription. Check the current **World Anti-Doping Agency (WADA)** List and **National Anti-Doping Agency India (NADA India)** guidance.
 
@@ -33,10 +32,15 @@ Approximate energy values: carbohydrate **4 kcal/g**, protein **4 kcal/g**, fat 
 
 ## Research design ladder
 
-```text
-Systematic review/meta-analysis → randomised controlled trial (RCT) → cohort → case-control
-        → cross-sectional → case series/report → expert opinion
-```
+One useful evidence hierarchy is:
+
+1. Systematic review or meta-analysis.
+2. Randomised controlled trial.
+3. Cohort study.
+4. Case-control study.
+5. Cross-sectional study.
+6. Case series or case report.
+7. Expert opinion.
 
 The hierarchy is a shortcut, not a verdict: question, bias, precision, applicability and study quality matter.
 
@@ -59,10 +63,9 @@ Odds ratio (OR) = odds exposed / odds control
 
 ## Evidence-to-practice question
 
-```text
-Is the finding valid? → is it important? → does it apply to this athlete?
-                      → what are benefits, harms, cost and preferences?
-```
+When applying research, ask: **Is the finding trustworthy? Is the effect
+important? Does it apply to this athlete? What are the benefits, harms, cost
+and athlete preferences?**
 
 ## Easy ways to remember it
 

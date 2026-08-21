@@ -2,12 +2,12 @@
 
 ## The clean-sport chain
 
-```text
-2021 World Anti-Doping Code + 2026 Prohibited List → athlete/support-person responsibility
-       → education + medication check + therapeutic-use-exemption check when indicated
-       → testing/whereabouts/sample integrity
-       → results management + hearing/appeal
-```
+Clean sport has four parts:
+
+1. Know the current Prohibited List and the World Anti-Doping Code.
+2. Check medicines and supplements, and apply for a therapeutic use exemption when the criteria are met.
+3. Follow testing, whereabouts and sample-integrity requirements.
+4. Understand results management, hearings and appeals.
 
 The **2026 World Anti-Doping Agency (WADA) Prohibited List took effect on 1 January 2026**. Always distinguish the current List from the broader Code and from Indian implementation through the **National Anti-Doping Agency India (NADA India)**.
 
@@ -38,14 +38,16 @@ To remember the violations, group them instead of memorising a long letter strin
 
 ## Therapeutic use exemption (TUE): four-part decision test
 
-```text
-Medical condition? → needed to restore normal health? → no reasonable permitted alternative?
-                   → not a performance enhancement beyond normal health?
-```
+For a therapeutic use exemption, ask four questions:
+
+1. Does the athlete have a genuine medical condition?
+2. Is the treatment needed to restore normal health?
+3. Is there no reasonable permitted alternative?
+4. Will the treatment not improve performance beyond normal health?
 
 Emergency/retroactive therapeutic use exemption rules are narrow and documentation-dependent. A TUE is not a general permission slip; verify the current National Anti-Doping Agency India/World Anti-Doping Agency process before treatment.
 
-## Prohibited-list memory
+## Prohibited-list categories
 
 - **S0** non-approved substances.
 - **S1** anabolic agents; **S2** peptide hormones/growth factors; **S3** beta-2 agonists; **S4** hormone/metabolic modulators; **S5** diuretics/masking agents.
@@ -56,7 +58,7 @@ Emergency/retroactive therapeutic use exemption rules are narrow and documentati
 ## Easy ways to remember it
 
 - For any medicine or supplement, do three things: **check the current list, check the route and competition status, and look up the exact product.**
-- Keep a paper trail: **medical reason → source check → exemption decision if needed → record.**
+- Keep a written record of the **medical reason, source check, exemption decision if needed and final treatment decision**.
 - For a question, first decide whether it is about **what was found in a sample, what someone did, possession or association, or the testing process**.
 
 ## Self-test

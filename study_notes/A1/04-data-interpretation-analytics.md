@@ -2,10 +2,16 @@
 
 ## The performance-analyst loop
 
-```text
-Question → baseline → collect consistently → clean → visualise
-        → interpret with uncertainty → communicate → intervene → re-test
-```
+Use this decision cycle:
+
+1. Ask a clear performance question.
+2. Establish a baseline.
+3. Collect comparable data.
+4. Check and clean the data.
+5. Display the pattern.
+6. Interpret it with uncertainty.
+7. Communicate the finding and intervention.
+8. Re-test to see whether the decision helped.
 
 The output is not a dashboard; it is a **defensible decision**.
 
@@ -24,15 +30,14 @@ Use acute:chronic workload ratios cautiously. They are summaries of load history
 
 ## Read a performance profile
 
-```text
-                         ↑ strength
-             limiter?    │      strength
-                         │      /\
-         recovery  ◀─────┼─────/  \─────▶ speed
-                         │    /    \
-                         │   /______\
-                         ↓ availability / health
-```
+For each athlete, record four things in a performance profile:
+
+| Area | Ask |
+| --- | --- |
+| Strengths | What can the athlete already do well? |
+| Limiters | Which important, changeable weakness is restricting performance? |
+| Recovery and health | Is the athlete available and recovering sufficiently? |
+| Speed and sport demands | Which qualities must transfer to the actual sport task? |
 
 For each domain record: **current level, target, confidence in measurement, trend, limiting factor, action and review date**. A low score is not automatically the limiter; a high-impact, modifiable deficit is more actionable.
 
@@ -56,7 +61,8 @@ For each domain record: **current level, target, confidence in measurement, tren
 
 ## Communication template
 
-**Finding → confidence → performance meaning → recommendation → review point.**
+Report every finding in this order: **what changed, how confident you are,
+why it matters to performance, what you recommend, and when you will review it.**
 
 Example: “Repeated-sprint time is 4% slower than the athlete’s reliable baseline across two sessions; sleep and recent high-speed volume are also reduced. Treat this as a recovery flag, modify today’s high-speed exposure, and reassess after recovery.”
 

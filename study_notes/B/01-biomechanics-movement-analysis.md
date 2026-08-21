@@ -46,19 +46,19 @@ Dynamic alignment questions often use **hip–knee–foot**: poor hip control ca
 - **Windlass mechanism:** toe dorsiflexion tensions plantar fascia, raises the medial arch and links foot stiffness to propulsion.
 - **Subtalar pronation/supination:** triplanar motions; avoid reducing them to one plane.
 
-## Gait memory chart
+## Walking sequence
 
-```text
-Stance: initial contact → loading response → mid-stance → terminal stance → pre-swing
-Swing:  initial swing  → mid-swing      → terminal swing
-```
+| Part of walking | Sub-phases in order |
+| --- | --- |
+| Stance | Initial contact, loading response, mid-stance, terminal stance, pre-swing |
+| Swing | Initial swing, mid-swing, terminal swing |
 
 Initial swing produces much of peak knee flexion for foot clearance. Terminal swing prepares limb positioning for the next initial contact. Interpret gait by timing, joint motion, moments, muscle action and task speed together.
 
 ## Sport movement cues
 
 - Jump landing: absorb force through coordinated hip/knee/ankle flexion; trunk position, knee alignment, stiffness and landing strategy interact.
-- Throwing: wind-up → cocking → acceleration → deceleration → follow-through; deceleration is a major load-management issue.
+- Throwing phases are **wind-up, cocking, acceleration, deceleration and follow-through**; deceleration is a major load-management issue.
 - Sprinting: acceleration and maximal velocity differ in trunk angle, ground-contact time, step length/frequency and horizontal force orientation.
 
 ## Easy ways to remember it

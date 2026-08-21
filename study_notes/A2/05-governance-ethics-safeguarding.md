@@ -2,19 +2,13 @@
 
 ## Safe-sport response tree
 
-```text
-Concern disclosed/observed
-          ↓
-Immediate danger? → yes: protect, emergency help, designated escalation
-          ↓ no
-Listen without leading questions; do not promise secrecy
-          ↓
-Record factual observations and preserve evidence
-          ↓
-Report through the organisation’s safeguarding channel
-          ↓
-Support athlete + prevent retaliation + document follow-up
-```
+If you observe or receive a safeguarding concern:
+
+1. If there is immediate danger, protect the athlete and call for emergency help.
+2. Listen calmly without leading the athlete or promising absolute secrecy.
+3. Record factual observations and preserve relevant evidence.
+4. Report through the organisation’s designated safeguarding channel.
+5. Support the athlete, prevent retaliation and document follow-up.
 
 Do not investigate alone, confront the alleged person in a way that increases risk, or circulate details on a team chat.
 
@@ -55,7 +49,7 @@ Under India’s POSH framework, remember: an aggrieved woman can complain about 
 
 - In an athlete-welfare concern, **listen, report through the correct channel, record facts and support the athlete**.
 - In an ethics question, choose the response that protects **consent, autonomy, respect and fair treatment**.
-- For governance, remember the flow: **Charter → Ministry → Sports Authority of India / Indian Olympic Association / National Sports Federation → team policy → athlete.**
+- For governance, think from broad to local: **the Olympic Charter, the Ministry, the national sports organisations, the team policy and finally the athlete.**
 
 ## Self-test
 

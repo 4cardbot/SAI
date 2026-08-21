@@ -2,10 +2,9 @@
 
 ## Programme logic
 
-```text
-Goal → demand analysis → baseline → dose → recover
-     → monitor response → progress/regress → sport-specific exposure
-```
+Build a programme in this order: **set the goal, analyse the sport demand,
+measure a baseline, prescribe the training dose, plan recovery, monitor the
+response, adjust the dose, and expose the athlete to the sport task.**
 
 Set the dose using **frequency, intensity, time and type**. Add volume, density, complexity and velocity when appropriate.
 
@@ -50,11 +49,9 @@ An athlete can be strong but slow. To improve power, preserve force while traini
 
 ## Injury-risk lens
 
-```text
-External load + internal response + tissue capacity + recovery + context
-                                  ↓
-                         risk / readiness decision
-```
+The risk or readiness decision should consider five pieces of information:
+**the work completed, the athlete’s internal response, tissue capacity,
+recovery, and context such as illness, travel or heat.**
 
 Progress load by response and criteria, not calendar alone. Watch spikes, monotonous training, sudden high-speed exposure, illness, low energy availability and poor sleep.
 
@@ -63,7 +60,7 @@ Progress load by response and criteria, not calendar alone. Watch spikes, monoto
 - Carbohydrate: high-intensity training and glycogen restoration.
 - Protein: distribute adequate high-quality protein across the day; increase attention during immobilisation/rehabilitation.
 - Hydration: individualise to sweat rate, climate, duration and sodium losses; avoid both large dehydration and overdrinking.
-- Supplement rule: **food first → evidence → contamination risk → athlete-specific need → third-party testing**. No supplement is automatically safe because it is “natural.” The **World Anti-Doping Agency (WADA)** rules still apply.
+- For supplements, check these in order: **food first, evidence, contamination risk, athlete-specific need and third-party testing**. No supplement is automatically safe because it is “natural.” The **World Anti-Doping Agency (WADA)** rules still apply.
 
 ## Easy ways to remember it
 

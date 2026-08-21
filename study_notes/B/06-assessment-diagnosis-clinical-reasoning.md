@@ -2,13 +2,15 @@
 
 ## Examination sequence
 
-```text
-Subjective → red flags → observation → functional task
-→ palpation → active/passive range of motion → resisted tests/manual muscle testing
-→ neurovascular screen
-→ special tests → outcome measure → working diagnosis/differential
-→ plan → reassess
-```
+Examine the athlete in this order:
+
+1. Take the subjective history and screen for red flags.
+2. Observe the athlete and assess a relevant functional task.
+3. Palpate, measure active and passive range of motion, and test resisted movement.
+4. Perform manual muscle, neurological and circulation checks.
+5. Add special tests and a validated outcome measure.
+6. Form a working diagnosis and differential diagnosis.
+7. Make a plan and reassess the response.
 
 ### Four-part clinical note
 

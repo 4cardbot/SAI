@@ -3,9 +3,12 @@
 ## The one-minute map
 
 ```text
-Athlete → measure the person → explain the physiology → analyse movement
-        → identify the limiting factor → train/recover → protect wellbeing
-
+1. Measure the athlete.
+2. Explain the physiology.
+3. Analyse movement.
+4. Identify the main limiting factor.
+5. Train and recover.
+6. Protect long-term wellbeing.
 ```
 
 The eight foundational disciplines are: **anthropometry, exercise physiology,
@@ -28,12 +31,13 @@ not as isolated subjects.
 
 ## Energy-system picture
 
-```text
-Maximal power  ───────────────────────────────────────→ long duration
-ATP–PCr          glycolytic contribution          oxidative contribution
-fastest ATP      high rate, metabolites           high capacity, slower rate
-short bursts     repeated hard efforts             endurance/recovery support
-```
+| Energy system | Main strength | Typical exam example |
+| --- | --- | --- |
+| Adenosine triphosphate–phosphocreatine | Fastest energy supply, but small capacity | Very short maximal burst |
+| Glycolytic | High energy-supply rate, with metabolite accumulation | A hard effort lasting longer than the first burst |
+| Oxidative | Slower supply rate, but largest capacity | Sustained work and recovery between efforts |
+
+All three systems work at the same time. The question is which one contributes most, not which one is switched on.
 
 **Exam distinction:** “primary” does not mean “exclusive.” A 30-second effort uses all systems, with different relative contributions.
 
@@ -55,7 +59,7 @@ short bursts     repeated hard efforts             endurance/recovery support
 
 ## Easy ways to remember it
 
-- Say the eight disciplines aloud as a chain: **measure → physiology → movement → chemistry → training → mind → food**. The first two names are anthropometry and exercise physiology; the movement subjects are physiotherapy and biomechanics.
+- Say the eight disciplines aloud in this order: **anthropometry, exercise physiology, physiotherapy, biomechanics, biochemistry, strength and conditioning, psychology, nutrition**.
 - In an applied question, ask three plain questions: **What force is involved? Which tissue or body system receives it? What is limiting the athlete?**
 - For food questions, remember the simple rule: **carbohydrate mainly fuels hard work, protein supports repair, and fat supports energy and body functions.**
 

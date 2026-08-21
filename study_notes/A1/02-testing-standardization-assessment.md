@@ -38,11 +38,16 @@ for ruling it in. Predictive values change with prevalence.
 
 ## Standardisation sequence
 
-```text
-Purpose → screen safety → consent → familiarise → calibrate
-        → standardise athlete/environment → administer → record raw data
-        → quality-check → interpret with reference → prescribe/retest
-```
+Use this sequence for a safe, repeatable test:
+
+1. State the purpose of the test.
+2. Screen safety and obtain informed consent.
+3. Familiarise the athlete with the task.
+4. Calibrate the equipment.
+5. Standardise preparation and the testing environment.
+6. Administer the test and record the raw data.
+7. Check data quality and compare it with the correct reference.
+8. Make the training decision and schedule a repeat test.
 
 ### Control before the athlete arrives
 
@@ -55,9 +60,9 @@ Purpose → screen safety → consent → familiarise → calibrate
 
 ### Choose a battery by question, not by habit
 
-```text
-Question → construct → valid test → reliable protocol → useful decision
-```
+Choose a test in five steps: **identify the practical question, decide what
+ability or quality must be measured, choose a valid test, use a reliable
+protocol, and make sure the result can change a decision.**
 
 Example: “Why is repeated sprint output falling?” may require sprint time, recovery heart rate, **rating of perceived exertion (RPE)**, sleep/travel and training-load context—not a single laboratory value.
 

@@ -4,6 +4,13 @@ These notes are deliberately compact: revise the bold terms, redraw the small di
 
 Abbreviations are expanded at first use. The [quick abbreviation glossary](glossary.md) is available when a short form still feels unfamiliar.
 
+## How to read the diagrams
+
+- **`→` means “then” or “leads to.”** It does not always mean that the first item caused the second item.
+- **`+` means “together with.”**
+- **`/` means “or,”** where there are alternatives.
+- In a timeline, read the years in increasing order. Each date is a separate fact unless the note explicitly says that one event caused another.
+
 ## Suggested one-day route
 
 | Block | Notes | What to do |
@@ -20,7 +27,7 @@ Abbreviations are expanded at first use. The [quick abbreviation glossary](gloss
 ## Exam-use reminders
 
 - The official CBT is **100 questions in 120 minutes**, with A1/A2/B/C weighted **32/8/40/20** and negative marking of one-quarter of the question mark for an incorrect answer.
-- In a clinical stem, answer in this order: **danger → diagnosis/working hypothesis → immediate protection → objective reassessment → progression criterion**.
+- In a clinical stem, answer in this order: **first check danger; then form a working diagnosis; protect the athlete; reassess objectively; and progress only when criteria are met.**
 - If two options look plausible, prefer the one that is **criteria-based, athlete-centred, evidence-informed and safe**, not the one that promises a fixed timeline.
 - Recheck current A2 facts against the official source linked in the note. Current snapshot in these notes: **2026-08-21**.
 

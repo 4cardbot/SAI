@@ -2,11 +2,10 @@
 
 ## Acute soft-tissue framework
 
-```text
-Early care: Protect → Elevate → avoid unnecessary anti-inflammatory use
-             → Compress → Educate
-Later care: Load → Optimism → improve blood flow → Exercise
-```
+Early care focuses on **protection, elevation, avoiding unnecessary
+anti-inflammatory use, compression and education**. Later care focuses on
+**progressive loading, a constructive recovery outlook, improving blood flow
+and exercise**.
 
 The key idea is not to immobilise everything or to eliminate all symptoms; protect serious tissue, control unnecessary aggravation, educate, then progressively reload capacity.
 
@@ -24,10 +23,11 @@ The key idea is not to immobilise everything or to eliminate all symptoms; prote
 
 ## Return-to-sport continuum
 
-```text
-Return to participation → return to sport → return to performance
-        modified load          full practice        competition capacity
-```
+| Stage | Meaning |
+| --- | --- |
+| Return to participation | The athlete can take part with a modified load |
+| Return to sport | The athlete can complete full practice demands |
+| Return to performance | The athlete can tolerate competition-level demands |
 
 ### Exit criteria
 

@@ -41,19 +41,21 @@ Standard score (z) = (x − reference mean) / reference SD
 
 ## Choosing a visual
 
-```text
-Time series → line chart       Group comparison → dot/box plot
-Distribution → histogram       Relationship → scatter plot
-Composition → stacked bar       Agreement → Bland–Altman plot
-```
+| If you want to show… | Use… |
+| --- | --- |
+| Change over time | A line chart |
+| Differences between groups | A dot plot or box plot |
+| How values are distributed | A histogram |
+| The relationship between two variables | A scatter plot |
+| Parts that make up a whole | A stacked bar chart |
+| Agreement between two measurement methods | A Bland–Altman plot |
 
 ## Data-quality checklist
 
-```text
-Define variable → check units → inspect missingness/outliers
-→ verify sensor/protocol → pre-specify analysis → analyse
-→ show uncertainty → explain practical decision → protect privacy
-```
+For data quality, follow this checklist: **define the variable, check the
+units, inspect missing values and unusual values, verify the sensor and test
+protocol, decide the analysis before looking for a preferred result, show the
+uncertainty, explain the practical decision, and protect privacy.**
 
 **Do not confuse:** accuracy (closeness to truth), precision (repeatability), validity (construct/criterion meaning), and reliability (consistency).
 

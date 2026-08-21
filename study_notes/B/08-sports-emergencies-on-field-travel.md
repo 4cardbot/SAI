@@ -2,17 +2,17 @@
 
 ## Emergency action plan
 
-```text
-Prevent → plan roles/equipment/venue access → rehearse
-Recognise → stop play and identify danger
-Respond → catastrophic bleeding, airway, breathing, circulation, disability
-          and exposure + emergency activation + appropriate transport
-Reassess → document → debrief and improve the plan
-```
+An emergency action plan should cover five tasks: **prevent problems where
+possible, plan and rehearse roles/equipment/access, recognise danger, respond
+with the primary survey and emergency activation, then document and improve
+the plan afterwards.**
 
 ## Primary survey
 
-The primary survey is often written **<C>ABCDE**: catastrophic haemorrhage, Airway with cervical-spine awareness, Breathing, Circulation, Disability, Exposure/environment. Treat life threats as found; use local emergency protocols and qualified responders.
+The primary survey checks, in order, **catastrophic bleeding, airway with
+cervical-spine awareness, breathing, circulation, disability, and exposure to
+the environment**. Treat life threats as found; use local emergency protocols
+and qualified responders.
 
 - Attach an **automated external defibrillator (AED)** and follow its prompts as soon as it is available for a suspected cardiac arrest; minimise pauses in high-quality **cardiopulmonary resuscitation (CPR)**.
 - Severe bleeding: direct pressure/tourniquet according to training and site protocol.
@@ -20,12 +20,12 @@ The primary survey is often written **<C>ABCDE**: catastrophic haemorrhage, Airw
 
 ## Concussion / Sport Concussion Assessment Tool 6 (SCAT6)
 
-```text
-Red flag? → emergency medical assessment/transport
-No red flag → remove from play, multimodal assessment, no same-day return
-             → symptom-limited graduated return-to-learn/sport
-             → medical clearance and staged sport exposure
-```
+For a suspected concussion:
+
+1. If a red flag is present, arrange emergency medical assessment or transport.
+2. If no red flag is present, remove the athlete from play and assess using more than one type of information.
+3. Do not allow same-day return to play.
+4. Use a symptom-limited, gradual return-to-learn and return-to-sport pathway after appropriate medical assessment.
 
 Red flags include deteriorating consciousness, repeated vomiting, seizure, severe/worsening headache, neck pain/tenderness, double vision, focal weakness/tingling, unusual behaviour or increasing confusion. The Sport Concussion Assessment Tool 6 supports acute assessment; it is not a stand-alone diagnosis and normal findings do not erase clinical concern.
 
