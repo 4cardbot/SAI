@@ -20,7 +20,7 @@ Abbreviations are expanded at first use. The [quick abbreviation glossary](gloss
 | 3 | [A1 performance/recovery](A1/05-performance-recovery.md), [holistic/travel/ethics](A1/06-holistic-travel-ethics.md) | Convert each checklist into a scenario answer |
 | 4 | [A2 Olympics/Asian Games](A2/01-olympic-asian-games.md), [Indian ecosystem](A2/02-indian-sports-ecosystem.md) | Recall the institution–scheme map |
 | 5 | [A2 anti-doping](A2/03-anti-doping-clean-sport.md), [championships](A2/04-international-championships.md), [governance](A2/05-governance-ethics-safeguarding.md) | Use the “do not confuse” boxes |
-| 6 | B notes 1–3 | Draw biomechanics, anatomy and energy-system charts |
+| 6 | B notes 1–3 plus [reproductive physiology](B/03-reproductive-physiology.md) | Draw biomechanics, anatomy and energy-system charts; revise the reproductive-hormone pathway |
 | 7 | B notes 4–6 | Recall modality parameters, tests and reasoning sequence |
 | 8 | B notes 7–9 | Practise emergency/RTP/research decision trees |
 

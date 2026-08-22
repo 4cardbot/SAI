@@ -25,6 +25,7 @@ const orderedFiles = [
   "B/01-biomechanics-movement-analysis.md",
   "B/02-anatomy-kinesiology.md",
   "B/03-physiology-exercise-physiology.md",
+  "B/03-reproductive-physiology.md",
   "B/04-electrotherapy-electrodiagnosis.md",
   "B/05-exercise-therapy-rehabilitation.md",
   "B/06-assessment-diagnosis-clinical-reasoning.md",
