@@ -238,13 +238,31 @@ def make_packet_image(item):
     W, H = 1654, 2339
     page = Image.new("RGBA", (W, H), "white")
     draw = ImageDraw.Draw(page)
-    title = font(BOLD, 31)
+    title = font(BOLD, 28)
     source_font = font(FONT, 22)
-    draw.text((42, 24), f"Q{item['q']}  |  Correct option: {item['correct'].split(' - ', 1)[0]}", font=title, fill=(19, 61, 115))
+    correct_text = item["correct"].split(" - ", 1)[-1]
+    title_bottom = wrap_draw(
+        draw,
+        f"Q{item['q']}  |  Correct option: {correct_text}",
+        (42, 24),
+        W - 84,
+        title,
+        fill=(19, 61, 115),
+        spacing=4,
+    )
     source_text = f"Source: {item['source']} — {item['locator']}"
-    wrap_draw(draw, source_text, (42, 67), W - 84, source_font, fill=(45, 45, 45), spacing=3)
-    draw.line((42, 126, W - 42, 126), fill=(150, 150, 150), width=2)
-    paste_centered(page, evidence, (32, 145, W - 32, H - 28))
+    source_bottom = wrap_draw(
+        draw,
+        source_text,
+        (42, title_bottom + 2),
+        W - 84,
+        source_font,
+        fill=(45, 45, 45),
+        spacing=3,
+    )
+    line_y = source_bottom + 7
+    draw.line((42, line_y, W - 42, line_y), fill=(150, 150, 150), width=2)
+    paste_centered(page, evidence, (32, line_y + 18, W - 32, H - 28))
     output = RENDER / f"packet-{item['q']}.png"
     page.convert("RGB").save(output, quality=95)
     return output
