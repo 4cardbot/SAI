@@ -181,7 +181,7 @@ def make_q11_composite():
         RENDER / "q11.png",
         [(45, 325, 1400, 410)],
         "marked-q11-sai.png",
-    ).crop((0, 0, 1440, 410))
+    ).crop((0, 0, 1440, 380))
 
     W, H = 1654, 1320
     composite = Image.new("RGBA", (W, H), "white")
@@ -203,7 +203,7 @@ def make_q37_composite():
         [(2840, 75, 3280, 285), (2460, 390, 2885, 455)],
         "marked-q37.png",
     )
-    epo = marked.crop((2850, 25, 3250, 295))
+    epo = marked.crop((2875, 25, 3245, 295))
     context = marked.crop((2525, 345, 2885, 490))
 
     W, H = 1654, 1500
@@ -250,7 +250,18 @@ def make_packet_image(item):
     return output
 
 
+def save_compressed_pdf(item, page_path):
+    """Write an A4-sized, single-page JPEG-backed PDF within upload limits."""
+    page = Image.open(page_path).convert("RGB")
+    page.thumbnail((1240, 1754), Image.Resampling.LANCZOS)
+    output = OUT / f"objection-Q{item['q']}-{item['code']}.pdf"
+    page.save(output, "PDF", resolution=150.0, quality=70, optimize=True)
+    return output
+
+
 if __name__ == "__main__":
+    pdfs = []
     for item in ITEMS:
-        make_packet_image(item)
-    print(f"Prepared {len(ITEMS)} one-page objection packet images")
+        packet = make_packet_image(item)
+        pdfs.append(save_compressed_pdf(item, packet))
+    print(f"Prepared {len(pdfs)} one-page compressed objection PDFs")
