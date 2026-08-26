@@ -25,38 +25,38 @@ The response sheet marks the selected option as wrong for all 11 listed items. T
 
 Each description is under 150 characters, excluding the question number label.
 
-**Q4 — 142 characters**
-AIS Athlete Profiling, p.1: testing covers multiple performance factors and identifies strengths/weaknesses; this supports D. Revise key to D.
+**Q4 — 147 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Comparing test results across parameters’. AIS p.1.
 
-**Q11 — 115 characters**
-NCBI PDF p.67 names Sheldon et al.; SAI NSNIS PDF p.20 shows thin arms/legs and little muscle/fat. This supports B.
+**Q11 — 134 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Ectomorph’. NCBI p.67; SAI NSNIS p.20.
 
-**Q16 — 134 characters**
-PubMed PMID 23247672 abstract: OTS involves maladaptation, performance decline and mood disturbance. This supports C. Revise key to C.
+**Q16 — 138 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Prolonged maladaptation’. PubMed 23247672.
 
-**Q19 — 136 characters**
-University of Pretoria PDF p.18 (printed p.35), Yerkes-Dodson paragraph: moderate arousal optimizes performance. This supports C, not B.
+**Q19 — 112 characters**
+University of Pretoria PDF p.18 (printed p.35), Yerkes-Dodson: correct answer is ‘At a moderate, optimal level’.
 
-**Q23 — 133 characters**
-Hureau et al., J Physiol PDF p.23, Key Points: H+ and Pi relate to fatigue; Pi causes peripheral fatigue. Option A is correct, not B.
+**Q23 — 113 characters**
+Hureau et al., J Physiol PDF p.23: ‘Hydrogen ions (H+) and inorganic phosphate’ are linked to peripheral fatigue.
 
-**Q33 — 120 characters**
-Olympic Charter PDF p.16, Rule 1: IOC has supreme authority and leadership of the Olympic Movement. Option C is correct.
+**Q33 — 141 characters**
+Candidate and Challenge sheets show different option orders. Correct answer: ‘International Olympic Committee’. Olympic Charter p.16, Rule 1.
 
-**Q34 — 115 characters**
-Commonwealth Sport Birmingham 2022 page 1 identifies Birmingham 2022 and its host city. Option C is correct, not D.
+**Q34 — 145 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Birmingham’. Commonwealth Sport, Birmingham 2022.
 
-**Q37 — 102 characters**
-WADA 2026 List p.1, S2.1: EPO is under substances prohibited at all times. Option B is correct, not D.
+**Q37 — 144 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Erythropoietin (EPO)’. WADA 2026 List p.1, S2.1.
 
-**Q38 — 108 characters**
-PIB Release 1518310, para 2: Khelo India revives sports culture at grass-root level. This supports D, not A.
+**Q38 — 148 characters**
+Answer order differs between the Candidate Response Sheet and Challenge Items: ‘Revival of sports culture at grassroots level’. PIB 1518310, para 2.
 
-**Q39 — 124 characters**
-Rajya Sabha record p.391, point (iii): NSF President, Secretary and Treasurer cease office at 70 years. Option A is correct.
+**Q39 — 138 characters**
+Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘70 years’. Rajya Sabha p.391, point (iii).
 
-**Q40 — 131 characters**
-IOC Olympic Symbol page 3: five rings represent five parts of the world and athletes from all five continents. Option B is correct.
+**Q40 — 130 characters**
+IOC Olympic Symbol p.3: correct answer is ‘5 rings—five continents united by the Olympic Movement’; the option order is unchanged.
 
 ## Source links
 

@@ -14,7 +14,7 @@ ITEMS = [
          source="Australian Sports Commission / Australian Institute of Sport, Individual athlete profiling",
          url="https://www.ausport.gov.au/ais/performance-support/people-development/success-profiles/resources/physiology/strong-sport-specific-knowledge/individual-athlete-profiling-athlete-testing-and-monitoring-methodologies-and-interpretation",
          why="The source says athlete profiling identifies strengths and weaknesses and that testing should cover multiple critical performance factors.",
-         complaint="AIS Athlete Profiling, p.1: testing covers multiple performance factors and identifies strengths/weaknesses; this supports D. Revise key to D.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Comparing test results across parameters’. AIS p.1.",
          question="Athlete 'performance profiling' primarily involves:",
          highlights=[(55, 674, 1160, 810)]),
     dict(q="11", code="BK1001", source_image="q11.png", selected="B", key="D",
@@ -23,7 +23,7 @@ ITEMS = [
          source="NCBI/National Academies; SAI NSNIS",
          url="https://www.ncbi.nlm.nih.gov/books/NBK235955/pdf/Bookshelf_NBK235955.pdf; https://nis-ir.tiss.co.in/nis/bitstream/123456789/107/12/11Somatotype%20different%20components%2C%20importance%20and%20scope%20in%20sports%20_%20Method%20of%20Body%20Composition%20%281%29.pdf",
          why="The NCBI source identifies Sheldon et al.'s three somatotype extremes, including ectomorph; the SAI chart shows very little muscle or body fat for the ectomorph.",
-         complaint="NCBI PDF p.67 names Sheldon et al.; SAI NSNIS PDF p.20 shows thin arms/legs and little muscle/fat. This supports B.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Ectomorph’. NCBI p.67; SAI NSNIS p.20.",
          question="Which somatotype, as classified by Sheldon, is characterized by a lean, linear body build with low fat and muscle mass?",
          highlights=[(45, 325, 1400, 405), (45, 405, 1400, 620)],
          composite="q11"),
@@ -33,7 +33,7 @@ ITEMS = [
          source="Meeusen et al., ECSS/ACSM consensus statement on overtraining syndrome",
          url="https://pubmed.ncbi.nlm.nih.gov/23247672/",
          why="The abstract identifies maladaptation and says overtraining symptoms include fatigue, performance decline and mood disturbance.",
-         complaint="PubMed PMID 23247672 abstract: OTS involves maladaptation, performance decline and mood disturbance. This supports C. Revise key to C.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Prolonged maladaptation’. PubMed 23247672.",
          question="Overtraining syndrome in athletes is best characterized by:",
          highlights=[(45, 690, 1180, 785), (45, 825, 1180, 955)]),
     dict(q="19", code="BK1014", source_image="q19.png", selected="C", key="B",
@@ -42,7 +42,7 @@ ITEMS = [
          source="University of Pretoria sport psychology research PDF",
          url="https://repository.up.ac.za/server/api/core/bitstreams/a6c9f786-d63e-4264-a1af-fd1c3c81a388/content",
          why="The source states that moderate arousal has the greatest positive effect on performance, while low or high arousal hinders ability.",
-         complaint="University of Pretoria PDF p.18 (printed p.35), Yerkes-Dodson paragraph: moderate arousal optimizes performance. This supports C, not B.",
+         complaint="University of Pretoria PDF p.18 (printed p.35), Yerkes-Dodson: correct answer is ‘At a moderate, optimal level’.",
          question="The Inverted-U hypothesis in sports psychology suggests that performance is optimal when arousal is:",
          highlights=[(195, 130, 1130, 330)]),
     dict(q="23", code="BK1004", source_image="q23.png", selected="A", key="B",
@@ -51,7 +51,7 @@ ITEMS = [
          source="Hureau et al., Journal of Physiology, On the role of skeletal muscle acidosis and inorganic phosphates",
          url="https://pmc.ncbi.nlm.nih.gov/articles/PMC9250628/",
          why="The article measures H+ and Pi and reports Pi as a primary cause of peripheral fatigue; therefore A is the best listed option.",
-         complaint="Hureau et al., J Physiol PDF p.23, Key Points: H+ and Pi relate to fatigue; Pi causes peripheral fatigue. Option A is correct, not B.",
+         complaint="Hureau et al., J Physiol PDF p.23: ‘Hydrogen ions (H+) and inorganic phosphate’ are linked to peripheral fatigue.",
          question="Peripheral muscle fatigue during high-intensity exercise is most closely associated with accumulation of:",
          highlights=[(105, 190, 1160, 335), (105, 575, 1160, 740)]),
     dict(q="33", code="BK1033", source_image="q33.png", selected="C", key="B",
@@ -60,7 +60,7 @@ ITEMS = [
          source="Olympic Charter, Chapter 1 - The Olympic Movement",
          url="https://olympians.org/library/olympic_charter.pdf",
          why="Rule 1 states that the Olympic Movement is under the supreme authority and leadership of the International Olympic Committee.",
-         complaint="Olympic Charter PDF p.16, Rule 1: IOC has supreme authority and leadership of the Olympic Movement. Option C is correct.",
+         complaint="Candidate and Challenge sheets show different option orders. Correct answer: ‘International Olympic Committee’. Olympic Charter p.16, Rule 1.",
          question="Which body is the supreme authority of the Olympic Movement globally?",
          highlights=[(105, 505, 850, 665)]),
     dict(q="34", code="BK1036", source_image="q34.png", selected="C", key="D",
@@ -69,7 +69,7 @@ ITEMS = [
          source="Commonwealth Sport, Birmingham 2022 Commonwealth Games",
          url="https://www.commonwealthsport.com/commonwealth-games/birmingham-2022",
          why="The official event page identifies the Games as Birmingham 2022 and lists the host as England, with Birmingham as the event city.",
-         complaint="Commonwealth Sport Birmingham 2022 page 1 identifies Birmingham 2022 and its host city. Option C is correct, not D.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Birmingham’. Commonwealth Sport, Birmingham 2022.",
          question="The XXII Commonwealth Games 2022 were hosted by which city?",
          highlights=[(65, 145, 1140, 390), (65, 390, 1140, 550)]),
     dict(q="37", code="BK1035", source_image="q37.png", selected="B", key="D",
@@ -78,7 +78,7 @@ ITEMS = [
          source="JADCO 2026 Prohibited List, reproducing the WADA 2026 list",
          url="https://jadco.gov.jm/wp-content/uploads/2026/01/JADCO-Prohibited-List-2026.pdf",
          why="The 2026 List places erythropoietins, including EPO, in S2, a class prohibited at all times in and out of competition.",
-         complaint="WADA 2026 List p.1, S2.1: EPO is under substances prohibited at all times. Option B is correct, not D.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘Erythropoietin (EPO)’. WADA 2026 List p.1, S2.1.",
          question="Which of the following is prohibited at ALL TIMES (both in-competition and out-of-competition) under the WADA Prohibited List?",
          highlights=[(2840, 75, 3280, 285)],
          composite="q37"),
@@ -88,7 +88,7 @@ ITEMS = [
          source="Press Information Bureau, Government of India, Khelo India School Games release",
          url="https://www.pib.gov.in/PressReleasePage.aspx?PRID=1518310&lang=2&reg=48",
          why="The official PIB release states that Khelo India was introduced to revive sports culture at the grass-root level, exactly matching option D.",
-         complaint="PIB Release 1518310, para 2: Khelo India revives sports culture at grass-root level. This supports D, not A.",
+         complaint="Answer order differs between the Candidate Response Sheet and Challenge Items: ‘Revival of sports culture at grassroots level’. PIB 1518310, para 2.",
          question="The Khelo India Programme was launched with which primary objective?",
          highlights=[(65, 355, 1160, 460)]),
     dict(q="39", code="BK1037", source_image="q39.png", selected="A", key="C",
@@ -97,7 +97,7 @@ ITEMS = [
          source="Rajya Sabha official record quoting the National Sports Development Code of India, 2011",
          url="https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/233/F10.12.2014.pdf",
          why="Point (iii) states that the President, Secretary and Treasurer of a recognized NSF cease office on attaining 70 years.",
-         complaint="Rajya Sabha record p.391, point (iii): NSF President, Secretary and Treasurer cease office at 70 years. Option A is correct.",
+         complaint="Option order differs between the Candidate Response Sheet and Challenge Items. Correct answer: ‘70 years’. Rajya Sabha p.391, point (iii).",
          question="The National Sports Development Code of India, 2011 mandates that office-bearers of National Sports Federations must not exceed which age limit?",
          highlights=[(70, 300, 800, 570)]),
     dict(q="40", code="BK1039", source_image="q40.png", selected="B", key="A",
@@ -106,7 +106,7 @@ ITEMS = [
          source="International Olympic Committee Olympic Brand Centre, Olympic Symbol",
          url="https://brand-centre.olympic.org/olympic_symbol",
          why="The IOC page says the five rings represent the five parts of the world and notes athletes came from all five continents.",
-         complaint="IOC Olympic Symbol page 3: five rings represent five parts of the world and athletes from all five continents. Option B is correct.",
+         complaint="IOC Olympic Symbol p.3: correct answer is ‘5 rings—five continents united by the Olympic Movement’; the option order is unchanged.",
          question="How many interlocking rings does the Olympic flag feature, and what do they collectively represent?",
          highlights=[(110, 125, 1130, 285), (95, 1320, 1130, 1480)]),
 ]
@@ -275,6 +275,11 @@ def save_compressed_pdf(item, page_path):
     output = OUT / f"objection-Q{item['q']}-{item['code']}.pdf"
     page.save(output, "PDF", resolution=150.0, quality=70, optimize=True)
     return output
+
+
+for item in ITEMS:
+    if len(item["complaint"]) >= 150:
+        raise ValueError(f"Q{item['q']} complaint must be under 150 characters; got {len(item['complaint'])}")
 
 
 if __name__ == "__main__":
